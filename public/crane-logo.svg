@@ -1,0 +1,15 @@
+<svg width="689" height="500" viewBox="0 0 689 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Crane">
+  <title>Crane</title>
+  <polygon fill="#e11d48" points="359,2 446.303,306 687,100.863 487,450 423,498 359,450 295,498 231,450 104,227 39.8623,295.323 31.3027,100.863 272,306"/>
+  <g stroke="#450a0a" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel" fill="none">
+    <path d="M359 450L423 498"/><path d="M359 450L423 226"/>
+    <path d="M487 450L423 498"/><path d="M487 450L423 226"/>
+    <path d="M231 450L295 498"/><path d="M231 450L295 226"/>
+    <path d="M359 450L295 498"/><path d="M359 450L295 226"/>
+    <path d="M231 450L359 2"/><path d="M487 450L359 2"/>
+    <path d="M359 2V450"/>
+    <path d="M231 450L31.3027 100.863"/><path d="M31.3027 100.863L272 306"/>
+    <path d="M487.303 450L687 100.863"/><path d="M687 100.863L446.303 306"/>
+    <path d="M31.3027 100.863L39.8623 295.323"/><path d="M39.0656 295.561L104 227"/>
+  </g>
+</svg>

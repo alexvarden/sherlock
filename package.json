@@ -1,0 +1,50 @@
+{
+  "name": "sherlock",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "ingest": "tsx --env-file=.env scripts/ingest.ts",
+    "split": "SPLIT_ONLY=true tsx scripts/ingest.ts",
+    "split:para": "SPLIT_ONLY=true GRANULARITY=paragraph tsx scripts/ingest.ts",
+    "split:chapter": "SPLIT_ONLY=true GRANULARITY=chapter tsx scripts/ingest.ts",
+    "split:story": "SPLIT_ONLY=true GRANULARITY=story tsx scripts/ingest.ts",
+    "split:sherlock": "SPLIT_ONLY=true tsx scripts/ingest.ts sherlock",
+    "download:sources": "tsx scripts/download-sources.ts",
+    "ingest:pilot": "tsx --env-file=.env scripts/ingest-pilot.ts",
+    "ingest:canon": "tsx --env-file=.env scripts/ingest-canon.ts",
+    "reconcile": "tsx scripts/reconcile-entities.ts",
+    "aggregate": "tsx scripts/aggregate-canon.ts",
+    "clear:neo4j": "tsx --env-file=.env scripts/clear-neo4j.ts",
+    "migrate": "tsx --env-file=.env scripts/migrate-to-neo4j.ts"
+  },
+  "dependencies": {
+    "@copilotkit/react-core": "^1.57.1",
+    "@copilotkit/runtime": "^1.57.1",
+    "@langchain/anthropic": "^1.3.27",
+    "@langchain/core": "^1.1.41",
+    "@langchain/openai": "^1.4.4",
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "langchain": "^1.3.4",
+    "neo4j-driver": "^5.28.1",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

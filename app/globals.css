@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Crane crimson accent ── */
+  --color-crimson-50:  #fff1f2;
+  --color-crimson-100: #ffe4e6;
+  --color-crimson-200: #fecdd3;
+  --color-crimson-300: #fda4af;
+  --color-crimson-400: #fb7185;
+  --color-crimson-450: #f43f5e;
+  --color-crimson-500: #e11d48;
+  --color-crimson-550: #be123c;
+  --color-crimson-600: #9f1239;
+  --color-crimson-700: #881337;
+  --color-crimson-800: #881337;
+  --color-crimson-900: #4c0519;
+  --color-crimson-950: #450a0a;
+
+  /* ── Crane dark backgrounds (warm grays) ── */
+  --color-dark-950: #0a0909;
+  --color-dark-900: #161414;
+  --color-dark-850: #1c1a1a;
+  --color-dark-800: #262323;
+  --color-dark-750: #302c2c;
+  --color-dark-700: #3d3838;
+  --color-dark-650: #433f3f;
+  --color-dark-600: #5c5252;
+  --color-dark-550: #6b6565;
+  --color-dark-500: #7a6e6e;
+  --color-dark-450: #8b8383;
+  --color-dark-400: #a19a9a;
+  --color-dark-350: #b5a9a9;
+  --color-dark-300: #c6b3b3;
+  --color-dark-250: #d7c9c9;
+  --color-dark-200: #e5d5d5;
+  --color-dark-150: #f3e3e3;
+  --color-dark-100: #fdebeb;
+  --color-dark-50:  #fff7f7;
+
+  /* ── Status colours (functional, not decorative) ── */
+  --color-status-success: #10b981;  /* emerald-500 */
+  --color-status-warning: #f59e0b;  /* amber-500 */
+  --color-status-error:   #e11d48;  /* crimson-500 — error aliases the brand accent */
+
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Film grain overlay (Crane signature effect) */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.025;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+:focus-visible {
+  outline: 2px solid #e11d48;
+  outline-offset: 2px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  body::after {
+    display: none;
+  }
+}
