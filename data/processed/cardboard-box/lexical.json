@@ -1,0 +1,3661 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "cardboard-box-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 651
+    },
+    {
+      "id": "cardboard-box-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 620
+    },
+    {
+      "id": "cardboard-box-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 663
+    },
+    {
+      "id": "cardboard-box-section_4",
+      "index": 3,
+      "title": "Section 4",
+      "wordCount": 603
+    },
+    {
+      "id": "cardboard-box-section_5",
+      "index": 4,
+      "title": "Section 5",
+      "wordCount": 607
+    },
+    {
+      "id": "cardboard-box-section_6",
+      "index": 5,
+      "title": "Section 6",
+      "wordCount": 621
+    },
+    {
+      "id": "cardboard-box-section_7",
+      "index": 6,
+      "title": "Section 7",
+      "wordCount": 602
+    },
+    {
+      "id": "cardboard-box-section_8",
+      "index": 7,
+      "title": "Section 8",
+      "wordCount": 659
+    },
+    {
+      "id": "cardboard-box-section_9",
+      "index": 8,
+      "title": "Section 9",
+      "wordCount": 732
+    },
+    {
+      "id": "cardboard-box-section_10",
+      "index": 9,
+      "title": "Section 10",
+      "wordCount": 666
+    },
+    {
+      "id": "cardboard-box-section_11",
+      "index": 10,
+      "title": "Section 11",
+      "wordCount": 815
+    },
+    {
+      "id": "cardboard-box-section_12",
+      "index": 11,
+      "title": "Section 12",
+      "wordCount": 709
+    },
+    {
+      "id": "cardboard-box-section_13",
+      "index": 12,
+      "title": "Section 13",
+      "wordCount": 671
+    },
+    {
+      "id": "cardboard-box-section_14",
+      "index": 13,
+      "title": "Section 14",
+      "wordCount": 68
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "cardboard-box-section_1",
+      "position": 0,
+      "text": "II.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "cardboard-box-section_1",
+      "position": 1,
+      "text": "The Adventure of the Cardboard Box",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "cardboard-box-section_1",
+      "position": 2,
+      "text": "In choosing a few typical cases which illustrate the remarkable mental qualities of my friend, Sherlock Holmes, I have endeavoured, as far as possible, to select those which presented the minimum of sensationalism, while offering a fair field for his talents.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "cardboard-box-section_1",
+      "position": 3,
+      "text": "It is, however, unfortunately impossible entirely to separate the sensational from the criminal, and a chronicler is left in the dilemma that he must either sacrifice details which are essential to his statement and so give a false impression of the problem, or he must use matter which chance, and not choice, has provided him with.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "cardboard-box-section_1",
+      "position": 4,
+      "text": "With this short preface I shall turn to my notes of what proved to be a strange, though a peculiarly terrible, chain of events.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "cardboard-box-section_1",
+      "position": 5,
+      "text": "It was a blazing hot day in August.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "cardboard-box-section_1",
+      "position": 6,
+      "text": "Baker Street was like an oven, and the glare of the sunlight upon the yellow brickwork of the house across the road was painful to the eye.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "cardboard-box-section_1",
+      "position": 7,
+      "text": "It was hard to believe that these were the same walls which loomed so gloomily through the fogs of winter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "cardboard-box-section_1",
+      "position": 8,
+      "text": "Our blinds were half-drawn, and Holmes lay curled upon the sofa, reading and re-reading a letter which he had received by the morning post.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "cardboard-box-section_1",
+      "position": 9,
+      "text": "For myself, my term of service in India had trained me to stand heat better than cold, and a thermometer at ninety was no hardship.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "cardboard-box-section_1",
+      "position": 10,
+      "text": "But the morning paper was uninteresting.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "cardboard-box-section_1",
+      "position": 11,
+      "text": "Parliament had risen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "cardboard-box-section_1",
+      "position": 12,
+      "text": "Everybody was out of town, and I yearned for the glades of the New Forest or the shingle of Southsea.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "cardboard-box-section_1",
+      "position": 13,
+      "text": "A depleted bank account had caused me to postpone my holiday, and as to my companion, neither the country nor the sea presented the slightest attraction to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "cardboard-box-section_1",
+      "position": 14,
+      "text": "He loved to lie in the very centre of five millions of people, with his filaments stretching out and running through them, responsive to every little rumour or suspicion of unsolved crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "cardboard-box-section_1",
+      "position": 15,
+      "text": "Appreciation of nature found no place among his many gifts, and his only change was when he turned his mind from the evil-doer of the town to track down his brother of the country.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "cardboard-box-section_1",
+      "position": 16,
+      "text": "Finding that Holmes was too absorbed for conversation I had tossed aside the barren paper, and leaning back in my chair I fell into a brown study.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "cardboard-box-section_1",
+      "position": 17,
+      "text": "Suddenly my companion's voice broke in upon my thoughts:",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "cardboard-box-section_1",
+      "position": 18,
+      "text": "\"You are right, Watson,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "cardboard-box-section_1",
+      "position": 19,
+      "text": "\"It does seem a most preposterous way of settling a dispute.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "cardboard-box-section_1",
+      "position": 20,
+      "text": "\"Most preposterous!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "cardboard-box-section_1",
+      "position": 21,
+      "text": "I exclaimed, and then suddenly realizing how he had echoed the inmost thought of my soul, I sat up in my chair and stared at him in blank amazement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "cardboard-box-section_1",
+      "position": 22,
+      "text": "\"What is this, Holmes?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "cardboard-box-section_1",
+      "position": 23,
+      "text": "I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "cardboard-box-section_1",
+      "position": 24,
+      "text": "\"This is beyond anything which I could have imagined.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "cardboard-box-section_1",
+      "position": 25,
+      "text": "He laughed heartily at my perplexity.",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "cardboard-box-section_1",
+      "position": 26,
+      "text": "\"You remember,\" he said, \"that some little time ago when I read you the passage in one of Poe's sketches in which a close reasoner follows the unspoken thoughts of his companion, you were inclined to treat the matter as a mere _tour-de-force_ of the author.",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "cardboard-box-section_1",
+      "position": 27,
+      "text": "On my remarking that I was constantly in the habit of doing the same thing you expressed incredulity.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "cardboard-box-section_1",
+      "position": 28,
+      "text": "\"Oh, no!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "cardboard-box-section_1",
+      "position": 29,
+      "text": "\"Perhaps not with your tongue, my dear Watson, but certainly with your eyebrows.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "cardboard-box-section_1",
+      "position": 30,
+      "text": "So when I saw you throw down your paper and enter upon a train of thought, I was very happy to have the opportunity of reading it off, and eventually of breaking into it, as a proof that I had been in rapport with you.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "cardboard-box-section_1",
+      "position": 31,
+      "text": "But I was still far from satisfied.",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "cardboard-box-section_1",
+      "position": 32,
+      "text": "\"In the example which you read to me,\" said I, \"the reasoner drew his conclusions from the actions of the man whom he observed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "cardboard-box-section_1",
+      "position": 33,
+      "text": "If I remember right, he stumbled over a heap of stones, looked up at the stars, and so on.",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "cardboard-box-section_1",
+      "position": 34,
+      "text": "But I have been seated quietly in my chair, and what clues can I have given you?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "cardboard-box-section_2",
+      "position": 35,
+      "text": "\"You do yourself an injustice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "cardboard-box-section_2",
+      "position": 36,
+      "text": "The features are given to man as the means by which he shall express his emotions, and yours are faithful servants.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "cardboard-box-section_2",
+      "position": 37,
+      "text": "\"Do you mean to say that you read my train of thoughts from my features?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "cardboard-box-section_2",
+      "position": 38,
+      "text": "\"Your features and especially your eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "cardboard-box-section_2",
+      "position": 39,
+      "text": "Perhaps you cannot yourself recall how your reverie commenced?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "cardboard-box-section_2",
+      "position": 40,
+      "text": "\"No, I cannot.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "cardboard-box-section_2",
+      "position": 41,
+      "text": "\"Then I will tell you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "cardboard-box-section_2",
+      "position": 42,
+      "text": "After throwing down your paper, which was the action which drew my attention to you, you sat for half a minute with a vacant expression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "cardboard-box-section_2",
+      "position": 43,
+      "text": "Then your eyes fixed themselves upon your newly framed picture of General Gordon, and I saw by the alteration in your face that a train of thought had been started.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "cardboard-box-section_2",
+      "position": 44,
+      "text": "But it did not lead very far.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "cardboard-box-section_2",
+      "position": 45,
+      "text": "Your eyes flashed across to the unframed portrait of Henry Ward Beecher which stands upon the top of your books.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "cardboard-box-section_2",
+      "position": 46,
+      "text": "Then you glanced up at the wall, and of course your meaning was obvious.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "cardboard-box-section_2",
+      "position": 47,
+      "text": "You were thinking that if the portrait were framed it would just cover that bare space and correspond with Gordon's picture over there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "cardboard-box-section_2",
+      "position": 48,
+      "text": "\"You have followed me wonderfully!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "cardboard-box-section_2",
+      "position": 49,
+      "text": "I exclaimed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "cardboard-box-section_2",
+      "position": 50,
+      "text": "\"So far I could hardly have gone astray.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "cardboard-box-section_2",
+      "position": 51,
+      "text": "But now your thoughts went back to Beecher, and you looked hard across as if you were studying the character in his features.",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "cardboard-box-section_2",
+      "position": 52,
+      "text": "Then your eyes ceased to pucker, but you continued to look across, and your face was thoughtful.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "cardboard-box-section_2",
+      "position": 53,
+      "text": "You were recalling the incidents of Beecher's career.",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "cardboard-box-section_2",
+      "position": 54,
+      "text": "I was well aware that you could not do this without thinking of the mission which he undertook on behalf of the North at the time of the Civil War, for I remember your expressing your passionate indignation at the way in which he was received by the more turbulent of our people.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "cardboard-box-section_2",
+      "position": 55,
+      "text": "You felt so strongly about it that I knew you could not think of Beecher without thinking of that also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "cardboard-box-section_2",
+      "position": 56,
+      "text": "When a moment later I saw your eyes wander away from the picture, I suspected that your mind had now turned to the Civil War, and when I observed that your lips set, your eyes sparkled, and your hands clenched I was positive that you were indeed thinking of the gallantry which was shown by both sides in that desperate struggle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "cardboard-box-section_2",
+      "position": 57,
+      "text": "But then, again, your face grew sadder; you shook your head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "cardboard-box-section_2",
+      "position": 58,
+      "text": "You were dwelling upon the sadness and horror and useless waste of life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "cardboard-box-section_2",
+      "position": 59,
+      "text": "Your hand stole towards your own old wound and a smile quivered on your lips, which showed me that the ridiculous side of this method of settling international questions had forced itself upon your mind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "cardboard-box-section_2",
+      "position": 60,
+      "text": "At this point I agreed with you that it was preposterous and was glad to find that all my deductions had been correct.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "cardboard-box-section_2",
+      "position": 61,
+      "text": "\"Absolutely!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "cardboard-box-section_2",
+      "position": 62,
+      "text": "said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "cardboard-box-section_2",
+      "position": 63,
+      "text": "\"And now that you have explained it, I confess that I am as amazed as before.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "cardboard-box-section_2",
+      "position": 64,
+      "text": "\"It was very superficial, my dear Watson, I assure you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "cardboard-box-section_2",
+      "position": 65,
+      "text": "I should not have intruded it upon your attention had you not shown some incredulity the other day.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "cardboard-box-section_2",
+      "position": 66,
+      "text": "But I have in my hands here a little problem which may prove to be more difficult of solution than my small essay in thought reading.",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "cardboard-box-section_2",
+      "position": 67,
+      "text": "Have you observed in the paper a short paragraph referring to the remarkable contents of a packet sent through the post to Miss Cushing, of Cross Street, Croydon?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "cardboard-box-section_2",
+      "position": 68,
+      "text": "\"No, I saw nothing.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "cardboard-box-section_2",
+      "position": 69,
+      "text": "\"Ah!",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "cardboard-box-section_2",
+      "position": 70,
+      "text": "then you must have overlooked it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "cardboard-box-section_2",
+      "position": 71,
+      "text": "Just toss it over to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "cardboard-box-section_2",
+      "position": 72,
+      "text": "Here it is, under the financial column.",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "cardboard-box-section_2",
+      "position": 73,
+      "text": "Perhaps you would be good enough to read it aloud.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "cardboard-box-section_2",
+      "position": 74,
+      "text": "I picked up the paper which he had thrown back to me and read the paragraph indicated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "cardboard-box-section_2",
+      "position": 75,
+      "text": "It was headed, \"A Gruesome Packet.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "cardboard-box-section_3",
+      "position": 76,
+      "text": "\"Miss Susan Cushing, living at Cross Street, Croydon, has been made the victim of what must be regarded as a peculiarly revolting practical joke unless some more sinister meaning should prove to be attached to the incident.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "cardboard-box-section_3",
+      "position": 77,
+      "text": "At two o'clock yesterday afternoon a small packet, wrapped in brown paper, was handed in by the postman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "cardboard-box-section_3",
+      "position": 78,
+      "text": "A cardboard box was inside, which was filled with coarse salt.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "cardboard-box-section_3",
+      "position": 79,
+      "text": "On emptying this, Miss Cushing was horrified to find two human ears, apparently quite freshly severed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "cardboard-box-section_3",
+      "position": 80,
+      "text": "The box had been sent by parcel post from Belfast upon the morning before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "cardboard-box-section_3",
+      "position": 81,
+      "text": "There is no indication as to the sender, and the matter is the more mysterious as Miss Cushing, who is a maiden lady of fifty, has led a most retired life, and has so few acquaintances or correspondents that it is a rare event for her to receive anything through the post.",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "cardboard-box-section_3",
+      "position": 82,
+      "text": "Some years ago, however, when she resided at Penge, she let apartments in her house to three young medical students, whom she was obliged to get rid of on account of their noisy and irregular habits.",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "cardboard-box-section_3",
+      "position": 83,
+      "text": "The police are of opinion that this outrage may have been perpetrated upon Miss Cushing by these youths, who owed her a grudge and who hoped to frighten her by sending her these relics of the dissecting-rooms.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "cardboard-box-section_3",
+      "position": 84,
+      "text": "Some probability is lent to the theory by the fact that one of these students came from the north of Ireland, and, to the best of Miss Cushing's belief, from Belfast.",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "cardboard-box-section_3",
+      "position": 85,
+      "text": "In the meantime, the matter is being actively investigated, Mr. Lestrade, one of the very smartest of our detective officers, being in charge of the case.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "cardboard-box-section_3",
+      "position": 86,
+      "text": "\"So much for the _Daily Chronicle_,\" said Holmes as I finished reading.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "cardboard-box-section_3",
+      "position": 87,
+      "text": "\"Now for our friend Lestrade.",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "cardboard-box-section_3",
+      "position": 88,
+      "text": "I had a note from him this morning, in which he says: 'I think that this case is very much in your line.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "cardboard-box-section_3",
+      "position": 89,
+      "text": "We have every hope of clearing the matter up, but we find a little difficulty in getting anything to work upon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "cardboard-box-section_3",
+      "position": 90,
+      "text": "We have, of course, wired to the Belfast post-office, but a large number of parcels were handed in upon that day, and they have no means of identifying this particular one, or of remembering the sender.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "cardboard-box-section_3",
+      "position": 91,
+      "text": "The box is a half-pound box of honeydew tobacco and does not help us in any way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "cardboard-box-section_3",
+      "position": 92,
+      "text": "The medical student theory still appears to me to be the most feasible, but if you should have a few hours to spare I should be very happy to see you out here.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "cardboard-box-section_3",
+      "position": 93,
+      "text": "' What say you, Watson?",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "cardboard-box-section_3",
+      "position": 94,
+      "text": "Can you rise superior to the heat and run down to Croydon with me on the off chance of a case for your annals?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "cardboard-box-section_3",
+      "position": 95,
+      "text": "to Croydon with me on the off chance of a case for your annals?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "cardboard-box-section_3",
+      "position": 96,
+      "text": "\"I was longing for something to do.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "cardboard-box-section_3",
+      "position": 97,
+      "text": "\"You shall have it then.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "cardboard-box-section_3",
+      "position": 98,
+      "text": "Ring for our boots and tell them to order a cab.",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "cardboard-box-section_3",
+      "position": 99,
+      "text": "I'll be back in a moment when I have changed my dressing-gown and filled my cigar-case.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "cardboard-box-section_3",
+      "position": 100,
+      "text": "A shower of rain fell while we were in the train, and the heat was far less oppressive in Croydon than in town.",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "cardboard-box-section_3",
+      "position": 101,
+      "text": "Holmes had sent on a wire, so that Lestrade, as wiry, as dapper, and as ferret-like as ever, was waiting for us at the station.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "cardboard-box-section_3",
+      "position": 102,
+      "text": "A walk of five minutes took us to Cross Street, where Miss Cushing resided.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "cardboard-box-section_3",
+      "position": 103,
+      "text": "It was a very long street of two-story brick houses, neat and prim, with whitened stone steps and little groups of aproned women gossiping at the doors.",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "cardboard-box-section_3",
+      "position": 104,
+      "text": "Halfway down, Lestrade stopped and tapped at a door, which was opened by a small servant girl.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "cardboard-box-section_3",
+      "position": 105,
+      "text": "Miss Cushing was sitting in the front room, into which we were ushered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "cardboard-box-section_3",
+      "position": 106,
+      "text": "She was a placid-faced woman, with large, gentle eyes, and grizzled hair curving down over her temples on each side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "cardboard-box-section_3",
+      "position": 107,
+      "text": "A worked antimacassar lay upon her lap and a basket of coloured silks stood upon a stool beside her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "cardboard-box-section_4",
+      "position": 108,
+      "text": "\"They are in the outhouse, those dreadful things,\" said she as Lestrade entered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "cardboard-box-section_4",
+      "position": 109,
+      "text": "\"I wish that you would take them away altogether.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "cardboard-box-section_4",
+      "position": 110,
+      "text": "\"So I shall, Miss Cushing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "cardboard-box-section_4",
+      "position": 111,
+      "text": "I only kept them here until my friend, Mr. Holmes, should have seen them in your presence.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "cardboard-box-section_4",
+      "position": 112,
+      "text": "\"Why in my presence, sir?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "cardboard-box-section_4",
+      "position": 113,
+      "text": "\"In case he wished to ask any questions.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "cardboard-box-section_4",
+      "position": 114,
+      "text": "\"What is the use of asking me questions when I tell you I know nothing whatever about it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "cardboard-box-section_4",
+      "position": 115,
+      "text": "\"Quite so, madam,\" said Holmes in his soothing way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "cardboard-box-section_4",
+      "position": 116,
+      "text": "\"I have no doubt that you have been annoyed more than enough already over this business.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "cardboard-box-section_4",
+      "position": 117,
+      "text": "\"Indeed, I have, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "cardboard-box-section_4",
+      "position": 118,
+      "text": "I am a quiet woman and live a retired life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "cardboard-box-section_4",
+      "position": 119,
+      "text": "It is something new for me to see my name in the papers and to find the police in my house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "cardboard-box-section_4",
+      "position": 120,
+      "text": "I won't have those things in here, Mr. Lestrade.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "cardboard-box-section_4",
+      "position": 121,
+      "text": "If you wish to see them you must go to the outhouse.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "cardboard-box-section_4",
+      "position": 122,
+      "text": "It was a small shed in the narrow garden which ran behind the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "cardboard-box-section_4",
+      "position": 123,
+      "text": "Lestrade went in and brought out a yellow cardboard box, with a piece of brown paper and some string.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "cardboard-box-section_4",
+      "position": 124,
+      "text": "There was a bench at the end of the path, and we all sat down while Holmes examined, one by one, the articles which Lestrade had handed to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "cardboard-box-section_4",
+      "position": 125,
+      "text": "\"The string is exceedingly interesting,\" he remarked, holding it up to the light and sniffing at it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "cardboard-box-section_4",
+      "position": 126,
+      "text": "\"What do you make of this string, Lestrade?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "cardboard-box-section_4",
+      "position": 127,
+      "text": "\"It has been tarred.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "cardboard-box-section_4",
+      "position": 128,
+      "text": "\"Precisely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "cardboard-box-section_4",
+      "position": 129,
+      "text": "It is a piece of tarred twine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "cardboard-box-section_4",
+      "position": 130,
+      "text": "You have also, no doubt, remarked that Miss Cushing has cut the cord with a scissors, as can be seen by the double fray on each side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "cardboard-box-section_4",
+      "position": 131,
+      "text": "This is of importance.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "cardboard-box-section_4",
+      "position": 132,
+      "text": "\"I cannot see the importance,\" said Lestrade.",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "cardboard-box-section_4",
+      "position": 133,
+      "text": "\"The importance lies in the fact that the knot is left intact, and that this knot is of a peculiar character.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "cardboard-box-section_4",
+      "position": 134,
+      "text": "\"It is very neatly tied.",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "cardboard-box-section_4",
+      "position": 135,
+      "text": "I had already made a note to that effect,\" said Lestrade complacently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "cardboard-box-section_4",
+      "position": 136,
+      "text": "\"So much for the string, then,\" said Holmes, smiling, \"now for the box wrapper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "cardboard-box-section_4",
+      "position": 137,
+      "text": "Brown paper, with a distinct smell of coffee.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "cardboard-box-section_4",
+      "position": 138,
+      "text": "What, did you not observe it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "cardboard-box-section_4",
+      "position": 139,
+      "text": "I think there can be no doubt of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "cardboard-box-section_4",
+      "position": 140,
+      "text": "Address printed in rather straggling characters: 'Miss S.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "cardboard-box-section_4",
+      "position": 141,
+      "text": "' Done with a broad-pointed pen, probably a J, and with very inferior ink.",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "cardboard-box-section_4",
+      "position": 142,
+      "text": "' The parcel was directed, then, by a man—the printing is distinctly masculine—of limited education and unacquainted with the town of Croydon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "cardboard-box-section_4",
+      "position": 143,
+      "text": "So far, so good!",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "cardboard-box-section_4",
+      "position": 144,
+      "text": "The box is a yellow half-pound honeydew box, with nothing distinctive save two thumb marks at the left bottom corner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "cardboard-box-section_4",
+      "position": 145,
+      "text": "It is filled with rough salt of the quality used for preserving hides and other of the coarser commercial purposes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "cardboard-box-section_4",
+      "position": 146,
+      "text": "And embedded in it are these very singular enclosures.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "cardboard-box-section_4",
+      "position": 147,
+      "text": "r preserving hides and other of the coarser commercial purposes. And embedded in it are these very singular enclosures.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "cardboard-box-section_4",
+      "position": 148,
+      "text": "He took out the two ears as he spoke, and laying a board across his knee he examined them minutely, while Lestrade and I, bending forward on each side of him, glanced alternately at these dreadful relics and at the thoughtful, eager face of our companion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "cardboard-box-section_4",
+      "position": 149,
+      "text": "Finally he returned them to the box once more and sat for a while in deep meditation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "cardboard-box-section_4",
+      "position": 150,
+      "text": "\"You have observed, of course,\" said he at last, \"that the ears are not a pair.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "cardboard-box-section_4",
+      "position": 151,
+      "text": "\"Yes, I have noticed that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "cardboard-box-section_4",
+      "position": 152,
+      "text": "But if this were the practical joke of some students from the dissecting-rooms, it would be as easy for them to send two odd ears as a pair.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "cardboard-box-section_4",
+      "position": 153,
+      "text": "\"Precisely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "cardboard-box-section_4",
+      "position": 154,
+      "text": "But this is not a practical joke.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "cardboard-box-section_5",
+      "position": 155,
+      "text": "\"You are sure of it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "cardboard-box-section_5",
+      "position": 156,
+      "text": "\"The presumption is strongly against it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "cardboard-box-section_5",
+      "position": 157,
+      "text": "Bodies in the dissecting-rooms are injected with preservative fluid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "cardboard-box-section_5",
+      "position": 158,
+      "text": "These ears bear no signs of this.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "cardboard-box-section_5",
+      "position": 159,
+      "text": "They are fresh, too.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "cardboard-box-section_5",
+      "position": 160,
+      "text": "They have been cut off with a blunt instrument, which would hardly happen if a student had done it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "cardboard-box-section_5",
+      "position": 161,
+      "text": "Again, carbolic or rectified spirits would be the preservatives which would suggest themselves to the medical mind, certainly not rough salt.",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "cardboard-box-section_5",
+      "position": 162,
+      "text": "I repeat that there is no practical joke here, but that we are investigating a serious crime.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "cardboard-box-section_5",
+      "position": 163,
+      "text": "A vague thrill ran through me as I listened to my companion's words and saw the stern gravity which had hardened his features.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "cardboard-box-section_5",
+      "position": 164,
+      "text": "This brutal preliminary seemed to shadow forth some strange and inexplicable horror in the background.",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "cardboard-box-section_5",
+      "position": 165,
+      "text": "Lestrade, however, shook his head like a man who is only half convinced.",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "cardboard-box-section_5",
+      "position": 166,
+      "text": "\"There are objections to the joke theory, no doubt,\" said he, \"but there are much stronger reasons against the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "cardboard-box-section_5",
+      "position": 167,
+      "text": "We know that this woman has led a most quiet and respectable life at Penge and here for the last twenty years.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "cardboard-box-section_5",
+      "position": 168,
+      "text": "She has hardly been away from her home for a day during that time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "cardboard-box-section_5",
+      "position": 169,
+      "text": "Why on earth, then, should any criminal send her the proofs of his guilt, especially as, unless she is a most consummate actress, she understands quite as little of the matter as we do?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "cardboard-box-section_5",
+      "position": 170,
+      "text": "\"That is the problem which we have to solve,\" Holmes answered, \"and for my part I shall set about it by presuming that my reasoning is correct, and that a double murder has been committed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "cardboard-box-section_5",
+      "position": 171,
+      "text": "One of these ears is a woman's, small, finely formed, and pierced for an earring.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "cardboard-box-section_5",
+      "position": 172,
+      "text": "The other is a man's, sun-burned, discoloured, and also pierced for an earring.",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "cardboard-box-section_5",
+      "position": 173,
+      "text": "These two people are presumably dead, or we should have heard their story before now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "cardboard-box-section_5",
+      "position": 174,
+      "text": "To-day is Friday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "cardboard-box-section_5",
+      "position": 175,
+      "text": "The packet was posted on Thursday morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "cardboard-box-section_5",
+      "position": 176,
+      "text": "The tragedy, then, occurred on Wednesday or Tuesday or earlier.",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "cardboard-box-section_5",
+      "position": 177,
+      "text": "If the two people were murdered, who but their murderer would have sent this sign of his work to Miss Cushing?",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "cardboard-box-section_5",
+      "position": 178,
+      "text": "We may take it that the sender of the packet is the man whom we want.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "cardboard-box-section_5",
+      "position": 179,
+      "text": "But he must have some strong reason for sending Miss Cushing this packet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "cardboard-box-section_5",
+      "position": 180,
+      "text": "What reason then?",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "cardboard-box-section_5",
+      "position": 181,
+      "text": "It must have been to tell her that the deed was done!",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "cardboard-box-section_5",
+      "position": 182,
+      "text": "or to pain her, perhaps.",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "cardboard-box-section_5",
+      "position": 183,
+      "text": "But in that case she knows who it is.",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "cardboard-box-section_5",
+      "position": 184,
+      "text": "Does she know?",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "cardboard-box-section_5",
+      "position": 185,
+      "text": "I doubt it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "cardboard-box-section_5",
+      "position": 186,
+      "text": "If she knew, why should she call the police in?",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "cardboard-box-section_5",
+      "position": 187,
+      "text": "She might have buried the ears, and no one would have been the wiser.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "cardboard-box-section_5",
+      "position": 188,
+      "text": "That is what she would have done if she had wished to shield the criminal.",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "cardboard-box-section_5",
+      "position": 189,
+      "text": "But if she does not wish to shield him she would give his name.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "cardboard-box-section_5",
+      "position": 190,
+      "text": "There is a tangle here which needs straightening out.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "cardboard-box-section_5",
+      "position": 191,
+      "text": "He had been talking in a high, quick voice, staring blankly up over the garden fence, but now he sprang briskly to his feet and walked towards the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "cardboard-box-section_5",
+      "position": 192,
+      "text": "\"I have a few questions to ask Miss Cushing,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "cardboard-box-section_5",
+      "position": 193,
+      "text": "\"In that case I may leave you here,\" said Lestrade, \"for I have another small business on hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "cardboard-box-section_5",
+      "position": 194,
+      "text": "I think that I have nothing further to learn from Miss Cushing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "cardboard-box-section_5",
+      "position": 195,
+      "text": "You will find me at the police-station.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "cardboard-box-section_5",
+      "position": 196,
+      "text": "\"We shall look in on our way to the train,\" answered Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "cardboard-box-section_5",
+      "position": 197,
+      "text": "A moment later he and I were back in the front room, where the impassive lady was still quietly working away at her antimacassar.",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "cardboard-box-section_5",
+      "position": 198,
+      "text": "She put it down on her lap as we entered and looked at us with her frank, searching blue eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "cardboard-box-section_6",
+      "position": 199,
+      "text": "\"I am convinced, sir,\" she said, \"that this matter is a mistake, and that the parcel was never meant for me at all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "cardboard-box-section_6",
+      "position": 200,
+      "text": "I have said this several times to the gentleman from Scotland Yard, but he simply laughs at me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "cardboard-box-section_6",
+      "position": 201,
+      "text": "I have not an enemy in the world, as far as I know, so why should anyone play me such a trick?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "cardboard-box-section_6",
+      "position": 202,
+      "text": "\"I am coming to be of the same opinion, Miss Cushing,\" said Holmes, taking a seat beside her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "cardboard-box-section_6",
+      "position": 203,
+      "text": "\"I think that it is more than probable——\" he paused, and I was surprised, on glancing round to see that he was staring with singular intentness at the lady's profile.",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "cardboard-box-section_6",
+      "position": 204,
+      "text": "Surprise and satisfaction were both for an instant to be read upon his eager face, though when she glanced round to find out the cause of his silence he had become as demure as ever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "cardboard-box-section_6",
+      "position": 205,
+      "text": "I stared hard myself at her flat, grizzled hair, her trim cap, her little gilt earrings, her placid features; but I could see nothing which could account for my companion's evident excitement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "cardboard-box-section_6",
+      "position": 206,
+      "text": "\"There were one or two questions——\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "cardboard-box-section_6",
+      "position": 207,
+      "text": "\"Oh, I am weary of questions!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "cardboard-box-section_6",
+      "position": 208,
+      "text": "cried Miss Cushing impatiently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "cardboard-box-section_6",
+      "position": 209,
+      "text": "\"You have two sisters, I believe.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "cardboard-box-section_6",
+      "position": 210,
+      "text": "\"How could you know that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "cardboard-box-section_6",
+      "position": 211,
+      "text": "\"I observed the very instant that I entered the room that you have a portrait group of three ladies upon the mantelpiece, one of whom is undoubtedly yourself, while the others are so exceedingly like you that there could be no doubt of the relationship.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "cardboard-box-section_6",
+      "position": 212,
+      "text": "\"Yes, you are quite right.",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "cardboard-box-section_6",
+      "position": 213,
+      "text": "Those are my sisters, Sarah and Mary.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "cardboard-box-section_6",
+      "position": 214,
+      "text": "\"And here at my elbow is another portrait, taken at Liverpool, of your younger sister, in the company of a man who appears to be a steward by his uniform.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "cardboard-box-section_6",
+      "position": 215,
+      "text": "I observe that she was unmarried at the time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "cardboard-box-section_6",
+      "position": 216,
+      "text": "\"You are very quick at observing.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "cardboard-box-section_6",
+      "position": 217,
+      "text": "\"That is my trade.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "cardboard-box-section_6",
+      "position": 218,
+      "text": "\"Well, you are quite right.",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "cardboard-box-section_6",
+      "position": 219,
+      "text": "But she was married to Mr. Browner a few days afterwards.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "cardboard-box-section_6",
+      "position": 220,
+      "text": "He was on the South American line when that was taken, but he was so fond of her that he couldn't abide to leave her for so long, and he got into the Liverpool and London boats.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "cardboard-box-section_6",
+      "position": 221,
+      "text": "\"Ah, the _Conqueror_, perhaps?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "cardboard-box-section_6",
+      "position": 222,
+      "text": "\"No, the _May Day_, when last I heard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "cardboard-box-section_6",
+      "position": 223,
+      "text": "Jim came down here to see me once.",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "cardboard-box-section_6",
+      "position": 224,
+      "text": "That was before he broke the pledge; but afterwards he would always take drink when he was ashore, and a little drink would send him stark, staring mad.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "cardboard-box-section_6",
+      "position": 225,
+      "text": "Ah!",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "cardboard-box-section_6",
+      "position": 226,
+      "text": "it was a bad day that ever he took a glass in his hand again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "cardboard-box-section_6",
+      "position": 227,
+      "text": "First he dropped me, then he quarrelled with Sarah, and now that Mary has stopped writing we don't know how things are going with them.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "cardboard-box-section_6",
+      "position": 228,
+      "text": "It was evident that Miss Cushing had come upon a subject on which she felt very deeply.",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "cardboard-box-section_6",
+      "position": 229,
+      "text": "Like most people who lead a lonely life, she was shy at first, but ended by becoming extremely communicative.",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "cardboard-box-section_6",
+      "position": 230,
+      "text": "She told us many details about her brother-in-law the steward, and then wandering off on the subject of her former lodgers, the medical students, she gave us a long account of their delinquencies, with their names and those of their hospitals.",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "cardboard-box-section_6",
+      "position": 231,
+      "text": "Holmes listened attentively to everything, throwing in a question from time to time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "cardboard-box-section_6",
+      "position": 232,
+      "text": "\"About your second sister, Sarah,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "cardboard-box-section_6",
+      "position": 233,
+      "text": "\"I wonder, since you are both maiden ladies, that you do not keep house together.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "cardboard-box-section_6",
+      "position": 234,
+      "text": "\"Ah!",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "cardboard-box-section_6",
+      "position": 235,
+      "text": "you don't know Sarah's temper or you would wonder no more.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "cardboard-box-section_6",
+      "position": 236,
+      "text": "I tried it when I came to Croydon, and we kept on until about two months ago, when we had to part.",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "cardboard-box-section_6",
+      "position": 237,
+      "text": "I don't want to say a word against my own sister, but she was always meddlesome and hard to please, was Sarah.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "cardboard-box-section_7",
+      "position": 238,
+      "text": "\"You say that she quarrelled with your Liverpool relations.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "cardboard-box-section_7",
+      "position": 239,
+      "text": "\"Yes, and they were the best of friends at one time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "cardboard-box-section_7",
+      "position": 240,
+      "text": "Why, she went up there to live in order to be near them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "cardboard-box-section_7",
+      "position": 241,
+      "text": "And now she has no word hard enough for Jim Browner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "cardboard-box-section_7",
+      "position": 242,
+      "text": "The last six months that she was here she would speak of nothing but his drinking and his ways.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "cardboard-box-section_7",
+      "position": 243,
+      "text": "He had caught her meddling, I suspect, and given her a bit of his mind, and that was the start of it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "cardboard-box-section_7",
+      "position": 244,
+      "text": "\"Thank you, Miss Cushing,\" said Holmes, rising and bowing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "cardboard-box-section_7",
+      "position": 245,
+      "text": "\"Your sister Sarah lives, I think you said, at New Street Wallington?",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "cardboard-box-section_7",
+      "position": 246,
+      "text": "Good-bye, and I am very sorry that you should have been troubled over a case with which, as you say, you have nothing whatever to do.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "cardboard-box-section_7",
+      "position": 247,
+      "text": "There was a cab passing as we came out, and Holmes hailed it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "cardboard-box-section_7",
+      "position": 248,
+      "text": "\"How far to Wallington?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "cardboard-box-section_7",
+      "position": 249,
+      "text": "he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "cardboard-box-section_7",
+      "position": 250,
+      "text": "\"Only about a mile, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "cardboard-box-section_7",
+      "position": 251,
+      "text": "\"Very good.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "cardboard-box-section_7",
+      "position": 252,
+      "text": "Jump in, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "cardboard-box-section_7",
+      "position": 253,
+      "text": "We must strike while the iron is hot.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "cardboard-box-section_7",
+      "position": 254,
+      "text": "Simple as the case is, there have been one or two very instructive details in connection with it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "cardboard-box-section_7",
+      "position": 255,
+      "text": "Just pull up at a telegraph office as you pass, cabby.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "cardboard-box-section_7",
+      "position": 256,
+      "text": "Holmes sent off a short wire and for the rest of the drive lay back in the cab, with his hat tilted over his nose to keep the sun from his face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "cardboard-box-section_7",
+      "position": 257,
+      "text": "Our driver pulled up at a house which was not unlike the one which we had just quitted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "cardboard-box-section_7",
+      "position": 258,
+      "text": "My companion ordered him to wait, and had his hand upon the knocker, when the door opened and a grave young gentleman in black, with a very shiny hat, appeared on the step.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "cardboard-box-section_7",
+      "position": 259,
+      "text": "\"Is Miss Cushing at home?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "cardboard-box-section_7",
+      "position": 260,
+      "text": "asked Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "cardboard-box-section_7",
+      "position": 261,
+      "text": "\"Miss Sarah Cushing is extremely ill,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "cardboard-box-section_7",
+      "position": 262,
+      "text": "\"She has been suffering since yesterday from brain symptoms of great severity.",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "cardboard-box-section_7",
+      "position": 263,
+      "text": "As her medical adviser, I cannot possibly take the responsibility of allowing anyone to see her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "cardboard-box-section_7",
+      "position": 264,
+      "text": "I should recommend you to call again in ten days.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "cardboard-box-section_7",
+      "position": 265,
+      "text": "He drew on his gloves, closed the door, and marched off down the street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "cardboard-box-section_7",
+      "position": 266,
+      "text": "\"Well, if we can't we can't,\" said Holmes, cheerfully.",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "cardboard-box-section_7",
+      "position": 267,
+      "text": "\"Perhaps she could not or would not have told you much.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "cardboard-box-section_7",
+      "position": 268,
+      "text": "\"I did not wish her to tell me anything.",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "cardboard-box-section_7",
+      "position": 269,
+      "text": "I only wanted to look at her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "cardboard-box-section_7",
+      "position": 270,
+      "text": "However, I think that I have got all that I want.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "cardboard-box-section_7",
+      "position": 271,
+      "text": "Drive us to some decent hotel, cabby, where we may have some lunch, and afterwards we shall drop down upon friend Lestrade at the police-station.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "cardboard-box-section_7",
+      "position": 272,
+      "text": "We had a pleasant little meal together, during which Holmes would talk about nothing but violins, narrating with great exultation how he had purchased his own Stradivarius, which was worth at least five hundred guineas, at a Jew broker's in Tottenham Court Road for fifty-five shillings.",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "cardboard-box-section_7",
+      "position": 273,
+      "text": "This led him to Paganini, and we sat for an hour over a bottle of claret while he told me anecdote after anecdote of that extraordinary man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "cardboard-box-section_7",
+      "position": 274,
+      "text": "The afternoon was far advanced and the hot glare had softened into a mellow glow before we found ourselves at the police-station.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "cardboard-box-section_7",
+      "position": 275,
+      "text": "Lestrade was waiting for us at the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "cardboard-box-section_7",
+      "position": 276,
+      "text": "\"A telegram for you, Mr. Holmes,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "cardboard-box-section_7",
+      "position": 277,
+      "text": "\"Ha!",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "cardboard-box-section_7",
+      "position": 278,
+      "text": "It is the answer!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "cardboard-box-section_7",
+      "position": 279,
+      "text": "He tore it open, glanced his eyes over it, and crumpled it into his pocket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "cardboard-box-section_7",
+      "position": 280,
+      "text": "\"That's all right,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "cardboard-box-section_7",
+      "position": 281,
+      "text": "\"Have you found out anything?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "cardboard-box-section_7",
+      "position": 282,
+      "text": "\"I have found out everything!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "cardboard-box-section_7",
+      "position": 283,
+      "text": "\"What!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "cardboard-box-section_7",
+      "position": 284,
+      "text": "Lestrade stared at him in amazement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "cardboard-box-section_7",
+      "position": 285,
+      "text": "\"You are joking.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "cardboard-box-section_7",
+      "position": 286,
+      "text": "\"I was never more serious in my life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "cardboard-box-section_7",
+      "position": 287,
+      "text": "A shocking crime has been committed, and I think I have now laid bare every detail of it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "cardboard-box-section_8",
+      "position": 288,
+      "text": "\"And the criminal?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "cardboard-box-section_8",
+      "position": 289,
+      "text": "Holmes scribbled a few words upon the back of one of his visiting cards and threw it over to Lestrade.",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "cardboard-box-section_8",
+      "position": 290,
+      "text": "\"That is the name,\" he said.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "cardboard-box-section_8",
+      "position": 291,
+      "text": "\"You cannot effect an arrest until to-morrow night at the earliest.",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "cardboard-box-section_8",
+      "position": 292,
+      "text": "I should prefer that you do not mention my name at all in connection with the case, as I choose to be only associated with those crimes which present some difficulty in their solution.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "cardboard-box-section_8",
+      "position": 293,
+      "text": "Come on, Watson.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "cardboard-box-section_8",
+      "position": 294,
+      "text": "We strode off together to the station, leaving Lestrade still staring with a delighted face at the card which Holmes had thrown him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "cardboard-box-section_8",
+      "position": 295,
+      "text": "\"The case,\" said Sherlock Holmes as we chatted over our cigars that night in our rooms at Baker Street, \"is one where, as in the investigations which you have chronicled under the names of 'A Study in Scarlet' and of 'The Sign of Four,' we have been compelled to reason backward from effects to causes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "cardboard-box-section_8",
+      "position": 296,
+      "text": "I have written to Lestrade asking him to supply us with the details which are now wanting, and which he will only get after he has secured his man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "cardboard-box-section_8",
+      "position": 297,
+      "text": "That he may be safely trusted to do, for although he is absolutely devoid of reason, he is as tenacious as a bulldog when he once understands what he has to do, and, indeed, it is just this tenacity which has brought him to the top at Scotland Yard.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "cardboard-box-section_8",
+      "position": 298,
+      "text": "\"Your case is not complete, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "cardboard-box-section_8",
+      "position": 299,
+      "text": "I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "cardboard-box-section_8",
+      "position": 300,
+      "text": "\"It is fairly complete in essentials.",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "cardboard-box-section_8",
+      "position": 301,
+      "text": "We know who the author of the revolting business is, although one of the victims still escapes us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "cardboard-box-section_8",
+      "position": 302,
+      "text": "Of course, you have formed your own conclusions.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "cardboard-box-section_8",
+      "position": 303,
+      "text": "\"I presume that this Jim Browner, the steward of a Liverpool boat, is the man whom you suspect?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "cardboard-box-section_8",
+      "position": 304,
+      "text": "\"Oh!",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "cardboard-box-section_8",
+      "position": 305,
+      "text": "it is more than a suspicion.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "cardboard-box-section_8",
+      "position": 306,
+      "text": "\"And yet I cannot see anything save very vague indications.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "cardboard-box-section_8",
+      "position": 307,
+      "text": "\"On the contrary, to my mind nothing could be more clear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "cardboard-box-section_8",
+      "position": 308,
+      "text": "Let me run over the principal steps.",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "cardboard-box-section_8",
+      "position": 309,
+      "text": "We approached the case, you remember, with an absolutely blank mind, which is always an advantage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "cardboard-box-section_8",
+      "position": 310,
+      "text": "We had formed no theories.",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "cardboard-box-section_8",
+      "position": 311,
+      "text": "We were simply there to observe and to draw inferences from our observations.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "cardboard-box-section_8",
+      "position": 312,
+      "text": "What did we see first?",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "cardboard-box-section_8",
+      "position": 313,
+      "text": "A very placid and respectable lady, who seemed quite innocent of any secret, and a portrait which showed me that she had two younger sisters.",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "cardboard-box-section_8",
+      "position": 314,
+      "text": "It instantly flashed across my mind that the box might have been meant for one of these.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "cardboard-box-section_8",
+      "position": 315,
+      "text": "I set the idea aside as one which could be disproved or confirmed at our leisure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "cardboard-box-section_8",
+      "position": 316,
+      "text": "Then we went to the garden, as you remember, and we saw the very singular contents of the little yellow box.",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "cardboard-box-section_8",
+      "position": 317,
+      "text": "\"The string was of the quality which is used by sailmakers aboard ship, and at once a whiff of the sea was perceptible in our investigation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "cardboard-box-section_8",
+      "position": 318,
+      "text": "When I observed that the knot was one which is popular with sailors, that the parcel had been posted at a port, and that the male ear was pierced for an earring which is so much more common among sailors than landsmen, I was quite certain that all the actors in the tragedy were to be found among our seafaring classes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "cardboard-box-section_8",
+      "position": 319,
+      "text": "\"When I came to examine the address of the packet I observed that it was to Miss S.",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "cardboard-box-section_8",
+      "position": 320,
+      "text": "Cushing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "cardboard-box-section_8",
+      "position": 321,
+      "text": "Now, the oldest sister would, of course, be Miss Cushing, and although her initial was 'S' it might belong to one of the others as well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "cardboard-box-section_8",
+      "position": 322,
+      "text": "In that case we should have to commence our investigation from a fresh basis altogether.",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "cardboard-box-section_8",
+      "position": 323,
+      "text": "I therefore went into the house with the intention of clearing up this point.",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "cardboard-box-section_8",
+      "position": 324,
+      "text": "I was about to assure Miss Cushing that I was convinced that a mistake had been made when you may remember that I came suddenly to a stop.",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "cardboard-box-section_8",
+      "position": 325,
+      "text": "The fact was that I had just seen something which filled me with surprise and at the same time narrowed the field of our inquiry immensely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "cardboard-box-section_9",
+      "position": 326,
+      "text": "\"As a medical man, you are aware, Watson, that there is no part of the body which varies so much as the human ear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "cardboard-box-section_9",
+      "position": 327,
+      "text": "Each ear is as a rule quite distinctive and differs from all other ones.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "cardboard-box-section_9",
+      "position": 328,
+      "text": "In last year's _Anthropological Journal_ you will find two short monographs from my pen upon the subject.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "cardboard-box-section_9",
+      "position": 329,
+      "text": "I had, therefore, examined the ears in the box with the eyes of an expert and had carefully noted their anatomical peculiarities.",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "cardboard-box-section_9",
+      "position": 330,
+      "text": "Imagine my surprise, then, when on looking at Miss Cushing I perceived that her ear corresponded exactly with the female ear which I had just inspected.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "cardboard-box-section_9",
+      "position": 331,
+      "text": "The matter was entirely beyond coincidence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "cardboard-box-section_9",
+      "position": 332,
+      "text": "There was the same shortening of the pinna, the same broad curve of the upper lobe, the same convolution of the inner cartilage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "cardboard-box-section_9",
+      "position": 333,
+      "text": "In all essentials it was the same ear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "cardboard-box-section_9",
+      "position": 334,
+      "text": "\"Of course I at once saw the enormous importance of the observation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "cardboard-box-section_9",
+      "position": 335,
+      "text": "It was evident that the victim was a blood relation and probably a very close one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "cardboard-box-section_9",
+      "position": 336,
+      "text": "I began to talk to her about her family, and you remember that she at once gave us some exceedingly valuable details.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "cardboard-box-section_9",
+      "position": 337,
+      "text": "\"In the first place, her sister's name was Sarah, and her address had until recently been the same, so that it was quite obvious how the mistake had occurred and for whom the packet was meant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "cardboard-box-section_9",
+      "position": 338,
+      "text": "Then we heard of this steward, married to the third sister, and learned that he had at one time been so intimate with Miss Sarah that she had actually gone up to Liverpool to be near the Browners, but a quarrel had afterwards divided them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "cardboard-box-section_9",
+      "position": 339,
+      "text": "This quarrel had put a stop to all communications for some months, so that if Browner had occasion to address a packet to Miss Sarah, he would undoubtedly have done so to her old address.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "cardboard-box-section_9",
+      "position": 340,
+      "text": "\"And now the matter had begun to straighten itself out wonderfully.",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "cardboard-box-section_9",
+      "position": 341,
+      "text": "We had learned of the existence of this steward, an impulsive man, of strong passions—you remember that he threw up what must have been a very superior berth in order to be nearer to his wife—subject, too, to occasional fits of hard drinking.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "cardboard-box-section_9",
+      "position": 342,
+      "text": "We had reason to believe that his wife had been murdered, and that a man—presumably a seafaring man—had been murdered at the same time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "cardboard-box-section_9",
+      "position": 343,
+      "text": "Jealousy, of course, at once suggests itself as the motive for the crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "cardboard-box-section_9",
+      "position": 344,
+      "text": "And why should these proofs of the deed be sent to Miss Sarah Cushing?",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "cardboard-box-section_9",
+      "position": 345,
+      "text": "Probably because during her residence in Liverpool she had some hand in bringing about the events which led to the tragedy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "cardboard-box-section_9",
+      "position": 346,
+      "text": "You will observe that this line of boats calls at Belfast, Dublin, and Waterford; so that, presuming that Browner had committed the deed and had embarked at once upon his steamer, the _May Day_, Belfast would be the first place at which he could post his terrible packet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "cardboard-box-section_9",
+      "position": 347,
+      "text": "\"A second solution was at this stage obviously possible, and although I thought it exceedingly unlikely, I was determined to elucidate it before going further.",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "cardboard-box-section_9",
+      "position": 348,
+      "text": "An unsuccessful lover might have killed Mr. and Mrs. Browner, and the male ear might have belonged to the husband.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "cardboard-box-section_9",
+      "position": 349,
+      "text": "There were many grave objections to this theory, but it was conceivable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "cardboard-box-section_9",
+      "position": 350,
+      "text": "I therefore sent off a telegram to my friend Algar, of the Liverpool force, and asked him to find out if Mrs. Browner were at home, and if Browner had departed in the _May Day_.",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "cardboard-box-section_9",
+      "position": 351,
+      "text": "Then we went on to Wallington to visit Miss Sarah.",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "cardboard-box-section_9",
+      "position": 352,
+      "text": "\"I was curious, in the first place, to see how far the family ear had been reproduced in her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "cardboard-box-section_9",
+      "position": 353,
+      "text": "Then, of course, she might give us very important information, but I was not sanguine that she would.",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "cardboard-box-section_9",
+      "position": 354,
+      "text": "She must have heard of the business the day before, since all Croydon was ringing with it, and she alone could have understood for whom the packet was meant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "cardboard-box-section_9",
+      "position": 355,
+      "text": "If she had been willing to help justice she would probably have communicated with the police already.",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "cardboard-box-section_9",
+      "position": 356,
+      "text": "However, it was clearly our duty to see her, so we went.",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "cardboard-box-section_9",
+      "position": 357,
+      "text": "We found that the news of the arrival of the packet—for her illness dated from that time—had such an effect upon her as to bring on brain fever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "cardboard-box-section_9",
+      "position": 358,
+      "text": "It was clearer than ever that she understood its full significance, but equally clear that we should have to wait some time for any assistance from her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "cardboard-box-section_10",
+      "position": 359,
+      "text": "\"However, we were really independent of her help.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "cardboard-box-section_10",
+      "position": 360,
+      "text": "Our answers were waiting for us at the police-station, where I had directed Algar to send them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "cardboard-box-section_10",
+      "position": 361,
+      "text": "Nothing could be more conclusive.",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "cardboard-box-section_10",
+      "position": 362,
+      "text": "Mrs. Browner's house had been closed for more than three days, and the neighbours were of opinion that she had gone south to see her relatives.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "cardboard-box-section_10",
+      "position": 363,
+      "text": "It had been ascertained at the shipping offices that Browner had left aboard of the _May Day_, and I calculate that she is due in the Thames to-morrow night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "cardboard-box-section_10",
+      "position": 364,
+      "text": "When he arrives he will be met by the obtuse but resolute Lestrade, and I have no doubt that we shall have all our details filled in.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "cardboard-box-section_10",
+      "position": 365,
+      "text": "Sherlock Holmes was not disappointed in his expectations.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "cardboard-box-section_10",
+      "position": 366,
+      "text": "Two days later he received a bulky envelope, which contained a short note from the detective, and a typewritten document, which covered several pages of foolscap.",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "cardboard-box-section_10",
+      "position": 367,
+      "text": "\"Lestrade has got him all right,\" said Holmes, glancing up at me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "cardboard-box-section_10",
+      "position": 368,
+      "text": "\"Perhaps it would interest you to hear what he says.",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "cardboard-box-section_10",
+      "position": 369,
+      "text": ", and boarded the S.S.",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "cardboard-box-section_10",
+      "position": 370,
+      "text": "_May Day_, belonging to the Liverpool, Dublin, and London Steam Packet Company.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "cardboard-box-section_10",
+      "position": 371,
+      "text": "On inquiry, I found that there was a steward on board of the name of James Browner and that he had acted during the voyage in such an extraordinary manner that the captain had been compelled to relieve him of his duties.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "cardboard-box-section_10",
+      "position": 372,
+      "text": "On descending to his berth, I found him seated upon a chest with his head sunk upon his hands, rocking himself to and fro.",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "cardboard-box-section_10",
+      "position": 373,
+      "text": "He is a big, powerful chap, clean-shaven, and very swarthy— something like Aldridge, who helped us in the bogus laundry affair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "cardboard-box-section_10",
+      "position": 374,
+      "text": "He jumped up when he heard my business, and I had my whistle to my lips to call a couple of river police, who were round the corner, but he seemed to have no heart in him, and he held out his hands quietly enough for the darbies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "cardboard-box-section_10",
+      "position": 375,
+      "text": "We brought him along to the cells, and his box as well, for we thought there might be something incriminating; but, bar a big sharp knife such as most sailors have, we got nothing for our trouble.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "cardboard-box-section_10",
+      "position": 376,
+      "text": "However, we find that we shall want no more evidence, for on being brought before the inspector at the station he asked leave to make a statement, which was, of course, taken down, just as he made it, by our shorthand man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "cardboard-box-section_10",
+      "position": 377,
+      "text": "We had three copies typewritten, one of which I enclose.",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "cardboard-box-section_10",
+      "position": 378,
+      "text": "The affair proves, as I always thought it would, to be an extremely simple one, but I am obliged to you for assisting me in my investigation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "cardboard-box-section_10",
+      "position": 379,
+      "text": "With kind regards, yours very truly,—G.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "cardboard-box-section_10",
+      "position": 380,
+      "text": "Lestrade.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "cardboard-box-section_10",
+      "position": 381,
+      "text": "close. The affair proves, as I always thought it would, to be an extremely simple one, but I am obliged to you for assisting me in my investigation. With kind regards, yours very truly,—G. Lestrade.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "cardboard-box-section_10",
+      "position": 382,
+      "text": "\"Hum!",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "cardboard-box-section_10",
+      "position": 383,
+      "text": "The investigation really was a very simple one,\" remarked Holmes, \"but I don't think it struck him in that light when he first called us in.",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "cardboard-box-section_10",
+      "position": 384,
+      "text": "However, let us see what Jim Browner has to say for himself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "cardboard-box-section_10",
+      "position": 385,
+      "text": "This is his statement as made before Inspector Montgomery at the Shadwell Police Station, and it has the advantage of being verbatim.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "cardboard-box-section_10",
+      "position": 386,
+      "text": "\"Have I anything to say?",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "cardboard-box-section_10",
+      "position": 387,
+      "text": "Yes, I have a deal to say.",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "cardboard-box-section_10",
+      "position": 388,
+      "text": "I have to make a clean breast of it all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "cardboard-box-section_10",
+      "position": 389,
+      "text": "You can hang me, or you can leave me alone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "cardboard-box-section_10",
+      "position": 390,
+      "text": "I don't care a plug which you do.",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "cardboard-box-section_10",
+      "position": 391,
+      "text": "I tell you I've not shut an eye in sleep since I did it, and I don't believe I ever will again until I get past all waking.",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "cardboard-box-section_10",
+      "position": 392,
+      "text": "Sometimes it's his face, but most generally it's hers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "cardboard-box-section_10",
+      "position": 393,
+      "text": "I'm never without one or the other before me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "cardboard-box-section_10",
+      "position": 394,
+      "text": "He looks frowning and black-like, but she has a kind o' surprise upon her face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "cardboard-box-section_10",
+      "position": 395,
+      "text": "Ay, the white lamb, she might well be surprised when she read death on a face that had seldom looked anything but love upon her before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "cardboard-box-section_11",
+      "position": 396,
+      "text": "\"But it was Sarah's fault, and may the curse of a broken man put a blight on her and set the blood rotting in her veins!",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "cardboard-box-section_11",
+      "position": 397,
+      "text": "It's not that I want to clear myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "cardboard-box-section_11",
+      "position": 398,
+      "text": "I know that I went back to drink, like the beast that I was.",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "cardboard-box-section_11",
+      "position": 399,
+      "text": "But she would have forgiven me; she would have stuck as close to me as a rope to a block if that woman had never darkened our door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "cardboard-box-section_11",
+      "position": 400,
+      "text": "For Sarah Cushing loved me—that's the root of the business—she loved me until all her love turned to poisonous hate when she knew that I thought more of my wife's footmark in the mud than I did of her whole body and soul.",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "cardboard-box-section_11",
+      "position": 401,
+      "text": "\"There were three sisters altogether.",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "cardboard-box-section_11",
+      "position": 402,
+      "text": "The old one was just a good woman, the second was a devil, and the third was an angel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "cardboard-box-section_11",
+      "position": 403,
+      "text": "Sarah was thirty-three, and Mary was twenty-nine when I married.",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "cardboard-box-section_11",
+      "position": 404,
+      "text": "We were just as happy as the day was long when we set up house together, and in all Liverpool there was no better woman than my Mary.",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "cardboard-box-section_11",
+      "position": 405,
+      "text": "And then we asked Sarah up for a week, and the week grew into a month, and one thing led to another, until she was just one of ourselves.",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "cardboard-box-section_11",
+      "position": 406,
+      "text": "\"I was blue ribbon at that time, and we were putting a little money by, and all was as bright as a new dollar.",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "cardboard-box-section_11",
+      "position": 407,
+      "text": "My God, whoever would have thought that it could have come to this?",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "cardboard-box-section_11",
+      "position": 408,
+      "text": "Whoever would have dreamed it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "cardboard-box-section_11",
+      "position": 409,
+      "text": "\"I used to be home for the week-ends very often, and sometimes if the ship were held back for cargo I would have a whole week at a time, and in this way I saw a deal of my sister-in-law, Sarah.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "cardboard-box-section_11",
+      "position": 410,
+      "text": "She was a fine tall woman, black and quick and fierce, with a proud way of carrying her head, and a glint from her eye like a spark from a flint.",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "cardboard-box-section_11",
+      "position": 411,
+      "text": "But when little Mary was there I had never a thought of her, and that I swear as I hope for God's mercy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "cardboard-box-section_11",
+      "position": 412,
+      "text": "\"It had seemed to me sometimes that she liked to be alone with me, or to coax me out for a walk with her, but I had never thought anything of that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "cardboard-box-section_11",
+      "position": 413,
+      "text": "But one evening my eyes were opened.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "cardboard-box-section_11",
+      "position": 414,
+      "text": "I had come up from the ship and found my wife out, but Sarah at home.",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "cardboard-box-section_11",
+      "position": 415,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "cardboard-box-section_11",
+      "position": 416,
+      "text": "' I was impatient and paced up and down the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "cardboard-box-section_11",
+      "position": 417,
+      "text": "' says she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "cardboard-box-section_11",
+      "position": 418,
+      "text": "' 'That's all right, my lass,' said I, putting out my hand towards her in a kindly way, but she had it in both hers in an instant, and they burned as if they were in a fever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "cardboard-box-section_11",
+      "position": 419,
+      "text": "I looked into her eyes and I read it all there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "cardboard-box-section_11",
+      "position": 420,
+      "text": "There was no need for her to speak, nor for me either.",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "cardboard-box-section_11",
+      "position": 421,
+      "text": "I frowned and drew my hand away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "cardboard-box-section_11",
+      "position": 422,
+      "text": "Then she stood by my side in silence for a bit, and then put up her hand and patted me on the shoulder.",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "cardboard-box-section_11",
+      "position": 423,
+      "text": "' said she, and with a kind o' mocking laugh, she ran out of the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "cardboard-box-section_11",
+      "position": 424,
+      "text": "ned and drew my hand away. Then she stood by my side in silence for a bit, and then put up her hand and patted me on the shoulder. 'Steady old Jim!' said she, and with a kind o' mocking laugh, she ran out of the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "cardboard-box-section_11",
+      "position": 425,
+      "text": "\"Well, from that time Sarah hated me with her whole heart and soul, and she is a woman who can hate, too.",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "cardboard-box-section_11",
+      "position": 426,
+      "text": "I was a fool to let her go on biding with us—a besotted fool—but I never said a word to Mary, for I knew it would grieve her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "cardboard-box-section_11",
+      "position": 427,
+      "text": "Things went on much as before, but after a time I began to find that there was a bit of a change in Mary herself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "cardboard-box-section_11",
+      "position": 428,
+      "text": "She had always been so trusting and so innocent, but now she became queer and suspicious, wanting to know where I had been and what I had been doing, and whom my letters were from, and what I had in my pockets, and a thousand such follies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "cardboard-box-section_11",
+      "position": 429,
+      "text": "Day by day she grew queerer and more irritable, and we had ceaseless rows about nothing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "cardboard-box-section_11",
+      "position": 430,
+      "text": "I was fairly puzzled by it all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "cardboard-box-section_11",
+      "position": 431,
+      "text": "Sarah avoided me now, but she and Mary were just inseparable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "cardboard-box-section_11",
+      "position": 432,
+      "text": "I can see now how she was plotting and scheming and poisoning my wife's mind against me, but I was such a blind beetle that I could not understand it at the time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "cardboard-box-section_11",
+      "position": 433,
+      "text": "Then I broke my blue ribbon and began to drink again, but I think I should not have done it if Mary had been the same as ever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "cardboard-box-section_11",
+      "position": 434,
+      "text": "She had some reason to be disgusted with me now, and the gap between us began to be wider and wider.",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "cardboard-box-section_11",
+      "position": 435,
+      "text": "And then this Alec Fairbairn chipped in, and things became a thousand times blacker.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "cardboard-box-section_12",
+      "position": 436,
+      "text": "\"It was to see Sarah that he came to my house first, but soon it was to see us, for he was a man with winning ways, and he made friends wherever he went.",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "cardboard-box-section_12",
+      "position": 437,
+      "text": "He was a dashing, swaggering chap, smart and curled, who had seen half the world and could talk of what he had seen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "cardboard-box-section_12",
+      "position": 438,
+      "text": "He was good company, I won't deny it, and he had wonderful polite ways with him for a sailor man, so that I think there must have been a time when he knew more of the poop than the forecastle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "cardboard-box-section_12",
+      "position": 439,
+      "text": "For a month he was in and out of my house, and never once did it cross my mind that harm might come of his soft, tricky ways.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "cardboard-box-section_12",
+      "position": 440,
+      "text": "And then at last something made me suspect, and from that day my peace was gone forever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "cardboard-box-section_12",
+      "position": 441,
+      "text": "\"It was only a little thing, too.",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "cardboard-box-section_12",
+      "position": 442,
+      "text": "I had come into the parlour unexpected, and as I walked in at the door I saw a light of welcome on my wife's face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "cardboard-box-section_12",
+      "position": 443,
+      "text": "But as she saw who it was it faded again, and she turned away with a look of disappointment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "cardboard-box-section_12",
+      "position": 444,
+      "text": "That was enough for me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "cardboard-box-section_12",
+      "position": 445,
+      "text": "There was no one but Alec Fairbairn whose step she could have mistaken for mine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "cardboard-box-section_12",
+      "position": 446,
+      "text": "If I could have seen him then I should have killed him, for I have always been like a madman when my temper gets loose.",
+      "entities": []
+    },
+    {
+      "id": "sentence_448",
+      "section": "cardboard-box-section_12",
+      "position": 447,
+      "text": "Mary saw the devil's light in my eyes, and she ran forward with her hands on my sleeve.",
+      "entities": []
+    },
+    {
+      "id": "sentence_449",
+      "section": "cardboard-box-section_12",
+      "position": 448,
+      "text": "' says she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_450",
+      "section": "cardboard-box-section_12",
+      "position": 449,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_451",
+      "section": "cardboard-box-section_12",
+      "position": 450,
+      "text": "'In the kitchen,' says she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_452",
+      "section": "cardboard-box-section_12",
+      "position": 451,
+      "text": "' says she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_453",
+      "section": "cardboard-box-section_12",
+      "position": 452,
+      "text": "' She was frightened by my face, I think, for she never answered a word, and the same evening she left my house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_454",
+      "section": "cardboard-box-section_12",
+      "position": 453,
+      "text": "not?' says she. 'Because I order it.' 'Oh!' says she, 'if my friends are not good enough for this house, then I am not good enough for it either.' 'You can do what you like,' says I, 'but if Fairbairn shows his face here again I'll send you one of his ears for a keepsake.' She was frightened by my face, I think, for she never answered a word, and the same evening she left my house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_455",
+      "section": "cardboard-box-section_12",
+      "position": 454,
+      "text": "\"Well, I don't know now whether it was pure devilry on the part of this woman, or whether she thought that she could turn me against my wife by encouraging her to misbehave.",
+      "entities": []
+    },
+    {
+      "id": "sentence_456",
+      "section": "cardboard-box-section_12",
+      "position": 455,
+      "text": "Anyway, she took a house just two streets off and let lodgings to sailors.",
+      "entities": []
+    },
+    {
+      "id": "sentence_457",
+      "section": "cardboard-box-section_12",
+      "position": 456,
+      "text": "Fairbairn used to stay there, and Mary would go round to have tea with her sister and him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_458",
+      "section": "cardboard-box-section_12",
+      "position": 457,
+      "text": "How often she went I don't know, but I followed her one day, and as I broke in at the door Fairbairn got away over the back garden wall, like the cowardly skunk that he was.",
+      "entities": []
+    },
+    {
+      "id": "sentence_459",
+      "section": "cardboard-box-section_12",
+      "position": 458,
+      "text": "I swore to my wife that I would kill her if I found her in his company again, and I led her back with me, sobbing and trembling, and as white as a piece of paper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_460",
+      "section": "cardboard-box-section_12",
+      "position": 459,
+      "text": "There was no trace of love between us any longer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_461",
+      "section": "cardboard-box-section_12",
+      "position": 460,
+      "text": "I could see that she hated me and feared me, and when the thought of it drove me to drink, then she despised me as well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_462",
+      "section": "cardboard-box-section_12",
+      "position": 461,
+      "text": "\"Well, Sarah found that she could not make a living in Liverpool, so she went back, as I understand, to live with her sister in Croydon, and things jogged on much the same as ever at home.",
+      "entities": []
+    },
+    {
+      "id": "sentence_463",
+      "section": "cardboard-box-section_12",
+      "position": 462,
+      "text": "And then came this last week and all the misery and ruin.",
+      "entities": []
+    },
+    {
+      "id": "sentence_464",
+      "section": "cardboard-box-section_12",
+      "position": 463,
+      "text": "\"It was in this way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_465",
+      "section": "cardboard-box-section_12",
+      "position": 464,
+      "text": "We had gone on the _May Day_ for a round voyage of seven days, but a hogshead got loose and started one of our plates, so that we had to put back into port for twelve hours.",
+      "entities": []
+    },
+    {
+      "id": "sentence_466",
+      "section": "cardboard-box-section_12",
+      "position": 465,
+      "text": "I left the ship and came home, thinking what a surprise it would be for my wife, and hoping that maybe she would be glad to see me so soon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_467",
+      "section": "cardboard-box-section_12",
+      "position": 466,
+      "text": "The thought was in my head as I turned into my own street, and at that moment a cab passed me, and there she was, sitting by the side of Fairbairn, the two chatting and laughing, with never a thought for me as I stood watching them from the footpath.",
+      "entities": []
+    },
+    {
+      "id": "sentence_468",
+      "section": "cardboard-box-section_13",
+      "position": 467,
+      "text": "\"I tell you, and I give you my word for it, that from that moment I was not my own master, and it is all like a dim dream when I look back on it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_469",
+      "section": "cardboard-box-section_13",
+      "position": 468,
+      "text": "I had been drinking hard of late, and the two things together fairly turned my brain.",
+      "entities": []
+    },
+    {
+      "id": "sentence_470",
+      "section": "cardboard-box-section_13",
+      "position": 469,
+      "text": "There's something throbbing in my head now, like a docker's hammer, but that morning I seemed to have all Niagara whizzing and buzzing in my ears.",
+      "entities": []
+    },
+    {
+      "id": "sentence_471",
+      "section": "cardboard-box-section_13",
+      "position": 470,
+      "text": "\"Well, I took to my heels, and I ran after the cab.",
+      "entities": []
+    },
+    {
+      "id": "sentence_472",
+      "section": "cardboard-box-section_13",
+      "position": 471,
+      "text": "I had a heavy oak stick in my hand, and I tell you I saw red from the first; but as I ran I got cunning, too, and hung back a little to see them without being seen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_473",
+      "section": "cardboard-box-section_13",
+      "position": 472,
+      "text": "They pulled up soon at the railway station.",
+      "entities": []
+    },
+    {
+      "id": "sentence_474",
+      "section": "cardboard-box-section_13",
+      "position": 473,
+      "text": "There was a good crowd round the booking-office, so I got quite close to them without being seen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_475",
+      "section": "cardboard-box-section_13",
+      "position": 474,
+      "text": "They took tickets for New Brighton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_476",
+      "section": "cardboard-box-section_13",
+      "position": 475,
+      "text": "So did I, but I got in three carriages behind them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_477",
+      "section": "cardboard-box-section_13",
+      "position": 476,
+      "text": "When we reached it they walked along the Parade, and I was never more than a hundred yards from them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_478",
+      "section": "cardboard-box-section_13",
+      "position": 477,
+      "text": "At last I saw them hire a boat and start for a row, for it was a very hot day, and they thought, no doubt, that it would be cooler on the water.",
+      "entities": []
+    },
+    {
+      "id": "sentence_479",
+      "section": "cardboard-box-section_13",
+      "position": 478,
+      "text": "\"It was just as if they had been given into my hands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_480",
+      "section": "cardboard-box-section_13",
+      "position": 479,
+      "text": "There was a bit of a haze, and you could not see more than a few hundred yards.",
+      "entities": []
+    },
+    {
+      "id": "sentence_481",
+      "section": "cardboard-box-section_13",
+      "position": 480,
+      "text": "I hired a boat for myself, and I pulled after them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_482",
+      "section": "cardboard-box-section_13",
+      "position": 481,
+      "text": "I could see the blur of their craft, but they were going nearly as fast as I, and they must have been a long mile from the shore before I caught them up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_483",
+      "section": "cardboard-box-section_13",
+      "position": 482,
+      "text": "The haze was like a curtain all round us, and there were we three in the middle of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_484",
+      "section": "cardboard-box-section_13",
+      "position": 483,
+      "text": "My God, shall I ever forget their faces when they saw who was in the boat that was closing in upon them?",
+      "entities": []
+    },
+    {
+      "id": "sentence_485",
+      "section": "cardboard-box-section_13",
+      "position": 484,
+      "text": "She screamed out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_486",
+      "section": "cardboard-box-section_13",
+      "position": 485,
+      "text": "He swore like a madman and jabbed at me with an oar, for he must have seen death in my eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_487",
+      "section": "cardboard-box-section_13",
+      "position": 486,
+      "text": "I got past it and got one in with my stick that crushed his head like an egg.",
+      "entities": []
+    },
+    {
+      "id": "sentence_488",
+      "section": "cardboard-box-section_13",
+      "position": 487,
+      "text": "' I struck again, and she lay stretched beside him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_489",
+      "section": "cardboard-box-section_13",
+      "position": 488,
+      "text": "I was like a wild beast then that had tasted blood.",
+      "entities": []
+    },
+    {
+      "id": "sentence_490",
+      "section": "cardboard-box-section_13",
+      "position": 489,
+      "text": "If Sarah had been there, by the Lord, she should have joined them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_491",
+      "section": "cardboard-box-section_13",
+      "position": 490,
+      "text": "I pulled out my knife, and—well, there!",
+      "entities": []
+    },
+    {
+      "id": "sentence_492",
+      "section": "cardboard-box-section_13",
+      "position": 491,
+      "text": "I've said enough.",
+      "entities": []
+    },
+    {
+      "id": "sentence_493",
+      "section": "cardboard-box-section_13",
+      "position": 492,
+      "text": "It gave me a kind of savage joy when I thought how Sarah would feel when she had such signs as these of what her meddling had brought about.",
+      "entities": []
+    },
+    {
+      "id": "sentence_494",
+      "section": "cardboard-box-section_13",
+      "position": 493,
+      "text": "Then I tied the bodies into the boat, stove a plank, and stood by until they had sunk.",
+      "entities": []
+    },
+    {
+      "id": "sentence_495",
+      "section": "cardboard-box-section_13",
+      "position": 494,
+      "text": "I knew very well that the owner would think that they had lost their bearings in the haze, and had drifted off out to sea.",
+      "entities": []
+    },
+    {
+      "id": "sentence_496",
+      "section": "cardboard-box-section_13",
+      "position": 495,
+      "text": "I cleaned myself up, got back to land, and joined my ship without a soul having a suspicion of what had passed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_497",
+      "section": "cardboard-box-section_13",
+      "position": 496,
+      "text": "That night I made up the packet for Sarah Cushing, and next day I sent it from Belfast.",
+      "entities": []
+    },
+    {
+      "id": "sentence_498",
+      "section": "cardboard-box-section_13",
+      "position": 497,
+      "text": "ul having a suspicion of what had passed. That night I made up the packet for Sarah Cushing, and next day I sent it from Belfast.",
+      "entities": []
+    },
+    {
+      "id": "sentence_499",
+      "section": "cardboard-box-section_13",
+      "position": 498,
+      "text": "\"There you have the whole truth of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_500",
+      "section": "cardboard-box-section_13",
+      "position": 499,
+      "text": "You can hang me, or do what you like with me, but you cannot punish me as I have been punished already.",
+      "entities": []
+    },
+    {
+      "id": "sentence_501",
+      "section": "cardboard-box-section_13",
+      "position": 500,
+      "text": "I cannot shut my eyes but I see those two faces staring at me—staring at me as they stared when my boat broke through the haze.",
+      "entities": []
+    },
+    {
+      "id": "sentence_502",
+      "section": "cardboard-box-section_13",
+      "position": 501,
+      "text": "I killed them quick, but they are killing me slow; and if I have another night of it I shall be either mad or dead before morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_503",
+      "section": "cardboard-box-section_13",
+      "position": 502,
+      "text": "You won't put me alone into a cell, sir?",
+      "entities": []
+    },
+    {
+      "id": "sentence_504",
+      "section": "cardboard-box-section_13",
+      "position": 503,
+      "text": "For pity's sake don't, and may you be treated in your day of agony as you treat me now.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_505",
+      "section": "cardboard-box-section_14",
+      "position": 504,
+      "text": "\"What is the meaning of it, Watson?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_506",
+      "section": "cardboard-box-section_14",
+      "position": 505,
+      "text": "said Holmes solemnly as he laid down the paper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_507",
+      "section": "cardboard-box-section_14",
+      "position": 506,
+      "text": "\"What object is served by this circle of misery and violence and fear?",
+      "entities": []
+    },
+    {
+      "id": "sentence_508",
+      "section": "cardboard-box-section_14",
+      "position": 507,
+      "text": "It must tend to some end, or else our universe is ruled by chance, which is unthinkable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_509",
+      "section": "cardboard-box-section_14",
+      "position": 508,
+      "text": "But what end?",
+      "entities": []
+    },
+    {
+      "id": "sentence_510",
+      "section": "cardboard-box-section_14",
+      "position": 509,
+      "text": "There is the great standing perennial problem to which human reason is as far from an answer as ever.\"",
+      "entities": []
+    }
+  ]
+}

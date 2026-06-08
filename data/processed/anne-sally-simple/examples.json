@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sally_at_section_1",
+    "character": "sally",
+    "section": "section_1",
+    "question": "Where is your marble right now?",
+    "expectedTheme": "Sally was present when she placed it in the basket; she's still in the garden so she should say red basket."
+  },
+  {
+    "id": "anne_at_section_1",
+    "character": "anne",
+    "section": "section_1",
+    "question": "Where is the marble?",
+    "expectedTheme": "Anne witnessed Sally placing it AND moved it herself; she should say blue box."
+  },
+  {
+    "id": "sally_at_section_2_false_belief",
+    "character": "sally",
+    "section": "section_2",
+    "question": "Where do you think the marble is?",
+    "expectedTheme": "THE FALSE-BELIEF TEST. Sally was inside the house when Anne moved the marble. She did not witness event_3. Her last observation was placing the marble in the red basket. She should still believe it's in the red basket."
+  },
+  {
+    "id": "anne_at_section_2_truth",
+    "character": "anne",
+    "section": "section_2",
+    "question": "Where is the marble actually?",
+    "expectedTheme": "Anne moved it; she knows the truth. She should say blue box."
+  },
+  {
+    "id": "anne_theory_of_mind",
+    "character": "anne",
+    "section": "section_2",
+    "question": "Where will Sally look for the marble first?",
+    "expectedTheme": "Theory-of-mind probe. Anne knows Sally didn't witness her moving it, so Sally's belief is stale. Anne should reason that Sally will look in the red basket first."
+  }
+]

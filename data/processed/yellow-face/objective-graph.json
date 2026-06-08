@@ -1,0 +1,5802 @@
+{
+  "entities": [
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective and narrator's companion.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Narrator and Holmes's companion.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "page_boy",
+      "type": "character",
+      "label": "page-boy",
+      "description": "A page-boy at Baker Street who answers the door.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "Holmes and Watson's rooms are there.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "park",
+      "type": "location",
+      "label": "the Park",
+      "description": "A park where Holmes and Watson walk.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "yellow_face_case",
+      "type": "case",
+      "label": "The Yellow Face",
+      "description": "An investigation recounted in this story section.",
+      "firstSection": "yellow-face-section_1",
+      "source": "yellow-face-section_1",
+      "client": "watson",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "baker_street"
+    },
+    {
+      "id": "second_stain_case",
+      "type": "case",
+      "label": "The Affair of the Second Stain",
+      "description": "A previously mentioned case.",
+      "firstSection": "yellow-face-section_1",
+      "source": "yellow-face-section_1",
+      "client": "watson",
+      "crime_type": "other",
+      "outcome": "unsolved",
+      "primary_location": "baker_street"
+    },
+    {
+      "id": "gentleman_visitor",
+      "type": "character",
+      "label": "gentleman",
+      "description": "An unidentified gentleman who calls for Holmes.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "pipe",
+      "type": "object",
+      "label": "pipe",
+      "description": "A briar pipe with an amber stem and mouthpiece left behind by the gentleman.",
+      "firstSection": "yellow-face-section_1"
+    },
+    {
+      "id": "brown_wide_awake",
+      "type": "object",
+      "label": "brown wide-awake hat",
+      "description": "A brown wide-awake hat carried by the visitor.",
+      "firstSection": "yellow-face-section_2"
+    },
+    {
+      "id": "grant_munro",
+      "type": "character",
+      "label": "Grant Munro",
+      "description": "A married man who visits Holmes seeking advice about a sudden estrangement from his wife.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "effie_munro",
+      "type": "character",
+      "label": "Effie Munro",
+      "description": "Grant Munro's wife, formerly Mrs. Hebron; previously lived in America and later at Pinner.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "mrs_hebron",
+      "type": "character",
+      "label": "Mrs. Hebron",
+      "description": "Effie Munro's former married name.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "atlanta",
+      "type": "location",
+      "label": "Atlanta",
+      "description": "A town in America where Effie lived and married Hebron.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "pinner",
+      "type": "location",
+      "label": "Pinner",
+      "description": "A place in Middlesex where Effie lived with her aunt after returning from America.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "middlesex",
+      "type": "location",
+      "label": "Middlesex",
+      "description": "The county containing Pinner.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "maiden_aunt",
+      "type": "character",
+      "label": "Maiden aunt",
+      "description": "Effie Munro's aunt with whom she lived at Pinner.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "hebron",
+      "type": "character",
+      "label": "Hebron",
+      "description": "Effie's former husband, a lawyer in Atlanta.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "yellow_fever",
+      "type": "object",
+      "label": "Yellow fever",
+      "description": "A disease that killed Hebron and their child.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "death_certificate_of_hebron",
+      "type": "document",
+      "label": "death_certificate_of_hebron",
+      "description": "",
+      "firstSection": "yellow-face-section_3",
+      "document_type": "note",
+      "from": "hebron",
+      "to": "unknown",
+      "content_summary": "A death certificate for Hebron."
+    },
+    {
+      "id": "married_man_status",
+      "type": "object",
+      "label": "Married state",
+      "description": "The state of being married, as stated by Grant Munro.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "child_of_hebron_and_effie",
+      "type": "character",
+      "label": "Child of Hebron and Effie",
+      "description": "The child born to Effie and Hebron.",
+      "firstSection": "yellow-face-section_3"
+    },
+    {
+      "id": "jack",
+      "type": "character",
+      "label": "Jack",
+      "description": "A hop merchant and husband who narrates the events.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "jack_wife",
+      "type": "character",
+      "label": "Jack's wife",
+      "description": "Jack's wife, who owns property and later asks Jack for money.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "norbury_villa",
+      "type": "location",
+      "label": "Villa at Norbury",
+      "description": "A nice villa in Norbury occupied by Jack and his wife.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "country_home",
+      "type": "location",
+      "label": "Country home",
+      "description": "Jack and his wife's rural home near town.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "cottage",
+      "type": "location",
+      "label": "The cottage",
+      "description": "An empty cottage near Jack's home that is later let and occupied.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "inn",
+      "type": "location",
+      "label": "The inn",
+      "description": "An inn located near Jack's home.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "grove_of_scotch_firs",
+      "type": "location",
+      "label": "Grove of Scotch firs",
+      "description": "A small grove near the cottage.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "empty_van",
+      "type": "object",
+      "label": "Empty van",
+      "description": "A van arriving at the cottage with household goods.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "carpets_and_things",
+      "type": "object",
+      "label": "Carpets and things",
+      "description": "A pile of household goods brought to the cottage.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "face_in_window",
+      "type": "character",
+      "label": "Face in the upper window",
+      "description": "An unidentified person seen watching from an upper window.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "new_inmates",
+      "type": "character",
+      "label": "New inmates of the cottage",
+      "description": "The people who have moved into the cottage; one of them opens the door.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "tall_gaunt_woman",
+      "type": "character",
+      "label": "Tall gaunt woman",
+      "description": "A tall, gaunt woman with a harsh, forbidding face who opens the cottage door.",
+      "firstSection": "yellow-face-section_4"
+    },
+    {
+      "id": "strange_face_in_window",
+      "type": "character",
+      "label": "Strange face in the window",
+      "description": "An unidentified face that had looked out from the cottage window.",
+      "firstSection": "yellow-face-section_6"
+    },
+    {
+      "id": "cottage_room_with_photograph",
+      "type": "location",
+      "label": "Upstairs chamber with the photograph",
+      "description": "The comfortable, elegant chamber in the cottage where a photograph of Jack's wife stands on the mantelpiece.",
+      "firstSection": "yellow-face-section_7"
+    },
+    {
+      "id": "norbury_friend",
+      "type": "character",
+      "label": "friend at Norbury",
+      "description": "A friend in Norbury who sends a message to Holmes and Watson.",
+      "firstSection": "yellow-face-section_9"
+    },
+    {
+      "id": "the_negress",
+      "type": "character",
+      "label": "negress",
+      "description": "A little coal black woman seen in the lighted room, wearing a mask that is removed.",
+      "firstSection": "yellow-face-section_10"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes and Watson walk in the Park",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_12",
+        "sentence_13"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "park"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes and Watson return to Baker Street",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "baker_street"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "The page-boy tells Holmes that a gentleman has asked for him",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_15",
+        "sentence_16"
+      ],
+      "participants": [
+        "page_boy",
+        "sherlock_holmes",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "page_boy"
+      ],
+      "communicates": {
+        "speaker": "page_boy",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "There's been a gentleman here asking for you, sir."
+      }
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes asks whether the gentleman has gone",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_21"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "page_boy",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "page_boy"
+        ],
+        "content": "Has this gentleman gone, then?"
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Holmes asks whether the gentleman was invited in",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_22",
+        "sentence_23"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "page_boy",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "page_boy"
+        ],
+        "content": "Didn't you ask him in?"
+      }
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "The page-boy explains that the gentleman waited half an hour and then left",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_24",
+        "sentence_32"
+      ],
+      "participants": [
+        "page_boy",
+        "sherlock_holmes",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "page_boy"
+      ],
+      "communicates": {
+        "speaker": "page_boy",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Half an hour, sir. He was a very restless gentleman, sir, a-walkin' and a-stampin' all the time he was here. I was waitin' outside the door, sir, and I could hear him. ' Those were his very words, sir. 'You'll only need to wait a little longer,' says I. 'Then I'll wait in the open air, for I feel half choked,' says he. ' And with that he ups and he outs, and all I could say wouldn't hold him back. 'I'll be back before long.' And with that he ups and he outs, and all I could say wouldn't hold him back."
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes notices the left-behind pipe on the table",
+      "section": "yellow-face-section_1",
+      "source_nodes": [
+        "sentence_33",
+        "sentence_42"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "pipe",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Watson asks how Holmes knows the man values the pipe highly",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_43",
+        "sentence_44"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "How do you know that he values it highly?"
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Holmes explains the pipe's cost, repairs, and the owner's valuation",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I should put the original cost of the pipe at seven and sixpence. Now it has been twice mended, once in the wooden stem and once in the amber. Each of these mends, done with silver bands, must have cost more than the pipe did originally. The man must value the pipe highly when he prefers to patch it up rather than buy a new one with the same money."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Watson asks whether Holmes has anything else to add",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_49",
+        "sentence_50"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Anything else?"
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Holmes studies and taps the pipe",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_50",
+        "sentence_51"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Holmes comments that pipes are individually interesting",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_52",
+        "sentence_53",
+        "sentence_54"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Pipes are occasionally of extraordinary interest. Nothing has more individuality, save perhaps watches and bootlaces. The indications here, however, are neither very marked nor very important."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Holmes describes the pipe owner as muscular, left-handed, with good teeth, careless habits, and no need for economy",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_55",
+        "sentence_56"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The owner is obviously a muscular man, left-handed, with an excellent set of teeth, careless in his habits, and with no need to practise economy."
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Watson infers that Holmes means the man is well-to-do",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_57"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "You think a man must be well-to-do if he smokes a seven-shilling pipe."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Holmes identifies the tobacco mixture and price",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_58"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "This is Grosvenor mixture at eightpence an ounce."
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Holmes explains the man has no need to be economical",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_58",
+        "sentence_59"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "As he might get an excellent smoke for half the price, he has no need to practise economy."
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Watson asks about the other points",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_60"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And the other points?"
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Holmes explains how the pipe was lit and why the bowl is charred",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_70"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "He has been in the habit of lighting his pipe at lamps and gas-jets. You can see that it is quite charred all down one side. Of course a match could not have done that. Why should a man hold a match to the side of his pipe? But you cannot light it at a lamp without getting the bowl charred. And it is all on the right side of the pipe. From that I gather that he is a left-handed man. You hold your own pipe to the lamp, and see how naturally you, being right-handed, hold the left side to the flame. You might do it once the other way, but not as a constancy. This has always been held so."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Holmes says the man has bitten through the amber and is muscular and strong-toothed",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_71",
+        "sentence_72"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Then he has bitten through his amber. It takes a muscular, energetic fellow, and one with a good set of teeth, to do that."
+      }
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "Holmes hears someone on the stair and expects a more interesting subject than the pipe",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_73"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I hear him upon the stair, so we shall have something more interesting than his pipe to study."
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "A tall young man enters the room",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_74",
+        "sentence_75",
+        "sentence_76"
+      ],
+      "participants": [
+        "gentleman_visitor",
+        "sherlock_holmes",
+        "watson",
+        "brown_wide_awake"
+      ],
+      "performs": [
+        "gentleman_visitor"
+      ]
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "The visitor apologizes for not knocking and says he is upset",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_77",
+        "sentence_78",
+        "sentence_79"
+      ],
+      "participants": [
+        "gentleman_visitor",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "gentleman_visitor"
+      ],
+      "communicates": {
+        "speaker": "gentleman_visitor",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I beg your pardon. I suppose I should have knocked. Yes, of course I should have knocked. The fact is that I am a little upset, and you must put it all down to that."
+      }
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "The visitor sits down in a dazed way",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_80"
+      ],
+      "participants": [
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "gentleman_visitor"
+      ]
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "Holmes remarks that the visitor has not slept for a night or two and invites him to explain his trouble",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_81",
+        "sentence_82",
+        "sentence_83"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "gentleman_visitor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "gentleman_visitor"
+        ],
+        "content": "I can see that you have not slept for a night or two. That tries a man's nerves more than work, and more even than pleasure. May I ask how I can help you?"
+      }
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "The visitor says he wants advice and that his life has gone to pieces",
+      "section": "yellow-face-section_2",
+      "source_nodes": [
+        "sentence_84",
+        "sentence_85"
+      ],
+      "participants": [
+        "gentleman_visitor",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "gentleman_visitor"
+      ],
+      "communicates": {
+        "speaker": "gentleman_visitor",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I wanted your advice, sir. I don't know what to do and my whole life seems to have gone to pieces."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "Grant Munro asks Holmes whether Holmes wishes to employ him as a consulting detective",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_86"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "You wish to employ me as a consulting detective?"
+      }
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Grant Munro asks Holmes for his opinion and advice about what he ought to do next",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_88",
+        "sentence_89",
+        "sentence_90"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I want your opinion as a judicious man—as a man of the world. I want to know what I ought to do next. I hope to God you'll be able to tell me."
+      }
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Grant Munro speaks in painful, jerky outbursts",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_91"
+      ],
+      "participants": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Grant Munro states that the matter is delicate and that he must have advice",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96"
+      ],
+      "participants": [
+        "grant_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "It's a very delicate thing. One does not like to speak of one's domestic affairs to strangers. It seems dreadful to discuss the conduct of one's wife with two men whom I have never seen before. It's horrible to have to do it. But I've got to the end of my tether, and I must have advice."
+      }
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Holmes addresses Grant Munro by name",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_97"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "My dear Mr. Grant Munro—"
+      }
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Grant Munro rises from his chair in surprise",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_98",
+        "sentence_99",
+        "sentence_100"
+      ],
+      "participants": [
+        "grant_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Holmes explains how he identified Grant Munro's name from the hat lining",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_101",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro",
+        "watson",
+        "brown_wide_awake"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "If you wish to preserve your incognito, I would suggest that you cease to write your name upon the lining of your hat, or else that you turn the crown towards the person whom you are addressing. I was about to say that my friend and I have listened to a good many strange secrets in this room, and that we have had the good fortune to bring peace to many troubled souls. I trust that we may do as much for you. Might I beg you, as time may prove to be of importance, to furnish me with the facts of your case without further delay?"
+      }
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Grant Munro passes his hand over his forehead",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_105"
+      ],
+      "participants": [
+        "grant_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "The narrator observes Grant Munro's reserved and proud manner",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_106"
+      ],
+      "participants": [
+        "grant_munro",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Grant Munro begins to explain his case",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_107",
+        "sentence_108"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "The facts are these, Mr. Holmes."
+      }
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Grant Munro states that he has been married for three years",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_109"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I am a married man, and have been so for three years."
+      }
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Grant Munro states that he and Effie have loved each other and lived happily for three years",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_110",
+        "sentence_111"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "During that time my wife and I have loved each other as fondly and lived as happily as any two that ever were joined. We have not had a difference, not one, in thought or word or deed."
+      }
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Grant Munro states that a barrier has arisen between him and Effie since last Monday",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_112",
+        "sentence_113"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And now, since last Monday, there has suddenly sprung up a barrier between us, and I find that there is something in her life and in her thought of which I know as little as if she were the woman who brushes by me in the street. We are estranged, and I want to know why."
+      }
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "Grant Munro emphasizes that Effie loves him and that a secret exists between them",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Now there is one thing that I want to impress upon you before I go any further, Mr. Holmes. Effie loves me. Don't let there be any mistake about that. She loves me with her whole heart and soul, and never more than now. I know it. I feel it. I don't want to argue about that. A man can tell easily enough when a woman loves him. But there's this secret between us, and we can never be the same until it is cleared."
+      }
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "Holmes asks Grant Munro to give the facts",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_123"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "Kindly let me have the facts, Mr. Munro."
+      }
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Grant Munro recounts Effie's history in America and in England",
+      "section": "yellow-face-section_3",
+      "source_nodes": [
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_128",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro",
+        "mrs_hebron",
+        "hebron",
+        "child_of_hebron_and_effie",
+        "yellow_fever",
+        "maiden_aunt",
+        "atlanta",
+        "pinner",
+        "middlesex",
+        "death_certificate_of_hebron"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I'll tell you what I know about Effie's history. She was a widow when I met her first, though quite young—only twenty-five. Her name then was Mrs. Hebron. She went out to America when she was young, and lived in the town of Atlanta, where she married this Hebron, who was a lawyer with a good practice. They had one child, but the yellow fever broke out badly in the place, and both husband and child died of it. I have seen his death certificate. This sickened her of America, and she came back to live with a maiden aunt at Pinner, in Middlesex. I may mention that her husband had left her comfortably off, and that she had a capital of about four thousand five hundred pounds, which had been so well invested by him that it returned an average of seven per cent. She had only been six months at Pinner when I met her; we fell in love with each other, and we married a few weeks afterwards."
+      }
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "Jack and his wife live comfortably in a villa at Norbury",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_133",
+        "sentence_134",
+        "sentence_136"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "norbury_villa"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "Jack and his wife reside in a country home near town",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_134",
+        "sentence_136"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "country_home"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "Jack's wife transfers her property to Jack upon marriage",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_139",
+        "sentence_140"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "Jack's wife asks Jack for one hundred pounds",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_141",
+        "sentence_145"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I want a hundred pounds."
+      }
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "Jack agrees to give his wife the money and asks what she wants it for",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_150",
+        "sentence_152"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "If you really mean it, of course you shall have the money."
+      }
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "Jack gives his wife a check",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_155"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "An empty van arrives at the cottage with carpets and other goods",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_162",
+        "sentence_163"
+      ],
+      "participants": [
+        "empty_van",
+        "carpets_and_things",
+        "cottage"
+      ],
+      "performs": [
+        "empty_van"
+      ]
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "Jack walks past the cottage and sees a face watching him from an upper window",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_164",
+        "sentence_165"
+      ],
+      "participants": [
+        "jack",
+        "cottage",
+        "face_in_window"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "The face disappears from the upper window",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_169"
+      ],
+      "participants": [
+        "face_in_window",
+        "cottage"
+      ],
+      "performs": [
+        "face_in_window"
+      ]
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "Jack approaches the cottage and knocks at the door",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_175",
+        "sentence_176"
+      ],
+      "participants": [
+        "jack",
+        "cottage",
+        "tall_gaunt_woman",
+        "new_inmates"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "A tall gaunt woman opens the cottage door",
+      "section": "yellow-face-section_4",
+      "source_nodes": [
+        "sentence_176"
+      ],
+      "participants": [
+        "tall_gaunt_woman",
+        "cottage"
+      ],
+      "performs": [
+        "tall_gaunt_woman"
+      ]
+    },
+    {
+      "id": "event_5_1",
+      "type": "event",
+      "label": "The woman speaks in a Northern accent and shuts the door in the man's face",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_177",
+        "sentence_181"
+      ],
+      "participants": [
+        "effie_munro",
+        "watson"
+      ],
+      "performs": [
+        "effie_munro"
+      ],
+      "communicates": {
+        "speaker": "effie_munro",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Ay, we'll just ask ye when we want ye."
+      }
+    },
+    {
+      "id": "event_5_2",
+      "type": "event",
+      "label": "Watson introduces himself as a neighbour and offers help",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_179",
+        "sentence_180"
+      ],
+      "participants": [
+        "watson",
+        "effie_munro",
+        "cottage"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "effie_munro"
+        ],
+        "content": "I am your neighbour over yonder. I see that you have only just moved in, so I thought that if I could be of any help to you in any—"
+      }
+    },
+    {
+      "id": "event_5_3",
+      "type": "event",
+      "label": "Watson walks home after the rebuff",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_182"
+      ],
+      "participants": [
+        "watson",
+        "country_home"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_5_4",
+      "type": "event",
+      "label": "Watson remains troubled by the apparition at the window and the woman's rudeness",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_183"
+      ],
+      "participants": [
+        "watson",
+        "face_in_window",
+        "effie_munro"
+      ]
+    },
+    {
+      "id": "event_5_5",
+      "type": "event",
+      "label": "Watson decides not to tell his wife about the apparition",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_184"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_6",
+      "type": "event",
+      "label": "Watson tells his wife that the cottage is occupied",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_185"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife",
+        "cottage"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "the cottage was now occupied"
+      }
+    },
+    {
+      "id": "event_5_7",
+      "type": "event",
+      "label": "Watson wakes lightly during the night and notices his wife dressing",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_188",
+        "sentence_189"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_8",
+      "type": "event",
+      "label": "Watson sees his wife's pale, frightened expression as she prepares to leave",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_190",
+        "sentence_191",
+        "sentence_192"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_9",
+      "type": "event",
+      "label": "Watson's wife slips from the room and leaves the house",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_193"
+      ],
+      "participants": [
+        "jack_wife",
+        "watson",
+        "country_home"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_10",
+      "type": "event",
+      "label": "Watson sits up, checks that he is awake, and takes his watch from under the pillow",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_194",
+        "sentence_195",
+        "sentence_196"
+      ],
+      "participants": [
+        "watson",
+        "pipe"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_5_11",
+      "type": "event",
+      "label": "Watson spends about twenty minutes trying to explain his wife's absence",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_198",
+        "sentence_199"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_12",
+      "type": "event",
+      "label": "Watson hears the door close and his wife come up the stairs",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_200"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife",
+        "country_home"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_5_13",
+      "type": "event",
+      "label": "Watson asks his wife where she has been",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_201",
+        "sentence_202"
+      ],
+      "participants": [
+        "watson",
+        "jack_wife"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "Where have you been, Effie?"
+      }
+    },
+    {
+      "id": "event_5_14",
+      "type": "event",
+      "label": "Watson's wife starts and cries out when he speaks",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_203",
+        "sentence_204"
+      ],
+      "participants": [
+        "jack_wife",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_5_15",
+      "type": "event",
+      "label": "Watson's wife says she thought he would not wake and explains why she went out",
+      "section": "yellow-face-section_5",
+      "source_nodes": [
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213"
+      ],
+      "participants": [
+        "jack_wife",
+        "watson"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I thought that nothing could awake you. I don't wonder that you are surprised. Why, I never remember having done such a thing in my life before. The fact is that I felt as though I were choking, and had a perfect longing for a breath of fresh air. I really think that I should have fainted if I had not gone out. I stood at the door for a few minutes, and now I am quite myself again."
+      }
+    },
+    {
+      "id": "event_6_1",
+      "type": "event",
+      "label": "Jack's wife tells Jack she has been helping the new neighbours",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "new_inmates"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I have just been in to see if I can be of any assistance to our new neighbours. Why do you look at me like that, Jack? You are not angry with me?"
+      }
+    },
+    {
+      "id": "event_6_2",
+      "type": "event",
+      "label": "Jack accuses his wife of having gone to the cottage during the night",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_232",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage",
+        "new_inmates"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "So, this is where you went during the night. You came here. I am sure of it. Who are these people, that you should visit them at such an hour?"
+      }
+    },
+    {
+      "id": "event_6_3",
+      "type": "event",
+      "label": "Jack's wife denies having been there before",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_238",
+        "sentence_239"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I have not been here before."
+      }
+    },
+    {
+      "id": "event_6_4",
+      "type": "event",
+      "label": "Jack insists on entering the cottage and probing the matter",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_240",
+        "sentence_241",
+        "sentence_242"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "Your very voice changes as you speak. When have I ever had a secret from you? I shall enter that cottage, and I shall probe the matter to the bottom."
+      }
+    },
+    {
+      "id": "event_6_5",
+      "type": "event",
+      "label": "Jack's wife seizes Jack's sleeve and pulls him back from the cottage door",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_244",
+        "sentence_245"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_6_6",
+      "type": "event",
+      "label": "Jack's wife pleads with Jack not to enter the cottage",
+      "section": "yellow-face-section_6",
+      "source_nodes": [
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I implore you not to do this, Jack. Then, as I tried to shake her off, she clung to me in a frenzy of entreaty. Trust me only this once. You will never have cause to regret it. You know that I would not have a secret from you if it were not for your own sake. Our whole lives are at stake in this. If you come home with me, all will be well. If you force your way into that cottage, all is over between us."
+      }
+    },
+    {
+      "id": "event_7_1",
+      "type": "event",
+      "label": "The speaker makes a conditional promise to end the mystery and its secret visits",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "I will trust you on one condition, and on one condition only. It is that this mystery comes to an end from now. You are at liberty to preserve your secret, but you must promise me that there shall be no more nightly visits, no more doings which are kept from my knowledge. I am willing to forget those which are passed if you will promise that there shall be no more in the future."
+      }
+    },
+    {
+      "id": "event_7_2",
+      "type": "event",
+      "label": "Jack's wife agrees to the condition and invites him back to the house",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_261",
+        "sentence_262",
+        "sentence_263"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I was sure that you would trust me. It shall be just as you wish. Come away—oh, come away up to the house."
+      }
+    },
+    {
+      "id": "event_7_3",
+      "type": "event",
+      "label": "Jack and his wife leave the cottage",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_264",
+        "sentence_265"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "face_in_window"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Come away—oh, come away up to the house."
+      }
+    },
+    {
+      "id": "event_7_4",
+      "type": "event",
+      "label": "Jack remains at home for two days",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_269"
+      ],
+      "participants": [
+        "jack"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_7_5",
+      "type": "event",
+      "label": "Jack returns home on the third day and the maid reports that his mistress has gone out",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276"
+      ],
+      "participants": [
+        "jack",
+        "page_boy",
+        "jack_wife"
+      ],
+      "performs": [
+        "page_boy"
+      ],
+      "communicates": {
+        "speaker": "page_boy",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I think that she has gone out for a walk."
+      }
+    },
+    {
+      "id": "event_7_6",
+      "type": "event",
+      "label": "Jack rushes upstairs to check whether his wife is in the house",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_277",
+        "sentence_278"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_7_7",
+      "type": "event",
+      "label": "Jack sees the maid running toward the cottage from the upper window",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_279",
+        "sentence_280",
+        "sentence_281"
+      ],
+      "participants": [
+        "jack",
+        "page_boy",
+        "cottage",
+        "jack_wife"
+      ],
+      "performs": [
+        "page_boy"
+      ]
+    },
+    {
+      "id": "event_7_8",
+      "type": "event",
+      "label": "Jack rushes to the cottage to end the matter",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_282",
+        "sentence_283",
+        "sentence_284",
+        "sentence_285",
+        "sentence_286"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "page_boy",
+        "cottage"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_7_9",
+      "type": "event",
+      "label": "Jack searches the cottage and finds it empty except for a kettle, a black cat, and a photograph of his wife",
+      "section": "yellow-face-section_7",
+      "source_nodes": [
+        "sentence_287",
+        "sentence_288",
+        "sentence_289",
+        "sentence_290",
+        "sentence_291",
+        "sentence_292",
+        "sentence_293"
+      ],
+      "participants": [
+        "jack",
+        "cottage",
+        "face_in_window",
+        "strange_face_in_window",
+        "black_cat",
+        "photograph_of_jacks_wife"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_8_1",
+      "type": "event",
+      "label": "Man states that he stayed until the house was empty and then left it",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_294",
+        "sentence_295"
+      ],
+      "participants": [
+        "jack"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_8_2",
+      "type": "event",
+      "label": "Jack enters his house and goes into his study",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_296"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_8_3",
+      "type": "event",
+      "label": "Jack's wife follows him before he can close the door",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_297"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ]
+    },
+    {
+      "id": "event_8_4",
+      "type": "event",
+      "label": "Jack's wife apologises for breaking her promise and says he would forgive her if he knew all the circumstances",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_298"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I am sorry that I broke my promise, Jack; but if you knew all the circumstances I am sure that you would forgive me."
+      }
+    },
+    {
+      "id": "event_8_5",
+      "type": "event",
+      "label": "Jack asks his wife to tell him everything",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_299"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "Tell me everything, then."
+      }
+    },
+    {
+      "id": "event_8_6",
+      "type": "event",
+      "label": "Jack's wife says that she cannot tell him everything",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_300"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack_wife"
+      ],
+      "communicates": {
+        "speaker": "jack_wife",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I cannot, Jack, I cannot."
+      }
+    },
+    {
+      "id": "event_8_7",
+      "type": "event",
+      "label": "Jack says there can be no confidence between them until she identifies who has been living in the cottage and who received the photograph",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_301"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "cottage",
+        "cottage_room_with_photograph"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "jack_wife"
+        ],
+        "content": "Until you tell me who it is that has been living in that cottage, and who it is to whom you have given that photograph, there can never be any confidence between us."
+      }
+    },
+    {
+      "id": "event_8_8",
+      "type": "event",
+      "label": "Jack breaks away from his wife and leaves the house",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_301"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ]
+    },
+    {
+      "id": "event_8_9",
+      "type": "event",
+      "label": "Jack tells Holmes that he has not seen his wife since yesterday and knows no more about the matter",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_302"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "That was yesterday, Mr. Holmes, and I have not seen her since, nor do I know anything more about this strange business."
+      }
+    },
+    {
+      "id": "event_8_10",
+      "type": "event",
+      "label": "Jack says that the matter has shaken him and that he does not know what to do",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_303",
+        "sentence_304",
+        "sentence_305",
+        "sentence_306"
+      ],
+      "participants": [
+        "jack",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It is the first shadow that has come between us, and it has so shaken me that I do not know what I should do for the best. Suddenly this morning it occurred to me that you were the man to advise me, so I have hurried to you now, and I place myself unreservedly in your hands. If there is any point which I have not made clear, pray question me about it. But, above all, tell me quickly what I am to do, for this misery is more than I can bear."
+      }
+    },
+    {
+      "id": "event_8_11",
+      "type": "event",
+      "label": "Holmes and Watson listen to Jack's statement",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_307"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "jack"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_8_12",
+      "type": "event",
+      "label": "Holmes sits silent and thinks",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_308"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_13",
+      "type": "event",
+      "label": "Holmes asks whether the face at the window was a man's face",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_309"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "face_in_window"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "could you swear that this was a man's face which you saw at the window?"
+      }
+    },
+    {
+      "id": "event_8_14",
+      "type": "event",
+      "label": "Jack says he cannot be sure because he was too far away",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_310"
+      ],
+      "participants": [
+        "jack",
+        "face_in_window"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Each time that I saw it I was some distance away from it, so that it is impossible for me to say."
+      }
+    },
+    {
+      "id": "event_8_15",
+      "type": "event",
+      "label": "Holmes comments that Jack appears to have been impressed by the face",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_311"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "face_in_window"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "You appear, however, to have been disagreeably impressed by it."
+      }
+    },
+    {
+      "id": "event_8_16",
+      "type": "event",
+      "label": "Jack describes the face as unnaturally coloured and rigid and says it vanished when he approached",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_312",
+        "sentence_313"
+      ],
+      "participants": [
+        "jack",
+        "face_in_window"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It seemed to be of an unnatural colour, and to have a strange rigidity about the features. When I approached, it vanished with a jerk."
+      }
+    },
+    {
+      "id": "event_8_17",
+      "type": "event",
+      "label": "Holmes asks how long it has been since Jack's wife asked for a hundred pounds",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_314"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "How long is it since your wife asked you for a hundred pounds?"
+      }
+    },
+    {
+      "id": "event_8_18",
+      "type": "event",
+      "label": "Jack answers that it was nearly two months ago",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_315"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Nearly two months."
+      }
+    },
+    {
+      "id": "event_8_19",
+      "type": "event",
+      "label": "Holmes asks whether Jack has ever seen a photograph of Jack's wife's first husband",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_316"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "jack_wife",
+        "hebron",
+        "death_certificate_of_hebron"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Have you ever seen a photograph of her first husband?"
+      }
+    },
+    {
+      "id": "event_8_20",
+      "type": "event",
+      "label": "Jack says he has not seen a photograph because papers were destroyed in the Atlanta fire",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_317"
+      ],
+      "participants": [
+        "jack",
+        "atlanta",
+        "hebron"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No; there was a great fire at Atlanta very shortly after his death, and all her papers were destroyed."
+      }
+    },
+    {
+      "id": "event_8_21",
+      "type": "event",
+      "label": "Holmes states that Jack says she had a certificate of death",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_318",
+        "sentence_319"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "jack_wife",
+        "death_certificate_of_hebron"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "And yet she had a certificate of death. You say that you saw it."
+      }
+    },
+    {
+      "id": "event_8_22",
+      "type": "event",
+      "label": "Jack says she got a duplicate after the fire",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_320"
+      ],
+      "participants": [
+        "jack",
+        "jack_wife",
+        "death_certificate_of_hebron"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes; she got a duplicate after the fire."
+      }
+    },
+    {
+      "id": "event_8_23",
+      "type": "event",
+      "label": "Holmes asks whether Jack ever met anyone who knew her in America",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_321"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "atlanta"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Did you ever meet any one who knew her in America?"
+      }
+    },
+    {
+      "id": "event_8_24",
+      "type": "event",
+      "label": "Jack says no one",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_322"
+      ],
+      "participants": [
+        "jack"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No."
+      }
+    },
+    {
+      "id": "event_8_25",
+      "type": "event",
+      "label": "Holmes asks whether she ever talked of revisiting America",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_323"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "atlanta"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Did she ever talk of revisiting the place?"
+      }
+    },
+    {
+      "id": "event_8_26",
+      "type": "event",
+      "label": "Jack says no",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_324"
+      ],
+      "participants": [
+        "jack",
+        "atlanta"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No."
+      }
+    },
+    {
+      "id": "event_8_27",
+      "type": "event",
+      "label": "Holmes asks whether she gets letters from America",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_325"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "atlanta"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Or get letters from it?"
+      }
+    },
+    {
+      "id": "event_8_28",
+      "type": "event",
+      "label": "Jack says no",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_326"
+      ],
+      "participants": [
+        "jack",
+        "atlanta"
+      ],
+      "performs": [
+        "jack"
+      ],
+      "communicates": {
+        "speaker": "jack",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No."
+      }
+    },
+    {
+      "id": "event_8_29",
+      "type": "event",
+      "label": "Holmes says he will think over the matter and advises Jack to return to Norbury and examine the cottage windows again",
+      "section": "yellow-face-section_8",
+      "source_nodes": [
+        "sentence_327",
+        "sentence_328",
+        "sentence_329",
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "jack",
+        "cottage",
+        "norbury_villa"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "jack"
+        ],
+        "content": "Thank you. I should like to think over the matter a little now. If the cottage is now permanently deserted we may have some difficulty. If, on the other hand, as I fancy is more likely, the inmates were warned of your coming, and left before you entered yesterday, then they may be back now, and we should clear it all up easily. Let me advise you, then, to return to Norbury, and to examine the windows of the cottage again. If you have reason to believe that it is inhabited, do not force your way in, but send a wire to my friend and me. We shall be with you within an hour of receiving it, and we shall then very soon get to the bottom of the business."
+      }
+    },
+    {
+      "id": "event_9_1",
+      "type": "event",
+      "label": "Holmes accompanies Grant Munro to the door and speaks about the case",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_337"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_2",
+      "type": "event",
+      "label": "Holmes states that the matter is a bad business and likely involves blackmail",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_341"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I am afraid that this is a bad business, Watson. There's blackmail in it, or I am much mistaken."
+      }
+    },
+    {
+      "id": "event_9_3",
+      "type": "event",
+      "label": "Holmes identifies the blackmailer as the creature in the comfortable room with the photograph above the fireplace",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_342",
+        "sentence_343"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "tall_gaunt_woman",
+        "cottage_room_with_photograph"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It must be the creature who lives in the only comfortable room in the place, and has her photograph above his fireplace."
+      }
+    },
+    {
+      "id": "event_9_4",
+      "type": "event",
+      "label": "Holmes presents a provisional theory about the woman in the cottage",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_345",
+        "sentence_367"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "effie_munro",
+        "hebron",
+        "cottage"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I have a provisional theory about the case."
+      }
+    },
+    {
+      "id": "event_9_5",
+      "type": "event",
+      "label": "Holmes explains that the woman's first husband is in the cottage",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_348",
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359",
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "effie_munro",
+        "hebron",
+        "child_of_hebron_and_effie",
+        "cottage",
+        "grove_of_scotch_firs"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "This woman's first husband is in that cottage."
+      }
+    },
+    {
+      "id": "event_9_6",
+      "type": "event",
+      "label": "Holmes recounts the woman's flight, remarriage, exposure threat, and attempts to drive the pursuers away",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359",
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "effie_munro",
+        "hebron",
+        "death_certificate_of_hebron",
+        "cottage",
+        "grove_of_scotch_firs"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The woman married in America, fled from her husband, returned to England under another name, later showed her second husband a death certificate, was threatened by her pursuers, offered them a hundred pounds, and repeatedly tried to make them leave her in peace."
+      }
+    },
+    {
+      "id": "event_9_7",
+      "type": "event",
+      "label": "Holmes says the maid rushed in and the wife hurried the inmates out of the cottage",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_361",
+        "sentence_362"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "effie_munro",
+        "new_inmates",
+        "cottage",
+        "grove_of_scotch_firs"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The maid rushed in to say that the master had come home, and the wife hurried the inmates out at the back door into the grove of fir-trees."
+      }
+    },
+    {
+      "id": "event_9_8",
+      "type": "event",
+      "label": "A message from the friend at Norbury arrives after tea",
+      "section": "yellow-face-section_9",
+      "source_nodes": [
+        "sentence_369",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "norbury_friend"
+      ],
+      "performs": [
+        "norbury_friend"
+      ],
+      "communicates": {
+        "speaker": "norbury_friend",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "The cottage is still tenanted. Have seen the face again at the window. Will meet the seven o'clock train, and will take no steps until you arrive."
+      }
+    },
+    {
+      "id": "event_10_1",
+      "type": "event",
+      "label": "Grant Munro waits on the platform pale and agitated",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "grant_munro"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_10_2",
+      "type": "event",
+      "label": "Grant Munro says the people are still in the house and that he saw lights in the cottage",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_375",
+        "sentence_376",
+        "sentence_377"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "They are still there, Mr. Holmes. I saw lights in the cottage as I came down. We shall settle it now once and for all."
+      }
+    },
+    {
+      "id": "event_10_3",
+      "type": "event",
+      "label": "Holmes asks Grant Munro's plan",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_378",
+        "sentence_379"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "What is your plan, then?"
+      }
+    },
+    {
+      "id": "event_10_4",
+      "type": "event",
+      "label": "Grant Munro says he is going to force his way into the house and wants Holmes and Watson as witnesses",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_380",
+        "sentence_381"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I am going to force my way in and see for myself who is in the house. I wish you both to be there as witnesses."
+      }
+    },
+    {
+      "id": "event_10_5",
+      "type": "event",
+      "label": "Holmes asks whether Grant Munro is determined to act despite his wife's warning",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_382"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro",
+        "effie_munro"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "You are quite determined to do this, in spite of your wife's warning that it is better that you should not solve the mystery?"
+      }
+    },
+    {
+      "id": "event_10_6",
+      "type": "event",
+      "label": "Grant Munro says he is determined",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_383"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, I am determined."
+      }
+    },
+    {
+      "id": "event_10_7",
+      "type": "event",
+      "label": "Holmes agrees that truth is better than doubt and the group goes up at once",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_384",
+        "sentence_385",
+        "sentence_386",
+        "sentence_387"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "grant_munro",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "Well, I think that you are in the right. Any truth is better than indefinite doubt. We had better go up at once. Of course, legally, we are putting ourselves hopelessly in the wrong; but I think that it is worth it."
+      }
+    },
+    {
+      "id": "event_10_8",
+      "type": "event",
+      "label": "The group turns from the high road into the lane and follows Grant Munro toward the cottage in the rain and darkness",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes",
+        "watson",
+        "cottage"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_10_9",
+      "type": "event",
+      "label": "Grant Munro sees someone in the cottage and urges the others to follow",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes",
+        "watson",
+        "cottage"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "There is that creature! You can see for yourselves that some one is there. Now follow me, and we shall soon know all."
+      }
+    },
+    {
+      "id": "event_10_10",
+      "type": "event",
+      "label": "A woman appears and begs Grant Munro not to go on",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_399",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405"
+      ],
+      "participants": [
+        "effie_munro",
+        "grant_munro",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "effie_munro"
+      ],
+      "communicates": {
+        "speaker": "effie_munro",
+        "recipients": [
+          "grant_munro"
+        ],
+        "content": "For God's sake, don't Jack! I had a presentiment that you would come this evening. Think better of it, dear! Trust me again, and you will never have cause to regret it."
+      }
+    },
+    {
+      "id": "event_10_11",
+      "type": "event",
+      "label": "Grant Munro rejects Effie's plea, pushes past her, and enters the house with Holmes and Watson",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro",
+        "sherlock_holmes",
+        "watson",
+        "hebron",
+        "the_negress"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_10_12",
+      "type": "event",
+      "label": "Grant Munro, Holmes, and Watson enter the lighted room and see a child-like figure at the desk",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_413",
+        "sentence_414",
+        "sentence_415",
+        "sentence_416",
+        "sentence_417"
+      ],
+      "participants": [
+        "grant_munro",
+        "sherlock_holmes",
+        "watson",
+        "the_negress"
+      ],
+      "performs": [
+        "grant_munro"
+      ]
+    },
+    {
+      "id": "event_10_13",
+      "type": "event",
+      "label": "Holmes removes the child's mask and reveals the woman underneath",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_418",
+        "sentence_419"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "the_negress"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_14",
+      "type": "event",
+      "label": "Watson laughs and Grant Munro stands stunned",
+      "section": "yellow-face-section_10",
+      "source_nodes": [
+        "sentence_420"
+      ],
+      "participants": [
+        "watson",
+        "grant_munro",
+        "the_negress"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_11_1",
+      "type": "event",
+      "label": "Mrs. Hebron enters the room and explains the meaning of the situation",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_424",
+        "sentence_425",
+        "sentence_426",
+        "sentence_427"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "jack"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I will tell you the meaning of it. You have forced me, against my own judgment, to tell you, and now we must both make the best of it. My husband died at Atlanta. My child survived."
+      }
+    },
+    {
+      "id": "event_11_2",
+      "type": "event",
+      "label": "Mrs. Hebron shows a silver locket and opens it",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_430",
+        "sentence_431",
+        "sentence_432",
+        "sentence_433",
+        "sentence_434"
+      ],
+      "participants": [
+        "mrs_hebron"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ]
+    },
+    {
+      "id": "event_11_3",
+      "type": "event",
+      "label": "Mrs. Hebron identifies the portrait in the locket as John Hebron of Atlanta",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_434",
+        "sentence_435"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "hebron"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "That is John Hebron, of Atlanta, and a nobler man never walked the earth. I cut myself off from my race in order to wed him, but never once while he lived did I for an instant regret it."
+      }
+    },
+    {
+      "id": "event_11_4",
+      "type": "event",
+      "label": "Mrs. Hebron explains that their child resembled the father's people and was named Lucy",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_436",
+        "sentence_437",
+        "sentence_438"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "It was our misfortune that our only child took after his people rather than mine. It is often so in such matches, and little Lucy is darker far than ever her father was. But dark or fair, she is my own dear little girlie, and her mother's pet."
+      }
+    },
+    {
+      "id": "event_11_5",
+      "type": "event",
+      "label": "The child runs across the room and nestles against Mrs. Hebron's dress",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_439"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "child_of_hebron_and_effie"
+      ]
+    },
+    {
+      "id": "event_11_6",
+      "type": "event",
+      "label": "Mrs. Hebron explains why she left the child in America with a Scotch woman",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_440",
+        "sentence_441",
+        "sentence_442"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "When I left her in America, it was only because her health was weak, and the change might have done her harm. She was given to the care of a faithful Scotch woman who had once been our servant. Never for an instant did I dream of disowning her as my child."
+      }
+    },
+    {
+      "id": "event_11_7",
+      "type": "event",
+      "label": "Mrs. Hebron explains that she feared to tell Jack about her child because she loved him",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_443",
+        "sentence_444",
+        "sentence_445"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "jack",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "But when chance threw you in my way, Jack, and I learned to love you, I feared to tell you about my child. God forgive me, I feared that I should lose you, and I had not the courage to tell you. I had to choose between you, and in my weakness I turned away from my own little girl."
+      }
+    },
+    {
+      "id": "event_11_8",
+      "type": "event",
+      "label": "Mrs. Hebron says she kept the child's existence secret for three years and later decided to bring the child over",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_446",
+        "sentence_447",
+        "sentence_448",
+        "sentence_449"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "For three years I have kept her existence a secret from you, but I heard from the nurse, and I knew that all was well with her. At last, however, there came an overwhelming desire to see the child once more. I struggled against it, but in vain. Though I knew the danger, I determined to have the child over, if it were but for a few weeks."
+      }
+    },
+    {
+      "id": "event_11_9",
+      "type": "event",
+      "label": "Mrs. Hebron sends money and instructions to the nurse about the cottage and concealment",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_450",
+        "sentence_451",
+        "sentence_452"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "I sent a hundred pounds to the nurse, and I gave her instructions about this cottage, so that she might come as a neighbour, without my appearing to be in any way connected with her. I pushed my precautions so far as to order her to keep the child in the house during the daytime, and to cover up her little face and hands so that even those who might see her at the window should not gossip about there being a black child in the neighbourhood."
+      }
+    },
+    {
+      "id": "event_11_10",
+      "type": "event",
+      "label": "Mrs. Hebron explains that Jack discovered the occupied cottage, saw her leave, and later entered the cottage while the nurse and child escaped",
+      "section": "yellow-face-section_11",
+      "source_nodes": [
+        "sentence_453",
+        "sentence_454",
+        "sentence_455",
+        "sentence_456",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459"
+      ],
+      "participants": [
+        "mrs_hebron",
+        "jack",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "mrs_hebron"
+      ],
+      "communicates": {
+        "speaker": "mrs_hebron",
+        "recipients": [
+          "jack"
+        ],
+        "content": "It was you who told me first that the cottage was occupied. I should have waited for the morning, but I could not sleep for excitement, and so at last I slipped out, knowing how difficult it is to awake you. But you saw me go, and that was the beginning of my troubles. Next day you had my secret at your mercy, but you nobly refrained from pursuing your advantage. Three days later, however, the nurse and child only just escaped from the back door as you rushed in at the front one. And now to-night you at last know all, and I ask you what is to become of us, my child and me?"
+      }
+    },
+    {
+      "id": "event_12_1",
+      "type": "event",
+      "label": "Grant Munro breaks the silence and turns to leave with Effie and the child",
+      "section": "yellow-face-section_12",
+      "source_nodes": [
+        "sentence_460",
+        "sentence_461",
+        "sentence_462",
+        "sentence_463"
+      ],
+      "participants": [
+        "grant_munro",
+        "effie_munro",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "grant_munro"
+      ],
+      "communicates": {
+        "speaker": "grant_munro",
+        "recipients": [
+          "effie_munro"
+        ],
+        "content": "We can talk it over more comfortably at home. I am not a very good man, Effie, but I think that I am a better one than you have given me credit for being."
+      }
+    },
+    {
+      "id": "event_12_2",
+      "type": "event",
+      "label": "Holmes and Watson follow Grant Munro and Effie down the lane",
+      "section": "yellow-face-section_12",
+      "source_nodes": [
+        "sentence_464"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "grant_munro",
+        "effie_munro",
+        "child_of_hebron_and_effie"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_12_3",
+      "type": "event",
+      "label": "Holmes speaks to Watson about returning to London",
+      "section": "yellow-face-section_12",
+      "source_nodes": [
+        "sentence_465"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I think that we shall be of more use in London than in Norbury."
+      }
+    },
+    {
+      "id": "event_12_4",
+      "type": "event",
+      "label": "Holmes tells Watson to whisper \"Norbury\" if Holmes becomes over-confident or less careful",
+      "section": "yellow-face-section_12",
+      "source_nodes": [
+        "sentence_466",
+        "sentence_467"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Watson, if it should ever strike you that I am getting a little over-confident in my powers, or giving less pains to a case than it deserves, kindly whisper 'Norbury' in my ear, and I shall be infinitely obliged to you."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "sherlock_holmes",
+      "to": "park",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_1",
+      "valid_until": "event_1_2",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sherlock_holmes",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "valid_until": "event_9_1",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "sherlock_holmes",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_1",
+      "valid_until": "event_10_11",
+      "caused_by": [
+        "event_9_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "sherlock_holmes",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_11",
+      "caused_by": [
+        "event_10_11"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "watson",
+      "to": "park",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_1",
+      "valid_until": "event_1_2",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "watson",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "valid_until": "event_5_3",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "watson",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_3",
+      "valid_until": "event_5_10",
+      "caused_by": [
+        "event_5_3"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "watson",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_10",
+      "valid_until": "event_5_12",
+      "caused_by": [
+        "event_5_10"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "watson",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_12",
+      "valid_until": "event_10_11",
+      "caused_by": [
+        "event_5_12"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "watson",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_11",
+      "caused_by": [
+        "event_10_11"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "pipe",
+      "to": "baker_street",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_7",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "pipe",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_2_4",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "brown_wide_awake",
+      "to": "gentleman_visitor",
+      "type": "OWNS",
+      "valid_from": "event_2_14",
+      "caused_by": [
+        "event_2_14"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "grant_munro",
+      "to": "effie_munro",
+      "type": "OWNS",
+      "valid_from": "event_3_11",
+      "valid_until": "event_3_12",
+      "caused_by": [
+        "event_3_11"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "grant_munro",
+      "to": "effie_munro",
+      "type": "OWNS",
+      "valid_from": "event_3_12",
+      "caused_by": [
+        "event_3_12"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "effie_munro",
+      "to": "hebron",
+      "type": "OWNS",
+      "valid_from": "event_3_16",
+      "caused_by": [
+        "event_3_16"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "jack",
+      "to": "norbury_villa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "valid_until": "event_4_2",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "jack",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_2",
+      "valid_until": "event_4_8",
+      "caused_by": [
+        "event_4_2"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "jack",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_8",
+      "valid_until": "event_4_10",
+      "caused_by": [
+        "event_4_8"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "jack",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_10",
+      "valid_until": "event_6_2",
+      "caused_by": [
+        "event_4_10"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "jack",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_2",
+      "valid_until": "event_7_8",
+      "caused_by": [
+        "event_6_2"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "jack",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_8",
+      "valid_until": "event_8_2",
+      "caused_by": [
+        "event_7_8"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "jack",
+      "to": "house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_2",
+      "valid_until": "event_8_2",
+      "caused_by": [
+        "event_8_2"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "jack",
+      "to": "study",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_2",
+      "valid_until": "event_8_8",
+      "caused_by": [
+        "event_8_2"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "jack",
+      "to": "house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_8",
+      "valid_until": "event_8_29",
+      "caused_by": [
+        "event_8_8"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "jack",
+      "to": "norbury_villa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_29",
+      "caused_by": [
+        "event_8_29"
+      ]
+    },
+    {
+      "id": "state_27",
+      "from": "jack_wife",
+      "to": "norbury_villa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "valid_until": "event_4_2",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_28",
+      "from": "jack_wife",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_2",
+      "valid_until": "event_5_7",
+      "caused_by": [
+        "event_4_2"
+      ]
+    },
+    {
+      "id": "state_29",
+      "from": "jack_wife",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_7",
+      "valid_until": "event_5_9",
+      "caused_by": [
+        "event_5_7"
+      ]
+    },
+    {
+      "id": "state_30",
+      "from": "jack_wife",
+      "to": "country_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_9",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_9"
+      ]
+    },
+    {
+      "id": "state_31",
+      "from": "jack_wife",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "valid_until": "event_7_3",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_32",
+      "from": "jack_wife",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_3",
+      "valid_until": "event_8_3",
+      "caused_by": [
+        "event_7_3"
+      ]
+    },
+    {
+      "id": "state_33",
+      "from": "jack_wife",
+      "to": "house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_3",
+      "caused_by": [
+        "event_8_3"
+      ]
+    },
+    {
+      "id": "state_34",
+      "from": "jack_wife",
+      "to": "jack",
+      "type": "OWNS",
+      "valid_from": "event_4_3",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_35",
+      "from": "empty_van",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_7",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_36",
+      "from": "carpets_and_things",
+      "to": "cottage",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_7",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_37",
+      "from": "face_in_window",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_8",
+      "caused_by": [
+        "event_4_8"
+      ]
+    },
+    {
+      "id": "state_38",
+      "from": "tall_gaunt_woman",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_11",
+      "caused_by": [
+        "event_4_11"
+      ]
+    },
+    {
+      "id": "state_39",
+      "from": "black_cat",
+      "to": "cottage",
+      "type": "IS_INSIDE",
+      "valid_from": "event_7_9",
+      "caused_by": [
+        "event_7_9"
+      ]
+    },
+    {
+      "id": "state_40",
+      "from": "photograph_of_jacks_wife",
+      "to": "cottage_room_with_photograph",
+      "type": "IS_INSIDE",
+      "valid_from": "event_7_9",
+      "caused_by": [
+        "event_7_9"
+      ]
+    },
+    {
+      "id": "state_41",
+      "from": "grant_munro",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_1",
+      "valid_until": "event_10_1",
+      "caused_by": [
+        "event_9_1"
+      ]
+    },
+    {
+      "id": "state_42",
+      "from": "grant_munro",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "valid_until": "event_10_11",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_43",
+      "from": "grant_munro",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_11",
+      "caused_by": [
+        "event_10_11"
+      ]
+    },
+    {
+      "id": "state_44",
+      "from": "effie_munro",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_5",
+      "caused_by": [
+        "event_9_5"
+      ]
+    },
+    {
+      "id": "state_45",
+      "from": "hebron",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_5",
+      "caused_by": [
+        "event_9_5"
+      ]
+    },
+    {
+      "id": "state_46",
+      "from": "child_of_hebron_and_effie",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_5",
+      "valid_until": "event_11_5",
+      "caused_by": [
+        "event_9_5"
+      ]
+    },
+    {
+      "id": "state_47",
+      "from": "child_of_hebron_and_effie",
+      "to": "cottage_room_with_photograph",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_5",
+      "caused_by": [
+        "event_11_5"
+      ]
+    },
+    {
+      "id": "state_48",
+      "from": "new_inmates",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_7",
+      "valid_until": "event_9_7",
+      "caused_by": [
+        "event_9_7"
+      ]
+    },
+    {
+      "id": "state_49",
+      "from": "new_inmates",
+      "to": "grove_of_scotch_firs",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_7",
+      "caused_by": [
+        "event_9_7"
+      ]
+    },
+    {
+      "id": "state_50",
+      "from": "the_negress",
+      "to": "cottage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_12",
+      "caused_by": [
+        "event_10_12"
+      ]
+    },
+    {
+      "id": "state_51",
+      "from": "mrs_hebron",
+      "to": "cottage_room_with_photograph",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_1",
+      "caused_by": [
+        "event_11_1"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "yellow_face_case",
+      "section": "yellow-face-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_2",
+        "sentence_6"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_1",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5",
+        "sentence_7",
+        "sentence_8",
+        "sentence_9",
+        "sentence_10",
+        "sentence_11",
+        "sentence_12",
+        "sentence_14",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35",
+        "sentence_36",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_17",
+        "sentence_33"
+      ]
+    },
+    {
+      "entity": "second_stain_case",
+      "section": "yellow-face-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_6"
+      ]
+    },
+    {
+      "entity": "page_boy",
+      "section": "yellow-face-section_1",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_15",
+        "sentence_16",
+        "sentence_21",
+        "sentence_23",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_31",
+        "sentence_32"
+      ]
+    },
+    {
+      "entity": "gentleman_visitor",
+      "section": "yellow-face-section_1",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_15",
+        "sentence_16",
+        "sentence_20",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_30",
+        "sentence_31",
+        "sentence_32",
+        "sentence_38",
+        "sentence_42"
+      ]
+    },
+    {
+      "entity": "baker_street",
+      "section": "yellow-face-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_14"
+      ]
+    },
+    {
+      "entity": "park",
+      "section": "yellow-face-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_13"
+      ]
+    },
+    {
+      "entity": "pipe",
+      "section": "yellow-face-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_44",
+        "sentence_50",
+        "sentence_56",
+        "sentence_57",
+        "sentence_60",
+        "sentence_68",
+        "sentence_81"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_50",
+        "sentence_52",
+        "sentence_56",
+        "sentence_58",
+        "sentence_73",
+        "sentence_74",
+        "sentence_77",
+        "sentence_81",
+        "sentence_83"
+      ]
+    },
+    {
+      "entity": "pipe",
+      "section": "yellow-face-section_2",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_43",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_50",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_58",
+        "sentence_59",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_70",
+        "sentence_71",
+        "sentence_72"
+      ]
+    },
+    {
+      "entity": "gentleman_visitor",
+      "section": "yellow-face-section_2",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_74",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_81",
+        "sentence_84",
+        "sentence_85"
+      ]
+    },
+    {
+      "entity": "brown_wide_awake",
+      "section": "yellow-face-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_75"
+      ]
+    },
+    {
+      "entity": "grant_munro",
+      "section": "yellow-face-section_3",
+      "mention_count": 38,
+      "sentence_ids": [
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_123",
+        "sentence_124",
+        "sentence_132"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_3",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_86",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_97",
+        "sentence_101",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104",
+        "sentence_123",
+        "sentence_132"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_94",
+        "sentence_102",
+        "sentence_106"
+      ]
+    },
+    {
+      "entity": "brown_wide_awake",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_101"
+      ]
+    },
+    {
+      "entity": "effie_munro",
+      "section": "yellow-face-section_3",
+      "mention_count": 22,
+      "sentence_ids": [
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_128",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132"
+      ]
+    },
+    {
+      "entity": "mrs_hebron",
+      "section": "yellow-face-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_125",
+        "sentence_126"
+      ]
+    },
+    {
+      "entity": "hebron",
+      "section": "yellow-face-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_127",
+        "sentence_128",
+        "sentence_129",
+        "sentence_131"
+      ]
+    },
+    {
+      "entity": "atlanta",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_127"
+      ]
+    },
+    {
+      "entity": "yellow_fever",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_128"
+      ]
+    },
+    {
+      "entity": "death_certificate_of_hebron",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_129"
+      ]
+    },
+    {
+      "entity": "pinner",
+      "section": "yellow-face-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_130",
+        "sentence_132"
+      ]
+    },
+    {
+      "entity": "maiden_aunt",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_130"
+      ]
+    },
+    {
+      "entity": "middlesex",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_130"
+      ]
+    },
+    {
+      "entity": "child_of_hebron_and_effie",
+      "section": "yellow-face-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_128"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_4",
+      "mention_count": 26,
+      "sentence_ids": [
+        "sentence_133",
+        "sentence_136",
+        "sentence_137",
+        "sentence_139",
+        "sentence_143",
+        "sentence_146",
+        "sentence_147",
+        "sentence_148",
+        "sentence_150",
+        "sentence_152",
+        "sentence_154",
+        "sentence_155",
+        "sentence_156",
+        "sentence_157",
+        "sentence_159",
+        "sentence_161",
+        "sentence_162",
+        "sentence_164",
+        "sentence_166",
+        "sentence_168",
+        "sentence_170",
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_175",
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "jack_wife",
+      "section": "yellow-face-section_4",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_145",
+        "sentence_149",
+        "sentence_150",
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "norbury_villa",
+      "section": "yellow-face-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_133",
+        "sentence_134"
+      ]
+    },
+    {
+      "entity": "country_home",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_136"
+      ]
+    },
+    {
+      "entity": "inn",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_135"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_4",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_135",
+        "sentence_157",
+        "sentence_158",
+        "sentence_160",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164",
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "grove_of_scotch_firs",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_159"
+      ]
+    },
+    {
+      "entity": "empty_van",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_162"
+      ]
+    },
+    {
+      "entity": "carpets_and_things",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_162"
+      ]
+    },
+    {
+      "entity": "face_in_window",
+      "section": "yellow-face-section_4",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_165",
+        "sentence_166",
+        "sentence_167",
+        "sentence_168",
+        "sentence_169",
+        "sentence_171",
+        "sentence_173",
+        "sentence_174"
+      ]
+    },
+    {
+      "entity": "new_inmates",
+      "section": "yellow-face-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_175",
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "tall_gaunt_woman",
+      "section": "yellow-face-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "yellow_face_case",
+      "section": "yellow-face-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_137",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_5",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_179",
+        "sentence_180",
+        "sentence_182",
+        "sentence_183",
+        "sentence_184",
+        "sentence_185",
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_189",
+        "sentence_190",
+        "sentence_194",
+        "sentence_195",
+        "sentence_196",
+        "sentence_197",
+        "sentence_198",
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_207",
+        "sentence_208"
+      ]
+    },
+    {
+      "entity": "effie_munro",
+      "section": "yellow-face-section_5",
+      "mention_count": 16,
+      "sentence_ids": [
+        "sentence_177",
+        "sentence_181",
+        "sentence_183",
+        "sentence_189",
+        "sentence_191",
+        "sentence_192",
+        "sentence_193",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213"
+      ]
+    },
+    {
+      "entity": "jack_wife",
+      "section": "yellow-face-section_5",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_184",
+        "sentence_185",
+        "sentence_189",
+        "sentence_190",
+        "sentence_191",
+        "sentence_192",
+        "sentence_193",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_5",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_180",
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "face_in_window",
+      "section": "yellow-face-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_183"
+      ]
+    },
+    {
+      "entity": "country_home",
+      "section": "yellow-face-section_5",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_182",
+        "sentence_193",
+        "sentence_200"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_6",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_221",
+        "sentence_222",
+        "sentence_223",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_235",
+        "sentence_236",
+        "sentence_239",
+        "sentence_240",
+        "sentence_241",
+        "sentence_242",
+        "sentence_244",
+        "sentence_246",
+        "sentence_247",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "jack_wife",
+      "section": "yellow-face-section_6",
+      "mention_count": 28,
+      "sentence_ids": [
+        "sentence_214",
+        "sentence_217",
+        "sentence_218",
+        "sentence_219",
+        "sentence_222",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_233",
+        "sentence_234",
+        "sentence_235",
+        "sentence_238",
+        "sentence_243",
+        "sentence_244",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_6",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_218",
+        "sentence_225",
+        "sentence_226",
+        "sentence_232",
+        "sentence_235",
+        "sentence_237",
+        "sentence_238",
+        "sentence_242",
+        "sentence_244",
+        "sentence_246",
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "new_inmates",
+      "section": "yellow-face-section_6",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_229",
+        "sentence_237"
+      ]
+    },
+    {
+      "entity": "strange_face_in_window",
+      "section": "yellow-face-section_6",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_225",
+        "sentence_225"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_7",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_257",
+        "sentence_260",
+        "sentence_264",
+        "sentence_266",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270",
+        "sentence_278",
+        "sentence_279",
+        "sentence_281",
+        "sentence_282",
+        "sentence_283",
+        "sentence_285",
+        "sentence_286",
+        "sentence_293"
+      ]
+    },
+    {
+      "entity": "jack_wife",
+      "section": "yellow-face-section_7",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_266",
+        "sentence_267",
+        "sentence_269",
+        "sentence_270",
+        "sentence_281",
+        "sentence_283",
+        "sentence_293"
+      ]
+    },
+    {
+      "entity": "page_boy",
+      "section": "yellow-face-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_272",
+        "sentence_273",
+        "sentence_275",
+        "sentence_276",
+        "sentence_279",
+        "sentence_283"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_7",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_264",
+        "sentence_265",
+        "sentence_279",
+        "sentence_281",
+        "sentence_284",
+        "sentence_286",
+        "sentence_288",
+        "sentence_291",
+        "sentence_292"
+      ]
+    },
+    {
+      "entity": "face_in_window",
+      "section": "yellow-face-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_265"
+      ]
+    },
+    {
+      "entity": "strange_face_in_window",
+      "section": "yellow-face-section_7",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_267",
+        "sentence_292"
+      ]
+    },
+    {
+      "entity": "cottage_room_with_photograph",
+      "section": "yellow-face-section_7",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_292",
+        "sentence_293"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_8",
+      "mention_count": 31,
+      "sentence_ids": [
+        "sentence_294",
+        "sentence_295",
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_303",
+        "sentence_304",
+        "sentence_305",
+        "sentence_306",
+        "sentence_309",
+        "sentence_310",
+        "sentence_314",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333"
+      ]
+    },
+    {
+      "entity": "jack_wife",
+      "section": "yellow-face-section_8",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_301",
+        "sentence_302",
+        "sentence_314",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_320"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_8",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_302",
+        "sentence_304",
+        "sentence_307",
+        "sentence_308",
+        "sentence_309",
+        "sentence_311",
+        "sentence_314",
+        "sentence_316",
+        "sentence_319",
+        "sentence_321",
+        "sentence_323",
+        "sentence_325",
+        "sentence_327",
+        "sentence_328",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_307"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_8",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_301",
+        "sentence_329",
+        "sentence_330",
+        "sentence_331",
+        "sentence_332"
+      ]
+    },
+    {
+      "entity": "cottage_room_with_photograph",
+      "section": "yellow-face-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_301"
+      ]
+    },
+    {
+      "entity": "face_in_window",
+      "section": "yellow-face-section_8",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_309",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_316"
+      ]
+    },
+    {
+      "entity": "hebron",
+      "section": "yellow-face-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_316",
+        "sentence_317"
+      ]
+    },
+    {
+      "entity": "death_certificate_of_hebron",
+      "section": "yellow-face-section_8",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_318",
+        "sentence_319",
+        "sentence_320",
+        "sentence_316"
+      ]
+    },
+    {
+      "entity": "atlanta",
+      "section": "yellow-face-section_8",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_317",
+        "sentence_321",
+        "sentence_323",
+        "sentence_325",
+        "sentence_326"
+      ]
+    },
+    {
+      "entity": "norbury_villa",
+      "section": "yellow-face-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_331"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_9",
+      "mention_count": 36,
+      "sentence_ids": [
+        "sentence_337",
+        "sentence_338",
+        "sentence_340",
+        "sentence_341",
+        "sentence_342",
+        "sentence_343",
+        "sentence_344",
+        "sentence_345",
+        "sentence_346",
+        "sentence_347",
+        "sentence_348",
+        "sentence_349",
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359",
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_9",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_334",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340",
+        "sentence_341",
+        "sentence_342",
+        "sentence_344",
+        "sentence_345",
+        "sentence_349",
+        "sentence_364",
+        "sentence_365",
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_373"
+      ]
+    },
+    {
+      "entity": "grant_munro",
+      "section": "yellow-face-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_335",
+        "sentence_337"
+      ]
+    },
+    {
+      "entity": "tall_gaunt_woman",
+      "section": "yellow-face-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "cottage_room_with_photograph",
+      "section": "yellow-face-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "effie_munro",
+      "section": "yellow-face-section_9",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_348",
+        "sentence_350",
+        "sentence_351",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359",
+        "sentence_360",
+        "sentence_361"
+      ]
+    },
+    {
+      "entity": "hebron",
+      "section": "yellow-face-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_351",
+        "sentence_352",
+        "sentence_354"
+      ]
+    },
+    {
+      "entity": "death_certificate_of_hebron",
+      "section": "yellow-face-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_354"
+      ]
+    },
+    {
+      "entity": "child_of_hebron_and_effie",
+      "section": "yellow-face-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_357"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_9",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_348",
+        "sentence_350",
+        "sentence_357",
+        "sentence_359",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_371"
+      ]
+    },
+    {
+      "entity": "grove_of_scotch_firs",
+      "section": "yellow-face-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_361",
+        "sentence_362"
+      ]
+    },
+    {
+      "entity": "new_inmates",
+      "section": "yellow-face-section_9",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_361",
+        "sentence_362",
+        "sentence_371",
+        "sentence_372"
+      ]
+    },
+    {
+      "entity": "norbury_friend",
+      "section": "yellow-face-section_9",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373"
+      ]
+    },
+    {
+      "entity": "grant_munro",
+      "section": "yellow-face-section_10",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_374",
+        "sentence_375",
+        "sentence_377",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_420"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_10",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_375",
+        "sentence_378",
+        "sentence_379",
+        "sentence_381",
+        "sentence_382",
+        "sentence_384",
+        "sentence_386",
+        "sentence_387",
+        "sentence_398",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_418",
+        "sentence_419"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_10",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_384",
+        "sentence_386",
+        "sentence_387",
+        "sentence_398",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_420"
+      ]
+    },
+    {
+      "entity": "effie_munro",
+      "section": "yellow-face-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_382",
+        "sentence_401",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_10",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_376",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_397"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_401",
+        "sentence_406"
+      ]
+    },
+    {
+      "entity": "hebron",
+      "section": "yellow-face-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_411"
+      ]
+    },
+    {
+      "entity": "the_negress",
+      "section": "yellow-face-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_419"
+      ]
+    },
+    {
+      "entity": "mrs_hebron",
+      "section": "yellow-face-section_11",
+      "mention_count": 31,
+      "sentence_ids": [
+        "sentence_424",
+        "sentence_425",
+        "sentence_426",
+        "sentence_427",
+        "sentence_429",
+        "sentence_430",
+        "sentence_432",
+        "sentence_434",
+        "sentence_435",
+        "sentence_436",
+        "sentence_437",
+        "sentence_438",
+        "sentence_440",
+        "sentence_442",
+        "sentence_443",
+        "sentence_444",
+        "sentence_445",
+        "sentence_446",
+        "sentence_447",
+        "sentence_448",
+        "sentence_449",
+        "sentence_450",
+        "sentence_451",
+        "sentence_452",
+        "sentence_453",
+        "sentence_454",
+        "sentence_455",
+        "sentence_456",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459"
+      ]
+    },
+    {
+      "entity": "jack",
+      "section": "yellow-face-section_11",
+      "mention_count": 16,
+      "sentence_ids": [
+        "sentence_422",
+        "sentence_423",
+        "sentence_424",
+        "sentence_428",
+        "sentence_431",
+        "sentence_443",
+        "sentence_444",
+        "sentence_445",
+        "sentence_446",
+        "sentence_453",
+        "sentence_454",
+        "sentence_455",
+        "sentence_456",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459"
+      ]
+    },
+    {
+      "entity": "atlanta",
+      "section": "yellow-face-section_11",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_426",
+        "sentence_434"
+      ]
+    },
+    {
+      "entity": "child_of_hebron_and_effie",
+      "section": "yellow-face-section_11",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_427",
+        "sentence_428",
+        "sentence_436",
+        "sentence_437",
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_441",
+        "sentence_442",
+        "sentence_443",
+        "sentence_445",
+        "sentence_446",
+        "sentence_447",
+        "sentence_449",
+        "sentence_450",
+        "sentence_451",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459"
+      ]
+    },
+    {
+      "entity": "hebron",
+      "section": "yellow-face-section_11",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_433",
+        "sentence_434",
+        "sentence_435"
+      ]
+    },
+    {
+      "entity": "cottage",
+      "section": "yellow-face-section_11",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_450",
+        "sentence_451",
+        "sentence_453",
+        "sentence_457"
+      ]
+    },
+    {
+      "entity": "grant_munro",
+      "section": "yellow-face-section_12",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_460",
+        "sentence_461",
+        "sentence_462",
+        "sentence_463",
+        "sentence_464"
+      ]
+    },
+    {
+      "entity": "effie_munro",
+      "section": "yellow-face-section_12",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_461",
+        "sentence_462",
+        "sentence_463",
+        "sentence_464"
+      ]
+    },
+    {
+      "entity": "child_of_hebron_and_effie",
+      "section": "yellow-face-section_12",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_461",
+        "sentence_464"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "yellow-face-section_12",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_464",
+        "sentence_465",
+        "sentence_466",
+        "sentence_467"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "yellow-face-section_12",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_464",
+        "sentence_465",
+        "sentence_467"
+      ]
+    },
+    {
+      "entity": "norbury_villa",
+      "section": "yellow-face-section_12",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_465",
+        "sentence_467"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "pipe",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_1",
+      "significance": "Holmes inferred that the visitor was disturbed in his mind from leaving behind a pipe he evidently valued highly.",
+      "source_nodes": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_42"
+      ]
+    },
+    {
+      "object": "pipe",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_2",
+      "significance": "Holmes inferred that the pipe owner was left-handed from the charred right side and that he had strong teeth and a muscular build from the bitten-through amber.",
+      "source_nodes": [
+        "sentence_55",
+        "sentence_61",
+        "sentence_62",
+        "sentence_66",
+        "sentence_67",
+        "sentence_71",
+        "sentence_72"
+      ]
+    },
+    {
+      "object": "brown_wide_awake",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_3",
+      "significance": "Holmes inferred Grant Munro's name from the writing on the lining of the hat and the way the crown was turned toward the speaker.",
+      "source_nodes": [
+        "sentence_101"
+      ]
+    },
+    {
+      "object": "death_certificate_of_hebron",
+      "case": "yellow_face_case",
+      "discovered_by": "grant_munro",
+      "discovered_in_section": "yellow-face-section_3",
+      "significance": "Grant Munro used Hebron's death certificate as confirmation that Hebron had died.",
+      "source_nodes": [
+        "sentence_129"
+      ]
+    },
+    {
+      "object": "face_in_window",
+      "case": "yellow_face_case",
+      "discovered_by": "jack",
+      "discovered_in_section": "yellow-face-section_7",
+      "significance": "Jack inferred a connection between the figure in the upper window and his wife after seeing it watching them from the cottage.",
+      "source_nodes": [
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268"
+      ]
+    },
+    {
+      "object": "strange_face_in_window",
+      "case": "yellow_face_case",
+      "discovered_by": "jack",
+      "discovered_in_section": "yellow-face-section_7",
+      "significance": "Jack found that the strange face had appeared in the window of the cottage chamber and deepened his suspicion about the secret in the house.",
+      "source_nodes": [
+        "sentence_292",
+        "sentence_293"
+      ]
+    },
+    {
+      "object": "face_in_window",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_8",
+      "significance": "Holmes inferred that the face at the window might not have been certainly male because Jack could not swear to it from the distance at which he saw it.",
+      "source_nodes": [
+        "sentence_309",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313"
+      ]
+    },
+    {
+      "object": "death_certificate_of_hebron",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_8",
+      "significance": "Holmes used the death certificate and the account of the Atlanta fire to probe the history of Jack's wife's first husband.",
+      "source_nodes": [
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_320"
+      ]
+    },
+    {
+      "object": "face_in_window",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_9",
+      "significance": "Holmes inferred that the cottage was still occupied from the face at the window.",
+      "source_nodes": [
+        "sentence_371",
+        "sentence_372"
+      ]
+    },
+    {
+      "object": "death_certificate_of_hebron",
+      "case": "yellow_face_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "yellow-face-section_9",
+      "significance": "Holmes inferred that the woman had tried to reassure her second husband by showing him a death certificate.",
+      "source_nodes": [
+        "sentence_354"
+      ]
+    }
+  ],
+  "memberOf": []
+}

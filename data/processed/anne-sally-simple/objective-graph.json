@@ -1,0 +1,261 @@
+{
+  "entities": [
+    {
+      "id": "anne",
+      "type": "character",
+      "label": "Anne",
+      "description": "Human female character",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "sally",
+      "type": "character",
+      "label": "Sally",
+      "description": "Human female character",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "marble",
+      "type": "object",
+      "label": "marble",
+      "description": "Shiny marble",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "red_basket",
+      "type": "object",
+      "label": "red basket",
+      "description": "Red basket",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "blue_box",
+      "type": "object",
+      "label": "blue box",
+      "description": "Blue box",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "garden",
+      "type": "location",
+      "label": "garden",
+      "description": "Garden location",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "house",
+      "type": "location",
+      "label": "house",
+      "description": "House location",
+      "firstSection": "section_1"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_0",
+      "type": "event",
+      "label": "Anne and Sally are located at garden",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_1"
+      ],
+      "participants": [
+        "anne",
+        "sally",
+        "garden"
+      ],
+      "performs": [
+        "anne",
+        "sally"
+      ]
+    },
+    {
+      "id": "event_1",
+      "type": "event",
+      "label": "Sally places marble inside red basket",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "sally",
+        "marble",
+        "red_basket"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_2",
+      "type": "event",
+      "label": "Sally moves from garden to house",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_5",
+        "sentence_6"
+      ],
+      "participants": [
+        "sally",
+        "garden",
+        "house"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_3",
+      "type": "event",
+      "label": "Anne moves marble from red basket to blue box",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "anne",
+        "marble",
+        "red_basket",
+        "blue_box"
+      ],
+      "performs": [
+        "anne"
+      ]
+    },
+    {
+      "id": "event_4",
+      "type": "event",
+      "label": "Sally moves from house to garden",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_10",
+        "sentence_11"
+      ],
+      "participants": [
+        "sally",
+        "house",
+        "garden"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "sally moves to red_basket and opens red_basket",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "sally",
+        "red_basket"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "marble moves to blue_box",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "marble",
+        "blue_box"
+      ],
+      "performs": []
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "anne",
+      "to": "garden",
+      "type": "LOCATED_AT",
+      "valid_from": "event_0",
+      "caused_by": [
+        "event_0"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sally",
+      "to": "garden",
+      "type": "LOCATED_AT",
+      "valid_from": "event_0",
+      "valid_until": "event_2",
+      "caused_by": [
+        "event_0"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "sally",
+      "to": "house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2",
+      "valid_until": "event_4",
+      "caused_by": [
+        "event_2"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "sally",
+      "to": "garden",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4",
+      "valid_until": "event_2_1",
+      "caused_by": [
+        "event_4"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "sally",
+      "to": "red_basket",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_1",
+      "caused_by": [
+        "event_2_1"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "marble",
+      "to": "red_basket",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1",
+      "valid_until": "event_3",
+      "caused_by": [
+        "event_1"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "marble",
+      "to": "blue_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3",
+      "valid_until": "event_2_2",
+      "caused_by": [
+        "event_3"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "marble",
+      "to": "blue_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_2_2",
+      "caused_by": [
+        "event_2_2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3804 @@
+{
+  "entities": [
+    {
+      "id": "case_reigate_squires",
+      "type": "case",
+      "label": "Reigate Squires investigation",
+      "description": "Investigation involving burglary at Acton's and the murder of William Kirwan at Cunningham's, with a fragment of torn paper and a gunshot at about twelve.",
+      "firstSection": "reigate-squires-section_1",
+      "source": "reigate-squires-section_1",
+      "crime_type": "murder",
+      "outcome": "unresolved",
+      "primary_location": "location_reigate_surrey"
+    },
+    {
+      "id": "location_reigate_surrey",
+      "type": "location",
+      "label": "Reigate, Surrey",
+      "description": "Location near Reigate in Surrey where Colonel Hayter took a house and where Cunningham's house and the surrounding grounds are discussed.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_hotel_dulong",
+      "type": "location",
+      "label": "Hotel Dulong",
+      "description": "Hotel where Holmes was lying ill.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "London location where Watson and Holmes were together and where Holmes had a room.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_lyons",
+      "type": "location",
+      "label": "Lyons",
+      "description": "City from which Watson received a telegram and where the pair had previously returned from.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_actons",
+      "type": "location",
+      "label": "Acton's house",
+      "description": "House of Old Acton that had been broken into.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_cunninghams",
+      "type": "location",
+      "label": "Cunningham's house",
+      "description": "House of Old Mr. Cunningham where burglary occurred and where William Kirwan was shot and died.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_colonels_gunroom",
+      "type": "location",
+      "label": "Colonel's gun-room",
+      "description": "Room in Colonel Hayter's house where Holmes, Hayter, and Watson were after dinner.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_colonels_roof",
+      "type": "location",
+      "label": "Colonel Hayter's house",
+      "description": "The house near Reigate that Holmes stayed in for a visit.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_field_outside",
+      "type": "location",
+      "label": "Field outside the house",
+      "description": "Outside field where Holmes paced and spoke with the Inspector and others.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_lodge",
+      "type": "location",
+      "label": "The lodge",
+      "description": "Place where William the coachman lived with his mother.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_queen_anne_house",
+      "type": "location",
+      "label": "Queen Anne house at Cunningham's",
+      "description": "Fine old Queen Anne house with the date 'Malplaquet' upon the lintel of the door.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_hedge_lines_road",
+      "type": "location",
+      "label": "Hedge lining the road",
+      "description": "Hedge separated from the side gate by garden stretch, referenced as part of the escape route.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "location_hill_gun_room_stairs_window",
+      "type": "location",
+      "label": "Stairs and windows at Cunningham's",
+      "description": "Stairs and windows from which the two men observed the struggle and escape.",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "doc_telegram_holmes_lyons_14_april",
+      "type": "document",
+      "label": "Telegram from Lyons (14 April)",
+      "description": "Telegram received by Watson from Lyons informing that Holmes was lying ill in the Hotel Dulong.",
+      "firstSection": "reigate-squires-section_1",
+      "document_type": "telegram",
+      "from": "entity_lyons_sender",
+      "to": "entity_watson",
+      "content_summary": "Informs Watson that Holmes is lying ill in the Hotel Dulong."
+    },
+    {
+      "id": "doc_fragment_torn_paper_appointment",
+      "type": "document",
+      "label": "Fragment torn from a larger sheet",
+      "description": "Small piece of torn paper found between the finger and thumb of the dead man, bearing an hour matching the time William Kirwan was killed.",
+      "firstSection": "reigate-squires-section_1",
+      "document_type": "note",
+      "from": "entity_unknown_sender",
+      "to": "entity_william_kirwan",
+      "content_summary": "Bears an hour written on it corresponding to the time the servant met his fate."
+    },
+    {
+      "id": "doc_letter_to_william",
+      "type": "document",
+      "label": "Letter received by William (yesterday afternoon post)",
+      "description": "A letter received by William by the afternoon post yesterday, whose envelope was destroyed by him.",
+      "firstSection": "reigate-squires-section_1",
+      "document_type": "letter",
+      "from": "entity_unknown_sender",
+      "to": "entity_william_kirwan",
+      "content_summary": "A letter is delivered to William; the envelope is destroyed by William."
+    },
+    {
+      "id": "org_county_police",
+      "type": "organisation",
+      "label": "County police",
+      "description": "Local policing body responsible for investigating local country crimes in the district.",
+      "firstSection": "reigate-squires-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "org_inspector_forrester_network",
+      "type": "organisation",
+      "label": "Local law enforcement (Inspector Forrester's office)",
+      "description": "The official organization represented by Inspector Forrester when he arrives to provide details and run inquiries.",
+      "firstSection": "reigate-squires-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "entity_inspector_forrester",
+      "type": "character",
+      "label": "entity inspector forrester",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_holmes",
+      "type": "character",
+      "label": "entity holmes",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_watson",
+      "type": "character",
+      "label": "entity watson",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_colonel_hayter",
+      "type": "character",
+      "label": "entity colonel hayter",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_butler",
+      "type": "character",
+      "label": "entity butler",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_old_acton",
+      "type": "character",
+      "label": "entity old acton",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_cunningham",
+      "type": "character",
+      "label": "entity cunningham",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_mr_cunningham",
+      "type": "character",
+      "label": "entity mr cunningham",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_alec_cunningham",
+      "type": "character",
+      "label": "entity alec cunningham",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_william_kirwan",
+      "type": "character",
+      "label": "entity william kirwan",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_burglar",
+      "type": "character",
+      "label": "entity burglar",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_pope_homer_volume",
+      "type": "character",
+      "label": "entity pope homer volume",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_plated_candlesticks",
+      "type": "character",
+      "label": "entity plated candlesticks",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_ivory_letter_weight",
+      "type": "character",
+      "label": "entity ivory letter weight",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_oak_barometer",
+      "type": "character",
+      "label": "entity oak barometer",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_ball_of_twine",
+      "type": "character",
+      "label": "entity ball of twine",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_pistol",
+      "type": "character",
+      "label": "entity pistol",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_constable",
+      "type": "character",
+      "label": "entity constable",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_old_mr_cunningham",
+      "type": "character",
+      "label": "entity old mr cunningham",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_young_mr_cunningham",
+      "type": "character",
+      "label": "entity young mr cunningham",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_lyons_sender",
+      "type": "character",
+      "label": "entity lyons sender",
+      "firstSection": "reigate-squires-section_1"
+    },
+    {
+      "id": "entity_unknown_sender",
+      "type": "character",
+      "label": "entity unknown sender",
+      "firstSection": "reigate-squires-section_1"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Watson receives a telegram from Lyons about Holmes being ill",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_6"
+      ],
+      "participants": [
+        "entity_watson",
+        "doc_telegram_holmes_lyons_14_april",
+        "entity_holmes",
+        "location_hotel_dulong",
+        "location_lyons"
+      ],
+      "performs": [
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_lyons_sender",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "that Holmes was lying ill in the Hotel Dulong"
+      }
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Watson goes to Holmes's sick-room within twenty-four hours",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_7"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_holmes",
+        "location_hotel_dulong"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes is found ill in the Hotel Dulong",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_6",
+        "sentence_7"
+      ],
+      "participants": [
+        "entity_holmes",
+        "location_hotel_dulong"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Watson and Holmes return to Baker Street together",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_11"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_holmes",
+        "location_baker_street"
+      ],
+      "performs": [
+        "entity_watson",
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Colonel Hayter takes a house near Reigate in Surrey",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_12"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "location_reigate_surrey"
+      ],
+      "performs": [
+        "entity_colonel_hayter"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes agrees to stay at Colonel Hayter's house",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "location_colonels_roof"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes, Hayter, and Watson sit in Colonel Hayter's gun-room after dinner",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "location_colonels_gunroom"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Holmes takes a pistol upstairs to be prepared for an alarm",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_17"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_pistol",
+        "location_colonels_roof"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Old Acton's house is reported to have been broken into last Monday",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_21",
+        "sentence_22"
+      ],
+      "participants": [
+        "location_actons",
+        "entity_old_acton",
+        "entity_holmes",
+        "entity_colonel_hayter"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes asks whether there is a clue in the Acton burglary",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_23",
+        "sentence_24"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "No clue?"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Colonel Hayter reports that there is no clue yet",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_25"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_colonel_hayter"
+      ],
+      "communicates": {
+        "speaker": "entity_colonel_hayter",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "None as yet"
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Colonel Hayter lists the items stolen from Acton's library",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_30",
+        "sentence_31"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "entity_holmes",
+        "location_actons"
+      ],
+      "performs": [
+        "entity_colonel_hayter"
+      ],
+      "communicates": {
+        "speaker": "entity_colonel_hayter",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "an odd volume of Pope's 'Homer,' two plated candlesticks, an ivory letter-weight, a small oak barometer, and a ball of twine are all that have vanished"
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "A butler rushes in at breakfast with news of burglary at Cunningham's",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_42",
+        "sentence_45",
+        "sentence_46"
+      ],
+      "participants": [
+        "entity_butler",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_butler"
+      ],
+      "communicates": {
+        "speaker": "entity_butler",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "At the Cunningham's sir!"
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Colonel Hayter responds that it is burglary",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_47"
+      ],
+      "participants": [
+        "entity_colonel_hayter"
+      ],
+      "performs": [
+        "entity_colonel_hayter"
+      ],
+      "communicates": {
+        "speaker": "entity_colonel_hayter",
+        "recipients": [],
+        "content": "Burglary!"
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Colonel Hayter is told it involves a murder and hears who was killed",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_48",
+        "sentence_52",
+        "sentence_53",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57"
+      ],
+      "participants": [
+        "entity_butler",
+        "entity_colonel_hayter",
+        "entity_william_kirwan"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "entity_butler",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "It was William the coachman. Shot through the heart, sir, and never spoke again."
+      }
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Butler reports the burglar shot William Kirwan and escaped",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61"
+      ],
+      "participants": [
+        "entity_butler",
+        "entity_colonel_hayter",
+        "entity_burglar",
+        "entity_william_kirwan",
+        "location_cunninghams"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "entity_butler",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "The burglar, sir. He was off like a shot and got clean away. He'd just broke in at the pantry window when William came on him and met his end in saving his master's property."
+      }
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Butler states the shooting happened about twelve last night",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_62",
+        "sentence_63"
+      ],
+      "participants": [
+        "entity_butler",
+        "entity_colonel_hayter"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "entity_butler",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "It was last night, sir, somewhere about twelve."
+      }
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Holmes discusses connection between Acton's burglary and Cunningham's burglary",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_67",
+        "sentence_68",
+        "sentence_69"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "stole that very singular collection"
+      }
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Inspector Forrester arrives and offers to have Holmes step over",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_81",
+        "sentence_83",
+        "sentence_85"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "I hope I don't intrude, but we hear that Mr. Holmes of Baker Street is here."
+      }
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Inspector Forrester tells Holmes details of the murder at Cunningham's",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_104"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_william_kirwan",
+        "entity_alec_cunningham",
+        "entity_mr_cunningham",
+        "entity_burglar"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_colonel_hayter",
+          "entity_holmes",
+          "entity_watson"
+        ],
+        "content": "The man was seen... But he was off like a deer after the shot that killed poor William Kirwan was fired."
+      }
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Inspector Forrester shows Holmes a torn paper fragment found with the dead man",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_114",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes",
+        "entity_william_kirwan",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "This was found between the finger and thumb of the dead man."
+      }
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Holmes agrees to leave Watson and Colonel Hayter and inspect details with the Inspector",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_133",
+        "sentence_135",
+        "sentence_136"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_colonel_hayter",
+        "entity_inspector_forrester"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "I will leave my friend Watson and you, and I will step round with the Inspector to test the truth of one or two little fancies of mine."
+      }
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Inspector Forrester returns alone after an hour and a half",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_137",
+        "sentence_138",
+        "sentence_139"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ]
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Holmes requests that four people go up to Cunningham's house together",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_139",
+        "sentence_141"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_colonel_hayter",
+          "entity_watson"
+        ],
+        "content": "He wants us all four to go up to the house together."
+      }
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Holmes paces in the field outside and discusses reconnaissance results",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_155",
+        "sentence_156"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_colonel_hayter",
+        "entity_inspector_forrester"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "Holmes states the body died from a revolver wound and that he and the Inspector made observations",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_160",
+        "sentence_161",
+        "sentence_165",
+        "sentence_168",
+        "sentence_172"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_inspector_forrester",
+        "entity_william_kirwan",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "He certainly died from a revolver wound as reported."
+      }
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "Holmes states the fragment bears the hour of death and that the note would have been used to bring William Kirwan out",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_173",
+        "sentence_176",
+        "sentence_177"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_inspector_forrester",
+        "doc_fragment_torn_paper_appointment",
+        "entity_william_kirwan"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_inspector_forrester",
+          "entity_colonel_hayter"
+        ],
+        "content": "Whoever wrote that note was the man who brought William Kirwan out of his bed at that hour."
+      }
+    },
+    {
+      "id": "event_1_28",
+      "type": "event",
+      "label": "Inspector Forrester describes the ground-inquiry and explains the fragment was torn out of the dead man's hand",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_178",
+        "sentence_179",
+        "sentence_180"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes",
+        "entity_william_kirwan",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "It was torn out of the dead man's hand."
+      }
+    },
+    {
+      "id": "event_1_29",
+      "type": "event",
+      "label": "Inspector Forrester states William received a letter by the afternoon post and destroyed the envelope",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_193",
+        "sentence_194"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes",
+        "entity_william_kirwan",
+        "doc_letter_to_william"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "William received a letter by the afternoon post yesterday. The envelope was destroyed by him."
+      }
+    },
+    {
+      "id": "event_1_30",
+      "type": "event",
+      "label": "Holmes leads the group to the lodge and then to the Queen Anne house at Cunningham's",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_199",
+        "sentence_200",
+        "sentence_201"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_1_31",
+      "type": "event",
+      "label": "Holmes instructs a constable to throw the kitchen door open",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_202",
+        "sentence_203"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_constable",
+        "location_queen_anne_house"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_constable"
+        ],
+        "content": "Throw the door open, officer"
+      }
+    },
+    {
+      "id": "event_1_32",
+      "type": "event",
+      "label": "Holmes explains the vantage points where the two men observed the struggle and escape",
+      "section": "reigate-squires-section_1",
+      "source_nodes": [
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_constable",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter",
+          "entity_watson",
+          "entity_inspector_forrester"
+        ],
+        "content": "Now, it was on those stairs that young Mr. Cunningham stood and saw the two men struggling just where we are."
+      }
+    },
+    {
+      "id": "event_2_214",
+      "type": "event",
+      "label": "Holmes asks for a little time",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_214"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "Ah, you must give us a little time"
+      }
+    },
+    {
+      "id": "event_2_215",
+      "type": "event",
+      "label": "Young Alec Cunningham says they will want the time",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_215"
+      ],
+      "participants": [
+        "entity_alec_cunningham",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_alec_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_alec_cunningham",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "You'll want it"
+      }
+    },
+    {
+      "id": "event_2_216",
+      "type": "event",
+      "label": "Inspector says there is no clue at all",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_216"
+      ],
+      "participants": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [],
+        "content": "Why, I don't see that we have any clue at all"
+      }
+    },
+    {
+      "id": "event_2_217",
+      "type": "event",
+      "label": "Inspector says there is only one",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_217"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "There's only one"
+      }
+    },
+    {
+      "id": "event_2_218",
+      "type": "event",
+      "label": "Unnamed person interrupts with concern about Holmes",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_218"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester"
+      ]
+    },
+    {
+      "id": "event_2_219",
+      "type": "event",
+      "label": "Someone asks what is the matter",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_219"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_inspector_forrester",
+        "recipients": [],
+        "content": "What is the matter?"
+      }
+    },
+    {
+      "id": "event_2_221",
+      "type": "event",
+      "label": "Holmes collapses onto the ground during a sudden attack",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_221"
+      ],
+      "participants": [
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_222",
+      "type": "event",
+      "label": "Witnesses carry Holmes into the kitchen and he lies back",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_222"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_2_223",
+      "type": "event",
+      "label": "Holmes rises again with apology",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_223"
+      ],
+      "participants": [
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_224",
+      "type": "event",
+      "label": "Holmes explains his recent severe illness and susceptibility to attacks",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_224",
+        "sentence_225"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_old_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Watson would tell you that I have only just recovered from a severe illness; I am liable to these sudden nervous attacks."
+      }
+    },
+    {
+      "id": "event_2_226",
+      "type": "event",
+      "label": "Old Cunningham offers to send Holmes home",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_226",
+        "sentence_227"
+      ],
+      "participants": [
+        "entity_old_mr_cunningham",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_old_mr_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_old_mr_cunningham",
+        "recipients": [
+          "entity_holmes"
+        ],
+        "content": "Shall I send you home in my trap?"
+      }
+    },
+    {
+      "id": "event_2_228_240",
+      "type": "event",
+      "label": "Holmes requests verification about William's arrival relative to the burglar's entry and confirms lamps were lit",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_233",
+        "sentence_234",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238",
+        "sentence_239",
+        "sentence_240"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_old_mr_cunningham",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_inspector_forrester"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham",
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes proposes William's arrival may have been after the burglar's entrance, then states lamps were lit and asks questions answered by the others."
+      }
+    },
+    {
+      "id": "event_2_241_244",
+      "type": "event",
+      "label": "Holmes remarks on the singular points of the burglar's timing and method; young Alec agrees",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_241",
+        "sentence_242",
+        "sentence_243",
+        "sentence_244"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_alec_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes notes it is extraordinary a burglar would break in when lights show two family members still afoot, and says the burglar must have been a cool hand."
+      }
+    },
+    {
+      "id": "event_2_245_250",
+      "type": "event",
+      "label": "Holmes discusses possibility of the burglar not robbing before William tackled him and lists odds and ends as items",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "It depends on what the things were; the burglar is peculiar and works on lines of his own, including a ball of string, a letter-weight, and other odds and ends."
+      }
+    },
+    {
+      "id": "event_2_251_268",
+      "type": "event",
+      "label": "Cunninghams agree to reward; Holmes prepares and pockets the signed form and orders a house-wide check",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268"
+      ],
+      "participants": [
+        "entity_old_mr_cunningham",
+        "entity_holmes",
+        "entity_inspector_forrester"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_old_mr_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes requests a reward, signs paperwork, orders it printed, then proposes all go over the house together to ensure the burglar did not carry anything away."
+      }
+    },
+    {
+      "id": "event_2_269_274",
+      "type": "event",
+      "label": "Holmes examines the forced door and asks about bars",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_269",
+        "sentence_270",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_mr_cunningham",
+        "entity_inspector_forrester",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "You don't use bars, then?"
+      }
+    },
+    {
+      "id": "event_2_275_281",
+      "type": "event",
+      "label": "Holmes asks about a dog and servants' bedtime; William is said to usually be in bed but was up",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_279",
+        "sentence_280",
+        "sentence_281"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_mr_cunningham"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_mr_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes asks whether they keep a dog and when servants go to bed; he is told the dog is chained on the other side of the house and servants go to bed about ten, and William usually is in bed then but was up this night."
+      }
+    },
+    {
+      "id": "event_2_282_286",
+      "type": "event",
+      "label": "Holmes requests a house tour; passage and rooms are described as he walks",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_282",
+        "sentence_283",
+        "sentence_284",
+        "sentence_285",
+        "sentence_286"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_mr_cunningham",
+        "entity_inspector_forrester",
+        "entity_watson",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_288_301",
+      "type": "event",
+      "label": "Cunninghams lead Holmes to rooms and answer which window/room overlooks the front",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_288",
+        "sentence_289",
+        "sentence_290",
+        "sentence_291",
+        "sentence_292",
+        "sentence_293",
+        "sentence_294",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_300",
+        "sentence_301"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_inspector_forrester",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_302_304",
+      "type": "event",
+      "label": "Holmes enters the older Cunningham's chamber and positions himself near the window",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_302",
+        "sentence_303",
+        "sentence_304"
+      ],
+      "participants": [
+        "entity_mr_cunningham",
+        "entity_holmes",
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_mr_cunningham",
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_305_307",
+      "type": "event",
+      "label": "Holmes knocks over oranges and water, smashing the glass and scattering fruit across the room",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_305",
+        "sentence_306",
+        "sentence_307"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_mr_cunningham",
+        "entity_inspector_forrester",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_2_308_312",
+      "type": "event",
+      "label": "Holmes claims Watson has done it; others pick up fruit and reset the table",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_308",
+        "sentence_309",
+        "sentence_310",
+        "sentence_311"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_mr_cunningham",
+        "entity_inspector_forrester",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_watson",
+        "entity_mr_cunningham",
+        "entity_inspector_forrester",
+        "entity_alec_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "You've done it now, Watson"
+      }
+    },
+    {
+      "id": "event_2_313_318",
+      "type": "event",
+      "label": "Inspector notices Holmes is gone; young Alec and his father rush out to find where Holmes has gone",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_313",
+        "sentence_314",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_alec_cunningham",
+        "entity_mr_cunningham",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_alec_cunningham",
+        "entity_mr_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_alec_cunningham",
+        "recipients": [
+          "entity_mr_cunningham"
+        ],
+        "content": "Come with me, father, and see where he has got to!"
+      }
+    },
+    {
+      "id": "event_2_319_328",
+      "type": "event",
+      "label": "A scream for help and murder occurs; Watson runs to the first-visited room and finds Holmes being assaulted",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_319",
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326",
+        "sentence_327",
+        "sentence_328"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_holmes"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_2_329",
+      "type": "event",
+      "label": "Watson and the Cunninghams tear the men away from Holmes",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_329"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_watson",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ]
+    },
+    {
+      "id": "event_2_330_337",
+      "type": "event",
+      "label": "Holmes orders the Inspector to arrest the Cunninghams; Holmes cites the charge of murdering William Kirwan",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_inspector_forrester"
+        ],
+        "content": "Arrest these men, Inspector! That of murdering their coachman, William Kirwan!"
+      }
+    },
+    {
+      "id": "event_2_341_347",
+      "type": "event",
+      "label": "Inspector whistles for constables; a revolver falls from the younger man's act of cocking; Holmes keeps it with his foot",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_341",
+        "sentence_342",
+        "sentence_343",
+        "sentence_345",
+        "sentence_346",
+        "sentence_347"
+      ],
+      "participants": [
+        "entity_inspector_forrester",
+        "entity_mr_cunningham",
+        "entity_alec_cunningham",
+        "entity_holmes",
+        "entity_constable"
+      ],
+      "performs": [
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_inspector_forrester"
+        ],
+        "content": "Keep that; you will find it useful at the trial."
+      }
+    },
+    {
+      "id": "event_2_348_356",
+      "type": "event",
+      "label": "Holmes displays a crumpled piece of paper and indicates the remainder of the sheet is elsewhere",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_348",
+        "sentence_349",
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_inspector_forrester"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_inspector_forrester"
+        ],
+        "content": "But this is what we really wanted... The remainder of the sheet! Precisely."
+      }
+    },
+    {
+      "id": "event_2_357_359",
+      "type": "event",
+      "label": "Holmes leaves with the Inspector for a word with prisoners, then rejoins them around one o'clock with Mr. Acton",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_old_acton"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_inspector_forrester"
+      ]
+    },
+    {
+      "id": "event_2_360_371",
+      "type": "event",
+      "label": "Holmes explains to Colonel Hayter that Acton should be present and plans to lay out the case",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_old_acton"
+      ],
+      "performs": [
+        "entity_holmes",
+        "entity_colonel_hayter"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_colonel_hayter",
+          "entity_watson"
+        ],
+        "content": "Holmes says Acton was asked to be present, then begins stating he will lay an account of the case in due order."
+      }
+    },
+    {
+      "id": "event_2_372_376",
+      "type": "event",
+      "label": "Holmes states importance of distinguishing incidental facts from vital facts and says the key is the scrap of paper in the dead man's hand",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes explains the importance of distinguishing incidental and vital facts, then says the key must be looked for in the scrap of paper in the dead man's hand."
+      }
+    },
+    {
+      "id": "event_2_380_416",
+      "type": "event",
+      "label": "Holmes presents deductions from the corner of paper, argues it was written by two persons alternately, and states the hands belong to blood relatives likely the Cunninghams",
+      "section": "reigate-squires-section_2",
+      "source_nodes": [
+        "sentence_380",
+        "sentence_381",
+        "sentence_382",
+        "sentence_383",
+        "sentence_384",
+        "sentence_385",
+        "sentence_386",
+        "sentence_387",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398",
+        "sentence_399",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_413",
+        "sentence_414",
+        "sentence_415",
+        "sentence_416"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_old_acton"
+      ],
+      "performs": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Holmes explains the torn paper was written by two persons doing alternate words, identifies one as a ringleader by stronger handwriting, discusses age differences in handwriting, and says the hands match blood relatives, concluding the Cunninghams father and son wrote the letter."
+      }
+    },
+    {
+      "id": "event_3_418",
+      "type": "event",
+      "label": "Watson goes up to the house with the Inspector to see what can be seen",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_418"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_inspector_forrester",
+        "location_actons"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_419",
+      "type": "event",
+      "label": "Watson determines that the dead man's wound was fired from a revolver over four yards away",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_419"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_pistol",
+        "entity_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_420",
+      "type": "event",
+      "label": "Watson notes there was no powder-blackening on the clothes",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_420"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_pistol"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_421",
+      "type": "event",
+      "label": "Watson concludes Alec Cunningham lied about the two men struggling when the shot was fired",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_421"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_422",
+      "type": "event",
+      "label": "Father and son agree on where the man escaped into the road",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_422"
+      ],
+      "participants": [
+        "entity_mr_cunningham",
+        "entity_alec_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_423",
+      "type": "event",
+      "label": "A broadish ditch moist at the bottom is described at the escape point",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_423"
+      ],
+      "participants": [
+        "location_hedge_lines_road"
+      ]
+    },
+    {
+      "id": "event_3_424",
+      "type": "event",
+      "label": "Watson concludes there were no bootmarks about the ditch and that there had never been an unknown man on the scene",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_424"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_unknown_sender",
+        "location_hedge_lines_road"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_426",
+      "type": "event",
+      "label": "Watson endeavours to solve the reason for the original burglary at Mr. Acton's",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_426"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_old_acton",
+        "location_actons"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_427",
+      "type": "event",
+      "label": "Watson says the Colonel told him that a lawsuit was going on between Mr. Acton and the Cunninghams",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_427"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_colonel_hayter",
+        "entity_old_acton",
+        "entity_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_428",
+      "type": "event",
+      "label": "Watson states that he instantly thought the Cunninghams broke into Acton's library to get an important document",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_428"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_cunningham",
+        "entity_old_acton",
+        "location_actons"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_429",
+      "type": "event",
+      "label": "Mr. Acton agrees that there can be no doubt as to the Cunninghams' intentions",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_430"
+      ],
+      "participants": [
+        "entity_old_acton",
+        "entity_watson",
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_old_acton",
+        "recipients": [
+          "entity_watson",
+          "entity_holmes"
+        ],
+        "content": "There can be no possible doubt as to their intentions."
+      }
+    },
+    {
+      "id": "event_3_431",
+      "type": "event",
+      "label": "Mr. Acton claims he has a clear claim upon half of the Cunninghams' present estate and that a single paper could have crippled their case",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_431"
+      ],
+      "participants": [
+        "entity_old_acton",
+        "entity_watson",
+        "entity_holmes",
+        "entity_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_old_acton",
+        "recipients": [
+          "entity_watson",
+          "entity_holmes"
+        ],
+        "content": "I have the clearest claim upon half of their present estate, and if they could have found a single paper—which, fortunately, was in the strong-box of my solicitors—they would undoubtedly have crippled our case."
+      }
+    },
+    {
+      "id": "event_3_432",
+      "type": "event",
+      "label": "Holmes smiles while responding to Mr. Acton",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_432"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_old_acton"
+      ]
+    },
+    {
+      "id": "event_3_433",
+      "type": "event",
+      "label": "Holmes says the attempt was dangerous and reckless and traces influence of young Alec",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_433"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_alec_cunningham",
+        "entity_watson",
+        "entity_old_acton"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson",
+          "entity_old_acton"
+        ],
+        "content": "It was a dangerous, reckless attempt, in which I seem to trace the influence of young Alec."
+      }
+    },
+    {
+      "id": "event_3_434",
+      "type": "event",
+      "label": "Holmes says the Cunninghams tried to divert suspicion by making it appear to be an ordinary burglary",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_434"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_cunningham"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson",
+          "entity_old_acton"
+        ],
+        "content": "Having found nothing they tried to divert suspicion by making it appear to be an ordinary burglary, to which end they carried off whatever they could lay their hands upon."
+      }
+    },
+    {
+      "id": "event_3_435",
+      "type": "event",
+      "label": "Watson states that the burglary explanation is clear but parts are still obscure",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_435"
+      ],
+      "participants": [
+        "entity_watson"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_436",
+      "type": "event",
+      "label": "Watson says he wanted to get the missing part of that note",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_436"
+      ],
+      "participants": [
+        "entity_watson",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_437",
+      "type": "event",
+      "label": "Watson says he was certain Alec tore the missing part from the dead man's hand and thrust it into the pocket of his dressing-gown",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_437"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham",
+        "entity_unknown_sender"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_438",
+      "type": "event",
+      "label": "Watson questions where Alec could have put the note part",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_438"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_440",
+      "type": "event",
+      "label": "Watson and all go up to the house to search for the missing note part",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_440"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_holmes",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_old_acton",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_441",
+      "type": "event",
+      "label": "Watson says the Cunninghams joined them outside the kitchen door",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_441"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham",
+        "location_actons"
+      ]
+    },
+    {
+      "id": "event_3_442",
+      "type": "event",
+      "label": "Watson states it was important the Cunninghams not be reminded of the paper's existence",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_442"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_443",
+      "type": "event",
+      "label": "Watson describes that he tumbled down and changed the conversation",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_443"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_inspector_forrester",
+        "entity_colonel_hayter",
+        "entity_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_444",
+      "type": "event",
+      "label": "Colonel Hayter exclaims 'Good heavens!'",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_444"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_colonel_hayter",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "Good heavens!"
+      }
+    },
+    {
+      "id": "event_3_445",
+      "type": "event",
+      "label": "Colonel Hayter laughs and asks if sympathy was wasted due to Watson's fit being an imposture",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_445"
+      ],
+      "participants": [
+        "entity_colonel_hayter",
+        "entity_watson",
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_colonel_hayter",
+        "recipients": [
+          "entity_watson",
+          "entity_holmes"
+        ],
+        "content": "do you mean to say all our sympathy was wasted and your fit an imposture?"
+      }
+    },
+    {
+      "id": "event_3_446",
+      "type": "event",
+      "label": "Watson says speaking professionally it was admirably done",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_446"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_colonel_hayter"
+      ],
+      "communicates": {
+        "speaker": "entity_watson",
+        "recipients": [
+          "entity_colonel_hayter"
+        ],
+        "content": "Speaking professionally, it was admirably done,"
+      }
+    },
+    {
+      "id": "event_3_447",
+      "type": "event",
+      "label": "Holmes says it is an art which is often useful",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_447"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "It is an art which is often useful."
+      }
+    },
+    {
+      "id": "event_3_448",
+      "type": "event",
+      "label": "Holmes says he got old Cunningham to write the word 'twelve' to compare it with 'twelve' on the paper",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_448"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_old_mr_cunningham",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_holmes"
+      ]
+    },
+    {
+      "id": "event_3_449",
+      "type": "event",
+      "label": "Watson exclaims that he was an ass",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_449"
+      ],
+      "participants": [
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_watson",
+        "recipients": [],
+        "content": "Oh, what an ass I have been!"
+      }
+    },
+    {
+      "id": "event_3_451",
+      "type": "event",
+      "label": "Holmes laughs and says he was commiserating Watson over his weakness",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_451"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "I could see that you were commiserating me over my weakness,"
+      }
+    },
+    {
+      "id": "event_3_452",
+      "type": "event",
+      "label": "Holmes says he was sorry to cause sympathetic pain",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_452"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "I was sorry to cause you the sympathetic pain which I know that you felt."
+      }
+    },
+    {
+      "id": "event_3_453",
+      "type": "event",
+      "label": "Watson and Holmes go upstairs together, find the dressing-gown behind the door, and Watson upsets a table to engage attention while examining pockets",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_453"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_holmes",
+        "entity_cunningham",
+        "location_cunninghams"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_454",
+      "type": "event",
+      "label": "Watson has the paper in a pocket, when the two Cunninghams attack and attempt to take it",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_454"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_455",
+      "type": "event",
+      "label": "Watson states that Alec grips his throat and the father twists his wrist to get the paper out of his hand",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_455"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "performs": [
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_456",
+      "type": "event",
+      "label": "Watson says they became desperate after seeing he must know all about the paper",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_456"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_457",
+      "type": "event",
+      "label": "Watson says he had a talk with old Cunningham about the motive of the crime afterward",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_457"
+      ],
+      "participants": [
+        "entity_watson",
+        "entity_old_mr_cunningham"
+      ],
+      "performs": [
+        "entity_watson"
+      ]
+    },
+    {
+      "id": "event_3_458",
+      "type": "event",
+      "label": "Watson describes old Cunningham as tractable and his son as ready to blow out brains if he could get a revolver",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_458"
+      ],
+      "participants": [
+        "entity_old_mr_cunningham",
+        "entity_young_mr_cunningham",
+        "entity_pistol"
+      ]
+    },
+    {
+      "id": "event_3_459",
+      "type": "event",
+      "label": "Watson states that after Cunningham saw the case against him was strong, he made a clean breast of everything",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_459"
+      ],
+      "participants": [
+        "entity_old_mr_cunningham"
+      ],
+      "performs": [
+        "entity_old_mr_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_460",
+      "type": "event",
+      "label": "Watson says William secretly followed the two masters on the night of the raid and then proceeded to levy blackmail under threats of exposure",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_460"
+      ],
+      "participants": [
+        "entity_william_kirwan",
+        "entity_alec_cunningham",
+        "entity_old_mr_cunningham",
+        "case_reigate_squires"
+      ],
+      "performs": [
+        "entity_william_kirwan"
+      ]
+    },
+    {
+      "id": "event_3_462",
+      "type": "event",
+      "label": "Watson says Alec used the burglary scare as an opportunity to get rid of the man he feared",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_462"
+      ],
+      "participants": [
+        "entity_alec_cunningham",
+        "entity_william_kirwan"
+      ],
+      "performs": [
+        "entity_alec_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_463",
+      "type": "event",
+      "label": "Watson says William was decoyed up and shot",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_463"
+      ],
+      "participants": [
+        "entity_william_kirwan",
+        "entity_alec_cunningham"
+      ],
+      "performs": [
+        "entity_alec_cunningham"
+      ]
+    },
+    {
+      "id": "event_3_464_468",
+      "type": "event",
+      "label": "Holmes places a subjoined paper and its content is stated",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_464",
+        "sentence_466",
+        "sentence_468"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "If you will only come round at quarter to twelve to the east gate you will learn what will very much surprise you and maybe be of the greatest service to you and also to Annie Morrison. But say nothing to anyone upon the matter"
+      }
+    },
+    {
+      "id": "event_3_470",
+      "type": "event",
+      "label": "Holmes says the paper is very much the sort of thing he expected",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_470"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_watson"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "It is very much the sort of thing that I expected,"
+      }
+    },
+    {
+      "id": "event_3_471",
+      "type": "event",
+      "label": "Holmes states they do not yet know the relations between Alec Cunningham, William Kirwan, and Annie Morrison",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_471"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_alec_cunningham",
+        "entity_william_kirwan",
+        "entity_unknown_sender"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "Of course, we do not yet know what the relations may have been between Alec Cunningham, William Kirwan, and Annie Morrison."
+      }
+    },
+    {
+      "id": "event_3_472",
+      "type": "event",
+      "label": "Holmes states the results shows the trap was skillfully baited",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_472"
+      ],
+      "participants": [
+        "entity_holmes"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "The results shows that the trap was skillfully baited."
+      }
+    },
+    {
+      "id": "event_3_473",
+      "type": "event",
+      "label": "Holmes comments on traces of heredity in handwriting features",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_473"
+      ],
+      "participants": [
+        "entity_holmes",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "I am sure that you cannot fail to be delighted with the traces of heredity shown in the p's and in the tails of the g's."
+      }
+    },
+    {
+      "id": "event_3_474",
+      "type": "event",
+      "label": "Holmes comments on absence of i-dots in the old man's writing",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_474"
+      ],
+      "participants": [
+        "entity_holmes",
+        "entity_old_mr_cunningham",
+        "doc_fragment_torn_paper_appointment"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [],
+        "content": "The absence of the i-dots in the old man's writing is also most characteristic."
+      }
+    },
+    {
+      "id": "event_3_475",
+      "type": "event",
+      "label": "Holmes says the quiet rest in the country was a success and that he will return to Baker Street tomorrow",
+      "section": "reigate-squires-section_3",
+      "source_nodes": [
+        "sentence_475"
+      ],
+      "participants": [
+        "entity_holmes",
+        "location_baker_street"
+      ],
+      "communicates": {
+        "speaker": "entity_holmes",
+        "recipients": [
+          "entity_watson"
+        ],
+        "content": "Watson, I think our quiet rest in the country has been a distinct success, and I shall certainly return much invigorated to Baker Street to-morrow."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "entity_holmes",
+      "to": "location_hotel_dulong",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_1",
+      "valid_until": "event_1_4",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "entity_holmes",
+      "to": "location_baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_4",
+      "valid_until": "event_1_6",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "entity_holmes",
+      "to": "location_colonels_roof",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_6",
+      "valid_until": "event_1_7",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "entity_holmes",
+      "to": "location_colonels_gunroom",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_7",
+      "valid_until": "event_2_222",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "entity_holmes",
+      "to": "location_cunninghams",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_222",
+      "valid_until": "event_2_283_286",
+      "caused_by": [
+        "event_2_222"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "entity_holmes",
+      "to": "location_cunninghams",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_283_286",
+      "valid_until": "event_2_288_301",
+      "caused_by": [
+        "event_2_283_286"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "entity_holmes",
+      "to": "location_cunninghams",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_288_301",
+      "valid_until": "event_2_357_359",
+      "caused_by": [
+        "event_2_288_301"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "entity_holmes",
+      "to": "location_colonels_gunroom",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_357_359",
+      "caused_by": [
+        "event_2_357_359"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "entity_watson",
+      "to": "location_hotel_dulong",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "valid_until": "event_1_4",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "entity_watson",
+      "to": "location_baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_4",
+      "valid_until": "event_1_7",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "entity_watson",
+      "to": "location_colonels_gunroom",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_7",
+      "valid_until": "event_3_418",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "entity_watson",
+      "to": "location_actons",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_418",
+      "caused_by": [
+        "event_3_418"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "entity_colonel_hayter",
+      "to": "location_reigate_surrey",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_5",
+      "valid_until": "event_1_7",
+      "caused_by": [
+        "event_1_5"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "entity_colonel_hayter",
+      "to": "location_colonels_gunroom",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_7",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "entity_pistol",
+      "to": "location_colonels_roof",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_8",
+      "caused_by": [
+        "event_1_8"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "doc_telegram_holmes_lyons_14_april",
+      "to": "entity_watson",
+      "type": "OWNS",
+      "valid_from": "event_1_1",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "doc_fragment_torn_paper_appointment",
+      "to": "entity_william_kirwan",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_21",
+      "valid_until": "event_3_454",
+      "caused_by": [
+        "event_1_21"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "doc_fragment_torn_paper_appointment",
+      "to": "entity_watson",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_454",
+      "caused_by": [
+        "event_3_454"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "entity_holmes",
+      "section": "reigate-squires-section_1",
+      "mention_count": 42,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_5",
+        "sentence_6",
+        "sentence_7",
+        "sentence_9",
+        "sentence_10",
+        "sentence_11",
+        "sentence_14",
+        "sentence_16",
+        "sentence_17",
+        "sentence_20",
+        "sentence_23",
+        "sentence_24",
+        "sentence_27",
+        "sentence_28",
+        "sentence_35",
+        "sentence_36",
+        "sentence_39",
+        "sentence_41",
+        "sentence_41",
+        "sentence_83",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_122",
+        "sentence_126",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133",
+        "sentence_135",
+        "sentence_137",
+        "sentence_138",
+        "sentence_151",
+        "sentence_152",
+        "sentence_155",
+        "sentence_160",
+        "sentence_173",
+        "sentence_176",
+        "sentence_184",
+        "sentence_185",
+        "sentence_199"
+      ]
+    },
+    {
+      "entity": "entity_watson",
+      "section": "reigate-squires-section_1",
+      "mention_count": 30,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_6",
+        "sentence_7",
+        "sentence_11",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_16",
+        "sentence_19",
+        "sentence_27",
+        "sentence_33",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_137",
+        "sentence_147",
+        "sentence_148",
+        "sentence_151",
+        "sentence_153",
+        "sentence_155",
+        "sentence_159",
+        "sentence_170",
+        "sentence_173",
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "entity_colonel_hayter",
+      "section": "reigate-squires-section_1",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_16",
+        "sentence_36",
+        "sentence_42",
+        "sentence_46",
+        "sentence_47",
+        "sentence_51",
+        "sentence_52",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_75",
+        "sentence_81",
+        "sentence_84",
+        "sentence_85",
+        "sentence_143",
+        "sentence_145",
+        "sentence_150",
+        "sentence_155",
+        "sentence_166"
+      ]
+    },
+    {
+      "entity": "entity_inspector_forrester",
+      "section": "reigate-squires-section_1",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_88",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_104",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_144",
+        "sentence_146",
+        "sentence_170",
+        "sentence_173",
+        "sentence_174",
+        "sentence_178",
+        "sentence_192",
+        "sentence_193",
+        "sentence_194",
+        "sentence_199"
+      ]
+    },
+    {
+      "entity": "entity_butler",
+      "section": "reigate-squires-section_1",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_48",
+        "sentence_52",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_81",
+        "sentence_82"
+      ]
+    },
+    {
+      "entity": "entity_old_acton",
+      "section": "reigate-squires-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_21",
+        "sentence_67"
+      ]
+    },
+    {
+      "entity": "entity_cunningham",
+      "section": "reigate-squires-section_1",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_45",
+        "sentence_46",
+        "sentence_65",
+        "sentence_98",
+        "sentence_102",
+        "sentence_165",
+        "sentence_188",
+        "sentence_200"
+      ]
+    },
+    {
+      "entity": "entity_mr_cunningham",
+      "section": "reigate-squires-section_1",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_53",
+        "sentence_99",
+        "sentence_102",
+        "sentence_165",
+        "sentence_204",
+        "sentence_205",
+        "sentence_205"
+      ]
+    },
+    {
+      "entity": "entity_alec_cunningham",
+      "section": "reigate-squires-section_1",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_55",
+        "sentence_96",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_103",
+        "sentence_165",
+        "sentence_204",
+        "sentence_205",
+        "sentence_212",
+        "sentence_213"
+      ]
+    },
+    {
+      "entity": "entity_william_kirwan",
+      "section": "reigate-squires-section_1",
+      "mention_count": 21,
+      "sentence_ids": [
+        "sentence_53",
+        "sentence_56",
+        "sentence_57",
+        "sentence_95",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_114",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_124",
+        "sentence_129",
+        "sentence_160",
+        "sentence_173",
+        "sentence_176",
+        "sentence_179",
+        "sentence_188",
+        "sentence_193",
+        "sentence_199"
+      ]
+    },
+    {
+      "entity": "entity_burglar",
+      "section": "reigate-squires-section_1",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61",
+        "sentence_73",
+        "sentence_91",
+        "sentence_101",
+        "sentence_102",
+        "sentence_104",
+        "sentence_110",
+        "sentence_120"
+      ]
+    },
+    {
+      "entity": "entity_pope_homer_volume",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "entity_plated_candlesticks",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "entity_ivory_letter_weight",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "entity_oak_barometer",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "entity_ball_of_twine",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "entity_pistol",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_17"
+      ]
+    },
+    {
+      "entity": "entity_constable",
+      "section": "reigate-squires-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_202",
+        "sentence_203"
+      ]
+    },
+    {
+      "entity": "entity_old_mr_cunningham",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_205"
+      ]
+    },
+    {
+      "entity": "entity_young_mr_cunningham",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_204"
+      ]
+    },
+    {
+      "entity": "entity_lyons_sender",
+      "section": "reigate-squires-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_6"
+      ]
+    },
+    {
+      "entity": "entity_unknown_sender",
+      "section": "reigate-squires-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_190",
+        "sentence_191"
+      ]
+    },
+    {
+      "entity": "entity_holmes",
+      "section": "reigate-squires-section_2",
+      "mention_count": 63,
+      "sentence_ids": [
+        "sentence_214",
+        "sentence_218",
+        "sentence_220",
+        "sentence_221",
+        "sentence_222",
+        "sentence_223",
+        "sentence_228",
+        "sentence_229",
+        "sentence_233",
+        "sentence_241",
+        "sentence_242",
+        "sentence_244",
+        "sentence_245",
+        "sentence_247",
+        "sentence_248",
+        "sentence_251",
+        "sentence_253",
+        "sentence_254",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_286",
+        "sentence_294",
+        "sentence_304",
+        "sentence_308",
+        "sentence_314",
+        "sentence_328",
+        "sentence_329",
+        "sentence_330",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_347",
+        "sentence_348",
+        "sentence_349",
+        "sentence_356",
+        "sentence_358",
+        "sentence_360",
+        "sentence_361",
+        "sentence_363",
+        "sentence_365",
+        "sentence_367",
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371",
+        "sentence_375",
+        "sentence_376",
+        "sentence_380",
+        "sentence_381",
+        "sentence_382",
+        "sentence_385",
+        "sentence_386",
+        "sentence_387",
+        "sentence_392",
+        "sentence_395",
+        "sentence_398",
+        "sentence_401",
+        "sentence_402",
+        "sentence_406",
+        "sentence_409",
+        "sentence_411",
+        "sentence_416"
+      ]
+    },
+    {
+      "entity": "entity_watson",
+      "section": "reigate-squires-section_2",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_224",
+        "sentence_262",
+        "sentence_310",
+        "sentence_324",
+        "sentence_325",
+        "sentence_327",
+        "sentence_329",
+        "sentence_356",
+        "sentence_358",
+        "sentence_360",
+        "sentence_365",
+        "sentence_366",
+        "sentence_372",
+        "sentence_376",
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_414"
+      ]
+    },
+    {
+      "entity": "entity_inspector_forrester",
+      "section": "reigate-squires-section_2",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_217",
+        "sentence_218",
+        "sentence_219",
+        "sentence_222",
+        "sentence_260",
+        "sentence_264",
+        "sentence_266",
+        "sentence_267",
+        "sentence_269",
+        "sentence_330",
+        "sentence_341",
+        "sentence_342",
+        "sentence_353",
+        "sentence_356",
+        "sentence_357"
+      ]
+    },
+    {
+      "entity": "entity_colonel_hayter",
+      "section": "reigate-squires-section_2",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_356",
+        "sentence_358",
+        "sentence_359",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_365",
+        "sentence_366",
+        "sentence_371",
+        "sentence_372",
+        "sentence_376",
+        "sentence_384",
+        "sentence_405",
+        "sentence_407",
+        "sentence_408"
+      ]
+    },
+    {
+      "entity": "entity_old_acton",
+      "section": "reigate-squires-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_359",
+        "sentence_360",
+        "sentence_400",
+        "sentence_408"
+      ]
+    },
+    {
+      "entity": "entity_old_mr_cunningham",
+      "section": "reigate-squires-section_2",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_226",
+        "sentence_227",
+        "sentence_231",
+        "sentence_251",
+        "sentence_252",
+        "sentence_262",
+        "sentence_265",
+        "sentence_266",
+        "sentence_269",
+        "sentence_288",
+        "sentence_289",
+        "sentence_290",
+        "sentence_315",
+        "sentence_317",
+        "sentence_318",
+        "sentence_328",
+        "sentence_339",
+        "sentence_343",
+        "sentence_344"
+      ]
+    },
+    {
+      "entity": "entity_alec_cunningham",
+      "section": "reigate-squires-section_2",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_215",
+        "sentence_244",
+        "sentence_246",
+        "sentence_251",
+        "sentence_264",
+        "sentence_291",
+        "sentence_292",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_328",
+        "sentence_340",
+        "sentence_345",
+        "sentence_346"
+      ]
+    },
+    {
+      "entity": "entity_mr_cunningham",
+      "section": "reigate-squires-section_2",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_232",
+        "sentence_233",
+        "sentence_234",
+        "sentence_235",
+        "sentence_238",
+        "sentence_289",
+        "sentence_290",
+        "sentence_293",
+        "sentence_294",
+        "sentence_297",
+        "sentence_298",
+        "sentence_302",
+        "sentence_303",
+        "sentence_328",
+        "sentence_339",
+        "sentence_343",
+        "sentence_344",
+        "sentence_345"
+      ]
+    },
+    {
+      "entity": "entity_constable",
+      "section": "reigate-squires-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_342"
+      ]
+    },
+    {
+      "entity": "entity_william_kirwan",
+      "section": "reigate-squires-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_333"
+      ]
+    },
+    {
+      "entity": "entity_burglar",
+      "section": "reigate-squires-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_231",
+        "sentence_232",
+        "sentence_242",
+        "sentence_248"
+      ]
+    },
+    {
+      "entity": "entity_pistol",
+      "section": "reigate-squires-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_346",
+        "sentence_347"
+      ]
+    },
+    {
+      "entity": "entity_watson",
+      "section": "reigate-squires-section_3",
+      "mention_count": 27,
+      "sentence_ids": [
+        "sentence_417",
+        "sentence_418",
+        "sentence_420",
+        "sentence_424",
+        "sentence_426",
+        "sentence_428",
+        "sentence_432",
+        "sentence_435",
+        "sentence_436",
+        "sentence_437",
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_443",
+        "sentence_446",
+        "sentence_448",
+        "sentence_449",
+        "sentence_450",
+        "sentence_452",
+        "sentence_453",
+        "sentence_454",
+        "sentence_455",
+        "sentence_456",
+        "sentence_457",
+        "sentence_464",
+        "sentence_466",
+        "sentence_469"
+      ]
+    },
+    {
+      "entity": "entity_inspector_forrester",
+      "section": "reigate-squires-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_418",
+        "sentence_443"
+      ]
+    },
+    {
+      "entity": "entity_old_acton",
+      "section": "reigate-squires-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_426",
+        "sentence_427",
+        "sentence_428",
+        "sentence_429"
+      ]
+    },
+    {
+      "entity": "entity_colonel_hayter",
+      "section": "reigate-squires-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_427",
+        "sentence_445",
+        "sentence_446"
+      ]
+    },
+    {
+      "entity": "entity_holmes",
+      "section": "reigate-squires-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_432",
+        "sentence_433",
+        "sentence_434",
+        "sentence_446",
+        "sentence_447",
+        "sentence_448",
+        "sentence_451",
+        "sentence_452",
+        "sentence_466",
+        "sentence_470",
+        "sentence_471",
+        "sentence_472",
+        "sentence_473",
+        "sentence_474",
+        "sentence_475"
+      ]
+    },
+    {
+      "entity": "entity_alec_cunningham",
+      "section": "reigate-squires-section_3",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_421",
+        "sentence_433",
+        "sentence_437",
+        "sentence_460",
+        "sentence_461",
+        "sentence_462",
+        "sentence_463"
+      ]
+    },
+    {
+      "entity": "entity_old_mr_cunningham",
+      "section": "reigate-squires-section_3",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_448",
+        "sentence_457",
+        "sentence_459",
+        "sentence_460",
+        "sentence_455"
+      ]
+    },
+    {
+      "entity": "entity_mr_cunningham",
+      "section": "reigate-squires-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "entity_cunningham",
+      "section": "reigate-squires-section_3",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_421",
+        "sentence_441",
+        "sentence_442",
+        "sentence_433",
+        "sentence_434",
+        "sentence_460",
+        "sentence_459"
+      ]
+    },
+    {
+      "entity": "entity_pistol",
+      "section": "reigate-squires-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_419",
+        "sentence_458"
+      ]
+    },
+    {
+      "entity": "entity_unknown_sender",
+      "section": "reigate-squires-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_424"
+      ]
+    },
+    {
+      "entity": "entity_william_kirwan",
+      "section": "reigate-squires-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_460",
+        "sentence_463",
+        "sentence_471"
+      ]
+    },
+    {
+      "entity": "doc_fragment_torn_paper_appointment",
+      "section": "reigate-squires-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_436",
+        "sentence_466",
+        "sentence_467",
+        "sentence_468"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "doc_fragment_torn_paper_appointment",
+      "case": "case_reigate_squires",
+      "discovered_by": "entity_inspector_forrester",
+      "discovered_in_section": "reigate-squires-section_1",
+      "significance": "Inspector Forrester presented the torn paper fragment found between William Kirwan's fingers, and the hour on it matched the time William Kirwan was shot.",
+      "source_nodes": [
+        "sentence_114",
+        "sentence_117",
+        "sentence_119"
+      ]
+    },
+    {
+      "object": "doc_fragment_torn_paper_appointment",
+      "case": "case_reigate_squires",
+      "discovered_by": "entity_holmes",
+      "discovered_in_section": "reigate-squires-section_2",
+      "significance": "Holmes examined the corner of the scrap of paper and used handwriting characteristics (alternate words, stronger vs weaker hands) to infer the letter was written by two persons and that the Cunninghams father and son wrote it.",
+      "source_nodes": [
+        "sentence_380",
+        "sentence_381",
+        "sentence_385",
+        "sentence_387",
+        "sentence_392",
+        "sentence_396",
+        "sentence_398",
+        "sentence_411",
+        "sentence_416"
+      ]
+    },
+    {
+      "object": "entity_pistol",
+      "case": "case_reigate_squires",
+      "discovered_by": "entity_holmes",
+      "discovered_in_section": "reigate-squires-section_2",
+      "significance": "Holmes prevented the younger man from using the revolver by stepping on it after it clattered down, and indicated it would be useful at the trial.",
+      "source_nodes": [
+        "sentence_346",
+        "sentence_347"
+      ]
+    },
+    {
+      "object": "doc_fragment_torn_paper_appointment",
+      "case": "case_reigate_squires",
+      "discovered_by": "entity_watson",
+      "discovered_in_section": "reigate-squires-section_3",
+      "significance": "Watson procured the missing part of the note from a pocket during the upstairs search sequence.",
+      "source_nodes": [
+        "sentence_453",
+        "sentence_454"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "entity_inspector_forrester",
+      "organisation": "org_inspector_forrester_network"
+    }
+  ]
+}

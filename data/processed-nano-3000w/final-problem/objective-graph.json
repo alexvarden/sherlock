@@ -1,0 +1,3342 @@
+{
+  "entities": [
+    {
+      "id": "case_final_problem",
+      "type": "case",
+      "label": "Final Problem (Moriarty vs. Holmes confrontation leading to police arrest and trial)",
+      "description": "The criminal matter involving Professor Moriarty, Holmes's efforts to expose him, and a planned arrest and trial of Moriarty and his gang.",
+      "firstSection": "final-problem-section_1",
+      "source": "final-problem-section_1"
+    },
+    {
+      "id": "doc_journal_de_geneve_1891_05_06",
+      "type": "document",
+      "label": "Journal de Genève report (May 6th, 1891)",
+      "description": "A public press account about the matter, dated May 6th, 1891, described as extremely condensed.",
+      "firstSection": "final-problem-section_1",
+      "document_type": "newspaper",
+      "content_summary": "A condensed account of the matter was published in the Journal de Genève on May 6th, 1891."
+    },
+    {
+      "id": "doc_reuters_dispatch_1891_05_07",
+      "type": "document",
+      "label": "Reuter's dispatch report (May 7th, 1891)",
+      "description": "A public press account in English papers on May 7th, 1891, described as extremely condensed.",
+      "firstSection": "final-problem-section_1",
+      "document_type": "newspaper",
+      "content_summary": "A condensed Reuter's dispatch was published in English papers on May 7th, 1891."
+    },
+    {
+      "id": "doc_recent_letter",
+      "type": "document",
+      "label": "Recent letter defending Colonel James Moriarty's brother's memory",
+      "description": "A letter referenced by the narrator as the last of the accounts in the public press and described as an absolute perversion of the facts.",
+      "firstSection": "final-problem-section_1",
+      "document_type": "letter",
+      "content_summary": "A letter was published that presented an account described as an absolute perversion of the facts."
+    },
+    {
+      "id": "professor_moriarty",
+      "type": "character",
+      "label": "Professor Moriarty",
+      "description": "A criminal figure characterized in this section as an organizing force behind crimes; appears in a direct encounter with Watson and is discussed by Holmes.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "colonel_james_moriarty",
+      "type": "character",
+      "label": "Colonel James Moriarty",
+      "description": "A person who sends recent letters defending the memory of his brother.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "mr_sherlock_holmes",
+      "type": "character",
+      "label": "Mr. Sherlock Holmes",
+      "description": "Watson's friend and subject of the narrative; arrives at Watson's consulting-room and later is discussed as planning an arrest of Moriarty and his gang.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "dr_watson",
+      "type": "character",
+      "label": "Dr. Watson",
+      "description": "The narrator who writes these last words and recounts the events; receives Holmes in his consulting-room and discusses interactions with Moriarty.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "sir_colonel_james_moriarty_brither",
+      "type": "character",
+      "label": "Moriarty's brother",
+      "description": "The brother whose memory is defended by Colonel James Moriarty in recent letters; identified in this section as Professor Moriarty.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_narbonne",
+      "type": "location",
+      "label": "Narbonne",
+      "description": "A place from which Holmes's note is dated.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_nimes",
+      "type": "location",
+      "label": "Nimes",
+      "description": "A place from which Holmes's note is dated.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_france_continent",
+      "type": "location",
+      "label": "Continent (Europe/Continental travel)",
+      "description": "Destination area Holmes proposes for Watson for a week.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_consulting_room",
+      "type": "location",
+      "label": "Watson's consulting-room",
+      "description": "The room Watson reads in, where Holmes closes shutters and bolts them and where Holmes later talks with Moriarty.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_april_24_evening",
+      "type": "location",
+      "label": "Evening of 24th of April (time reference used as event setting)",
+      "description": "A time reference at which Holmes enters Watson's consulting-room.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_bentinck_street",
+      "type": "location",
+      "label": "Bentinck Street corner (leading to Welbeck Street crossing)",
+      "description": "Street corner where a two-horse van nearly hits Holmes/Watson narrator.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_welbeck_street_crossing",
+      "type": "location",
+      "label": "Welbeck Street crossing",
+      "description": "Crossing area mentioned in relation to the van attack.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_marylebone_lane",
+      "type": "location",
+      "label": "Marylebone Lane",
+      "description": "Lane down which the van goes after narrowly missing the narrator.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_verge_street",
+      "type": "location",
+      "label": "Vere Street",
+      "description": "Street where a brick falls from a roof.",
+      "firstSection": "final-problem-section_1"
+    },
+    {
+      "id": "place_police",
+      "type": "organisation",
+      "label": "Police",
+      "description": "Law enforcement referenced as being called and examining a location; also holds the assailant in custody.",
+      "firstSection": "final-problem-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "org_police",
+      "type": "organisation",
+      "label": "Police",
+      "description": "Law enforcement referenced as being called and having custody of an assailant, and examining a location.",
+      "firstSection": "final-problem-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "moriarty_arrival_symbol",
+      "type": "object",
+      "label": "moriarty arrival symbol",
+      "firstSection": "final-problem-section_2"
+    },
+    {
+      "id": "alpine_stock",
+      "type": "object",
+      "label": "alpine stock",
+      "firstSection": "final-problem-section_3"
+    },
+    {
+      "id": "silver_cigarette_case",
+      "type": "object",
+      "label": "silver cigarette case",
+      "firstSection": "final-problem-section_3"
+    },
+    {
+      "id": "paper_square",
+      "type": "object",
+      "label": "paper square",
+      "firstSection": "final-problem-section_3"
+    },
+    {
+      "id": "footmarks",
+      "type": "object",
+      "label": "footmarks",
+      "firstSection": "final-problem-section_3"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Watson writes last words and describes Holmes and the case",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_3"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Watson aims to stop writing but is forced by recent letters to lay facts before the public",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_5",
+        "sentence_6"
+      ],
+      "participants": [
+        "dr_watson",
+        "colonel_james_moriarty"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Watson receives notes from Holmes dated Narbonne and Nimes",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "place_narbonne",
+        "place_nimes"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes walks into Watson's consulting-room on the evening of 24th April",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "place_consulting_room",
+        "place_april_24_evening"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Holmes closes and bolts the shutters in the consulting-room",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_17",
+        "sentence_19"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "place_consulting_room"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes asks Watson to close the shutters",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_17"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Have you any objection to my closing your shutters?"
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Watson asks what Holmes is afraid of",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_23"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "Of what?"
+      }
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Holmes says he is afraid of air-guns",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_22",
+        "sentence_24"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Of air-guns."
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Watson asks what Holmes means",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_31"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "But what does it all mean?"
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes asks for a match and then tells Watson he will leave via the back garden wall",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_28",
+        "sentence_30"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I must further beg you to be so unconventional as to allow me to leave your house presently by scrambling over your back garden wall."
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Watson asks whether Mrs. Watson is in",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_36"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "Is Mrs. Watson in?"
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes says Mrs. Watson is away upon a visit",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_37"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "She is away upon a visit."
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes proposes that Watson leave with him for a week to the Continent",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_41"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "place_france_continent"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Then it makes it the easier for me to propose that you should come away with me for a week to the Continent."
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Holmes explains the situation by introducing Professor Moriarty",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_47",
+        "sentence_48"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes tells Watson that Professor Moriarty will be in the hands of the police in three days on Monday next",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_89"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty",
+        "org_police"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "In three days—that is to say, on Monday next—matters will be ripe, and the Professor, with all the principal members of his gang, will be in the hands of the police."
+      }
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Holmes states that the last steps were taken this morning and only three days were wanted to complete the business",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_98"
+      ],
+      "participants": [
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "This morning the last steps were taken, and three days only were wanted to complete the business."
+      }
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Watson's room encounter begins as Moriarty stands before Watson in his room",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_99"
+      ],
+      "participants": [
+        "professor_moriarty",
+        "dr_watson"
+      ],
+      "performs": [
+        "professor_moriarty"
+      ]
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Watson draws and positions a revolver on the table in response to Moriarty's entrance",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_110",
+        "sentence_111"
+      ],
+      "participants": [
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Watson places a gun on the table and Moriarty responds with remarks",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_111",
+        "sentence_113"
+      ],
+      "participants": [
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "professor_moriarty",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "'You evidently don't know me,' said he."
+      }
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Watson invites Moriarty to take a chair and offers five minutes to speak",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_115",
+        "sentence_116"
+      ],
+      "participants": [
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "professor_moriarty"
+        ],
+        "content": "Pray take a chair. I can spare you five minutes if you have anything to say."
+      }
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Moriarty demands Holmes drop it and insists there can be only one outcome after Monday",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_128",
+        "sentence_133"
+      ],
+      "participants": [
+        "professor_moriarty",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "professor_moriarty"
+      ],
+      "communicates": {
+        "speaker": "professor_moriarty",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "You must drop it, Mr. Holmes."
+      }
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Moriarty claims Holmes is in danger of losing liberty for continual persecution",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_124",
+        "sentence_125"
+      ],
+      "participants": [
+        "professor_moriarty",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "professor_moriarty"
+      ],
+      "communicates": {
+        "speaker": "professor_moriarty",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "The situation is becoming an impossible one."
+      }
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Moriarty turns and leaves Watson's room after warning about an extreme measure",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_156"
+      ],
+      "participants": [
+        "professor_moriarty",
+        "dr_watson"
+      ],
+      "performs": [
+        "professor_moriarty"
+      ]
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Watson reports an attempted vehicular attack where a two-horse van nearly hits him",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_165",
+        "sentence_166",
+        "sentence_168"
+      ],
+      "participants": [
+        "dr_watson",
+        "place_bentinck_street",
+        "place_welgebeck_street_crossing",
+        "place_marylebone_lane"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Watson calls the police and has the site examined after bricks fall",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_170"
+      ],
+      "participants": [
+        "dr_watson",
+        "org_police",
+        "place_verge_street"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "Watson is attacked by a rough with a bludgeon and knocks the attacker down",
+      "section": "final-problem-section_1",
+      "source_nodes": [
+        "sentence_174",
+        "sentence_175"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Holmes asks Watson to spend the night there",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_178"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "You will spend the night here?"
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Watson responds to Holmes",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_179"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Holmes says he will not spend the night there",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_180",
+        "sentence_181"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "No, my friend, you might find me a dangerous guest."
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Holmes states his plans and that all will be well",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_181"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I have my plans laid, and all will be well."
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Holmes tells Watson to get away before the police can act and suggests Continental travel",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_183",
+        "sentence_184"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "It would be a great pleasure to me, therefore, if you could come on to the Continent with me."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Watson agrees to come onto the Continent",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_186"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Holmes asks about starting tomorrow morning",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_187"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "And to start to-morrow morning?"
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Watson says starting is necessary if needed",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_188"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "If necessary."
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Holmes orders Watson and warns him to obey instructions and play a double-handed game",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_189",
+        "sentence_190"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Then these are your instructions, and I beg, my dear Watson, that you will obey them to the letter, for you are now playing a double-handed game with me against the cleverest rogue and the most powerful syndicate of criminals in Europe."
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Holmes instructs Watson to dispatch luggage by a messenger to Victoria tonight",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_192"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "You will dispatch whatever luggage you intend to take by a trusty messenger unaddressed to Victoria to-night."
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Holmes instructs Watson to send for a hansom in the morning with instructions not to take the first or second",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_193"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "In the morning you will send for a hansom, desiring your man to take neither the first nor the second which may present itself."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Holmes instructs Watson where to drive and to hand an address slip to the cabman",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Into this hansom you will jump, and you will drive to the Strand end of the Lowther Arcade, handing the address to the cabman upon a slip of paper, with a request that he will not throw it away."
+      }
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "Holmes instructs Watson to dash through the Arcade at a specific time",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_195"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Have your fare ready, and the instant that your cab stops, dash through the Arcade, timing yourself to reach the other side at a quarter-past nine."
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "Holmes instructs Watson to enter a waiting brougham driven by a man with a heavy black cloak tipped with red",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_196"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "You will find a small brougham waiting close to the curb, driven by a fellow with a heavy black cloak tipped at the collar with red."
+      }
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "Holmes instructs Watson to reach Victoria in time for the Continental express",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_197"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Into this you will step, and you will reach Victoria in time for the Continental express."
+      }
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "Watson asks where to meet Holmes",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_198"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "Where shall I meet you?"
+      }
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "Holmes tells Watson to meet him at the station in the second first-class carriage from the front reserved for them",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_199",
+        "sentence_200"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "At the station. The second first-class carriage from the front will be reserved for us."
+      }
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "Watson confirms the carriage is their rendezvous and Holmes agrees",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_201",
+        "sentence_202"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Yes."
+      }
+    },
+    {
+      "id": "event_2_19",
+      "type": "event",
+      "label": "Holmes leaves the garden and clambers over the wall leading into Mortimer Street",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_205"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_20",
+      "type": "event",
+      "label": "Holmes whistles for a hansom and drives away",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_205"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_21",
+      "type": "event",
+      "label": "Watson obeys Holmes's instructions in the morning and hurries through the Lowther Arcade",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_206",
+        "sentence_207"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_22",
+      "type": "event",
+      "label": "Watson enters a brougham with a massive driver and travels to Victoria Station",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_208"
+      ],
+      "participants": [
+        "dr_watson",
+        "place_police"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_23",
+      "type": "event",
+      "label": "Watson arrives at Victoria Station and the carriage drives away",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_209"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_24",
+      "type": "event",
+      "label": "Watson finds his luggage and boards the train carriage marked \"Engaged\"",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_211"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_25",
+      "type": "event",
+      "label": "Watson waits for Holmes and searches among travellers and leave-takers without finding him",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_215"
+      ],
+      "participants": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_26",
+      "type": "event",
+      "label": "Watson assists an Italian priest with understanding his luggage booking",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_216"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_27",
+      "type": "event",
+      "label": "A porter gives Watson his Italian traveling companion despite the ticket",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_217"
+      ],
+      "participants": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_28",
+      "type": "event",
+      "label": "Watson continues to look anxiously for Holmes and does not communicate effectively with the Italian companion",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_218"
+      ],
+      "participants": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_29",
+      "type": "event",
+      "label": "Holmes speaks to Watson as the train is about to depart",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_221"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "My dear Watson, you have not even condescended to say good-morning."
+      }
+    },
+    {
+      "id": "event_2_30",
+      "type": "event",
+      "label": "Holmes's disguised face changes and the disguise collapses as he appears",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_223",
+        "sentence_224",
+        "sentence_225"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_31",
+      "type": "event",
+      "label": "Holmes warns that every precaution is still necessary and mentions Moriarty",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Every precaution is still necessary."
+      }
+    },
+    {
+      "id": "event_2_32",
+      "type": "event",
+      "label": "Holmes and Watson depart as the train begins to move",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_232"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_33",
+      "type": "event",
+      "label": "A tall man pushes through the crowd and waves to stop the train as it leaves the station",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_233",
+        "sentence_234"
+      ],
+      "participants": [
+        "professor_moriarty",
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_34",
+      "type": "event",
+      "label": "Holmes laughs and throws off his black cassock and hat disguise into a hand-bag",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_235",
+        "sentence_236"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_35",
+      "type": "event",
+      "label": "Holmes asks Watson whether he has seen the morning paper and Baker Street news",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_237",
+        "sentence_238",
+        "sentence_239"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Have you seen the morning paper, Watson?"
+      }
+    },
+    {
+      "id": "event_2_36",
+      "type": "event",
+      "label": "Holmes tells Watson that their rooms at Baker Street were set on fire",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_241"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "They set fire to our rooms last night."
+      }
+    },
+    {
+      "id": "event_2_37",
+      "type": "event",
+      "label": "Holmes explains the arson had no great harm and claims the track was lost after a bludgeon-man was arrested",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_242",
+        "sentence_245",
+        "sentence_246"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_38",
+      "type": "event",
+      "label": "Holmes states Moriarty came to Victoria because Watson was being watched",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_247"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_39",
+      "type": "event",
+      "label": "Watson is asked whether he made any slip in coming and says he did exactly what he was advised",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_248",
+        "sentence_249"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "I did exactly what you advised."
+      }
+    },
+    {
+      "id": "event_2_40",
+      "type": "event",
+      "label": "Holmes asks about Watson's brougham and Watson answers that it was waiting",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_250",
+        "sentence_251"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_41",
+      "type": "event",
+      "label": "Holmes asks whether Watson recognized the coachman and Watson says he did not and that the coachman was Mycroft",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_252",
+        "sentence_253",
+        "sentence_254"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "sir_colonel_james_moriarty_brither"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "mr_sherlock_holmes"
+        ],
+        "content": "It was my brother Mycroft."
+      }
+    },
+    {
+      "id": "event_2_42",
+      "type": "event",
+      "label": "Holmes discusses the plan about Moriarty and says they will get out at Canterbury",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_274",
+        "sentence_276"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_43",
+      "type": "event",
+      "label": "Holmes outlines continuing travel after Canterbury to Newhaven and Dieppe toward Paris",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_278",
+        "sentence_279",
+        "sentence_280"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_44",
+      "type": "event",
+      "label": "At Canterbury Watson and Holmes alight and learn they must wait an hour for a train to Newhaven",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_282"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_45",
+      "type": "event",
+      "label": "A smoke plume rises in the distance and Holmes points as a carriage and engine speed along the curve",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_285",
+        "sentence_286",
+        "sentence_283",
+        "sentence_284",
+        "sentence_287"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_46",
+      "type": "event",
+      "label": "Holmes says a carriage passed and later comments on Moriarty's intelligence and whether they should lunch",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_288",
+        "sentence_289",
+        "sentence_294"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "There are limits, you see, to our friend's intelligence."
+      }
+    },
+    {
+      "id": "event_2_47",
+      "type": "event",
+      "label": "Watson and Holmes travel to Brussels for two days and then to Strasburg and later Geneva and onward into Switzerland",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_295",
+        "sentence_315",
+        "sentence_316"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_48",
+      "type": "event",
+      "label": "Holmes telegraphs the London police and receives a reply at their hotel",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_296"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "org_police",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_49",
+      "type": "event",
+      "label": "Holmes opens the reply, curses it, and says Moriarty has escaped and the whole gang except Moriarty was secured",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_297",
+        "sentence_298",
+        "sentence_300",
+        "sentence_302",
+        "sentence_303"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "He has escaped!"
+      }
+    },
+    {
+      "id": "event_2_50",
+      "type": "event",
+      "label": "Holmes tells Watson to return to England because Moriarty is gone from the London case but Watson should avoid accompanying him",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_306",
+        "sentence_310",
+        "sentence_313"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I think that you had better return to England, Watson."
+      }
+    },
+    {
+      "id": "event_2_51",
+      "type": "event",
+      "label": "Watson and Holmes argue for half an hour in Strasbourg and then resume their journey the same night toward Geneva",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_315"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_52",
+      "type": "event",
+      "label": "Watson and Holmes reach Meiringen on May 3 and stay at the Englischer Hof kept by Peter Steiler the elder",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_334",
+        "sentence_335"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "place_narbonne"
+      ],
+      "performs": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_53",
+      "type": "event",
+      "label": "On the afternoon of May 4 Watson and Holmes set off together to cross hills for Rosenlaui overnight",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_336"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_54",
+      "type": "event",
+      "label": "A Swiss lad runs along the path with a letter addressed to Watson and from the Meiringen hotel landlord",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_344",
+        "sentence_345"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_55",
+      "type": "event",
+      "label": "The letter states an English lady arrived, is in the last stage of consumption, and has had a sudden hemorrhage, requesting an English doctor",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_346",
+        "sentence_347",
+        "sentence_348"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_56",
+      "type": "event",
+      "label": "Holmes stays while Watson returns to Meiringen, with Holmes retaining the Swiss messenger as guide and companion",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_352",
+        "sentence_353"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_2_57",
+      "type": "event",
+      "label": "Watson turns away and sees Holmes gazing down at the waters with his back against a rock",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_354"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_58",
+      "type": "event",
+      "label": "Watson looks back near the bottom of the descent and observes a man walking rapidly along the curving path",
+      "section": "final-problem-section_2",
+      "source_nodes": [
+        "sentence_356",
+        "sentence_358",
+        "sentence_359",
+        "sentence_360"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "professor_moriarty"
+      ]
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "Watson reaches Meiringen after over an hour",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_361"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Old Steiler stands at the porch of his hotel",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_362"
+      ],
+      "participants": [
+        "old_steiler",
+        "hotel_porch"
+      ],
+      "performs": [
+        "old_steiler"
+      ]
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Watson asks Old Steiler whether she is no worse",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_363"
+      ],
+      "participants": [
+        "dr_watson",
+        "old_steiler",
+        "sick_englishwoman"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "old_steiler"
+        ],
+        "content": "I trust that she is no worse?"
+      }
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Old Steiler shows surprise",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_364"
+      ],
+      "participants": [
+        "old_steiler"
+      ],
+      "performs": [
+        "old_steiler"
+      ]
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Watson asks Old Steiler whether he did not write the letter",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_365"
+      ],
+      "participants": [
+        "dr_watson",
+        "old_steiler",
+        "letter"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "old_steiler"
+        ],
+        "content": "You did not write this?"
+      }
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Watson pulls a letter from his pocket",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_366"
+      ],
+      "participants": [
+        "dr_watson",
+        "letter",
+        "pocket"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Watson asks Old Steiler whether there is no sick Englishwoman in the hotel",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_367"
+      ],
+      "participants": [
+        "dr_watson",
+        "old_steiler",
+        "sick_englishwoman",
+        "hotel"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "old_steiler"
+        ],
+        "content": "There is no sick Englishwoman in the hotel?"
+      }
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Old Steiler cries that there is not",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "old_steiler",
+        "hotel",
+        "sick_englishwoman"
+      ],
+      "performs": [
+        "old_steiler"
+      ],
+      "communicates": {
+        "speaker": "old_steiler",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Certainly not!"
+      }
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Old Steiler says the letter has the hotel mark upon it and speculates it was written by a tall Englishman who arrived after Watson left",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_370",
+        "sentence_371",
+        "sentence_372"
+      ],
+      "participants": [
+        "old_steiler",
+        "letter",
+        "tall_englishman"
+      ],
+      "performs": [
+        "old_steiler"
+      ],
+      "communicates": {
+        "speaker": "old_steiler",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "But it has the hotel mark upon it! Ha, it must have been written by that tall Englishman who came in after you had gone. He said—"
+      }
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Watson waits for none of the landlord's explanations",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_373"
+      ],
+      "participants": [
+        "dr_watson",
+        "old_steiler"
+      ]
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Watson runs down the village street and makes for the path he had descended",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "dr_watson",
+        "village_street",
+        "path"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Watson takes an hour to come down the descent",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_375"
+      ],
+      "participants": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Watson reaches the fall of Reichenbach again after two more passed",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_376"
+      ],
+      "participants": [
+        "dr_watson",
+        "fall_of_reichenbach"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "Holmes's Alpine-stock remains leaning against a rock by the path",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_377"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "alpine_stock"
+      ]
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "Watson shouts but Holmes is not present",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_378",
+        "sentence_379"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "cliffs_echo"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Watson identifies that Holmes had not gone to Rosenlaui",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_381"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "place_rosenlaui"
+      ]
+    },
+    {
+      "id": "event_3_17",
+      "type": "event",
+      "label": "Holmes remains on a three-foot path with a sheer wall on one side and a sheer drop on the other until his enemy overtakes him",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_382"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "three_foot_path",
+        "enemy"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_18",
+      "type": "event",
+      "label": "The young Swiss goes too",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_383"
+      ],
+      "participants": [
+        "young_swiss"
+      ],
+      "performs": [
+        "young_swiss"
+      ]
+    },
+    {
+      "id": "event_3_19",
+      "type": "event",
+      "label": "The two men are left together after the young Swiss had left them",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_384"
+      ],
+      "participants": [
+        "young_swiss",
+        "moriarty_agent_two_men"
+      ]
+    },
+    {
+      "id": "event_3_20",
+      "type": "event",
+      "label": "Watson waits for nobody to tell what had happened then",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_385",
+        "sentence_386"
+      ],
+      "participants": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_21",
+      "type": "event",
+      "label": "Watson stands to collect himself",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_387"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_22",
+      "type": "event",
+      "label": "Watson begins thinking of Holmes's own methods and tries to practise them in reading the tragedy",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_388",
+        "sentence_389"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "tragedy"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_23",
+      "type": "event",
+      "label": "Watson notes that their conversation did not go to the end of the path",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_390"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "path",
+        "farther_end"
+      ]
+    },
+    {
+      "id": "event_3_24",
+      "type": "event",
+      "label": "Alpine-stock marks the place where Watson and Holmes had stood",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_390"
+      ],
+      "participants": [
+        "alpine_stock",
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_25",
+      "type": "event",
+      "label": "Watson examines footmarks along the farther end of the path",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_391",
+        "sentence_392",
+        "sentence_393"
+      ],
+      "participants": [
+        "blackish_soil",
+        "footmarks"
+      ]
+    },
+    {
+      "id": "event_3_26",
+      "type": "event",
+      "label": "Soil near the end is ploughed up into mud and vegetation around the chasm is torn and bedraggled",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_394"
+      ],
+      "participants": [
+        "soil",
+        "mud",
+        "branches",
+        "ferns",
+        "chasm"
+      ]
+    },
+    {
+      "id": "event_3_27",
+      "type": "event",
+      "label": "Watson lies upon his face and peers over the chasm",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_395"
+      ],
+      "participants": [
+        "dr_watson",
+        "chasm",
+        "spray"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_28",
+      "type": "event",
+      "label": "Watson shouts; the fall echoes back from the cliffs around",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_397"
+      ],
+      "participants": [
+        "dr_watson",
+        "fall_echo"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_29",
+      "type": "event",
+      "label": "Watson discovers Holmes's silver cigarette-case on a boulder",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_399",
+        "sentence_400"
+      ],
+      "participants": [
+        "alpine_stock",
+        "boulder",
+        "silver_cigarette_case",
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_30",
+      "type": "event",
+      "label": "Watson takes up the silver cigarette-case and retrieves a square of paper that falls to the ground",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_401"
+      ],
+      "participants": [
+        "dr_watson",
+        "silver_cigarette_case",
+        "paper_square",
+        "ground"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_3_31",
+      "type": "event",
+      "label": "Watson unfolds the paper and finds three pages torn from Holmes's note-book addressed to him",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_402",
+        "sentence_403"
+      ],
+      "participants": [
+        "dr_watson",
+        "paper_square",
+        "three_torn_pages",
+        "note_book",
+        "mr_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_32",
+      "type": "event",
+      "label": "Holmes writes a note to Watson addressed as 'My dear Watson' via Mr. Moriarty's courtesy and discusses Moriarty's waiting for convenience for a final discussion of questions between them",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_404"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "My dear Watson, I write these few lines through the courtesy of Mr. Moriarty, who awaits my convenience for the final discussion of those questions which lie between us."
+      }
+    },
+    {
+      "id": "event_3_33",
+      "type": "event",
+      "label": "Holmes states Moriarty is giving him a sketch of the methods by which Moriarty avoided the English police and kept informed of their movements",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_405"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty",
+        "org_police"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "He has been giving me a sketch of the methods by which he avoided the English police and kept himself informed of our movements."
+      }
+    },
+    {
+      "id": "event_3_34",
+      "type": "event",
+      "label": "Holmes claims the sketch confirms his high opinion of Moriarty's abilities and that he is pleased to free society from Moriarty's presence",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_406",
+        "sentence_407"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "professor_moriarty"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "They certainly confirm the very high opinion which I had formed of his abilities. I am pleased to think that I shall be able to free society from any further effects of his presence, though I fear that it is at a cost which will give pain to my friends, and especially, my dear Watson, to you."
+      }
+    },
+    {
+      "id": "event_3_35",
+      "type": "event",
+      "label": "Holmes states his career had reached its crisis and no conclusion could be more congenial to him",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_408"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I have already explained to you, however, that my career had in any case reached its crisis, and that no possible conclusion to it could be more congenial to me than this."
+      }
+    },
+    {
+      "id": "event_3_36",
+      "type": "event",
+      "label": "Holmes confesses he had been convinced the letter from Meiringen was a hoax and sent Watson on the errand expecting a development",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_409"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "meiringen_letter",
+        "place_meiringen"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Indeed, if I may make a full confession to you, I was quite convinced that the letter from Meiringen was a hoax, and I allowed you to depart on that errand under the persuasion that some development of this sort would follow."
+      }
+    },
+    {
+      "id": "event_3_37",
+      "type": "event",
+      "label": "Holmes states he made dispositions of his property, handed them to his brother Mycroft, and inscribed a blue envelope with 'Moriarty'",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_410",
+        "sentence_411"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "sir_colonel_james_moriarty_brither",
+        "property_dispositions",
+        "blue_envelope",
+        "moriarty_addressed_envelope"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I made every disposition of my property before leaving England, and handed it to my brother Mycroft. up in a blue envelope and insinscribed 'Moriarty.'"
+      }
+    },
+    {
+      "id": "event_3_38",
+      "type": "event",
+      "label": "Holmes asks Watson to give greetings to Mrs. Watson and signs 'Very sincerely yours, Sherlock Holmes'",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_411",
+        "sentence_412"
+      ],
+      "participants": [
+        "mr_sherlock_holmes",
+        "dr_watson",
+        "mrs_watson"
+      ],
+      "performs": [
+        "mr_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "mr_sherlock_holmes",
+        "recipients": [
+          "dr_watson",
+          "mrs_watson"
+        ],
+        "content": "Pray give my greetings to Mrs. Watson, and believe me to be, my dear fellow, Very sincerely yours, Sherlock Holmes."
+      }
+    },
+    {
+      "id": "event_3_39",
+      "type": "event",
+      "label": "Watson begins a final explanatory narrative about an examination leaving little doubt of a personal contest ending in their reeling over locked in each other's arms",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_413",
+        "sentence_414"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "professor_moriarty",
+        "final_confrontation"
+      ]
+    },
+    {
+      "id": "event_3_40",
+      "type": "event",
+      "label": "Watson states recovering the bodies was absolutely hopeless and that Moriarty and Holmes would lie down in the swirling water and foam",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_415"
+      ],
+      "participants": [
+        "dr_watson",
+        "professor_moriarty",
+        "mr_sherlock_holmes",
+        "swirling_water_foam"
+      ]
+    },
+    {
+      "id": "event_3_41",
+      "type": "event",
+      "label": "Watson states the Swiss youth was never found again and that he was one of Moriarty's agents",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_416"
+      ],
+      "participants": [
+        "dr_watson",
+        "young_swiss",
+        "professor_moriarty"
+      ]
+    },
+    {
+      "id": "event_3_42",
+      "type": "event",
+      "label": "Watson states the evidence Holmes accumulated exposed a gang's organization and the hand of the dead man weighed heavily on them",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_417"
+      ],
+      "participants": [
+        "dr_watson",
+        "mr_sherlock_holmes",
+        "gang"
+      ]
+    },
+    {
+      "id": "event_3_43",
+      "type": "event",
+      "label": "Watson states few details of the gang's chief came out during the proceedings and that he was compelled to make a clear statement of Moriarty's career due to attacks on him",
+      "section": "final-problem-section_3",
+      "source_nodes": [
+        "sentence_418"
+      ],
+      "participants": [
+        "dr_watson",
+        "professor_moriarty",
+        "gang",
+        "champions"
+      ]
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "dr_watson",
+      "to": "place_consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_4",
+      "valid_until": "event_2_2",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "dr_watson",
+      "to": "place_consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_2",
+      "valid_until": "event_3_1",
+      "caused_by": [
+        "event_2_2"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "dr_watson",
+      "to": "place_meiringen",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_1",
+      "valid_until": "event_3_13",
+      "caused_by": [
+        "event_3_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "dr_watson",
+      "to": "fall_of_reichenbach",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_13",
+      "caused_by": [
+        "event_3_13"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "mr_sherlock_holmes",
+      "to": "place_consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_4",
+      "valid_until": "event_2_1",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "mr_sherlock_holmes",
+      "to": "place_consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_1",
+      "caused_by": [
+        "event_2_1"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "old_steiler",
+      "to": "hotel_porch",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_2",
+      "caused_by": [
+        "event_3_2"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "alpine_stock",
+      "to": "boulder",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_14",
+      "caused_by": [
+        "event_3_14"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "silver_cigarette_case",
+      "to": "dr_watson",
+      "type": "OWNS",
+      "valid_from": "event_3_29",
+      "caused_by": [
+        "event_3_29"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "dr_watson",
+      "section": "final-problem-section_1",
+      "mention_count": 51,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5",
+        "sentence_6",
+        "sentence_7",
+        "sentence_8",
+        "sentence_10",
+        "sentence_11",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_18",
+        "sentence_21",
+        "sentence_25",
+        "sentence_31",
+        "sentence_32",
+        "sentence_36",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_45",
+        "sentence_46",
+        "sentence_58",
+        "sentence_63",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_70",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_108",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_142",
+        "sentence_154",
+        "sentence_155",
+        "sentence_163",
+        "sentence_165",
+        "sentence_167",
+        "sentence_169",
+        "sentence_170",
+        "sentence_173",
+        "sentence_174",
+        "sentence_175",
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "mr_sherlock_holmes",
+      "section": "final-problem-section_1",
+      "mention_count": 91,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_10",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_16",
+        "sentence_17",
+        "sentence_19",
+        "sentence_20",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_30",
+        "sentence_31",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35",
+        "sentence_36",
+        "sentence_41",
+        "sentence_42",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_58",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_98",
+        "sentence_100",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_107",
+        "sentence_114",
+        "sentence_119",
+        "sentence_120",
+        "sentence_125",
+        "sentence_128",
+        "sentence_130",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_145",
+        "sentence_146",
+        "sentence_148",
+        "sentence_150",
+        "sentence_152",
+        "sentence_154",
+        "sentence_155",
+        "sentence_156",
+        "sentence_157"
+      ]
+    },
+    {
+      "entity": "professor_moriarty",
+      "section": "final-problem-section_1",
+      "mention_count": 63,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_48",
+        "sentence_52",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_84",
+        "sentence_85",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_109",
+        "sentence_110",
+        "sentence_113",
+        "sentence_117",
+        "sentence_118",
+        "sentence_122",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_128",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_143",
+        "sentence_145",
+        "sentence_146",
+        "sentence_147",
+        "sentence_148",
+        "sentence_149",
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_156",
+        "sentence_157",
+        "sentence_158",
+        "sentence_159",
+        "sentence_160",
+        "sentence_161",
+        "sentence_164"
+      ]
+    },
+    {
+      "entity": "colonel_james_moriarty",
+      "section": "final-problem-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_6"
+      ]
+    },
+    {
+      "entity": "place_narbonne",
+      "section": "final-problem-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_13"
+      ]
+    },
+    {
+      "entity": "place_nimes",
+      "section": "final-problem-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_13"
+      ]
+    },
+    {
+      "entity": "place_france_continent",
+      "section": "final-problem-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_41"
+      ]
+    },
+    {
+      "entity": "place_consulting_room",
+      "section": "final-problem-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_14",
+        "sentence_18",
+        "sentence_19"
+      ]
+    },
+    {
+      "entity": "org_police",
+      "section": "final-problem-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_89",
+        "sentence_170",
+        "sentence_175"
+      ]
+    },
+    {
+      "entity": "case_final_problem",
+      "section": "final-problem-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_177"
+      ]
+    },
+    {
+      "entity": "mr_sherlock_holmes",
+      "section": "final-problem-section_2",
+      "mention_count": 82,
+      "sentence_ids": [
+        "sentence_177",
+        "sentence_181",
+        "sentence_182",
+        "sentence_183",
+        "sentence_184",
+        "sentence_190",
+        "sentence_191",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_208",
+        "sentence_212",
+        "sentence_214",
+        "sentence_215",
+        "sentence_221",
+        "sentence_225",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_239",
+        "sentence_241",
+        "sentence_243",
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_256",
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_267",
+        "sentence_268",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_279",
+        "sentence_280",
+        "sentence_281",
+        "sentence_284",
+        "sentence_288",
+        "sentence_289",
+        "sentence_290",
+        "sentence_294",
+        "sentence_295",
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_303",
+        "sentence_306",
+        "sentence_308",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_314",
+        "sentence_315",
+        "sentence_317",
+        "sentence_323",
+        "sentence_325",
+        "sentence_326",
+        "sentence_331"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "final-problem-section_2",
+      "mention_count": 58,
+      "sentence_ids": [
+        "sentence_179",
+        "sentence_185",
+        "sentence_186",
+        "sentence_189",
+        "sentence_190",
+        "sentence_198",
+        "sentence_199",
+        "sentence_201",
+        "sentence_203",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_211",
+        "sentence_212",
+        "sentence_214",
+        "sentence_215",
+        "sentence_216",
+        "sentence_218",
+        "sentence_219",
+        "sentence_221",
+        "sentence_222",
+        "sentence_227",
+        "sentence_228",
+        "sentence_243",
+        "sentence_244",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_259",
+        "sentence_264",
+        "sentence_265",
+        "sentence_269",
+        "sentence_270",
+        "sentence_271",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_282",
+        "sentence_283",
+        "sentence_284",
+        "sentence_295",
+        "sentence_296",
+        "sentence_306",
+        "sentence_314",
+        "sentence_315",
+        "sentence_332",
+        "sentence_334",
+        "sentence_336",
+        "sentence_344",
+        "sentence_345",
+        "sentence_346",
+        "sentence_352",
+        "sentence_360"
+      ]
+    },
+    {
+      "entity": "professor_moriarty",
+      "section": "final-problem-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_231",
+        "sentence_233",
+        "sentence_247",
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_303",
+        "sentence_304",
+        "sentence_269",
+        "sentence_270",
+        "sentence_279",
+        "sentence_280",
+        "sentence_288"
+      ]
+    },
+    {
+      "entity": "org_police",
+      "section": "final-problem-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_182",
+        "sentence_296"
+      ]
+    },
+    {
+      "entity": "place_police",
+      "section": "final-problem-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_182"
+      ]
+    },
+    {
+      "entity": "doc_journal_de_geneve_1891_05_06",
+      "section": "final-problem-section_2",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "case_final_problem",
+      "section": "final-problem-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "mr_sherlock_holmes",
+      "section": "final-problem-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_377",
+        "sentence_382",
+        "sentence_390",
+        "sentence_398",
+        "sentence_399",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_414",
+        "sentence_415"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "final-problem-section_3",
+      "mention_count": 21,
+      "sentence_ids": [
+        "sentence_361",
+        "sentence_363",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_373",
+        "sentence_374",
+        "sentence_376",
+        "sentence_378",
+        "sentence_387",
+        "sentence_388",
+        "sentence_390",
+        "sentence_395",
+        "sentence_397",
+        "sentence_398",
+        "sentence_399",
+        "sentence_402",
+        "sentence_413",
+        "sentence_414",
+        "sentence_415",
+        "sentence_418"
+      ]
+    },
+    {
+      "entity": "professor_moriarty",
+      "section": "final-problem-section_3",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_404",
+        "sentence_405",
+        "sentence_407",
+        "sentence_409",
+        "sentence_411"
+      ]
+    },
+    {
+      "entity": "sir_colonel_james_moriarty_brither",
+      "section": "final-problem-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_411"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "moriarty_arrival_symbol",
+      "case": "case_final_problem",
+      "discovered_by": "mr_sherlock_holmes",
+      "discovered_in_section": "final-problem-section_2",
+      "significance": "Holmes attributed Moriarty's presence at Victoria to being brought there by precautions that involved watching Watson",
+      "source_nodes": [
+        "sentence_247"
+      ]
+    },
+    {
+      "object": "alpine_stock",
+      "case": "case_final_problem",
+      "discovered_by": "dr_watson",
+      "discovered_in_section": "final-problem-section_3",
+      "significance": "Watson used the position of the Alpine-stock to mark the place where Watson and Holmes had stood during their conversation",
+      "source_nodes": [
+        "sentence_390"
+      ]
+    },
+    {
+      "object": "silver_cigarette_case",
+      "case": "case_final_problem",
+      "discovered_by": "dr_watson",
+      "discovered_in_section": "final-problem-section_3",
+      "significance": "Watson discovered that a silver cigarette-case contained a paper that later revealed torn pages addressed to Watson",
+      "source_nodes": [
+        "sentence_400",
+        "sentence_401",
+        "sentence_402"
+      ]
+    },
+    {
+      "object": "paper_square",
+      "case": "case_final_problem",
+      "discovered_by": "dr_watson",
+      "discovered_in_section": "final-problem-section_3",
+      "significance": "Watson used the torn notebook pages to obtain Holmes's note addressed to him, describing Moriarty's role and instructions",
+      "source_nodes": [
+        "sentence_401",
+        "sentence_402",
+        "sentence_404",
+        "sentence_412"
+      ]
+    },
+    {
+      "object": "footmarks",
+      "case": "case_final_problem",
+      "discovered_by": "dr_watson",
+      "discovered_in_section": "final-problem-section_3",
+      "significance": "Watson used two clearly marked lines of footmarks along the farther end of the path to indicate they led away from him with none returning",
+      "source_nodes": [
+        "sentence_392",
+        "sentence_393"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "professor_moriarty",
+      "organisation": "org_police"
+    }
+  ]
+}

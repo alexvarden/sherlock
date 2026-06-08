@@ -1,0 +1,5693 @@
+{
+  "entities": [
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective and friend of the narrator",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Narrator and companion of Holmes",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "Street where Holmes and Watson share chambers",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "london",
+      "type": "location",
+      "label": "London",
+      "description": "City where Holmes and Watson stroll",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "fleet_street",
+      "type": "location",
+      "label": "Fleet Street",
+      "description": "Street in London",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "the_strand",
+      "type": "location",
+      "label": "the Strand",
+      "description": "Street in London",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "brougham",
+      "type": "object",
+      "label": "Brougham",
+      "description": "A carriage waiting outside the door",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "doctor",
+      "type": "character",
+      "label": "Doctor",
+      "description": "Medical practitioner who arrives by brougham",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "medical_instruments",
+      "type": "object",
+      "label": "Medical instruments",
+      "description": "Medical tools in a wicker basket inside the brougham",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "wicker_basket",
+      "type": "object",
+      "label": "Wicker basket",
+      "description": "Basket hanging in the brougham",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "test_tube",
+      "type": "object",
+      "label": "Test-tube",
+      "description": "Glass instrument broken during Holmes's research",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "sanctum",
+      "type": "location",
+      "label": "Sanctum",
+      "description": "Room where Holmes and Watson receive the visitor",
+      "firstSection": "resident-patient-section_1"
+    },
+    {
+      "id": "story_resident_patient",
+      "type": "case",
+      "label": "The Resident Patient",
+      "description": "Investigation described in this section",
+      "firstSection": "resident-patient-section_1",
+      "source": "resident-patient-section_1",
+      "client": "doctor",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "baker_street"
+    },
+    {
+      "id": "percy_trevelyan",
+      "type": "character",
+      "label": "Doctor Percy Trevelyan",
+      "description": "Medical doctor and visitor who consults Holmes about recent events at his house.",
+      "firstSection": "resident-patient-section_2"
+    },
+    {
+      "id": "blessington",
+      "type": "character",
+      "label": "Blessington",
+      "description": "A gentleman who unexpectedly visited Percy Trevelyan and spoke to him about business.",
+      "firstSection": "resident-patient-section_2"
+    },
+    {
+      "id": "king_s_college_hospital",
+      "type": "organisation",
+      "label": "King's College Hospital",
+      "description": "Hospital where Percy Trevelyan held a minor position.",
+      "firstSection": "resident-patient-section_2",
+      "org_type": "other"
+    },
+    {
+      "id": "london_university",
+      "type": "organisation",
+      "label": "London University",
+      "description": "University attended by Percy Trevelyan.",
+      "firstSection": "resident-patient-section_2",
+      "org_type": "other"
+    },
+    {
+      "id": "bruce_pinkerton_prize",
+      "type": "object",
+      "label": "Bruce Pinkerton prize and medal",
+      "description": "Academic prize and medal won by Percy Trevelyan.",
+      "firstSection": "resident-patient-section_2"
+    },
+    {
+      "id": "brook_street",
+      "type": "character",
+      "label": "brook street",
+      "firstSection": "resident-patient-section_2"
+    },
+    {
+      "id": "resident_patient_case",
+      "type": "case",
+      "label": "The Resident Patient",
+      "description": "The investigation concerning Doctor Percy Trevelyan and Blessington.",
+      "firstSection": "resident-patient-section_3",
+      "source": "resident_patient",
+      "client": "percy_trevelyan",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "brook_street"
+    },
+    {
+      "id": "anonymous_russian_nobleman",
+      "type": "character",
+      "label": "Anonymous Russian nobleman",
+      "description": "An elderly Russian nobleman residing in England who suffers from cataleptic attacks.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "anonymous_young_man",
+      "type": "character",
+      "label": "Anonymous young man",
+      "description": "A tall, handsome young man with a dark fierce face who accompanies the Russian nobleman and identifies himself as his son.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "anonymous_page",
+      "type": "character",
+      "label": "Anonymous page",
+      "description": "A page who admits patients to the consulting-room.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "consulting_room",
+      "type": "location",
+      "label": "Consulting-room",
+      "description": "Dr. Percy Trevelyan's consulting room.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "waiting_room",
+      "type": "location",
+      "label": "Waiting-room",
+      "description": "The room where the young man waits during the consultation.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "laboratory",
+      "type": "location",
+      "label": "Laboratory",
+      "description": "Dr. Percy Trevelyan's downstairs laboratory.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "nitrite_of_amyl",
+      "type": "object",
+      "label": "Nitrite of amyl bottle",
+      "description": "A bottle of nitrite of amyl kept in the laboratory.",
+      "firstSection": "resident-patient-section_4"
+    },
+    {
+      "id": "letter_from_russian_nobleman",
+      "type": "document",
+      "label": "Anonymous letter",
+      "description": "A letter addressed to Dr. Percy Trevelyan about treating a Russian nobleman.",
+      "firstSection": "resident-patient-section_4",
+      "document_type": "letter",
+      "from": "anonymous_russian_nobleman",
+      "to": "percy_trevelyan",
+      "content_summary": "A Russian nobleman resident in England asks Dr. Percy Trevelyan for professional assistance because he has suffered cataleptic attacks for years and proposes to call at about quarter past six the next evening."
+    },
+    {
+      "id": "lanner",
+      "type": "character",
+      "label": "Lanner",
+      "description": "Police inspector present at the scene and speaking with Holmes.",
+      "firstSection": "resident-patient-section_8"
+    },
+    {
+      "id": "page",
+      "type": "character",
+      "label": "The page",
+      "description": "A young page in Doctor Trevelyan's service.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "inspector",
+      "type": "character",
+      "label": "Inspector",
+      "description": "A police inspector involved in the investigation.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "wire",
+      "type": "object",
+      "label": "Wire",
+      "description": "A wire used to force round a locked key.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "photograph_of_blessington",
+      "type": "object",
+      "label": "Photograph of Blessington",
+      "description": "A photograph of Blessington taken from the mantelpiece.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "cigars",
+      "type": "object",
+      "label": "Cigars",
+      "description": "Cigars smoked during the consultation in Blessington's room.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "cigar_holder",
+      "type": "object",
+      "label": "Cigar-holder",
+      "description": "An object used by the older man while smoking.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "screw_driver",
+      "type": "object",
+      "label": "Screw-driver",
+      "description": "A screw-driver referred to as having been used in the room.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "screws",
+      "type": "object",
+      "label": "Screws",
+      "description": "Screws referred to as having been used for fixing something up.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "hook",
+      "type": "object",
+      "label": "Hook",
+      "description": "A hook on which the hanging arrangement could be saved time by using.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "block_or_pulley",
+      "type": "object",
+      "label": "Block or pulley",
+      "description": "An object Holmes infers was brought to serve as a gallows.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "bed",
+      "type": "object",
+      "label": "Bed",
+      "description": "The bed in Blessington's room.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "window",
+      "type": "location",
+      "label": "Window",
+      "description": "The window mentioned as an escape route.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "stairs",
+      "type": "location",
+      "label": "Stairs",
+      "description": "The stairs of the house.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "mantelpiece",
+      "type": "location",
+      "label": "Mantelpiece",
+      "description": "The mantelpiece where Blessington's photograph is kept.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "room",
+      "type": "location",
+      "label": "Mr. Blessington's room",
+      "description": "Blessington's room in the house.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "house",
+      "type": "location",
+      "label": "House",
+      "description": "The house where the events occurred.",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "case_resident_patient",
+      "type": "case",
+      "label": "The Resident Patient investigation",
+      "description": "The investigation into the events at Blessington's house.",
+      "firstSection": "resident-patient-section_9",
+      "source": "resident-patient-section_9",
+      "client": "doctor",
+      "crime_type": "murder",
+      "outcome": "solved",
+      "primary_location": "house"
+    },
+    {
+      "id": "scotland_yard",
+      "type": "organisation",
+      "label": "Scotland Yard",
+      "description": "The police organisation involved in the investigation.",
+      "firstSection": "resident-patient-section_9",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "rope",
+      "type": "character",
+      "label": "rope",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "maid",
+      "type": "character",
+      "label": "maid",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "cook",
+      "type": "character",
+      "label": "cook",
+      "firstSection": "resident-patient-section_9"
+    },
+    {
+      "id": "worthingdon_bank_gang",
+      "type": "organisation",
+      "label": "Worthingdon bank gang",
+      "description": "A criminal gang involved in the Worthingdon bank robbery and later attacks on Blessington/Sutton.",
+      "firstSection": "resident-patient-section_10",
+      "org_type": "criminal_network"
+    },
+    {
+      "id": "cartwright",
+      "type": "character",
+      "label": "Cartwright",
+      "description": "A member of the Worthingdon bank gang who was hanged after giving evidence.",
+      "firstSection": "resident-patient-section_10"
+    },
+    {
+      "id": "biddle",
+      "type": "character",
+      "label": "Biddle",
+      "description": "One of Blessington's assailants and a member of the Worthingdon bank gang.",
+      "firstSection": "resident-patient-section_10"
+    },
+    {
+      "id": "hayward",
+      "type": "character",
+      "label": "Hayward",
+      "description": "One of Blessington's assailants and a member of the Worthingdon bank gang.",
+      "firstSection": "resident-patient-section_10"
+    },
+    {
+      "id": "moffat",
+      "type": "character",
+      "label": "Moffat",
+      "description": "One of Blessington's assailants and a member of the Worthingdon bank gang.",
+      "firstSection": "resident-patient-section_10"
+    },
+    {
+      "id": "tobin",
+      "type": "character",
+      "label": "Tobin",
+      "description": "The caretaker who was murdered in the Worthingdon bank affair.",
+      "firstSection": "resident-patient-section_10"
+    },
+    {
+      "id": "norah_creina",
+      "type": "object",
+      "label": "Norah Creina",
+      "description": "The ill-fated steamer mentioned as having been lost with all hands.",
+      "firstSection": "resident-patient-section_10"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes and Watson remain indoors all day",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes conducts chemical investigations",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "A test-tube breaks and ends Holmes's research",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_10"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "test_tube"
+      ],
+      "performs": [
+        "test_tube"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes invites Watson to take a ramble through London",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_11",
+        "sentence_14"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "london"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "What do you say to a ramble through London?"
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Holmes and Watson stroll through London",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "fleet_street",
+        "the_strand",
+        "london"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes and Watson return to Baker Street",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_18"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "baker_street"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "A brougham waits at the door",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_19"
+      ],
+      "participants": [
+        "brougham",
+        "baker_street"
+      ]
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Holmes remarks that the visitor is a doctor's general practitioner",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "doctor",
+        "brougham"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Hum! A doctor's—general practitioner, I perceive. Not been long in practice, but has had a good deal to do. Come to consult us, I fancy! Lucky we came back!"
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes and Watson enter their sanctum",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_27"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "sanctum"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "The doctor rises from a chair by the fire",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_28"
+      ],
+      "participants": [
+        "doctor",
+        "sanctum"
+      ],
+      "performs": [
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "The doctor lays his hand on the mantelpiece",
+      "section": "resident-patient-section_1",
+      "source_nodes": [
+        "sentence_30"
+      ],
+      "participants": [
+        "doctor"
+      ],
+      "performs": [
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Doctor Percy Trevelyan introduces himself to Holmes and gives his address",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_37"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "My name is Doctor Percy Trevelyan, and I live at 403, Brook Street."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Holmes asks Trevelyan about the obscure nervous lesions monograph",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_38",
+        "sentence_39"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "Are you not the author of a monograph upon obscure nervous lesions?"
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Trevelyan responds that his work was known and that his publishers reported poor sales",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_43"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I so seldom hear of the work that I thought it was quite dead. My publishers gave me a most discouraging account of its sale. You are yourself, I presume, a medical man?"
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Holmes says he is a retired Army surgeon",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_44"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "A retired Army surgeon."
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Trevelyan explains his medical interests and the recent disturbance at his house",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "My own hobby has always been nervous disease. I should wish to make it an absolute specialty, but, of course, a man must take what he can get at first. This, however, is beside the question, Mr. Sherlock Holmes, and I quite appreciate how valuable your time is. The fact is that a very singular train of events has occurred recently at my house in Brook Street, and to-night they came to such a head that I felt it was quite impossible for me to wait another hour before asking for your advice and assistance."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Holmes sits down and lights his pipe",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_49"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Holmes invites Trevelyan to give a detailed account of the disturbance",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_50",
+        "sentence_51"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "You are very welcome to both. Pray let me have a detailed account of what the circumstances are which have disturbed you."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Trevelyan says he will explain the matter and begins with his college career",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_52",
+        "sentence_53",
+        "sentence_54"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "One or two of them are so trivial, but the matter is so inexplicable, and the recent turn which it has taken is so elaborate, that I shall lay it all before you, and you shall judge what is essential and what is not. I am compelled, to begin with, to say something of my own college career."
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Trevelyan describes his university and research career and mentions winning a prize",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_55",
+        "sentence_56",
+        "sentence_57"
+      ],
+      "participants": [
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I am a London University man, and my student career was considered by my professors to be a very promising one. After I had graduated I continued to devote myself to research, occupying a minor position in King's College Hospital, and I was fortunate enough to excite considerable interest by my research into the pathology of catalepsy, and finally to win the Bruce Pinkerton prize and medal by the monograph on nervous lesions to which your friend has just alluded. There was a general impression at that time that a distinguished career lay before me."
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Trevelyan explains that lack of capital hindered his career",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61"
+      ],
+      "participants": [
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "But the one great stumbling-block lay in my want of capital. As you will readily understand, a specialist who aims high is compelled to start in one of a dozen streets in the Cavendish Square quarter, all of which entail enormous rents and furnishing expenses. Besides this preliminary outlay, he must be prepared to keep himself for some years, and to hire a presentable carriage and horse. To do this was quite beyond my power, and I could only hope that by economy I might in ten years' time save enough to enable me to put up my plate."
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Trevelyan says an unexpected incident opened a new prospect",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_62"
+      ],
+      "participants": [
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Suddenly, however, an unexpected incident opened up quite a new prospect to me."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Blessington visits Trevelyan's room and begins business immediately",
+      "section": "resident-patient-section_2",
+      "source_nodes": [
+        "sentence_63",
+        "sentence_64"
+      ],
+      "participants": [
+        "blessington",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "Percy Trevelyan asks Holmes to answer frankly",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_68"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Answer me frankly, for you will find it to your interest to do so."
+      }
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Percy Trevelyan asks Holmes about bad habits and drink",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_73",
+        "sentence_74"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Any bad habits? Not drawn towards drink, eh?"
+      }
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Percy Trevelyan remarks on his own proposal to start Holmes in Brook Street",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_82",
+        "sentence_85"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes",
+        "brook_street"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It's the old story. More in your brains than in your pocket, eh? What would you say if I were to start you in Brook Street?"
+      }
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Percy Trevelyan offers to invest in Holmes",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_87",
+        "sentence_89"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It's for my sake, not for yours. I'll be perfectly frank with you, and if it suits you it will suit me very well. I have a few thousands to invest, d'ye see, and I think I'll sink them in you."
+      }
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Percy Trevelyan explains the business arrangement",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_94",
+        "sentence_98"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I'll tell you. I'll take the house, furnish it, pay the maids, and run the whole place. All you have to do is just to wear out your chair in the consulting-room. I'll let you have pocket-money and everything. Then you hand over to me three quarters of what you earn, and you keep the other quarter for yourself."
+      }
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Percy Trevelyan describes Blessington approaching him with a proposal",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_99"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "blessington"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Percy Trevelyan moves into the house and starts practice",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_100",
+        "sentence_101"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "brook_street"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Blessington comes to live with Percy Trevelyan as a resident patient",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_102"
+      ],
+      "participants": [
+        "blessington",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Blessington uses the consulting-room to inspect accounts and take proceeds",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_107"
+      ],
+      "participants": [
+        "blessington",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Blessington speaks of a burglary and urges stronger security",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_113",
+        "sentence_114"
+      ],
+      "participants": [
+        "blessington",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "blessington"
+      ],
+      "communicates": {
+        "speaker": "blessington",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "Some weeks ago a burglary had been committed in the West End, and we should add stronger bolts to our windows and doors before another day passes."
+      }
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Blessington becomes restless and watches the windows",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_115"
+      ],
+      "participants": [
+        "blessington"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Percy Trevelyan questions Blessington and then drops the subject",
+      "section": "resident-patient-section_3",
+      "source_nodes": [
+        "sentence_116"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "blessington"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "The narrator receives an anonymous letter",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_119",
+        "sentence_120"
+      ],
+      "participants": [
+        "anonymous_russian_nobleman",
+        "watson"
+      ],
+      "performs": [
+        "anonymous_russian_nobleman"
+      ]
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "The letter asks Dr. Percy Trevelyan for medical assistance",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_121",
+        "sentence_123"
+      ],
+      "participants": [
+        "anonymous_russian_nobleman",
+        "percy_trevelyan",
+        "letter_from_russian_nobleman"
+      ],
+      "performs": [
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "anonymous_russian_nobleman",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "A Russian nobleman resident in England would be glad to avail himself of the professional assistance of Dr. Percy Trevelyan. He has been for some years a victim to cataleptic attacks. He proposes to call at about quarter past six to-morrow evening if Dr. Trevelyan will make it convenient to be at home."
+      }
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "The page admits the patient into the consulting-room",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_125"
+      ],
+      "participants": [
+        "anonymous_page",
+        "anonymous_russian_nobleman",
+        "anonymous_young_man",
+        "consulting_room"
+      ],
+      "performs": [
+        "anonymous_page"
+      ]
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "The young man helps the elderly man to a chair",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_129"
+      ],
+      "participants": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ]
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "The young man explains that the elderly man is his father and asks to stay out of the consultation",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_130",
+        "sentence_131",
+        "sentence_134",
+        "sentence_139"
+      ],
+      "participants": [
+        "anonymous_young_man",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ],
+      "communicates": {
+        "speaker": "anonymous_young_man",
+        "recipients": [
+          "percy_trevelyan"
+        ],
+        "content": "You will excuse my coming in, doctor. This is my father, and his health is a matter of the most overwhelming importance to me. Not for the world. It is more painful to me than I can express. If I were to see my father in one of these dreadful seizures I am convinced that I should never survive it. My own nervous system is an exceptionally sensitive one. With your permission, I will remain in the waiting-room while you go into my father's case."
+      }
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "Percy Trevelyan assents and the young man withdraws",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_140"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_young_man",
+        "consulting_room",
+        "waiting_room"
+      ],
+      "performs": [
+        "percy_trevelyan",
+        "anonymous_young_man"
+      ]
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "Trevelyan consults the patient and takes notes",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_141",
+        "sentence_142"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_russian_nobleman",
+        "consulting_room"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "The patient becomes rigid in cataleptic seizure",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_143",
+        "sentence_144"
+      ],
+      "participants": [
+        "anonymous_russian_nobleman",
+        "percy_trevelyan",
+        "consulting_room"
+      ],
+      "performs": [
+        "anonymous_russian_nobleman"
+      ]
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "Trevelyan examines the patient's pulse, temperature, muscles, and reflexes",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_147",
+        "sentence_148"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_russian_nobleman",
+        "consulting_room"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "Trevelyan leaves to fetch nitrite of amyl from the laboratory",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_149",
+        "sentence_150"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "nitrite_of_amyl",
+        "consulting_room",
+        "laboratory"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "Trevelyan returns to the consulting-room and finds the patient gone",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_151",
+        "sentence_152"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_russian_nobleman",
+        "consulting_room"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_12",
+      "type": "event",
+      "label": "Trevelyan runs to the waiting-room and finds the young man gone",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_153",
+        "sentence_154"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_young_man",
+        "waiting_room"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_4_13",
+      "type": "event",
+      "label": "Trevelyan speaks about the page and the mystery",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_156",
+        "sentence_157",
+        "sentence_158"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "anonymous_page"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [],
+        "content": "My page who admits patients is a new boy and by no means quick. He waits downstairs, and runs up to show patients out when I ring the consulting-room bell. He had heard nothing, and the affair remained a complete mystery."
+      }
+    },
+    {
+      "id": "event_4_14",
+      "type": "event",
+      "label": "Mr. Blessington comes in from his walk",
+      "section": "resident-patient-section_4",
+      "source_nodes": [
+        "sentence_159"
+      ],
+      "participants": [
+        "blessington"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_5_1",
+      "type": "event",
+      "label": "The Russian and his son arrive in the consulting-room",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_160"
+      ],
+      "participants": [
+        "anonymous_russian_nobleman",
+        "anonymous_young_man",
+        "consulting_room"
+      ],
+      "performs": [
+        "anonymous_russian_nobleman",
+        "anonymous_young_man"
+      ]
+    },
+    {
+      "id": "event_5_2",
+      "type": "event",
+      "label": "The patient apologizes for his abrupt departure and explains his clouded memory after attacks",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_161",
+        "sentence_163",
+        "sentence_164"
+      ],
+      "participants": [
+        "anonymous_russian_nobleman",
+        "doctor"
+      ],
+      "performs": [
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "anonymous_russian_nobleman",
+        "recipients": [
+          "doctor"
+        ],
+        "content": "I owe you a great many apologies for my abrupt departure yesterday, doctor. The fact is that when I recover from these attacks my mind is always very clouded as to all that has gone before. I woke up in a strange room, as it seemed to me, and made my way out into the street in a sort of dazed way when you were absent."
+      }
+    },
+    {
+      "id": "event_5_3",
+      "type": "event",
+      "label": "The son explains why he thought the consultation had ended",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_165",
+        "sentence_166"
+      ],
+      "participants": [
+        "anonymous_young_man",
+        "doctor",
+        "anonymous_russian_nobleman"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ],
+      "communicates": {
+        "speaker": "anonymous_young_man",
+        "recipients": [
+          "doctor"
+        ],
+        "content": "Seeing my father pass the door of the waiting-room, I naturally thought that the consultation had come to an end. It was not until we had reached home that I began to realize the true state of affairs."
+      }
+    },
+    {
+      "id": "event_5_4",
+      "type": "event",
+      "label": "The doctor resumes the consultation and prescribes treatment",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_167",
+        "sentence_168"
+      ],
+      "participants": [
+        "doctor",
+        "anonymous_russian_nobleman",
+        "anonymous_young_man",
+        "waiting_room"
+      ],
+      "performs": [
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_5_5",
+      "type": "event",
+      "label": "Blessington enters, goes upstairs, rushes down, and bursts into the consulting-room in panic",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_169",
+        "sentence_170",
+        "sentence_171",
+        "sentence_172"
+      ],
+      "participants": [
+        "blessington",
+        "consulting_room"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_5_6",
+      "type": "event",
+      "label": "Blessington demands whether anyone has been in his room and cries out in alarm",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_173",
+        "sentence_174",
+        "sentence_175",
+        "sentence_176",
+        "sentence_177"
+      ],
+      "participants": [
+        "blessington",
+        "doctor"
+      ],
+      "performs": [
+        "blessington"
+      ],
+      "communicates": {
+        "speaker": "blessington",
+        "recipients": [
+          "doctor"
+        ],
+        "content": "Been in my room? No one! It's a lie! Come up and look!"
+      }
+    },
+    {
+      "id": "event_5_7",
+      "type": "event",
+      "label": "The doctor goes upstairs with Blessington and sees footprints on the carpet",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_179",
+        "sentence_180",
+        "sentence_181",
+        "sentence_182"
+      ],
+      "participants": [
+        "doctor",
+        "blessington"
+      ],
+      "performs": [
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_5_8",
+      "type": "event",
+      "label": "The doctor reasons that an intruder ascended to the resident patient's room while he was busy",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_183",
+        "sentence_184",
+        "sentence_185"
+      ],
+      "participants": [
+        "doctor",
+        "blessington",
+        "anonymous_russian_nobleman",
+        "anonymous_young_man",
+        "waiting_room"
+      ],
+      "performs": [
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_5_9",
+      "type": "event",
+      "label": "Blessington becomes highly agitated and suggests consulting Holmes",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_189"
+      ],
+      "participants": [
+        "blessington",
+        "doctor",
+        "watson",
+        "sherlock_holmes",
+        "brougham"
+      ],
+      "performs": [
+        "blessington"
+      ],
+      "communicates": {
+        "speaker": "blessington",
+        "recipients": [
+          "doctor"
+        ],
+        "content": "It was his suggestion that I should come round to you, and of course I at once saw the propriety of it, for certainly the incident is a very singular one, though he appears to completely overrate its importance. If you would only come back with me in my brougham, you would at least be able to soothe him, though I can hardly hope that you will be able to explain this remarkable occurrence."
+      }
+    },
+    {
+      "id": "event_5_10",
+      "type": "event",
+      "label": "Holmes listens to the doctor's narrative with intense attention",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_190",
+        "sentence_191"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "doctor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_11",
+      "type": "event",
+      "label": "Holmes leaves with the doctor and Watson and arrives at Dr. Trevelyan's residence",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_192",
+        "sentence_193"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "brook_street",
+        "brougham"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_12",
+      "type": "event",
+      "label": "A page admits the visitors and they begin ascending the stair",
+      "section": "resident-patient-section_5",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "anonymous_page",
+        "sherlock_holmes",
+        "watson",
+        "doctor"
+      ],
+      "performs": [
+        "anonymous_page"
+      ]
+    },
+    {
+      "id": "event_6_1",
+      "type": "event",
+      "label": "A hidden man warns the others not to come nearer with a pistol",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_196",
+        "sentence_197",
+        "sentence_198"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "blessington",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ],
+      "communicates": {
+        "speaker": "anonymous_young_man",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "doctor"
+        ],
+        "content": "I have a pistol. I give you my word that I'll fire if you come any nearer."
+      }
+    },
+    {
+      "id": "event_6_2",
+      "type": "event",
+      "label": "Dr. Trevelyan addresses Blessington by name",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_199"
+      ],
+      "participants": [
+        "doctor",
+        "blessington"
+      ],
+      "performs": [
+        "doctor"
+      ],
+      "communicates": {
+        "speaker": "doctor",
+        "recipients": [
+          "blessington"
+        ],
+        "content": "This really grows outrageous, Mr. Blessington."
+      }
+    },
+    {
+      "id": "event_6_3",
+      "type": "event",
+      "label": "The hidden man identifies the doctor and asks about the other men",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_200",
+        "sentence_201"
+      ],
+      "participants": [
+        "doctor",
+        "blessington",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ],
+      "communicates": {
+        "speaker": "anonymous_young_man",
+        "recipients": [
+          "doctor",
+          "blessington"
+        ],
+        "content": "Oh, then it is you, doctor. But those other gentlemen, are they what they pretend to be?"
+      }
+    },
+    {
+      "id": "event_6_4",
+      "type": "event",
+      "label": "The hidden man scrutinizes the visitors from the darkness and allows them to come up",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_202",
+        "sentence_203",
+        "sentence_204"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "blessington",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ],
+      "communicates": {
+        "speaker": "anonymous_young_man",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "doctor"
+        ],
+        "content": "Yes, yes, it's all right. You can come up, and I am sorry if my precautions have annoyed you."
+      }
+    },
+    {
+      "id": "event_6_5",
+      "type": "event",
+      "label": "The man relights the stair gas and reveals himself",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208"
+      ],
+      "participants": [
+        "anonymous_young_man",
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "blessington"
+      ],
+      "performs": [
+        "anonymous_young_man"
+      ]
+    },
+    {
+      "id": "event_6_6",
+      "type": "event",
+      "label": "Blessington greets Holmes and explains his situation",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212"
+      ],
+      "participants": [
+        "blessington",
+        "sherlock_holmes",
+        "doctor"
+      ],
+      "performs": [
+        "blessington"
+      ],
+      "communicates": {
+        "speaker": "blessington",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Good-evening, Mr. Holmes. I am sure I am very much obliged to you for coming round. No one ever needed your advice more than I do. I suppose that Dr. Trevelyan has told you of this most unwarrantable intrusion into my rooms."
+      }
+    },
+    {
+      "id": "event_6_7",
+      "type": "event",
+      "label": "Holmes asks Blessington about the two men who intrude on him",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_213",
+        "sentence_214"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "blessington"
+        ],
+        "content": "Who are these two men Mr. Blessington, and why do they wish to molest you?"
+      }
+    },
+    {
+      "id": "event_6_8",
+      "type": "event",
+      "label": "Blessington refuses to answer Holmes's question directly",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_215",
+        "sentence_216",
+        "sentence_217"
+      ],
+      "participants": [
+        "blessington",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "blessington"
+      ],
+      "communicates": {
+        "speaker": "blessington",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Well, well, of course it is hard to say that. You can hardly expect me to answer that, Mr. Holmes."
+      }
+    },
+    {
+      "id": "event_6_9",
+      "type": "event",
+      "label": "Blessington leads Holmes into his bedroom and points out a black box",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_218",
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_222",
+        "sentence_223",
+        "sentence_224",
+        "sentence_225"
+      ],
+      "participants": [
+        "blessington",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "blessington"
+      ]
+    },
+    {
+      "id": "event_6_10",
+      "type": "event",
+      "label": "Holmes rejects Blessington's attempted deception and leaves",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_233"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "doctor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "blessington"
+        ],
+        "content": "I cannot possibly advise you if you try to deceive me. Good-night, Dr. Trevelyan. My advice to you, sir, is to speak the truth."
+      }
+    },
+    {
+      "id": "event_6_11",
+      "type": "event",
+      "label": "Holmes and Watson walk home from the house",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_234",
+        "sentence_235"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_6_12",
+      "type": "event",
+      "label": "Holmes comments that the visit was a fool's errand and analyzes the intruders",
+      "section": "resident-patient-section_6",
+      "source_nodes": [
+        "sentence_236",
+        "sentence_237",
+        "sentence_238",
+        "sentence_239",
+        "sentence_240"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "blessington",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Sorry to bring you out on such a fool's errand, Watson. It is an interesting case, too, at the bottom of it. I can make little of it. Well, it is quite evident that there are two men—more, perhaps, but at least two—who are determined for some reason to get at this fellow Blessington. I have no doubt in my mind that both on the first and on the second occasion that young man penetrated to Blessington's room, while his confederate, by an ingenious device, kept the doctor from interfering."
+      }
+    },
+    {
+      "id": "event_7_1",
+      "type": "event",
+      "label": "Holmes dismisses the catalepsy as a fraudulent imitation",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_241",
+        "sentence_242",
+        "sentence_243",
+        "sentence_244"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "A fraudulent imitation, Watson, though I should hardly dare to hint as much to our specialist. It is a very easy complaint to imitate. I have done it myself."
+      }
+    },
+    {
+      "id": "event_7_2",
+      "type": "event",
+      "label": "Holmes explains why Blessington was absent and why the men chose the hour",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "blessington"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "By the purest chance Blessington was out on each occasion. Their reason for choosing so unusual an hour for a consultation was obviously to insure that there should be no other patient in the waiting-room. It just happened, however, that this hour coincided with Blessington's constitutional, which seems to show that they were not very well acquainted with his daily routine. Of course, if they had been merely after plunder they would at least have made some attempt to search for it. Besides, I can read in a man's eye when it is his own skin that he is frightened for. It is inconceivable that this fellow could have made two such vindictive enemies as these appear to be without knowing of it. I hold it, therefore, to be certain that he does know who these men are, and that for reasons of his own he suppresses it. It is just possible that to-morrow may find him in a more communicative mood."
+      }
+    },
+    {
+      "id": "event_7_3",
+      "type": "event",
+      "label": "Watson suggests an alternative explanation for the catalepsy story",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_254",
+        "sentence_255",
+        "sentence_256"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "percy_trevelyan",
+        "anonymous_russian_nobleman",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Is there not one alternative, grotesquely improbable, no doubt, but still just conceivable? Might the whole story of the cataleptic Russian and his son be a concoction of Dr. Trevelyan's, who has, for his own purposes, been in Blessington's rooms?"
+      }
+    },
+    {
+      "id": "event_7_4",
+      "type": "event",
+      "label": "Holmes says he corroborated the doctor's tale from footprints and shoes",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "anonymous_young_man",
+        "percy_trevelyan",
+        "blessington",
+        "brook_street"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It was one of the first solutions which occurred to me, but I was soon able to corroborate the doctor's tale. This young man has left prints upon the stair-carpet which made it quite superfluous for me to ask to see those which he had made in the room. When I tell you that his shoes were square-toed instead of being pointed like Blessington's, and were quite an inch and a third longer than the doctor's, you will acknowledge that there can be no doubt as to his individuality. But we may sleep on it now, for I shall be surprised if we do not hear something further from Brook Street in the morning."
+      }
+    },
+    {
+      "id": "event_7_5",
+      "type": "event",
+      "label": "Holmes appears at Watson's bedside and calls for the brougham",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270",
+        "sentence_271"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "brougham",
+        "brook_street",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "There's a brougham waiting for us, Watson. The Brook Street business. Tragic, but ambiguous. Our friend, the doctor, was hard put to it when he wrote this. Come along, my dear fellow, for it's an urgent call."
+      }
+    },
+    {
+      "id": "event_7_6",
+      "type": "event",
+      "label": "Holmes and Watson return to the physician's house",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_272"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "percy_trevelyan"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_7_7",
+      "type": "event",
+      "label": "The doctor meets Holmes and Watson with horror",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_273",
+        "sentence_274",
+        "sentence_275"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "Oh, such a business!"
+      }
+    },
+    {
+      "id": "event_7_8",
+      "type": "event",
+      "label": "The doctor announces that Blessington has committed suicide",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_279"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes",
+        "watson",
+        "blessington"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "Blessington has committed suicide! Yes, he hanged himself during the night."
+      }
+    },
+    {
+      "id": "event_7_9",
+      "type": "event",
+      "label": "The doctor says police are already upstairs and the event has shaken him",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_280",
+        "sentence_281",
+        "sentence_282",
+        "sentence_283"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I really hardly know what I am doing. The police are already upstairs. It has shaken me most dreadfully."
+      }
+    },
+    {
+      "id": "event_7_10",
+      "type": "event",
+      "label": "The doctor explains when he found Blessington hanging and how he died",
+      "section": "resident-patient-section_7",
+      "source_nodes": [
+        "sentence_284",
+        "sentence_285",
+        "sentence_286",
+        "sentence_287"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "sherlock_holmes",
+        "watson",
+        "blessington"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "He has a cup of tea taken in to him early every morning. When the maid entered, about seven, there the unfortunate fellow was hanging in the middle of the room. He had tied his cord to the hook on which the heavy lamp used to hang, and he had jumped off from the top of the very box that he showed us yesterday."
+      }
+    },
+    {
+      "id": "event_8_1",
+      "type": "event",
+      "label": "Holmes asks to go upstairs and inspect the matter",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_289"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [],
+        "content": "With your permission, I should like to go upstairs and look into the matter."
+      }
+    },
+    {
+      "id": "event_8_2",
+      "type": "event",
+      "label": "Holmes, Watson, and the doctor ascend upstairs",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_290"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson",
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_8_3",
+      "type": "event",
+      "label": "They enter the bedroom and find Blessington dead",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_291",
+        "sentence_292",
+        "sentence_293",
+        "sentence_294",
+        "sentence_295",
+        "sentence_296"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "blessington",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson",
+        "doctor"
+      ]
+    },
+    {
+      "id": "event_8_4",
+      "type": "event",
+      "label": "Lanner greets Holmes and says he is delighted to see him",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_297"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Ah, Mr. Holmes, I am delighted to see you."
+      }
+    },
+    {
+      "id": "event_8_5",
+      "type": "event",
+      "label": "Holmes asks Lanner about the events leading to the affair",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_298",
+        "sentence_299"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Good-morning, Lanner, you won't think me an intruder, I am sure. Have you heard of the events which led up to this affair?"
+      }
+    },
+    {
+      "id": "event_8_6",
+      "type": "event",
+      "label": "Lanner says he has heard something of the events",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_300"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, I heard something of them."
+      }
+    },
+    {
+      "id": "event_8_7",
+      "type": "event",
+      "label": "Holmes asks Lanner for his opinion",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_301"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Have you formed any opinion?"
+      }
+    },
+    {
+      "id": "event_8_8",
+      "type": "event",
+      "label": "Lanner describes the case and the body",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_302",
+        "sentence_303",
+        "sentence_304",
+        "sentence_305",
+        "sentence_306",
+        "sentence_307"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "As far as I can see, the man has been driven out of his senses by fright. The bed has been well slept in, you see. There's his impression deep enough. It's about five in the morning, you know, that suicides are most common. That would be about his time for hanging himself. It seems to have been a very deliberate affair."
+      }
+    },
+    {
+      "id": "event_8_9",
+      "type": "event",
+      "label": "Watson states that the man has been dead about three hours",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_308"
+      ],
+      "participants": [
+        "watson",
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "lanner",
+          "sherlock_holmes"
+        ],
+        "content": "I should say that he has been dead about three hours, judging by the rigidity of the muscles."
+      }
+    },
+    {
+      "id": "event_8_10",
+      "type": "event",
+      "label": "Holmes asks whether anything peculiar was noticed in the room",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_309",
+        "sentence_310"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Noticed anything peculiar about the room?"
+      }
+    },
+    {
+      "id": "event_8_11",
+      "type": "event",
+      "label": "Lanner reports objects found in the room",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_311",
+        "sentence_312",
+        "sentence_313"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Found a screw-driver and some screws on the wash-hand stand. Seems to have smoked heavily during the night, too. Here are four cigar-ends that I picked out of the fireplace."
+      }
+    },
+    {
+      "id": "event_8_12",
+      "type": "event",
+      "label": "Holmes asks whether the cigar-holder has been found",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_314",
+        "sentence_315"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Hum! have you got his cigar-holder?"
+      }
+    },
+    {
+      "id": "event_8_13",
+      "type": "event",
+      "label": "Lanner says he has seen no cigar-holder",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_316"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No, I have seen none."
+      }
+    },
+    {
+      "id": "event_8_14",
+      "type": "event",
+      "label": "Holmes asks about the cigar-case",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_317"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "His cigar-case, then?"
+      }
+    },
+    {
+      "id": "event_8_15",
+      "type": "event",
+      "label": "Lanner says the cigar-case was in the coat-pocket",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_318"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, it was in his coat-pocket."
+      }
+    },
+    {
+      "id": "event_8_16",
+      "type": "event",
+      "label": "Holmes opens the cigar-case and smells the cigar inside",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_319"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_17",
+      "type": "event",
+      "label": "Holmes identifies the cigar types and their features",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_320",
+        "sentence_321"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_18",
+      "type": "event",
+      "label": "Holmes examines the four cigar-ends with his pocket-lens",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_322"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_19",
+      "type": "event",
+      "label": "Holmes states that two cigar-ends were smoked from a holder and two without",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_323"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Two of these have been smoked from a holder and two without."
+      }
+    },
+    {
+      "id": "event_8_20",
+      "type": "event",
+      "label": "Holmes states that the cigar-ends were cut or bitten",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_324"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "Two have been cut by a not very sharp knife, and two have had the ends bitten off by a set of excellent teeth."
+      }
+    },
+    {
+      "id": "event_8_21",
+      "type": "event",
+      "label": "Holmes declares the death to be murder rather than suicide",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_325",
+        "sentence_326"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "This is no suicide, Mr. Lanner. It is a very deeply planned and cold-blooded murder."
+      }
+    },
+    {
+      "id": "event_8_22",
+      "type": "event",
+      "label": "The inspector exclaims that Holmes's claim is impossible",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_327",
+        "sentence_328"
+      ],
+      "participants": [
+        "lanner",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "lanner",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Impossible!"
+      }
+    },
+    {
+      "id": "event_8_23",
+      "type": "event",
+      "label": "Holmes asks why someone would murder a man by hanging him",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_329",
+        "sentence_330"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "And why? Why should any one murder a man in so clumsy a fashion as by hanging him?"
+      }
+    },
+    {
+      "id": "event_8_24",
+      "type": "event",
+      "label": "Holmes and Lanner discuss how the perpetrators entered",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_331",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "How could they get in? Through the front door. It was barred in the morning. Then it was barred after them. How do you know?"
+      }
+    },
+    {
+      "id": "event_8_25",
+      "type": "event",
+      "label": "Holmes says he saw their traces and asks to inspect the door",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lanner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lanner"
+        ],
+        "content": "I saw their traces. Excuse me a moment, and I may be able to give you some further information about it."
+      }
+    },
+    {
+      "id": "event_8_26",
+      "type": "event",
+      "label": "Holmes inspects the room and the body, then the body is cut down and laid under a sheet",
+      "section": "resident-patient-section_8",
+      "source_nodes": [
+        "sentence_341"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "lanner",
+        "blessington"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson",
+        "lanner"
+      ]
+    },
+    {
+      "id": "event_9_1",
+      "type": "event",
+      "label": "Dr. Trevelyan draws a large coil from under the bed",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_344"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "bed"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_9_2",
+      "type": "event",
+      "label": "Dr. Trevelyan explains the rope was kept beside him for escape from fire",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_345"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "rope",
+        "window",
+        "stairs"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "doctor"
+        ],
+        "content": "He was morbidly nervous of fire, and always kept this beside him, so that he might escape by the window in case the stairs were burning."
+      }
+    },
+    {
+      "id": "event_9_3",
+      "type": "event",
+      "label": "Holmes takes the photograph of Blessington from the mantelpiece",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_348"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "photograph_of_blessington",
+        "mantelpiece"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_4",
+      "type": "event",
+      "label": "Holmes states that three men were in it",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_351",
+        "sentence_352"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "There were three of them in it: the young man, the old man, and a third, to whose identity I have no clue."
+      }
+    },
+    {
+      "id": "event_9_5",
+      "type": "event",
+      "label": "Holmes states that the first two men masqueraded as the Russian count and his son",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_353"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The first two, I need hardly remark, are the same who masqueraded as the Russian count and his son, so we can give a very full description of them."
+      }
+    },
+    {
+      "id": "event_9_6",
+      "type": "event",
+      "label": "Holmes states that the men were admitted by a confederate inside the house",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_354"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "house"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "They were admitted by a confederate inside the house."
+      }
+    },
+    {
+      "id": "event_9_7",
+      "type": "event",
+      "label": "Holmes advises arresting the page",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_355"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "page",
+        "inspector",
+        "doctor"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "inspector",
+          "doctor"
+        ],
+        "content": "it would be to arrest the page, who, as I understand, has only recently come into your service, Doctor."
+      }
+    },
+    {
+      "id": "event_9_8",
+      "type": "event",
+      "label": "Dr. Trevelyan says the page cannot be found and the maid and cook have searched for him",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_356"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "page"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ],
+      "communicates": {
+        "speaker": "percy_trevelyan",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "doctor"
+        ],
+        "content": "The young imp cannot be found; the maid and the cook have just been searching for him."
+      }
+    },
+    {
+      "id": "event_9_9",
+      "type": "event",
+      "label": "Holmes states that the page played a part in the drama",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_358"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "page"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "He has played a not unimportant part in this drama."
+      }
+    },
+    {
+      "id": "event_9_10",
+      "type": "event",
+      "label": "Holmes states that the three men ascended the stairs on tiptoe",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_359"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "anonymous_young_man",
+        "anonymous_russian_nobleman",
+        "stairs"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The three men having ascended the stairs, which they did on tiptoe, the elder man first, the younger man second, and the unknown man in the rear."
+      }
+    },
+    {
+      "id": "event_9_11",
+      "type": "event",
+      "label": "Holmes states that the men went to Blessington's room and found the door locked",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_364"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "room"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "They ascended, then, to Mr. Blessington's room, the door of which they found to be locked."
+      }
+    },
+    {
+      "id": "event_9_12",
+      "type": "event",
+      "label": "The men force the key round with a wire",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_365"
+      ],
+      "participants": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman",
+        "wire",
+        "room"
+      ],
+      "performs": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ]
+    },
+    {
+      "id": "event_9_13",
+      "type": "event",
+      "label": "Holmes states that the men gag Mr. Blessington on entering the room",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_367",
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "room"
+      ],
+      "performs": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "On entering the room their first proceeding must have been to gag Mr. Blessington."
+      }
+    },
+    {
+      "id": "event_9_14",
+      "type": "event",
+      "label": "Holmes states that a consultation is held after Blessington is secured",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_370",
+        "sentence_371",
+        "sentence_372"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "cigars",
+        "room"
+      ],
+      "performs": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "Having secured him, it is evident to me that a consultation of some sort was held. Probably it was something in the nature of a judicial proceeding."
+      }
+    },
+    {
+      "id": "event_9_15",
+      "type": "event",
+      "label": "Holmes states that the older man sits in the wicker chair and uses the cigar-holder",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_373"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "anonymous_russian_nobleman",
+        "cigar_holder"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The older man sat in that wicker chair; it was he who used the cigar-holder."
+      }
+    },
+    {
+      "id": "event_9_16",
+      "type": "event",
+      "label": "Holmes states that the younger man sits by the chest of drawers and knocks ash off against it",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "anonymous_young_man"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The younger man sat over yonder; he knocked his ash off against the chest of drawers."
+      }
+    },
+    {
+      "id": "event_9_17",
+      "type": "event",
+      "label": "Holmes states that the third man paces up and down",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_375"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The third fellow paced up and down."
+      }
+    },
+    {
+      "id": "event_9_18",
+      "type": "event",
+      "label": "Holmes states that Blessington sits upright in the bed",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_376"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington",
+        "bed"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "Blessington, I think, sat upright in the bed, but of that I cannot be absolutely certain."
+      }
+    },
+    {
+      "id": "event_9_19",
+      "type": "event",
+      "label": "Holmes states that the men hang Blessington",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_377"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "blessington"
+      ],
+      "performs": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "it ended by their taking Blessington and hanging him."
+      }
+    },
+    {
+      "id": "event_9_20",
+      "type": "event",
+      "label": "Holmes states that the men brought a block or pulley to serve as a gallows",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_378",
+        "sentence_379"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "block_or_pulley",
+        "screw_driver",
+        "screws"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "The matter was so prearranged that it is my belief that they brought with them some sort of block or pulley which might serve as a gallows. That screw-driver and those screws were, as I conceive, for fixing it up."
+      }
+    },
+    {
+      "id": "event_9_21",
+      "type": "event",
+      "label": "Holmes states that the men avoid trouble by using the hook",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_380"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "hook"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "Seeing the hook, however they naturally saved themselves the trouble."
+      }
+    },
+    {
+      "id": "event_9_22",
+      "type": "event",
+      "label": "Holmes states that the men make off and their confederate bars the door behind them",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_381"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "house"
+      ],
+      "performs": [
+        "anonymous_young_man",
+        "anonymous_russian_nobleman"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "doctor",
+          "watson"
+        ],
+        "content": "Having finished their work they made off, and the door was barred behind them by their confederate."
+      }
+    },
+    {
+      "id": "event_9_23",
+      "type": "event",
+      "label": "The inspector hurries away to make inquiries about the page",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_383"
+      ],
+      "participants": [
+        "inspector",
+        "page",
+        "scotland_yard"
+      ],
+      "performs": [
+        "inspector"
+      ]
+    },
+    {
+      "id": "event_9_24",
+      "type": "event",
+      "label": "Holmes and Watson return to Baker Street for breakfast",
+      "section": "resident-patient-section_9",
+      "source_nodes": [
+        "sentence_383"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "baker_street"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_10_1",
+      "type": "event",
+      "label": "The visitors arrive at the appointed time",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_386"
+      ],
+      "participants": [
+        "percy_trevelyan",
+        "watson",
+        "sherlock_holmes",
+        "doctor",
+        "inspector"
+      ],
+      "performs": [
+        "percy_trevelyan"
+      ]
+    },
+    {
+      "id": "event_10_2",
+      "type": "event",
+      "label": "Holmes arrives late",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_386",
+        "sentence_387"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "percy_trevelyan",
+        "watson",
+        "doctor",
+        "inspector"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_3",
+      "type": "event",
+      "label": "Holmes reports that he has identified the men",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_390",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "inspector",
+        "blessington",
+        "biddle",
+        "hayward",
+        "moffat"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson",
+          "doctor",
+          "inspector"
+        ],
+        "content": "You have got them! Well, at least I have got their identity. This so-called Blessington is, as I expected, well known at headquarters, and so are his assailants. Their names are Biddle, Hayward, and Moffat."
+      }
+    },
+    {
+      "id": "event_10_4",
+      "type": "event",
+      "label": "The inspector identifies the gang",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_396",
+        "sentence_397"
+      ],
+      "participants": [
+        "inspector",
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "worthingdon_bank_gang"
+      ],
+      "performs": [
+        "inspector"
+      ],
+      "communicates": {
+        "speaker": "inspector",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "doctor"
+        ],
+        "content": "The Worthingdon bank gang."
+      }
+    },
+    {
+      "id": "event_10_5",
+      "type": "event",
+      "label": "Holmes confirms the identification of Blessington as Sutton",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_398",
+        "sentence_399"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "inspector",
+        "blessington"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "inspector"
+        ],
+        "content": "Exactly."
+      }
+    },
+    {
+      "id": "event_10_6",
+      "type": "event",
+      "label": "Holmes explains the Worthingdon bank case",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doctor",
+        "inspector",
+        "worthingdon_bank_gang",
+        "cartwright",
+        "tobin",
+        "blessington",
+        "biddle",
+        "hayward",
+        "moffat"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson",
+          "doctor",
+          "inspector"
+        ],
+        "content": "You must surely remember the great Worthingdon bank business. Five men were in it—these four and a fifth called Cartwright. Tobin, the caretaker, was murdered, and the thieves got away with seven thousand pounds. This was in 1875. They were all five arrested, but the evidence against them was by no means conclusive. This Blessington or Sutton, who was the worst of the gang, turned informer. On his evidence Cartwright was hanged and the other three got fifteen years apiece. When they got out the other day, some years before their full term, they set themselves to hunt down the traitor and to avenge the death of their comrade upon him. Twice they tried to get at him and failed; a third time, it came off."
+      }
+    },
+    {
+      "id": "event_10_7",
+      "type": "event",
+      "label": "The doctor says the explanation is clear",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_412"
+      ],
+      "participants": [
+        "doctor",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "doctor"
+      ],
+      "communicates": {
+        "speaker": "doctor",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I think you have made it all remarkably clear."
+      }
+    },
+    {
+      "id": "event_10_8",
+      "type": "event",
+      "label": "Holmes explains Blessington's concealment",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_413",
+        "sentence_415",
+        "sentence_417",
+        "sentence_418",
+        "sentence_419"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "inspector",
+        "blessington"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "inspector"
+        ],
+        "content": "No doubt the day on which he was perturbed was the day when he had seen of their release in the newspapers. His talk about a burglary was the merest blind. Knowing the vindictive character of his old associates, he was trying to hide his own identity from everybody as long as he could. His secret was a shameful one, and he could not bring himself to divulge it."
+      }
+    },
+    {
+      "id": "event_10_9",
+      "type": "event",
+      "label": "Holmes states that the shield of British law may fail but justice remains",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_419"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "inspector"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "inspector"
+        ],
+        "content": "However, wretch as he was, he was still living under the shield of British law, and I have no doubt, Inspector, that you will see that, though that shield may fail to guard, the sword of justice is still there to avenge."
+      }
+    },
+    {
+      "id": "event_10_10",
+      "type": "event",
+      "label": "The police see nothing more of the three murderers",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_421"
+      ],
+      "participants": [
+        "scotland_yard",
+        "biddle",
+        "hayward",
+        "moffat"
+      ],
+      "performs": [
+        "scotland_yard"
+      ]
+    },
+    {
+      "id": "event_10_11",
+      "type": "event",
+      "label": "The proceedings against the page break down for lack of evidence",
+      "section": "resident-patient-section_10",
+      "source_nodes": [
+        "sentence_422"
+      ],
+      "participants": [
+        "page"
+      ],
+      "performs": [
+        "scotland_yard"
+      ]
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "sherlock_holmes",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_6",
+      "valid_until": "event_1_9",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sherlock_holmes",
+      "to": "sanctum",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_9",
+      "valid_until": "event_2_1",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "sherlock_holmes",
+      "to": "london",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_1",
+      "valid_until": "event_5_11",
+      "caused_by": [
+        "event_2_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "sherlock_holmes",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_11",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_11"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "sherlock_holmes",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "valid_until": "event_7_6",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "sherlock_holmes",
+      "to": "percy_trevelyan",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_6",
+      "valid_until": "event_9_24",
+      "caused_by": [
+        "event_7_6"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "sherlock_holmes",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_24",
+      "valid_until": "event_10_2",
+      "caused_by": [
+        "event_9_24"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "sherlock_holmes",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_2",
+      "caused_by": [
+        "event_10_2"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "watson",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_6",
+      "valid_until": "event_1_9",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "watson",
+      "to": "sanctum",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_9",
+      "valid_until": "event_5_11",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "watson",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_11",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_11"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "watson",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "valid_until": "event_7_6",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "watson",
+      "to": "percy_trevelyan",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_6",
+      "valid_until": "event_9_24",
+      "caused_by": [
+        "event_7_6"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "watson",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_24",
+      "valid_until": "event_10_1",
+      "caused_by": [
+        "event_9_24"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "watson",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "brougham",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_7",
+      "valid_until": "event_7_5",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "brougham",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_5",
+      "caused_by": [
+        "event_7_5"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "medical_instruments",
+      "to": "wicker_basket",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_8",
+      "caused_by": [
+        "event_1_8"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "doctor",
+      "to": "baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_8",
+      "valid_until": "event_1_10",
+      "caused_by": [
+        "event_1_8"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "doctor",
+      "to": "sanctum",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_10",
+      "valid_until": "event_5_11",
+      "caused_by": [
+        "event_1_10"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "doctor",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_11",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_11"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "doctor",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "valid_until": "event_10_1",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "doctor",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "percy_trevelyan",
+      "to": "london",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_1",
+      "valid_until": "event_2_9",
+      "caused_by": [
+        "event_2_1"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "percy_trevelyan",
+      "to": "king_s_college_hospital",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_9",
+      "valid_until": "event_3_7",
+      "caused_by": [
+        "event_2_9"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "percy_trevelyan",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_7",
+      "valid_until": "event_4_7",
+      "caused_by": [
+        "event_3_7"
+      ]
+    },
+    {
+      "id": "state_27",
+      "from": "percy_trevelyan",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_7",
+      "valid_until": "event_4_10",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_28",
+      "from": "percy_trevelyan",
+      "to": "laboratory",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_10",
+      "valid_until": "event_4_11",
+      "caused_by": [
+        "event_4_10"
+      ]
+    },
+    {
+      "id": "state_29",
+      "from": "percy_trevelyan",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_11",
+      "valid_until": "event_4_12",
+      "caused_by": [
+        "event_4_11"
+      ]
+    },
+    {
+      "id": "state_30",
+      "from": "percy_trevelyan",
+      "to": "waiting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_12",
+      "valid_until": "event_10_1",
+      "caused_by": [
+        "event_4_12"
+      ]
+    },
+    {
+      "id": "state_31",
+      "from": "percy_trevelyan",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_32",
+      "from": "percy_trevelyan",
+      "to": "bruce_pinkerton_prize",
+      "type": "OWNS",
+      "valid_from": "event_2_9",
+      "caused_by": [
+        "event_2_9"
+      ]
+    },
+    {
+      "id": "state_33",
+      "from": "blessington",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_8",
+      "valid_until": "event_4_14",
+      "caused_by": [
+        "event_3_8"
+      ]
+    },
+    {
+      "id": "state_34",
+      "from": "blessington",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_14",
+      "valid_until": "event_5_5",
+      "caused_by": [
+        "event_4_14"
+      ]
+    },
+    {
+      "id": "state_35",
+      "from": "blessington",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_5",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_5"
+      ]
+    },
+    {
+      "id": "state_36",
+      "from": "blessington",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_37",
+      "from": "anonymous_russian_nobleman",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_3",
+      "valid_until": "event_4_7",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_38",
+      "from": "anonymous_russian_nobleman",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_7",
+      "valid_until": "event_5_1",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_39",
+      "from": "anonymous_russian_nobleman",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_1",
+      "caused_by": [
+        "event_5_1"
+      ]
+    },
+    {
+      "id": "state_40",
+      "from": "anonymous_young_man",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_3",
+      "valid_until": "event_4_6",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_41",
+      "from": "anonymous_young_man",
+      "to": "waiting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_6",
+      "valid_until": "event_5_1",
+      "caused_by": [
+        "event_4_6"
+      ]
+    },
+    {
+      "id": "state_42",
+      "from": "anonymous_young_man",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_1",
+      "valid_until": "event_6_1",
+      "caused_by": [
+        "event_5_1"
+      ]
+    },
+    {
+      "id": "state_43",
+      "from": "anonymous_young_man",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_1",
+      "caused_by": [
+        "event_6_1"
+      ]
+    },
+    {
+      "id": "state_44",
+      "from": "nitrite_of_amyl",
+      "to": "laboratory",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_10",
+      "caused_by": [
+        "event_4_10"
+      ]
+    },
+    {
+      "id": "state_45",
+      "from": "anonymous_page",
+      "to": "brook_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_12",
+      "caused_by": [
+        "event_5_12"
+      ]
+    },
+    {
+      "id": "state_46",
+      "from": "anonymous_young_man",
+      "to": "black_box",
+      "type": "OWNS",
+      "valid_from": "event_6_5",
+      "caused_by": [
+        "event_6_5"
+      ]
+    },
+    {
+      "id": "state_47",
+      "from": "inspector",
+      "to": "consulting_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "caused_by": [
+        "event_10_1"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_1",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5",
+        "sentence_6",
+        "sentence_7",
+        "sentence_8",
+        "sentence_9",
+        "sentence_10",
+        "sentence_11",
+        "sentence_14",
+        "sentence_15",
+        "sentence_16",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_1",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_8",
+        "sentence_9",
+        "sentence_15",
+        "sentence_16",
+        "sentence_17",
+        "sentence_18",
+        "sentence_25",
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "baker_street",
+      "section": "resident-patient-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_8",
+        "sentence_18"
+      ]
+    },
+    {
+      "entity": "london",
+      "section": "resident-patient-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_14",
+        "sentence_16"
+      ]
+    },
+    {
+      "entity": "fleet_street",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_16"
+      ]
+    },
+    {
+      "entity": "the_strand",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_16"
+      ]
+    },
+    {
+      "entity": "brougham",
+      "section": "resident-patient-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_19",
+        "sentence_25",
+        "sentence_26"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_1",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "medical_instruments",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_25"
+      ]
+    },
+    {
+      "entity": "wicker_basket",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_25"
+      ]
+    },
+    {
+      "entity": "test_tube",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_10"
+      ]
+    },
+    {
+      "entity": "sanctum",
+      "section": "resident-patient-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_27",
+        "sentence_28"
+      ]
+    },
+    {
+      "entity": "story_resident_patient",
+      "section": "resident-patient-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_2"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_2",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_32",
+        "sentence_33",
+        "sentence_34",
+        "sentence_36",
+        "sentence_47",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_53",
+        "sentence_63"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_32",
+        "sentence_37",
+        "sentence_43"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_40",
+        "sentence_41",
+        "sentence_52",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64"
+      ]
+    },
+    {
+      "entity": "london",
+      "section": "resident-patient-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_48",
+        "sentence_55"
+      ]
+    },
+    {
+      "entity": "brook_street",
+      "section": "resident-patient-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_48"
+      ]
+    },
+    {
+      "entity": "baker_street",
+      "section": "resident-patient-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_47"
+      ]
+    },
+    {
+      "entity": "king_s_college_hospital",
+      "section": "resident-patient-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_56"
+      ]
+    },
+    {
+      "entity": "london_university",
+      "section": "resident-patient-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_55"
+      ]
+    },
+    {
+      "entity": "bruce_pinkerton_prize",
+      "section": "resident-patient-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_56"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_63",
+        "sentence_64"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_3",
+      "mention_count": 28,
+      "sentence_ids": [
+        "sentence_66",
+        "sentence_68",
+        "sentence_69",
+        "sentence_70",
+        "sentence_72",
+        "sentence_80",
+        "sentence_85",
+        "sentence_87",
+        "sentence_89",
+        "sentence_93",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_99",
+        "sentence_101",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_110",
+        "sentence_111",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_3",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_67",
+        "sentence_68",
+        "sentence_71",
+        "sentence_72",
+        "sentence_75",
+        "sentence_76",
+        "sentence_81",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_90",
+        "sentence_91",
+        "sentence_93",
+        "sentence_99",
+        "sentence_100",
+        "sentence_111",
+        "sentence_112"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_99",
+        "sentence_101",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_110",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117"
+      ]
+    },
+    {
+      "entity": "brook_street",
+      "section": "resident-patient-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_85"
+      ]
+    },
+    {
+      "entity": "resident_patient_case",
+      "section": "resident-patient-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_99",
+        "sentence_111"
+      ]
+    },
+    {
+      "entity": "anonymous_russian_nobleman",
+      "section": "resident-patient-section_4",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_121",
+        "sentence_122",
+        "sentence_126",
+        "sentence_129",
+        "sentence_131",
+        "sentence_143",
+        "sentence_144",
+        "sentence_147",
+        "sentence_150",
+        "sentence_152",
+        "sentence_153",
+        "sentence_154"
+      ]
+    },
+    {
+      "entity": "anonymous_young_man",
+      "section": "resident-patient-section_4",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_127",
+        "sentence_128",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_135",
+        "sentence_136",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_154"
+      ]
+    },
+    {
+      "entity": "anonymous_page",
+      "section": "resident-patient-section_4",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_125",
+        "sentence_156",
+        "sentence_157",
+        "sentence_158"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_4",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_121",
+        "sentence_122",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_133",
+        "sentence_134",
+        "sentence_140",
+        "sentence_141",
+        "sentence_145",
+        "sentence_146",
+        "sentence_147",
+        "sentence_149",
+        "sentence_150",
+        "sentence_153",
+        "sentence_156",
+        "sentence_159"
+      ]
+    },
+    {
+      "entity": "consulting_room",
+      "section": "resident-patient-section_4",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_125",
+        "sentence_141",
+        "sentence_143",
+        "sentence_150",
+        "sentence_152",
+        "sentence_153",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "waiting_room",
+      "section": "resident-patient-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_139",
+        "sentence_140",
+        "sentence_153"
+      ]
+    },
+    {
+      "entity": "laboratory",
+      "section": "resident-patient-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_150",
+        "sentence_151"
+      ]
+    },
+    {
+      "entity": "nitrite_of_amyl",
+      "section": "resident-patient-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_149",
+        "sentence_150",
+        "sentence_151"
+      ]
+    },
+    {
+      "entity": "letter_from_russian_nobleman",
+      "section": "resident-patient-section_4",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_123"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_159"
+      ]
+    },
+    {
+      "entity": "anonymous_russian_nobleman",
+      "section": "resident-patient-section_5",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_160",
+        "sentence_161",
+        "sentence_163",
+        "sentence_164",
+        "sentence_168",
+        "sentence_184"
+      ]
+    },
+    {
+      "entity": "anonymous_young_man",
+      "section": "resident-patient-section_5",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_160",
+        "sentence_165",
+        "sentence_166",
+        "sentence_168",
+        "sentence_184"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_5",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_161",
+        "sentence_162",
+        "sentence_167",
+        "sentence_188",
+        "sentence_192",
+        "sentence_193"
+      ]
+    },
+    {
+      "entity": "consulting_room",
+      "section": "resident-patient-section_5",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_160",
+        "sentence_167",
+        "sentence_171"
+      ]
+    },
+    {
+      "entity": "waiting_room",
+      "section": "resident-patient-section_5",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_165",
+        "sentence_167",
+        "sentence_184"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_5",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_169",
+        "sentence_170",
+        "sentence_171",
+        "sentence_178",
+        "sentence_179",
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_189"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_5",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_190",
+        "sentence_192",
+        "sentence_193",
+        "sentence_194"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_5",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_188",
+        "sentence_192",
+        "sentence_193",
+        "sentence_194"
+      ]
+    },
+    {
+      "entity": "brook_street",
+      "section": "resident-patient-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_193"
+      ]
+    },
+    {
+      "entity": "anonymous_page",
+      "section": "resident-patient-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_194"
+      ]
+    },
+    {
+      "entity": "brougham",
+      "section": "resident-patient-section_5",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_189",
+        "sentence_193"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_6",
+      "mention_count": 16,
+      "sentence_ids": [
+        "sentence_196",
+        "sentence_199",
+        "sentence_209",
+        "sentence_213",
+        "sentence_214",
+        "sentence_226",
+        "sentence_227",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_233",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238",
+        "sentence_239",
+        "sentence_240"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_6",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_196",
+        "sentence_234",
+        "sentence_235",
+        "sentence_236",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_6",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_199",
+        "sentence_200",
+        "sentence_205",
+        "sentence_212",
+        "sentence_214",
+        "sentence_230"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_6",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_205",
+        "sentence_209",
+        "sentence_212",
+        "sentence_214",
+        "sentence_215",
+        "sentence_216",
+        "sentence_217",
+        "sentence_221",
+        "sentence_225",
+        "sentence_226",
+        "sentence_228",
+        "sentence_231",
+        "sentence_232",
+        "sentence_239",
+        "sentence_240"
+      ]
+    },
+    {
+      "entity": "anonymous_young_man",
+      "section": "resident-patient-section_6",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_196",
+        "sentence_197",
+        "sentence_198",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_208",
+        "sentence_240"
+      ]
+    },
+    {
+      "entity": "consulting_room",
+      "section": "resident-patient-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_220"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_7",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_246",
+        "sentence_248",
+        "sentence_249",
+        "sentence_251",
+        "sentence_252",
+        "sentence_259",
+        "sentence_277",
+        "sentence_279",
+        "sentence_285",
+        "sentence_286"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_7",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_242",
+        "sentence_244",
+        "sentence_256",
+        "sentence_257",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_267",
+        "sentence_278"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_242",
+        "sentence_254",
+        "sentence_256",
+        "sentence_262",
+        "sentence_264",
+        "sentence_266"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_7",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_255",
+        "sentence_257",
+        "sentence_259",
+        "sentence_269",
+        "sentence_273",
+        "sentence_277",
+        "sentence_279",
+        "sentence_281",
+        "sentence_285"
+      ]
+    },
+    {
+      "entity": "brook_street",
+      "section": "resident-patient-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_260",
+        "sentence_265",
+        "sentence_272"
+      ]
+    },
+    {
+      "entity": "brougham",
+      "section": "resident-patient-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_263"
+      ]
+    },
+    {
+      "entity": "anonymous_russian_nobleman",
+      "section": "resident-patient-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "anonymous_young_man",
+      "section": "resident-patient-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_255",
+        "sentence_258",
+        "sentence_259"
+      ]
+    },
+    {
+      "entity": "anonymous_page",
+      "section": "resident-patient-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_8",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_288",
+        "sentence_289",
+        "sentence_290",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_301",
+        "sentence_310",
+        "sentence_315",
+        "sentence_317",
+        "sentence_319",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326",
+        "sentence_329",
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_338",
+        "sentence_339",
+        "sentence_341"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_308",
+        "sentence_341"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_296",
+        "sentence_341"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_8",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_292",
+        "sentence_293",
+        "sentence_294",
+        "sentence_295",
+        "sentence_341"
+      ]
+    },
+    {
+      "entity": "lanner",
+      "section": "resident-patient-section_8",
+      "mention_count": 32,
+      "sentence_ids": [
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_307",
+        "sentence_308",
+        "sentence_310",
+        "sentence_311",
+        "sentence_313",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_323",
+        "sentence_325",
+        "sentence_326",
+        "sentence_327",
+        "sentence_328",
+        "sentence_330",
+        "sentence_331",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340",
+        "sentence_341"
+      ]
+    },
+    {
+      "entity": "rope",
+      "section": "resident-patient-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_342",
+        "sentence_344",
+        "sentence_345"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_344",
+        "sentence_345",
+        "sentence_356"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_9",
+      "mention_count": 27,
+      "sentence_ids": [
+        "sentence_346",
+        "sentence_347",
+        "sentence_348",
+        "sentence_351",
+        "sentence_353",
+        "sentence_355",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359",
+        "sentence_362",
+        "sentence_363",
+        "sentence_366",
+        "sentence_367",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376",
+        "sentence_377",
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381",
+        "sentence_382",
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_9",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_348",
+        "sentence_352",
+        "sentence_353",
+        "sentence_364",
+        "sentence_367",
+        "sentence_368",
+        "sentence_370",
+        "sentence_376",
+        "sentence_377"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_9",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_345",
+        "sentence_349",
+        "sentence_350",
+        "sentence_355",
+        "sentence_356",
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "inspector",
+      "section": "resident-patient-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_355",
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "page",
+      "section": "resident-patient-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_355",
+        "sentence_356",
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "anonymous_young_man",
+      "section": "resident-patient-section_9",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_352",
+        "sentence_353",
+        "sentence_359",
+        "sentence_364",
+        "sentence_367",
+        "sentence_374",
+        "sentence_377",
+        "sentence_378",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "anonymous_russian_nobleman",
+      "section": "resident-patient-section_9",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_353",
+        "sentence_359",
+        "sentence_364",
+        "sentence_367",
+        "sentence_373",
+        "sentence_377",
+        "sentence_378",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "maid",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_356"
+      ]
+    },
+    {
+      "entity": "cook",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_356"
+      ]
+    },
+    {
+      "entity": "cigars",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_372"
+      ]
+    },
+    {
+      "entity": "cigar_holder",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_373"
+      ]
+    },
+    {
+      "entity": "screw_driver",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_379"
+      ]
+    },
+    {
+      "entity": "screws",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_379"
+      ]
+    },
+    {
+      "entity": "hook",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_380"
+      ]
+    },
+    {
+      "entity": "block_or_pulley",
+      "section": "resident-patient-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_378",
+        "sentence_379"
+      ]
+    },
+    {
+      "entity": "baker_street",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "resident-patient-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_355",
+        "sentence_383"
+      ]
+    },
+    {
+      "entity": "room",
+      "section": "resident-patient-section_9",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_364",
+        "sentence_367",
+        "sentence_370",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "house",
+      "section": "resident-patient-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_354",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "stairs",
+      "section": "resident-patient-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_345",
+        "sentence_359",
+        "sentence_364"
+      ]
+    },
+    {
+      "entity": "window",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_345"
+      ]
+    },
+    {
+      "entity": "mantelpiece",
+      "section": "resident-patient-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_348"
+      ]
+    },
+    {
+      "entity": "bed",
+      "section": "resident-patient-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_344",
+        "sentence_367",
+        "sentence_376"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "resident-patient-section_10",
+      "mention_count": 16,
+      "sentence_ids": [
+        "sentence_386",
+        "sentence_387",
+        "sentence_390",
+        "sentence_391",
+        "sentence_393",
+        "sentence_394",
+        "sentence_397",
+        "sentence_399",
+        "sentence_402",
+        "sentence_407",
+        "sentence_411",
+        "sentence_413",
+        "sentence_415",
+        "sentence_417",
+        "sentence_419",
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "resident-patient-section_10",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_386",
+        "sentence_392",
+        "sentence_401"
+      ]
+    },
+    {
+      "entity": "percy_trevelyan",
+      "section": "resident-patient-section_10",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_386",
+        "sentence_387",
+        "sentence_412"
+      ]
+    },
+    {
+      "entity": "doctor",
+      "section": "resident-patient-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_385",
+        "sentence_386",
+        "sentence_412",
+        "sentence_416",
+        "sentence_420"
+      ]
+    },
+    {
+      "entity": "inspector",
+      "section": "resident-patient-section_10",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_385",
+        "sentence_386",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_396",
+        "sentence_400",
+        "sentence_411",
+        "sentence_419"
+      ]
+    },
+    {
+      "entity": "blessington",
+      "section": "resident-patient-section_10",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_394",
+        "sentence_398",
+        "sentence_407",
+        "sentence_417"
+      ]
+    },
+    {
+      "entity": "worthingdon_bank_gang",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_396",
+        "sentence_403"
+      ]
+    },
+    {
+      "entity": "biddle",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_395",
+        "sentence_421"
+      ]
+    },
+    {
+      "entity": "hayward",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_395",
+        "sentence_421"
+      ]
+    },
+    {
+      "entity": "moffat",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_395",
+        "sentence_421"
+      ]
+    },
+    {
+      "entity": "cartwright",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_403",
+        "sentence_408"
+      ]
+    },
+    {
+      "entity": "tobin",
+      "section": "resident-patient-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_404"
+      ]
+    },
+    {
+      "entity": "norah_creina",
+      "section": "resident-patient-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_421"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "resident-patient-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_421",
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "page",
+      "section": "resident-patient-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_422"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "medical_instruments",
+      "case": "story_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_1",
+      "significance": "Holmes inferred the visitor was a general practitioner and recently established in practice from the nature and state of the medical instruments in the wicker basket.",
+      "source_nodes": [
+        "sentence_25"
+      ]
+    },
+    {
+      "object": "anonymous_young_man",
+      "case": "resident_patient_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_7",
+      "significance": "Holmes inferred the young man's individuality from the stair-carpet prints and from the square-toed, longer shoes that differed from Blessington's and the doctor's.",
+      "source_nodes": [
+        "sentence_257",
+        "sentence_258",
+        "sentence_259"
+      ]
+    },
+    {
+      "object": "medical_instruments",
+      "case": "resident_patient_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_8",
+      "significance": "Holmes inferred that the scene included signs of deliberate staging from the cigar-ends, the cigar-case, the locked door, and the body position.",
+      "source_nodes": [
+        "sentence_311",
+        "sentence_313",
+        "sentence_315",
+        "sentence_318",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_339",
+        "sentence_340",
+        "sentence_341"
+      ]
+    },
+    {
+      "object": "photograph_of_blessington",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that the photograph of Blessington would help in his inquiries after taking it from the mantelpiece.",
+      "source_nodes": [
+        "sentence_348"
+      ]
+    },
+    {
+      "object": "wire",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that a wire had been used to force the key round on the locked door.",
+      "source_nodes": [
+        "sentence_365",
+        "sentence_366"
+      ]
+    },
+    {
+      "object": "cigars",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that a consultation lasted some time from the cigars being smoked.",
+      "source_nodes": [
+        "sentence_372"
+      ]
+    },
+    {
+      "object": "cigar_holder",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that the older man used the cigar-holder from the traces in the room.",
+      "source_nodes": [
+        "sentence_373"
+      ]
+    },
+    {
+      "object": "screw_driver",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that a screw-driver was used for fixing the gallows structure.",
+      "source_nodes": [
+        "sentence_379"
+      ]
+    },
+    {
+      "object": "screws",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that the screws were used for fixing the gallows structure.",
+      "source_nodes": [
+        "sentence_379"
+      ]
+    },
+    {
+      "object": "hook",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that the men saved themselves trouble by using the hook instead of setting up the gallows.",
+      "source_nodes": [
+        "sentence_380"
+      ]
+    },
+    {
+      "object": "block_or_pulley",
+      "case": "case_resident_patient",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "resident-patient-section_9",
+      "significance": "Holmes inferred that the men brought a block or pulley to serve as a gallows from the arrangement in the room.",
+      "source_nodes": [
+        "sentence_378"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "percy_trevelyan",
+      "organisation": "london_university"
+    },
+    {
+      "character": "page",
+      "organisation": "scotland_yard"
+    },
+    {
+      "character": "biddle",
+      "organisation": "worthingdon_bank_gang"
+    },
+    {
+      "character": "hayward",
+      "organisation": "worthingdon_bank_gang"
+    },
+    {
+      "character": "moffat",
+      "organisation": "worthingdon_bank_gang"
+    },
+    {
+      "character": "cartwright",
+      "organisation": "worthingdon_bank_gang"
+    }
+  ]
+}

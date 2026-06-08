@@ -1,0 +1,3008 @@
+{
+  "entities": [
+    {
+      "id": "case_gloria_scott",
+      "type": "case",
+      "label": "Extraordinary case of the Gloria Scott",
+      "description": "A case involving the documents and message about the supply of game for London.",
+      "firstSection": "gloria-scott-section_1",
+      "source": "gloria-scott-section_1",
+      "client": "sherlock_holmes",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "langmere_broads"
+    },
+    {
+      "id": "doc_gloria_scott_message",
+      "type": "document",
+      "label": "Short note on slate-grey paper (from a tarnished cylinder)",
+      "description": "A short note scrawled on a half-sheet of slate-grey paper containing a message about the supply of game for London and instructions to Head-keeper Hudson.",
+      "firstSection": "gloria-scott-section_1",
+      "document_type": "note",
+      "from": "unknown",
+      "to": "justice_of_the_peace_trevor",
+      "content_summary": "Claims that the supply of game for London is going steadily up, and that Head-keeper Hudson has been told to receive all orders for fly-paper and to preserve a hen-pheasant's life."
+    },
+    {
+      "id": "hudson_head_keeper",
+      "type": "character",
+      "label": "Head-keeper Hudson",
+      "description": "A head-keeper at the place referenced in the message, instructed regarding orders for fly-paper and preservation of a hen-pheasant's life.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "justice_of_the_peace_trevor",
+      "type": "character",
+      "label": "Justice of the Peace Trevor",
+      "description": "A justice of the peace who reads the message and is knocked down by it.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "A friend and detective who presents documents and speaks with Watson.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "The narrator (Watson) who glances over documents and is later urged to return.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "victor_trevor",
+      "type": "character",
+      "label": "Victor Trevor",
+      "description": "A man described as Holmes's college friend, son of Trevor senior.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "trevor_senior",
+      "type": "character",
+      "label": "Trevor senior (the governor)",
+      "description": "Victor Trevor's father and a widower and J.P., whose death/deterioration is later described as resulting from Hudson's actions.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "hudson_seaman",
+      "type": "character",
+      "label": "Hudson (the sailor/seaman)",
+      "description": "A sailor who visits the Trevor household, is later blamed for the father's decline, and is described in clothing and manner.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "beddoes",
+      "type": "character",
+      "label": "Mr. Beddoes",
+      "description": "A person referenced as a place/employer for Hudson and as a recipient Hudson intends to go to.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "trevor_daughter",
+      "type": "character",
+      "label": "Trevor's daughter",
+      "description": "A daughter of Trevor senior mentioned as having died of diphtheria.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "sir_edward_holly",
+      "type": "character",
+      "label": "Sir Edward Holly",
+      "description": "Referenced as having been attacked after poaching gang actions.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "donnithorpe",
+      "type": "location",
+      "label": "Donnithorpe, Norfolk",
+      "description": "A hamlet/location where Holmes stays as Victor Trevor's guest and where the house and lawn are described.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "langmere_broads",
+      "type": "location",
+      "label": "Langmere (the Broads region)",
+      "description": "A reference point for Donnithorpe and a region across which the view is described.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "birmingham",
+      "type": "location",
+      "label": "Birmingham",
+      "description": "A city where Trevor's daughter died of diphtheria while on a visit.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "london",
+      "type": "location",
+      "label": "London",
+      "description": "Referenced as the destination of the game supply.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "new_zealand",
+      "type": "location",
+      "label": "New Zealand",
+      "description": "A place Victor Trevor is said to have visited.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "japan",
+      "type": "location",
+      "label": "Japan",
+      "description": "A place Victor Trevor is said to have visited.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "billiard_room",
+      "type": "location",
+      "label": "Billiard-room",
+      "description": "A room in Trevor's house where Holmes invites Victor to come for a cigar.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "dining_room_sofa",
+      "type": "location",
+      "label": "Dining-room sofa",
+      "description": "Where the narrator and Holmes find Trevor stretched dead drunk.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "kitchen",
+      "type": "location",
+      "label": "Kitchen",
+      "description": "A place Hudson is sent to get food and drink.",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "stick_with_inscription_and_bored_head_filled_with_melted_lead",
+      "type": "object",
+      "label": "stick with inscription and bored head filled with melted lead",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "fishing_arm_with_tattoo_initials_J_A_in_its_bend",
+      "type": "object",
+      "label": "fishing arm with tattoo initials J A in its bend",
+      "firstSection": "gloria-scott-section_1"
+    },
+    {
+      "id": "org_japanese_cabinet",
+      "type": "organisation",
+      "label": "Japanese cabinet (as a storage location)",
+      "description": "Cabinet referenced as containing papers, treated here as a named storage entity for state-change relationships.",
+      "firstSection": "gloria-scott-section_2",
+      "org_type": "other"
+    },
+    {
+      "id": "fishings_arm_with_tattoo_initials_J_A_in_its_bend",
+      "type": "object",
+      "label": "fishings arm with tattoo initials J A in its bend",
+      "firstSection": "gloria-scott-section_2"
+    },
+    {
+      "id": "warning_note_cipher_text",
+      "type": "object",
+      "label": "warning note cipher text",
+      "firstSection": "gloria-scott-section_3"
+    },
+    {
+      "id": "narrator",
+      "type": "character",
+      "label": "narrator",
+      "firstSection": "gloria-scott-section_3"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes presents documents and a message to Watson at a winter night by the fire",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_3",
+        "sentence_4"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I have some papers here, which I really think, Watson, that it would be worth your while to glance over."
+      }
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes produces a tarnished cylinder from a drawer and undoes tape",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_5"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "unknown_cylinder"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes hands Watson a short note scrawled on a half-sheet of slate-grey paper",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_5"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "doc_gloria_scott_message"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "The message is read by Justice of the Peace Trevor",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "justice_of_the_peace_trevor",
+        "doc_gloria_scott_message"
+      ]
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Justice of the Peace Trevor is knocked down after reading the message",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "justice_of_the_peace_trevor",
+        "doc_gloria_scott_message"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Watson reads the enigmatical message and Holmes chuckles",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_8"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "doc_gloria_scott_message"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes tells Watson he looks bewildered",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You look a little bewildered"
+      }
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Watson asks Holmes why he said there were particular reasons to study the case",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_15"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "But why did you say just now that there were very particular reasons why I should study this case?"
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes replies that it was the first case he was engaged in",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Because it was the first in which I was ever engaged."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes asks Watson whether he has heard of Victor Trevor",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_21"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You never heard me talk of Victor Trevor?"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Watson is described as being a guest of Victor Trevor for a month during the long vacation",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_30"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "donnithorpe"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes describes that Trevor senior receives port and young Trevor begins discussing habits of observation and inference",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_44"
+      ],
+      "participants": [
+        "trevor_senior",
+        "victor_trevor",
+        "sherlock_holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Trevor senior tells Holmes that he can deduce something from him",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_46",
+        "sentence_47"
+      ],
+      "participants": [
+        "trevor_senior",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I'm an excellent subject, if you can deduce anything from me."
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Trevor senior says that after breaking up a poaching gang, they swore to knife them and Sir Edward Holly was attacked",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_51",
+        "sentence_52"
+      ],
+      "participants": [
+        "trevor_senior",
+        "victor_trevor",
+        "sherlock_holmes",
+        "sir_edward_holly"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "victor_trevor",
+          "sherlock_holmes"
+        ],
+        "content": "when we broke up that poaching gang, they swore to knife us, and Sir Edward Holly has actually been attacked. I've always been on my guard since then, though I have no idea how you know it."
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Sailor Hudson is introduced to Mr. Trevor at the door after a maid announces a visitor",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_107",
+        "sentence_113",
+        "sentence_116"
+      ],
+      "participants": [
+        "victor_trevor",
+        "hudson_seaman",
+        "watson",
+        "trevor_senior"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Victor Trevor runs into the house after seeing the sailor Hudson on the lawn",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_116"
+      ],
+      "participants": [
+        "victor_trevor",
+        "hudson_seaman",
+        "donnithorpe"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Victor Trevor orders Hudson to go to the kitchen for food and drink and says he will find him a situation",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_128",
+        "sentence_129"
+      ],
+      "participants": [
+        "victor_trevor",
+        "hudson_seaman",
+        "kitchen"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "hudson_seaman"
+        ],
+        "content": "Go into the kitchen, and you will get food and drink. I have no doubt that I shall find you a situation."
+      }
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Hudson tells Trevor he wants a rest and mentions being off a two-yearer in an eight-knot tramp, short-handed",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_131",
+        "sentence_132"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "victor_trevor"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ],
+      "communicates": {
+        "speaker": "hudson_seaman",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "I'm just off a two-yearer in an eight-knot tramp, short-handed at that, and I wants a rest. I thought I'd get it either with Mr. Beddoes or with you."
+      }
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Hudson slouches off after being told to go for friends",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_135"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "watson",
+        "victor_trevor",
+        "kitchen"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ]
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Trevor is found dead drunk on the dining-room sofa an hour later",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_137"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "sherlock_holmes",
+        "dining_room_sofa"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Watson receives a telegram urging him to return to Donnithorpe",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_141"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Watson returns to Donnithorpe once more after the telegram",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_142"
+      ],
+      "participants": [
+        "watson",
+        "donnithorpe"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Victor Trevor meets Watson at the station by dog-cart",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_143"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "donnithorpe"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Victor Trevor tells Watson that the governor is dying of apoplexy and nervous shock",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_145",
+        "sentence_148",
+        "sentence_149"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "trevor_senior"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The governor is dying. Apoplexy. Nervous shock, He's been on the verge all day. I doubt if we shall find him alive."
+      }
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Victor Trevor says the devil himself is responsible and blames accursed Hudson for all trouble",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_160",
+        "sentence_163",
+        "sentence_164"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "hudson_seaman",
+        "trevor_senior",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It was the devil, Holmes. Yes, it was the devil himself. We have not had a peaceful hour since—not one. The governor has never held up his head from that evening, and now the life has been crushed out of him and his heart broken, all through this accursed Hudson."
+      }
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "Victor Trevor describes Hudson's role in his house, including being intrustive, receiving complaints, and taking the boat and best gun",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_172",
+        "sentence_176"
+      ],
+      "participants": [
+        "victor_trevor",
+        "hudson_seaman",
+        "trevor_senior"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "Victor Trevor turns Hudson out of the room by the shoulders after an insolent reply",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_179",
+        "sentence_180"
+      ],
+      "participants": [
+        "victor_trevor",
+        "hudson_seaman",
+        "trevor_senior"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_1_28",
+      "type": "event",
+      "label": "Trevor senior asks Victor Trevor to apologize to Hudson",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_181"
+      ],
+      "participants": [
+        "trevor_senior",
+        "victor_trevor",
+        "hudson_seaman"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "asked me whether I would mind apologising to Hudson."
+      }
+    },
+    {
+      "id": "event_1_29",
+      "type": "event",
+      "label": "Victor Trevor refuses to apologize to Hudson and asks his father how Hudson is allowed such liberties",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_182"
+      ],
+      "participants": [
+        "victor_trevor",
+        "trevor_senior",
+        "hudson_seaman"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "trevor_senior"
+        ],
+        "content": "I refused, as you can imagine, and asked my father how he could allow such a wretch to take such liberties with himself and his household."
+      }
+    },
+    {
+      "id": "event_1_30",
+      "type": "event",
+      "label": "Trevor senior tells Victor he will let him know harm that may come to his father and promises to see he knows",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_183",
+        "sentence_185"
+      ],
+      "participants": [
+        "trevor_senior",
+        "victor_trevor"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "it is all very well to talk, but you don't know how I am placed. But you shall know, Victor. I'll see that you shall know, come what may."
+      }
+    },
+    {
+      "id": "event_1_31",
+      "type": "event",
+      "label": "Hudson announces his intention to leave and run down to Mr. Beddoes",
+      "section": "gloria-scott-section_1",
+      "source_nodes": [
+        "sentence_188",
+        "sentence_190",
+        "sentence_191",
+        "sentence_192"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "victor_trevor",
+        "trevor_senior",
+        "beddoes"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ],
+      "communicates": {
+        "speaker": "hudson_seaman",
+        "recipients": [
+          "victor_trevor",
+          "trevor_senior"
+        ],
+        "content": "I've had enough of Norfolk. I'll run down to Mr. Beddoes in Hampshire. He'll be as glad to see me as you were, I daresay."
+      }
+    },
+    {
+      "id": "event_2_193",
+      "type": "event",
+      "label": "Trevor senior urges Hudson to not go away with an unkind spirit",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_193"
+      ],
+      "participants": [
+        "trevor_senior",
+        "hudson_seaman",
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "hudson_seaman"
+        ],
+        "content": "You're not going away in an unkind spirit, Hudson, I hope"
+      }
+    },
+    {
+      "id": "event_2_194",
+      "type": "event",
+      "label": "Trevor senior claims he has not had his 'pology from Hudson",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "trevor_senior",
+        "hudson_seaman",
+        "victor_trevor"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "hudson_seaman"
+        ],
+        "content": "I've not had my 'pology"
+      }
+    },
+    {
+      "id": "event_2_195",
+      "type": "event",
+      "label": "Trevor senior tells Victor Trevor to acknowledge using Hudson roughly",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_195"
+      ],
+      "participants": [
+        "trevor_senior",
+        "victor_trevor",
+        "hudson_seaman"
+      ],
+      "performs": [
+        "trevor_senior"
+      ],
+      "communicates": {
+        "speaker": "trevor_senior",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "Victor, you will acknowledge that you have used this worthy fellow rather roughly"
+      }
+    },
+    {
+      "id": "event_2_196",
+      "type": "event",
+      "label": "Victor Trevor replies that they have shown extraordinary patience",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_196"
+      ],
+      "participants": [
+        "victor_trevor",
+        "trevor_senior",
+        "hudson_seaman"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "trevor_senior"
+        ],
+        "content": "On the contrary, I think that we have both shown extraordinary patience towards him"
+      }
+    },
+    {
+      "id": "event_2_198",
+      "type": "event",
+      "label": "Hudson seaman snarls",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_198"
+      ],
+      "participants": [
+        "hudson_seaman"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ]
+    },
+    {
+      "id": "event_2_201",
+      "type": "event",
+      "label": "Hudson seaman slouches out of the room and leaves the house",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_201"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "trevor_senior",
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ]
+    },
+    {
+      "id": "event_2_202",
+      "type": "event",
+      "label": "Trevor senior paces his room at night",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_202"
+      ],
+      "participants": [
+        "trevor_senior"
+      ],
+      "performs": [
+        "trevor_senior"
+      ]
+    },
+    {
+      "id": "event_2_206",
+      "type": "event",
+      "label": "A letter arrives for Trevor senior",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_206"
+      ],
+      "participants": [
+        "trevor_senior"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": ""
+      }
+    },
+    {
+      "id": "event_2_207",
+      "type": "event",
+      "label": "Trevor senior reads the letter, claps hands to head, and runs in circles",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_207"
+      ],
+      "participants": [
+        "trevor_senior"
+      ],
+      "performs": [
+        "trevor_senior"
+      ]
+    },
+    {
+      "id": "event_2_208",
+      "type": "event",
+      "label": "Victor Trevor observes Trevor senior has a stroke",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_208"
+      ],
+      "participants": [
+        "victor_trevor",
+        "trevor_senior"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_2_209",
+      "type": "event",
+      "label": "Dr. Fordham comes over",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_209"
+      ],
+      "participants": [
+        "doc_gloria_scott_message",
+        "trevor_senior"
+      ],
+      "performs": [
+        "doc_gloria_scott_message"
+      ]
+    },
+    {
+      "id": "event_2_210",
+      "type": "event",
+      "label": "Victor Trevor says Trevor senior is put to bed with paralysis spreading and no return of consciousness",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_210"
+      ],
+      "participants": [
+        "victor_trevor",
+        "trevor_senior"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "We put him to bed; but the paralysis has spread, he has shown no sign of returning consciousness, and I think that we shall hardly find him alive"
+      }
+    },
+    {
+      "id": "event_2_211",
+      "type": "event",
+      "label": "Watson cries out asking what was in the letter",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_211",
+        "sentence_212"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "What then could have been in this letter to cause so dreadful a result?"
+      }
+    },
+    {
+      "id": "event_2_213",
+      "type": "event",
+      "label": "Victor Trevor states there is nothing but the inexplicable part of the letter",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_213",
+        "sentence_214",
+        "sentence_215"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Nothing. There lies the inexplicable part of it. The message was absurd and trivial."
+      }
+    },
+    {
+      "id": "event_2_217",
+      "type": "event",
+      "label": "Trevor senior's household blinds are drawn down as Victor Trevor and Watson come around the avenue",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_217"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_218",
+      "type": "event",
+      "label": "A gentleman in black emerges as Trevor senior's friend’s face convulses with grief",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_218"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "trevor_senior"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_221",
+      "type": "event",
+      "label": "Victor Trevor asks when it happened",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_219",
+        "sentence_220",
+        "sentence_221"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "Almost immediately after you left."
+      }
+    },
+    {
+      "id": "event_2_222",
+      "type": "event",
+      "label": "Victor Trevor asks whether Trevor senior recovered consciousness",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_222"
+      ],
+      "participants": [
+        "victor_trevor"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Did he recover consciousness?"
+      }
+    },
+    {
+      "id": "event_2_223",
+      "type": "event",
+      "label": "Watson replies that consciousness returned for an instant before the end",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_223"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "For an instant before the end."
+      }
+    },
+    {
+      "id": "event_2_224",
+      "type": "event",
+      "label": "Victor Trevor asks if there was any message for him",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_224"
+      ],
+      "participants": [
+        "victor_trevor"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Any message for me?"
+      }
+    },
+    {
+      "id": "event_2_225",
+      "type": "event",
+      "label": "Watson reports the only message: papers in the back drawer of the Japanese cabinet",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_225"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "org_japanese_cabinet"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "Only that the papers were in the back drawer of the Japanese cabinet."
+      }
+    },
+    {
+      "id": "event_2_226",
+      "type": "event",
+      "label": "Victor Trevor and the doctor go upstairs to the chamber of death while Watson stays in the study",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_226"
+      ],
+      "participants": [
+        "victor_trevor",
+        "trevor_senior",
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_235",
+      "type": "event",
+      "label": "Watson decides to see the letter",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_235"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_237",
+      "type": "event",
+      "label": "A weeping maid brings a lamp and Trevor brings papers to Watson in the room",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_237"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "trevor_senior"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_2_238",
+      "type": "event",
+      "label": "Trevor sits opposite Watson, draws the lamp, and hands over a short note on a grey sheet",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_238"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "doc_gloria_scott_message"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_2_239",
+      "type": "event",
+      "label": "Trevor reads a note stating supply of game for London is going steadily up",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_239"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The supply of game for London is going steadily up,"
+      }
+    },
+    {
+      "id": "event_2_240",
+      "type": "event",
+      "label": "Trevor reads a note stating Head-keeper Hudson has been told to receive orders for fly paper and preservation of a hen pheasant's life",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_240"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson",
+        "hudson_head_keeper"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Head-keeper Hudson, we believe, has been now told to receive all orders for fly paper and for preservation of your hen pheasant's life."
+      }
+    },
+    {
+      "id": "event_2_250",
+      "type": "event",
+      "label": "Watson reads the warning that the game is up, Hudson has told all, and Fly for your life",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "The game is up. Hudson has told all. Fly for your life."
+      }
+    },
+    {
+      "id": "event_2_254",
+      "type": "event",
+      "label": "Victor Trevor sinks his face into his shaking hands",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_254"
+      ],
+      "participants": [
+        "victor_trevor"
+      ],
+      "performs": [
+        "victor_trevor"
+      ]
+    },
+    {
+      "id": "event_2_270",
+      "type": "event",
+      "label": "Watson obtains papers drawn up by Trevor senior and prepared to be read",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_270",
+        "sentence_271",
+        "sentence_272"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "trevor_senior",
+        "org_japanese_cabinet"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_2_273",
+      "type": "event",
+      "label": "Victor Trevor instructs Watson to take the papers and read them to him",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_272",
+        "sentence_273"
+      ],
+      "participants": [
+        "victor_trevor",
+        "watson"
+      ],
+      "performs": [
+        "victor_trevor"
+      ],
+      "communicates": {
+        "speaker": "victor_trevor",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Here is the statement... I found it in the Japanese cabinet, as he told the doctor. Take it and read it to me, for I have neither the strength nor the courage to do it myself."
+      }
+    },
+    {
+      "id": "event_2_279",
+      "type": "event",
+      "label": "The endorsed papers are described as a letter about the bark Gloria Scott voyage and destruction",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_279"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_280",
+      "type": "event",
+      "label": "Endorsed letter begins addressing the son about approaching disgrace and urges honesty",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_280"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "My dear, dear son,—Now that approaching disgrace begins to darken the closing years of my life, I can write with all truth and honesty..."
+      }
+    },
+    {
+      "id": "event_2_286",
+      "type": "event",
+      "label": "Endorsed letter states the author's name is James Armitage",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_286"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "My name, dear lad, is not Trevor."
+      }
+    },
+    {
+      "id": "event_2_288",
+      "type": "event",
+      "label": "Endorsed letter states James Armitage entered a London banking house, was convicted, and sentenced to transportation",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_288"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "london"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "As Armitage I was convicted of breaking my country's laws, and was sentenced to transportation."
+      }
+    },
+    {
+      "id": "event_2_293",
+      "type": "event",
+      "label": "Endorsed letter states the author was chained as a felon on the barque Gloria Scott bound for Australia",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_293"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "On my twenty-third birthday I found myself chained as a felon with thirty-seven other convicts in 'tween-decks of the barque Gloria Scott, bound for Australia."
+      }
+    },
+    {
+      "id": "event_2_298",
+      "type": "event",
+      "label": "Endorsed letter states the ship set sail from Falmouth with nearly a hundred souls",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_298"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "falmouth"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "Nearly a hundred souls were in her, all told, when we set sail from Falmouth."
+      }
+    },
+    {
+      "id": "event_2_306",
+      "type": "event",
+      "label": "Endorsed letter states the author finds a neighbor cut an opening in the board",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_306"
+      ],
+      "participants": [
+        "watson",
+        "jack_prendergast",
+        "jail_cell_board"
+      ],
+      "performs": [
+        "jack_prendergast"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "victor_trevor"
+        ],
+        "content": "found that he had managed to cut an opening in the board which separated us."
+      }
+    },
+    {
+      "id": "event_2_310",
+      "type": "event",
+      "label": "Endorsed letter has the neighbor introduce himself as Jack Prendergast and threaten future blessing",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_310",
+        "sentence_311"
+      ],
+      "participants": [
+        "watson",
+        "victor_trevor",
+        "jack_prendergast"
+      ],
+      "performs": [
+        "jack_prendergast"
+      ],
+      "communicates": {
+        "speaker": "jack_prendergast",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I'm Jack Prendergast... You'll learn to bless my name before you've done with me."
+      }
+    },
+    {
+      "id": "event_2_371",
+      "type": "event",
+      "label": "Endorsed letter states an explosion occurs in the captain's cabin and the chaplain stands with a smoking pistol while the crew seize mates",
+      "section": "gloria-scott-section_2",
+      "source_nodes": [
+        "sentence_370",
+        "sentence_371"
+      ],
+      "participants": [
+        "watson",
+        "trevor_senior",
+        "hudson_head_keeper"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_373",
+      "type": "event",
+      "label": "Wilson knocks a locker and pulls out brown sherry",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_373"
+      ],
+      "participants": [
+        "wilson",
+        "locker",
+        "brown_sherry"
+      ],
+      "performs": [
+        "wilson"
+      ]
+    },
+    {
+      "id": "event_3_374",
+      "type": "event",
+      "label": "Brown sherry is poured into tumblers",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "brown_sherry",
+        "bottles",
+        "tumblers"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_374_2",
+      "type": "event",
+      "label": "Muskets fire and smoke fills the saloon",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "saloon",
+        "smoke",
+        "muskets",
+        "shooter_group"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_375",
+      "type": "event",
+      "label": "The saloon is left as a shambles after the smoke clears",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_375"
+      ],
+      "participants": [
+        "saloon"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_376",
+      "type": "event",
+      "label": "Wilson and eight others are wriggling on the floor, with blood and brown sherry on the table",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_376"
+      ],
+      "participants": [
+        "wilson",
+        "others_group_8",
+        "floor",
+        "blood",
+        "brown_sherry",
+        "table"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_378",
+      "type": "event",
+      "label": "Prendergast bellows and rushes for the door with those left alive",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_378"
+      ],
+      "participants": [
+        "prendergast",
+        "door",
+        "left_alive_group"
+      ],
+      "performs": [
+        "prendergast"
+      ]
+    },
+    {
+      "id": "event_3_379",
+      "type": "event",
+      "label": "The fleeing group runs out onto the poop where the lieutenant and ten of his men are found",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_379"
+      ],
+      "participants": [
+        "fleeing_group",
+        "poop",
+        "lieutenant",
+        "ten_men_group"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_380",
+      "type": "event",
+      "label": "Swing skylights above the saloon table are open and fire through the slit",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_380"
+      ],
+      "participants": [
+        "swing_skylights",
+        "saloon_table",
+        "slit",
+        "attack_fire_group"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_381",
+      "type": "event",
+      "label": "The group gets on the attackers before they load, and the fight ends in five minutes",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_381"
+      ],
+      "participants": [
+        "attackers_group",
+        "defenders_group",
+        "fight_outcome"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_384",
+      "type": "event",
+      "label": "Prendergast picks up soldiers and throws them overboard alive or dead",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_384"
+      ],
+      "participants": [
+        "prendergast",
+        "soldiers_group",
+        "overboard_area"
+      ],
+      "performs": [
+        "prendergast"
+      ]
+    },
+    {
+      "id": "event_3_385",
+      "type": "event",
+      "label": "A horribly wounded sergeant keeps swimming until someone blows out his brains",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_385"
+      ],
+      "participants": [
+        "sergeant",
+        "killer_unknown",
+        "brains_target"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_386",
+      "type": "event",
+      "label": "After the fighting, only the warders, mates, and the doctor remain from the enemies",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_386"
+      ],
+      "participants": [
+        "enemies_group",
+        "warders_group",
+        "mates_group",
+        "doctor"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_389",
+      "type": "event",
+      "label": "Eight of the group refuse to stand by while men are killed in cold blood",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_390"
+      ],
+      "participants": [
+        "refusing_group_8",
+        "soldiers_group"
+      ],
+      "performs": [
+        "refusing_group_8"
+      ]
+    },
+    {
+      "id": "event_3_392",
+      "type": "event",
+      "label": "Prendergast orders a clean job and says he will not leave a tongue able to speak in a witness-box",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_392"
+      ],
+      "participants": [
+        "prendergast",
+        "refusing_group_8"
+      ],
+      "performs": [
+        "prendergast"
+      ],
+      "communicates": {
+        "speaker": "prendergast",
+        "recipients": [
+          "refusing_group_8"
+        ],
+        "content": "Our only chance of safety lay in making a clean job of it, said he, and he would not leave a tongue with power to wag in a witness-box."
+      }
+    },
+    {
+      "id": "event_3_393",
+      "type": "event",
+      "label": "Prendergast says the group may take a boat and go",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_393"
+      ],
+      "participants": [
+        "prendergast",
+        "refusing_group_8",
+        "boat"
+      ],
+      "performs": [
+        "prendergast"
+      ],
+      "communicates": {
+        "speaker": "prendergast",
+        "recipients": [
+          "refusing_group_8"
+        ],
+        "content": "It nearly came to our sharing the fate of the prisoners, but at last he said that if we wished we might take a boat and go."
+      }
+    },
+    {
+      "id": "event_3_395",
+      "type": "event",
+      "label": "The group is given sailors' togs, a barrel of water, two casks, junk, biscuits, and a compass",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_395"
+      ],
+      "participants": [
+        "refusing_group_8",
+        "sailors_togs_set",
+        "barrel_of_water",
+        "two_casks_group",
+        "junk_cask",
+        "biscuits_cask",
+        "compass"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_396",
+      "type": "event",
+      "label": "Prendergast throws a chart to the group and tells them they are shipwrecked mariners whose ship foundered in lat. 15º N.",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_396",
+        "sentence_397",
+        "sentence_398"
+      ],
+      "participants": [
+        "prendergast",
+        "chart",
+        "refusing_group_8"
+      ],
+      "performs": [
+        "prendergast"
+      ],
+      "communicates": {
+        "speaker": "prendergast",
+        "recipients": [
+          "refusing_group_8"
+        ],
+        "content": "Prendergast threw us over a chart, told us that we were shipwrecked mariners whose ship had foundered in lat. 15º N., and then cut the painter and let us go."
+      }
+    },
+    {
+      "id": "event_3_401",
+      "type": "event",
+      "label": "The barque draws slowly away from the boat after the seamen haul the foreyard aback and a light wind from the north and east persists",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_401"
+      ],
+      "participants": [
+        "barque",
+        "seamen_group",
+        "boat",
+        "light_wind_group"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_402",
+      "type": "event",
+      "label": "Evans and the narrator sit in the boat working out their position and planning what coast to make for",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_402"
+      ],
+      "participants": [
+        "evans",
+        "narrator",
+        "boat",
+        "position_tools",
+        "coast_plan"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_405",
+      "type": "event",
+      "label": "A dense black cloud of smoke shoots up from the barque and hangs in the sky line",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_405"
+      ],
+      "participants": [
+        "barque",
+        "smoke_cloud"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_406",
+      "type": "event",
+      "label": "A roar like thunder bursts and the Gloria Scott is no longer visible",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_406"
+      ],
+      "participants": [
+        "roar_event",
+        "gloria_scott",
+        "smoke_cloud"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_407",
+      "type": "event",
+      "label": "The boat’s head is swept around and the group pulls hard toward the haze trailing over the water",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_407"
+      ],
+      "participants": [
+        "boat",
+        "refusing_group_8",
+        "haze_marker",
+        "water"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_409",
+      "type": "event",
+      "label": "A splintered boat and wreck fragments show where the vessel foundered, and a cry for help leads to a man on wreckage",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_409"
+      ],
+      "participants": [
+        "wreck_fragments",
+        "splintered_boat",
+        "waves",
+        "man_hudson",
+        "wreckage_piece",
+        "refusing_group_8"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_410",
+      "type": "event",
+      "label": "The man Hudson is pulled aboard the boat",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_410"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "boat",
+        "refusing_group_8"
+      ],
+      "performs": [
+        "refusing_group_8"
+      ]
+    },
+    {
+      "id": "event_3_411",
+      "type": "event",
+      "label": "Prendergast and his gang proceed to put to death the five remaining prisoners",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_411"
+      ],
+      "participants": [
+        "prendergast",
+        "prendergast_gang",
+        "five_remaining_prisoners"
+      ],
+      "performs": [
+        "prendergast",
+        "prendergast_gang"
+      ]
+    },
+    {
+      "id": "event_3_412",
+      "type": "event",
+      "label": "The two warders and the third mate are shot and thrown overboard",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_412"
+      ],
+      "participants": [
+        "warders_group",
+        "third_mate",
+        "shot_killers_unknown",
+        "overboard_area"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_413",
+      "type": "event",
+      "label": "Prendergast cuts the throat of the surgeon in the 'tween-decks",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_413"
+      ],
+      "participants": [
+        "prendergast",
+        "surgeon",
+        "tween_decks"
+      ],
+      "performs": [
+        "prendergast"
+      ]
+    },
+    {
+      "id": "event_3_415",
+      "type": "event",
+      "label": "The first mate kicks off loosened bonds and plunges into the after-hold",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_415"
+      ],
+      "participants": [
+        "first_mate",
+        "convict_approaching",
+        "after_hold"
+      ],
+      "performs": [
+        "first_mate"
+      ]
+    },
+    {
+      "id": "event_3_416",
+      "type": "event",
+      "label": "Convicts find the first mate with a match-box beside an open powder barrel and he threatens to blow all hands up",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_416"
+      ],
+      "participants": [
+        "convicts_group",
+        "first_mate",
+        "match_box",
+        "powder_barrel",
+        "hands_group"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "first_mate",
+        "recipients": [
+          "convicts_group"
+        ],
+        "content": "swearing that he would blow all hands up if he were in any way molested."
+      }
+    },
+    {
+      "id": "event_3_417",
+      "type": "event",
+      "label": "An explosion occurs near the first mate by the powder barrel",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_417"
+      ],
+      "participants": [
+        "explosion_event",
+        "powder_barrel",
+        "first_mate",
+        "convicts_group"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_420",
+      "type": "event",
+      "label": "Next day the brig Hotspur picks up the survivors",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_420"
+      ],
+      "participants": [
+        "brig_hotspur",
+        "survivors_group",
+        "captain_hotspur"
+      ],
+      "performs": [
+        "brig_hotspur"
+      ]
+    },
+    {
+      "id": "event_3_422",
+      "type": "event",
+      "label": "After landing at Sydney, Evans and the narrator change their names and go to the diggings",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_422"
+      ],
+      "participants": [
+        "evans",
+        "narrator",
+        "sydney",
+        "diggings_crowds"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_426",
+      "type": "event",
+      "label": "In the seaman who comes to them, the narrator recognises the man Hudson",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_426"
+      ],
+      "participants": [
+        "narrator",
+        "hudson_seaman",
+        "seaman_that_comes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_427",
+      "type": "event",
+      "label": "Hudson tracks down the group and sets himself to live upon their fears",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_427"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "narrator",
+        "evans"
+      ],
+      "performs": [
+        "hudson_seaman"
+      ]
+    },
+    {
+      "id": "event_3_428",
+      "type": "event",
+      "label": "The narrator strives to keep peace with Hudson, noting Hudson has gone to another victim with threats",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_428"
+      ],
+      "participants": [
+        "narrator",
+        "hudson_seaman",
+        "other_victim"
+      ],
+      "performs": [
+        "narrator"
+      ]
+    },
+    {
+      "id": "event_3_430",
+      "type": "event",
+      "label": "A shaky hand writes that Beddoes writes in cipher to say Hudson has told all, and asks for mercy on their souls",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_430",
+        "sentence_431"
+      ],
+      "participants": [
+        "warning_note_cipher_text",
+        "beddoes",
+        "hudson_seaman",
+        "souls_prayed_over"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_434",
+      "type": "event",
+      "label": "After the letter of warning is written, neither Beddoes nor Hudson is ever heard of again",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_434",
+        "sentence_435"
+      ],
+      "participants": [
+        "beddoes",
+        "hudson_seaman"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_436",
+      "type": "event",
+      "label": "No complaint is lodged with the police",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_436"
+      ],
+      "participants": [
+        "police",
+        "beddoes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_437",
+      "type": "event",
+      "label": "Hudson is seen lurking about and police believe he has done away with Beddoes and fled",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_437"
+      ],
+      "participants": [
+        "hudson_seaman",
+        "beddoes",
+        "police"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_439",
+      "type": "event",
+      "label": "Beddoes revenges himself on Hudson and flees the country with money",
+      "section": "gloria-scott-section_3",
+      "source_nodes": [
+        "sentence_439"
+      ],
+      "participants": [
+        "beddoes",
+        "hudson_seaman",
+        "money"
+      ],
+      "performs": [
+        "beddoes"
+      ]
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "unknown_cylinder",
+      "to": "drawer",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "doc_gloria_scott_message",
+      "to": "unknown_cylinder",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_2",
+      "valid_until": "event_1_4",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "doc_gloria_scott_message",
+      "to": "justice_of_the_peace_trevor",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_4",
+      "valid_until": "event_2_225",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "doc_gloria_scott_message",
+      "to": "org_japanese_cabinet",
+      "type": "IS_INSIDE",
+      "valid_from": "event_2_225",
+      "caused_by": [
+        "event_2_225"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "doc_gloria_scott_message",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_3",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "watson",
+      "to": "donnithorpe",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_22",
+      "caused_by": [
+        "event_1_22"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "victor_trevor",
+      "to": "dining_room_sofa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_20",
+      "caused_by": [
+        "event_1_20"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "hudson_seaman",
+      "to": "kitchen",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_17",
+      "valid_until": "event_3_410",
+      "caused_by": [
+        "event_1_17"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "hudson_seaman",
+      "to": "boat",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_410",
+      "caused_by": [
+        "event_3_410"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "trevor_senior",
+      "to": "dining_room_sofa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_208",
+      "caused_by": [
+        "event_2_208"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "brown_sherry",
+      "to": "tumblers",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_374",
+      "caused_by": [
+        "event_3_374"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "wilson",
+      "to": "floor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_376",
+      "caused_by": [
+        "event_3_376"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "others_group_8",
+      "to": "floor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_376",
+      "caused_by": [
+        "event_3_376"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "brown_sherry",
+      "to": "table",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_376",
+      "caused_by": [
+        "event_3_376"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "prendergast",
+      "to": "door",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_378",
+      "caused_by": [
+        "event_3_378"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "fleeing_group",
+      "to": "poop",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_379",
+      "caused_by": [
+        "event_3_379"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "first_mate",
+      "to": "after_hold",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_415",
+      "caused_by": [
+        "event_3_415"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "sherlock_holmes",
+      "section": "gloria-scott-section_1",
+      "mention_count": 20,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_8",
+        "sentence_9",
+        "sentence_14",
+        "sentence_16",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_76",
+        "sentence_80",
+        "sentence_82",
+        "sentence_90",
+        "sentence_95",
+        "sentence_98",
+        "sentence_101",
+        "sentence_104",
+        "sentence_105",
+        "sentence_140"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "gloria-scott-section_1",
+      "mention_count": 32,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_8",
+        "sentence_10",
+        "sentence_14",
+        "sentence_15",
+        "sentence_17",
+        "sentence_18",
+        "sentence_22",
+        "sentence_27",
+        "sentence_29",
+        "sentence_30",
+        "sentence_44",
+        "sentence_51",
+        "sentence_52",
+        "sentence_83",
+        "sentence_104",
+        "sentence_105",
+        "sentence_107",
+        "sentence_110",
+        "sentence_113",
+        "sentence_137",
+        "sentence_138",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_160",
+        "sentence_161",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "justice_of_the_peace_trevor",
+      "section": "gloria-scott-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_4",
+        "sentence_13"
+      ]
+    },
+    {
+      "entity": "doc_gloria_scott_message",
+      "section": "gloria-scott-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_4",
+        "sentence_6",
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "hudson_head_keeper",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "victor_trevor",
+      "section": "gloria-scott-section_1",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_15",
+        "sentence_20",
+        "sentence_22",
+        "sentence_25",
+        "sentence_30",
+        "sentence_51",
+        "sentence_107",
+        "sentence_108",
+        "sentence_116",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_156",
+        "sentence_172",
+        "sentence_179",
+        "sentence_181",
+        "sentence_182",
+        "sentence_183",
+        "sentence_184",
+        "sentence_188",
+        "sentence_189",
+        "sentence_190",
+        "sentence_191",
+        "sentence_192",
+        "sentence_102"
+      ]
+    },
+    {
+      "entity": "trevor_senior",
+      "section": "gloria-scott-section_1",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_31",
+        "sentence_32",
+        "sentence_36",
+        "sentence_37",
+        "sentence_43",
+        "sentence_44",
+        "sentence_145",
+        "sentence_162",
+        "sentence_164",
+        "sentence_172",
+        "sentence_181",
+        "sentence_183",
+        "sentence_187",
+        "sentence_188"
+      ]
+    },
+    {
+      "entity": "trevor_daughter",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_37"
+      ]
+    },
+    {
+      "entity": "sir_edward_holly",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_51"
+      ]
+    },
+    {
+      "entity": "hudson_seaman",
+      "section": "gloria-scott-section_1",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_113",
+        "sentence_115",
+        "sentence_116",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_127",
+        "sentence_131",
+        "sentence_135",
+        "sentence_137",
+        "sentence_156",
+        "sentence_160",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164",
+        "sentence_179",
+        "sentence_181",
+        "sentence_188"
+      ]
+    },
+    {
+      "entity": "beddoes",
+      "section": "gloria-scott-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_132",
+        "sentence_191",
+        "sentence_192"
+      ]
+    },
+    {
+      "entity": "donnithorpe",
+      "section": "gloria-scott-section_1",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_30",
+        "sentence_33",
+        "sentence_34",
+        "sentence_107",
+        "sentence_138",
+        "sentence_141",
+        "sentence_142"
+      ]
+    },
+    {
+      "entity": "langmere_broads",
+      "section": "gloria-scott-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_33",
+        "sentence_107",
+        "sentence_170"
+      ]
+    },
+    {
+      "entity": "birmingham",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_37"
+      ]
+    },
+    {
+      "entity": "london",
+      "section": "gloria-scott-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_4"
+      ]
+    },
+    {
+      "entity": "new_zealand",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_69"
+      ]
+    },
+    {
+      "entity": "japan",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_71"
+      ]
+    },
+    {
+      "entity": "billiard_room",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_100"
+      ]
+    },
+    {
+      "entity": "dining_room_sofa",
+      "section": "gloria-scott-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_137"
+      ]
+    },
+    {
+      "entity": "kitchen",
+      "section": "gloria-scott-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_128",
+        "sentence_135"
+      ]
+    },
+    {
+      "entity": "trevor_senior",
+      "section": "gloria-scott-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_207",
+        "sentence_208",
+        "sentence_206",
+        "sentence_210",
+        "sentence_270",
+        "sentence_271"
+      ]
+    },
+    {
+      "entity": "hudson_seaman",
+      "section": "gloria-scott-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_193",
+        "sentence_194",
+        "sentence_201",
+        "sentence_230",
+        "sentence_250",
+        "sentence_252",
+        "sentence_213"
+      ]
+    },
+    {
+      "entity": "victor_trevor",
+      "section": "gloria-scott-section_2",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_195",
+        "sentence_196",
+        "sentence_212",
+        "sentence_209",
+        "sentence_210",
+        "sentence_217",
+        "sentence_222",
+        "sentence_224",
+        "sentence_238",
+        "sentence_250",
+        "sentence_254",
+        "sentence_265",
+        "sentence_268",
+        "sentence_270",
+        "sentence_273"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "gloria-scott-section_2",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_212",
+        "sentence_215",
+        "sentence_217",
+        "sentence_226",
+        "sentence_231",
+        "sentence_235",
+        "sentence_237",
+        "sentence_238",
+        "sentence_241",
+        "sentence_242",
+        "sentence_250",
+        "sentence_273"
+      ]
+    },
+    {
+      "entity": "beddoes",
+      "section": "gloria-scott-section_2",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_247",
+        "sentence_246",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_267"
+      ]
+    },
+    {
+      "entity": "doc_gloria_scott_message",
+      "section": "gloria-scott-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_238",
+        "sentence_239",
+        "sentence_240"
+      ]
+    },
+    {
+      "entity": "hudson_head_keeper",
+      "section": "gloria-scott-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_240",
+        "sentence_252",
+        "sentence_239"
+      ]
+    },
+    {
+      "entity": "hudson_seaman",
+      "section": "gloria-scott-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_410",
+        "sentence_438"
+      ]
+    },
+    {
+      "entity": "beddoes",
+      "section": "gloria-scott-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_412",
+        "sentence_391",
+        "sentence_429",
+        "sentence_434",
+        "sentence_436",
+        "sentence_439"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "gloria-scott-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_432",
+        "sentence_440"
+      ]
+    },
+    {
+      "entity": "justice_of_the_peace_trevor",
+      "section": "gloria-scott-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_400"
+      ]
+    },
+    {
+      "entity": "victor_trevor",
+      "section": "gloria-scott-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_432"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "gloria-scott-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_419"
+      ]
+    },
+    {
+      "entity": "hudson_head_keeper",
+      "section": "gloria-scott-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_427"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "stick_with_inscription_and_bored_head_filled_with_melted_lead",
+      "case": "case_gloria_scott",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "gloria-scott-section_1",
+      "significance": "Holmes inferred that Trevor had feared some personal danger within the last twelve months after observing and describing a stick he said had been bored and filled with melted lead so it could act as a formidable weapon.",
+      "source_nodes": [
+        "sentence_48",
+        "sentence_55",
+        "sentence_56"
+      ]
+    },
+    {
+      "object": "fishing_arm_with_tattoo_initials_J_A_in_its_bend",
+      "case": "case_gloria_scott",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "gloria-scott-section_1",
+      "significance": "Holmes inferred from visible tattoo initials J.A. on Victor Trevor's elbow and attempts to obliterate them that the initials had once been very familiar and Trevor had wished to forget them.",
+      "source_nodes": [
+        "sentence_90",
+        "sentence_93",
+        "sentence_94"
+      ]
+    },
+    {
+      "object": "fishings_arm_with_tattoo_initials_J_A_in_its_bend",
+      "case": "case_gloria_scott",
+      "discovered_by": "watson",
+      "discovered_in_section": "gloria-scott-section_2",
+      "significance": "Watson remembered that Fordingbridge was in Hampshire and that Mr. Beddoes was also mentioned as living in Hampshire, linking the sender possibilities of the letter to Hudson and Beddoes.",
+      "source_nodes": [
+        "sentence_229",
+        "sentence_230"
+      ]
+    },
+    {
+      "object": "warning_note_cipher_text",
+      "case": "case_gloria_scott",
+      "discovered_by": "narrator",
+      "discovered_in_section": "gloria-scott-section_3",
+      "significance": "The narrator presents the note as ciphered writing that says Hudson has told all.",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_430",
+        "sentence_431"
+      ]
+    }
+  ],
+  "memberOf": []
+}

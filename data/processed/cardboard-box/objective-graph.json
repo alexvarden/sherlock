@@ -1,0 +1,5720 @@
+{
+  "entities": [
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective who appears in the story and receives and reads a letter.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Holmes's companion and narrator in the scene.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "letter",
+      "type": "document",
+      "label": "Letter",
+      "description": "A letter received by Holmes by the morning post.",
+      "firstSection": "cardboard-box-section_1",
+      "document_type": "letter",
+      "to": "sherlock_holmes",
+      "content_summary": "Not stated in this section."
+    },
+    {
+      "id": "new_york_story_case",
+      "type": "case",
+      "label": "The Adventure of the Cardboard Box",
+      "description": "The investigation introduced in this section.",
+      "firstSection": "cardboard-box-section_1",
+      "source": "cardboard-box-section_1",
+      "client": "watson",
+      "crime_type": "murder",
+      "outcome": "unresolved"
+    },
+    {
+      "id": "general_gordon",
+      "type": "object",
+      "label": "General Gordon portrait",
+      "description": "A newly framed picture of General Gordon mentioned in Watson's room",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "henry_ward_beecher",
+      "type": "object",
+      "label": "Henry Ward Beecher portrait",
+      "description": "An unframed portrait of Henry Ward Beecher standing on top of the books",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "miss_cushing",
+      "type": "character",
+      "label": "Miss Cushing",
+      "description": "A person to whom a packet was sent through the post",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "cross_street_croydon",
+      "type": "location",
+      "label": "Cross Street, Croydon",
+      "description": "An address in Croydon",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "packet",
+      "type": "object",
+      "label": "packet",
+      "description": "A packet sent through the post to Miss Cushing",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "paper",
+      "type": "document",
+      "label": "paper",
+      "description": "",
+      "firstSection": "cardboard-box-section_2",
+      "document_type": "newspaper",
+      "content_summary": "Contains a short paragraph about the remarkable contents of a packet sent through the post to Miss Cushing of Cross Street, Croydon, headed 'A Gruesome Packet'."
+    },
+    {
+      "id": "a_gruesome_packet",
+      "type": "object",
+      "label": "A Gruesome Packet",
+      "description": "The heading of the newspaper paragraph about the packet",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "coushing_packet_case",
+      "type": "case",
+      "label": "Miss Cushing packet case",
+      "description": "The investigation concerning the remarkable packet sent to Miss Cushing",
+      "firstSection": "cardboard-box-section_2",
+      "source": "the-adventure-of-the-cardboard-box",
+      "client": "miss_cushing",
+      "crime_type": "murder",
+      "outcome": "unsolved",
+      "primary_location": "cross_street_croydon"
+    },
+    {
+      "id": "civil_war",
+      "type": "character",
+      "label": "civil war",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "north",
+      "type": "character",
+      "label": "north",
+      "firstSection": "cardboard-box-section_2"
+    },
+    {
+      "id": "belfast",
+      "type": "location",
+      "label": "Belfast",
+      "description": "City in the north of Ireland.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "postman",
+      "type": "character",
+      "label": "Postman",
+      "description": "Postal worker who delivers the packet.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "browned_paper_wrap",
+      "type": "object",
+      "label": "Brown paper wrapping",
+      "description": "Brown paper wrapping around the packet.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "cardboard_box_object",
+      "type": "object",
+      "label": "Cardboard box",
+      "description": "A cardboard box sent in the parcel.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "coarse_salt",
+      "type": "object",
+      "label": "Coarse salt",
+      "description": "Salt found inside the cardboard box.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "human_ears",
+      "type": "object",
+      "label": "Two human ears",
+      "description": "Two human ears found in the box.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "medical_students",
+      "type": "organisation",
+      "label": "Medical students",
+      "description": "The three young medical students who formerly lodged at Miss Cushing's house.",
+      "firstSection": "cardboard-box-section_3",
+      "org_type": "other"
+    },
+    {
+      "id": "scotland_yard",
+      "type": "organisation",
+      "label": "Police",
+      "description": "The police investigating the outrage.",
+      "firstSection": "cardboard-box-section_3",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "lestrade",
+      "type": "character",
+      "label": "Mr. Lestrade",
+      "description": "Detective officer in charge of the case.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "daily_chronicle",
+      "type": "organisation",
+      "label": "Daily Chronicle",
+      "description": "Newspaper that reports the incident.",
+      "firstSection": "cardboard-box-section_3",
+      "org_type": "other"
+    },
+    {
+      "id": "belfast_post_office",
+      "type": "organisation",
+      "label": "Belfast post-office",
+      "description": "Postal office wired to about the parcel.",
+      "firstSection": "cardboard-box-section_3",
+      "org_type": "other"
+    },
+    {
+      "id": "half_pound_box_of_honeydew_tobacco",
+      "type": "object",
+      "label": "Half-pound box of honeydew tobacco",
+      "description": "The tobacco box identified as the container.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "servant_girl",
+      "type": "character",
+      "label": "Small servant girl",
+      "description": "The servant who opens the door at Miss Cushing's house.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "amntacassar",
+      "type": "object",
+      "label": "Worked antimacassar",
+      "description": "Worked antimacassar lying upon Miss Cushing's lap.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "basket_of_coloured_silks",
+      "type": "object",
+      "label": "Basket of coloured silks",
+      "description": "Basket of coloured silks beside Miss Cushing.",
+      "firstSection": "cardboard-box-section_3"
+    },
+    {
+      "id": "saint_john",
+      "type": "character",
+      "label": "Mr. Saint John",
+      "description": "A man whose portrait appears with Miss Cushing's sister",
+      "firstSection": "cardboard-box-section_6"
+    },
+    {
+      "id": "sarah_cushing",
+      "type": "character",
+      "label": "Sarah Cushing",
+      "description": "Miss Cushing's sister",
+      "firstSection": "cardboard-box-section_6"
+    },
+    {
+      "id": "mary_cushing",
+      "type": "character",
+      "label": "Mary Cushing",
+      "description": "Miss Cushing's younger sister",
+      "firstSection": "cardboard-box-section_6"
+    },
+    {
+      "id": "mr_browner",
+      "type": "character",
+      "label": "Mr. Browner",
+      "description": "Mary Cushing's husband",
+      "firstSection": "cardboard-box-section_6"
+    },
+    {
+      "id": "jim",
+      "type": "character",
+      "label": "Jim",
+      "description": "A man mentioned by Miss Cushing as having visited and later drinking heavily",
+      "firstSection": "cardboard-box-section_6"
+    },
+    {
+      "id": "new_street_wallington",
+      "type": "location",
+      "label": "New Street, Wallington",
+      "description": "A street in Wallington where Sarah Cushing lives.",
+      "firstSection": "cardboard-box-section_7"
+    },
+    {
+      "id": "telegraph_office",
+      "type": "location",
+      "label": "Telegraph office",
+      "description": "A telegraph office Holmes stops at to send a wire.",
+      "firstSection": "cardboard-box-section_7"
+    },
+    {
+      "id": "hotel",
+      "type": "location",
+      "label": "Decent hotel",
+      "description": "An unspecified hotel where Holmes and Watson go for lunch.",
+      "firstSection": "cardboard-box-section_7"
+    },
+    {
+      "id": "wallington_police_station",
+      "type": "location",
+      "label": "Police-station",
+      "description": "The police station where Holmes and Watson meet Lestrade.",
+      "firstSection": "cardboard-box-section_7"
+    },
+    {
+      "id": "telegram_1",
+      "type": "document",
+      "label": "Telegram",
+      "description": "A short telegram Holmes sends and later receives a reply to.",
+      "firstSection": "cardboard-box-section_7",
+      "document_type": "telegram",
+      "from": "sherlock_holmes",
+      "to": "lestrade",
+      "content_summary": "A short wire; later, the answer to Holmes's wire is received."
+    },
+    {
+      "id": "baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "Street in London where Holmes and Watson rooms are located.",
+      "firstSection": "cardboard-box-section_8"
+    },
+    {
+      "id": "station",
+      "type": "location",
+      "label": "Station",
+      "description": "Train station mentioned as their destination.",
+      "firstSection": "cardboard-box-section_8"
+    },
+    {
+      "id": "anthropological_journal",
+      "type": "document",
+      "label": "Anthropological Journal",
+      "description": "An academic journal mentioned as publishing Holmes's monographs.",
+      "firstSection": "cardboard-box-section_9",
+      "document_type": "newspaper",
+      "from": "sherlock_holmes",
+      "to": "medical_students",
+      "content_summary": "Contains two short monographs by the writer on human ears."
+    },
+    {
+      "id": "miss_sarah",
+      "type": "character",
+      "label": "Miss Sarah",
+      "description": "Sarah Cushing's sister, referred to as Miss Sarah in the account.",
+      "firstSection": "cardboard-box-section_9"
+    },
+    {
+      "id": "browner_wife",
+      "type": "character",
+      "label": "Mrs. Browner",
+      "description": "Mr. Browner's wife, mentioned as having been murdered.",
+      "firstSection": "cardboard-box-section_9"
+    },
+    {
+      "id": "algar",
+      "type": "character",
+      "label": "Algar",
+      "description": "Holmes's friend in the Liverpool force.",
+      "firstSection": "cardboard-box-section_9"
+    },
+    {
+      "id": "liverpool_force",
+      "type": "organisation",
+      "label": "Liverpool force",
+      "description": "The police force in Liverpool.",
+      "firstSection": "cardboard-box-section_9",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "the_may_day",
+      "type": "object",
+      "label": "S.S. May Day",
+      "description": "A steam packet ship on which James Browner sailed.",
+      "firstSection": "cardboard-box-section_10"
+    },
+    {
+      "id": "liverpool_dublin_london_steam_packet_company",
+      "type": "organisation",
+      "label": "Liverpool, Dublin, and London Steam Packet Company",
+      "description": "Commercial steam packet company operating the May Day.",
+      "firstSection": "cardboard-box-section_10",
+      "org_type": "commercial"
+    },
+    {
+      "id": "james_browner",
+      "type": "character",
+      "label": "James Browner",
+      "description": "A steward aboard the May Day and the man detained by Lestrade.",
+      "firstSection": "cardboard-box-section_10"
+    },
+    {
+      "id": "inspector_montgomery",
+      "type": "character",
+      "label": "Inspector Montgomery",
+      "description": "A police inspector at the Shadwell Police Station.",
+      "firstSection": "cardboard-box-section_10"
+    },
+    {
+      "id": "shadwell_police_station",
+      "type": "location",
+      "label": "Shadwell Police Station",
+      "description": "A police station where Browner's statement was taken.",
+      "firstSection": "cardboard-box-section_10"
+    },
+    {
+      "id": "river_police",
+      "type": "organisation",
+      "label": "River police",
+      "description": "Police officers who were nearby when Browner was arrested.",
+      "firstSection": "cardboard-box-section_10",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "bogus_laundry_affair",
+      "type": "case",
+      "label": "Bogus laundry affair",
+      "description": "A prior case mentioned in comparison to Aldridge.",
+      "firstSection": "cardboard-box-section_10",
+      "source": "the-adventure-of-the-cardboard-box",
+      "client": "sherlock_holmes",
+      "crime_type": "other",
+      "outcome": "unsolved",
+      "primary_location": "baker_street"
+    },
+    {
+      "id": "aldridge",
+      "type": "character",
+      "label": "Aldridge",
+      "description": "A man referenced as resembling James Browner and as having helped in the bogus laundry affair.",
+      "firstSection": "cardboard-box-section_10"
+    },
+    {
+      "id": "aleck_fairbairn",
+      "type": "character",
+      "label": "Alec Fairbairn",
+      "description": "A named man mentioned as entering the situation later in the account.",
+      "firstSection": "cardboard-box-section_11"
+    },
+    {
+      "id": "liverpool",
+      "type": "location",
+      "label": "Liverpool",
+      "description": "City where Sarah could not make a living.",
+      "firstSection": "cardboard-box-section_12"
+    },
+    {
+      "id": "croydon",
+      "type": "location",
+      "label": "Croydon",
+      "description": "Place where Sarah went to live with her sister.",
+      "firstSection": "cardboard-box-section_12"
+    },
+    {
+      "id": "mary_cushing_sister",
+      "type": "character",
+      "label": "Mary's sister",
+      "description": "Mary's sister, who took in Sarah and later housed lodgings to sailors.",
+      "firstSection": "cardboard-box-section_12"
+    },
+    {
+      "id": "sailor_lodgings_house",
+      "type": "location",
+      "label": "House two streets off",
+      "description": "The house Mary’s sister took, where she let lodgings to sailors.",
+      "firstSection": "cardboard-box-section_12"
+    },
+    {
+      "id": "new_brighton",
+      "type": "location",
+      "label": "New Brighton",
+      "description": "Coastal destination reached by train and boat in the account.",
+      "firstSection": "cardboard-box-section_13"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "The section introduces the story title",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_2"
+      ],
+      "participants": [
+        "new_york_story_case"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes receives a letter by the morning post",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "letter"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes reads and re-reads the letter on the sofa",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "letter"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Watson throws aside the paper and falls into a brown study",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_17"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Holmes breaks into Watson's train of thought and comments on it",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_31"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You are right, Watson. It does seem a most preposterous way of settling a dispute. Most preposterous! You remember that some little time ago when I read you the passage in one of Poe's sketches in which a close reasoner follows the unspoken thoughts of his companion, you were inclined to treat the matter as a mere tour-de-force of the author. On my remarking that I was constantly in the habit of doing the same thing you expressed incredulity. Perhaps not with your tongue, my dear Watson, but certainly with your eyebrows. So when I saw you throw down your paper and enter upon a train of thought, I was very happy to have the opportunity of reading it off, and eventually of breaking into it, as a proof that I had been in rapport with you."
+      }
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Watson objects that Holmes drew conclusions from observed actions in the example",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_32",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "In the example which you read to me, the reasoner drew his conclusions from the actions of the man whom he observed. If I remember right, he stumbled over a heap of stones, looked up at the stars, and so on. But I have been seated quietly in my chair, and what clues can I have given you?"
+      }
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Holmes explains a line of facial deduction to Watson",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_36",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You do yourself an injustice. The features are given to man as the means by which he shall express his emotions, and yours are faithful servants. Your features and especially your eyes. Perhaps you cannot yourself recall how your reverie commenced? Then I will tell you. After throwing down your paper, which was the action which drew my attention to you, you sat for half a minute with a vacant expression. Then your eyes fixed themselves upon your newly framed picture of General Gordon, and I saw by the alteration in your face that a train of thought had been started. But it did not lead very far. Your eyes flashed across to the unframed portrait of Henry Ward Beecher which stands upon the top of your books. Then you glanced up at the wall, and of course your meaning was obvious. You were thinking that if the portrait were framed it would just cover that bare space and correspond with Gordon's picture over there. So far I could hardly have gone astray. But now your thoughts went back to Beecher, and you looked hard across as if you were studying the character in his features. Then your eyes ceased to pucker, but you continued to look across, and your face was thoughtful. You were recalling the incidents of Beecher's career. I was well aware that you could not do this without thinking of the mission which he undertook on behalf of the North at the time of the Civil War, for I remember your expressing your passionate indignation at the way in which he was received by the more turbulent of our people. You felt so strongly about it that I knew you could not think of Beecher without thinking of that also. When a moment later I saw your eyes wander away from the picture, I suspected that your mind had now turned to the Civil War, and when I observed that your lips set, your eyes sparkled, and your hands clenched I was positive that you were indeed thinking of the gallantry which was shown by both sides in that desperate struggle. But then, again, your face grew sadder; you shook your head. You were dwelling upon the sadness and horror and useless waste of life. Your hand stole towards your own old wound and a smile quivered on your lips, which showed me that the ridiculous side of this method of settling international questions had forced itself upon your mind. At this point I agreed with you that it was preposterous and was glad to find that all my deductions had been correct."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Watson expresses amazement",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_62",
+        "sentence_63",
+        "sentence_64"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Absolutely! And now that you have explained it, I confess that I am as amazed as before."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Holmes says the deduction was superficial and introduces a new problem",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "miss_cushing",
+        "packet"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It was very superficial, my dear Watson, I assure you. I should not have intruded it upon your attention had you not shown some incredulity the other day. But I have in my hands here a little problem which may prove to be more difficult of solution than my small essay in thought reading. Have you observed in the paper a short paragraph referring to the remarkable contents of a packet sent through the post to Miss Cushing, of Cross Street, Croydon?"
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Watson says he saw nothing in the paper",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_69"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No, I saw nothing."
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Holmes directs Watson to pass the paper over and read the paragraph aloud",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_70",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "paper"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Ah! then you must have overlooked it. Just toss it over to me. Here it is, under the financial column. Perhaps you would be good enough to read it aloud."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Watson picks up the paper and reads the indicated paragraph",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_75",
+        "sentence_76"
+      ],
+      "participants": [
+        "watson",
+        "paper",
+        "a_gruesome_packet"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "A postman hands in a small packet wrapped in brown paper",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_78"
+      ],
+      "participants": [
+        "postman",
+        "packet",
+        "browned_paper_wrap",
+        "miss_cushing"
+      ],
+      "performs": [
+        "postman"
+      ]
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "The packet contains a cardboard box",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_79"
+      ],
+      "participants": [
+        "packet",
+        "cardboard_box_object"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "The cardboard box is filled with coarse salt",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_79"
+      ],
+      "participants": [
+        "cardboard_box_object",
+        "coarse_salt"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Miss Cushing finds two human ears in the box",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_80"
+      ],
+      "participants": [
+        "miss_cushing",
+        "cardboard_box_object",
+        "human_ears"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "The box is sent by parcel post from Belfast",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_81"
+      ],
+      "participants": [
+        "cardboard_box_object",
+        "belfast"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Miss Cushing let apartments in her house to three young medical students",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_83"
+      ],
+      "participants": [
+        "miss_cushing",
+        "medical_students"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Miss Cushing gets rid of the medical students",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_83"
+      ],
+      "participants": [
+        "miss_cushing",
+        "medical_students"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "The police suspect the medical students of the outrage",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_84"
+      ],
+      "participants": [
+        "scotland_yard",
+        "medical_students",
+        "miss_cushing"
+      ],
+      "performs": [
+        "scotland_yard"
+      ]
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Lestrade sends a note to Holmes",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93"
+      ],
+      "participants": [
+        "lestrade",
+        "sherlock_holmes",
+        "letter"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I think that this case is very much in your line. We have every hope of clearing the matter up, but we find a little difficulty in getting anything to work upon. We have, of course, wired to the Belfast post-office, but a large number of parcels were handed in upon that day, and they have no means of identifying this particular one, or of remembering the sender. The box is a half-pound box of honeydew tobacco and does not help us in any way. The medical student theory still appears to me to be the most feasible, but if you should have a few hours to spare I should be very happy to see you out here."
+      }
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Holmes and Watson travel to Croydon by cab and train",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_95",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_102",
+        "sentence_103"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "cross_street_croydon",
+        "lestrade"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Can you rise superior to the heat and run down to Croydon with me on the off chance of a case for your annals?"
+      }
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Lestrade waits at the station for Holmes and Watson",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_102"
+      ],
+      "participants": [
+        "lestrade",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "lestrade"
+      ]
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Holmes and Watson walk to Cross Street, where Miss Cushing resides",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_103"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "cross_street_croydon",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Lestrade taps at the door and a servant girl opens it",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_105"
+      ],
+      "participants": [
+        "lestrade",
+        "servant_girl"
+      ],
+      "performs": [
+        "lestrade",
+        "servant_girl"
+      ]
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "Miss Cushing sits in the front room",
+      "section": "cardboard-box-section_3",
+      "source_nodes": [
+        "sentence_106"
+      ],
+      "participants": [
+        "miss_cushing"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "Lestrade enters the outhouse and Miss Cushing speaks about the dreadful things and asks that they be taken away",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_109",
+        "sentence_110",
+        "sentence_111"
+      ],
+      "participants": [
+        "lestrade",
+        "miss_cushing"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "They are in the outhouse, those dreadful things. I wish that you would take them away altogether."
+      }
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "Lestrade says he kept the items for Holmes to see them in Miss Cushing's presence",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_111",
+        "sentence_112"
+      ],
+      "participants": [
+        "lestrade",
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "So I shall, Miss Cushing. I only kept them here until my friend, Mr. Holmes, should have seen them in your presence."
+      }
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "Miss Cushing asks why Holmes needed to see them in her presence",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_113"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "Why in my presence, sir?"
+      }
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "Lestrade says Holmes might wish to ask questions",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_114"
+      ],
+      "participants": [
+        "lestrade",
+        "miss_cushing"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "In case he wished to ask any questions."
+      }
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "Miss Cushing says she knows nothing whatever about it and asks why she should be questioned",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_115"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "What is the use of asking me questions when I tell you I know nothing whatever about it?"
+      }
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "Holmes reassures Miss Cushing and says she has already been annoyed enough",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_116",
+        "sentence_117"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "Quite so, madam. I have no doubt that you have been annoyed more than enough already over this business."
+      }
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "Miss Cushing says she is a quiet woman, lives retired, and dislikes the police in her house and her name in the papers",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "Indeed, I have, sir. I am a quiet woman and live a retired life. It is something new for me to see my name in the papers and to find the police in my house. I won't have those things in here, Mr. Lestrade. If you wish to see them you must go to the outhouse."
+      }
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "Lestrade goes into the outhouse and brings out a yellow cardboard box with brown paper and string",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_123",
+        "sentence_124"
+      ],
+      "participants": [
+        "lestrade",
+        "cardboard_box_object",
+        "browned_paper_wrap"
+      ],
+      "performs": [
+        "lestrade"
+      ]
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "Everyone sits down while Holmes examines the articles from the box",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_125"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "watson",
+        "cardboard_box_object"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "Holmes comments on the tarred twine and asks Lestrade what he makes of it",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_126",
+        "sentence_127"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "browned_paper_wrap"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "The string is exceedingly interesting. What do you make of this string, Lestrade?"
+      }
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "Lestrade says the string has been tarred",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_128"
+      ],
+      "participants": [
+        "lestrade",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It has been tarred."
+      }
+    },
+    {
+      "id": "event_4_12",
+      "type": "event",
+      "label": "Holmes identifies the string as tarred twine and points out the cut cord and intact peculiar knot",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "browned_paper_wrap"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "Precisely. It is a piece of tarred twine. You have also, no doubt, remarked that Miss Cushing has cut the cord with a scissors, as can be seen by the double fray on each side. This is of importance. The importance lies in the fact that the knot is left intact, and that this knot is of a peculiar character."
+      }
+    },
+    {
+      "id": "event_4_13",
+      "type": "event",
+      "label": "Holmes examines the box wrapper and describes the coffee smell, address, pen, ink, and printed direction",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146",
+        "sentence_147"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "cardboard_box_object",
+        "browned_paper_wrap"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "So much for the string, then, now for the box wrapper. Brown paper, with a distinct smell of coffee. What, did you not observe it? I think there can be no doubt of it. Address printed in rather straggling characters: 'Miss S. ' Done with a broad-pointed pen, probably a J, and with very inferior ink. ' The parcel was directed, then, by a man—the printing is distinctly masculine—of limited education and unacquainted with the town of Croydon. So far, so good! The box is a yellow half-pound honeydew box, with nothing distinctive save two thumb marks at the left bottom corner. It is filled with rough salt of the quality used for preserving hides and other of the coarser commercial purposes. And embedded in it are these very singular enclosures."
+      }
+    },
+    {
+      "id": "event_4_14",
+      "type": "event",
+      "label": "Holmes removes the two ears from the box and examines them",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_149",
+        "sentence_150"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "watson",
+        "human_ears",
+        "cardboard_box_object"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_4_15",
+      "type": "event",
+      "label": "Holmes states that the ears are not a pair and rejects the practical-joke explanation",
+      "section": "cardboard-box-section_4",
+      "source_nodes": [
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade",
+        "watson",
+        "human_ears"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "You have observed, of course, that the ears are not a pair."
+      }
+    },
+    {
+      "id": "event_6_1",
+      "type": "event",
+      "label": "Miss Cushing says the parcel was never meant for her and that she has no enemy she knows of",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_200",
+        "sentence_201",
+        "sentence_202"
+      ],
+      "participants": [
+        "miss_cushing",
+        "scotland_yard"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "scotland_yard"
+        ],
+        "content": "this matter is a mistake, and the parcel was never meant for me at all. I have said this several times to the gentleman from Scotland Yard, but he simply laughs at me. I have not an enemy in the world, as far as I know, so why should anyone play me such a trick?"
+      }
+    },
+    {
+      "id": "event_6_2",
+      "type": "event",
+      "label": "Holmes sits beside Miss Cushing and begins to agree with her view",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_203"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_6_3",
+      "type": "event",
+      "label": "Holmes studies Miss Cushing's profile with intentness",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_204",
+        "sentence_205",
+        "sentence_206"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_6_4",
+      "type": "event",
+      "label": "Holmes asks about Miss Cushing's sisters",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "There were one or two questions. You have two sisters, I believe."
+      }
+    },
+    {
+      "id": "event_6_5",
+      "type": "event",
+      "label": "Holmes explains how he identified Miss Cushing's sisters from the portraits",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_211",
+        "sentence_212"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I observed the very instant that I entered the room that you have a portrait group of three ladies upon the mantelpiece, one of whom is undoubtedly yourself, while the others are so exceedingly like you that there could be no doubt of the relationship."
+      }
+    },
+    {
+      "id": "event_6_6",
+      "type": "event",
+      "label": "Miss Cushing identifies Sarah and Mary as her sisters",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_213",
+        "sentence_214"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sarah_cushing",
+        "mary_cushing"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, you are quite right. Those are my sisters, Sarah and Mary."
+      }
+    },
+    {
+      "id": "event_6_7",
+      "type": "event",
+      "label": "Holmes remarks on a Liverpool portrait of Miss Cushing's younger sister and infers she was unmarried",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_215",
+        "sentence_216"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing",
+        "mary_cushing",
+        "mr_browner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "And here at my elbow is another portrait, taken at Liverpool, of your younger sister, in the company of a man who appears to be a steward by his uniform. I observe that she was unmarried at the time."
+      }
+    },
+    {
+      "id": "event_6_8",
+      "type": "event",
+      "label": "Miss Cushing praises Holmes's speed of observation",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_217",
+        "sentence_218"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "You are very quick at observing. That is my trade."
+      }
+    },
+    {
+      "id": "event_6_9",
+      "type": "event",
+      "label": "Miss Cushing says Mary later married Mr. Browner and that he changed ships to stay near her",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_222",
+        "sentence_223"
+      ],
+      "participants": [
+        "miss_cushing",
+        "mary_cushing",
+        "mr_browner"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Well, you are quite right. But she was married to Mr. Browner a few days afterwards. He was on the South American line when that was taken, but he was so fond of her that he couldn't abide to leave her for so long, and he got into the Liverpool and London boats. Ah, the Conqueror, perhaps? No, the May Day, when last I heard."
+      }
+    },
+    {
+      "id": "event_6_10",
+      "type": "event",
+      "label": "Miss Cushing says Jim visited, broke the pledge, drank ashore, and became violent",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_224",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228"
+      ],
+      "participants": [
+        "miss_cushing",
+        "jim"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Jim came down here to see me once. That was before he broke the pledge; but afterwards he would always take drink when he was ashore, and a little drink would send him stark, staring mad. Ah! it was a bad day that ever he took a glass in his hand again. First he dropped me, then he quarrelled with Sarah, and now that Mary has stopped writing we don't know how things are going with them."
+      }
+    },
+    {
+      "id": "event_6_11",
+      "type": "event",
+      "label": "Miss Cushing becomes communicative and gives details about her steward brother-in-law and medical students",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sherlock_holmes",
+        "watson",
+        "medical_students"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_6_12",
+      "type": "event",
+      "label": "Holmes listens and asks further questions about Sarah",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_232",
+        "sentence_233",
+        "sentence_234"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "About your second sister, Sarah, I wonder, since you are both maiden ladies, that you do not keep house together."
+      }
+    },
+    {
+      "id": "event_6_13",
+      "type": "event",
+      "label": "Miss Cushing explains that she and Sarah lived together until they parted two months earlier because of Sarah's temper",
+      "section": "cardboard-box-section_6",
+      "source_nodes": [
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Ah, you don't know Sarah's temper or you would wonder no more. I tried it when I came to Croydon, and we kept on until about two months ago, when we had to part. I don't want to say a word against my own sister, but she was always meddlesome and hard to please, was Sarah."
+      }
+    },
+    {
+      "id": "event_7_1",
+      "type": "event",
+      "label": "Miss Cushing says that Sarah quarreled with the Liverpool relations and that they were once best friends",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_239",
+        "sentence_240",
+        "sentence_241"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, and they were the best of friends at one time. Why, she went up there to live in order to be near them."
+      }
+    },
+    {
+      "id": "event_7_2",
+      "type": "event",
+      "label": "Miss Cushing says Sarah speaks only of Jim Browner's drinking and ways",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_242",
+        "sentence_243"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sarah_cushing",
+        "jim"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And now she has no word hard enough for Jim Browner. The last six months that she was here she would speak of nothing but his drinking and his ways."
+      }
+    },
+    {
+      "id": "event_7_3",
+      "type": "event",
+      "label": "Miss Cushing says Jim caught Sarah meddling and reproached her",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_244"
+      ],
+      "participants": [
+        "miss_cushing",
+        "sarah_cushing",
+        "jim"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "He had caught her meddling, I suspect, and given her a bit of his mind, and that was the start of it."
+      }
+    },
+    {
+      "id": "event_7_4",
+      "type": "event",
+      "label": "Holmes thanks Miss Cushing, mentions Sarah's address, and takes leave",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_245",
+        "sentence_246",
+        "sentence_247"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "Your sister Sarah lives, I think you said, at New Street Wallington? Good-bye, and I am very sorry that you should have been troubled over a case with which, as you say, you have nothing whatever to do."
+      }
+    },
+    {
+      "id": "event_7_5",
+      "type": "event",
+      "label": "Holmes and Watson take a cab toward Wallington",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson",
+          "cabby"
+        ],
+        "content": "How far to Wallington? Very good. Jump in, Watson. We must strike while the iron is hot. Simple as the case is, there have been one or two very instructive details in connection with it. Just pull up at a telegraph office as you pass, cabby."
+      }
+    },
+    {
+      "id": "event_7_6",
+      "type": "event",
+      "label": "Holmes sends a short wire",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_257"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "telegram_1"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_7_7",
+      "type": "event",
+      "label": "The cab stops at a house in Wallington and Holmes speaks with the doctor at the door",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "grave_young_gentleman"
+        ],
+        "content": "Is Miss Cushing at home?"
+      }
+    },
+    {
+      "id": "event_7_8",
+      "type": "event",
+      "label": "The young doctor says Sarah Cushing is extremely ill and refuses access",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266"
+      ],
+      "participants": [
+        "sarah_cushing",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "grave_young_gentleman"
+      ],
+      "communicates": {
+        "speaker": "grave_young_gentleman",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Miss Sarah Cushing is extremely ill. She has been suffering since yesterday from brain symptoms of great severity. As her medical adviser, I cannot possibly take the responsibility of allowing anyone to see her. I should recommend you to call again in ten days."
+      }
+    },
+    {
+      "id": "event_7_9",
+      "type": "event",
+      "label": "Holmes and Watson stop for lunch and Holmes talks about violins and Paganini",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_272",
+        "sentence_273",
+        "sentence_274"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "He talks about violins, narrating how he had purchased his own Stradivarius, worth at least five hundred guineas, at a Jew broker's in Tottenham Court Road for fifty-five shillings, and then tells anecdotes about Paganini."
+      }
+    },
+    {
+      "id": "event_7_10",
+      "type": "event",
+      "label": "Holmes and Watson arrive at the police-station and Lestrade presents a telegram",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_275",
+        "sentence_276",
+        "sentence_277"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "lestrade",
+        "telegram_1"
+      ],
+      "performs": [
+        "lestrade"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "A telegram for you, Mr. Holmes."
+      }
+    },
+    {
+      "id": "event_7_11",
+      "type": "event",
+      "label": "Holmes opens the telegram and says it is the answer",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_278",
+        "sentence_279",
+        "sentence_280",
+        "sentence_281"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "telegram_1"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "Ha! It is the answer! That's all right."
+      }
+    },
+    {
+      "id": "event_7_12",
+      "type": "event",
+      "label": "Lestrade asks Holmes whether he has found anything and Holmes replies that he has found everything",
+      "section": "cardboard-box-section_7",
+      "source_nodes": [
+        "sentence_282",
+        "sentence_283",
+        "sentence_284",
+        "sentence_285",
+        "sentence_286",
+        "sentence_287",
+        "sentence_288"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade"
+      ],
+      "performs": [
+        "lestrade",
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Have you found out anything?"
+      }
+    },
+    {
+      "id": "event_8_1",
+      "type": "event",
+      "label": "Holmes writes on a visiting card and throws it to Lestrade",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_290"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_2",
+      "type": "event",
+      "label": "Holmes tells Lestrade he cannot arrest until tomorrow night and asks him not to mention Holmes's name",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_292",
+        "sentence_293"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "lestrade"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "You cannot effect an arrest until to-morrow night at the earliest. I should prefer that you do not mention my name at all in connection with the case, as I choose to be only associated with those crimes which present some difficulty in their solution."
+      }
+    },
+    {
+      "id": "event_8_3",
+      "type": "event",
+      "label": "Holmes and Watson walk to the station",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_294",
+        "sentence_295"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "station",
+        "lestrade"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_8_4",
+      "type": "event",
+      "label": "Holmes explains the case to Watson",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_296",
+        "sentence_298"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "lestrade",
+        "new_york_story_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The case is one where we have been compelled to reason backward from effects to causes. I have written to Lestrade asking him to supply us with the details which are now wanting, and which he will only get after he has secured his man. That he may be safely trusted to do, for although he is absolutely devoid of reason, he is as tenacious as a bulldog when he once understands what he has to do, and, indeed, it is just this tenacity which has brought him to the top at Scotland Yard."
+      }
+    },
+    {
+      "id": "event_8_5",
+      "type": "event",
+      "label": "Watson asks whether the case is complete",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_299",
+        "sentence_300"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Your case is not complete, then?"
+      }
+    },
+    {
+      "id": "event_8_6",
+      "type": "event",
+      "label": "Holmes says the case is fairly complete and identifies Jim Browner as the suspected author",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_301",
+        "sentence_306"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mr_browner",
+        "jim",
+        "new_york_story_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It is fairly complete in essentials. We know who the author of the revolting business is, although one of the victims still escapes us."
+      }
+    },
+    {
+      "id": "event_8_7",
+      "type": "event",
+      "label": "Watson names Jim Browner as the suspected man",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_303",
+        "sentence_304"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mr_browner",
+        "jim"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I presume that this Jim Browner, the steward of a Liverpool boat, is the man whom you suspect?"
+      }
+    },
+    {
+      "id": "event_8_8",
+      "type": "event",
+      "label": "Holmes says the suspicion is more than a suspicion",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_305",
+        "sentence_306"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Oh! it is more than a suspicion."
+      }
+    },
+    {
+      "id": "event_8_9",
+      "type": "event",
+      "label": "Holmes recounts his reasoning steps from the case",
+      "section": "cardboard-box-section_8",
+      "source_nodes": [
+        "sentence_307",
+        "sentence_326"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "miss_cushing",
+        "mary_cushing",
+        "sarah_cushing",
+        "cardboard_box_object",
+        "packet",
+        "human_ears",
+        "browned_paper_wrap"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "On the contrary, to my mind nothing could be more clear. Let me run over the principal steps. We approached the case with an absolutely blank mind. We had formed no theories. We were simply there to observe and to draw inferences from our observations. We saw a placid and respectable lady and a portrait which showed me that she had two younger sisters. It flashed across my mind that the box might have been meant for one of these. Then we went to the garden and saw the contents of the little yellow box. The string was of the quality used by sailmakers aboard ship, the knot was popular with sailors, the parcel had been posted at a port, and the male ear was pierced for an earring, so I was certain that the actors were among our seafaring classes. The packet was addressed to Miss S. Cushing. The oldest sister would be Miss Cushing, but the initial might belong to one of the others as well. I went into the house intending to clear up this point. I was about to assure Miss Cushing that a mistake had been made when I came suddenly to a stop, because I had just seen something which filled me with surprise and narrowed the field of our inquiry immensely."
+      }
+    },
+    {
+      "id": "event_9_1",
+      "type": "event",
+      "label": "Holmes identifies Miss Cushing's ear as matching the ear from the box",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing",
+        "human_ears"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_2",
+      "type": "event",
+      "label": "Holmes concludes the victim was a close blood relation",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_3",
+      "type": "event",
+      "label": "Holmes speaks to Miss Cushing about her family",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_337"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "He asks about her family."
+      }
+    },
+    {
+      "id": "event_9_4",
+      "type": "event",
+      "label": "Miss Cushing gives valuable details about her family",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_337"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "miss_cushing"
+      ],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "She gives valuable details about her family."
+      }
+    },
+    {
+      "id": "event_9_5",
+      "type": "event",
+      "label": "Holmes learns Sarah's name and former address matched the packet's destination",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_338"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_cushing",
+        "sarah_cushing",
+        "miss_sarah",
+        "packet"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_6",
+      "type": "event",
+      "label": "Holmes learns of the steward's former intimacy with Miss Sarah and their later quarrel",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_339",
+        "sentence_340"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_sarah",
+        "mr_browner",
+        "packet"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_7",
+      "type": "event",
+      "label": "Holmes learns that the steward was impulsive and given to hard drinking",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_342"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mr_browner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_8",
+      "type": "event",
+      "label": "Holmes considers that jealousy was the motive for the crime",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_343",
+        "sentence_344"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mr_browner",
+        "browner_wife"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_9",
+      "type": "event",
+      "label": "Holmes reasons that Miss Sarah may have helped bring about the tragedy in Liverpool",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_345",
+        "sentence_346"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_sarah"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_10",
+      "type": "event",
+      "label": "Holmes reasons about the May Day's route and Belfast as the first posting place",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_347"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mr_browner",
+        "belfast"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_11",
+      "type": "event",
+      "label": "Holmes sends a telegram to Algar asking for information about Mrs. Browner and the May Day",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_351"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "algar",
+        "browner_wife",
+        "mr_browner"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "algar"
+        ],
+        "content": "Find out if Mrs. Browner is at home and if Browner has departed in the May Day."
+      }
+    },
+    {
+      "id": "event_9_12",
+      "type": "event",
+      "label": "Holmes and Watson go to Wallington to visit Miss Sarah",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_352",
+        "sentence_357"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "miss_sarah"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_9_13",
+      "type": "event",
+      "label": "Holmes visits Miss Sarah to observe the family ear and seek information",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_353",
+        "sentence_354",
+        "sentence_357"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_sarah"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_14",
+      "type": "event",
+      "label": "Holmes infers that Miss Sarah alone could understand the packet's intended recipient",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_355",
+        "sentence_356"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_sarah",
+        "packet",
+        "scotland_yard"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_15",
+      "type": "event",
+      "label": "Miss Sarah falls ill with brain fever after the packet's arrival news reaches her",
+      "section": "cardboard-box-section_9",
+      "source_nodes": [
+        "sentence_358",
+        "sentence_359"
+      ],
+      "participants": [
+        "miss_sarah",
+        "packet"
+      ],
+      "performs": [
+        "packet"
+      ]
+    },
+    {
+      "id": "event_10_1",
+      "type": "event",
+      "label": "Browner leaves aboard the May Day",
+      "section": "cardboard-box-section_10",
+      "source_nodes": [
+        "sentence_364"
+      ],
+      "participants": [
+        "mr_browner",
+        "the_may_day"
+      ],
+      "performs": [
+        "mr_browner"
+      ]
+    },
+    {
+      "id": "event_10_2",
+      "type": "event",
+      "label": "Lestrade arrests James Browner at the station",
+      "section": "cardboard-box-section_10",
+      "source_nodes": [
+        "sentence_368",
+        "sentence_375",
+        "sentence_376"
+      ],
+      "participants": [
+        "lestrade",
+        "james_browner",
+        "river_police",
+        "station"
+      ],
+      "performs": [
+        "lestrade",
+        "river_police"
+      ]
+    },
+    {
+      "id": "event_10_3",
+      "type": "event",
+      "label": "Browner is brought to the cells with his box",
+      "section": "cardboard-box-section_10",
+      "source_nodes": [
+        "sentence_376"
+      ],
+      "participants": [
+        "james_browner",
+        "cardboard_box_object",
+        "station"
+      ],
+      "performs": [
+        "lestrade",
+        "river_police"
+      ]
+    },
+    {
+      "id": "event_10_4",
+      "type": "event",
+      "label": "Browner makes a statement before Inspector Montgomery",
+      "section": "cardboard-box-section_10",
+      "source_nodes": [
+        "sentence_377",
+        "sentence_377"
+      ],
+      "participants": [
+        "james_browner",
+        "inspector_montgomery",
+        "shadwell_police_station"
+      ],
+      "performs": [
+        "james_browner"
+      ],
+      "communicates": {
+        "speaker": "james_browner",
+        "recipients": [
+          "inspector_montgomery"
+        ],
+        "content": "I have a deal to say. I have to make a clean breast of it all. You can hang me, or you can leave me alone. I don't care a plug which you do. I tell you I've not shut an eye in sleep since I did it, and I don't believe I ever will again until I get past all waking. Sometimes it's his face, but most generally it's hers. I'm never without one or the other before me. He looks frowning and black-like, but she has a kind o' surprise upon her face. Ay, the white lamb, she might well be surprised when she read death on a face that had seldom looked anything but love upon her before."
+      }
+    },
+    {
+      "id": "event_11_1",
+      "type": "event",
+      "label": "Jim recalls that he returned to drink again",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_399",
+        "sentence_434"
+      ],
+      "participants": [
+        "jim"
+      ],
+      "performs": [
+        "jim"
+      ]
+    },
+    {
+      "id": "event_11_2",
+      "type": "event",
+      "label": "Jim and Mary set up house together",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_405"
+      ],
+      "participants": [
+        "jim",
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_11_3",
+      "type": "event",
+      "label": "Jim and Mary invite Sarah to stay with them",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_406"
+      ],
+      "participants": [
+        "jim",
+        "mary_cushing",
+        "sarah_cushing",
+        "household"
+      ],
+      "performs": [
+        "jim",
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_11_4",
+      "type": "event",
+      "label": "Jim visits home on weekends and spends time with Sarah",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_410",
+        "sentence_411"
+      ],
+      "participants": [
+        "jim",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "jim"
+      ]
+    },
+    {
+      "id": "event_11_5",
+      "type": "event",
+      "label": "Jim returns home, finds Mary absent, and finds Sarah at home",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_415"
+      ],
+      "participants": [
+        "jim",
+        "mary_cushing",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "jim"
+      ]
+    },
+    {
+      "id": "event_11_6",
+      "type": "event",
+      "label": "Sarah takes Jim's hand and then leaves the room after speaking mockingly",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_419",
+        "sentence_423",
+        "sentence_424",
+        "sentence_425"
+      ],
+      "participants": [
+        "jim",
+        "sarah_cushing"
+      ],
+      "performs": [
+        "sarah_cushing"
+      ],
+      "communicates": {
+        "speaker": "sarah_cushing",
+        "recipients": [
+          "jim"
+        ],
+        "content": "Steady old Jim!"
+      }
+    },
+    {
+      "id": "event_11_7",
+      "type": "event",
+      "label": "Sarah hates Jim after the encounter",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_426"
+      ],
+      "participants": [
+        "jim",
+        "sarah_cushing"
+      ]
+    },
+    {
+      "id": "event_11_8",
+      "type": "event",
+      "label": "Mary becomes suspicious of Jim and the couple quarrels repeatedly",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_428",
+        "sentence_429",
+        "sentence_430"
+      ],
+      "participants": [
+        "jim",
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_11_9",
+      "type": "event",
+      "label": "Jim breaks his blue ribbon and starts drinking again",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_434"
+      ],
+      "participants": [
+        "jim",
+        "half_pound_box_of_honeydew_tobacco"
+      ],
+      "performs": [
+        "jim"
+      ]
+    },
+    {
+      "id": "event_11_10",
+      "type": "event",
+      "label": "Alec Fairbairn becomes involved and worsens the situation",
+      "section": "cardboard-box-section_11",
+      "source_nodes": [
+        "sentence_436"
+      ],
+      "participants": [
+        "aleck_fairbairn"
+      ]
+    },
+    {
+      "id": "event_12_1",
+      "type": "event",
+      "label": "A man visits the narrator's house first to see Sarah, then begins visiting the narrator and family.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_437",
+        "sentence_440"
+      ],
+      "participants": [
+        "sarah_cushing",
+        "mary_cushing",
+        "aleck_fairbairn"
+      ],
+      "performs": [
+        "aleck_fairbairn"
+      ]
+    },
+    {
+      "id": "event_12_2",
+      "type": "event",
+      "label": "The man proves to be good company and talks about his travels.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_438",
+        "sentence_439"
+      ],
+      "participants": [
+        "aleck_fairbairn"
+      ],
+      "performs": [
+        "aleck_fairbairn"
+      ]
+    },
+    {
+      "id": "event_12_3",
+      "type": "event",
+      "label": "The narrator sees a welcome look on his wife's face, then sees it fade when she notices him.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_443",
+        "sentence_444"
+      ],
+      "participants": [
+        "mary_cushing"
+      ],
+      "performs": [
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_12_4",
+      "type": "event",
+      "label": "The narrator becomes enraged and threatens to kill Fairbairn if he sees him.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_447",
+        "sentence_448",
+        "sentence_454"
+      ],
+      "participants": [
+        "aleck_fairbairn",
+        "mary_cushing"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "mary_cushing"
+        ],
+        "content": "You can do what you like, but if Fairbairn shows his face here again I'll send you one of his ears for a keepsake."
+      }
+    },
+    {
+      "id": "event_12_5",
+      "type": "event",
+      "label": "Mary leaves the house the same evening.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_453",
+        "sentence_454"
+      ],
+      "participants": [
+        "mary_cushing"
+      ],
+      "performs": [
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_12_6",
+      "type": "event",
+      "label": "Mary's sister takes a house, lets lodgings to sailors, and Fairbairn stays there.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_456",
+        "sentence_457"
+      ],
+      "participants": [
+        "mary_cushing_sister",
+        "aleck_fairbairn",
+        "sailor_lodgings_house"
+      ],
+      "performs": [
+        "mary_cushing_sister"
+      ]
+    },
+    {
+      "id": "event_12_7",
+      "type": "event",
+      "label": "Mary goes to have tea with her sister and Fairbairn.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_457",
+        "sentence_458"
+      ],
+      "participants": [
+        "mary_cushing",
+        "mary_cushing_sister",
+        "aleck_fairbairn"
+      ],
+      "performs": [
+        "mary_cushing"
+      ]
+    },
+    {
+      "id": "event_12_8",
+      "type": "event",
+      "label": "The narrator follows Mary, breaks in at the door, and Fairbairn escapes over the back garden wall.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_458"
+      ],
+      "participants": [
+        "watson",
+        "mary_cushing",
+        "aleck_fairbairn"
+      ],
+      "performs": [
+        "watson",
+        "aleck_fairbairn"
+      ]
+    },
+    {
+      "id": "event_12_9",
+      "type": "event",
+      "label": "The narrator swears to kill Mary if he finds her in Fairbairn's company again and leads her back home.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_459"
+      ],
+      "participants": [
+        "watson",
+        "mary_cushing",
+        "aleck_fairbairn"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_12_10",
+      "type": "event",
+      "label": "Sarah cannot make a living in Liverpool and goes back to live with her sister in Croydon.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_462"
+      ],
+      "participants": [
+        "sarah_cushing",
+        "mary_cushing_sister",
+        "liverpool",
+        "croydon"
+      ],
+      "performs": [
+        "sarah_cushing"
+      ]
+    },
+    {
+      "id": "event_12_11",
+      "type": "event",
+      "label": "The May Day makes a round voyage, a hogshead breaks loose and starts a plate, and the ship puts back into port for twelve hours.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_465"
+      ],
+      "participants": [
+        "the_may_day"
+      ],
+      "performs": [
+        "the_may_day"
+      ]
+    },
+    {
+      "id": "event_12_12",
+      "type": "event",
+      "label": "The narrator leaves the ship and comes home.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_466"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_12_13",
+      "type": "event",
+      "label": "Mary rides in a cab beside Fairbairn as the narrator watches from the footpath.",
+      "section": "cardboard-box-section_12",
+      "source_nodes": [
+        "sentence_467"
+      ],
+      "participants": [
+        "mary_cushing",
+        "aleck_fairbairn",
+        "watson"
+      ],
+      "performs": [
+        "mary_cushing",
+        "aleck_fairbairn"
+      ]
+    },
+    {
+      "id": "event_13_1",
+      "type": "event",
+      "label": "The speaker runs after the cab",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_471"
+      ],
+      "participants": [
+        "speaker",
+        "cab"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_2",
+      "type": "event",
+      "label": "The speaker carries a heavy oak stick while following the others",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_472"
+      ],
+      "participants": [
+        "speaker"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_3",
+      "type": "event",
+      "label": "The others stop at the railway station",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_473"
+      ],
+      "participants": [
+        "others",
+        "station"
+      ],
+      "performs": [
+        "others"
+      ]
+    },
+    {
+      "id": "event_13_4",
+      "type": "event",
+      "label": "The speaker takes a ticket for New Brighton",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_475"
+      ],
+      "participants": [
+        "speaker",
+        "new_brighton"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_5",
+      "type": "event",
+      "label": "The others travel to New Brighton by train",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_475",
+        "sentence_477"
+      ],
+      "participants": [
+        "others",
+        "station",
+        "new_brighton"
+      ],
+      "performs": [
+        "others"
+      ]
+    },
+    {
+      "id": "event_13_6",
+      "type": "event",
+      "label": "The speaker also takes a ticket for New Brighton and rides three carriages behind them",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_476"
+      ],
+      "participants": [
+        "speaker",
+        "new_brighton"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_7",
+      "type": "event",
+      "label": "The others walk along the Parade at New Brighton",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_477"
+      ],
+      "participants": [
+        "others",
+        "new_brighton"
+      ],
+      "performs": [
+        "others"
+      ]
+    },
+    {
+      "id": "event_13_8",
+      "type": "event",
+      "label": "The others hire a boat and start rowing",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_478"
+      ],
+      "participants": [
+        "others"
+      ],
+      "performs": [
+        "others"
+      ]
+    },
+    {
+      "id": "event_13_9",
+      "type": "event",
+      "label": "The speaker hires a boat and rows after them",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_481"
+      ],
+      "participants": [
+        "speaker"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_10",
+      "type": "event",
+      "label": "The speaker catches up with their boat in the haze",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_482",
+        "sentence_483"
+      ],
+      "participants": [
+        "speaker",
+        "others"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_11",
+      "type": "event",
+      "label": "One person screams when the speaker closes in",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_484",
+        "sentence_485"
+      ],
+      "participants": [
+        "speaker",
+        "others"
+      ],
+      "performs": [
+        "others"
+      ]
+    },
+    {
+      "id": "event_13_12",
+      "type": "event",
+      "label": "The man swears and strikes at the speaker with an oar",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_486"
+      ],
+      "participants": [
+        "man",
+        "speaker"
+      ],
+      "performs": [
+        "man"
+      ]
+    },
+    {
+      "id": "event_13_13",
+      "type": "event",
+      "label": "The speaker hits the man with a stick and crushes his head",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_487"
+      ],
+      "participants": [
+        "speaker",
+        "man"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_14",
+      "type": "event",
+      "label": "The speaker strikes again and the woman falls beside the man",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_488"
+      ],
+      "participants": [
+        "speaker",
+        "woman",
+        "man"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_15",
+      "type": "event",
+      "label": "The speaker pulls out a knife",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_491"
+      ],
+      "participants": [
+        "speaker"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_16",
+      "type": "event",
+      "label": "The speaker ties the bodies into the boat, staves in a plank, and waits until they sink",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_494"
+      ],
+      "participants": [
+        "speaker",
+        "bodies",
+        "boat"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_17",
+      "type": "event",
+      "label": "The speaker cleans himself up, returns to land, and rejoins his ship",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_496"
+      ],
+      "participants": [
+        "speaker",
+        "ship"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_18",
+      "type": "event",
+      "label": "The speaker makes up a packet for Sarah Cushing and sends it from Belfast",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_497",
+        "sentence_498"
+      ],
+      "participants": [
+        "speaker",
+        "packet",
+        "sarah_cushing",
+        "belfast"
+      ],
+      "performs": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "event_13_19",
+      "type": "event",
+      "label": "The speaker says that he told the truth of it and requests not to be put alone in a cell",
+      "section": "cardboard-box-section_13",
+      "source_nodes": [
+        "sentence_499",
+        "sentence_500",
+        "sentence_503",
+        "sentence_504"
+      ],
+      "participants": [
+        "speaker"
+      ],
+      "performs": [
+        "speaker"
+      ],
+      "communicates": {
+        "speaker": "speaker",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "There you have the whole truth of it. You can hang me, or do what you like with me, but you cannot punish me as I have been punished already. I cannot shut my eyes but I see those two faces staring at me—staring at me as they stared when my boat broke through the haze. I killed them quick, but they are killing me slow; and if I have another night of it I shall be either mad or dead before morning. You won't put me alone into a cell, sir? For pity's sake don't, and may you be treated in your day of agony as you treat me now."
+      }
+    },
+    {
+      "id": "event_14_1",
+      "type": "event",
+      "label": "Holmes asks Watson what the meaning of it is",
+      "section": "cardboard-box-section_14",
+      "source_nodes": [
+        "sentence_505",
+        "sentence_506"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "paper"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "What is the meaning of it, Watson?"
+      }
+    },
+    {
+      "id": "event_14_2",
+      "type": "event",
+      "label": "Holmes asks what object is served by the circle of misery and violence and fear",
+      "section": "cardboard-box-section_14",
+      "source_nodes": [
+        "sentence_507"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "What object is served by this circle of misery and violence and fear?"
+      }
+    },
+    {
+      "id": "event_14_3",
+      "type": "event",
+      "label": "Holmes states that the circle must tend to some end or the universe is ruled by chance",
+      "section": "cardboard-box-section_14",
+      "source_nodes": [
+        "sentence_508"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It must tend to some end, or else our universe is ruled by chance, which is unthinkable."
+      }
+    },
+    {
+      "id": "event_14_4",
+      "type": "event",
+      "label": "Holmes asks what end it is",
+      "section": "cardboard-box-section_14",
+      "source_nodes": [
+        "sentence_509"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "But what end?"
+      }
+    },
+    {
+      "id": "event_14_5",
+      "type": "event",
+      "label": "Holmes states that the problem remains unanswered",
+      "section": "cardboard-box-section_14",
+      "source_nodes": [
+        "sentence_510"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "There is the great standing perennial problem to which human reason is as far from an answer as ever."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "letter",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_1_2",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sherlock_holmes",
+      "to": "sofa",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_3",
+      "valid_until": "event_3_10",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "sherlock_holmes",
+      "to": "cross_street_croydon",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_10",
+      "valid_until": "event_7_4",
+      "caused_by": [
+        "event_3_10"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "sherlock_holmes",
+      "to": "new_street_wallington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_4",
+      "valid_until": "event_7_5",
+      "caused_by": [
+        "event_7_4"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "sherlock_holmes",
+      "to": "cabby",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_5",
+      "valid_until": "event_7_6",
+      "caused_by": [
+        "event_7_5"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "sherlock_holmes",
+      "to": "telegraph_office",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_6",
+      "valid_until": "event_7_10",
+      "caused_by": [
+        "event_7_6"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "sherlock_holmes",
+      "to": "wallington_police_station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_10",
+      "valid_until": "event_8_3",
+      "caused_by": [
+        "event_7_10"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "sherlock_holmes",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_3",
+      "valid_until": "event_9_10",
+      "caused_by": [
+        "event_8_3"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "sherlock_holmes",
+      "to": "belfast",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_10",
+      "valid_until": "event_9_12",
+      "caused_by": [
+        "event_9_10"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "sherlock_holmes",
+      "to": "new_street_wallington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_12",
+      "caused_by": [
+        "event_9_12"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "paper",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_2_5",
+      "valid_until": "event_2_5",
+      "caused_by": [
+        "event_2_5"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "paper",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_2_5",
+      "caused_by": [
+        "event_2_5"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "packet",
+      "to": "miss_cushing",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_1",
+      "caused_by": [
+        "event_3_1"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "cardboard_box_object",
+      "to": "packet",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_2",
+      "caused_by": [
+        "event_3_2"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "coarse_salt",
+      "to": "cardboard_box_object",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_3",
+      "caused_by": [
+        "event_3_3"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "human_ears",
+      "to": "cardboard_box_object",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_4",
+      "caused_by": [
+        "event_3_4"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "cardboard_box_object",
+      "to": "belfast",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_5",
+      "valid_until": "event_4_1",
+      "caused_by": [
+        "event_3_5"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "cardboard_box_object",
+      "to": "outhouse",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "valid_until": "event_10_3",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "cardboard_box_object",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_3",
+      "caused_by": [
+        "event_10_3"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "medical_students",
+      "to": "cross_street_croydon",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_6",
+      "caused_by": [
+        "event_3_6"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "watson",
+      "to": "cross_street_croydon",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_10",
+      "valid_until": "event_7_5",
+      "caused_by": [
+        "event_3_10"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "watson",
+      "to": "cabby",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_5",
+      "valid_until": "event_7_10",
+      "caused_by": [
+        "event_7_5"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "watson",
+      "to": "wallington_police_station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_10",
+      "valid_until": "event_8_3",
+      "caused_by": [
+        "event_7_10"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "watson",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_8_3",
+      "valid_until": "event_9_12",
+      "caused_by": [
+        "event_8_3"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "watson",
+      "to": "new_street_wallington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_12",
+      "valid_until": "event_12_8",
+      "caused_by": [
+        "event_9_12"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "watson",
+      "to": "sailor_lodgings_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_8",
+      "valid_until": "event_12_12",
+      "caused_by": [
+        "event_12_8"
+      ]
+    },
+    {
+      "id": "state_27",
+      "from": "watson",
+      "to": "ship",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_12",
+      "valid_until": "event_12_12",
+      "caused_by": [
+        "event_12_12"
+      ]
+    },
+    {
+      "id": "state_28",
+      "from": "watson",
+      "to": "watson_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_12",
+      "caused_by": [
+        "event_12_12"
+      ]
+    },
+    {
+      "id": "state_29",
+      "from": "lestrade",
+      "to": "cross_street_croydon",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_11",
+      "valid_until": "event_4_1",
+      "caused_by": [
+        "event_3_11"
+      ]
+    },
+    {
+      "id": "state_30",
+      "from": "lestrade",
+      "to": "outhouse",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_31",
+      "from": "browned_paper_wrap",
+      "to": "outhouse",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_32",
+      "from": "telegram_1",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_7_6",
+      "caused_by": [
+        "event_7_6"
+      ]
+    },
+    {
+      "id": "state_33",
+      "from": "miss_sarah",
+      "to": "new_street_wallington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_12",
+      "caused_by": [
+        "event_9_12"
+      ]
+    },
+    {
+      "id": "state_34",
+      "from": "mr_browner",
+      "to": "the_may_day",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_35",
+      "from": "james_browner",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_2",
+      "valid_until": "event_10_3",
+      "caused_by": [
+        "event_10_2"
+      ]
+    },
+    {
+      "id": "state_36",
+      "from": "james_browner",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_3",
+      "caused_by": [
+        "event_10_3"
+      ]
+    },
+    {
+      "id": "state_37",
+      "from": "jim",
+      "to": "household",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_3",
+      "caused_by": [
+        "event_11_3"
+      ]
+    },
+    {
+      "id": "state_38",
+      "from": "sarah_cushing",
+      "to": "household",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_3",
+      "valid_until": "event_12_10",
+      "caused_by": [
+        "event_11_3"
+      ]
+    },
+    {
+      "id": "state_39",
+      "from": "sarah_cushing",
+      "to": "liverpool",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_10",
+      "valid_until": "event_12_10",
+      "caused_by": [
+        "event_12_10"
+      ]
+    },
+    {
+      "id": "state_40",
+      "from": "sarah_cushing",
+      "to": "croydon",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_10",
+      "caused_by": [
+        "event_12_10"
+      ]
+    },
+    {
+      "id": "state_41",
+      "from": "aleck_fairbairn",
+      "to": "watson_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_1",
+      "valid_until": "event_12_6",
+      "caused_by": [
+        "event_12_1"
+      ]
+    },
+    {
+      "id": "state_42",
+      "from": "aleck_fairbairn",
+      "to": "sailor_lodgings_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_6",
+      "valid_until": "event_12_8",
+      "caused_by": [
+        "event_12_6"
+      ]
+    },
+    {
+      "id": "state_43",
+      "from": "aleck_fairbairn",
+      "to": "sailor_lodgings_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_8",
+      "caused_by": [
+        "event_12_8"
+      ]
+    },
+    {
+      "id": "state_44",
+      "from": "mary_cushing",
+      "to": "watson_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_3",
+      "valid_until": "event_12_5",
+      "caused_by": [
+        "event_12_3"
+      ]
+    },
+    {
+      "id": "state_45",
+      "from": "mary_cushing",
+      "to": "watson_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_5",
+      "valid_until": "event_12_7",
+      "caused_by": [
+        "event_12_5"
+      ]
+    },
+    {
+      "id": "state_46",
+      "from": "mary_cushing",
+      "to": "sailor_lodgings_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_7",
+      "valid_until": "event_12_9",
+      "caused_by": [
+        "event_12_7"
+      ]
+    },
+    {
+      "id": "state_47",
+      "from": "mary_cushing",
+      "to": "watson_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_9",
+      "caused_by": [
+        "event_12_9"
+      ]
+    },
+    {
+      "id": "state_48",
+      "from": "mary_cushing_sister",
+      "to": "sailor_lodgings_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_6",
+      "caused_by": [
+        "event_12_6"
+      ]
+    },
+    {
+      "id": "state_49",
+      "from": "the_may_day",
+      "to": "port",
+      "type": "LOCATED_AT",
+      "valid_from": "event_12_11",
+      "caused_by": [
+        "event_12_11"
+      ]
+    },
+    {
+      "id": "state_50",
+      "from": "speaker",
+      "to": "station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_13_3",
+      "valid_until": "event_13_5",
+      "caused_by": [
+        "event_13_3"
+      ]
+    },
+    {
+      "id": "state_51",
+      "from": "speaker",
+      "to": "new_brighton",
+      "type": "LOCATED_AT",
+      "valid_from": "event_13_5",
+      "caused_by": [
+        "event_13_5"
+      ]
+    },
+    {
+      "id": "state_52",
+      "from": "others",
+      "to": "new_brighton",
+      "type": "LOCATED_AT",
+      "valid_from": "event_13_5",
+      "caused_by": [
+        "event_13_5"
+      ]
+    },
+    {
+      "id": "state_53",
+      "from": "speaker",
+      "to": "boat",
+      "type": "IS_INSIDE",
+      "valid_from": "event_13_9",
+      "valid_until": "event_13_17",
+      "caused_by": [
+        "event_13_9"
+      ]
+    },
+    {
+      "id": "state_54",
+      "from": "speaker",
+      "to": "ship",
+      "type": "IS_INSIDE",
+      "valid_from": "event_13_17",
+      "caused_by": [
+        "event_13_17"
+      ]
+    },
+    {
+      "id": "state_55",
+      "from": "others",
+      "to": "boat",
+      "type": "IS_INSIDE",
+      "valid_from": "event_13_8",
+      "caused_by": [
+        "event_13_8"
+      ]
+    },
+    {
+      "id": "state_56",
+      "from": "bodies",
+      "to": "boat",
+      "type": "IS_INSIDE",
+      "valid_from": "event_13_16",
+      "caused_by": [
+        "event_13_16"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_1",
+      "mention_count": 20,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_9",
+        "sentence_14",
+        "sentence_15",
+        "sentence_16",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_30",
+        "sentence_31",
+        "sentence_33",
+        "sentence_35"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_1",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_9",
+        "sentence_10",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_31",
+        "sentence_32",
+        "sentence_33",
+        "sentence_35"
+      ]
+    },
+    {
+      "entity": "letter",
+      "section": "cardboard-box-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_9"
+      ]
+    },
+    {
+      "entity": "new_york_story_case",
+      "section": "cardboard-box-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_2",
+        "sentence_5"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_2",
+      "mention_count": 34,
+      "sentence_ids": [
+        "sentence_36",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_70",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_2",
+      "mention_count": 27,
+      "sentence_ids": [
+        "sentence_38",
+        "sentence_40",
+        "sentence_41",
+        "sentence_43",
+        "sentence_44",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64",
+        "sentence_66",
+        "sentence_69",
+        "sentence_72",
+        "sentence_74",
+        "sentence_75"
+      ]
+    },
+    {
+      "entity": "general_gordon",
+      "section": "cardboard-box-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_44",
+        "sentence_48"
+      ]
+    },
+    {
+      "entity": "henry_ward_beecher",
+      "section": "cardboard-box-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_46",
+        "sentence_48",
+        "sentence_52",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56"
+      ]
+    },
+    {
+      "entity": "civil_war",
+      "section": "cardboard-box-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_55",
+        "sentence_57"
+      ]
+    },
+    {
+      "entity": "north",
+      "section": "cardboard-box-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_55"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_68"
+      ]
+    },
+    {
+      "entity": "cross_street_croydon",
+      "section": "cardboard-box-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_68"
+      ]
+    },
+    {
+      "entity": "packet",
+      "section": "cardboard-box-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_68",
+        "sentence_75"
+      ]
+    },
+    {
+      "entity": "paper",
+      "section": "cardboard-box-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_68",
+        "sentence_69",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_75"
+      ]
+    },
+    {
+      "entity": "a_gruesome_packet",
+      "section": "cardboard-box-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_76"
+      ]
+    },
+    {
+      "entity": "coushing_packet_case",
+      "section": "cardboard-box-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_68"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_3",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_77",
+        "sentence_80",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_103",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108"
+      ]
+    },
+    {
+      "entity": "cross_street_croydon",
+      "section": "cardboard-box-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_77",
+        "sentence_103"
+      ]
+    },
+    {
+      "entity": "packet",
+      "section": "cardboard-box-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_78",
+        "sentence_81"
+      ]
+    },
+    {
+      "entity": "browned_paper_wrap",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_78"
+      ]
+    },
+    {
+      "entity": "cardboard_box_object",
+      "section": "cardboard-box-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_79",
+        "sentence_81",
+        "sentence_92"
+      ]
+    },
+    {
+      "entity": "coarse_salt",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_79"
+      ]
+    },
+    {
+      "entity": "human_ears",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_80"
+      ]
+    },
+    {
+      "entity": "belfast",
+      "section": "cardboard-box-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_81",
+        "sentence_85",
+        "sentence_91"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_84"
+      ]
+    },
+    {
+      "entity": "medical_students",
+      "section": "cardboard-box-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_93"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_3",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_86",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_93",
+        "sentence_102",
+        "sentence_105"
+      ]
+    },
+    {
+      "entity": "daily_chronicle",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_87"
+      ]
+    },
+    {
+      "entity": "belfast_post_office",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_91"
+      ]
+    },
+    {
+      "entity": "half_pound_box_of_honeydew_tobacco",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_92"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_3",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_94",
+        "sentence_95",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_102",
+        "sentence_103"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_3",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_94",
+        "sentence_95",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_102",
+        "sentence_103"
+      ]
+    },
+    {
+      "entity": "servant_girl",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_105"
+      ]
+    },
+    {
+      "entity": "amntacassar",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_108"
+      ]
+    },
+    {
+      "entity": "basket_of_coloured_silks",
+      "section": "cardboard-box-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_108"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_4",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_109",
+        "sentence_111",
+        "sentence_121",
+        "sentence_124",
+        "sentence_125",
+        "sentence_127",
+        "sentence_128",
+        "sentence_133",
+        "sentence_136",
+        "sentence_149",
+        "sentence_152"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_4",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_113",
+        "sentence_115",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_131"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_4",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_112",
+        "sentence_116",
+        "sentence_117",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_134",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146",
+        "sentence_147",
+        "sentence_149",
+        "sentence_150",
+        "sentence_151",
+        "sentence_154",
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_125",
+        "sentence_149",
+        "sentence_150"
+      ]
+    },
+    {
+      "entity": "cardboard_box_object",
+      "section": "cardboard-box-section_4",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_124",
+        "sentence_125",
+        "sentence_145",
+        "sentence_146"
+      ]
+    },
+    {
+      "entity": "browned_paper_wrap",
+      "section": "cardboard-box-section_4",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_130",
+        "sentence_137",
+        "sentence_138"
+      ]
+    },
+    {
+      "entity": "human_ears",
+      "section": "cardboard-box-section_4",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_147",
+        "sentence_149",
+        "sentence_150",
+        "sentence_151",
+        "sentence_153",
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "cross_street_croydon",
+      "section": "cardboard-box-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_143"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_6",
+      "mention_count": 36,
+      "sentence_ids": [
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_215",
+        "sentence_216",
+        "sentence_217",
+        "sentence_218",
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_224",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_233",
+        "sentence_234",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_6",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_210",
+        "sentence_212",
+        "sentence_217",
+        "sentence_218",
+        "sentence_222",
+        "sentence_229",
+        "sentence_230",
+        "sentence_232",
+        "sentence_233",
+        "sentence_234"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "cardboard-box-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_201"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_6",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_214",
+        "sentence_228",
+        "sentence_233",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "mary_cushing",
+      "section": "cardboard-box-section_6",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_214",
+        "sentence_215",
+        "sentence_216",
+        "sentence_220",
+        "sentence_221",
+        "sentence_223",
+        "sentence_228"
+      ]
+    },
+    {
+      "entity": "mr_browner",
+      "section": "cardboard-box-section_6",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_220",
+        "sentence_221"
+      ]
+    },
+    {
+      "entity": "jim",
+      "section": "cardboard-box-section_6",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_224",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_231"
+      ]
+    },
+    {
+      "entity": "medical_students",
+      "section": "cardboard-box-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_231"
+      ]
+    },
+    {
+      "entity": "cross_street_croydon",
+      "section": "cardboard-box-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_237"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_7",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_245",
+        "sentence_246",
+        "sentence_247"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_7",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_241",
+        "sentence_242",
+        "sentence_243",
+        "sentence_244",
+        "sentence_246",
+        "sentence_260",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265"
+      ]
+    },
+    {
+      "entity": "jim",
+      "section": "cardboard-box-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_242",
+        "sentence_243",
+        "sentence_244"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_7",
+      "mention_count": 36,
+      "sentence_ids": [
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256",
+        "sentence_257",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_279",
+        "sentence_280",
+        "sentence_281",
+        "sentence_282",
+        "sentence_283",
+        "sentence_284",
+        "sentence_286",
+        "sentence_287",
+        "sentence_288"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_248",
+        "sentence_253",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_7",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_272",
+        "sentence_276",
+        "sentence_277",
+        "sentence_282",
+        "sentence_285"
+      ]
+    },
+    {
+      "entity": "new_street_wallington",
+      "section": "cardboard-box-section_7",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_246",
+        "sentence_247"
+      ]
+    },
+    {
+      "entity": "telegraph_office",
+      "section": "cardboard-box-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_256"
+      ]
+    },
+    {
+      "entity": "wallington_police_station",
+      "section": "cardboard-box-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_272",
+        "sentence_275",
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "telegram_1",
+      "section": "cardboard-box-section_7",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_257",
+        "sentence_277",
+        "sentence_279",
+        "sentence_280"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_8",
+      "mention_count": 30,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_291",
+        "sentence_293",
+        "sentence_295",
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_301",
+        "sentence_303",
+        "sentence_305",
+        "sentence_306",
+        "sentence_308",
+        "sentence_309",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_314",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_8",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_294",
+        "sentence_295",
+        "sentence_296",
+        "sentence_299",
+        "sentence_300",
+        "sentence_303",
+        "sentence_307"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_8",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_291",
+        "sentence_292",
+        "sentence_295",
+        "sentence_297",
+        "sentence_298"
+      ]
+    },
+    {
+      "entity": "new_york_story_case",
+      "section": "cardboard-box-section_8",
+      "mention_count": 29,
+      "sentence_ids": [
+        "sentence_293",
+        "sentence_296",
+        "sentence_297",
+        "sentence_299",
+        "sentence_301",
+        "sentence_302",
+        "sentence_303",
+        "sentence_304",
+        "sentence_306",
+        "sentence_307",
+        "sentence_308",
+        "sentence_309",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_314",
+        "sentence_315",
+        "sentence_316",
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326"
+      ]
+    },
+    {
+      "entity": "mr_browner",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_304"
+      ]
+    },
+    {
+      "entity": "jim",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_304"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_8",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_324",
+        "sentence_325"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_314",
+        "sentence_322"
+      ]
+    },
+    {
+      "entity": "mary_cushing",
+      "section": "cardboard-box-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_314",
+        "sentence_322"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_298"
+      ]
+    },
+    {
+      "entity": "cardboard_box_object",
+      "section": "cardboard-box-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_315",
+        "sentence_317"
+      ]
+    },
+    {
+      "entity": "human_ears",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_319"
+      ]
+    },
+    {
+      "entity": "packet",
+      "section": "cardboard-box-section_8",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_317",
+        "sentence_320",
+        "sentence_321",
+        "sentence_326"
+      ]
+    },
+    {
+      "entity": "browned_paper_wrap",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_317"
+      ]
+    },
+    {
+      "entity": "station",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_295"
+      ]
+    },
+    {
+      "entity": "baker_street",
+      "section": "cardboard-box-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_296"
+      ]
+    },
+    {
+      "entity": "anthropological_journal",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_329"
+      ]
+    },
+    {
+      "entity": "miss_sarah",
+      "section": "cardboard-box-section_9",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340",
+        "sentence_345",
+        "sentence_346",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_357",
+        "sentence_358",
+        "sentence_359"
+      ]
+    },
+    {
+      "entity": "browner_wife",
+      "section": "cardboard-box-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_343",
+        "sentence_351"
+      ]
+    },
+    {
+      "entity": "algar",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_351"
+      ]
+    },
+    {
+      "entity": "liverpool_force",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_351"
+      ]
+    },
+    {
+      "entity": "mr_browner",
+      "section": "cardboard-box-section_9",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_339",
+        "sentence_340",
+        "sentence_342",
+        "sentence_343",
+        "sentence_345",
+        "sentence_347",
+        "sentence_349",
+        "sentence_351"
+      ]
+    },
+    {
+      "entity": "belfast",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_347"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_356"
+      ]
+    },
+    {
+      "entity": "packet",
+      "section": "cardboard-box-section_9",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_345",
+        "sentence_347",
+        "sentence_355",
+        "sentence_358",
+        "sentence_359"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_352",
+        "sentence_357"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_9",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_335",
+        "sentence_337",
+        "sentence_348",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_357"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_331",
+        "sentence_337",
+        "sentence_338"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_338",
+        "sentence_339",
+        "sentence_340"
+      ]
+    },
+    {
+      "entity": "human_ears",
+      "section": "cardboard-box-section_9",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_327",
+        "sentence_328",
+        "sentence_330",
+        "sentence_331",
+        "sentence_333",
+        "sentence_334",
+        "sentence_353"
+      ]
+    },
+    {
+      "entity": "new_street_wallington",
+      "section": "cardboard-box-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_352"
+      ]
+    },
+    {
+      "entity": "browner_wife",
+      "section": "cardboard-box-section_10",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_363",
+        "sentence_393",
+        "sentence_395",
+        "sentence_396"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_10",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_365",
+        "sentence_366",
+        "sentence_368",
+        "sentence_380",
+        "sentence_381",
+        "sentence_384"
+      ]
+    },
+    {
+      "entity": "the_may_day",
+      "section": "cardboard-box-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_364",
+        "sentence_371"
+      ]
+    },
+    {
+      "entity": "liverpool_dublin_london_steam_packet_company",
+      "section": "cardboard-box-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_371"
+      ]
+    },
+    {
+      "entity": "james_browner",
+      "section": "cardboard-box-section_10",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376",
+        "sentence_377",
+        "sentence_378",
+        "sentence_387",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395",
+        "sentence_396"
+      ]
+    },
+    {
+      "entity": "inspector_montgomery",
+      "section": "cardboard-box-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_377",
+        "sentence_386"
+      ]
+    },
+    {
+      "entity": "shadwell_police_station",
+      "section": "cardboard-box-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_386"
+      ]
+    },
+    {
+      "entity": "river_police",
+      "section": "cardboard-box-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_375"
+      ]
+    },
+    {
+      "entity": "aldridge",
+      "section": "cardboard-box-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_374"
+      ]
+    },
+    {
+      "entity": "bogus_laundry_affair",
+      "section": "cardboard-box-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_374"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_11",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_397",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_404",
+        "sentence_406",
+        "sentence_410",
+        "sentence_411",
+        "sentence_413",
+        "sentence_415",
+        "sentence_419",
+        "sentence_423",
+        "sentence_424",
+        "sentence_425",
+        "sentence_426",
+        "sentence_427",
+        "sentence_428",
+        "sentence_432",
+        "sentence_433"
+      ]
+    },
+    {
+      "entity": "mary_cushing",
+      "section": "cardboard-box-section_11",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_401",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_410",
+        "sentence_412",
+        "sentence_415",
+        "sentence_427",
+        "sentence_428",
+        "sentence_429",
+        "sentence_430",
+        "sentence_432",
+        "sentence_433",
+        "sentence_434",
+        "sentence_435"
+      ]
+    },
+    {
+      "entity": "jim",
+      "section": "cardboard-box-section_11",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_399",
+        "sentence_400",
+        "sentence_405",
+        "sentence_407",
+        "sentence_410",
+        "sentence_412",
+        "sentence_415",
+        "sentence_417",
+        "sentence_419",
+        "sentence_420",
+        "sentence_421",
+        "sentence_422",
+        "sentence_423",
+        "sentence_426",
+        "sentence_427",
+        "sentence_428",
+        "sentence_429",
+        "sentence_430",
+        "sentence_431",
+        "sentence_433",
+        "sentence_434",
+        "sentence_435",
+        "sentence_436"
+      ]
+    },
+    {
+      "entity": "aleck_fairbairn",
+      "section": "cardboard-box-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_436"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_12",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_437",
+        "sentence_462"
+      ]
+    },
+    {
+      "entity": "mary_cushing",
+      "section": "cardboard-box-section_12",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_443",
+        "sentence_444",
+        "sentence_453",
+        "sentence_454",
+        "sentence_457",
+        "sentence_459",
+        "sentence_461",
+        "sentence_467"
+      ]
+    },
+    {
+      "entity": "aleck_fairbairn",
+      "section": "cardboard-box-section_12",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_446",
+        "sentence_447",
+        "sentence_454",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459",
+        "sentence_467"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_12",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_437",
+        "sentence_440",
+        "sentence_441",
+        "sentence_443",
+        "sentence_447",
+        "sentence_448",
+        "sentence_453",
+        "sentence_454",
+        "sentence_459",
+        "sentence_461",
+        "sentence_466",
+        "sentence_467"
+      ]
+    },
+    {
+      "entity": "liverpool",
+      "section": "cardboard-box-section_12",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_462"
+      ]
+    },
+    {
+      "entity": "croydon",
+      "section": "cardboard-box-section_12",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_462"
+      ]
+    },
+    {
+      "entity": "the_may_day",
+      "section": "cardboard-box-section_12",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_465"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_13",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_503",
+        "sentence_504"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_13",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_503",
+        "sentence_504"
+      ]
+    },
+    {
+      "entity": "packet",
+      "section": "cardboard-box-section_13",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_497",
+        "sentence_498"
+      ]
+    },
+    {
+      "entity": "sarah_cushing",
+      "section": "cardboard-box-section_13",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_490",
+        "sentence_493",
+        "sentence_497",
+        "sentence_498"
+      ]
+    },
+    {
+      "entity": "belfast",
+      "section": "cardboard-box-section_13",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_496",
+        "sentence_497",
+        "sentence_498"
+      ]
+    },
+    {
+      "entity": "new_brighton",
+      "section": "cardboard-box-section_13",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_475",
+        "sentence_476",
+        "sentence_477",
+        "sentence_478"
+      ]
+    },
+    {
+      "entity": "station",
+      "section": "cardboard-box-section_13",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_473",
+        "sentence_475"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "cardboard-box-section_14",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_506",
+        "sentence_507",
+        "sentence_508",
+        "sentence_509",
+        "sentence_510"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_14",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_505",
+        "sentence_507",
+        "sentence_508",
+        "sentence_510"
+      ]
+    },
+    {
+      "entity": "paper",
+      "section": "cardboard-box-section_14",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_506"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "packet",
+      "case": "coushing_packet_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_2",
+      "significance": "Holmes inferred that the packet sent to Miss Cushing was a difficult problem to solve and treated the newspaper paragraph headed 'A Gruesome Packet' as the report of the case.",
+      "source_nodes": [
+        "sentence_67",
+        "sentence_68",
+        "sentence_73",
+        "sentence_76"
+      ]
+    },
+    {
+      "object": "cardboard_box_object",
+      "case": "coushing_packet_case",
+      "discovered_by": "miss_cushing",
+      "discovered_in_section": "cardboard-box-section_3",
+      "significance": "Miss Cushing found the cardboard box to be a half-pound box of honeydew tobacco, which Lestrade said did not help in identifying the sender.",
+      "source_nodes": [
+        "sentence_92"
+      ]
+    },
+    {
+      "object": "browned_paper_wrap",
+      "case": "coushing_packet_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_4",
+      "significance": "Holmes inferred that the string was tarred twine and that the cord had been cut, leaving the knot intact, from the wrapper and string.",
+      "source_nodes": [
+        "sentence_126",
+        "sentence_128",
+        "sentence_130",
+        "sentence_131",
+        "sentence_134"
+      ]
+    },
+    {
+      "object": "cardboard_box_object",
+      "case": "coushing_packet_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_4",
+      "significance": "Holmes inferred the parcel had been directed by a man of limited education unfamiliar with Croydon from the printed address and handwriting.",
+      "source_nodes": [
+        "sentence_141",
+        "sentence_142",
+        "sentence_143"
+      ]
+    },
+    {
+      "object": "human_ears",
+      "case": "coushing_packet_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_4",
+      "significance": "Holmes inferred that the ears were not a pair after examining them.",
+      "source_nodes": [
+        "sentence_149",
+        "sentence_151"
+      ]
+    },
+    {
+      "object": "cardboard_box_object",
+      "case": "new_york_story_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_8",
+      "significance": "Holmes inferred that the box might have been meant for one of the younger sisters from the portrait of the lady and her two younger sisters.",
+      "source_nodes": [
+        "sentence_314",
+        "sentence_315"
+      ]
+    },
+    {
+      "object": "packet",
+      "case": "new_york_story_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_8",
+      "significance": "Holmes inferred that the actors were among seafaring classes from the sailmaker's string, the sailor's knot, the port posting, and the pierced ear.",
+      "source_nodes": [
+        "sentence_318",
+        "sentence_319"
+      ]
+    },
+    {
+      "object": "packet",
+      "case": "new_york_story_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_8",
+      "significance": "Holmes inferred that the packet was addressed to Miss Cushing from the address on it.",
+      "source_nodes": [
+        "sentence_320",
+        "sentence_321"
+      ]
+    },
+    {
+      "object": "human_ears",
+      "case": "coushing_packet_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "cardboard-box-section_9",
+      "significance": "Holmes inferred that the ear from the box matched Miss Cushing's ear exactly and therefore indicated a close blood relation.",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "lestrade",
+      "organisation": "scotland_yard"
+    },
+    {
+      "character": "algar",
+      "organisation": "liverpool_force"
+    },
+    {
+      "character": "james_browner",
+      "organisation": "liverpool_dublin_london_steam_packet_company"
+    }
+  ]
+}

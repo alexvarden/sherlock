@@ -1,0 +1,145 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 170
+    },
+    {
+      "id": "section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 96
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "section_1",
+      "position": 0,
+      "text": "Anne and Sally were playing together in the garden one sunny afternoon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "section_1",
+      "position": 1,
+      "text": "Anne had a small blue box, and Sally had a red basket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "section_1",
+      "position": 2,
+      "text": "They decided to play a game where they would hide a shiny marble and then try to find it again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "section_1",
+      "position": 3,
+      "text": "Sally placed the marble carefully inside her red basket and smiled, pleased with her hiding spot.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "section_1",
+      "position": 4,
+      "text": "After a while, Sally said she needed to go inside the house to get a snack.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "section_1",
+      "position": 5,
+      "text": "She left the garden, making sure Anne saw that the marble was still in the basket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "section_1",
+      "position": 6,
+      "text": "While Sally was away, Anne looked at the basket, then at her blue box.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "section_1",
+      "position": 7,
+      "text": "She had an idea.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "section_1",
+      "position": 8,
+      "text": "Quietly, Anne took the marble out of Sally’s basket and placed it inside her own blue box, closing the lid gently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "section_1",
+      "position": 9,
+      "text": "A few minutes later, Sally returned to the garden, still thinking about the marble she had hidden earlier.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "section_1",
+      "position": 10,
+      "text": "She looked around, remembering exactly where she had left it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "section_1",
+      "position": 11,
+      "text": "Anne watched her closely, curious about what Sally would do next.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "section_2",
+      "position": 12,
+      "text": "Sally walked over to her red basket and opened it, expecting to find the marble inside.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "section_2",
+      "position": 13,
+      "text": "Anne, who knew the marble was now in the blue box, wondered whether Sally would look somewhere else or stick with her original hiding place.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "section_2",
+      "position": 14,
+      "text": "The question was simple but important: where would Sally look for the marble first?",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "section_2",
+      "position": 15,
+      "text": "This story helps us think about how different people can have different beliefs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "section_2",
+      "position": 16,
+      "text": "Even though Anne knows the marble has been moved, Sally does not.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "section_2",
+      "position": 17,
+      "text": "Sally’s actions depend on what she believes to be true, not on what is actually true.",
+      "entities": []
+    }
+  ]
+}

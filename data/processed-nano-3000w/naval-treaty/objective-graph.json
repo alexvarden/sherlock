@@ -1,0 +1,5387 @@
+{
+  "entities": [
+    {
+      "id": "case_1_second_stain",
+      "type": "case",
+      "label": "The Adventure of the Second Stain",
+      "description": "A named case recorded under a heading in Watson's notes.",
+      "firstSection": "naval-treaty-section_1",
+      "source": "naval-treaty-section_1"
+    },
+    {
+      "id": "case_1_naval_treaty",
+      "type": "case",
+      "label": "The Adventure of the Naval Treaty",
+      "description": "A named case involving a secret treaty between England and Italy, copied then stolen; Watson and Holmes go to Woking to consult the injured Percy Phelps and his family.",
+      "firstSection": "naval-treaty-section_1",
+      "source": "naval-treaty-section_1",
+      "client": "character_percy_phelps",
+      "crime_type": "theft",
+      "outcome": "unresolved",
+      "primary_location": "location_briarbrae"
+    },
+    {
+      "id": "case_1_tired_captain",
+      "type": "case",
+      "label": "The Adventure of the Tired Captain",
+      "description": "A named case recorded under a heading in Watson's notes.",
+      "firstSection": "naval-treaty-section_1",
+      "source": "naval-treaty-section_1"
+    },
+    {
+      "id": "document_letter_pcy_phelps",
+      "type": "document",
+      "label": "Letter from Percy Phelps to Watson",
+      "description": "A letter recalling Percy Phelps ('Tadpole') and requesting that Watson bring Sherlock Holmes to see him; mentions brain-fever and that authorities claim nothing more can be done.",
+      "firstSection": "naval-treaty-section_1",
+      "document_type": "letter",
+      "from": "character_percy_phelps",
+      "to": "character_watson",
+      "content_summary": "Percy Phelps asks Watson to bring Mr. Sherlock Holmes to see him as soon as possible; Percy has recovered from nine weeks of brain-fever, is extremely weak, has a horrible misfortune that has blasted his career, and the authorities say nothing more can be done."
+    },
+    {
+      "id": "document_telegrams_holmes",
+      "type": "document",
+      "label": "Telegrams scribbled by Holmes",
+      "description": "Several telegrams written by Holmes and handed to a page-boy.",
+      "firstSection": "naval-treaty-section_1",
+      "document_type": "telegram",
+      "from": "character_holmes",
+      "to": "character_page-boy",
+      "content_summary": "Not specified in the text; Holmes scribbles off several telegrams and hands them over to the page-boy."
+    },
+    {
+      "id": "organisation_paris_police",
+      "type": "organisation",
+      "label": "Paris police",
+      "description": "Police organization referenced as having Monsieur Dubuque.",
+      "firstSection": "naval-treaty-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "organisation_foreign_office",
+      "type": "organisation",
+      "label": "Foreign Office",
+      "description": "Government office where Percy Phelps and the commission are described as taking place.",
+      "firstSection": "naval-treaty-section_1",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "location_baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "Holmes's rooms where Holmes is found and where Watson returns after breakfast-time.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "location_woking",
+      "type": "location",
+      "label": "Woking",
+      "description": "Town where Briarbrae is located and where Watson and Holmes travel to consult Percy Phelps.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "location_briarbrae",
+      "type": "location",
+      "label": "Briarbrae, Woking",
+      "description": "Large detached house in extensive grounds within walking distance of the station; the place where Watson and Holmes are received and where Percy Phelps lies ill.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "location_waterloo",
+      "type": "location",
+      "label": "Waterloo",
+      "description": "Station where Watson and Holmes catch an early train.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "location_charles_street",
+      "type": "location",
+      "label": "Charles Street",
+      "description": "Corridor access point and street area used in the theft narrative; includes time reference 'quarter to ten' and a policeman in the street.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "location_whitehall",
+      "type": "location",
+      "label": "Whitehall",
+      "description": "Area at the extremity where traffic is described as going on; policeman is standing nearby.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "object_secret_treaty_original",
+      "type": "object",
+      "label": "Original secret treaty between England and Italy",
+      "description": "Grey roll of paper representing the original of a secret treaty; later removed from the desk after being copied.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "object_secret_treaty_draft",
+      "type": "object",
+      "label": "Draft copy of the secret treaty",
+      "description": "The copy/draft of the treaty that is left when the original is stolen.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "object_letter_lockup_desk",
+      "type": "object",
+      "label": "Desk where the treaty is locked",
+      "description": "The desk in the Foreign Office where the original and draft are to be locked up and later where the original is missing.",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "document_rough_chart_location",
+      "type": "document",
+      "label": "Rough chart of the place",
+      "description": "A rough chart described as being provided for the layout of stairs and passages.",
+      "firstSection": "naval-treaty-section_1",
+      "document_type": "note"
+    },
+    {
+      "id": "character_percy_phelps",
+      "type": "character",
+      "label": "character percy phelps",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_sherlock_holmes",
+      "type": "character",
+      "label": "character sherlock holmes",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_watson",
+      "type": "character",
+      "label": "character watson",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_monsieur_dubuque",
+      "type": "character",
+      "label": "character monsieur dubuque",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_fritz_von_waldbaum",
+      "type": "character",
+      "label": "character fritz von waldbaum",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_lord_holdhurst",
+      "type": "character",
+      "label": "character lord holdhurst",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_joseph_harrison",
+      "type": "character",
+      "label": "character joseph harrison",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_page-boy",
+      "type": "character",
+      "label": "character page-boy",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_commissionnaire",
+      "type": "character",
+      "label": "character commissionnaire",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_charles_gorot",
+      "type": "character",
+      "label": "character charles gorot",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_policeman",
+      "type": "character",
+      "label": "character policeman",
+      "firstSection": "naval-treaty-section_1"
+    },
+    {
+      "id": "character_forbes",
+      "type": "character",
+      "label": "character forbes",
+      "firstSection": "naval-treaty-section_2"
+    },
+    {
+      "id": "organisation_scotland_yard",
+      "type": "organisation",
+      "label": "Scotland Yard",
+      "description": "Police organization involved in inquiries related to the case.",
+      "firstSection": "naval-treaty-section_3",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "case_1_naval_treaty_section_4",
+      "type": "case",
+      "label": "The Adventure of the Naval Treaty (case)",
+      "description": "Investigation involving missing naval treaty papers.",
+      "firstSection": "naval-treaty-section_4",
+      "source": "naval-treaty-section_4",
+      "client": "character_percy_phelps",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "location_briarbrae"
+    },
+    {
+      "id": "case_1_naval_treaty_section_5",
+      "type": "case",
+      "label": "The Adventure of the Naval Treaty (case)",
+      "description": "Investigation into theft and concealment of State papers during the narrative described in this section.",
+      "firstSection": "naval-treaty-section_5",
+      "source": "naval-treaty-section_5",
+      "client": "character_watson",
+      "crime_type": "theft",
+      "outcome": "solved",
+      "primary_location": "location_baker_street"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_3_1",
+      "type": "event",
+      "label": "Watson records three cases under headings in his notes",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "character_watson",
+        "case_1_second_stain",
+        "case_1_naval_treaty",
+        "case_1_tired_captain"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_7_1",
+      "type": "event",
+      "label": "Watson retains a report of an interview in which Holmes demonstrated facts to Dubuque and von Waldbaum",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_7"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "character_monsieur_dubuque",
+        "character_fritz_von_waldbaum"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_16_1",
+      "type": "event",
+      "label": "Percy Phelps produces a letter recalling his relationship and misfortune",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_16",
+        "sentence_17",
+        "sentence_18",
+        "sentence_31"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_watson",
+        "document_letter_pcy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "My dear Watson,—I have no doubt that you can remember \"Tadpole\" Phelps, who was in the fifth form when you were in the third... Do you think that you could bring your friend Mr. Holmes down to see me?"
+      }
+    },
+    {
+      "id": "event_1_34_1",
+      "type": "event",
+      "label": "Watson and Holmes are reunited in Baker Street within an hour after breakfast-time",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_34"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "location_baker_street"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_35_1",
+      "type": "event",
+      "label": "Holmes is seated at his side-table in Baker Street working on a chemical investigation",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_35"
+      ],
+      "participants": [
+        "character_holmes",
+        "location_baker_street"
+      ]
+    },
+    {
+      "id": "event_1_43_1",
+      "type": "event",
+      "label": "Litmus paper turns from blue to red by contact with a test-tube solution",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_41",
+        "sentence_43"
+      ],
+      "participants": [
+        "object_litmus_paper",
+        "object_test_tube_solution",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_1_47_1",
+      "type": "event",
+      "label": "Holmes announces he will be at Watson's service in an instant",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_47"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "I will be at your service in an instant, Watson."
+      }
+    },
+    {
+      "id": "event_1_48_1",
+      "type": "event",
+      "label": "Holmes tells Watson where tobacco is located",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_48"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "You will find tobacco in the Persian slipper."
+      }
+    },
+    {
+      "id": "event_1_49_1",
+      "type": "event",
+      "label": "Holmes scribbles telegrams and hands them to the page-boy",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_49"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_page-boy",
+        "document_telegrams_holmes"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_1_55_1",
+      "type": "event",
+      "label": "Watson hands Holmes the letter",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_55"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "document_letter_pcy_phelps"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_67_1",
+      "type": "event",
+      "label": "Holmes and Watson agree to start at once for Woking to see the diplomatist and the woman he dictates letters to",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_67"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_watson",
+        "location_woking",
+        "character_percy_phelps"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_68_1",
+      "type": "event",
+      "label": "Watson and Holmes travel by early train and arrive in the Woking area",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_68"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "location_waterloo",
+        "location_woking"
+      ],
+      "performs": [
+        "character_watson",
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_1_69_1",
+      "type": "event",
+      "label": "Briarbrae is located near the Woking station",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_69"
+      ],
+      "participants": [
+        "location_briarbrae",
+        "location_woking"
+      ]
+    },
+    {
+      "id": "event_1_70_1",
+      "type": "event",
+      "label": "Watson and Holmes are shown into an appointed drawing-room at Briarbrae",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_70"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "location_briarbrae",
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_1_73_1",
+      "type": "event",
+      "label": "Joseph Harrison says Percy has been inquiring for Holmes all morning",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_73"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_joseph_harrison",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "Percy has been inquiring for you all morning."
+      }
+    },
+    {
+      "id": "event_1_81_1",
+      "type": "event",
+      "label": "Joseph Harrison identifies himself and explains his family relation by marriage",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_81"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_holmes",
+        "character_watson",
+        "character_purported_anini"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_joseph_harrison",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "Joseph Harrison is my name, and as Percy is to marry my sister Annie I shall at least be a relation by marriage."
+      }
+    },
+    {
+      "id": "event_1_82_1",
+      "type": "event",
+      "label": "Joseph Harrison states that his sister is in his room nursing Percy",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_82"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_purported_anini",
+        "character_percy_phelps",
+        "character_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_joseph_harrison",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "You will find my sister in his room, for she has nursed him hand-and-foot this two months back."
+      }
+    },
+    {
+      "id": "event_1_83_1",
+      "type": "event",
+      "label": "Joseph Harrison requests that Holmes and Watson go in at once",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_83"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_holmes",
+        "character_watson",
+        "location_briarbrae"
+      ],
+      "communicates": {
+        "speaker": "character_joseph_harrison",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "Perhaps we'd better go in at once, for I know how impatient he is."
+      }
+    },
+    {
+      "id": "event_1_92_1",
+      "type": "event",
+      "label": "Percy Phelps addresses Watson upon their entrance to the chamber",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_92"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "How are you, Watson?"
+      }
+    },
+    {
+      "id": "event_1_96_1",
+      "type": "event",
+      "label": "Watson introduces Joseph Harrison and Holmes sit down together",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_96"
+      ],
+      "participants": [
+        "character_watson",
+        "character_holmes",
+        "character_joseph_harrison",
+        "location_briarbrae"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_100_1",
+      "type": "event",
+      "label": "Percy Phelps begins his account by saying he will plunge into the matter",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_100",
+        "sentence_101"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "I won't waste your time... I'll plunge into the matter without further preamble."
+      }
+    },
+    {
+      "id": "event_1_103_1",
+      "type": "event",
+      "label": "Percy Phelps explains his Foreign Office position and influence of Lord Holdhurst",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_103"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_lord_holdhurst",
+        "organisation_foreign_office"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_holmes",
+          "character_watson"
+        ],
+        "content": "I was, as Watson may have told you, in the Foreign Office, and through the influences of my uncle, Lord Holdhurst, I rose rapidly to a responsible position."
+      }
+    },
+    {
+      "id": "event_1_105_1",
+      "type": "event",
+      "label": "Lord Holdhurst calls Percy into his private room and gives him a new commission of trust",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_105"
+      ],
+      "participants": [
+        "character_lord_holdhurst",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_lord_holdhurst"
+      ],
+      "communicates": {
+        "speaker": "character_lord_holdhurst",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "This... is the original of that secret treaty between England and Italy..."
+      }
+    },
+    {
+      "id": "event_1_114_1",
+      "type": "event",
+      "label": "Percy locks up the treaty in the desk as directed and is to copy it",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_113",
+        "sentence_114"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "object_secret_treaty_original",
+        "object_secret_treaty_draft",
+        "object_letter_lockup_desk"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_1_115_1",
+      "type": "event",
+      "label": "Percy begins to describe what he did with the papers",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_115"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_holmes",
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_126_1",
+      "type": "event",
+      "label": "Holmes asks Percy for details and tells him to continue",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_116",
+        "sentence_127"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Thank you, pray go on."
+      }
+    },
+    {
+      "id": "event_1_130_1",
+      "type": "event",
+      "label": "Percy departs from working arrangements to dine, leaving an arrears-occupied clerk behind",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_128"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_charles_gorot",
+        "location_foreign_office_desk_area"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_1_148_1",
+      "type": "event",
+      "label": "Percy describes the stair and passage layout leading to the side door and a rough chart",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_147",
+        "sentence_150",
+        "sentence_151",
+        "sentence_152"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "document_rough_chart_location"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_156_1",
+      "type": "event",
+      "label": "Percy finds the commissionnaire asleep in his box while a kettle boils on a spirit-lamp",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_156"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire",
+        "location_foreign_office_stairs_passage_area",
+        "object_kettle",
+        "object_spirit-lamp"
+      ]
+    },
+    {
+      "id": "event_1_157_1",
+      "type": "event",
+      "label": "Percy takes off the kettle and blows out the spirit-lamp",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_157"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "object_kettle",
+        "object_spirit-lamp"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_1_158_1",
+      "type": "event",
+      "label": "A bell above the commissionnaire rings and wakes him",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_158"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "object_bell"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_166_1",
+      "type": "event",
+      "label": "Percy tells the commissionnaire that a bell is the bell of the room he was working in",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_166",
+        "sentence_168"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "I cried! What bell is it?... It's the bell of the room you were working in."
+      }
+    },
+    {
+      "id": "event_1_171_1",
+      "type": "event",
+      "label": "Percy runs up the stairs and along the passage, then finds no thief and discovers the original treaty is missing",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174",
+        "sentence_175"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "object_secret_treaty_original",
+        "object_secret_treaty_draft"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_1_189_1",
+      "type": "event",
+      "label": "Percy and the commissionnaire rush down the steps to Charles Street and out the closed but unlocked door",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_189",
+        "sentence_190",
+        "sentence_191"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire",
+        "location_charles_street"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_1_192_1",
+      "type": "event",
+      "label": "Three chimes sound from a neighboring clock as Percy and the commissionnaire leave for Charles Street",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_192",
+        "sentence_193"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire",
+        "object_clock"
+      ]
+    },
+    {
+      "id": "event_1_196_1",
+      "type": "event",
+      "label": "Percy and the commissionnaire find no one in Charles Street but traffic continues at Whitehall while a policeman stands nearby",
+      "section": "naval-treaty-section_1",
+      "source_nodes": [
+        "sentence_196",
+        "sentence_197"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire",
+        "location_charles_street",
+        "location_whitehall",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "A speaker claims a robbery has been committed and gasps",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_198"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "'A robbery has been committed,' I gasped."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "A speaker claims a document of immense value has been stolen from the Foreign Office",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_199"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "organisation_foreign_office"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "'A document of immense value has been stolen from the Foreign Office."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "A speaker asks whether anyone passed this way",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_200"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "Has any one passed this way?'"
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "A man standing outside reports he has been standing there a quarter of an hour and only one person passed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_201"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'I have been standing here for a quarter of an hour, sir,' said he; 'only one person has passed during that time—a woman, tall and elderly, with a Paisley shawl.'"
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "The commissionnaire says the woman described is his wife and asks whether anyone else passed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_202"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'Ah, that is only my wife,' cried the commissionnaire; 'has no one else passed?'."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "A speaker answers that no one passed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_203"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "'No one.'"
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "The commissionnaire asserts the thief must have gone the other way and tugs at the speaker's sleeve",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_204"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'Then it must be the other way that the thief took,' cried the fellow, tugging at my sleeve."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "The commissionnaire reports he tried to draw the commissionnaire away and increased his suspicions",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_205"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'But I was not satisfied, and the attempts which he made to draw me away increased my suspicions.'"
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "A speaker cries and asks where the woman went",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_207"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "' I cried.\n y did the woman go?' I cried."
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "The commissionnaire says he does not know where the woman went",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_208"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'I don't know, sir."
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "The commissionnaire reports he noticed his wife pass and she seemed to be in a hurry",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_209",
+        "sentence_210"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "I noticed her pass, but I had no special reason for watching her. She seemed to be in a hurry."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "A speaker asks how long ago it was",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_211"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "'How long ago was it?'"
+      }
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "The commissionnaire says it was not very many minutes ago",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_212"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'Oh, not very many minutes.'"
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "A speaker asks if it was within the last five",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_213"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "'Within the last five?'"
+      }
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "The commissionnaire says it could not be more than five",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_214"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'Well, it could not be more than five.'"
+      }
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "The commissionnaire urges the speaker not to waste time and to go to the other end of the street, then rushes off",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_215",
+        "sentence_216"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'You're only wasting your time, sir, and every minute now is of importance,' cried the commissionnaire; 'take my word for it that my old woman has nothing to do with it, and come down to the other end of the street.'"
+      }
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "The commissionnaire runs off in the other direction",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_216",
+        "sentence_217"
+      ],
+      "participants": [
+        "character_commissionnaire"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ]
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "The speaker catches the commissionnaire by the sleeve",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_218"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_19",
+      "type": "event",
+      "label": "The speaker asks where the commissionnaire lives and the commissionnaire answers with an address",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_220",
+        "sentence_221"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "performs": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'16 Ivy Lane, Brixton,' he answered."
+      }
+    },
+    {
+      "id": "event_2_20",
+      "type": "event",
+      "label": "The commissionnaire warns against being drawn away on a false scent and suggests going to the other end of the street",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_222",
+        "sentence_223"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'But don't let yourself be drawn away upon a false scent, Mr. Phelps. Come to the other end of the street and let us see if we can hear of anything.'"
+      }
+    },
+    {
+      "id": "event_2_21",
+      "type": "event",
+      "label": "The speaker and a policeman hurry down the street",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_225"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman"
+      ],
+      "performs": [
+        "character_percy_phelps",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_22",
+      "type": "event",
+      "label": "The group fails to find anyone who can tell who passed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_226"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_23",
+      "type": "event",
+      "label": "The speaker and the policeman return to the office and search the stairs and passage without result",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_227"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman"
+      ],
+      "performs": [
+        "character_percy_phelps",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_24",
+      "type": "event",
+      "label": "The speaker and policeman examine a corridor laid down with creamy linoleum and fail to find any footmark outline",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_228",
+        "sentence_229"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman"
+      ],
+      "performs": [
+        "character_percy_phelps",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_25",
+      "type": "event",
+      "label": "A speaker asks whether it had been raining all evening and the other replies it was since about seven",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_230",
+        "sentence_231"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_commissionnaire",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "\"Since about seven.\""
+      }
+    },
+    {
+      "id": "event_2_26",
+      "type": "event",
+      "label": "A speaker questions how the woman left no traces with muddy boots",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_232"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_commissionnaire"
+        ],
+        "content": "\"How is it, then, that the woman who came into the room about nine left no traces with her muddy boots?\""
+      }
+    },
+    {
+      "id": "event_2_27",
+      "type": "event",
+      "label": "The speaker says the point was raised and that it occurred to him at the time",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_233",
+        "sentence_234"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_28",
+      "type": "event",
+      "label": "The speaker states that charwomen take off their boots and put on list slippers at the commissionnaire's office",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_235"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "The charwomen are in the habit of taking off their boots at the commissionnaire's office, and putting on list slippers."
+      }
+    },
+    {
+      "id": "event_2_29",
+      "type": "event",
+      "label": "The speaker says there were no marks though it was a wet night",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_237"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "There were no marks, then, though the night was a wet one?"
+      }
+    },
+    {
+      "id": "event_2_30",
+      "type": "event",
+      "label": "The speaker describes examining the room and claims there is no possibility of a secret door and windows are thirty feet from the ground",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_240",
+        "sentence_241"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "We examined the room also. There is no possibility of a secret door, and the windows are quite thirty feet from the ground."
+      }
+    },
+    {
+      "id": "event_2_31",
+      "type": "event",
+      "label": "The speaker states the windows were fastened on the inside and the carpet prevents a trap-door and the ceiling is ordinary whitewashed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_242",
+        "sentence_243"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "Both of them were fastened on the inside. The carpet prevents any possibility of a trap-door, and the ceiling is of the ordinary whitewashed kind."
+      }
+    },
+    {
+      "id": "event_2_32",
+      "type": "event",
+      "label": "The speaker pledges his life that the thief could only have come through the door",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_244"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "\"I will pledge my life that whoever stole my papers could only have come through the door.\""
+      }
+    },
+    {
+      "id": "event_2_33",
+      "type": "event",
+      "label": "A speaker asks about the fireplace and the speaker states they use none and that there is a stove",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_245",
+        "sentence_246",
+        "sentence_247"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "They use none. There is a stove."
+      }
+    },
+    {
+      "id": "event_2_34",
+      "type": "event",
+      "label": "The speaker states the bell-rope hangs from a wire just to the right of his desk and that whoever rang it must have come right up to the desk",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_248",
+        "sentence_249"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "The bell-rope hangs from the wire just to the right of my desk. Whoever rang it must have come right up to the desk to do it."
+      }
+    },
+    {
+      "id": "event_2_35",
+      "type": "event",
+      "label": "The speaker asks why a criminal would want to ring the bell and calls it an insoluble mystery",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_250",
+        "sentence_251"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "But why should any criminal wish to ring the bell? It is a most insoluble mystery."
+      }
+    },
+    {
+      "id": "event_2_36",
+      "type": "event",
+      "label": "A speaker asks what the next steps were and the speaker describes not finding cigar-end, glove, hairpin, or other trifles",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_253",
+        "sentence_254",
+        "sentence_255"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "There was nothing of the sort."
+      }
+    },
+    {
+      "id": "event_2_37",
+      "type": "event",
+      "label": "The speaker states they never thought of a smell and that a tobacco scent would have been worth a great deal",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_256",
+        "sentence_257",
+        "sentence_258"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "Well, we never thought of that. Ah, a scent of tobacco would have been worth a great deal to us in such an investigation."
+      }
+    },
+    {
+      "id": "event_2_38",
+      "type": "event",
+      "label": "The speaker says he does not smoke himself and that there was absolutely no clue of any kind",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_259",
+        "sentence_260"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "I never smoke myself, so I think I should have observed it if there had been any smell of tobacco. There was absolutely no clue of any kind."
+      }
+    },
+    {
+      "id": "event_2_39",
+      "type": "event",
+      "label": "The speaker states that the only tangible fact was that the commissionnaire's wife hurried out",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_261"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "The only tangible fact was that the commissionnaire's wife—Mrs. Tangey was the name—had hurried out of the place."
+      }
+    },
+    {
+      "id": "event_2_40",
+      "type": "event",
+      "label": "The commissionnaire is said to have given no explanation beyond that it was about the time when the woman always went home",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_262"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [],
+        "content": "He could give no explanation save that it was about the time when the woman always went home."
+      }
+    },
+    {
+      "id": "event_2_41",
+      "type": "event",
+      "label": "The policeman and the speaker agree to seize the woman before she gets rid of the papers",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_263"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_policeman"
+        ],
+        "content": "The policeman and I agreed that our best plan would be to seize the woman before she could get rid of the papers, presuming that she had them."
+      }
+    },
+    {
+      "id": "event_2_42",
+      "type": "event",
+      "label": "Scotland Yard is notified and Mr. Forbes comes and takes up the case with energy",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_264"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "organisation_scotland_yard",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_forbes"
+      ]
+    },
+    {
+      "id": "event_2_43",
+      "type": "event",
+      "label": "The group hires a hansom and travels to an address given",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_265"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_policeman",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_percy_phelps",
+        "character_policeman",
+        "character_forbes"
+      ]
+    },
+    {
+      "id": "event_2_44",
+      "type": "event",
+      "label": "A young woman opens the door and is identified as Mrs. Tangey's eldest daughter",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_266"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_forbes",
+        "character_policeman",
+        "character_mrs_tangey_eldest_daughter"
+      ]
+    },
+    {
+      "id": "event_2_45",
+      "type": "event",
+      "label": "The daughter shows the men into the front room to wait",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_267"
+      ],
+      "participants": [
+        "character_mrs_tangey_eldest_daughter",
+        "character_percy_phelps",
+        "character_forbes",
+        "character_policeman"
+      ],
+      "performs": [
+        "character_mrs_tangey_eldest_daughter"
+      ]
+    },
+    {
+      "id": "event_2_46",
+      "type": "event",
+      "label": "A knock comes at the door and the men allow the girl to open it instead of opening it themselves",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_268",
+        "sentence_269"
+      ],
+      "participants": [
+        "character_mrs_tangey_eldest_daughter",
+        "character_percy_phelps",
+        "character_forbes",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_47",
+      "type": "event",
+      "label": "The girl tells her mother that two men are in the house waiting to see her, then men hear feet rushing down the passage",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_270"
+      ],
+      "participants": [
+        "character_mrs_tangey_eldest_daughter",
+        "character_mrs_tangey"
+      ],
+      "performs": [
+        "character_mrs_tangey_eldest_daughter"
+      ],
+      "communicates": {
+        "speaker": "character_mrs_tangey_eldest_daughter",
+        "recipients": [
+          "character_mrs_tangey"
+        ],
+        "content": "'Mother, there are two men in the house waiting to see you,'"
+      }
+    },
+    {
+      "id": "event_2_48",
+      "type": "event",
+      "label": "Forbes opens the door and the men run into the back room, but Mrs. Tangey reaches the back room first",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_271"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_percy_phelps",
+        "character_policeman",
+        "character_mrs_tangey"
+      ],
+      "performs": [
+        "character_forbes",
+        "character_percy_phelps",
+        "character_policeman"
+      ]
+    },
+    {
+      "id": "event_2_49",
+      "type": "event",
+      "label": "Mrs. Tangey stares at the men, recognizes Phelps, and expresses absolute astonishment",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_272"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "character_percy_phelps",
+        "character_forbes",
+        "character_policeman"
+      ],
+      "performs": [
+        "character_mrs_tangey"
+      ]
+    },
+    {
+      "id": "event_2_50",
+      "type": "event",
+      "label": "Mrs. Tangey cries that Phelps is of the office",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_274"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_mrs_tangey"
+      ],
+      "communicates": {
+        "speaker": "character_mrs_tangey",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "'isn't Mr. Phelps, of the office!'"
+      }
+    },
+    {
+      "id": "event_2_51",
+      "type": "event",
+      "label": "A companion asks whether they are who Mrs. Tangey thought they were when she ran away from them",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_276"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_mrs_tangey"
+      ],
+      "performs": [
+        "character_forbes"
+      ],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_mrs_tangey"
+        ],
+        "content": "you think we were when you ran away from us?' asked my companion."
+      }
+    },
+    {
+      "id": "event_2_52",
+      "type": "event",
+      "label": "Mrs. Tangey says she thought they were the brokers and mentions trouble with a tradesman",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_277"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_mrs_tangey"
+      ],
+      "communicates": {
+        "speaker": "character_mrs_tangey",
+        "recipients": [
+          "character_forbes"
+        ],
+        "content": "'I thought you were the brokers,' said she, 'we have had some trouble with a tradesman.'"
+      }
+    },
+    {
+      "id": "event_2_53",
+      "type": "event",
+      "label": "Forbes tells Mrs. Tangey they have reason to believe she took an important paper from the Foreign Office and orders her to come back to Scotland Yard to be searched",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_278",
+        "sentence_279",
+        "sentence_280"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_mrs_tangey",
+        "organisation_scotland_yard",
+        "organisation_foreign_office"
+      ],
+      "performs": [
+        "character_forbes"
+      ],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_mrs_tangey"
+        ],
+        "content": "'That's not quite good enough,' answered Forbes. 'We have reason to believe that you have taken a paper of importance from the Foreign Office, and that you ran in here to dispose of it. You must come back with us to Scotland Yard to be searched.'"
+      }
+    },
+    {
+      "id": "event_2_54",
+      "type": "event",
+      "label": "Mrs. Tangey protests and resists unsuccessfully as they prepare transport",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_281"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "character_forbes",
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_55",
+      "type": "event",
+      "label": "A four-wheeler is brought and the three men and Mrs. Tangey drive back",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_282"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "character_forbes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_forbes",
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_56",
+      "type": "event",
+      "label": "The group examines the kitchen and especially the kitchen fire to see whether Mrs. Tangey got rid of the papers while alone",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_283"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_forbes",
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_57",
+      "type": "event",
+      "label": "No signs of ashes or scraps are found",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_284"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_58",
+      "type": "event",
+      "label": "Upon reaching Scotland Yard, Mrs. Tangey is handed over to a female searcher",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_285"
+      ],
+      "participants": [
+        "character_mrs_tangey",
+        "organisation_scotland_yard",
+        "character_female_searcher"
+      ],
+      "performs": [
+        "character_forbes",
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_59",
+      "type": "event",
+      "label": "Phelps waits for Mrs. Tangey to return with a report",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_286"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_female_searcher",
+        "character_mrs_tangey"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_60",
+      "type": "event",
+      "label": "The report states there are no signs of the papers",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_287"
+      ],
+      "participants": [
+        "character_female_searcher",
+        "character_percy_phelps",
+        "character_mrs_tangey"
+      ]
+    },
+    {
+      "id": "event_2_61",
+      "type": "event",
+      "label": "Phelps describes that the horror of his situation comes fully and that previously action had numbed thought",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_288",
+        "sentence_289"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_62",
+      "type": "event",
+      "label": "Phelps narrates that there was nothing more to do and he realized his position",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_291"
+      ],
+      "participants": [
+        "character_percy_phelps"
+      ]
+    },
+    {
+      "id": "event_2_63",
+      "type": "event",
+      "label": "Phelps narrates he had a fit at the station and became raving before reaching home",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_304"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_dr_ferrier"
+      ],
+      "performs": [
+        "character_dr_ferrier"
+      ]
+    },
+    {
+      "id": "event_2_64",
+      "type": "event",
+      "label": "Holmes responds that Phelps has left very few questions but asks whether anyone was told about the special task",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_324",
+        "sentence_326"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Did you tell any one that you had this special task to perform?"
+      }
+    },
+    {
+      "id": "event_2_65",
+      "type": "event",
+      "label": "Phelps answers that no one was told",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_327"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"No one.\""
+      }
+    },
+    {
+      "id": "event_2_66",
+      "type": "event",
+      "label": "Holmes asks if Miss Harrison was told and Phelps answers no",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_328",
+        "sentence_329"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_miss_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "No."
+      }
+    },
+    {
+      "id": "event_2_67",
+      "type": "event",
+      "label": "Phelps says he had not been back to Woking between getting the order and executing the commission",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_330"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "location_woking"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "I had not been back to Woking between getting the order and executing the commission."
+      }
+    },
+    {
+      "id": "event_2_68",
+      "type": "event",
+      "label": "Holmes asks whether any of Phelps's people had been to see him and Phelps answers none",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_331",
+        "sentence_332"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "None."
+      }
+    },
+    {
+      "id": "event_2_69",
+      "type": "event",
+      "label": "Holmes asks whether any people knew their way about in the office and Phelps answers yes",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_333",
+        "sentence_334"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Oh, yes, all of them had been shown over it."
+      }
+    },
+    {
+      "id": "event_2_70",
+      "type": "event",
+      "label": "Holmes asks whether Phelps said nothing and Phelps says he said nothing",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"I said nothing.\""
+      }
+    },
+    {
+      "id": "event_2_71",
+      "type": "event",
+      "label": "Holmes asks about the commissionnaire and Phelps says he knows only that he is an old soldier",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_338"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_commissionnaire"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Nothing except that he is an old soldier."
+      }
+    },
+    {
+      "id": "event_2_72",
+      "type": "event",
+      "label": "Phelps states the commissionnaire's regiment is the Coldstream Guards",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_340"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Oh, I have heard—Coldstream Guards."
+      }
+    },
+    {
+      "id": "event_2_73",
+      "type": "event",
+      "label": "Holmes walks past the couch to the open window and holds up a moss-rose",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_345"
+      ],
+      "participants": [
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_74",
+      "type": "event",
+      "label": "Miss Harrison breaks in and asks whether Holmes has any prospect of solving the mystery",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_356",
+        "sentence_357",
+        "sentence_358"
+      ],
+      "participants": [
+        "character_miss_harrison",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_miss_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_miss_harrison",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"Do you see any prospect of solving this mystery, Mr. Holmes?\""
+      }
+    },
+    {
+      "id": "event_2_75",
+      "type": "event",
+      "label": "Holmes promises to look into the matter and let them know any points which strike him",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_361"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_miss_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps",
+          "character_miss_harrison"
+        ],
+        "content": "\"Oh, the mystery!\" ... \"I can promise you that I will look into the matter and let you know any points which may strike me.\""
+      }
+    },
+    {
+      "id": "event_2_76",
+      "type": "event",
+      "label": "Holmes advises Watson and Phelps to go to London and test conclusions",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_77",
+      "type": "event",
+      "label": "Holmes and Watson prepare to go to town after discussion",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_384"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_2_78",
+      "type": "event",
+      "label": "Joseph Harrison drives the men to the station and they travel in a Portsmouth train",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_385"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_2_79",
+      "type": "event",
+      "label": "They pass Clapham Junction while on the Portsmouth train",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_386"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_2_80",
+      "type": "event",
+      "label": "Holmes tells Watson about board-schools as they ride and comments on light-houses",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_390",
+        "sentence_391",
+        "sentence_392"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "Look at those big, isolated clumps of building rising up above the slates... The board-schools. Light-houses, my boy! Beacons of the future!"
+      }
+    },
+    {
+      "id": "event_2_81",
+      "type": "event",
+      "label": "Holmes states inquiries have been made independently and that today must be a day of inquiries",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_404",
+        "sentence_405"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_82",
+      "type": "event",
+      "label": "Holmes proposes beginning by seeing Forbes and says inquiries are already set on foot",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_411",
+        "sentence_412",
+        "sentence_424"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_83",
+      "type": "event",
+      "label": "Holmes says the most difficult crime to track is the one which is purposeless and asks who profits",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_415",
+        "sentence_416",
+        "sentence_417"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "The most difficult crime to track is the one which is purposeless. Now this is not purposeless. Who is it who profits by it?"
+      }
+    },
+    {
+      "id": "event_2_84",
+      "type": "event",
+      "label": "Holmes lists possible beneficiaries including the French ambassador, the Russian, either of them, and Lord Holdhurst",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_418"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_lord_holdhurst"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "There is the French ambassador, there is the Russian, there is whoever might sell it to either of these, and there is Lord Holdhurst."
+      }
+    },
+    {
+      "id": "event_2_85",
+      "type": "event",
+      "label": "Holmes says it is conceivable that a statesman might find himself not sorry to have such a document destroyed",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_420"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"Well, it is just conceivable that a statesman might find himself in a position where he was not sorry to have such a document accidentally destroyed.\""
+      }
+    },
+    {
+      "id": "event_2_86",
+      "type": "event",
+      "label": "Holmes says they will see Lord Holdhurst today to find out if he can tell anything",
+      "section": "naval-treaty-section_2",
+      "source_nodes": [
+        "sentence_423"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_lord_holdhurst"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "We shall see the noble lord to-day and find out if he can tell us anything."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "A wire message is sent from Woking station to every evening paper in London",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_426"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "location_woking",
+        "location_baker_street"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "location_baker_street"
+        ],
+        "content": "I sent wires from Woking station to every evening paper in London."
+      }
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Holmes states an advertisement will appear in each evening paper",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_427"
+      ],
+      "participants": [
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [],
+        "content": "This advertisement will appear in each of them."
+      }
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "A sheet torn from a notebook is handed over",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_428"
+      ],
+      "participants": [
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "A pencil note states a cab number and a delivery location-time detail",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_430"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "location_charles_street"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [],
+        "content": "The number of the cab which dropped a fare at or about the door of the Foreign Office in Charles Street at quarter to ten in the evening of May 23rd."
+      }
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "A note instructs applying the number to 221B, Baker Street",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_431"
+      ],
+      "participants": [
+        "location_baker_street"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [],
+        "content": "Apply 221B, Baker Street."
+      }
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Holmes is asked whether the thief came in a cab",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_433"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "You are confident that the thief came in a cab?"
+      }
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "A detective questions are discussed with Holmes about lack of hiding places and likely entry route from outside",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_435",
+        "sentence_436",
+        "sentence_437"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [],
+        "content": "Yes, I think that we may safely deduce a cab."
+      }
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "A bell ringing is discussed with multiple possible explanations",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_441",
+        "sentence_442",
+        "sentence_443",
+        "sentence_444",
+        "sentence_445",
+        "sentence_446"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [],
+        "content": "Why should the bell ring?"
+      }
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Watson and Holmes reach their terminus and travel to Scotland Yard",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_448"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes",
+        "organisation_scotland_yard"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [],
+        "content": "It was twenty past three when we reached our terminus, and after a hasty luncheon at the buffet we pushed on at once to Scotland Yard."
+      }
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Forbes receives Holmes and Watson in Scotland Yard",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_449",
+        "sentence_450"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_sherlock_holmes",
+        "character_watson",
+        "organisation_scotland_yard"
+      ],
+      "performs": [
+        "character_forbes"
+      ],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_sherlock_holmes",
+          "character_watson"
+        ],
+        "content": "I've heard of your methods before now, Mr. Holmes,"
+      }
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Forbes accuses Holmes of using police information and finishing the case himself",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_451",
+        "sentence_452"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_forbes"
+      ],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "You are ready enough to use all the information that the police can lay at your disposal, and then you try to finish the case yourself and bring discredit on them."
+      }
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Holmes replies that police receive most credit and he urges working with him",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_453",
+        "sentence_454"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_forbes"
+        ],
+        "content": "out of my last fifty-three cases my name has only appeared in four, and the police have had all the credit in forty-nine."
+      }
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Forbes and Holmes discuss shadowing Tangey and Tangey's wife and other lack of evidence",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_458",
+        "sentence_459",
+        "sentence_460",
+        "sentence_461",
+        "sentence_463",
+        "sentence_464",
+        "sentence_487",
+        "sentence_488",
+        "sentence_490"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Well, we have nothing else to go upon—no evidence of any kind."
+      }
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "A plan is discussed about explaining why the bell rang after Mr. Phelps rang for coffee",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_471",
+        "sentence_472"
+      ],
+      "participants": [
+        "character_forbes",
+        "character_sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_forbes",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "She said that her husband was very tired and she wished to relieve him."
+      }
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "Joseph Harrison reports marks on the bed outside the window and other physical follow-up attempts",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_607",
+        "sentence_608"
+      ],
+      "participants": [
+        "character_pughy_phelps",
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes",
+          "character_watson"
+        ],
+        "content": "Joseph and the groom found marks on the bed outside the window, but the weather has been so dry lately that they found it hopeless to follow the trail across the grass."
+      }
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Holmes and Watson depart the office to interview Lord Holdhurst in Downing Street",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_498",
+        "sentence_500",
+        "sentence_501"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes",
+        "character_lord_holdhurst"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "We are now going to interview Lord Holdhurst, the cabinet minister and future premier of England."
+      }
+    },
+    {
+      "id": "event_3_17",
+      "type": "event",
+      "label": "Holmes states the interview is in the interest of Mr. Percy Phelps",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_508"
+      ],
+      "participants": [
+        "character_lord_holdhurst",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_lord_holdhurst"
+        ],
+        "content": "In that of Mr. Percy Phelps,"
+      }
+    },
+    {
+      "id": "event_3_18",
+      "type": "event",
+      "label": "Lord Holdhurst answers Holmes's questions about copying instructions and overhearing possibility",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_516",
+        "sentence_517",
+        "sentence_518",
+        "sentence_519"
+      ],
+      "participants": [
+        "character_lord_holdhurst",
+        "character_sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_lord_holdhurst",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "It is out of the question."
+      }
+    },
+    {
+      "id": "event_3_19",
+      "type": "event",
+      "label": "Lord Holdhurst states the thief's presence in the room was purely accidental",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_524",
+        "sentence_525"
+      ],
+      "participants": [
+        "character_lord_holdhurst",
+        "character_sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_lord_holdhurst",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "then the thief's presence in the room was purely accidental."
+      }
+    },
+    {
+      "id": "event_3_20",
+      "type": "event",
+      "label": "Holmes and Lord Holdhurst discuss delays in the treaty reaching foreign offices",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_535",
+        "sentence_537",
+        "sentence_541",
+        "sentence_542"
+      ],
+      "participants": [
+        "character_lord_holdhurst",
+        "character_sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_lord_holdhurst",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "The treaty will cease to be secret in a few months."
+      }
+    },
+    {
+      "id": "event_3_21",
+      "type": "event",
+      "label": "Holmes arranges to go to Woking with Watson the next day to check the cab advertisement",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_555",
+        "sentence_556"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "location_woking"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "come down with me to Woking to-morrow, by the same train which we took yesterday."
+      }
+    },
+    {
+      "id": "event_3_22",
+      "type": "event",
+      "label": "Holmes travels to Woking with Watson and finds no new results from the advertisement",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_557",
+        "sentence_558"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "location_woking"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "He had had no answer to his advertisement, he said, and no fresh light had been thrown upon the case."
+      }
+    },
+    {
+      "id": "event_3_23",
+      "type": "event",
+      "label": "Holmes meets Percy Phelps and reports a negative result and further inquiries",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_563",
+        "sentence_565",
+        "sentence_566"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "My report, as I expected, is a negative one,"
+      }
+    },
+    {
+      "id": "event_3_24",
+      "type": "event",
+      "label": "Percy Phelps reports an overnight bell-related burglary attempt and window attack",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_574",
+        "sentence_575",
+        "sentence_582",
+        "sentence_587",
+        "sentence_590",
+        "sentence_592",
+        "sentence_594",
+        "sentence_595",
+        "sentence_600"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_harrison"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Yes, we have had an adventure during the night, and one which might have proved to be a serious one."
+      }
+    },
+    {
+      "id": "event_3_25",
+      "type": "event",
+      "label": "Percy Phelps rings the bell and rouses the house after failing to follow the intruder",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_603",
+        "sentence_604",
+        "sentence_605",
+        "sentence_606"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes",
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "As it was, I rang the bell and roused the house."
+      }
+    },
+    {
+      "id": "event_3_26",
+      "type": "event",
+      "label": "Holmes orders Miss Harrison to remain in the bedroom and to keep the room locked and the key",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_652",
+        "sentence_656",
+        "sentence_657",
+        "sentence_664"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_miss_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_miss_harrison"
+        ],
+        "content": "When you go to bed lock the door of this room on the outside and keep the key."
+      }
+    },
+    {
+      "id": "event_3_27",
+      "type": "event",
+      "label": "Miss Harrison nods assent to Holmes's instruction",
+      "section": "naval-treaty-section_3",
+      "source_nodes": [
+        "sentence_665"
+      ],
+      "participants": [
+        "character_miss_harrison",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_miss_holmes"
+      ]
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "Holmes asks their client what he proposes now",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_671"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "What do you propose now, Mr. Holmes?"
+      }
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "Holmes proposes that they come to London with him",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_673",
+        "sentence_674"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps",
+          "character_watson"
+        ],
+        "content": "It would be a very great help to me if you would come up to London with us."
+      }
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "Holmes tells the others to come as soon as they can and in an hour",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_676",
+        "sentence_677"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps",
+          "character_watson"
+        ],
+        "content": "Say in an hour."
+      }
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "Holmes declines to have Joseph stay overnight and states Watson will look after Percy Phelps",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_684",
+        "sentence_685"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "character_watson",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Oh, no; my friend Watson is a medical man, you know, and he'll look after you."
+      }
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "Holmes arranges lunch at the current location and departure to town together",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_686"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_percy_phelps",
+        "character_miss_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson",
+          "character_percy_phelps"
+        ],
+        "content": "We'll have our lunch here, if you will permit us, and then we shall all three set off for town together."
+      }
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "Holmes announces he has no intention of leaving Woking and will clear points before going",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_689",
+        "sentence_690"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps",
+          "character_watson"
+        ],
+        "content": "he calmly announced that he had no intention of leaving Woking."
+      }
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "Holmes instructs Watson to drive to Baker Street and remain with Phelps's friend until Holmes sees him again",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_692"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "Watson, when you reach London you would oblige me by driving at once to Baker Street with our friend here, and remaining with him until I see you again."
+      }
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "Holmes allocates the spare bedroom to Percy Phelps and schedules his arrival for breakfast",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_694"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Mr. Phelps can have the spare bedroom to-night, and I will be with you in time for breakfast, for there is a train which will take me into Waterloo at eight."
+      }
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "Holmes tells them their London investigation will be done tomorrow",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_695",
+        "sentence_697",
+        "sentence_698"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "We can do that to-morrow. I think that just at present I can be of more immediate use here."
+      }
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "Phelps says he hopes Holmes will be back tomorrow night and Holmes responds he hardly expects to return to Briarbrae",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_699",
+        "sentence_700"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "You might tell them at Briarbrae that I hope to be back to-morrow night,"
+      }
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "Holmes answers that he hardly expects to go back to Briarbrae",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_700"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "I hardly expect to go back to Briarbrae,"
+      }
+    },
+    {
+      "id": "event_4_12",
+      "type": "event",
+      "label": "Holmes tells Watson to go to bed and be fresh for whatever may await tomorrow",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_739"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "Now, my dear fellow, we can't help matters by making ourselves nervous about them, so let me implore you to go to bed and so be fresh for whatever may await us to-morrow."
+      }
+    },
+    {
+      "id": "event_4_13",
+      "type": "event",
+      "label": "Holmes enters Phelps's room the next morning and says he has only a scratch from his own clumsiness",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_761"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps",
+          "character_watson"
+        ],
+        "content": "\"Tut, it is only a scratch through my own clumsiness,\""
+      }
+    },
+    {
+      "id": "event_4_14",
+      "type": "event",
+      "label": "Holmes says breakfast will be after breakfast and that there was no answer from his cabman advertisement",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_767",
+        "sentence_769",
+        "sentence_770"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson",
+          "character_percy_phelps"
+        ],
+        "content": "After breakfast, my dear Watson. Remember that I have breathed thirty miles of Surrey air this morning. I suppose that there has been no answer from my cabman advertisement? Well, well, we cannot expect to score every time."
+      }
+    },
+    {
+      "id": "event_4_15",
+      "type": "event",
+      "label": "Holmes answers Phelps during breakfast and introduces a dramatic reveal",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_784",
+        "sentence_792"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson",
+        "character_mrs_hudson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Well, then, said Holmes, with a mischievous twinkle, \"I suppose that you have no objection to helping me?\""
+      }
+    },
+    {
+      "id": "event_4_16",
+      "type": "event",
+      "label": "Phelps screams while lifting the cover revealing a cylinder of blue-grey paper in the dish",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_785",
+        "sentence_786"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes",
+          "character_watson"
+        ],
+        "content": "a scream"
+      }
+    },
+    {
+      "id": "event_4_17",
+      "type": "event",
+      "label": "Phelps kisses Holmes's hand and says he saved his honor",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_793",
+        "sentence_794",
+        "sentence_796"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_percy_phelps"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "God bless you! You have saved my honour."
+      }
+    },
+    {
+      "id": "event_4_18",
+      "type": "event",
+      "label": "Holmes says his own was at stake and that it is hateful to fail in a case",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_797",
+        "sentence_798"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "Well, my own was at stake, you know... I assure you it is just as hateful to me to fail in a case as it can be to you to blunder over a commission."
+      }
+    },
+    {
+      "id": "event_4_19",
+      "type": "event",
+      "label": "Holmes places the explanation and describes obtaining the cylinder from behind a board after Joseph Harrison enters the room",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_803",
+        "sentence_804",
+        "sentence_805",
+        "sentence_806",
+        "sentence_810",
+        "sentence_812",
+        "sentence_825",
+        "sentence_826",
+        "sentence_830",
+        "sentence_831",
+        "sentence_836",
+        "sentence_839",
+        "sentence_840"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_watson",
+        "character_joseph_harrison",
+        "character_miss_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson",
+          "character_percy_phelps"
+        ],
+        "content": "I'll tell you what I did first, and how I came to do it afterwards"
+      }
+    },
+    {
+      "id": "event_4_20",
+      "type": "event",
+      "label": "Holmes says Joseph Harrison executed an intrusion at the bedroom and retrieved the cylinder from a hiding place",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_825",
+        "sentence_826",
+        "sentence_830",
+        "sentence_831",
+        "sentence_833",
+        "sentence_834",
+        "sentence_835",
+        "sentence_836"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_sherlock_holmes",
+        "character_miss_harrison"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_4_21",
+      "type": "event",
+      "label": "Joseph Harrison takes a knife and gets into the room by opening the window and lifting the bar",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_829",
+        "sentence_830",
+        "sentence_831"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_4_22",
+      "type": "event",
+      "label": "Holmes says he grasped Joseph Harrison twice after Joseph flew at him with the knife and Holmes got a cut over his knuckles",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_838"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_4_23",
+      "type": "event",
+      "label": "Holmes says he wired full particulars to Forbes",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_840"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_forbes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_forbes"
+        ],
+        "content": "wired full particulars"
+      }
+    },
+    {
+      "id": "event_4_24",
+      "type": "event",
+      "label": "Holmes explains Joseph Harrison's character and that he would do anything to improve fortunes",
+      "section": "naval-treaty-section_4",
+      "source_nodes": [
+        "sentence_851",
+        "sentence_852",
+        "sentence_853"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "I am afraid Joseph's character is a rather deeper and more dangerous one... From what I have heard from him this morning, I gather that he has lost heavily in dabbling with stocks, and that he is ready to do anything on earth to better his fortunes. Being an absolutely selfish man, when a chance presented itself he did not allow either his sister's happiness or your reputation to hold his hand."
+      }
+    },
+    {
+      "id": "event_5_1",
+      "type": "event",
+      "label": "Joseph Harrison enters an office through the Charles Street door and walks into a room immediately after someone leaves",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_863"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "location_charles_street",
+        "character_watson"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_2",
+      "type": "event",
+      "label": "Joseph Harrison finds no one present and rings a bell",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_864"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_commissionnaire"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_3",
+      "type": "event",
+      "label": "Joseph Harrison notices a paper on a table at the moment he rings the bell",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_864"
+      ],
+      "participants": [
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_4",
+      "type": "event",
+      "label": "Joseph Harrison thrusts a State document into his pocket and leaves",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_865"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "object_secret_treaty_original"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_5",
+      "type": "event",
+      "label": "A commissionnaire takes time to notice the bell and draws attention to it after a few minutes",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_866"
+      ],
+      "participants": [
+        "character_commissionnaire",
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_commissionnaire"
+      ]
+    },
+    {
+      "id": "event_5_6",
+      "type": "event",
+      "label": "Joseph Harrison goes to Woking by the first train, examines the document, and conceals it for later removal",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_867"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "location_woking",
+        "object_secret_treaty_original"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_7",
+      "type": "event",
+      "label": "Holmes returns suddenly to the room",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_868"
+      ],
+      "participants": [
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_8",
+      "type": "event",
+      "label": "Joseph Harrison is bundled out of his room without warning",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_869"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_9",
+      "type": "event",
+      "label": "At least two of the group remain in the room to prevent Joseph Harrison from regaining the treasure",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_869"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "object_secret_treaty_original"
+      ]
+    },
+    {
+      "id": "event_5_10",
+      "type": "event",
+      "label": "Joseph Harrison attempts to steal in but is prevented by wakefulness",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_872"
+      ],
+      "participants": [
+        "character_joseph_harrison",
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_joseph_harrison"
+      ]
+    },
+    {
+      "id": "event_5_11",
+      "type": "event",
+      "label": "Watson says he does not remember taking the usual draught that night",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_873"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [],
+        "content": "I remember."
+      }
+    },
+    {
+      "id": "event_5_12",
+      "type": "event",
+      "label": "Holmes explains that Joseph Harrison took steps to make the draught efficacious and relied on Watson being unconscious",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_875"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_joseph_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "I fancy that he had taken steps to make that draught efficacious, and that he quite relied upon your being unconscious."
+      }
+    },
+    {
+      "id": "event_5_13",
+      "type": "event",
+      "label": "Holmes states he understood Joseph Harrison would repeat the attempt whenever it could be done with safety",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_876"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "Of course, I understood that he would repeat the attempt whenever it could be done with safety."
+      }
+    },
+    {
+      "id": "event_5_14",
+      "type": "event",
+      "label": "Watson leaving the room gives Joseph Harrison the chance he wanted",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_877"
+      ],
+      "participants": [
+        "character_watson",
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_5_15",
+      "type": "event",
+      "label": "Holmes keeps Miss Harrison in the room all day",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_878"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_16",
+      "type": "event",
+      "label": "Holmes gives Joseph Harrison the idea that the coast is clear, then keeps guard as described",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_879"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_17",
+      "type": "event",
+      "label": "Holmes permits Joseph Harrison to take the papers from the hiding-place",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_881"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "object_secret_treaty_original"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_18",
+      "type": "event",
+      "label": "Watson asks whether there is another point Holmes can make clear",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_882"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Is there any other point which I can make clear?"
+      }
+    },
+    {
+      "id": "event_5_19",
+      "type": "event",
+      "label": "Watson asks why Joseph Harrison tried the window on the first occasion rather than the door",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_883"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes",
+        "character_joseph_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "Why did he try the window on the first occasion, when he might have entered by the door?"
+      }
+    },
+    {
+      "id": "event_5_20",
+      "type": "event",
+      "label": "Holmes states that reaching the door would require passing seven bedrooms",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_884"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "In reaching the door he would have to pass seven bedrooms."
+      }
+    },
+    {
+      "id": "event_5_21",
+      "type": "event",
+      "label": "Holmes states that Joseph Harrison could get out onto the lawn with ease",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_885"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_joseph_harrison",
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "On the other hand, he could get out on to the lawn with ease."
+      }
+    },
+    {
+      "id": "event_5_22",
+      "type": "event",
+      "label": "Phelps asks whether Joseph Harrison had any murderous intention and states the knife was only a tool",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_887",
+        "sentence_888"
+      ],
+      "participants": [
+        "character_percy_phelps",
+        "character_joseph_harrison",
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_percy_phelps",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "The knife was only meant as a tool."
+      }
+    },
+    {
+      "id": "event_5_23",
+      "type": "event",
+      "label": "Holmes responds that he can only say for certain that Joseph Harrison is a gentleman whose mercy he would be unwilling to trust",
+      "section": "naval-treaty-section_5",
+      "source_nodes": [
+        "sentence_889",
+        "sentence_890"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_percy_phelps",
+        "character_joseph_harrison"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_percy_phelps"
+        ],
+        "content": "I can only say for certain that Mr. Joseph Harrison is a gentleman to whose mercy I should be extremely unwilling to trust."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "document_letter_pcy_phelps",
+      "to": "character_watson",
+      "type": "OWNS",
+      "valid_from": "event_1_55_1",
+      "caused_by": [
+        "event_1_55_1"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "character_holmes",
+      "to": "location_baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_34_1",
+      "caused_by": [
+        "event_1_34_1"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "character_watson",
+      "to": "location_baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_34_1",
+      "valid_until": "event_4_7",
+      "caused_by": [
+        "event_1_34_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "character_watson",
+      "to": "location_baker_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_7",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "document_telegrams_holmes",
+      "to": "character_page-boy",
+      "type": "OWNS",
+      "valid_from": "event_1_49_1",
+      "caused_by": [
+        "event_1_49_1"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "object_secret_treaty_original",
+      "to": "object_letter_lockup_desk",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_114_1",
+      "caused_by": [
+        "event_1_114_1"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "object_secret_treaty_draft",
+      "to": "object_letter_lockup_desk",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_114_1",
+      "caused_by": [
+        "event_1_114_1"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "character_percy_phelps",
+      "to": "location_briarbrae",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "character_sherlock_holmes",
+      "to": "location_woking",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_6",
+      "valid_until": "event_4_8",
+      "caused_by": [
+        "event_4_6"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "character_sherlock_holmes",
+      "to": "location_waterloo",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_8",
+      "caused_by": [
+        "event_4_8"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "character_miss_harrison",
+      "to": "character_joseph_harrison",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_19",
+      "caused_by": [
+        "event_4_19"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "character_joseph_harrison",
+      "to": "location_charles_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_1",
+      "valid_until": "event_5_6",
+      "caused_by": [
+        "event_5_1"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "character_joseph_harrison",
+      "to": "location_woking",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_6",
+      "caused_by": [
+        "event_5_6"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "object_secret_treaty_original",
+      "to": "character_joseph_harrison",
+      "type": "OWNS",
+      "valid_from": "event_5_4",
+      "caused_by": [
+        "event_5_4"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "character_sherlock_holmes",
+      "to": "character_watson",
+      "type": "IS_INSIDE",
+      "valid_from": "event_5_15",
+      "caused_by": [
+        "event_5_15"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "case_1_second_stain",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_4"
+      ]
+    },
+    {
+      "entity": "case_1_naval_treaty",
+      "section": "naval-treaty-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_4",
+        "sentence_9"
+      ]
+    },
+    {
+      "entity": "case_1_tired_captain",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_4"
+      ]
+    },
+    {
+      "entity": "character_sherlock_holmes",
+      "section": "naval-treaty-section_1",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_6",
+        "sentence_7",
+        "sentence_23",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35",
+        "sentence_40",
+        "sentence_47",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_65",
+        "sentence_67",
+        "sentence_76",
+        "sentence_78",
+        "sentence_81",
+        "sentence_85",
+        "sentence_92",
+        "sentence_95",
+        "sentence_100",
+        "sentence_116",
+        "sentence_126",
+        "sentence_154"
+      ]
+    },
+    {
+      "entity": "character_watson",
+      "section": "naval-treaty-section_1",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_7",
+        "sentence_18",
+        "sentence_23",
+        "sentence_24",
+        "sentence_34",
+        "sentence_37",
+        "sentence_40",
+        "sentence_55",
+        "sentence_67",
+        "sentence_92",
+        "sentence_95",
+        "sentence_96",
+        "sentence_103"
+      ]
+    },
+    {
+      "entity": "character_monsieur_dubuque",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "character_fritz_von_waldbaum",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "character_percy_phelps",
+      "section": "naval-treaty-section_1",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_10",
+        "sentence_11",
+        "sentence_12",
+        "sentence_31",
+        "sentence_73",
+        "sentence_83",
+        "sentence_87",
+        "sentence_92",
+        "sentence_100",
+        "sentence_102",
+        "sentence_103",
+        "sentence_105"
+      ]
+    },
+    {
+      "entity": "character_lord_holdhurst",
+      "section": "naval-treaty-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_103",
+        "sentence_105",
+        "sentence_124"
+      ]
+    },
+    {
+      "entity": "character_joseph_harrison",
+      "section": "naval-treaty-section_1",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_7",
+        "sentence_79",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_95",
+        "sentence_96"
+      ]
+    },
+    {
+      "entity": "character_fritz_von_waldbaum",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "character_page-boy",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_49"
+      ]
+    },
+    {
+      "entity": "character_commissionnaire",
+      "section": "naval-treaty-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_140",
+        "sentence_156",
+        "sentence_188",
+        "sentence_189",
+        "sentence_191"
+      ]
+    },
+    {
+      "entity": "character_charles_gorot",
+      "section": "naval-treaty-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_128",
+        "sentence_129"
+      ]
+    },
+    {
+      "entity": "character_policeman",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_197"
+      ]
+    },
+    {
+      "entity": "location_baker_street",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_34"
+      ]
+    },
+    {
+      "entity": "location_waterloo",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_68"
+      ]
+    },
+    {
+      "entity": "location_woking",
+      "section": "naval-treaty-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_68",
+        "sentence_67"
+      ]
+    },
+    {
+      "entity": "location_briarbrae",
+      "section": "naval-treaty-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_17",
+        "sentence_69",
+        "sentence_70",
+        "sentence_85",
+        "sentence_86"
+      ]
+    },
+    {
+      "entity": "location_charles_street",
+      "section": "naval-treaty-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_147",
+        "sentence_150",
+        "sentence_189",
+        "sentence_196"
+      ]
+    },
+    {
+      "entity": "location_whitehall",
+      "section": "naval-treaty-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_196"
+      ]
+    },
+    {
+      "entity": "character_percy_phelps",
+      "section": "naval-treaty-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_198",
+        "sentence_201",
+        "sentence_202",
+        "sentence_222",
+        "sentence_218",
+        "sentence_373",
+        "sentence_320"
+      ]
+    },
+    {
+      "entity": "character_commissionnaire",
+      "section": "naval-treaty-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_201",
+        "sentence_202",
+        "sentence_204",
+        "sentence_215",
+        "sentence_216",
+        "sentence_221",
+        "sentence_262"
+      ]
+    },
+    {
+      "entity": "character_policeman",
+      "section": "naval-treaty-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_225",
+        "sentence_226",
+        "sentence_263"
+      ]
+    },
+    {
+      "entity": "organisation_foreign_office",
+      "section": "naval-treaty-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_199",
+        "sentence_279"
+      ]
+    },
+    {
+      "entity": "character_forbes",
+      "section": "naval-treaty-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_264",
+        "sentence_268",
+        "sentence_271",
+        "sentence_280",
+        "sentence_315",
+        "sentence_342",
+        "sentence_411",
+        "sentence_412",
+        "sentence_424"
+      ]
+    },
+    {
+      "entity": "character_lord_holdhurst",
+      "section": "naval-treaty-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_382",
+        "sentence_419",
+        "sentence_421",
+        "sentence_423"
+      ]
+    },
+    {
+      "entity": "character_joseph_harrison",
+      "section": "naval-treaty-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_308",
+        "sentence_385"
+      ]
+    },
+    {
+      "entity": "character_monsieur_dubuque",
+      "section": "naval-treaty-section_2",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "character_fritz_von_waldbaum",
+      "section": "naval-treaty-section_2",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "character_watson",
+      "section": "naval-treaty-section_2",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_293",
+        "sentence_320",
+        "sentence_370",
+        "sentence_384",
+        "sentence_406"
+      ]
+    },
+    {
+      "entity": "location_woking",
+      "section": "naval-treaty-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_330"
+      ]
+    },
+    {
+      "entity": "character_sherlock_holmes",
+      "section": "naval-treaty-section_3",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_426",
+        "sentence_437",
+        "sentence_449",
+        "sentence_453",
+        "sentence_454",
+        "sentence_497",
+        "sentence_500",
+        "sentence_508",
+        "sentence_514",
+        "sentence_516",
+        "sentence_528",
+        "sentence_543",
+        "sentence_550",
+        "sentence_554",
+        "sentence_555",
+        "sentence_556",
+        "sentence_557",
+        "sentence_565",
+        "sentence_601",
+        "sentence_614",
+        "sentence_618",
+        "sentence_619",
+        "sentence_652",
+        "sentence_655",
+        "sentence_656"
+      ]
+    },
+    {
+      "entity": "character_watson",
+      "section": "naval-treaty-section_3",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_447",
+        "sentence_448",
+        "sentence_499",
+        "sentence_500",
+        "sentence_501",
+        "sentence_505",
+        "sentence_550",
+        "sentence_554"
+      ]
+    },
+    {
+      "entity": "location_woking",
+      "section": "naval-treaty-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_426",
+        "sentence_556",
+        "sentence_557",
+        "sentence_558"
+      ]
+    },
+    {
+      "entity": "organisation_scotland_yard",
+      "section": "naval-treaty-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_448",
+        "sentence_449"
+      ]
+    },
+    {
+      "entity": "character_forbes",
+      "section": "naval-treaty-section_3",
+      "mention_count": 40,
+      "sentence_ids": [
+        "sentence_449",
+        "sentence_451",
+        "sentence_452",
+        "sentence_455",
+        "sentence_457",
+        "sentence_458",
+        "sentence_459",
+        "sentence_460",
+        "sentence_461",
+        "sentence_463",
+        "sentence_464",
+        "sentence_465",
+        "sentence_466",
+        "sentence_467",
+        "sentence_468",
+        "sentence_469",
+        "sentence_470",
+        "sentence_471",
+        "sentence_472",
+        "sentence_473",
+        "sentence_474",
+        "sentence_475",
+        "sentence_476",
+        "sentence_477",
+        "sentence_478",
+        "sentence_479",
+        "sentence_480",
+        "sentence_481",
+        "sentence_482",
+        "sentence_483",
+        "sentence_484",
+        "sentence_485",
+        "sentence_486",
+        "sentence_487",
+        "sentence_488",
+        "sentence_489",
+        "sentence_490",
+        "sentence_491",
+        "sentence_492",
+        "sentence_493"
+      ]
+    },
+    {
+      "entity": "character_lord_holdhurst",
+      "section": "naval-treaty-section_3",
+      "mention_count": 42,
+      "sentence_ids": [
+        "sentence_500",
+        "sentence_501",
+        "sentence_502",
+        "sentence_504",
+        "sentence_506",
+        "sentence_507",
+        "sentence_509",
+        "sentence_510",
+        "sentence_511",
+        "sentence_512",
+        "sentence_513",
+        "sentence_514",
+        "sentence_515",
+        "sentence_516",
+        "sentence_517",
+        "sentence_518",
+        "sentence_519",
+        "sentence_520",
+        "sentence_521",
+        "sentence_522",
+        "sentence_523",
+        "sentence_524",
+        "sentence_525",
+        "sentence_526",
+        "sentence_527",
+        "sentence_528",
+        "sentence_529",
+        "sentence_530",
+        "sentence_531",
+        "sentence_532",
+        "sentence_533",
+        "sentence_534",
+        "sentence_535",
+        "sentence_536",
+        "sentence_537",
+        "sentence_538",
+        "sentence_539",
+        "sentence_540",
+        "sentence_541",
+        "sentence_542",
+        "sentence_548",
+        "sentence_549"
+      ]
+    },
+    {
+      "entity": "character_percy_phelps",
+      "section": "naval-treaty-section_3",
+      "mention_count": 44,
+      "sentence_ids": [
+        "sentence_508",
+        "sentence_509",
+        "sentence_512",
+        "sentence_516",
+        "sentence_524",
+        "sentence_555",
+        "sentence_556",
+        "sentence_557",
+        "sentence_558",
+        "sentence_561",
+        "sentence_562",
+        "sentence_563",
+        "sentence_565",
+        "sentence_566",
+        "sentence_572",
+        "sentence_574",
+        "sentence_576",
+        "sentence_580",
+        "sentence_582",
+        "sentence_583",
+        "sentence_584",
+        "sentence_585",
+        "sentence_586",
+        "sentence_587",
+        "sentence_588",
+        "sentence_589",
+        "sentence_590",
+        "sentence_591",
+        "sentence_592",
+        "sentence_593",
+        "sentence_594",
+        "sentence_595",
+        "sentence_596",
+        "sentence_597",
+        "sentence_598",
+        "sentence_599",
+        "sentence_600",
+        "sentence_602",
+        "sentence_603",
+        "sentence_604",
+        "sentence_607",
+        "sentence_608",
+        "sentence_609",
+        "sentence_612"
+      ]
+    },
+    {
+      "entity": "location_charles_street",
+      "section": "naval-treaty-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_430"
+      ]
+    },
+    {
+      "entity": "location_whitehall",
+      "section": "naval-treaty-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_550"
+      ]
+    },
+    {
+      "entity": "character_joseph_harrison",
+      "section": "naval-treaty-section_3",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_607",
+        "sentence_628",
+        "sentence_621",
+        "sentence_622",
+        "sentence_627",
+        "sentence_628",
+        "sentence_639",
+        "sentence_641"
+      ]
+    },
+    {
+      "entity": "character_commissionnaire",
+      "section": "naval-treaty-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_458"
+      ]
+    },
+    {
+      "entity": "character_charles_gorot",
+      "section": "naval-treaty-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_487"
+      ]
+    },
+    {
+      "entity": "case_1_naval_treaty",
+      "section": "naval-treaty-section_3",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_506",
+        "sentence_511",
+        "sentence_530",
+        "sentence_537",
+        "sentence_542",
+        "sentence_565",
+        "sentence_566"
+      ]
+    },
+    {
+      "entity": "character_sherlock_holmes",
+      "section": "naval-treaty-section_4",
+      "mention_count": 66,
+      "sentence_ids": [
+        "sentence_671",
+        "sentence_673",
+        "sentence_674",
+        "sentence_681",
+        "sentence_689",
+        "sentence_692",
+        "sentence_694",
+        "sentence_699",
+        "sentence_700",
+        "sentence_713",
+        "sentence_716",
+        "sentence_717",
+        "sentence_723",
+        "sentence_725",
+        "sentence_730",
+        "sentence_739",
+        "sentence_740",
+        "sentence_742",
+        "sentence_743",
+        "sentence_744",
+        "sentence_746",
+        "sentence_748",
+        "sentence_753",
+        "sentence_754",
+        "sentence_760",
+        "sentence_761",
+        "sentence_762",
+        "sentence_764",
+        "sentence_767",
+        "sentence_769",
+        "sentence_770",
+        "sentence_773",
+        "sentence_777",
+        "sentence_784",
+        "sentence_789",
+        "sentence_792",
+        "sentence_797",
+        "sentence_798",
+        "sentence_801",
+        "sentence_802",
+        "sentence_803",
+        "sentence_804",
+        "sentence_805",
+        "sentence_806",
+        "sentence_808",
+        "sentence_810",
+        "sentence_812",
+        "sentence_813",
+        "sentence_819",
+        "sentence_820",
+        "sentence_825",
+        "sentence_826",
+        "sentence_830",
+        "sentence_836",
+        "sentence_837",
+        "sentence_838",
+        "sentence_839",
+        "sentence_840",
+        "sentence_843",
+        "sentence_844",
+        "sentence_856",
+        "sentence_857",
+        "sentence_858",
+        "sentence_859",
+        "sentence_860",
+        "sentence_861"
+      ]
+    },
+    {
+      "entity": "character_percy_phelps",
+      "section": "naval-treaty-section_4",
+      "mention_count": 55,
+      "sentence_ids": [
+        "sentence_672",
+        "sentence_684",
+        "sentence_688",
+        "sentence_689",
+        "sentence_691",
+        "sentence_695",
+        "sentence_696",
+        "sentence_699",
+        "sentence_700",
+        "sentence_701",
+        "sentence_711",
+        "sentence_716",
+        "sentence_719",
+        "sentence_721",
+        "sentence_724",
+        "sentence_737",
+        "sentence_746",
+        "sentence_747",
+        "sentence_749",
+        "sentence_752",
+        "sentence_753",
+        "sentence_755",
+        "sentence_756",
+        "sentence_757",
+        "sentence_758",
+        "sentence_759",
+        "sentence_760",
+        "sentence_763",
+        "sentence_764",
+        "sentence_773",
+        "sentence_779",
+        "sentence_780",
+        "sentence_783",
+        "sentence_784",
+        "sentence_785",
+        "sentence_787",
+        "sentence_788",
+        "sentence_793",
+        "sentence_795",
+        "sentence_796",
+        "sentence_799",
+        "sentence_800",
+        "sentence_816",
+        "sentence_832",
+        "sentence_844",
+        "sentence_845",
+        "sentence_846",
+        "sentence_847",
+        "sentence_848",
+        "sentence_849",
+        "sentence_854",
+        "sentence_855",
+        "sentence_856",
+        "sentence_860",
+        "sentence_861"
+      ]
+    },
+    {
+      "entity": "character_watson",
+      "section": "naval-treaty-section_4",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_672",
+        "sentence_685",
+        "sentence_692",
+        "sentence_696",
+        "sentence_699",
+        "sentence_706",
+        "sentence_717",
+        "sentence_723",
+        "sentence_724",
+        "sentence_726",
+        "sentence_739",
+        "sentence_740",
+        "sentence_741",
+        "sentence_746",
+        "sentence_748",
+        "sentence_751",
+        "sentence_761",
+        "sentence_767",
+        "sentence_772",
+        "sentence_776",
+        "sentence_789",
+        "sentence_792",
+        "sentence_803",
+        "sentence_804"
+      ]
+    },
+    {
+      "entity": "character_joseph_harrison",
+      "section": "naval-treaty-section_4",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_682",
+        "sentence_684",
+        "sentence_688",
+        "sentence_819",
+        "sentence_826",
+        "sentence_827",
+        "sentence_828",
+        "sentence_829",
+        "sentence_848",
+        "sentence_849",
+        "sentence_860",
+        "sentence_861"
+      ]
+    },
+    {
+      "entity": "character_forbes",
+      "section": "naval-treaty-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_840"
+      ]
+    },
+    {
+      "entity": "character_lord_holdhurst",
+      "section": "naval-treaty-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_721",
+        "sentence_843"
+      ]
+    },
+    {
+      "entity": "organisation_foreign_office",
+      "section": "naval-treaty-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_860"
+      ]
+    },
+    {
+      "entity": "location_woking",
+      "section": "naval-treaty-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_689"
+      ]
+    },
+    {
+      "entity": "location_charles_street",
+      "section": "naval-treaty-section_4",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "case_1_naval_treaty",
+      "section": "naval-treaty-section_5",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_863",
+        "sentence_865",
+        "sentence_867",
+        "sentence_869",
+        "sentence_881",
+        "sentence_890"
+      ]
+    },
+    {
+      "entity": "character_watson",
+      "section": "naval-treaty-section_5",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_863",
+        "sentence_869",
+        "sentence_873",
+        "sentence_874",
+        "sentence_877",
+        "sentence_882",
+        "sentence_883"
+      ]
+    },
+    {
+      "entity": "character_sherlock_holmes",
+      "section": "naval-treaty-section_5",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_868",
+        "sentence_869",
+        "sentence_875",
+        "sentence_876",
+        "sentence_878",
+        "sentence_879",
+        "sentence_882",
+        "sentence_884",
+        "sentence_887",
+        "sentence_889"
+      ]
+    },
+    {
+      "entity": "character_joseph_harrison",
+      "section": "naval-treaty-section_5",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_863",
+        "sentence_864",
+        "sentence_865",
+        "sentence_866",
+        "sentence_867",
+        "sentence_869",
+        "sentence_872",
+        "sentence_877",
+        "sentence_878",
+        "sentence_879",
+        "sentence_881",
+        "sentence_890"
+      ]
+    },
+    {
+      "entity": "location_charles_street",
+      "section": "naval-treaty-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_863"
+      ]
+    },
+    {
+      "entity": "location_woking",
+      "section": "naval-treaty-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_867"
+      ]
+    },
+    {
+      "entity": "character_commissionnaire",
+      "section": "naval-treaty-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_866"
+      ]
+    },
+    {
+      "entity": "character_percy_phelps",
+      "section": "naval-treaty-section_5",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_887",
+        "sentence_890"
+      ]
+    },
+    {
+      "entity": "object_secret_treaty_original",
+      "section": "naval-treaty-section_5",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_865",
+        "sentence_867",
+        "sentence_869",
+        "sentence_881"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "object_secret_treaty_original",
+      "case": "case_1_naval_treaty",
+      "discovered_by": "character_percy_phelps",
+      "discovered_in_section": "naval-treaty-section_1",
+      "significance": "Percy Phelps discovered that the copy remained in place while the original secret treaty was missing from the desk after the theft.",
+      "source_nodes": [
+        "sentence_174",
+        "sentence_175"
+      ]
+    },
+    {
+      "object": "object_letter_lockup_desk",
+      "case": "case_1_naval_treaty",
+      "discovered_by": "character_percy_phelps",
+      "discovered_in_section": "naval-treaty-section_4",
+      "significance": "Holmes reported that the cylinder of blue-grey paper was retrieved by Joseph Harrison from behind a square board covering a T joint behind the carpet in Phelps's bedroom.",
+      "source_nodes": [
+        "sentence_786",
+        "sentence_834",
+        "sentence_835",
+        "sentence_836"
+      ]
+    },
+    {
+      "object": "object_secret_treaty_original",
+      "case": "case_1_naval_treaty_section_5",
+      "discovered_by": "character_joseph_harrison",
+      "discovered_in_section": "naval-treaty-section_5",
+      "significance": "Holmes treated the State document as valuable evidence when explaining that Joseph Harrison pocketed a State document after his eyes caught the paper on the table.",
+      "source_nodes": [
+        "sentence_864",
+        "sentence_865"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "character_percy_phelps",
+      "organisation": "organisation_foreign_office"
+    }
+  ]
+}

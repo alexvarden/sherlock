@@ -1,0 +1,2967 @@
+{
+  "entities": [
+    {
+      "id": "case_musgrave_ritual",
+      "type": "case",
+      "label": "The Musgrave Ritual case",
+      "description": "A singular business involving the Musgrave Ritual and related criminal records mentioned in the narrative.",
+      "firstSection": "musgrave-ritual-section_1",
+      "source": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "document_musgrave_ritual_questions_answers_copy",
+      "type": "document",
+      "label": "Copy of questions and answers in the Musgrave Ritual",
+      "description": "A chart-like paper that is stated to be a copy of the questions and answers in the Musgrave Ritual.",
+      "firstSection": "musgrave-ritual-section_1",
+      "document_type": "manuscript",
+      "from": "brunton_butler",
+      "to": "reginald_musgrave",
+      "content_summary": "A set of questions and answers in the singular old observance called the Musgrave Ritual."
+    },
+    {
+      "id": "object_tin_box",
+      "type": "object",
+      "label": "Large tin box",
+      "description": "A large tin box used to store bundles of paper tied with red tape into separate packages.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_small_wooden_box_sliding_lid",
+      "type": "object",
+      "label": "Small wooden box with sliding lid",
+      "description": "A small wooden box with a sliding lid used as a container for relic items.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_crumpled_piece_of_paper",
+      "type": "object",
+      "label": "Crumpled piece of paper",
+      "description": "A crumpled piece of paper produced from a small wooden box with a sliding lid.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_old_fashioned_brass_key",
+      "type": "object",
+      "label": "Old-fashioned brass key",
+      "description": "An old-fashioned brass key produced from a small wooden box with a sliding lid.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_peg_of_wood_with_ball_of_string",
+      "type": "object",
+      "label": "Peg of wood with ball of string attached",
+      "description": "A peg of wood with a ball of string attached to it, produced from a small wooden box with a sliding lid.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_three_rusty_disks_of_metal",
+      "type": "object",
+      "label": "Three rusty old disks of metal",
+      "description": "Three rusty old disks of metal produced from a small wooden box with a sliding lid.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_montague_street_room",
+      "type": "location",
+      "label": "Rooms in Montague Street",
+      "description": "Holmes's rooms in Montague Street around the corner from the British Museum.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_hurlstone",
+      "type": "location",
+      "label": "Hurlstone",
+      "description": "The house where Musgrave's staff serves and where the Musgrave Ritual-related incident occurs.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_hurlstone_library",
+      "type": "location",
+      "label": "Library at Hurlstone",
+      "description": "A room at Hurlstone containing a table and bureau from which the Musgrave Ritual paper is taken.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_hurlstone_corridor",
+      "type": "location",
+      "label": "Corridor at Hurlstone",
+      "description": "A corridor decorated with trophies of old weapons, along which Musgrave looks toward an open door.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_hurlstone_billiard_room",
+      "type": "location",
+      "label": "Billiard-room at Hurlstone",
+      "description": "A room at Hurlstone where a novel had been left.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_hurlstone_gun_room",
+      "type": "location",
+      "label": "Gun-room at Hurlstone",
+      "description": "A room reached via a passage from the corridor and library at Hurlstone.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "location_our_room",
+      "type": "location",
+      "label": "Our room",
+      "description": "The narrator and Holmes's chambers where chemicals, criminal relics, and papers are kept.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "A fellow-lodger and companion mentioned as the owner of papers and the one who produces relic items.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Narrator who suggests making the room more habitable and later asks for an account of the case.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_reginald_musgrave",
+      "type": "character",
+      "label": "Reginald Musgrave",
+      "description": "Member of the Musgrave family who manages Hurlstone and dismisses the butler after finding the Musgrave Ritual paper.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_brunton_butler",
+      "type": "character",
+      "label": "Brunton (butler)",
+      "description": "The butler at Hurlstone who studies and is found with a copy of the Musgrave Ritual questions and answers, then is dismissed.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_rachel_howells",
+      "type": "character",
+      "label": "Rachel Howells",
+      "description": "Second housemaid at Hurlstone, stated to have had an illness and a sharp touch of brain-fever; seen after dismissal events.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_janet_tregellis",
+      "type": "character",
+      "label": "Janet Tregellis",
+      "description": "Daughter of the head gamekeeper; mentioned as the butler's new attachment after he throws over Rachel Howells.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_holmes_biographer",
+      "type": "character",
+      "label": "Holmes's biographer",
+      "description": "An unspecified person who had come to glorify Holmes in past cases, referenced in relation to documents in the box.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_russian_woman",
+      "type": "character",
+      "label": "Old Russian woman",
+      "description": "Referenced as part of the set of recorded cases in Holmes's bundles of paper.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_tarleton",
+      "type": "character",
+      "label": "Tarleton",
+      "description": "Referenced as connected to the record of the Tarleton murders in Holmes's papers.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_vamberry",
+      "type": "character",
+      "label": "Vamberry (wine merchant)",
+      "description": "Referenced as connected to a case in Holmes's papers.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_ricoletti",
+      "type": "character",
+      "label": "Ricoletti of the club-foot",
+      "description": "Referenced as connected to a full account among Holmes's papers.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_abominable_wife",
+      "type": "character",
+      "label": "Ricoletti's abominable wife",
+      "description": "Referenced as part of the full account of Ricoletti of the club-foot.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_gloria_scott",
+      "type": "object",
+      "label": "Gloria Scott",
+      "description": "A ship mentioned in connection with an affair that first turned Holmes's attention toward his profession.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_unhappy_man",
+      "type": "character",
+      "label": "Unhappy man",
+      "description": "An unnamed man whose fate was told to Watson by Holmes, referenced in the story.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_hair_trigger",
+      "type": "object",
+      "label": "Hair-trigger",
+      "description": "A hair-trigger referenced as part of Holmes's shooting setup.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_boxer_cartridges",
+      "type": "object",
+      "label": "Boxer cartridges",
+      "description": "A hundred Boxer cartridges referenced as part of Holmes's shooting setup.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_jack_knife",
+      "type": "object",
+      "label": "Jack-knife",
+      "description": "A jack-knife used to transfixed unanswered correspondence into a mantelpiece in the described contrast.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_musgrave_blazonings_and_charges",
+      "type": "object",
+      "label": "Musgrave blazonings and charges",
+      "description": "Items compared to the Musgrave Ritual as being of private interest and possibly of importance to an archaeologist.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_battle_axe",
+      "type": "object",
+      "label": "Battle-axe",
+      "description": "A battle-axe picked by Musgrave from trophies of old weapons to use while creeping down the passage.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_cup_of_strong_cafe_noir",
+      "type": "object",
+      "label": "Cup of strong café noir",
+      "description": "A cup of strong café noir taken by Musgrave after dinner.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_candle",
+      "type": "object",
+      "label": "Candle",
+      "description": "A candle lit by Musgrave during the incident sequence.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_taper_on_edge_of_table",
+      "type": "object",
+      "label": "Small taper on edge of table",
+      "description": "A small taper on the edge of the library table used to shed light during Brunton's examination of the paper.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_key_bruton_left",
+      "type": "object",
+      "label": "Key left by Brunton",
+      "description": "A key used by Musgrave after Brunton left it behind.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "object_bureau_drawer",
+      "type": "object",
+      "label": "Bureau drawer",
+      "description": "A drawer in a bureau from which Brunton takes the Musgrave Ritual paper.",
+      "firstSection": "musgrave-ritual-section_1"
+    },
+    {
+      "id": "character_holmes",
+      "type": "character",
+      "label": "character holmes",
+      "firstSection": "musgrave-ritual-section_2"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes is suggested to make the room more habitable",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes goes to his bedroom and returns pulling a large tin box",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_15"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "object_tin_box"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes places the tin box in the middle of the floor and opens it",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "object_tin_box"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes looks at Watson and comments about cases in his box",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_18"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"There are cases enough here, Watson\""
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Holmes tells Watson he would ask him to pull some out instead of putting others in",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_19"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"I think that if you knew all that I had in this box you would ask me to pull some out instead of putting others in.\""
+      }
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes replies to Watson about the records in his box as being done prematurely before his biographer arrived",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_23"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_holmes_biographer"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"Yes, my boy, these were all done prematurely before my biographer had come to glorify me.\""
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes lifts and inspects bundles in the chest and states they are not all successes",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_24",
+        "sentence_25"
+      ],
+      "participants": [
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Holmes lists example case records he has left in the box",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_27"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_tarleton",
+        "character_vamberry",
+        "character_russian_woman",
+        "character_ricoletti",
+        "character_abominable_wife"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"Here's the record of the Tarleton murders, and the case of Vamberry, the wine merchant, and the adventure of the old Russian woman, and the singular affair of the aluminium crutch, as well as a full account of Ricoletti of the club-foot, and his abominable wife.\""
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes retrieves a small wooden box with a sliding lid from the chest",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_29"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "object_small_wooden_box_sliding_lid"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes produces multiple relic items from the small wooden box",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_30"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "object_crumpled_piece_of_paper",
+        "object_old_fashioned_brass_key",
+        "object_peg_of_wood_with_ball_of_string",
+        "object_three_rusty_disks_of_metal",
+        "object_small_wooden_box_sliding_lid"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Holmes asks Watson what he makes of the relic lot",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_31"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"Well, my boy, what do you make of this lot?\""
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes states the relics are all he has left to remind him of the Musgrave Ritual adventure",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_40"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "case_musgrave_ritual"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"These,\" said he, \"are all that I have left to remind me of the adventure of the Musgrave Ritual.\""
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Watson asks Holmes for an account of the Musgrave Ritual",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_42"
+      ],
+      "participants": [
+        "character_watson",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"I should be so glad,\" said I, \"if you would give me an account of it.\""
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Holmes tells Watson to add the case to his annals and says it makes the case unique in criminal records",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_46"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "case_musgrave_ritual"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"But I should be glad that you should add this case to your annals, for there are points in it which make it quite unique in the criminal records of this or, I believe, of any other country.\""
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes mentions a past affair involving the Gloria Scott as turning his attention toward his profession",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_48"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_watson",
+        "character_gloria_scott"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "\"You may remember how the affair of the _Gloria Scott_, and my conversation with the unhappy man whose fate I told you of, first turned my attention in the direction of the profession which has become my life's work.\""
+      }
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Musgrave tells Holmes that his father died and he manages the Hurlstone estates",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_65",
+        "sentence_66"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"You probably heard of my poor father's death,\" said he; \"he was carried off about two years ago. Since then I have of course had the Hurlstone estates to manage, and as I am member for my district as well, my life has been a busy one.\""
+      }
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Musgrave asks Holmes whether he is turning his powers to practical ends and Holmes replies he has taken to living by his wits",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_67",
+        "sentence_68"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave",
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": ""
+      }
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Musgrave tells Holmes that strange doings at Hurlstone have not been explained by police",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_70",
+        "sentence_71"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_sherlock_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"We have had some very strange doings at Hurlstone, and the police have been able to throw no light upon the matter. It is really the most extraordinary and inexplicable business.\""
+      }
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Holmes requests details of the Musgrave incident from Musgrave",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_74"
+      ],
+      "participants": [
+        "character_sherlock_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_sherlock_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "\"Pray, let me have the details,\" I cried."
+      }
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Musgrave describes servants at Hurlstone including eight maids, a cook, a butler, two footmen, and a boy",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_77",
+        "sentence_78"
+      ],
+      "participants": [
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_sherlock_holmes"
+        ],
+        "content": "\"Altogether there are eight maids, the cook, the butler, two footmen, and a boy.\""
+      }
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Musgrave reports that Rachel Howells recovered from illness and is pale and wan",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_89",
+        "sentence_142"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_rachel_howells"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Musgrave states he found Brunton in the library at night with a map-like paper on his knee",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_104",
+        "sentence_105"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_brunton_butler",
+        "document_musgrave_ritual_questions_answers_copy",
+        "location_hurlstone_library"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Brunton unlocks the bureau, draws out a drawer, takes a paper, and studies it by a taper",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_108",
+        "sentence_109",
+        "sentence_110"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "object_bureau_drawer",
+        "document_musgrave_ritual_questions_answers_copy",
+        "object_taper_on_edge_of_table",
+        "location_hurlstone_library"
+      ],
+      "performs": [
+        "character_brunton_butler"
+      ]
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Musgrave confronts Brunton in the doorway and orders Brunton to leave his service",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_110",
+        "sentence_115"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_brunton_butler",
+        "document_musgrave_ritual_questions_answers_copy"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_brunton_butler"
+        ],
+        "content": "\"So!\" said I. \"This is how you repay the trust which we have reposed in you. You will leave my service to-morrow.\""
+      }
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Brunton is seen retreating past Musgrave after being confronted",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_116"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_brunton_butler"
+      ]
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "Musgrave examines the bureau and views the paper left behind as a copy of questions and answers in the Musgrave Ritual",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_117",
+        "sentence_118",
+        "sentence_119"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "document_musgrave_ritual_questions_answers_copy",
+        "location_hurlstone_library"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "Musgrave re-locks the bureau using the key Brunton left",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_122"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "object_key_bruton_left"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_1_28",
+      "type": "event",
+      "label": "Brunton pleads not to be driven out and offers to give notice and leave in a month",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_123",
+        "sentence_126",
+        "sentence_127"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_brunton_butler"
+      ],
+      "communicates": {
+        "speaker": "character_brunton_butler",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "\"Mr. Musgrave, sir,\" he cried, in a voice which was hoarse with emotion, \"I can't bear disgrace, sir. I've always been proud above my station in life, and disgrace would kill me. My blood will be on your head, sir—it will, indeed—if you drive me to despair. If you cannot keep me after what has passed, then for God's sake let me give you notice and leave in a month, as if of my own free will. I could stand that, Mr. Musgrave, but not to be cast out before all the folk that I know so well.\""
+      }
+    },
+    {
+      "id": "event_1_29",
+      "type": "event",
+      "label": "Musgrave reduces Brunton's leaving time from a month request to one week",
+      "section": "musgrave-ritual-section_1",
+      "source_nodes": [
+        "sentence_128",
+        "sentence_136"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_brunton_butler"
+        ],
+        "content": "\"You don't deserve much consideration, Brunton,\" I answered. \"Your conduct has been most infamous. However, as you have been a long time in the family, I have no wish to bring public disgrace upon you. A month, however is too long. Take yourself away in a week, and give what reason you like for going.\" \"Only a week, sir?\" he cried, in a despairing voice. \"A fortnight—say at least a fortnight!\" \"A week,\" I repeated, \"and you may consider yourself to have been very leniently dealt with.\""
+      }
+    },
+    {
+      "id": "event_2_143",
+      "type": "event",
+      "label": "A speaker tells another person to go to bed",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_143"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "You should be in bed,"
+      }
+    },
+    {
+      "id": "event_2_144",
+      "type": "event",
+      "label": "A speaker tells another person to return to duties later",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_144"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "Come back to your duties when you are stronger."
+      }
+    },
+    {
+      "id": "event_2_146",
+      "type": "event",
+      "label": "Reginald Musgrave claims to be strong enough",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_146"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "I am strong enough, Mr. Musgrave,"
+      }
+    },
+    {
+      "id": "event_2_147",
+      "type": "event",
+      "label": "A speaker says the doctor will be consulted",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_147"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "We will see what the doctor says,"
+      }
+    },
+    {
+      "id": "event_2_148",
+      "type": "event",
+      "label": "A speaker instructs someone to stop work and request to see Brunton",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_148"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_rachel_howells",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_rachel_howells"
+        ],
+        "content": "You must stop work now, and when you go downstairs just say that I wish to see Brunton."
+      }
+    },
+    {
+      "id": "event_2_149",
+      "type": "event",
+      "label": "A speaker states that the butler is gone",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_149"
+      ],
+      "participants": [
+        "character_rachel_howells",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_rachel_howells"
+      ],
+      "communicates": {
+        "speaker": "character_rachel_howells",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "The butler is gone,"
+      }
+    },
+    {
+      "id": "event_2_151",
+      "type": "event",
+      "label": "A speaker asks where Brunton has gone",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_151"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_rachel_howells"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_rachel_howells"
+        ],
+        "content": "Gone where?"
+      }
+    },
+    {
+      "id": "event_2_152",
+      "type": "event",
+      "label": "A speaker claims Brunton has disappeared and no one has seen him",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_152",
+        "sentence_153",
+        "sentence_154"
+      ],
+      "participants": [
+        "character_rachel_howells",
+        "character_holmes",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_rachel_howells"
+      ],
+      "communicates": {
+        "speaker": "character_rachel_howells",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "He is gone.\nNo one has seen him.\nHe is not in his room."
+      }
+    },
+    {
+      "id": "event_2_156",
+      "type": "event",
+      "label": "The girl laughs hysterically and the speaker rushes to summon help",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_156"
+      ],
+      "participants": [
+        "character_rachel_howells",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_2_157",
+      "type": "event",
+      "label": "The speaker has inquiries made about Brunton after taking the girl to her room",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_157"
+      ],
+      "participants": [
+        "character_rachel_howells",
+        "character_holmes",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_2_166",
+      "type": "event",
+      "label": "The speaker calls in local police to investigate",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_166"
+      ],
+      "participants": [
+        "character_holmes"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_2_168",
+      "type": "event",
+      "label": "A new development draws attention away from the original mystery",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_168"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_rachel_howells",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_169",
+      "type": "event",
+      "label": "It is reported that Rachel Howells has been ill for two days",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_169"
+      ],
+      "participants": [
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_170",
+      "type": "event",
+      "label": "The nurse wakes to find Rachel Howells missing and the window open",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_170"
+      ],
+      "participants": [
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_171",
+      "type": "event",
+      "label": "The speaker and two footmen start searching for the missing girl",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_171"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_rachel_howells"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_2_172",
+      "type": "event",
+      "label": "Searchers follow footmarks from under the missing girl's window toward the mere",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_172"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_174",
+      "type": "event",
+      "label": "Drags are used to recover remains but no trace of the body is found",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_174"
+      ],
+      "participants": [
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_175",
+      "type": "event",
+      "label": "An unexpected object is brought to the surface from the lake",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_175"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_176",
+      "type": "event",
+      "label": "A linen bag is recovered containing rusted metal and dull-colored pieces of pebble or glass",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_176"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_177",
+      "type": "event",
+      "label": "Searchers conduct further searches and inquiries without learning the fate of Rachel Howells or Richard Brunton",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_177"
+      ],
+      "participants": [
+        "character_rachel_howells",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_178",
+      "type": "event",
+      "label": "A speaker tells Holmes he has come as a last resource",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_178"
+      ],
+      "participants": [
+        "character_holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_189",
+      "type": "event",
+      "label": "Holmes says he must see a paper Musgrave's butler consulted",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_189"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "I must see that paper, Musgrave, which this butler of yours thought it worth his while to consult, even at the risk of the loss of his place."
+      }
+    },
+    {
+      "id": "event_2_190",
+      "type": "event",
+      "label": "Musgrave calls the family ritual absurd",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_190"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "It is rather an absurd business, this ritual of ours,"
+      }
+    },
+    {
+      "id": "event_2_192",
+      "type": "event",
+      "label": "Musgrave offers to show Holmes a copy of questions and answers",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_192"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "I have a copy of the questions and answers here if you care to run your eye over them."
+      }
+    },
+    {
+      "id": "event_2_193",
+      "type": "event",
+      "label": "Musgrave hands Holmes the paper and calls it a strange catechism",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_193"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_2_194",
+      "type": "event",
+      "label": "Musgrave indicates he will read the questions and answers",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "I will read you the questions and answers as they stand."
+      }
+    },
+    {
+      "id": "event_2_201",
+      "type": "event",
+      "label": "Questions and answers state where the shadow is located",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_202"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_203",
+      "type": "event",
+      "label": "Questions and answers provide step directions and timing",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_204"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_206",
+      "type": "event",
+      "label": "Questions and answers state what should be given",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_206"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_208",
+      "type": "event",
+      "label": "Questions and answers state why something should be given",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_208"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_2_209",
+      "type": "event",
+      "label": "Musgrave remarks about the original document's date and spelling",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_209"
+      ],
+      "participants": [
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "The original has no date, but is in the spelling of the middle of the seventeenth century,' remarked Musgrave."
+      }
+    },
+    {
+      "id": "event_2_210",
+      "type": "event",
+      "label": "Musgrave says the paper may be of little help solving the mystery",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_210"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "I am afraid, however, that it can be of little help to you in solving this mystery."
+      }
+    },
+    {
+      "id": "event_2_211",
+      "type": "event",
+      "label": "Holmes says the ritual paper gives another mystery",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_211"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "At least, said I, it gives us another mystery, and one which is even more interesting than the first."
+      }
+    },
+    {
+      "id": "event_2_224",
+      "type": "event",
+      "label": "Holmes proposes taking the first train to Sussex",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_224"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "with your permission we will take the first train down to Sussex, and go a little more deeply into the matter upon the spot."
+      }
+    },
+    {
+      "id": "event_2_225",
+      "type": "event",
+      "label": "Both men arrive at Hurlstone the same afternoon",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_225"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_239",
+      "type": "event",
+      "label": "Holmes says the oak was there when the ritual was drawn up",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_239"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "That was there when your Ritual was drawn up,' said I, as we drove past it."
+      }
+    },
+    {
+      "id": "event_2_240",
+      "type": "event",
+      "label": "Musgrave replies about the oak being there at the Norman Conquest",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_240"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "It was there at the Norman Conquest in all probability,' he answered,"
+      }
+    },
+    {
+      "id": "event_2_244",
+      "type": "event",
+      "label": "Musgrave states an old elm was struck by lightning and cut down",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_244"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "There used to be a very old one over yonder but it was struck by lightning ten years ago, and we cut down the stump.'"
+      }
+    },
+    {
+      "id": "event_2_264",
+      "type": "event",
+      "label": "Holmes asks whether the butler asked about tree height",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_263"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "Tell me,' I asked, 'did your butler ever ask you such a question?"
+      }
+    },
+    {
+      "id": "event_2_265",
+      "type": "event",
+      "label": "Musgrave says Brunton asked him about the elm height months earlier",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_265"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_brunton_butler",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "Brunton did ask me about the height of the tree some months ago, in connection with some little argument with the groom.'"
+      }
+    },
+    {
+      "id": "event_2_296",
+      "type": "event",
+      "label": "Musgrave corrects Holmes by saying he omitted 'and under'",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_297"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "You have omitted the \"and under.\""
+      }
+    },
+    {
+      "id": "event_2_302",
+      "type": "event",
+      "label": "Musgrave indicates a cellar beneath the door",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_302"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_holmes"
+        ],
+        "content": "Yes, and as old as the house.\nDown here, through this door.'"
+      }
+    },
+    {
+      "id": "event_2_308",
+      "type": "event",
+      "label": "Holmes identifies the muffler as Brunton's",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_308",
+        "sentence_309"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_holmes"
+      ],
+      "communicates": {
+        "speaker": "character_holmes",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "That's Brunton's muffler.\nI have seen it on him, and could swear to it."
+      }
+    },
+    {
+      "id": "event_2_311",
+      "type": "event",
+      "label": "County police are summoned to be present",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_311"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_holmes"
+      ]
+    },
+    {
+      "id": "event_2_312",
+      "type": "event",
+      "label": "A flagstone is moved aside to reveal a black hole underneath",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_312",
+        "sentence_313"
+      ],
+      "participants": [
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_319",
+      "type": "event",
+      "label": "A body in black is found squatting beside the box and ring",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_319"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "character_holmes",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_321",
+      "type": "event",
+      "label": "The discovered body is described as dead for some days with no wounds or bruises",
+      "section": "musgrave-ritual-section_2",
+      "source_nodes": [
+        "sentence_321"
+      ],
+      "participants": [
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "Watson remains with a disappointed investigation so far",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_323"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Watson sits down on a keg in the corner",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_326"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Watson addresses Watson about his methods in such cases",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_327"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "You know my methods in such cases, Watson."
+      }
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Watson puts himself in Brunton's place and imagines his own next steps under the circumstances",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_328"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Watson claims that the matter was simplified because Brunton's intelligence is first-rate",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_329"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Watson asserts that Brunton knew something valuable was concealed and spotted the place",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Watson states that Brunton found the covering stone too heavy to move unaided",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_332"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Watson describes Brunton's inability to get help from outside without unbarring doors and risking detection",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_334"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Watson states that Brunton needed a helpmate inside the house and asks who could be asked",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler",
+        "character_rachel_howells",
+        "character_janet_tregellis"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Watson states that Rachel Howells had been devoted to Brunton",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_337"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler",
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Watson describes Brunton engaging Rachel Howells as an accomplice by attentions",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_339"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "character_rachel_howells"
+      ],
+      "performs": [
+        "character_brunton_butler"
+      ]
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Brunton and Rachel Howells would come at night together to the cellar",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_340"
+      ],
+      "participants": [
+        "character_brunton_butler",
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Watson says he could follow their actions as if he had actually seen them",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_341"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "Watson asserts that a burly Sussex policeman and Watson had found raising the stone a difficult job",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_343"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "Watson rises and examines different billets of wood scattered around the floor",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_346"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Watson finds a wooden piece with marked indentation and other flattened pieces",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_347",
+        "sentence_348"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_17",
+      "type": "event",
+      "label": "Watson describes how the billets were thrust into a chink to hold the opening and how a billet could become indented",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_349"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_18",
+      "type": "event",
+      "label": "Watson states that only Brunton could fit into the hole",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_352"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_19",
+      "type": "event",
+      "label": "Watson states the girl waited above while Brunton handled the box",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_353",
+        "sentence_354"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler",
+        "character_janet_tregellis",
+        "character_rachel_howells"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_20",
+      "type": "event",
+      "label": "Watson discusses Brunton's unlocking of a box and handing up its contents",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_354"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler",
+        "object_tin_box",
+        "object_small_wooden_box_sliding_lid"
+      ],
+      "performs": [
+        "character_brunton_butler"
+      ]
+    },
+    {
+      "id": "event_3_21",
+      "type": "event",
+      "label": "Watson poses multiple questions about what happened next to Brunton and whether wood slipped or a slab crashed down",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_354",
+        "sentence_356",
+        "sentence_358"
+      ],
+      "participants": [
+        "character_watson",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_22",
+      "type": "event",
+      "label": "Watson describes a figure flying up after clutching treasure while stone chokes Brunton",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_359"
+      ],
+      "participants": [
+        "character_watson",
+        "character_janet_tregellis",
+        "character_brunton_butler"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_23",
+      "type": "event",
+      "label": "Watson says the woman's blanched face and laughter the next morning are explained",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_360"
+      ],
+      "participants": [
+        "character_watson",
+        "character_janet_tregellis"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_24",
+      "type": "event",
+      "label": "Watson states coins of Charles the First were in the box and Musgrave holds them out",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_366",
+        "sentence_367"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_watson",
+        "object_tin_box"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "These are coins of Charles the First"
+      }
+    },
+    {
+      "id": "event_3_25",
+      "type": "event",
+      "label": "Musgrave says the Ritual date fixing was right while holding out coins",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_367"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_watson",
+        "object_tin_box"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "you see we were right in fixing our date for the Ritual."
+      }
+    },
+    {
+      "id": "event_3_26",
+      "type": "event",
+      "label": "Watson asks to see the contents of the bag fished from the mere",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "Let me see the contents of the bag which you fished from the mere."
+      }
+    },
+    {
+      "id": "event_3_27",
+      "type": "event",
+      "label": "Musgrave and Watson ascend to Musgrave's study",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_370"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_28",
+      "type": "event",
+      "label": "Musgrave lays debris before Watson",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_370"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_watson",
+        "object_three_rusty_disks_of_metal",
+        "object_musgrave_blazonings_and_charges",
+        "object_small_wooden_box_sliding_lid"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_3_29",
+      "type": "event",
+      "label": "Watson rubs a stone on his sleeve and it glows",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_372"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": [
+        "character_watson"
+      ]
+    },
+    {
+      "id": "event_3_30",
+      "type": "event",
+      "label": "Watson describes the metal work as a bent double ring",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_373"
+      ],
+      "participants": [
+        "character_watson",
+        "object_gloria_scott"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_31",
+      "type": "event",
+      "label": "Watson tells Musgrave to bear in mind the Royal party's intentions after the King's death",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_374"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "You must bear in mind that the Royal party made head in England even after the death of the King, and that when they at last fled they probably left many of their most precious possessions buried behind them, with the intention of returning for them in more peaceful times."
+      }
+    },
+    {
+      "id": "event_3_32",
+      "type": "event",
+      "label": "Musgrave says Sir Ralph Musgrave was a prominent Cavalier and right-hand man of Charles the Second",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_375"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_watson"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "My ancestor, Sir Ralph Musgrave, was a prominent Cavalier and the right-hand man of Charles the Second in his wanderings,"
+      }
+    },
+    {
+      "id": "event_3_33",
+      "type": "event",
+      "label": "Watson says it should give the last link and congratulates Musgrave on obtaining the relic",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_377",
+        "sentence_378"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_watson"
+      ],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "Well now, I think that really should give us the last link that we wanted. I must congratulate you on coming into the possession, though in rather a tragic manner of a relic which is of great intrinsic value, but of even greater importance as an historical curiosity."
+      }
+    },
+    {
+      "id": "event_3_34",
+      "type": "event",
+      "label": "Watson claims the relic is the ancient crown of the Kings of England",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_381"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "It is nothing less than the ancient crown of the Kings of England."
+      }
+    },
+    {
+      "id": "event_3_35",
+      "type": "event",
+      "label": "Watson questions and answers about the Ritual's line 'Whose was it?'",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_385",
+        "sentence_386"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "His who is gone."
+      }
+    },
+    {
+      "id": "event_3_36",
+      "type": "event",
+      "label": "Watson connects the 'Who shall have it?' line to Charles the Second",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_388",
+        "sentence_390"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_reginald_musgrave"
+        ],
+        "content": "He who will come. That was Charles the Second, whose advent was already foreseen."
+      }
+    },
+    {
+      "id": "event_3_37",
+      "type": "event",
+      "label": "Watson says there can be no doubt the diadem once encircled the brows of the royal Stuarts",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_391"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_38",
+      "type": "event",
+      "label": "Musgrave asks how the crown came in the pond",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_392"
+      ],
+      "participants": [
+        "character_reginald_musgrave",
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_reginald_musgrave",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "And how came it in the pond?"
+      }
+    },
+    {
+      "id": "event_3_39",
+      "type": "event",
+      "label": "Watson narrates a chain of surmise and proof to Musgrave",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_393"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_40",
+      "type": "event",
+      "label": "Musgrave pushes back the relic into its linen bag",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_396"
+      ],
+      "participants": [
+        "character_reginald_musgrave"
+      ],
+      "performs": [
+        "character_reginald_musgrave"
+      ]
+    },
+    {
+      "id": "event_3_41",
+      "type": "event",
+      "label": "Watson says it is likely the Musgrave who held the secret died in the interval and left a guide without explaining",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_399"
+      ],
+      "participants": [
+        "character_watson",
+        "character_reginald_musgrave"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_42",
+      "type": "event",
+      "label": "Watson states the secret was handed down from father to son until a man tore it out and lost his life",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_400"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_43",
+      "type": "event",
+      "label": "Watson tells Watson that this is the story of the Musgrave Ritual",
+      "section": "musgrave-ritual-section_3",
+      "source_nodes": [
+        "sentence_401"
+      ],
+      "participants": [
+        "character_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "character_watson",
+        "recipients": [
+          "character_watson"
+        ],
+        "content": "And that's the story of the Musgrave Ritual, Watson."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "object_tin_box",
+      "to": "location_our_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "valid_until": "event_1_3",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "object_tin_box",
+      "to": "location_our_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_3",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "document_musgrave_ritual_questions_answers_copy",
+      "to": "location_hurlstone_library",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_22",
+      "caused_by": [
+        "event_1_22"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "object_peg_of_wood_with_ball_of_string",
+      "to": "location_hurlstone",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_275",
+      "caused_by": [
+        "event_2_275"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "character_rachel_howells",
+      "to": "location_our_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_157",
+      "caused_by": [
+        "event_2_157"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "character_watson",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_14",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_42",
+        "sentence_45",
+        "sentence_46",
+        "sentence_48"
+      ]
+    },
+    {
+      "entity": "character_sherlock_holmes",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 29,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_7",
+        "sentence_11",
+        "sentence_12",
+        "sentence_14",
+        "sentence_15",
+        "sentence_18",
+        "sentence_23",
+        "sentence_31",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_52",
+        "sentence_54",
+        "sentence_60",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_72",
+        "sentence_74",
+        "sentence_75"
+      ]
+    },
+    {
+      "entity": "case_musgrave_ritual",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_46",
+        "sentence_54"
+      ]
+    },
+    {
+      "entity": "character_reginald_musgrave",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 35,
+      "sentence_ids": [
+        "sentence_55",
+        "sentence_61",
+        "sentence_62",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_70",
+        "sentence_72",
+        "sentence_74",
+        "sentence_75",
+        "sentence_76",
+        "sentence_91",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_101",
+        "sentence_104",
+        "sentence_110",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_119",
+        "sentence_120",
+        "sentence_122",
+        "sentence_128",
+        "sentence_131",
+        "sentence_132",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141"
+      ]
+    },
+    {
+      "entity": "character_brunton_butler",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_104",
+        "sentence_105",
+        "sentence_110",
+        "sentence_111",
+        "sentence_115",
+        "sentence_116",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_133",
+        "sentence_136"
+      ]
+    },
+    {
+      "entity": "character_rachel_howells",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_88",
+        "sentence_89",
+        "sentence_141",
+        "sentence_142"
+      ]
+    },
+    {
+      "entity": "character_janet_tregellis",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_88"
+      ]
+    },
+    {
+      "entity": "character_holmes_biographer",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_23"
+      ]
+    },
+    {
+      "entity": "character_gloria_scott",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_48"
+      ]
+    },
+    {
+      "entity": "character_unhappy_man",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_48"
+      ]
+    },
+    {
+      "entity": "character_tarleton",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "character_vamberry",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "character_russian_woman",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "character_ricoletti",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "character_abominable_wife",
+      "section": "musgrave-ritual-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "character_holmes",
+      "section": "musgrave-ritual-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_145",
+        "sentence_179"
+      ]
+    },
+    {
+      "entity": "character_reginald_musgrave",
+      "section": "musgrave-ritual-section_2",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_146",
+        "sentence_189",
+        "sentence_190",
+        "sentence_192",
+        "sentence_209",
+        "sentence_214",
+        "sentence_218",
+        "sentence_224",
+        "sentence_225",
+        "sentence_239",
+        "sentence_240",
+        "sentence_244",
+        "sentence_251",
+        "sentence_265",
+        "sentence_296",
+        "sentence_302",
+        "sentence_307"
+      ]
+    },
+    {
+      "entity": "character_brunton_butler",
+      "section": "musgrave-ritual-section_2",
+      "mention_count": 21,
+      "sentence_ids": [
+        "sentence_148",
+        "sentence_149",
+        "sentence_151",
+        "sentence_152",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155",
+        "sentence_158",
+        "sentence_159",
+        "sentence_160",
+        "sentence_162",
+        "sentence_168",
+        "sentence_170",
+        "sentence_177",
+        "sentence_180",
+        "sentence_193",
+        "sentence_216",
+        "sentence_217",
+        "sentence_221",
+        "sentence_320",
+        "sentence_321"
+      ]
+    },
+    {
+      "entity": "character_rachel_howells",
+      "section": "musgrave-ritual-section_2",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_169",
+        "sentence_170",
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_177",
+        "sentence_180",
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "case_musgrave_ritual",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_324",
+        "sentence_384",
+        "sentence_401"
+      ]
+    },
+    {
+      "entity": "character_watson",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_323",
+        "sentence_327",
+        "sentence_401"
+      ]
+    },
+    {
+      "entity": "character_reginald_musgrave",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_366",
+        "sentence_367",
+        "sentence_375",
+        "sentence_396",
+        "sentence_398",
+        "sentence_402"
+      ]
+    },
+    {
+      "entity": "character_brunton_butler",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_325",
+        "sentence_352",
+        "sentence_354"
+      ]
+    },
+    {
+      "entity": "character_rachel_howells",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_337",
+        "sentence_339",
+        "sentence_340"
+      ]
+    },
+    {
+      "entity": "character_janet_tregellis",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_359",
+        "sentence_360"
+      ]
+    },
+    {
+      "entity": "location_hurlstone",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_402"
+      ]
+    },
+    {
+      "entity": "location_hurlstone_library",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "location_hurlstone_corridor",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "location_hurlstone_billiard_room",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "location_hurlstone_gun_room",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    },
+    {
+      "entity": "character_holmes",
+      "section": "musgrave-ritual-section_3",
+      "mention_count": 0,
+      "sentence_ids": []
+    }
+  ],
+  "clues": [
+    {
+      "object": "object_tin_box",
+      "case": "case_musgrave_ritual",
+      "discovered_by": "character_holmes",
+      "discovered_in_section": "musgrave-ritual-section_2",
+      "significance": "Holmes discovered and examined a squat brass-bound wooden box during the search for the ritual-referenced spot.",
+      "source_nodes": [
+        "sentence_315"
+      ]
+    }
+  ],
+  "memberOf": []
+}

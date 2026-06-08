@@ -1,0 +1,2877 @@
+{
+  "entities": [
+    {
+      "id": "case_franco_midland_hardware_company",
+      "type": "case",
+      "label": "Franco-Midland Hardware Company employment scheme",
+      "description": "The employment and financial offer involving Franco-Midland Hardware Company, Limited, and the engagement of Mr. Hall Pycroft.",
+      "firstSection": "stockbrokers-clerk-section_1",
+      "source": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_watson",
+      "type": "character",
+      "label": "Dr. Watson",
+      "description": "A medical practitioner who narrates events and rides in the train with Holmes and Mr. Hall Pycroft.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "A consulting detective who visits Watson, arranges transport to Birmingham, introduces Mr. Hall Pycroft, and questions him about his experience.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_mr_farquhar",
+      "type": "character",
+      "label": "Old Mr. Farquhar",
+      "description": "The previous owner of the Paddington medical practice who sells it to Watson.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_mrs_watson",
+      "type": "character",
+      "label": "Mrs. Watson",
+      "description": "Watson's wife, referenced as having recovered from prior excitements.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_hall_pycroft",
+      "type": "character",
+      "label": "Mr. Hall Pycroft",
+      "description": "A young City man and client of Holmes who recounts his employment history and the offer involving Franco-Midland Hardware Company, Limited.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_parker",
+      "type": "character",
+      "label": "Parker (Coxon manager)",
+      "description": "A manager associated with Coxon & Woodhouse, referenced as speaking about Pycroft and as the person whose record is said to support Pycroft's perceived abilities.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_arthur_pinner",
+      "type": "character",
+      "label": "Arthur Pinner",
+      "description": "A financial agent who appears at Pycroft's residence, tests him with stock-knowledge questions, offers him an appointment with the Franco-Midland Hardware Company, Limited, and gives him an advance and instructions.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_harry_pinner",
+      "type": "character",
+      "label": "Harry Pinner",
+      "description": "Brother of Arthur Pinner; promoter of the Franco-Midland Hardware Company, Limited; described as joining the board after allotment and serving as managing director.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_landlady",
+      "type": "character",
+      "label": "Pycroft's landlady",
+      "description": "The landlady brings the business card to Pycroft and arranges for Arthur Pinner to be shown in.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_manager_mawsons",
+      "type": "character",
+      "label": "Mawson's manager",
+      "description": "A manager at Mawson & Williams' who accuses Arthur Pinner of coaxing a man away from the firm and is described as having been in conflict with him.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_cabby",
+      "type": "character",
+      "label": "Cabby",
+      "description": "A cab driver who is instructed to whip up the horse to catch the train.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "char_neighbour_doctor",
+      "type": "character",
+      "label": "Watson's neighbour (doctor)",
+      "description": "Watson's neighbor, a doctor who bought a medical practice and is referenced by Holmes via the brass plate.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_connection_paddington_practice",
+      "type": "object",
+      "label": "Paddington district medical practice (connection)",
+      "description": "A medical practice connection in the Paddington district that Watson buys from Old Mr. Farquhar.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_slippers",
+      "type": "object",
+      "label": "Watson's slippers",
+      "description": "New patent leather slippers with slightly scorched soles and a small circular wafer of paper near the instep.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_paper_wafer_shopman's_hieroglyphics",
+      "type": "object",
+      "label": "Small circular wafer of paper on slippers",
+      "description": "A small circular paper wafer with shopman's hieroglyphics on Watson's slippers near the instep.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_hundred_pound_note",
+      "type": "object",
+      "label": "Note for one hundred pounds (advance)",
+      "description": "A note provided by Arthur Pinner to Pycroft as an advance upon salary.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_letter_from_brother",
+      "type": "object",
+      "label": "Letter from Harry Pinner (mentioned)",
+      "description": "A letter received by Pycroft from Harry Pinner in which praises are sung about Pycroft.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_written_willingness_note",
+      "type": "object",
+      "label": "Written statement on paper accepting minimum salary",
+      "description": "A written note stating willingness to act as business manager to Franco-Midland Hardware Company, Limited, at a minimum salary of £500.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_stock_exchange_list",
+      "type": "object",
+      "label": "Stock Exchange List",
+      "description": "A list Pycroft says he read every morning.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_cab_in_four_wheeler",
+      "type": "object",
+      "label": "Four-wheeler cab",
+      "description": "A cab vehicle outside where Holmes says his client is waiting.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "obj_first_class_carriage",
+      "type": "object",
+      "label": "First-class carriage",
+      "description": "A train carriage in which the group travels to Birmingham.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_paddington_district",
+      "type": "location",
+      "label": "Paddington district",
+      "description": "District where Watson purchased the medical practice connection.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_baker_street",
+      "type": "location",
+      "label": "Baker Street",
+      "description": "A place associated with Holmes, rarely visited during the early months of Watson's practice.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_birmingham",
+      "type": "location",
+      "label": "Birmingham",
+      "description": "Destination city for train travel and appointment timing.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_new_street",
+      "type": "location",
+      "label": "New Street (hotel)",
+      "description": "Street where Pycroft stays at a hotel after arriving in Birmingham.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_126b_corporation_street",
+      "type": "location",
+      "label": "126B, Corporation Street",
+      "description": "Temporary offices of the Franco-Midland Hardware Company, Limited, and the appointment address.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_potters_terrace_hampstead_17",
+      "type": "location",
+      "label": "17 Potter's Terrace, Hampstead",
+      "description": "Pycroft's diggings where Arthur Pinner arrives with a card.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_drapers_gardens",
+      "type": "location",
+      "label": "Drapers' Gardens (Coxon & Woodhouse)",
+      "description": "Location named for Pycroft's former employment at Coxon & Woodhouse.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_lombard_street",
+      "type": "location",
+      "label": "Lombard Street (Mawson & Williams')",
+      "description": "Location named for Mawson & Williams', the stockbroking firm where Pycroft takes duties.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "loc_british_medical_journal_reading_time",
+      "type": "location",
+      "label": "Watson's reading after breakfast",
+      "description": "Watson's room where he reads the British Medical Journal after breakfast and hears the bell ring.",
+      "firstSection": "stockbrokers-clerk-section_1"
+    },
+    {
+      "id": "org_mawson_williams",
+      "type": "organisation",
+      "label": "Mawson & Williams' (stockbroking firm)",
+      "description": "The stockbroking firm in Lombard Street where Pycroft is engaged and to which Holmes references the staff.",
+      "firstSection": "stockbrokers-clerk-section_1",
+      "org_type": "commercial"
+    },
+    {
+      "id": "org_coxon_woodhouse",
+      "type": "organisation",
+      "label": "Coxon & Woodhouse",
+      "description": "Pycroft's earlier employer in Drapers' Gardens that goes into a 'smash'.",
+      "firstSection": "stockbrokers-clerk-section_1",
+      "org_type": "commercial"
+    },
+    {
+      "id": "org_franco_midland_hardware",
+      "type": "organisation",
+      "label": "Franco-Midland Hardware Company, Limited",
+      "description": "A private company with temporary offices at 126B, Corporation Street, and with France-wide branches for which Pycroft is offered a business manager role.",
+      "firstSection": "stockbrokers-clerk-section_1",
+      "org_type": "commercial"
+    },
+    {
+      "id": "case_city_gigantic_attempted_robbery_mawson_williams",
+      "type": "case",
+      "label": "Mawson & Williams robbery murder case",
+      "description": "Investigation into a desperate attempt at robbery at the City during which a watchman was killed and a safe was robbed; a criminal was captured.",
+      "firstSection": "stockbrokers-clerk-section_3",
+      "source": "stockbrokers-clerk-section_3",
+      "client": "char_holmes",
+      "crime_type": "murder",
+      "outcome": "solved",
+      "primary_location": "loc_lombard_street"
+    },
+    {
+      "id": "org_city_police",
+      "type": "organisation",
+      "label": "City Police",
+      "description": "Police force referenced as the body responsible for Sergeant Tuson.",
+      "firstSection": "stockbrokers-clerk-section_3",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "org_mawsons_manager_from_newspaper_context",
+      "type": "character",
+      "label": "Mawson & Williams manager (unnamed)",
+      "description": "The manager mentioned in the newspaper account as responsible for securities and safes.",
+      "firstSection": "stockbrokers-clerk-section_3"
+    },
+    {
+      "id": "doc_evening_standard_early_edition",
+      "type": "document",
+      "label": "Evening Standard newspaper (early edition)",
+      "description": "London newspaper cutting flattened on the table; contains a report with headlines about a City crime.",
+      "firstSection": "stockbrokers-clerk-section_3",
+      "document_type": "newspaper",
+      "from": "unknown",
+      "to": "unknown",
+      "content_summary": "Reports a desperate robbery attempt in the City culminating in the death of one man and capture of the criminal; states Mawson & Williams guard securities worth over a million sterling with safes and an armed watchman; says new clerk Hall Pycroft was engaged and that he was actually Beddington; describes the clerk arriving after midday, being arrested after resistance, and the watchman found inside the largest safe with his skull shattered by a poker blow; states American railway bonds and other scrip were discovered in the bag and that entrance was obtained by pretending something had been left behind."
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Watson buys a medical practice connection in the Paddington district",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_3"
+      ],
+      "participants": [
+        "char_watson",
+        "obj_connection_paddington_practice",
+        "loc_paddington_district",
+        "char_mr_farquhar"
+      ],
+      "performs": [
+        "char_watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Mr. Farquhar sells his medical practice connection to Watson",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_4",
+        "sentence_6"
+      ],
+      "participants": [
+        "char_watson",
+        "char_mr_farquhar",
+        "obj_connection_paddington_practice"
+      ],
+      "performs": [
+        "char_mr_farquhar"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes visits Watson's room after Watson has been reading the British Medical Journal after breakfast",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_8",
+        "sentence_9",
+        "sentence_10"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "loc_british_medical_journal_reading_time"
+      ],
+      "performs": [
+        "char_holmes"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes says that Mrs. Watson has recovered from excitements connected with the Sign of Four adventure",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_11"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_mrs_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "I trust that Mrs. Watson has entirely recovered from all the little excitements connected with our adventure of the Sign of Four."
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Watson responds that both he and Mrs. Watson are well",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_12"
+      ],
+      "participants": [
+        "char_watson",
+        "char_holmes",
+        "char_mrs_watson"
+      ],
+      "performs": [
+        "char_watson"
+      ],
+      "communicates": {
+        "speaker": "char_watson",
+        "recipients": [
+          "char_holmes"
+        ],
+        "content": "Thank you, we are both very well"
+      }
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes asks whether Watson's interest in deductive problems has been obliterated by medical practice cares",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "I hope, also, that the cares of medical practice have not entirely obliterated the interest which you used to take in our little deductive problems."
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Watson states he recently reviewed and classified past notes and results",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "char_watson",
+        "char_holmes"
+      ],
+      "performs": [
+        "char_watson"
+      ],
+      "communicates": {
+        "speaker": "char_watson",
+        "recipients": [
+          "char_holmes"
+        ],
+        "content": "it was only last night that I was looking over my old notes, and classifying some of our past results."
+      }
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Watson and Holmes discuss continuing deductive experiences and travel to Birmingham",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_18",
+        "sentence_21",
+        "sentence_52",
+        "sentence_53"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes says Watson should come to Birmingham and that the case can be heard on the train",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_51",
+        "sentence_52",
+        "sentence_55"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "You are ready to come to Birmingham, then? ... You shall hear it all in the train."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes says his client is outside in a four-wheeler and asks if Watson can come at once",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_56",
+        "sentence_57"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "obj_cab_in_four_wheeler"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "My client is outside in a four-wheeler. Can you come at once?"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Watson agrees to come immediately, and he writes a note, explains to his wife, and joins Holmes at the door-step",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_58",
+        "sentence_59"
+      ],
+      "participants": [
+        "char_watson",
+        "char_holmes",
+        "char_mrs_watson",
+        "loc_british_medical_journal_reading_time"
+      ],
+      "performs": [
+        "char_watson"
+      ]
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Watson and Holmes talk about Watson's neighbour being a doctor who bought a practice",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_60",
+        "sentence_61",
+        "sentence_64"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_neighbour_doctor"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "Your neighbour is a doctor"
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes introduces Watson to Mr. Hall Pycroft in a cab and orders the cabby to hurry to catch the train",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_71",
+        "sentence_72",
+        "sentence_73"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "char_cabby",
+        "obj_cab_in_four_wheeler"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson",
+          "char_cabby"
+        ],
+        "content": "Whip your horse up, cabby, for we have only just time to catch our train."
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Watson hears that Holmes has placed Mr. Hall Pycroft in the cab with them and that they start their journey to Birmingham in a first-class carriage",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_77"
+      ],
+      "participants": [
+        "char_watson",
+        "char_holmes",
+        "char_hall_pycroft",
+        "obj_first_class_carriage",
+        "loc_birmingham"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes orders Mr. Hall Pycroft to tell his experience exactly as he did before",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_79",
+        "sentence_80"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "I want you, Mr. Hall Pycroft, to tell my friend your very interesting experience exactly as you have told it to me, or with more detail if possible."
+      }
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Holmes says he will not interrupt Pycroft again",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_82"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "Now, Mr. Pycroft, I shall not interrupt you again."
+      }
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Mr. Hall Pycroft recounts that Coxon & Woodhouse let him go because of the Venezuelan loan",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_87",
+        "sentence_88"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "org_coxon_woodhouse"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Mr. Hall Pycroft recounts he responds to an advertisement and is hired at Mawson & Williams' to start duties on Monday with a pay rise of a pound per week",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_93",
+        "sentence_98",
+        "sentence_102"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "org_mawson_williams"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Arthur Pinner visits Pycroft at 17 Potter's Terrace and introduces himself with a card",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_arthur_pinner",
+        "char_landlady",
+        "loc_potters_terrace_hampstead_17"
+      ],
+      "performs": [
+        "char_arthur_pinner"
+      ]
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Arthur Pinner tests Pycroft by asking about market values and receives answers",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_129",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136"
+      ],
+      "participants": [
+        "char_arthur_pinner",
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_arthur_pinner",
+        "char_hall_pycroft"
+      ],
+      "communicates": {
+        "speaker": "char_arthur_pinner",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "How are Ayrshires?"
+      }
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Arthur Pinner offers Pycroft a business manager position at the Franco-Midland Hardware Company, Limited, with an advance note and instructions",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_151",
+        "sentence_154",
+        "sentence_159",
+        "sentence_163",
+        "sentence_177",
+        "sentence_180",
+        "sentence_181",
+        "sentence_182"
+      ],
+      "participants": [
+        "char_arthur_pinner",
+        "char_hall_pycroft",
+        "org_franco_midland_hardware",
+        "obj_hundred_pound_note"
+      ],
+      "performs": [
+        "char_arthur_pinner"
+      ]
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Pycroft writes a statement of willingness to act as business manager at a minimum salary of £500, and Arthur Pinner places the paper in his pocket",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_189",
+        "sentence_190"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_arthur_pinner",
+        "obj_written_willingness_note"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Arthur Pinner provides an advance of one hundred pounds and a letter, and gives Pycroft an appointment time and address",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_212",
+        "sentence_213"
+      ],
+      "participants": [
+        "char_arthur_pinner",
+        "char_hall_pycroft",
+        "obj_hundred_pound_note",
+        "obj_letter_from_brother",
+        "loc_126b_corporation_street"
+      ],
+      "performs": [
+        "char_arthur_pinner"
+      ]
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Pycroft travels to Birmingham, stays at a hotel in New Street, and goes to 126B, Corporation Street for his appointment",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_217",
+        "sentence_218"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "loc_birmingham",
+        "loc_new_street",
+        "loc_126b_corporation_street"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Pycroft arrives at the temporary offices at 126B, Corporation Street where the company name is not yet displayed",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_221"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "loc_126b_corporation_street",
+        "org_franco_midland_hardware"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "A man matching Arthur Pinner arrives and says he had been expecting Pycroft and that they will talk in the offices",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_222",
+        "sentence_228",
+        "sentence_231",
+        "sentence_232"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_arthur_pinner",
+        "loc_126b_corporation_street"
+      ],
+      "performs": [
+        "char_arthur_pinner"
+      ],
+      "communicates": {
+        "speaker": "char_arthur_pinner",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "I was expecting you, but you are a trifle before your time."
+      }
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "The man leads Pycroft up to two empty, dusty rooms under the slates",
+      "section": "stockbrokers-clerk-section_1",
+      "source_nodes": [
+        "sentence_233",
+        "sentence_234"
+      ],
+      "participants": [
+        "char_arthur_pinner",
+        "char_hall_pycroft",
+        "loc_126b_corporation_street"
+      ],
+      "performs": [
+        "char_arthur_pinner"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Hall Pycroft is given a letter and reads it carefully",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_237",
+        "sentence_238"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "obj_letter_from_brother"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Hall Pycroft tells the narrator that Arthur Pinner swore by London and that Hall Pycroft will follow his advice",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_239",
+        "sentence_240"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "obj_letter_from_brother"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "You seem to have made a vast impression upon my brother Arthur; and I know that he is a pretty shrewd judge. He swears by London, you know; and I by Birmingham; but this time I shall follow his advice."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Hall Pycroft directs the narrator to consider himself definitely engaged",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_241"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "Pray consider yourself definitely engaged."
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Hall Pycroft says the narrator will manage the great depôt in Paris and that the purchase will be completed in a week",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_244",
+        "sentence_245"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "You will eventually manage the great depôt in Paris, which will pour a flood of English crockery into the shops of a hundred and thirty-four agents in France. The purchase will be completed in a week, and meanwhile you will remain in Birmingham and make yourself useful."
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Hall Pycroft takes a big red book out of a drawer",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_247"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "obj_stock_exchange_list"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Hall Pycroft presents the big red book as a directory of Paris listing trades after names",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_248"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "obj_stock_exchange_list"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "This is a directory of Paris, said he, with the trades after the names of the people."
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Hall Pycroft instructs the narrator to mark off hardware sellers and bring the lists by Monday at twelve",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_249",
+        "sentence_250",
+        "sentence_255"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "I want you to take it home with you, and to mark off all the hardware sellers, with their addresses... It would be of the greatest use to me to have them... Stick at it, and let me have the lists by Monday, at twelve."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Hall Pycroft dismisses the narrator and says the company will be a good master if he continues to show zeal and intelligence",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_256",
+        "sentence_257"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [],
+        "content": "Good-day, Mr. Pycroft. If you continue to show zeal and intelligence you will find the company a good master."
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Hall Pycroft returns to the hotel with the big book and conflicting feelings",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_258"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "obj_stock_exchange_list",
+        "loc_new_street"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Hall Pycroft works Sunday and reaches only to letter H by Monday",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_261"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Hall Pycroft returns to his employer and is told to keep at it until Wednesday then come again",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_262"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_mr_farquhar"
+      ],
+      "performs": [
+        "char_mr_farquhar"
+      ],
+      "communicates": {
+        "speaker": "char_mr_farquhar",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "Keep at it until Wednesday, and then come again."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Hall Pycroft finishes work and brings it to Harry Pinner on Friday",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_263",
+        "sentence_264"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_harry_pinner"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "Harry Pinner thanks Hall Pycroft and says the list will help him materially",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_265",
+        "sentence_266"
+      ],
+      "participants": [
+        "char_harry_pinner",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_harry_pinner",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "Thank you very much. I fear that I underrated the difficulty of the task. This list will be of very material assistance to me."
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "Harry Pinner asks Hall Pycroft to make a list of furniture shops that sell crockery and invites him back tomorrow at seven",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_268",
+        "sentence_270",
+        "sentence_271"
+      ],
+      "participants": [
+        "char_harry_pinner",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_harry_pinner",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "I want you to make a list of the furniture shops, for they all sell crockery... You can come up to-morrow evening, at seven, and let me know how you are getting on. Don't overwork yourself."
+      }
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "Hall Pycroft says he will continue and reacts to Harry Pinner’s gold-stuffed tooth",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_272"
+      ],
+      "participants": [
+        "char_hall_pycroft"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "Sherlock Holmes rubs his hands and links two men by a gold-stuffed tooth and identical voice and figure",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "You may well look surprised, Dr. Watson; but it is this way... I happened to notice that his tooth was stuffed in this very identical fashion. The glint of the gold in each case caught my eye, you see... I could not doubt that it was the same man. Of course you expect two brothers to be alike, but not that they should have the same tooth stuffed in the same way."
+      }
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "Sherlock Holmes states it would be interesting to interview Arthur Harry Pinner in the Franco-Midland Hardware Company offices",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_292"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "case_franco_midland_hardware_company"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "I think that you will agree with me that an interview with Mr. Arthur Harry Pinner in the temporary offices of the Franco-Midland Hardware Company, Limited, would be a rather interesting experience for both of us."
+      }
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "Hall Pycroft says they will bring Holmes and Watson to the managing director",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_295",
+        "sentence_296"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [
+          "char_holmes",
+          "char_watson"
+        ],
+        "content": "Oh, easily enough... You are two friends of mine who are in want of a billet, and what could be more natural than that I should bring you both round to the managing director?"
+      }
+    },
+    {
+      "id": "event_2_19",
+      "type": "event",
+      "label": "Holmes asks what qualities Pycroft has; Pycroft begins biting his nails and staring blankly out the window",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_298",
+        "sentence_300"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "I should like to have a look at the gentleman, and see if I can make anything of his little game. What qualities have you, my friend, which would make your services so valuable? or is it possible that—"
+      }
+    },
+    {
+      "id": "event_2_20",
+      "type": "event",
+      "label": "The three men walk to the company’s offices on Corporation Street",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_301"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "org_franco_midland_hardware"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_21",
+      "type": "event",
+      "label": "Hall Pycroft points out the clerk who walks ahead of them and buys an evening paper",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_306",
+        "sentence_307",
+        "sentence_308",
+        "sentence_309",
+        "sentence_310"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_holmes",
+        "char_watson",
+        "char_harry_pinner"
+      ],
+      "performs": [
+        "char_harry_pinner",
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_22",
+      "type": "event",
+      "label": "Hall Pycroft ascends floors and taps the door; a voice orders them to enter and they enter the room",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_315",
+        "sentence_316"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_holmes",
+        "char_watson",
+        "char_harry_pinner",
+        "org_franco_midland_hardware"
+      ],
+      "performs": [
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_23",
+      "type": "event",
+      "label": "Arthur Pinner reacts to the visitors, asks who they are, and is told they are friends applying for work",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_320",
+        "sentence_321",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325"
+      ],
+      "participants": [
+        "char_harry_pinner",
+        "char_hall_pycroft",
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_harry_pinner",
+        "recipients": [
+          "char_hall_pycroft",
+          "char_holmes",
+          "char_watson"
+        ],
+        "content": "You look ill, Mr. Pinner!"
+      }
+    },
+    {
+      "id": "event_2_24",
+      "type": "event",
+      "label": "Arthur Pinner asks the visitors’ identities; Holmes says he is an accountant and Watson says he is a clerk",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_333",
+        "sentence_334"
+      ],
+      "participants": [
+        "char_harry_pinner",
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_harry_pinner",
+        "recipients": [
+          "char_holmes"
+        ],
+        "content": "What is your particular line, Mr. Harris?"
+      }
+    },
+    {
+      "id": "event_2_25",
+      "type": "event",
+      "label": "Arthur Pinner says he will hope the company will accommodate them, then orders them to go away and leave him alone",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_337",
+        "sentence_338"
+      ],
+      "participants": [
+        "char_harry_pinner",
+        "char_hall_pycroft",
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_harry_pinner",
+        "recipients": [
+          "char_hall_pycroft",
+          "char_holmes",
+          "char_watson"
+        ],
+        "content": "I have every hope that the company may accommodate you... I will let you know about it as soon as we come to any conclusion. And now I beg that you will go. For God's sake leave me to myself!"
+      }
+    },
+    {
+      "id": "event_2_26",
+      "type": "event",
+      "label": "Hall Pycroft interrupts and says he is by appointment to receive directions; Arthur Pinner offers a calmer tone and steps into an inner room via another door",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_341",
+        "sentence_342",
+        "sentence_345"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "char_harry_pinner",
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_harry_pinner",
+        "char_hall_pycroft"
+      ],
+      "communicates": {
+        "speaker": "char_hall_pycroft",
+        "recipients": [
+          "char_harry_pinner"
+        ],
+        "content": "You forget, Mr. Pinner, that I am here by appointment to receive some directions from you."
+      }
+    },
+    {
+      "id": "event_2_27",
+      "type": "event",
+      "label": "A rat-tat knocks come from the inner door and the managing director’s inner-door clatter prevents normal conversation",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_366",
+        "sentence_369",
+        "sentence_372",
+        "sentence_373"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft",
+        "char_watson",
+        "char_harry_pinner"
+      ],
+      "performs": [
+        "char_holmes"
+      ]
+    },
+    {
+      "id": "event_2_28",
+      "type": "event",
+      "label": "Holmes forces the fastened inner door open; they enter and find an empty inner room before discovering a second door with the managing director hanging",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376",
+        "sentence_377",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381",
+        "sentence_382",
+        "sentence_383"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "char_harry_pinner"
+      ],
+      "performs": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_29",
+      "type": "event",
+      "label": "The managing director of Franco-Midland Hardware Company is untied and carried into the other room",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_384",
+        "sentence_385"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "char_harry_pinner",
+        "org_franco_midland_hardware"
+      ],
+      "performs": [
+        "char_watson",
+        "char_holmes",
+        "char_hall_pycroft"
+      ]
+    },
+    {
+      "id": "event_2_30",
+      "type": "event",
+      "label": "Watson examines the managing director, opens a window, pours water, and raises and sinks his arms as he regains a breath",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_388",
+        "sentence_391",
+        "sentence_392"
+      ],
+      "participants": [
+        "char_watson",
+        "char_harry_pinner"
+      ],
+      "performs": [
+        "char_watson"
+      ]
+    },
+    {
+      "id": "event_2_31",
+      "type": "event",
+      "label": "Holmes says they should call the police but prefer to give them a complete case; Pycroft asks what they wanted to bring Hall Pycroft all the way for",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "I suppose we ought to call the police in now."
+      }
+    },
+    {
+      "id": "event_2_32",
+      "type": "event",
+      "label": "Holmes explains the scheme hinges on getting Pycroft to write a declaration accepting minimum salary and on getting a handwriting specimen",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_410",
+        "sentence_415",
+        "sentence_416",
+        "sentence_421",
+        "sentence_422"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "obj_written_willingness_note",
+        "case_franco_midland_hardware_company"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft",
+          "char_watson"
+        ],
+        "content": "The whole thing hinges upon two points. The first is the making of Pycroft write a declaration by which he entered the service of this preposterous company... they were very anxious to obtain a specimen of your handwriting, and had no other way of doing it? ... Some one wanted to learn to imitate your writing, and had to procure a specimen of it first."
+      }
+    },
+    {
+      "id": "event_2_33",
+      "type": "event",
+      "label": "Holmes says Pinner requested Pycroft not to resign and to leave the manager expecting another Hall Pycroft Monday morning",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_424"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft",
+        "char_harry_pinner",
+        "case_franco_midland_hardware_company"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft",
+          "char_watson"
+        ],
+        "content": "That point is the request made by Pinner that you should not resign your place, but should leave the manager of this important business in the full expectation that a Mr. Hall Pycroft, whom he had never seen, was about to enter the office upon the Monday morning."
+      }
+    },
+    {
+      "id": "event_2_34",
+      "type": "event",
+      "label": "Holmes says the impersonator could maintain his position by learning to imitate Pycroft’s handwriting while no one had seen the real Pycroft in the office",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_427",
+        "sentence_429",
+        "sentence_430"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "Now you see the point about the handwriting... But in the interval the rogue had learned to imitate you, and his position was therefore secure, as I presume that nobody in the office had ever set eyes upon you."
+      }
+    },
+    {
+      "id": "event_2_35",
+      "type": "event",
+      "label": "Holmes says the office advance and sending to the Midlands prevented Pycroft from reaching London and contacting someone who could expose the double",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_433"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "Therefore they gave you a handsome advance on your salary, and ran you off to the Midlands, where they gave you enough work to do to prevent your going to London, where you might have burst their little game up."
+      }
+    },
+    {
+      "id": "event_2_36",
+      "type": "event",
+      "label": "Holmes identifies the second man as impersonating Pycroft at Mawson’s and explains the brothers’ roles",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_435",
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_441"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft",
+        "char_arthur_pinner",
+        "char_harry_pinner"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "But why should this man pretend to be his own brother? Well, that is pretty clear also. There are evidently only two of them in it. The other is impersonating you at the office. This one acted as your engager... He changed his appearance as far as he could..."
+      }
+    },
+    {
+      "id": "event_2_37",
+      "type": "event",
+      "label": "Holmes proposes wiring to Mawson’s and that they may have a permanent guard at twelve on Saturdays",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_448",
+        "sentence_449",
+        "sentence_452",
+        "sentence_453"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "We must wire to Mawson's. They shut at twelve on Saturdays. Never mind... Ah yes, they keep a permanent guard there on account of the value of the securities that they hold."
+      }
+    },
+    {
+      "id": "event_2_38",
+      "type": "event",
+      "label": "Holmes states that seeing the group makes one rogue instantly walk out of the room and hang himself",
+      "section": "stockbrokers-clerk-section_2",
+      "source_nodes": [
+        "sentence_455"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_hall_pycroft",
+        "char_watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft",
+          "char_watson"
+        ],
+        "content": "That is clear enough; but what is not so clear is why at sight of us one of the rogues should instantly walk out of the room and hang himself."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "A voice calls out from behind the speaker",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_457"
+      ],
+      "participants": [
+        "unknown_voice",
+        "char_holmes"
+      ],
+      "performs": [
+        "unknown_voice"
+      ],
+      "communicates": {
+        "speaker": "unknown_voice",
+        "recipients": [
+          "char_holmes"
+        ],
+        "content": "\"The paper!\""
+      }
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Holmes yells with excitement",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_461"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "\"Of course!\""
+      }
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Holmes admits a mistake and mentions a secret must be there",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_462",
+        "sentence_463",
+        "sentence_464"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "\"Idiot that I was! I thought so much of our visit that the paper never entered my head for an instant. To be sure, the secret must be there.\""
+      }
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Holmes flattens the newspaper paper on the table and triumphs",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_465"
+      ],
+      "participants": [
+        "char_holmes",
+        "doc_evening_standard_early_edition",
+        "unknown_table"
+      ],
+      "performs": [
+        "char_holmes"
+      ]
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Holmes points out the newspaper and invites Watson to read it aloud",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_466",
+        "sentence_467",
+        "sentence_468",
+        "sentence_472"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "doc_evening_standard_early_edition"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "\"Look at this, Watson\" ... \"It is a London paper, an early edition of the Evening Standard. Here is what we want. Look at the headlines: 'Crime in the City. Murder at Mawson & Williams' Gigantic Attempted Robbery. Here, Watson, we are all equally anxious to hear it, so kindly read it aloud to us.\""
+      }
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "A newspaper report is described as running in a particular way",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_474",
+        "sentence_475"
+      ],
+      "participants": [
+        "doc_evening_standard_early_edition"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "The report says an armed watchman was left day and night in the building",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_477"
+      ],
+      "participants": [
+        "org_mawsons_manager_from_newspaper_context",
+        "org_mawson_williams",
+        "watchman_unnamed"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": ""
+      }
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "The report states that Hall Pycroft was engaged by the firm",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_478"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "org_mawson_williams"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": ""
+      }
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "The report equates Hall Pycroft with Beddington and describes his criminal background and position under a false name",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_479",
+        "sentence_480"
+      ],
+      "participants": [
+        "char_hall_pycroft",
+        "beddington_unknown",
+        "beddington_brother_unknown",
+        "org_mawson_williams"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": ""
+      }
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "The report states that Sergeant Tuson followed the man after his arrival time",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_482",
+        "sentence_483"
+      ],
+      "participants": [
+        "sergeant_tuson_unnamed",
+        "constable_pollock_unnamed",
+        "unknown_man_from_arrival",
+        "org_city_police"
+      ],
+      "performs": [
+        "sergeant_tuson_unnamed",
+        "constable_pollock_unnamed"
+      ]
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "The report states that the man was arrested after desperate resistance",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_483"
+      ],
+      "participants": [
+        "sergeant_tuson_unnamed",
+        "constable_pollock_unnamed",
+        "unknown_man_from_arrival"
+      ],
+      "performs": [
+        "sergeant_tuson_unnamed",
+        "constable_pollock_unnamed"
+      ]
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "The report states that American railway bonds and other scrip were discovered in the bag",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_485"
+      ],
+      "participants": [
+        "bag_unnamed",
+        "bonds_american_unnamed",
+        "scrip_unnamed",
+        "unknown_man_from_arrival"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "The report states that the watchman's body was found doubled up and thrust into the largest safe",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_486"
+      ],
+      "participants": [
+        "watchman_body_unnamed",
+        "safe_largest_unnamed",
+        "sergeant_tuson_unnamed"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "The report states that the watchman's skull was shattered by a poker blow from behind",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_487"
+      ],
+      "participants": [
+        "watchman_body_unnamed",
+        "poker_unnamed",
+        "unknown_assailant_from_behind"
+      ],
+      "performs": [
+        "unknown_assailant_from_behind"
+      ]
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "The report states that entrance was obtained by pretending something was left behind and that the watchman was murdered",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_488"
+      ],
+      "participants": [
+        "unknown_assailant_from_behind",
+        "watchman_body_unnamed",
+        "safe_largest_unnamed",
+        "org_mawson_williams"
+      ],
+      "performs": [
+        "unknown_assailant_from_behind"
+      ]
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Holmes says police queries could be reduced and that Beddington's brother is affected by the neck forfeited",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_490",
+        "sentence_491",
+        "sentence_492"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_watson"
+        ],
+        "content": "\"Well, we may save the police some little trouble in that direction,\" ... \"Human nature is a strange mixture, Watson. You see that even a villain and murderer can inspire such affection that his brother turns to suicide when he learns that his neck is forfeited.\""
+      }
+    },
+    {
+      "id": "event_3_17",
+      "type": "event",
+      "label": "Holmes orders Watson and the doctor will remain on guard while Pycroft goes to the police",
+      "section": "stockbrokers-clerk-section_3",
+      "source_nodes": [
+        "sentence_493",
+        "sentence_494"
+      ],
+      "participants": [
+        "char_holmes",
+        "char_watson",
+        "char_hall_pycroft",
+        "doctor_unnamed"
+      ],
+      "performs": [
+        "char_holmes"
+      ],
+      "communicates": {
+        "speaker": "char_holmes",
+        "recipients": [
+          "char_hall_pycroft"
+        ],
+        "content": "\"However, we have no choice as to our action. The doctor and I will remain on guard, Mr. Pycroft, if you will have the kindness to step out for the police.\""
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "obj_connection_paddington_practice",
+      "to": "char_watson",
+      "type": "OWNS",
+      "valid_from": "event_1_2",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "char_holmes",
+      "to": "loc_british_medical_journal_reading_time",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_3",
+      "valid_until": "event_2_20",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "char_holmes",
+      "to": "loc_126b_corporation_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_20",
+      "caused_by": [
+        "event_2_20"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "char_watson",
+      "to": "char_mrs_watson",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_5",
+      "valid_until": "event_1_13",
+      "caused_by": [
+        "event_1_5"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "char_watson",
+      "to": "obj_cab_in_four_wheeler",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_13",
+      "caused_by": [
+        "event_1_13"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "char_hall_pycroft",
+      "to": "obj_cab_in_four_wheeler",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_13",
+      "caused_by": [
+        "event_1_13"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "char_holmes",
+      "to": "obj_cab_in_four_wheeler",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_13",
+      "caused_by": [
+        "event_1_13"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "obj_hundred_pound_note",
+      "to": "char_hall_pycroft",
+      "type": "OWNS",
+      "valid_from": "event_1_23",
+      "caused_by": [
+        "event_1_23"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "obj_written_willingness_note",
+      "to": "char_arthur_pinner",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_22",
+      "caused_by": [
+        "event_1_22"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "char_hall_pycroft",
+      "to": "loc_new_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_24",
+      "valid_until": "event_1_24",
+      "caused_by": [
+        "event_1_24"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "char_hall_pycroft",
+      "to": "loc_126b_corporation_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_24",
+      "valid_until": "event_2_9",
+      "caused_by": [
+        "event_1_24"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "char_hall_pycroft",
+      "to": "loc_new_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_9",
+      "valid_until": "event_2_20",
+      "caused_by": [
+        "event_2_9"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "char_hall_pycroft",
+      "to": "loc_126b_corporation_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_20",
+      "caused_by": [
+        "event_2_20"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "obj_letter_from_brother",
+      "to": "char_hall_pycroft",
+      "type": "OWNS",
+      "valid_from": "event_2_1",
+      "caused_by": [
+        "event_2_1"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "obj_stock_exchange_list",
+      "to": "char_hall_pycroft",
+      "type": "OWNS",
+      "valid_from": "event_2_5",
+      "caused_by": [
+        "event_2_5"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "char_watson",
+      "to": "loc_126b_corporation_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_20",
+      "caused_by": [
+        "event_2_20"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "obj_connection_paddington_practice",
+      "to": "loc_birmingham",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_4",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "char_harry_pinner",
+      "to": "org_franco_midland_hardware",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_22",
+      "valid_until": "event_2_28",
+      "caused_by": [
+        "event_2_22"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "char_harry_pinner",
+      "to": "loc_126b_corporation_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_28",
+      "caused_by": [
+        "event_2_28"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "doc_evening_standard_early_edition",
+      "to": "unknown_table",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_4",
+      "caused_by": [
+        "event_3_4"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "char_watson",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 31,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_8",
+        "sentence_9",
+        "sentence_10",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_16",
+        "sentence_27",
+        "sentence_30",
+        "sentence_31",
+        "sentence_32",
+        "sentence_39",
+        "sentence_41",
+        "sentence_48",
+        "sentence_50",
+        "sentence_52",
+        "sentence_58",
+        "sentence_59",
+        "sentence_68",
+        "sentence_72",
+        "sentence_74",
+        "sentence_77",
+        "sentence_83",
+        "sentence_141",
+        "sentence_217",
+        "sentence_218",
+        "sentence_226",
+        "sentence_230",
+        "sentence_234"
+      ]
+    },
+    {
+      "entity": "char_holmes",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 33,
+      "sentence_ids": [
+        "sentence_8",
+        "sentence_10",
+        "sentence_11",
+        "sentence_13",
+        "sentence_14",
+        "sentence_18",
+        "sentence_26",
+        "sentence_27",
+        "sentence_32",
+        "sentence_34",
+        "sentence_36",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_51",
+        "sentence_52",
+        "sentence_55",
+        "sentence_56",
+        "sentence_60",
+        "sentence_62",
+        "sentence_65",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_70",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_81",
+        "sentence_82"
+      ]
+    },
+    {
+      "entity": "char_mrs_watson",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_11",
+        "sentence_12"
+      ]
+    },
+    {
+      "entity": "char_mr_farquhar",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_4",
+        "sentence_6"
+      ]
+    },
+    {
+      "entity": "char_neighbour_doctor",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_60",
+        "sentence_61"
+      ]
+    },
+    {
+      "entity": "char_hall_pycroft",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 21,
+      "sentence_ids": [
+        "sentence_71",
+        "sentence_74",
+        "sentence_79",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_86",
+        "sentence_87",
+        "sentence_93",
+        "sentence_98",
+        "sentence_104",
+        "sentence_149",
+        "sentence_154",
+        "sentence_155",
+        "sentence_156",
+        "sentence_179",
+        "sentence_184",
+        "sentence_218",
+        "sentence_224",
+        "sentence_225",
+        "sentence_226"
+      ]
+    },
+    {
+      "entity": "char_arthur_pinner",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 48,
+      "sentence_ids": [
+        "sentence_105",
+        "sentence_107",
+        "sentence_110",
+        "sentence_116",
+        "sentence_121",
+        "sentence_124",
+        "sentence_129",
+        "sentence_131",
+        "sentence_139",
+        "sentence_145",
+        "sentence_150",
+        "sentence_151",
+        "sentence_154",
+        "sentence_158",
+        "sentence_163",
+        "sentence_166",
+        "sentence_172",
+        "sentence_175",
+        "sentence_177",
+        "sentence_179",
+        "sentence_180",
+        "sentence_181",
+        "sentence_182",
+        "sentence_183",
+        "sentence_184",
+        "sentence_185",
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_191",
+        "sentence_196",
+        "sentence_197",
+        "sentence_201",
+        "sentence_202",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_216",
+        "sentence_222",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_233"
+      ]
+    },
+    {
+      "entity": "char_harry_pinner",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_159",
+        "sentence_182",
+        "sentence_229"
+      ]
+    },
+    {
+      "entity": "char_parker",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_117",
+        "sentence_162",
+        "sentence_203"
+      ]
+    },
+    {
+      "entity": "org_coxon_woodhouse",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_87",
+        "sentence_88",
+        "sentence_93"
+      ]
+    },
+    {
+      "entity": "org_mawson_williams",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_93",
+        "sentence_98",
+        "sentence_102",
+        "sentence_115",
+        "sentence_148",
+        "sentence_149",
+        "sentence_150",
+        "sentence_151",
+        "sentence_152",
+        "sentence_172",
+        "sentence_193",
+        "sentence_194",
+        "sentence_196",
+        "sentence_199"
+      ]
+    },
+    {
+      "entity": "org_franco_midland_hardware",
+      "section": "stockbrokers-clerk-section_1",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_154",
+        "sentence_158",
+        "sentence_159",
+        "sentence_167",
+        "sentence_175",
+        "sentence_189",
+        "sentence_221",
+        "sentence_231"
+      ]
+    },
+    {
+      "entity": "char_hall_pycroft",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 28,
+      "sentence_ids": [
+        "sentence_235",
+        "sentence_242",
+        "sentence_243",
+        "sentence_258",
+        "sentence_259",
+        "sentence_271",
+        "sentence_286",
+        "sentence_292",
+        "sentence_295",
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_306",
+        "sentence_312",
+        "sentence_313",
+        "sentence_315",
+        "sentence_320",
+        "sentence_324",
+        "sentence_341",
+        "sentence_346",
+        "sentence_349",
+        "sentence_361",
+        "sentence_383",
+        "sentence_410",
+        "sentence_426",
+        "sentence_446",
+        "sentence_447",
+        "sentence_448"
+      ]
+    },
+    {
+      "entity": "char_holmes",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 67,
+      "sentence_ids": [
+        "sentence_274",
+        "sentence_275",
+        "sentence_286",
+        "sentence_288",
+        "sentence_289",
+        "sentence_291",
+        "sentence_292",
+        "sentence_297",
+        "sentence_298",
+        "sentence_304",
+        "sentence_304",
+        "sentence_312",
+        "sentence_316",
+        "sentence_340",
+        "sentence_346",
+        "sentence_347",
+        "sentence_348",
+        "sentence_351",
+        "sentence_362",
+        "sentence_371",
+        "sentence_373",
+        "sentence_386",
+        "sentence_395",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_413",
+        "sentence_414",
+        "sentence_415",
+        "sentence_416",
+        "sentence_417",
+        "sentence_418",
+        "sentence_419",
+        "sentence_420",
+        "sentence_421",
+        "sentence_422",
+        "sentence_423",
+        "sentence_424",
+        "sentence_427",
+        "sentence_428",
+        "sentence_429",
+        "sentence_431",
+        "sentence_432",
+        "sentence_433",
+        "sentence_434",
+        "sentence_435",
+        "sentence_436",
+        "sentence_437",
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_441",
+        "sentence_442",
+        "sentence_443",
+        "sentence_446",
+        "sentence_448",
+        "sentence_454",
+        "sentence_455"
+      ]
+    },
+    {
+      "entity": "char_watson",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 30,
+      "sentence_ids": [
+        "sentence_264",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_286",
+        "sentence_288",
+        "sentence_301",
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_323",
+        "sentence_340",
+        "sentence_346",
+        "sentence_347",
+        "sentence_360",
+        "sentence_386",
+        "sentence_388",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_395",
+        "sentence_396",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408"
+      ]
+    },
+    {
+      "entity": "char_arthur_pinner",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_292",
+        "sentence_424",
+        "sentence_432",
+        "sentence_435",
+        "sentence_446",
+        "sentence_455"
+      ]
+    },
+    {
+      "entity": "char_harry_pinner",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 38,
+      "sentence_ids": [
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_268",
+        "sentence_270",
+        "sentence_275",
+        "sentence_275",
+        "sentence_307",
+        "sentence_310",
+        "sentence_313",
+        "sentence_316",
+        "sentence_317",
+        "sentence_319",
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_326",
+        "sentence_328",
+        "sentence_329",
+        "sentence_330",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_342",
+        "sentence_345",
+        "sentence_346",
+        "sentence_376",
+        "sentence_382",
+        "sentence_383",
+        "sentence_385",
+        "sentence_386",
+        "sentence_389"
+      ]
+    },
+    {
+      "entity": "obj_letter_from_brother",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_237",
+        "sentence_238",
+        "sentence_239"
+      ]
+    },
+    {
+      "entity": "obj_stock_exchange_list",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255"
+      ]
+    },
+    {
+      "entity": "obj_written_willingness_note",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_410"
+      ]
+    },
+    {
+      "entity": "org_franco_midland_hardware",
+      "section": "stockbrokers-clerk-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_292",
+        "sentence_301",
+        "sentence_313",
+        "sentence_316",
+        "sentence_382",
+        "sentence_385"
+      ]
+    },
+    {
+      "entity": "doc_evening_standard_early_edition",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_456",
+        "sentence_465",
+        "sentence_466",
+        "sentence_467",
+        "sentence_474",
+        "sentence_475"
+      ]
+    },
+    {
+      "entity": "char_holmes",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_461",
+        "sentence_462",
+        "sentence_465",
+        "sentence_466",
+        "sentence_490",
+        "sentence_491",
+        "sentence_492",
+        "sentence_493",
+        "sentence_494"
+      ]
+    },
+    {
+      "entity": "char_watson",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_466",
+        "sentence_472",
+        "sentence_490",
+        "sentence_491",
+        "sentence_492",
+        "sentence_494"
+      ]
+    },
+    {
+      "entity": "char_hall_pycroft",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_478",
+        "sentence_494"
+      ]
+    },
+    {
+      "entity": "org_mawson_williams",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_476",
+        "sentence_477",
+        "sentence_479"
+      ]
+    },
+    {
+      "entity": "org_city_police",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_482"
+      ]
+    },
+    {
+      "entity": "case_city_gigantic_attempted_robbery_mawson_williams",
+      "section": "stockbrokers-clerk-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_474",
+        "sentence_475"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "obj_stock_exchange_list",
+      "case": "case_franco_midland_hardware_company",
+      "discovered_by": "char_hall_pycroft",
+      "discovered_in_section": "stockbrokers-clerk-section_2",
+      "significance": "Holmes described how he inferred the identity match between two men by noticing a gold-stuffed tooth; the directory work is part of the case context leading to the later office infiltration.",
+      "source_nodes": [
+        "sentence_274",
+        "sentence_275",
+        "sentence_276",
+        "sentence_277",
+        "sentence_278",
+        "sentence_244"
+      ]
+    },
+    {
+      "object": "doc_evening_standard_early_edition",
+      "case": "case_city_gigantic_attempted_robbery_mawson_williams",
+      "discovered_by": "char_holmes",
+      "discovered_in_section": "stockbrokers-clerk-section_3",
+      "significance": "Holmes used the London newspaper early edition to read headlines about the City crime connected to Mawson & Williams.",
+      "source_nodes": [
+        "sentence_465",
+        "sentence_466",
+        "sentence_467",
+        "sentence_468",
+        "sentence_469",
+        "sentence_470",
+        "sentence_471",
+        "sentence_472"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "char_hall_pycroft",
+      "organisation": "org_mawson_williams"
+    }
+  ]
+}

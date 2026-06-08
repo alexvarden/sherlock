@@ -1,0 +1,5427 @@
+{
+  "entities": [
+    {
+      "id": "silver_blaze_case",
+      "type": "case",
+      "label": "Silver Blaze case",
+      "description": "Investigation into the disappearance of the horse Silver Blaze and the murder of trainer John Straker.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective who announces travel to Dartmoor/King's Pyland and describes the case events.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Dr. Watson",
+      "description": "Narrator and companion of Holmes who travels with him to the scene.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "john_straker",
+      "type": "character",
+      "label": "John Straker",
+      "description": "Trainer of Silver Blaze; murdered.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "silver_blaze",
+      "type": "object",
+      "label": "Silver Blaze",
+      "description": "Favourite horse for the Wessex Cup; later disappears and is missing on Tuesday.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "bayard",
+      "type": "object",
+      "label": "Bayard",
+      "description": "Second horse entered in the Wessex Cup; discussed as a competitor.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "colonel_ross",
+      "type": "character",
+      "label": "Colonel Ross",
+      "description": "Owner of the horse; sends an invitation for Watson’s co-operation.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "inspector_gregory",
+      "type": "character",
+      "label": "Inspector Gregory",
+      "description": "Inspector looking after the case; arrives, arrests a suspect.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "fitzroy_simpson",
+      "type": "character",
+      "label": "Fitzroy Simpson",
+      "description": "Suspect arrested in connection with drugging and the horse/trainers’ disappearance/murder.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "silas_brown",
+      "type": "character",
+      "label": "Silas Brown",
+      "description": "Manager of Mapleton training establishment.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "lord_backwater",
+      "type": "character",
+      "label": "Lord Backwater",
+      "description": "Belongs to Mapleton training establishment.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "ned_hunter",
+      "type": "character",
+      "label": "Ned Hunter",
+      "description": "Stable lad on guard; drugs himself and later flees/runs out with a hound; found in stupor.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "edith_baxter",
+      "type": "character",
+      "label": "Edith Baxter",
+      "description": "Maid who carries supper to the stables.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "mrs_straker",
+      "type": "character",
+      "label": "Mrs. Straker",
+      "description": "John Straker’s wife; discovers Straker’s absence and the stupor.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "tavistock_contractor",
+      "type": "character",
+      "label": "Tavistock contractor",
+      "description": "Contractor who built a cluster of villas for invalids.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "trainer_john_straker_overcoat",
+      "type": "object",
+      "label": "John Straker’s overcoat",
+      "description": "Overcoat flapping from a furze-bush near where Straker’s body is found.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "red_black_silk_cravat",
+      "type": "object",
+      "label": "Red and black silk cravat",
+      "description": "Cravat recognized by the maid as worn by the stranger; found in Straker’s left hand.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "straker_small_knife",
+      "type": "object",
+      "label": "Straker’s small knife",
+      "description": "Small knife held in Straker’s right hand, clotted with blood.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "heavy_stick_penang_lawyer",
+      "type": "object",
+      "label": "Heavy stick (Penang-lawyer weighted with lead)",
+      "description": "Weapon carried by the stranger/suspect; described as capable of repeated blows.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "powdered_opium",
+      "type": "object",
+      "label": "Powdered opium",
+      "description": "Substance found in the remains of supper left in the stable-lad’s possession.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "curried_mutton",
+      "type": "object",
+      "label": "Curried mutton",
+      "description": "Supper dish carried to the stables; allegedly drugged by the stranger.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "hound",
+      "type": "object",
+      "label": "Hound/dog",
+      "description": "Dog released by Hunter when a lad rushes across the stable to unloose it.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "stable_door",
+      "type": "object",
+      "label": "Stable door",
+      "description": "Door to the stables that was locked/unlocked per Holmes’ discussion.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "curated_betting_book",
+      "type": "object",
+      "label": "Betting book",
+      "description": "Book examined showing bets against the favourite.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "grey_tweed_suit_stranger",
+      "type": "object",
+      "label": "Grey tweeds suit (stranger’s clothes)",
+      "description": "Clothing described worn by the stranger near the stables.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "grey_tweed_cloth_cap",
+      "type": "object",
+      "label": "Cloth cap (stranger’s)",
+      "description": "Cloth cap worn by the stranger described near the stables.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "gaiters",
+      "type": "object",
+      "label": "Gaiters",
+      "description": "Gaiters worn by the stranger described near the stables.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "field_glass",
+      "type": "object",
+      "label": "Field-glass",
+      "description": "Instrument Holmes asks Watson to bring.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "cigar_case",
+      "type": "object",
+      "label": "Cigar-case",
+      "description": "Cigar-case offered by Holmes during the train journey.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "fresh_papers_bundle",
+      "type": "object",
+      "label": "Fresh newspapers bundle",
+      "description": "Bundle of fresh papers procured at Paddington and consulted on the train.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "telegraph_posts",
+      "type": "object",
+      "label": "Telegraph posts on the line",
+      "description": "Posts spaced 60 yards apart on the train line.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "wessex_cup",
+      "type": "case",
+      "label": "Wessex Cup",
+      "description": "Racing event referenced in the case.",
+      "firstSection": "silver-blaze-section_1",
+      "source": "silver-blaze-section_1"
+    },
+    {
+      "id": "dartmoor",
+      "type": "location",
+      "label": "Dartmoor",
+      "description": "Region where Holmes and Watson travel for the case scene.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "kings_pyland",
+      "type": "location",
+      "label": "King's Pyland",
+      "description": "Training stable location referenced as where the training-stable is situated.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "paddington",
+      "type": "location",
+      "label": "Paddington",
+      "description": "Train departure point where Holmes and Watson catch their train.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "exeter",
+      "type": "location",
+      "label": "Exeter",
+      "description": "Destination city on the train route mentioned during travel en route for Exeter.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "reading",
+      "type": "location",
+      "label": "Reading",
+      "description": "Location left behind by the train before Holmes consults papers.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "mapleton",
+      "type": "location",
+      "label": "Mapleton",
+      "description": "Larger training establishment across the moor.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "tavistock",
+      "type": "location",
+      "label": "Tavistock",
+      "description": "Town referenced as lying two miles west.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "moor_stables",
+      "type": "location",
+      "label": "King's Pyland stables",
+      "description": "Stables where horses are kept and where Edith Baxter carries supper.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "furze_bush_area",
+      "type": "location",
+      "label": "Furze-bush area near stables",
+      "description": "Where Straker’s overcoat is flapping.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "bowl_shaped_depression",
+      "type": "location",
+      "label": "Bowl-shaped depression in the moor",
+      "description": "Depression where Straker’s dead body is found.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "north_of_dartmoor",
+      "type": "location",
+      "label": "North of Dartmoor",
+      "description": "Area described as sparsely inhabited.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "backwater_mapleton_stables",
+      "type": "location",
+      "label": "Mapleton stables",
+      "description": "Stables associated with Desborough and Silas Brown.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "moors_training_establishment_knoll",
+      "type": "location",
+      "label": "Knoll near the house",
+      "description": "Place from which neighbouring moors are visible during search.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "villa_cluster_invalids",
+      "type": "location",
+      "label": "Cluster of villas near moor (invalids)",
+      "description": "Cluster built by a Tavistock contractor for invalids and others.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "stables_chaff_cutting_loft",
+      "type": "location",
+      "label": "Chaff-cutting loft above harness-room",
+      "description": "Where two lads slept above the harness-room.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "stable_table_inside",
+      "type": "location",
+      "label": "Stable interior small table",
+      "description": "Table inside the stable where Hunter was seated.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "stables_window",
+      "type": "object",
+      "label": "Stable window",
+      "description": "Window through which Edith Baxter hands meals and through which the stranger leans.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "moors_path_open_moor",
+      "type": "location",
+      "label": "Open moor path",
+      "description": "Path across open moor used by Edith Baxter to reach the stables.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "wessex_cup_next_tuesday",
+      "type": "location",
+      "label": "Wessex Cup (next Tuesday)",
+      "description": "Race time referenced as 'next Tuesday' at the fall of the flag.",
+      "firstSection": "silver-blaze-section_1"
+    },
+    {
+      "id": "news_agent",
+      "type": "organisation",
+      "label": "News agent",
+      "description": "Agent who sends up fresh editions of every paper.",
+      "firstSection": "silver-blaze-section_1",
+      "org_type": "commercial"
+    },
+    {
+      "id": "telegraph",
+      "type": "document",
+      "label": "Telegraph (newspaper reference)",
+      "description": "Newspaper/masthead referenced as sending/said content.",
+      "firstSection": "silver-blaze-section_1",
+      "document_type": "newspaper",
+      "content_summary": "Referred to as having something to say about the murder and disappearance case."
+    },
+    {
+      "id": "chronicle",
+      "type": "document",
+      "label": "Chronicle (newspaper reference)",
+      "description": "Newspaper/masthead referenced as sending/said content.",
+      "firstSection": "silver-blaze-section_1",
+      "document_type": "newspaper",
+      "content_summary": "Referred to as having something to say about the murder and disappearance case."
+    },
+    {
+      "id": "special_wire_to_dartmoor",
+      "type": "document",
+      "label": "Special wire to Dartmoor",
+      "description": "Wire sent to clear up a point.",
+      "firstSection": "silver-blaze-section_1",
+      "document_type": "note",
+      "from": "holmes",
+      "content_summary": "Cleared up whether the boy locked the door before he left it (point about stable door)."
+    },
+    {
+      "id": "silver_blaze_investigation",
+      "type": "case",
+      "label": "Silver Blaze case",
+      "description": "Investigation into the murder of John Straker and the disappearance of Silver Blaze.",
+      "firstSection": "silver-blaze-section_2",
+      "source": "silver-blaze-section_2",
+      "client": "colonel_ross",
+      "crime_type": "murder",
+      "outcome": "unresolved",
+      "primary_location": "moor_stables"
+    },
+    {
+      "id": "wax_vesta",
+      "type": "object",
+      "label": "wax vesta",
+      "firstSection": "silver-blaze-section_2"
+    },
+    {
+      "id": "silver_blaze_horseshoe_cast",
+      "type": "object",
+      "label": "silver blaze horseshoe cast",
+      "firstSection": "silver-blaze-section_2"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes tells Watson he will go to Dartmoor/King's Pyland",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_3",
+        "sentence_6"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I am afraid, Watson, that I shall have to go,\" said Holmes, as we sat down together to our breakfast one morning. Go! Where to? To Dartmoor; to King's Pyland."
+      }
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes announces intention to set out for the scene",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silver_blaze_case"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Watson agrees to accompany Holmes",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "I should be most happy to go down with you if I should not be in the way,"
+      }
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes asks Watson to bring a field-glass",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_18"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "field_glass"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You would oblige me by bringing with you your very excellent field-glass."
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Watson and Holmes board a first-class carriage en route for Exeter",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_19"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "watson",
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes dips into fresh papers and consults them",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_19"
+      ],
+      "participants": [
+        "holmes",
+        "fresh_papers_bundle"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes thrusts the last fresh paper under the seat",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_20"
+      ],
+      "participants": [
+        "holmes",
+        "fresh_papers_bundle"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Holmes offers Watson a cigar-case",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_20"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "cigar_case"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes states the train speed as 53.5 miles an hour",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_21",
+        "sentence_22"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Our rate at present is fifty-three and a half miles an hour."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes explains telegraph posts spacing is 60 yards",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_25"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "telegraph_posts"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "But the telegraph posts upon this line are sixty yards apart, and the calculation is a simple one."
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Watson receives telegram invitations from Colonel Ross and Inspector Gregory",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_32"
+      ],
+      "participants": [
+        "watson",
+        "colonel_ross",
+        "inspector_gregory",
+        "silver_blaze_case"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "watson"
+        ],
+        "content": "inviting my co-operation"
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes narrates the essential background and events leading to the journey",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_45"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silver_blaze_case"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes describes Silver Blaze’s breeding and racing record to Watson",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_46",
+        "sentence_49"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silver_blaze",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Silver Blaze is from the Isonomy stock... He is now in his fifth year, and has brought in turn each of the prizes of the turf to Colonel Ross, his fortunate owner... Up to the time of the catastrophe he was the first favourite for the Wessex Cup..."
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Holmes states the horse’s prior favourite status and betting against him",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_48",
+        "sentence_50"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silver_blaze",
+        "wessex_cup"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It is obvious, therefore, that there were many people who had the strongest interest in preventing Silver Blaze from being there at the fall of the flag next Tuesday."
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes describes training-stable at King's Pyland and its staffing",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_51",
+        "sentence_56"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "kings_pyland",
+        "john_straker",
+        "ned_hunter"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Holmes describes John Straker’s living situation and nearby villas",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_58",
+        "sentence_60"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "john_straker",
+        "tavistock_contractor",
+        "villa_cluster_invalids",
+        "tavistock"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Holmes describes Monday night routine before catastrophe",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_63",
+        "sentence_65"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "john_straker",
+        "ned_hunter",
+        "edith_baxter",
+        "moor_stables"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Edith Baxter carries curried mutton supper to the stables at around nine",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_66"
+      ],
+      "participants": [
+        "edith_baxter",
+        "ned_hunter",
+        "curried_mutton",
+        "moor_stables"
+      ],
+      "performs": [
+        "edith_baxter"
+      ]
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Stable lad on duty does not take extra liquid as rule states",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_67"
+      ],
+      "participants": [
+        "ned_hunter"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "A stranger appears on the moor path and calls for Edith Baxter to stop",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_69"
+      ],
+      "participants": [
+        "edith_baxter",
+        "fitzroy_simpson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "The stranger offers money to Edith Baxter with a note to the stable boy",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_79",
+        "sentence_82"
+      ],
+      "participants": [
+        "edith_baxter",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "fitzroy_simpson"
+      ],
+      "communicates": {
+        "speaker": "fitzroy_simpson",
+        "recipients": [
+          "edith_baxter"
+        ],
+        "content": "I understand that a stable-boy sleeps there alone every night... Perhaps that is his supper which you are carrying to him... earn the price of a new dress, would you?"
+      }
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Edith Baxter runs past the stranger toward the opened stable window",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_83",
+        "sentence_84"
+      ],
+      "participants": [
+        "edith_baxter",
+        "fitzroy_simpson",
+        "ned_hunter",
+        "stables_window",
+        "stable_table_inside"
+      ],
+      "performs": [
+        "edith_baxter"
+      ]
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Stranger appears again at the stable window and speaks to the stable area",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_85",
+        "sentence_86"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "ned_hunter",
+        "stables_window"
+      ],
+      "performs": [
+        "fitzroy_simpson"
+      ],
+      "communicates": {
+        "speaker": "fitzroy_simpson",
+        "recipients": [
+          "ned_hunter"
+        ],
+        "content": "Good-evening, said he, looking through the window."
+      }
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "The stable lad rushes to unloose the hound after questioning the stranger",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_95",
+        "sentence_96"
+      ],
+      "participants": [
+        "ned_hunter",
+        "hound",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "ned_hunter"
+      ]
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Edith Baxter flees to the house while the stranger leans through the window",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_97"
+      ],
+      "participants": [
+        "edith_baxter",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "edith_baxter"
+      ]
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "Hunter searches and fails to find the stranger after he leaves",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_98"
+      ],
+      "participants": [
+        "ned_hunter",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "ned_hunter"
+      ]
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "Watson asks Holmes whether the stable door was left unlocked",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_101"
+      ],
+      "participants": [
+        "watson",
+        "holmes",
+        "stable_door"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Did the stable-boy, when he ran out with the dog, leave the door unlocked behind him?"
+      }
+    },
+    {
+      "id": "event_1_28",
+      "type": "event",
+      "label": "Holmes states the boy locked the door and the window was too small for a man",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_105",
+        "sentence_106"
+      ],
+      "participants": [
+        "holmes",
+        "stable_door",
+        "stables_window"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_29",
+      "type": "event",
+      "label": "Holmes describes that he sent a special wire to Dartmoor to clear the stable-door point",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_104"
+      ],
+      "participants": [
+        "holmes",
+        "special_wire_to_dartmoor"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_1_30",
+      "type": "event",
+      "label": "Hunter sends a message to the trainer about what occurred",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_107"
+      ],
+      "participants": [
+        "ned_hunter",
+        "john_straker"
+      ],
+      "performs": [
+        "ned_hunter"
+      ]
+    },
+    {
+      "id": "event_1_31",
+      "type": "event",
+      "label": "Mrs. Straker finds John Straker dressing and he leaves the house to walk to the stables",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_109",
+        "sentence_111"
+      ],
+      "participants": [
+        "mrs_straker",
+        "john_straker"
+      ],
+      "performs": [
+        "john_straker"
+      ]
+    },
+    {
+      "id": "event_1_32",
+      "type": "event",
+      "label": "Mrs. Straker goes to the stables and finds Hunter in stupor and the favourite’s stall empty",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_112",
+        "sentence_114"
+      ],
+      "participants": [
+        "mrs_straker",
+        "ned_hunter",
+        "silver_blaze",
+        "moor_stables"
+      ],
+      "performs": [
+        "mrs_straker"
+      ]
+    },
+    {
+      "id": "event_1_33",
+      "type": "event",
+      "label": "Two lads are aroused and run in search for absentees",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_115",
+        "sentence_117",
+        "sentence_118"
+      ],
+      "participants": [
+        "stables_chaff_cutting_loft",
+        "moor_stables"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_34",
+      "type": "event",
+      "label": "Searchers discover John Straker’s overcoat flapping from a furze-bush",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_119"
+      ],
+      "participants": [
+        "trainer_john_straker_overcoat",
+        "john_straker",
+        "furze_bush_area"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_35",
+      "type": "event",
+      "label": "Searchers find John Straker’s dead body in a bowl-shaped depression",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_120"
+      ],
+      "participants": [
+        "john_straker",
+        "bowl_shaped_depression"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_36",
+      "type": "event",
+      "label": "Holmes describes physical injuries: shattered head and cut thigh; Straker holds knife and cravat",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "john_straker",
+        "straker_small_knife",
+        "red_black_silk_cravat"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_37",
+      "type": "event",
+      "label": "Hunter recovers from stupor and says the stranger drugged curried mutton",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_123",
+        "sentence_124"
+      ],
+      "participants": [
+        "ned_hunter",
+        "curried_mutton",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "ned_hunter"
+      ],
+      "communicates": {
+        "speaker": "ned_hunter",
+        "recipients": [
+          "holmes",
+          "watson"
+        ],
+        "content": "He was equally certain that the same stranger had, while standing at the window, drugged his curried mutton..."
+      }
+    },
+    {
+      "id": "event_1_38",
+      "type": "event",
+      "label": "Holmes describes that Silver Blaze disappears and a reward is offered without news",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_126"
+      ],
+      "participants": [
+        "silver_blaze",
+        "gypsies_of_dartmoor"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_39",
+      "type": "event",
+      "label": "Analysis shows powdered opium in remains of supper left by the stable lad",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_127"
+      ],
+      "participants": [
+        "powdered_opium",
+        "curried_mutton"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_40",
+      "type": "event",
+      "label": "Holmes states police have committed the case to Inspector Gregory",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_130"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "silver_blaze_case"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_41",
+      "type": "event",
+      "label": "Inspector Gregory arrests Fitzroy Simpson upon arrival",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_132"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ]
+    },
+    {
+      "id": "event_1_42",
+      "type": "event",
+      "label": "Holmes describes Fitzroy Simpson’s betting-book contains bets totaling five thousand pounds against Silver Blaze",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_136"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "curated_betting_book",
+        "silver_blaze"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_43",
+      "type": "event",
+      "label": "Fitzroy Simpson states to police that he came to get information about King's Pyland horses and Desborough",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_137"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "fitzroy_simpson"
+      ],
+      "communicates": {
+        "speaker": "fitzroy_simpson",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "he had come down to Dartmoor in the hope of getting some information about the King's Pyland horses, and also about Desborough, the second favourite, which was in charge of Silas Brown at the Mapleton stables."
+      }
+    },
+    {
+      "id": "event_1_44",
+      "type": "event",
+      "label": "Fitzroy Simpson says he acted without sinister designs and aimed to obtain first-hand information",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_138"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "fitzroy_simpson"
+      ],
+      "communicates": {
+        "speaker": "fitzroy_simpson",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "he had no sinister designs, and had simply wished to obtain first-hand information."
+      }
+    },
+    {
+      "id": "event_1_45",
+      "type": "event",
+      "label": "Holmes describes that Fitzroy Simpson is unable to account for the cravat’s presence in the murdered man’s hand",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_139"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "red_black_silk_cravat",
+        "john_straker"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_46",
+      "type": "event",
+      "label": "Holmes describes Fitzroy Simpson’s wet clothing and heavy stick match the described weapon injuries",
+      "section": "silver-blaze-section_1",
+      "source_nodes": [
+        "sentence_140"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "heavy_stick_penang_lawyer",
+        "john_straker"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_silver_blaze_section_2_1",
+      "type": "event",
+      "label": "Holmes and Inspector Gregory discuss progress on recovering the horse and avenging Straker while preparing to drive",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_160",
+        "sentence_161",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164",
+        "sentence_165"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"I am delighted that you have come down, Mr. Holmes\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_2",
+      "type": "event",
+      "label": "Colonel Ross says Inspector Gregory has done what could be suggested and requests that Holmes leave no stone unturned to avenge Straker and recover the horse",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_161"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"The Inspector here has done all that could possibly be suggested, but I wish to leave no stone unturned in trying to avenge poor Straker and in recovering my horse.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_3",
+      "type": "event",
+      "label": "Holmes asks whether there have been any fresh developments",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_162"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Have there been any fresh developments?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_4",
+      "type": "event",
+      "label": "Inspector Gregory reports that they have made very little progress",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_164"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"I am sorry to say that we have made very little progress.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_5",
+      "type": "event",
+      "label": "Inspector Gregory proposes that they talk in an open carriage as they drive",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_165"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"We have an open carriage outside, and as you would no doubt like to see the place before the light fails, we might talk it over as we drive.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_6",
+      "type": "event",
+      "label": "Holmes and others travel through Tavistock in a landau while Gregory discusses the case",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_166",
+        "sentence_167",
+        "sentence_168"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ]
+    },
+    {
+      "id": "event_silver_blaze_section_2_7",
+      "type": "event",
+      "label": "Gregory states that Straker's knife was concluded to have wounded himself in his fall",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_173"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross",
+        "watson"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"We have quite come to the conclusion that he wounded himself in his fall.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_8",
+      "type": "event",
+      "label": "Holmes challenges Gregory's evidence by asking about missing knives and signs of wounds on Simpson and other details",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_172",
+        "sentence_176",
+        "sentence_177",
+        "sentence_184",
+        "sentence_185",
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_189"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"How about Straker's knife?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_9",
+      "type": "event",
+      "label": "Inspector Gregory describes evidence against Fitzroy Simpson including suspicion of poisoning a stable-boy and possession of a cravat found in the dead man's hand",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_180"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"He lies under suspicion of having poisoned the stable-boy, he was undoubtedly out in the storm, he was armed with a heavy stick, and his cravat was found in the dead man's hand.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_10",
+      "type": "event",
+      "label": "Holmes says a clever counsel would tear the case apart and questions the logic of leading a horse out of the stable",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_183",
+        "sentence_184",
+        "sentence_185"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"A clever counsel would tear it all to rags.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_11",
+      "type": "event",
+      "label": "Inspector Gregory introduces a new element involving gypsies encamped nearby and being gone the next day",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_202",
+        "sentence_203"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"We have found traces which show that a party of gypsies encamped on Monday night within a mile of the spot where the murder took place. On Tuesday they were gone.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_12",
+      "type": "event",
+      "label": "Inspector Gregory proposes that Simpson might have led the horse to gypsies when overtaken",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_204",
+        "sentence_205"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Now, presuming that there was some understanding between Simpson and these gypsies, might he not have been leading the horse to them when he was overtaken, and may they not have him now?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_13",
+      "type": "event",
+      "label": "Inspector Gregory states he examined every stable and out-house in Tavistock within a ten-mile radius",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_207"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"I have also examined every stable and out-house in Tavistock, and for a radius of ten miles.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_14",
+      "type": "event",
+      "label": "Inspector Gregory states another training-stable is close and names the Mapleton stables and Silas Brown as a trainer with large bets",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_208",
+        "sentence_211",
+        "sentence_210"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Silas Brown, the trainer, is known to have had large bets upon the event, and he was no friend to poor Straker.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_15",
+      "type": "event",
+      "label": "Holmes and others pause outside a red-brick villa and then enter a front room where the Inspector unlocks a tin box",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_216",
+        "sentence_219",
+        "sentence_220",
+        "sentence_228",
+        "sentence_235"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ]
+    },
+    {
+      "id": "event_silver_blaze_section_2_16",
+      "type": "event",
+      "label": "Inspector Gregory lays a heap of items from Straker's pockets onto a table after unlocking a tin box",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_235",
+        "sentence_236",
+        "sentence_238"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "watson",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ]
+    },
+    {
+      "id": "event_silver_blaze_section_2_17",
+      "type": "event",
+      "label": "Holmes examines Straker's knife marked Weiss & Co., London while noting blood-stains",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_239",
+        "sentence_240"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"Watson, this knife is surely in your line?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_18",
+      "type": "event",
+      "label": "Inspector Gregory says the knife tip was guarded by a disk of cork found beside Straker's body",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_246"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"The tip was guarded by a disk of cork which we found beside his body,\" said the Inspector.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_19",
+      "type": "event",
+      "label": "Holmes asks about the papers laid out from Straker's pockets",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_250"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Very possible.\nHow about these papers?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_20",
+      "type": "event",
+      "label": "Inspector Gregory identifies contents of the papers including receipted hay-dealers' accounts, an instruction letter from Colonel Ross, and a milliner's account made out by Madame Lesurier to William Derbyshire",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_251",
+        "sentence_252",
+        "sentence_253"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Three of them are receipted hay-dealers' accounts.\nOne of them is a letter of instructions from Colonel Ross.\nThis other is a milliner's account for thirty-seven pounds fifteen made out by Madame Lesurier, of Bond Street, to William Derbyshire.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_21",
+      "type": "event",
+      "label": "Inspector Gregory says Mrs. Straker reports that William Derbyshire was a friend of her husband and that his letters were addressed to this address",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_254"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Mrs. Straker tells us that Derbyshire was a friend of her husband's and that occasionally his letters were addressed here.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_22",
+      "type": "event",
+      "label": "Mrs. Straker asks whether the things have been found and found by Holmes and the police",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_258",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262"
+      ],
+      "participants": [
+        "mrs_straker",
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "mrs_straker"
+      ],
+      "communicates": {
+        "speaker": "mrs_straker",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Have you got them? Have you found them?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_23",
+      "type": "event",
+      "label": "Inspector Gregory responds to Mrs. Straker and says Holmes has come from London to help and they will do all that is possible",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_263",
+        "sentence_264"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "mrs_straker",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "mrs_straker"
+        ],
+        "content": "\"No, Mrs. Straker. But Mr. Holmes here has come from London to help us, and we shall do all that is possible.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_24",
+      "type": "event",
+      "label": "Holmes claims he met Mrs. Straker in Plymouth at a garden-party and describes her costume, then Mrs. Straker denies it",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_265",
+        "sentence_266",
+        "sentence_271"
+      ],
+      "participants": [
+        "holmes",
+        "mrs_straker"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "mrs_straker"
+        ],
+        "content": "\"Surely I met you in Plymouth at a garden-party some little time ago, Mrs. Straker?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_25",
+      "type": "event",
+      "label": "Holmes says the costume description settles the matter and follows the Inspector outside",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_272",
+        "sentence_273"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Ah, that quite settles it,\" said Holmes."
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_26",
+      "type": "event",
+      "label": "Holmes and Watson walk to the hollow where the body was found; Holmes studies trampled mud and a wax vesta partly burned in mud",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_274",
+        "sentence_287",
+        "sentence_289",
+        "sentence_291"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_silver_blaze_section_2_27",
+      "type": "event",
+      "label": "Inspector Gregory says the vesta was invisible and he overlooked how Holmes found it",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_292",
+        "sentence_293",
+        "sentence_294"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"It was invisible, buried in the mud. I only saw it because I was looking for it.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_28",
+      "type": "event",
+      "label": "Holmes requests a walk over the moor to become familiar with the ground and plans to pocket a cast horseshoe for luck",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_305"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"But I should like to take a little walk over the moor before it grows dark, that I may know my ground to-morrow, and I think that I shall put this horseshoe into my pocket for luck.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_29",
+      "type": "event",
+      "label": "Colonel Ross asks Inspector Gregory to come back with him and discusses removing Silver Blaze's name from entries for the Cup, while Holmes insists the name should stand",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_306",
+        "sentence_308",
+        "sentence_309",
+        "sentence_310"
+      ],
+      "participants": [
+        "colonel_ross",
+        "inspector_gregory",
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"I wish you would come back with me, Inspector,\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_30",
+      "type": "event",
+      "label": "Holmes proposes a working explanation that Silver Blaze went to King's Pyland or Mapleton and that tracks should be looked for in a wet hollow",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_317",
+        "sentence_318",
+        "sentence_329",
+        "sentence_333",
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"We may leave the question of who killed John Straker for the instant, and confine ourselves to finding out what has become of the horse.\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_31",
+      "type": "event",
+      "label": "Holmes follows horse tracks across the moor to Mapleton stables, then identifies a return track ending at the asphalt leading to the Mapleton gates",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_339",
+        "sentence_345",
+        "sentence_346",
+        "sentence_360",
+        "sentence_359"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_silver_blaze_section_2_32",
+      "type": "event",
+      "label": "Holmes asks Silas Brown whether he should be early to see the master at five o'clock the next morning and gives money as he replaces a half-crown",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_361",
+        "sentence_364",
+        "sentence_366",
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "silas_brown"
+        ],
+        "content": "\"Should I be too early to see your master, Mr. Silas Brown, if I were to call at five o'clock to-morrow morning?\""
+      }
+    },
+    {
+      "id": "event_silver_blaze_section_2_33",
+      "type": "event",
+      "label": "A groom at Mapleton stables runs out and warns against loitering; Holmes then asks the trainer and whispers to him, causing him to start violently",
+      "section": "silver-blaze-section_2",
+      "source_nodes": [
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_367",
+        "sentence_369",
+        "sentence_370",
+        "sentence_376",
+        "sentence_379",
+        "sentence_380"
+      ],
+      "participants": [
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"No gossiping! Go about your business!\""
+      }
+    },
+    {
+      "id": "event_3_381_1",
+      "type": "event",
+      "label": "Silas Brown shouts that it is a lie",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_381"
+      ],
+      "participants": [
+        "silas_brown"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [],
+        "content": "\"It's a lie!\""
+      }
+    },
+    {
+      "id": "event_3_382_1",
+      "type": "event",
+      "label": "Silas Brown shouts that it is an infernal lie",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_382"
+      ],
+      "participants": [
+        "silas_brown"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [],
+        "content": "\"an infernal lie!\""
+      }
+    },
+    {
+      "id": "event_3_384_1",
+      "type": "event",
+      "label": "Holmes asks whether to argue in public or talk in parlour",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_384"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"Very good. Shall we argue about it here in public or talk it over in your parlour?\""
+      }
+    },
+    {
+      "id": "event_3_385_1",
+      "type": "event",
+      "label": "Silas Brown invites Holmes to come in",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_385"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Oh, come in if you wish to.\""
+      }
+    },
+    {
+      "id": "event_3_387_1",
+      "type": "event",
+      "label": "Holmes tells Watson he will not keep him long",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_387"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"I shall not keep you more than a few minutes, Watson,\""
+      }
+    },
+    {
+      "id": "event_3_388_1",
+      "type": "event",
+      "label": "Holmes tells Mr. Brown he is at his disposal",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_388"
+      ],
+      "participants": [
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "silas_brown"
+        ],
+        "content": "\"Now, Mr. Brown, I am quite at your disposal.\""
+      }
+    },
+    {
+      "id": "event_3_389_1",
+      "type": "event",
+      "label": "Holmes and the trainer reappear after twenty minutes and red fades to grey",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_389"
+      ],
+      "participants": [
+        "holmes",
+        "trainer_john_straker_overcoat"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_392_1",
+      "type": "event",
+      "label": "Silas Brown cringes along at Holmes's companion's side",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_392"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ]
+    },
+    {
+      "id": "event_3_393_1",
+      "type": "event",
+      "label": "Silas Brown says his instructions will be done",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_393"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Your instructions will be done.\""
+      }
+    },
+    {
+      "id": "event_3_394_1",
+      "type": "event",
+      "label": "Silas Brown repeats that it shall all be done",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_394"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"It shall all be done,\" said he."
+      }
+    },
+    {
+      "id": "event_3_396_1",
+      "type": "event",
+      "label": "Silas Brown winces as he reads menace in Holmes's eyes",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_396"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ]
+    },
+    {
+      "id": "event_3_397_1",
+      "type": "event",
+      "label": "Silas Brown says there will be no mistake",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_397"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Oh no, there shall be no mistake.\""
+      }
+    },
+    {
+      "id": "event_3_398_1",
+      "type": "event",
+      "label": "Silas Brown says it shall be there",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_398"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"It shall be there.\""
+      }
+    },
+    {
+      "id": "event_3_399_1",
+      "type": "event",
+      "label": "Holmes asks whether to change it first",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_399"
+      ],
+      "participants": [
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "silas_brown"
+        ],
+        "content": "\"Should I change it first or not?\""
+      }
+    },
+    {
+      "id": "event_3_400_1",
+      "type": "event",
+      "label": "Holmes bursts into laughter",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_400"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_3_401_1",
+      "type": "event",
+      "label": "Holmes tells Silas Brown not to use tricks",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_401",
+        "sentence_402"
+      ],
+      "participants": [
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "silas_brown"
+        ],
+        "content": "\"No, don't,\" said he; \"I shall write to you about it. No tricks, now, or—\""
+      }
+    },
+    {
+      "id": "event_3_403_1",
+      "type": "event",
+      "label": "Silas Brown promises Holmes can trust him",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_403"
+      ],
+      "participants": [
+        "silas_brown",
+        "holmes"
+      ],
+      "performs": [
+        "silas_brown"
+      ],
+      "communicates": {
+        "speaker": "silas_brown",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Oh, you can trust me, you can trust me!\""
+      }
+    },
+    {
+      "id": "event_3_405_1",
+      "type": "event",
+      "label": "Holmes says Silas Brown will hear from him tomorrow",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_405"
+      ],
+      "participants": [
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "silas_brown"
+        ],
+        "content": "\"Yes, I think I can. Well, you shall hear from me to-morrow.\""
+      }
+    },
+    {
+      "id": "event_3_406_1",
+      "type": "event",
+      "label": "Holmes and Watson set off for King's Pyland after Silas Brown holds out a trembling hand",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_406"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silas_brown"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_408_1",
+      "type": "event",
+      "label": "Watson asks whether Silas Brown has the horse",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_408"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_418_1",
+      "type": "event",
+      "label": "Watson asks whether leaving the horse in Silas Brown's power is unsafe",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_418"
+      ],
+      "participants": [
+        "watson",
+        "holmes",
+        "silas_brown"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_420_1",
+      "type": "event",
+      "label": "Holmes says Silas Brown will guard the horse as the apple of his eye",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_419",
+        "sentence_420"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "silver_blaze"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"My dear fellow, he will guard it as the apple of his eye. He knows that his only hope of mercy is to produce it safe.\""
+      }
+    },
+    {
+      "id": "event_3_421_1",
+      "type": "event",
+      "label": "Holmes says Colonel Ross did not impress him as merciful",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_421"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [],
+        "content": "\"Colonel Ross did not impress me as a man who would be likely to show much mercy in any case.\""
+      }
+    },
+    {
+      "id": "event_3_427_1",
+      "type": "event",
+      "label": "Holmes tells Watson to say nothing to Colonel Ross about the horse",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_427"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "colonel_ross",
+        "silver_blaze"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"Say nothing to him about the horse.\""
+      }
+    },
+    {
+      "id": "event_3_428_1",
+      "type": "event",
+      "label": "Watson agrees not to say anything without permission",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_428"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Certainly not without your permission.\""
+      }
+    },
+    {
+      "id": "event_3_431_1",
+      "type": "event",
+      "label": "Holmes says they will both go back to London by the night train",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_431"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"On the contrary, we both go back to London by the night train.\""
+      }
+    },
+    {
+      "id": "event_3_434_1",
+      "type": "event",
+      "label": "Watson states he draws no more words until they return to the trainer's house",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_434"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_435_1",
+      "type": "event",
+      "label": "Colonel Ross and Inspector Gregory await Holmes and Watson in the parlour",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_435"
+      ],
+      "participants": [
+        "colonel_ross",
+        "inspector_gregory",
+        "holmes",
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_436_1",
+      "type": "event",
+      "label": "Holmes tells Colonel Ross and Inspector Gregory they return to town by the night-express",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_436",
+        "sentence_437"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "inspector_gregory",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross",
+          "inspector_gregory"
+        ],
+        "content": "\"My friend and I return to town by the night-express,\" said Holmes. \"We have had a charming little breath of your beautiful Dartmoor air.\""
+      }
+    },
+    {
+      "id": "event_3_438_1",
+      "type": "event",
+      "label": "The Inspector opens his eyes and Colonel Ross sneers",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_438"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "colonel_ross"
+      ],
+      "performs": [
+        "inspector_gregory",
+        "colonel_ross"
+      ]
+    },
+    {
+      "id": "event_3_439_1",
+      "type": "event",
+      "label": "Colonel Ross says Holmes despairs of arresting Straker's murderer",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_439"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"So you despair of arresting the murderer of poor Straker,\" said he."
+      }
+    },
+    {
+      "id": "event_3_442_1",
+      "type": "event",
+      "label": "Holmes tells Colonel Ross to have a jockey ready and promises the horse will start Tuesday",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_442"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "silver_blaze"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"I have every hope, however, that your horse will start upon Tuesday, and I beg that you will have your jockey in readiness.\""
+      }
+    },
+    {
+      "id": "event_3_443_1",
+      "type": "event",
+      "label": "Holmes asks for a photograph of John Straker",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_443"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "john_straker"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Might I ask for a photograph of Mr. John Straker?\""
+      }
+    },
+    {
+      "id": "event_3_444_1",
+      "type": "event",
+      "label": "Inspector Gregory takes a photograph from an envelope and hands it to Holmes",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_444"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ]
+    },
+    {
+      "id": "event_3_445_1",
+      "type": "event",
+      "label": "Holmes addresses Gregory as My dear Gregory and says Gregory anticipates his wants",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_445"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"My dear Gregory, you anticipate all my wants.\""
+      }
+    },
+    {
+      "id": "event_3_446_1",
+      "type": "event",
+      "label": "Holmes asks Gregory to wait while he questions the maid",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_446"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"If I might ask you to wait here for an instant, I have a question which I should like to put to the maid.\""
+      }
+    },
+    {
+      "id": "event_3_447_1",
+      "type": "event",
+      "label": "Colonel Ross complains that he is disappointed in Holmes as a London consultant",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_447"
+      ],
+      "participants": [
+        "colonel_ross",
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"I must say that I am rather disappointed in our London consultant,\" said Colonel Ross, bluntly, as my friend left the room.\""
+      }
+    },
+    {
+      "id": "event_3_448_1",
+      "type": "event",
+      "label": "Colonel Ross says Holmes has not gone further than when he came",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_448"
+      ],
+      "participants": [
+        "colonel_ross",
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"I do not see that we are any further than when he came.\""
+      }
+    },
+    {
+      "id": "event_3_449_1",
+      "type": "event",
+      "label": "Watson says Holmes's assurance covers the horse running",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_449"
+      ],
+      "participants": [
+        "watson",
+        "colonel_ross"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"At least you have his assurance that your horse will run,\" said I."
+      }
+    },
+    {
+      "id": "event_3_450_1",
+      "type": "event",
+      "label": "Colonel Ross says he has Holmes's assurance but would prefer the horse",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_450",
+        "sentence_451"
+      ],
+      "participants": [
+        "colonel_ross",
+        "watson"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "watson"
+        ],
+        "content": "\"Yes, I have his assurance,\" said the Colonel, with a shrug of his shoulders. \"I should prefer to have the horse.\""
+      }
+    },
+    {
+      "id": "event_3_452_1",
+      "type": "event",
+      "label": "Watson begins to defend Holmes when Holmes enters again",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_452"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_453_1",
+      "type": "event",
+      "label": "Holmes says he is ready for Tavistock",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_453"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "watson",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross",
+          "watson",
+          "inspector_gregory"
+        ],
+        "content": "\"Now, gentlemen,\" said he, \"I am quite ready for Tavistock.\""
+      }
+    },
+    {
+      "id": "event_3_454_1",
+      "type": "event",
+      "label": "A stable-lad holds the carriage door open for Holmes and Watson as they step in",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_454"
+      ],
+      "participants": [
+        "watson",
+        "holmes"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_455_1",
+      "type": "event",
+      "label": "Holmes touches the stable-lad on the sleeve and asks about sheep",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_455",
+        "sentence_456"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [],
+        "content": "\"You have a few sheep in the paddock,\""
+      }
+    },
+    {
+      "id": "event_3_457_1",
+      "type": "event",
+      "label": "Holmes asks who attends to the sheep",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_457"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [],
+        "content": "\"Who attends to them?\""
+      }
+    },
+    {
+      "id": "event_3_458_1",
+      "type": "event",
+      "label": "The stable-lad says he attends to the sheep",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_458"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_3_460_1",
+      "type": "event",
+      "label": "Holmes asks if anything is amiss with the sheep and the stable-lad reports three lame sheep",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_459",
+        "sentence_460"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "stable_lad",
+        "recipients": [],
+        "content": "\"Well, sir, not of much account; but three of them have gone lame, sir.\""
+      }
+    },
+    {
+      "id": "event_3_461_1",
+      "type": "event",
+      "label": "Holmes chuckles and rubs his hands together",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_461"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_3_464_1",
+      "type": "event",
+      "label": "Holmes recommends the sheep epidemic to Gregory and orders the coachman to drive on",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_463",
+        "sentence_464"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Gregory, let me recommend to your attention this singular epidemic among the sheep. Drive on, coachman!\""
+      }
+    },
+    {
+      "id": "event_3_466_1",
+      "type": "event",
+      "label": "Inspector Gregory asks whether the matter is important",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_466"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"You consider that to be important?\""
+      }
+    },
+    {
+      "id": "event_3_468_1",
+      "type": "event",
+      "label": "Holmes says it is exceedingly important",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_468"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"Exceedingly so.\""
+      }
+    },
+    {
+      "id": "event_3_469_1",
+      "type": "event",
+      "label": "Inspector Gregory asks if there is another point Holmes wants attention drawn to",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_469"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Is there any point to which you would wish to draw my attention?\""
+      }
+    },
+    {
+      "id": "event_3_470_1",
+      "type": "event",
+      "label": "Holmes points to the dog in the night-time",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_470"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "hound"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "inspector_gregory"
+        ],
+        "content": "\"To the curious incident of the dog in the night-time.\""
+      }
+    },
+    {
+      "id": "event_3_471_1",
+      "type": "event",
+      "label": "Inspector Gregory says the dog did nothing in the night-time",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_471"
+      ],
+      "participants": [
+        "inspector_gregory",
+        "holmes",
+        "hound"
+      ],
+      "performs": [
+        "inspector_gregory"
+      ],
+      "communicates": {
+        "speaker": "inspector_gregory",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"The dog did nothing in the night-time.\""
+      }
+    },
+    {
+      "id": "event_3_472_1",
+      "type": "event",
+      "label": "Holmes remarks that the curious incident was the dog in the night-time",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_472"
+      ],
+      "participants": [
+        "holmes",
+        "inspector_gregory",
+        "hound"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [],
+        "content": "\"That was the curious incident,\" remarked Sherlock Holmes."
+      }
+    },
+    {
+      "id": "event_3_473_1",
+      "type": "event",
+      "label": "Four days later Holmes and Watson travel by train to Winchester",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_473"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_474_1",
+      "type": "event",
+      "label": "Colonel Ross meets Holmes and Watson outside the station and drives them to the course",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_474"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "colonel_ross"
+      ]
+    },
+    {
+      "id": "event_3_475_1",
+      "type": "event",
+      "label": "Colonel Ross has a grave face and a cold manner",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_475"
+      ],
+      "participants": [
+        "colonel_ross"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_476_1",
+      "type": "event",
+      "label": "Colonel Ross says he has seen nothing of his horse",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_476"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"I have seen nothing of my horse,\" said he.\""
+      }
+    },
+    {
+      "id": "event_3_478_1",
+      "type": "event",
+      "label": "Holmes asks whether the Colonel would know the horse when he saw it",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_478"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"I suppose that you would know him when you saw him?\""
+      }
+    },
+    {
+      "id": "event_3_489_1",
+      "type": "event",
+      "label": "The race entry list for Wessex Plate is read out with horses and their caps and jackets",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_489",
+        "sentence_502"
+      ],
+      "participants": [],
+      "performs": []
+    },
+    {
+      "id": "event_3_507_1",
+      "type": "event",
+      "label": "Colonel Ross says he scratched the other one and put hopes on Holmes's word",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_507"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"We scratched our other one, and put all hopes on your word,\" said the Colonel."
+      }
+    },
+    {
+      "id": "event_3_510_1",
+      "type": "event",
+      "label": "Colonel Ross reports betting odds: five to four against Silver Blaze",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_510"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [],
+        "content": "\"Five to four against Silver Blaze!\""
+      }
+    },
+    {
+      "id": "event_3_518_1",
+      "type": "event",
+      "label": "Colonel Ross agitates that his horse is running, though it is not seen yet",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_518",
+        "sentence_519",
+        "sentence_520"
+      ],
+      "participants": [
+        "colonel_ross",
+        "watson",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [],
+        "content": "\"Then my horse is running,\" cried the Colonel in great agitation. \"But I don't see him. My colours have not passed.\""
+      }
+    },
+    {
+      "id": "event_3_523_1",
+      "type": "event",
+      "label": "A powerful bay horse sweeps out and canters past carrying Colonel Ross's black and red",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_523"
+      ],
+      "participants": [
+        "colonel_ross"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_524_1",
+      "type": "event",
+      "label": "Colonel Ross says the bay horse is not his horse",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_524"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"That's not my horse,\" cried the owner."
+      }
+    },
+    {
+      "id": "event_3_526_1",
+      "type": "event",
+      "label": "Colonel Ross asks Holmes what he has done",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_526"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"What is this that you have done, Mr. Holmes?\""
+      }
+    },
+    {
+      "id": "event_3_527_1",
+      "type": "event",
+      "label": "Holmes says to see how the horse does",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_527"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [],
+        "content": "\"Well, well, let us see how he gets on,\" said my friend, imperturbably."
+      }
+    },
+    {
+      "id": "event_3_535_1",
+      "type": "event",
+      "label": "The race is won by Colonel Ross's horse coming six lengths before Desborough",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_535"
+      ],
+      "participants": [
+        "colonel_ross",
+        "lord_backwater",
+        "lord_backwater",
+        "silver_blaze",
+        "lord_backwater"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_538_1",
+      "type": "event",
+      "label": "Colonel Ross asks Holmes if he has kept up mystery long enough",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_538"
+      ],
+      "participants": [
+        "colonel_ross",
+        "holmes"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "\"Don't you think that you have kept up your mystery long enough, Mr. Holmes?\""
+      }
+    },
+    {
+      "id": "event_3_540_1",
+      "type": "event",
+      "label": "Holmes invites everyone to go look at the horse together",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_540"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross",
+          "watson"
+        ],
+        "content": "\"Certainly, Colonel, you shall know everything. Let us all go round and have a look at the horse together.\""
+      }
+    },
+    {
+      "id": "event_3_542_1",
+      "type": "event",
+      "label": "Holmes instructs that washing the horse's face and leg in spirits of wine will show it is Silver Blaze",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_542"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "silver_blaze"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"You have only to wash his face and his leg in spirits of wine, and you will find that he is the same old Silver Blaze as ever.\""
+      }
+    },
+    {
+      "id": "event_3_544_1",
+      "type": "event",
+      "label": "Holmes says he found Silver Blaze in the hands of a faker and ran it as sent over",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_544"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "silver_blaze"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"I found him in the hands of a faker, and took the liberty of running him just as he was sent over.\""
+      }
+    },
+    {
+      "id": "event_3_551_1",
+      "type": "event",
+      "label": "Holmes says he has done so regarding finding the murderer",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_551"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"I have done so,\" said Holmes quietly."
+      }
+    },
+    {
+      "id": "event_3_563_1",
+      "type": "event",
+      "label": "Holmes tells Colonel Ross the real murderer is standing immediately behind him",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_563"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"The real murderer is standing immediately behind you.\""
+      }
+    },
+    {
+      "id": "event_3_564_1",
+      "type": "event",
+      "label": "Holmes steps past and lays his hand on the horse's glossy neck",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_564"
+      ],
+      "participants": [
+        "holmes",
+        "silver_blaze",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_3_568_1",
+      "type": "event",
+      "label": "Holmes says the act was done in self-defence and that John Straker was unworthy of confidence",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_568"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross",
+        "john_straker"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"And it may lessen his guilt if I say that it was done in self-defence, and that John Straker was a man who was entirely unworthy of your confidence.\""
+      }
+    },
+    {
+      "id": "event_3_569_1",
+      "type": "event",
+      "label": "Holmes says he will defer a lengthy explanation",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_569"
+      ],
+      "participants": [
+        "holmes",
+        "colonel_ross"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "\"But there goes the bell, and as I stand to win a little on this next race, I shall defer a lengthy explanation until a more fitting time.\""
+      }
+    },
+    {
+      "id": "event_3_570_1",
+      "type": "event",
+      "label": "Holmes and Watson ride back to London on a Pullman car and listen to Holmes's narrative of Dartmoor training-stables events",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_570"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "colonel_ross"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_574_1",
+      "type": "event",
+      "label": "Holmes states the significance of curried mutton occurred to him in the carriage after reaching the trainer's house",
+      "section": "silver-blaze-section_3",
+      "source_nodes": [
+        "sentence_574"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson",
+          "colonel_ross"
+        ],
+        "content": "\"It was while I was in the carriage, just as we reached the trainer's house, that the immense significance of the curried mutton occurred to me.\""
+      }
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "Straker leads the horse out to a hollow where his light would be invisible",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_624"
+      ],
+      "participants": [
+        "john_straker",
+        "silver_blaze_horseshoe_cast"
+      ],
+      "performs": [
+        "john_straker"
+      ]
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "Simpson drops his cravat during his flight",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_625"
+      ],
+      "participants": [
+        "fitzroy_simpson",
+        "red_black_silk_cravat"
+      ],
+      "performs": [
+        "fitzroy_simpson"
+      ]
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "Straker picks up Simpson's dropped cravat",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_625"
+      ],
+      "participants": [
+        "john_straker",
+        "red_black_silk_cravat",
+        "fitzroy_simpson"
+      ],
+      "performs": [
+        "john_straker"
+      ]
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "Straker gets behind the horse in the hollow and strikes a light",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_626"
+      ],
+      "participants": [
+        "john_straker",
+        "silver_blaze",
+        "silver_blaze_horseshoe_cast"
+      ],
+      "performs": [
+        "john_straker"
+      ]
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "The horse lashes out at the sudden glare",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_626"
+      ],
+      "participants": [
+        "silver_blaze",
+        "john_straker"
+      ],
+      "performs": [
+        "silver_blaze"
+      ]
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "The steel shoe strikes Straker full on the forehead",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_626"
+      ],
+      "participants": [
+        "silver_blaze_horseshoe_cast",
+        "john_straker"
+      ],
+      "performs": [
+        "silver_blaze_horseshoe_cast"
+      ]
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "Straker falls as his knife gases his thigh",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_627"
+      ],
+      "participants": [
+        "john_straker",
+        "straker_small_knife"
+      ],
+      "performs": [
+        "john_straker"
+      ]
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "A speaker asks whether it is clear",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_628"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "Do I make it clear?"
+      }
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "A speaker says \"Wonderful!\"",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_629"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "Wonderful!"
+      }
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "Colonel Ross cries \"Wonderful!\" and says Straker might have been there",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_630",
+        "sentence_631",
+        "sentence_632"
+      ],
+      "participants": [
+        "colonel_ross"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [],
+        "content": "Wonderful!\nYou might have been there!"
+      }
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "A speaker says his final shot was a very long one",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_633"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "My final shot was, I confess a very long one."
+      }
+    },
+    {
+      "id": "event_4_12",
+      "type": "event",
+      "label": "A speaker references Straker undertaking delicate tendon-nicking without practice",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_634"
+      ],
+      "participants": [
+        "john_straker"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "It struck me that so astute a man as Straker would not undertake this delicate tendon-nicking without a little practice."
+      }
+    },
+    {
+      "id": "event_4_13",
+      "type": "event",
+      "label": "A speaker asks what he could practice on",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_635"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "What could he practice on?"
+      }
+    },
+    {
+      "id": "event_4_14",
+      "type": "event",
+      "label": "A speaker says his eyes fell upon the sheep and that his surmise was correct",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_636"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "My eyes fell upon the sheep, and I asked a question which, rather to my surprise, showed that my surmise was correct."
+      }
+    },
+    {
+      "id": "event_4_15",
+      "type": "event",
+      "label": "A speaker says that on returning to London he called on a milliner who recognized Straker as an excellent customer named Derbyshire",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_637"
+      ],
+      "participants": [
+        "john_straker"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "When I returned to London I called upon the milliner, who had recognised Straker as an excellent customer of the name of Derbyshire, who had a very dashing wife, with a strong partiality for expensive dresses."
+      }
+    },
+    {
+      "id": "event_4_16",
+      "type": "event",
+      "label": "A speaker says a woman had plunged Straker into debt and led him into a miserable plot",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_638"
+      ],
+      "participants": [
+        "john_straker"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "I have no doubt that this woman had plunged him over head and ears in debt, and so led him into this miserable plot."
+      }
+    },
+    {
+      "id": "event_4_17",
+      "type": "event",
+      "label": "Colonel Ross says \"You have explained all but one thing\" and asks where the horse was",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_639",
+        "sentence_640"
+      ],
+      "participants": [
+        "colonel_ross"
+      ],
+      "performs": [
+        "colonel_ross"
+      ],
+      "communicates": {
+        "speaker": "colonel_ross",
+        "recipients": [],
+        "content": "You have explained all but one thing\nWhere was the horse?"
+      }
+    },
+    {
+      "id": "event_4_18",
+      "type": "event",
+      "label": "A speaker says the horse bolted and was cared for by one of Colonel Ross's neighbours",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_641"
+      ],
+      "participants": [
+        "silver_blaze",
+        "colonel_ross"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "Ah, it bolted, and was cared for by one of your neighbours."
+      }
+    },
+    {
+      "id": "event_4_19",
+      "type": "event",
+      "label": "A speaker says an amnesty should be in that direction",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_642"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "We must have an amnesty in that direction, I think."
+      }
+    },
+    {
+      "id": "event_4_20",
+      "type": "event",
+      "label": "A speaker says the location is Clapham Junction and that they will be in Victoria in less than ten minutes",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_643"
+      ],
+      "participants": [],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [],
+        "content": "This is Clapham Junction, if I am not mistaken, and we shall be in Victoria in less than ten minutes."
+      }
+    },
+    {
+      "id": "event_4_21",
+      "type": "event",
+      "label": "A speaker invites Colonel Ross to smoke a cigar in their rooms and offers other details",
+      "section": "silver-blaze-section_4",
+      "source_nodes": [
+        "sentence_644"
+      ],
+      "participants": [
+        "colonel_ross"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "",
+        "recipients": [
+          "colonel_ross"
+        ],
+        "content": "If you care to smoke a cigar in our rooms, Colonel, I shall be happy to give you any other details which might interest you."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "watson",
+      "to": "paddington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_5",
+      "valid_until": "event_silver_blaze_section_2_6",
+      "caused_by": [
+        "event_1_5"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "watson",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_silver_blaze_section_2_6",
+      "valid_until": "event_3_406_1",
+      "caused_by": [
+        "event_silver_blaze_section_2_6"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "watson",
+      "to": "kings_pyland",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_406_1",
+      "valid_until": "event_3_436_1",
+      "caused_by": [
+        "event_3_406_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "watson",
+      "to": "dartmoor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_436_1",
+      "valid_until": "event_3_453_1",
+      "caused_by": [
+        "event_3_436_1"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "watson",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_453_1",
+      "caused_by": [
+        "event_3_453_1"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "holmes",
+      "to": "paddington",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_5",
+      "valid_until": "event_silver_blaze_section_2_6",
+      "caused_by": [
+        "event_1_5"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "holmes",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_silver_blaze_section_2_6",
+      "valid_until": "event_3_406_1",
+      "caused_by": [
+        "event_silver_blaze_section_2_6"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "holmes",
+      "to": "kings_pyland",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_406_1",
+      "valid_until": "event_3_436_1",
+      "caused_by": [
+        "event_3_406_1"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "holmes",
+      "to": "dartmoor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_436_1",
+      "valid_until": "event_3_453_1",
+      "caused_by": [
+        "event_3_436_1"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "holmes",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_453_1",
+      "caused_by": [
+        "event_3_453_1"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "fresh_papers_bundle",
+      "to": "holmes",
+      "type": "OWNS",
+      "valid_from": "event_1_6",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "curried_mutton",
+      "to": "moor_stables",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_18",
+      "caused_by": [
+        "event_1_18"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "john_straker",
+      "to": "bowl_shaped_depression",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_35",
+      "caused_by": [
+        "event_1_35"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "trainer_john_straker_overcoat",
+      "to": "furze_bush_area",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_34",
+      "valid_until": "event_3_389_1",
+      "caused_by": [
+        "event_1_34"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "trainer_john_straker_overcoat",
+      "to": "dartmoor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_389_1",
+      "caused_by": [
+        "event_3_389_1"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "straker_small_knife",
+      "to": "john_straker",
+      "type": "OWNS",
+      "valid_from": "event_1_36",
+      "caused_by": [
+        "event_1_36"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "red_black_silk_cravat",
+      "to": "john_straker",
+      "type": "OWNS",
+      "valid_from": "event_1_36",
+      "valid_until": "event_4_3",
+      "caused_by": [
+        "event_1_36"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "red_black_silk_cravat",
+      "to": "john_straker",
+      "type": "OWNS",
+      "valid_from": "event_4_3",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "colonel_ross",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_silver_blaze_section_2_6",
+      "valid_until": "event_3_435_1",
+      "caused_by": [
+        "event_silver_blaze_section_2_6"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "colonel_ross",
+      "to": "dartmoor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_435_1",
+      "caused_by": [
+        "event_3_435_1"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "inspector_gregory",
+      "to": "tavistock",
+      "type": "LOCATED_AT",
+      "valid_from": "event_silver_blaze_section_2_6",
+      "valid_until": "event_3_435_1",
+      "caused_by": [
+        "event_silver_blaze_section_2_6"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "inspector_gregory",
+      "to": "dartmoor",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_435_1",
+      "caused_by": [
+        "event_3_435_1"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "silver_blaze",
+      "to": "moor_stables",
+      "type": "LOCATED_AT",
+      "valid_from": "event_silver_blaze_section_2_28",
+      "valid_until": "event_4_1",
+      "caused_by": [
+        "event_silver_blaze_section_2_28"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "silver_blaze",
+      "to": "bowl_shaped_depression",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "straker_small_knife",
+      "to": "silver_blaze_investigation",
+      "type": "IS_INSIDE",
+      "valid_from": "event_silver_blaze_section_2_16",
+      "caused_by": [
+        "event_silver_blaze_section_2_16"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "silas_brown",
+      "to": "kings_pyland",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_406_1",
+      "caused_by": [
+        "event_3_406_1"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "holmes",
+      "section": "silver-blaze-section_1",
+      "mention_count": 49,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_13",
+        "sentence_15",
+        "sentence_17",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_26",
+        "sentence_28",
+        "sentence_32",
+        "sentence_37",
+        "sentence_45",
+        "sentence_46",
+        "sentence_50",
+        "sentence_51",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_62",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_69",
+        "sentence_72",
+        "sentence_75",
+        "sentence_77",
+        "sentence_82",
+        "sentence_84",
+        "sentence_86",
+        "sentence_92",
+        "sentence_94",
+        "sentence_100",
+        "sentence_102",
+        "sentence_104",
+        "sentence_105",
+        "sentence_110",
+        "sentence_114",
+        "sentence_115",
+        "sentence_118",
+        "sentence_130",
+        "sentence_132",
+        "sentence_142",
+        "sentence_143",
+        "sentence_146",
+        "sentence_149",
+        "sentence_150",
+        "sentence_155",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "silver-blaze-section_1",
+      "mention_count": 26,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_7",
+        "sentence_8",
+        "sentence_10",
+        "sentence_11",
+        "sentence_14",
+        "sentence_20",
+        "sentence_23",
+        "sentence_24",
+        "sentence_26",
+        "sentence_34",
+        "sentence_36",
+        "sentence_42",
+        "sentence_44",
+        "sentence_45",
+        "sentence_73",
+        "sentence_89",
+        "sentence_100",
+        "sentence_101",
+        "sentence_102",
+        "sentence_104",
+        "sentence_130",
+        "sentence_143",
+        "sentence_145",
+        "sentence_148",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "silver_blaze_case",
+      "section": "silver-blaze-section_1",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_26",
+        "sentence_31",
+        "sentence_40",
+        "sentence_44",
+        "sentence_128",
+        "sentence_129",
+        "sentence_150",
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "john_straker",
+      "section": "silver-blaze-section_1",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_39",
+        "sentence_53",
+        "sentence_58",
+        "sentence_65",
+        "sentence_107",
+        "sentence_108",
+        "sentence_109",
+        "sentence_114",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_123",
+        "sentence_141",
+        "sentence_145",
+        "sentence_150",
+        "sentence_154"
+      ]
+    },
+    {
+      "entity": "silver_blaze",
+      "section": "silver-blaze-section_1",
+      "mention_count": 14,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_26",
+        "sentence_46",
+        "sentence_48",
+        "sentence_50",
+        "sentence_92",
+        "sentence_97",
+        "sentence_114",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_150",
+        "sentence_151",
+        "sentence_152"
+      ]
+    },
+    {
+      "entity": "bayard",
+      "section": "silver-blaze-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_92",
+        "sentence_94",
+        "sentence_150"
+      ]
+    },
+    {
+      "entity": "colonel_ross",
+      "section": "silver-blaze-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_32",
+        "sentence_46",
+        "sentence_47",
+        "sentence_51"
+      ]
+    },
+    {
+      "entity": "inspector_gregory",
+      "section": "silver-blaze-section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_32",
+        "sentence_130",
+        "sentence_132",
+        "sentence_150"
+      ]
+    },
+    {
+      "entity": "fitzroy_simpson",
+      "section": "silver-blaze-section_1",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_40",
+        "sentence_134",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_150",
+        "sentence_154",
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "silas_brown",
+      "section": "silver-blaze-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_61",
+        "sentence_137"
+      ]
+    },
+    {
+      "entity": "lord_backwater",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_61"
+      ]
+    },
+    {
+      "entity": "ned_hunter",
+      "section": "silver-blaze-section_1",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_65",
+        "sentence_84",
+        "sentence_96",
+        "sentence_98",
+        "sentence_105",
+        "sentence_114",
+        "sentence_117",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_127"
+      ]
+    },
+    {
+      "entity": "edith_baxter",
+      "section": "silver-blaze-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_66",
+        "sentence_69",
+        "sentence_76",
+        "sentence_83",
+        "sentence_97",
+        "sentence_122"
+      ]
+    },
+    {
+      "entity": "mrs_straker",
+      "section": "silver-blaze-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114"
+      ]
+    },
+    {
+      "entity": "tavistock_contractor",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_60"
+      ]
+    },
+    {
+      "entity": "news_agent",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_10"
+      ]
+    },
+    {
+      "entity": "telegraph",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "chronicle",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "wessex_cup",
+      "section": "silver-blaze-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_12",
+        "sentence_48",
+        "sentence_50",
+        "sentence_92",
+        "sentence_150"
+      ]
+    },
+    {
+      "entity": "dartmoor",
+      "section": "silver-blaze-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_38",
+        "sentence_63",
+        "sentence_104",
+        "sentence_126",
+        "sentence_137"
+      ]
+    },
+    {
+      "entity": "kings_pyland",
+      "section": "silver-blaze-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_51",
+        "sentence_76",
+        "sentence_79",
+        "sentence_92"
+      ]
+    },
+    {
+      "entity": "paddington",
+      "section": "silver-blaze-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_17",
+        "sentence_19"
+      ]
+    },
+    {
+      "entity": "exeter",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_19"
+      ]
+    },
+    {
+      "entity": "reading",
+      "section": "silver-blaze-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_20"
+      ]
+    },
+    {
+      "entity": "mapleton",
+      "section": "silver-blaze-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_61",
+        "sentence_137"
+      ]
+    },
+    {
+      "entity": "holmes",
+      "section": "silver-blaze-section_2",
+      "mention_count": 44,
+      "sentence_ids": [
+        "sentence_159",
+        "sentence_160",
+        "sentence_162",
+        "sentence_168",
+        "sentence_169",
+        "sentence_182",
+        "sentence_183",
+        "sentence_189",
+        "sentence_201",
+        "sentence_215",
+        "sentence_219",
+        "sentence_221",
+        "sentence_224",
+        "sentence_226",
+        "sentence_239",
+        "sentence_241",
+        "sentence_243",
+        "sentence_250",
+        "sentence_255",
+        "sentence_257",
+        "sentence_265",
+        "sentence_269",
+        "sentence_272",
+        "sentence_273",
+        "sentence_288",
+        "sentence_303",
+        "sentence_305",
+        "sentence_309",
+        "sentence_314",
+        "sentence_317",
+        "sentence_330",
+        "sentence_336",
+        "sentence_339",
+        "sentence_341",
+        "sentence_343",
+        "sentence_347",
+        "sentence_354",
+        "sentence_356",
+        "sentence_357",
+        "sentence_359",
+        "sentence_361",
+        "sentence_363",
+        "sentence_364",
+        "sentence_375"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "silver-blaze-section_2",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_174",
+        "sentence_178",
+        "sentence_241",
+        "sentence_242",
+        "sentence_287",
+        "sentence_340",
+        "sentence_353",
+        "sentence_356",
+        "sentence_358",
+        "sentence_359"
+      ]
+    },
+    {
+      "entity": "colonel_ross",
+      "section": "silver-blaze-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_159",
+        "sentence_160",
+        "sentence_161",
+        "sentence_168",
+        "sentence_221",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_313",
+        "sentence_306",
+        "sentence_308",
+        "sentence_311",
+        "sentence_312"
+      ]
+    },
+    {
+      "entity": "inspector_gregory",
+      "section": "silver-blaze-section_2",
+      "mention_count": 56,
+      "sentence_ids": [
+        "sentence_158",
+        "sentence_159",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164",
+        "sentence_165",
+        "sentence_167",
+        "sentence_169",
+        "sentence_172",
+        "sentence_173",
+        "sentence_176",
+        "sentence_177",
+        "sentence_178",
+        "sentence_179",
+        "sentence_181",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_224",
+        "sentence_227",
+        "sentence_229",
+        "sentence_232",
+        "sentence_233",
+        "sentence_235",
+        "sentence_236",
+        "sentence_238",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_263",
+        "sentence_264",
+        "sentence_274",
+        "sentence_280",
+        "sentence_281",
+        "sentence_292",
+        "sentence_300",
+        "sentence_301",
+        "sentence_305",
+        "sentence_307",
+        "sentence_308",
+        "sentence_309",
+        "sentence_313"
+      ]
+    },
+    {
+      "entity": "john_straker",
+      "section": "silver-blaze-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_161",
+        "sentence_174",
+        "sentence_227",
+        "sentence_228",
+        "sentence_274",
+        "sentence_318"
+      ]
+    },
+    {
+      "entity": "fitzroy_simpson",
+      "section": "silver-blaze-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_170",
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_175",
+        "sentence_199",
+        "sentence_200",
+        "sentence_203",
+        "sentence_204",
+        "sentence_210",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214"
+      ]
+    },
+    {
+      "entity": "silver_blaze",
+      "section": "silver-blaze-section_2",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_197",
+        "sentence_284",
+        "sentence_318",
+        "sentence_308",
+        "sentence_333"
+      ]
+    },
+    {
+      "entity": "silas_brown",
+      "section": "silver-blaze-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_211",
+        "sentence_364",
+        "sentence_367"
+      ]
+    },
+    {
+      "entity": "mrs_straker",
+      "section": "silver-blaze-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_258",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_267",
+        "sentence_271"
+      ]
+    },
+    {
+      "entity": "tavistock",
+      "section": "silver-blaze-section_2",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_157",
+        "sentence_207",
+        "sentence_313"
+      ]
+    },
+    {
+      "entity": "dartmoor",
+      "section": "silver-blaze-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_157"
+      ]
+    },
+    {
+      "entity": "kings_pyland",
+      "section": "silver-blaze-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_321",
+        "sentence_331",
+        "sentence_352",
+        "sentence_353"
+      ]
+    },
+    {
+      "entity": "mapleton",
+      "section": "silver-blaze-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_218",
+        "sentence_322",
+        "sentence_321",
+        "sentence_332",
+        "sentence_359",
+        "sentence_360"
+      ]
+    },
+    {
+      "entity": "silas_brown",
+      "section": "silver-blaze-section_3",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_381",
+        "sentence_382",
+        "sentence_390",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398",
+        "sentence_403",
+        "sentence_404",
+        "sentence_406",
+        "sentence_409",
+        "sentence_415",
+        "sentence_417",
+        "sentence_418",
+        "sentence_419"
+      ]
+    },
+    {
+      "entity": "holmes",
+      "section": "silver-blaze-section_3",
+      "mention_count": 73,
+      "sentence_ids": [
+        "sentence_383",
+        "sentence_386",
+        "sentence_387",
+        "sentence_388",
+        "sentence_395",
+        "sentence_400",
+        "sentence_401",
+        "sentence_399",
+        "sentence_404",
+        "sentence_405",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_420",
+        "sentence_421",
+        "sentence_423",
+        "sentence_424",
+        "sentence_425",
+        "sentence_426",
+        "sentence_427",
+        "sentence_428",
+        "sentence_430",
+        "sentence_431",
+        "sentence_432",
+        "sentence_434",
+        "sentence_436",
+        "sentence_437",
+        "sentence_442",
+        "sentence_443",
+        "sentence_445",
+        "sentence_446",
+        "sentence_453",
+        "sentence_455",
+        "sentence_456",
+        "sentence_462",
+        "sentence_463",
+        "sentence_469",
+        "sentence_470",
+        "sentence_472",
+        "sentence_486",
+        "sentence_487",
+        "sentence_502",
+        "sentence_507",
+        "sentence_509",
+        "sentence_510",
+        "sentence_514",
+        "sentence_517",
+        "sentence_527",
+        "sentence_530",
+        "sentence_538",
+        "sentence_539",
+        "sentence_540",
+        "sentence_541",
+        "sentence_542",
+        "sentence_544",
+        "sentence_551",
+        "sentence_553",
+        "sentence_562",
+        "sentence_563",
+        "sentence_567",
+        "sentence_568",
+        "sentence_569",
+        "sentence_570",
+        "sentence_571",
+        "sentence_572",
+        "sentence_573",
+        "sentence_574",
+        "sentence_575",
+        "sentence_576",
+        "sentence_577",
+        "sentence_578"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "silver-blaze-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_387",
+        "sentence_406",
+        "sentence_407",
+        "sentence_431",
+        "sentence_432",
+        "sentence_434",
+        "sentence_462",
+        "sentence_463",
+        "sentence_449",
+        "sentence_452",
+        "sentence_453",
+        "sentence_470",
+        "sentence_473",
+        "sentence_474",
+        "sentence_515"
+      ]
+    },
+    {
+      "entity": "colonel_ross",
+      "section": "silver-blaze-section_3",
+      "mention_count": 44,
+      "sentence_ids": [
+        "sentence_421",
+        "sentence_422",
+        "sentence_435",
+        "sentence_436",
+        "sentence_438",
+        "sentence_439",
+        "sentence_447",
+        "sentence_448",
+        "sentence_449",
+        "sentence_450",
+        "sentence_451",
+        "sentence_452",
+        "sentence_474",
+        "sentence_475",
+        "sentence_476",
+        "sentence_479",
+        "sentence_480",
+        "sentence_481",
+        "sentence_482",
+        "sentence_483",
+        "sentence_484",
+        "sentence_507",
+        "sentence_509",
+        "sentence_510",
+        "sentence_512",
+        "sentence_518",
+        "sentence_520",
+        "sentence_523",
+        "sentence_524",
+        "sentence_526",
+        "sentence_535",
+        "sentence_536",
+        "sentence_537",
+        "sentence_538",
+        "sentence_541",
+        "sentence_543",
+        "sentence_545",
+        "sentence_548",
+        "sentence_549",
+        "sentence_550",
+        "sentence_552",
+        "sentence_553",
+        "sentence_554",
+        "sentence_560"
+      ]
+    },
+    {
+      "entity": "inspector_gregory",
+      "section": "silver-blaze-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_435",
+        "sentence_438",
+        "sentence_442",
+        "sentence_443",
+        "sentence_444",
+        "sentence_445",
+        "sentence_446",
+        "sentence_466",
+        "sentence_467",
+        "sentence_468",
+        "sentence_469",
+        "sentence_470",
+        "sentence_471",
+        "sentence_472",
+        "sentence_463"
+      ]
+    },
+    {
+      "entity": "john_straker",
+      "section": "silver-blaze-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_429",
+        "sentence_550",
+        "sentence_551",
+        "sentence_556",
+        "sentence_568",
+        "sentence_603"
+      ]
+    },
+    {
+      "entity": "silver_blaze",
+      "section": "silver-blaze-section_3",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_408",
+        "sentence_410",
+        "sentence_415",
+        "sentence_419",
+        "sentence_504",
+        "sentence_507",
+        "sentence_509",
+        "sentence_510",
+        "sentence_512",
+        "sentence_515",
+        "sentence_516",
+        "sentence_518",
+        "sentence_541",
+        "sentence_542",
+        "sentence_545"
+      ]
+    },
+    {
+      "entity": "fitzroy_simpson",
+      "section": "silver-blaze-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_573",
+        "sentence_585",
+        "sentence_589"
+      ]
+    },
+    {
+      "entity": "trainer_john_straker_overcoat",
+      "section": "silver-blaze-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_434",
+        "sentence_570"
+      ]
+    },
+    {
+      "entity": "curried_mutton",
+      "section": "silver-blaze-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_582",
+        "sentence_574",
+        "sentence_585"
+      ]
+    },
+    {
+      "entity": "hound",
+      "section": "silver-blaze-section_3",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_470",
+        "sentence_471",
+        "sentence_472",
+        "sentence_588",
+        "sentence_589",
+        "sentence_590"
+      ]
+    },
+    {
+      "entity": "powdered_opium",
+      "section": "silver-blaze-section_3",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_579",
+        "sentence_580",
+        "sentence_581",
+        "sentence_582",
+        "sentence_586"
+      ]
+    },
+    {
+      "entity": "john_straker",
+      "section": "silver-blaze-section_4",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_624",
+        "sentence_625",
+        "sentence_626",
+        "sentence_627",
+        "sentence_634",
+        "sentence_637",
+        "sentence_638"
+      ]
+    },
+    {
+      "entity": "fitzroy_simpson",
+      "section": "silver-blaze-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_625"
+      ]
+    },
+    {
+      "entity": "colonel_ross",
+      "section": "silver-blaze-section_4",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_630",
+        "sentence_631",
+        "sentence_632",
+        "sentence_639",
+        "sentence_640",
+        "sentence_644"
+      ]
+    },
+    {
+      "entity": "red_black_silk_cravat",
+      "section": "silver-blaze-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_625",
+        "sentence_625"
+      ]
+    },
+    {
+      "entity": "straker_small_knife",
+      "section": "silver-blaze-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_627"
+      ]
+    },
+    {
+      "entity": "silver_blaze",
+      "section": "silver-blaze-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_626",
+        "sentence_641"
+      ]
+    },
+    {
+      "entity": "silver_blaze_horseshoe_cast",
+      "section": "silver-blaze-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_626"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "red_black_silk_cravat",
+      "case": "silver_blaze_case",
+      "discovered_by": "edith_baxter",
+      "discovered_in_section": "silver-blaze-section_1",
+      "significance": "Holmes treated the recognition of the red and black silk cravat as evidence that a stranger who visited the stables also caused the murder of trainer John Straker.",
+      "source_nodes": [
+        "sentence_122"
+      ]
+    },
+    {
+      "object": "wax_vesta",
+      "case": "silver_blaze_investigation",
+      "discovered_by": "holmes",
+      "discovered_in_section": "silver-blaze-section_2",
+      "significance": "Holmes discovered a wax vesta half-burned and coated with mud at the hollow near where the body was found.",
+      "source_nodes": [
+        "sentence_289",
+        "sentence_291"
+      ]
+    },
+    {
+      "object": "silver_blaze_horseshoe_cast",
+      "case": "silver_blaze_investigation",
+      "discovered_by": "watson",
+      "discovered_in_section": "silver-blaze-section_2",
+      "significance": "Watson’s shoeworking match used the cast horseshoe taken from the bag to fit a horse-track impression in soft earth.",
+      "source_nodes": [
+        "sentence_284",
+        "sentence_339"
+      ]
+    }
+  ],
+  "memberOf": []
+}

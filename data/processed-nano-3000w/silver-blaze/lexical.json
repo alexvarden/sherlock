@@ -1,0 +1,4539 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "silver-blaze-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 3188
+    },
+    {
+      "id": "silver-blaze-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 3002
+    },
+    {
+      "id": "silver-blaze-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 3043
+    },
+    {
+      "id": "silver-blaze-section_4",
+      "index": 3,
+      "title": "Section 4",
+      "wordCount": 341
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "silver-blaze-section_1",
+      "position": 0,
+      "text": "I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "silver-blaze-section_1",
+      "position": 1,
+      "text": "Silver Blaze",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "silver-blaze-section_1",
+      "position": 2,
+      "text": "I am afraid, Watson, that I shall have to go,\" said Holmes, as we sat down together to our breakfast one morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "silver-blaze-section_1",
+      "position": 3,
+      "text": "\"Go!",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "silver-blaze-section_1",
+      "position": 4,
+      "text": "Where to?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "silver-blaze-section_1",
+      "position": 5,
+      "text": "\"To Dartmoor; to King's Pyland.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "silver-blaze-section_1",
+      "position": 6,
+      "text": "I was not surprised.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "silver-blaze-section_1",
+      "position": 7,
+      "text": "Indeed, my only wonder was that he had not already been mixed up in this extraordinary case, which was the one topic of conversation through the length and breadth of England.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "silver-blaze-section_1",
+      "position": 8,
+      "text": "For a whole day my companion had rambled about the room with his chin upon his chest and his brows knitted, charging and recharging his pipe with the strongest black tobacco, and absolutely deaf to any of my questions or remarks.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "silver-blaze-section_1",
+      "position": 9,
+      "text": "Fresh editions of every paper had been sent up by our news agent, only to be glanced over and tossed down into a corner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "silver-blaze-section_1",
+      "position": 10,
+      "text": "Yet, silent as he was, I knew perfectly well what it was over which he was brooding.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "silver-blaze-section_1",
+      "position": 11,
+      "text": "There was but one problem before the public which could challenge his powers of analysis, and that was the singular disappearance of the favourite for the Wessex Cup, and the tragic murder of its trainer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "silver-blaze-section_1",
+      "position": 12,
+      "text": "When, therefore, he suddenly announced his intention of setting out for the scene of the drama it was only what I had both expected and hoped for.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "silver-blaze-section_1",
+      "position": 13,
+      "text": "\"I should be most happy to go down with you if I should not be in the way,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "silver-blaze-section_1",
+      "position": 14,
+      "text": "\"My dear Watson, you would confer a great favour upon me by coming.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "silver-blaze-section_1",
+      "position": 15,
+      "text": "And I think that your time will not be misspent, for there are points about the case which promise to make it an absolutely unique one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "silver-blaze-section_1",
+      "position": 16,
+      "text": "We have, I think, just time to catch our train at Paddington, and I will go further into the matter upon our journey.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "silver-blaze-section_1",
+      "position": 17,
+      "text": "You would oblige me by bringing with you your very excellent field-glass.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "silver-blaze-section_1",
+      "position": 18,
+      "text": "And so it happened that an hour or so later I found myself in the corner of a first-class carriage flying along en route for Exeter, while Sherlock Holmes, with his sharp, eager face framed in his ear-flapped travelling-cap, dipped rapidly into the bundle of fresh papers which he had procured at Paddington.",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "silver-blaze-section_1",
+      "position": 19,
+      "text": "We had left Reading far behind us before he thrust the last one of them under the seat, and offered me his cigar-case.",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "silver-blaze-section_1",
+      "position": 20,
+      "text": "\"We are going well,\" said he, looking out the window and glancing at his watch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "silver-blaze-section_1",
+      "position": 21,
+      "text": "\"Our rate at present is fifty-three and a half miles an hour.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "silver-blaze-section_1",
+      "position": 22,
+      "text": "\"I have not observed the quarter-mile posts,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "silver-blaze-section_1",
+      "position": 23,
+      "text": "\"Nor have I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "silver-blaze-section_1",
+      "position": 24,
+      "text": "But the telegraph posts upon this line are sixty yards apart, and the calculation is a simple one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "silver-blaze-section_1",
+      "position": 25,
+      "text": "I presume that you have looked into this matter of the murder of John Straker and the disappearance of Silver Blaze?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "silver-blaze-section_1",
+      "position": 26,
+      "text": "\"I have seen what the _Telegraph_ and the _Chronicle_ have to say.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "silver-blaze-section_1",
+      "position": 27,
+      "text": "\"It is one of those cases where the art of the reasoner should be used rather for the sifting of details than for the acquiring of fresh evidence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "silver-blaze-section_1",
+      "position": 28,
+      "text": "The tragedy has been so uncommon, so complete and of such personal importance to so many people, that we are suffering from a plethora of surmise, conjecture, and hypothesis.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "silver-blaze-section_1",
+      "position": 29,
+      "text": "The difficulty is to detach the framework of fact—of absolute undeniable fact—from the embellishments of theorists and reporters.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "silver-blaze-section_1",
+      "position": 30,
+      "text": "Then, having established ourselves upon this sound basis, it is our duty to see what inferences may be drawn and what are the special points upon which the whole mystery turns.",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "silver-blaze-section_1",
+      "position": 31,
+      "text": "On Tuesday evening I received telegrams from both Colonel Ross, the owner of the horse, and from Inspector Gregory, who is looking after the case, inviting my co-operation.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "silver-blaze-section_1",
+      "position": 32,
+      "text": "\"Tuesday evening!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "silver-blaze-section_1",
+      "position": 33,
+      "text": "I exclaimed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "silver-blaze-section_1",
+      "position": 34,
+      "text": "\"And this is Thursday morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "silver-blaze-section_1",
+      "position": 35,
+      "text": "Why didn't you go down yesterday?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "silver-blaze-section_1",
+      "position": 36,
+      "text": "\"Because I made a blunder, my dear Watson—which is, I am afraid, a more common occurrence than any one would think who only knew me through your memoirs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "silver-blaze-section_1",
+      "position": 37,
+      "text": "The fact is that I could not believe it possible that the most remarkable horse in England could long remain concealed, especially in so sparsely inhabited a place as the north of Dartmoor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "silver-blaze-section_1",
+      "position": 38,
+      "text": "From hour to hour yesterday I expected to hear that he had been found, and that his abductor was the murderer of John Straker.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "silver-blaze-section_1",
+      "position": 39,
+      "text": "When, however, another morning had come, and I found that beyond the arrest of young Fitzroy Simpson nothing had been done, I felt that it was time for me to take action.",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "silver-blaze-section_1",
+      "position": 40,
+      "text": "Yet in some ways I feel that yesterday has not been wasted.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "silver-blaze-section_1",
+      "position": 41,
+      "text": "\"You have formed a theory, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "silver-blaze-section_1",
+      "position": 42,
+      "text": "\"At least I have got a grip of the essential facts of the case.",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "silver-blaze-section_1",
+      "position": 43,
+      "text": "I shall enumerate them to you, for nothing clears up a case so much as stating it to another person, and I can hardly expect your co-operation if I do not show you the position from which we start.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "silver-blaze-section_1",
+      "position": 44,
+      "text": "I lay back against the cushions, puffing at my cigar, while Holmes, leaning forward, with his long, thin forefinger checking off the points upon the palm of his left hand, gave me a sketch of the events which had led to our journey.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "silver-blaze-section_1",
+      "position": 45,
+      "text": "\"Silver Blaze,\" said he, \"is from the Isonomy stock, and holds as brilliant a record as his famous ancestor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "silver-blaze-section_1",
+      "position": 46,
+      "text": "He is now in his fifth year, and has brought in turn each of the prizes of the turf to Colonel Ross, his fortunate owner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "silver-blaze-section_1",
+      "position": 47,
+      "text": "Up to the time of the catastrophe he was the first favourite for the Wessex Cup, the betting being three to one on him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "silver-blaze-section_1",
+      "position": 48,
+      "text": "He has always, however, been a prime favourite with the racing public, and has never yet disappointed them, so that even at those odds enormous sums of money have been laid upon him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "silver-blaze-section_1",
+      "position": 49,
+      "text": "It is obvious, therefore, that there were many people who had the strongest interest in preventing Silver Blaze from being there at the fall of the flag next Tuesday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "silver-blaze-section_1",
+      "position": 50,
+      "text": "\"The fact was, of course, appreciated at King's Pyland, where the Colonel's training-stable is situated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "silver-blaze-section_1",
+      "position": 51,
+      "text": "Every precaution was taken to guard the favourite.",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "silver-blaze-section_1",
+      "position": 52,
+      "text": "The trainer, John Straker, is a retired jockey who rode in Colonel Ross's colours before he became too heavy for the weighing-chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "silver-blaze-section_1",
+      "position": 53,
+      "text": "He has served the Colonel for five years as jockey and for seven as trainer, and has always shown himself to be a zealous and honest servant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "silver-blaze-section_1",
+      "position": 54,
+      "text": "Under him were three lads; for the establishment was a small one, containing only four horses in all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "silver-blaze-section_1",
+      "position": 55,
+      "text": "One of these lads sat up each night in the stable, while the others slept in the loft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "silver-blaze-section_1",
+      "position": 56,
+      "text": "All three bore excellent characters.",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "silver-blaze-section_1",
+      "position": 57,
+      "text": "John Straker, who is a married man, lived in a small villa about two hundred yards from the stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "silver-blaze-section_1",
+      "position": 58,
+      "text": "He has no children, keeps one maid-servant, and is comfortably off.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "silver-blaze-section_1",
+      "position": 59,
+      "text": "The country round is very lonely, but about half a mile to the north there is a small cluster of villas which have been built by a Tavistock contractor for the use of invalids and others who may wish to enjoy the pure Dartmoor air.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "silver-blaze-section_1",
+      "position": 60,
+      "text": "Tavistock itself lies two miles to the west, while across the moor, also about two miles distant, is the larger training establishment of Mapleton, which belongs to Lord Backwater, and is managed by Silas Brown.",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "silver-blaze-section_1",
+      "position": 61,
+      "text": "In every other direction the moor is a complete wilderness, inhabited only by a few roaming gypsies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "silver-blaze-section_1",
+      "position": 62,
+      "text": "Such was the general situation last Monday night when the catastrophe occurred.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "silver-blaze-section_1",
+      "position": 63,
+      "text": "\"On that evening the horses had been exercised and watered as usual, and the stables were locked up at nine o'clock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "silver-blaze-section_1",
+      "position": 64,
+      "text": "Two of the lads walked up to the trainer's house, where they had supper in the kitchen, while the third, Ned Hunter, remained on guard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "silver-blaze-section_1",
+      "position": 65,
+      "text": "At a few minutes after nine the maid, Edith Baxter, carried down to the stables his supper, which consisted of a dish of curried mutton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "silver-blaze-section_1",
+      "position": 66,
+      "text": "She took no liquid, as there was a water-tap in the stables, and it was the rule that the lad on duty should drink nothing else.",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "silver-blaze-section_1",
+      "position": 67,
+      "text": "The maid carried a lantern with her, as it was very dark and the path ran across the open moor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "silver-blaze-section_1",
+      "position": 68,
+      "text": "\"Edith Baxter was within thirty yards of the stables, when a man appeared out of the darkness and called to her to stop.",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "silver-blaze-section_1",
+      "position": 69,
+      "text": "As he stepped into the circle of yellow light thrown by the lantern she saw that he was a person of gentlemanly bearing, dressed in a grey suit of tweeds, with a cloth cap.",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "silver-blaze-section_1",
+      "position": 70,
+      "text": "He wore gaiters, and carried a heavy stick with a knob to it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "silver-blaze-section_1",
+      "position": 71,
+      "text": "She was most impressed, however, by the extreme pallor of his face and by the nervousness of his manner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "silver-blaze-section_1",
+      "position": 72,
+      "text": "His age, she thought, would be rather over thirty than under it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "silver-blaze-section_1",
+      "position": 73,
+      "text": "' he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "silver-blaze-section_1",
+      "position": 74,
+      "text": "ell me where I am?' he asked. 'I had almost made up my mind to sleep on the moor, when I saw the light of your lantern.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "silver-blaze-section_1",
+      "position": 75,
+      "text": "\"'You are close to the King's Pyland training-stables,' said she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "silver-blaze-section_1",
+      "position": 76,
+      "text": "\"'Oh, indeed!",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "silver-blaze-section_1",
+      "position": 77,
+      "text": "' he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "silver-blaze-section_1",
+      "position": 78,
+      "text": "'I understand that a stable-boy sleeps there alone every night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "silver-blaze-section_1",
+      "position": 79,
+      "text": "Perhaps that is his supper which you are carrying to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "silver-blaze-section_1",
+      "position": 80,
+      "text": "' He took a piece of white paper folded up out of his waistcoat pocket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "silver-blaze-section_1",
+      "position": 81,
+      "text": "earn the price of a new dress, would you?' He took a piece of white paper folded up out of his waistcoat pocket. 'See that the boy has this to-night, and you shall have the prettiest frock that money can buy.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "silver-blaze-section_1",
+      "position": 82,
+      "text": "\"She was frightened by the earnestness of his manner, and ran past him to the window through which she was accustomed to hand the meals.",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "silver-blaze-section_1",
+      "position": 83,
+      "text": "It was already opened, and Hunter was seated at the small table inside.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "silver-blaze-section_1",
+      "position": 84,
+      "text": "She had begun to tell him of what had happened, when the stranger came up again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "silver-blaze-section_1",
+      "position": 85,
+      "text": "\"'Good-evening,' said he, looking through the window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "silver-blaze-section_1",
+      "position": 86,
+      "text": "' The girl has sworn that as he spoke she noticed the corner of the little paper packet protruding from his closed hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "silver-blaze-section_1",
+      "position": 87,
+      "text": "t protruding from his closed hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "silver-blaze-section_1",
+      "position": 88,
+      "text": "' asked the lad.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "silver-blaze-section_1",
+      "position": 89,
+      "text": "have you here?' asked the lad.",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "silver-blaze-section_1",
+      "position": 90,
+      "text": "\"'It's business that may put something into your pocket,' said the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "silver-blaze-section_1",
+      "position": 91,
+      "text": "'You've two horses in for the Wessex Cup—Silver Blaze and Bayard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "silver-blaze-section_1",
+      "position": 92,
+      "text": "Let me have the straight tip and you won't be a loser.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "silver-blaze-section_1",
+      "position": 93,
+      "text": "Is it a fact that at the weights Bayard could give the other a hundred yards in five furlongs, and that the stable have put their money on him?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "silver-blaze-section_1",
+      "position": 94,
+      "text": "' cried the lad.",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "silver-blaze-section_1",
+      "position": 95,
+      "text": "' He sprang up and rushed across the stable to unloose the dog.",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "silver-blaze-section_1",
+      "position": 96,
+      "text": "The girl fled away to the house, but as she ran she looked back and saw that the stranger was leaning through the window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "silver-blaze-section_1",
+      "position": 97,
+      "text": "A minute later, however, when Hunter rushed out with the hound he was gone, and though he ran all round the buildings he failed to find any trace of him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "silver-blaze-section_1",
+      "position": 98,
+      "text": "was gone, and though he ran all round the buildings he failed to find any trace of him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "silver-blaze-section_1",
+      "position": 99,
+      "text": "\"One moment,\" I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "silver-blaze-section_1",
+      "position": 100,
+      "text": "\"Did the stable-boy, when he ran out with the dog, leave the door unlocked behind him?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "silver-blaze-section_1",
+      "position": 101,
+      "text": "\"Excellent, Watson, excellent!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "silver-blaze-section_1",
+      "position": 102,
+      "text": "murmured my companion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "silver-blaze-section_1",
+      "position": 103,
+      "text": "\"The importance of the point struck me so forcibly that I sent a special wire to Dartmoor yesterday to clear the matter up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "silver-blaze-section_1",
+      "position": 104,
+      "text": "The boy locked the door before he left it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "silver-blaze-section_1",
+      "position": 105,
+      "text": "The window, I may add, was not large enough for a man to get through.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "silver-blaze-section_1",
+      "position": 106,
+      "text": "\"Hunter waited until his fellow-grooms had returned, when he sent a message to the trainer and told him what had occurred.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "silver-blaze-section_1",
+      "position": 107,
+      "text": "Straker was excited at hearing the account, although he does not seem to have quite realized its true significance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "silver-blaze-section_1",
+      "position": 108,
+      "text": "It left him, however, vaguely uneasy, and Mrs. Straker, waking at one in the morning, found that he was dressing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "silver-blaze-section_1",
+      "position": 109,
+      "text": "In reply to her inquiries, he said that he could not sleep on account of his anxiety about the horses, and that he intended to walk down to the stables to see that all was well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "silver-blaze-section_1",
+      "position": 110,
+      "text": "She begged him to remain at home, as she could hear the rain pattering against the window, but in spite of her entreaties he pulled on his large mackintosh and left the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "silver-blaze-section_1",
+      "position": 111,
+      "text": "\"Mrs. Straker awoke at seven in the morning, to find that her husband had not yet returned.",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "silver-blaze-section_1",
+      "position": 112,
+      "text": "She dressed herself hastily, called the maid, and set off for the stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "silver-blaze-section_1",
+      "position": 113,
+      "text": "The door was open; inside, huddled together upon a chair, Hunter was sunk in a state of absolute stupor, the favourite's stall was empty, and there were no signs of his trainer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "silver-blaze-section_1",
+      "position": 114,
+      "text": "\"The two lads who slept in the chaff-cutting loft above the harness-room were quickly aroused.",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "silver-blaze-section_1",
+      "position": 115,
+      "text": "They had heard nothing during the night, for they are both sound sleepers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "silver-blaze-section_1",
+      "position": 116,
+      "text": "Hunter was obviously under the influence of some powerful drug, and as no sense could be got out of him, he was left to sleep it off while the two lads and the two women ran out in search of the absentees.",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "silver-blaze-section_1",
+      "position": 117,
+      "text": "They still had hopes that the trainer had for some reason taken out the horse for early exercise, but on ascending the knoll near the house, from which all the neighbouring moors were visible, they not only could see no signs of the missing favourite, but they perceived something which warned them that they were in the presence of a tragedy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "silver-blaze-section_1",
+      "position": 118,
+      "text": "\"About a quarter of a mile from the stables John Straker's overcoat was flapping from a furze-bush.",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "silver-blaze-section_1",
+      "position": 119,
+      "text": "Immediately beyond there was a bowl-shaped depression in the moor, and at the bottom of this was found the dead body of the unfortunate trainer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "silver-blaze-section_1",
+      "position": 120,
+      "text": "His head had been shattered by a savage blow from some heavy weapon, and he was wounded on the thigh, where there was a long, clean cut, inflicted evidently by some very sharp instrument.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "silver-blaze-section_1",
+      "position": 121,
+      "text": "It was clear, however, that Straker had defended himself vigorously against his assailants, for in his right hand he held a small knife, which was clotted with blood up to the handle, while in his left he clasped a red and black silk cravat, which was recognised by the maid as having been worn on the preceding evening by the stranger who had visited the stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "silver-blaze-section_1",
+      "position": 122,
+      "text": "\"Hunter, on recovering from his stupor, was also quite positive as to the ownership of the cravat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "silver-blaze-section_1",
+      "position": 123,
+      "text": "He was equally certain that the same stranger had, while standing at the window, drugged his curried mutton, and so deprived the stables of their watchman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "silver-blaze-section_1",
+      "position": 124,
+      "text": "\"As to the missing horse, there were abundant proofs in the mud which lay at the bottom of the fatal hollow that he had been there at the time of the struggle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "silver-blaze-section_1",
+      "position": 125,
+      "text": "But from that morning he has disappeared, and although a large reward has been offered, and all the gypsies of Dartmoor are on the alert, no news has come of him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "silver-blaze-section_1",
+      "position": 126,
+      "text": "Finally, an analysis has shown that the remains of his supper left by the stable-lad contain an appreciable quantity of powdered opium, while the people at the house partook of the same dish on the same night without any ill effect.",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "silver-blaze-section_1",
+      "position": 127,
+      "text": "\"Those are the main facts of the case, stripped of all surmise, and stated as baldly as possible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "silver-blaze-section_1",
+      "position": 128,
+      "text": "I shall now recapitulate what the police have done in the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "silver-blaze-section_1",
+      "position": 129,
+      "text": "\"Inspector Gregory, to whom the case has been committed, is an extremely competent officer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "silver-blaze-section_1",
+      "position": 130,
+      "text": "Were he but gifted with imagination he might rise to great heights in his profession.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "silver-blaze-section_1",
+      "position": 131,
+      "text": "On his arrival he promptly found and arrested the man upon whom suspicion naturally rested.",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "silver-blaze-section_1",
+      "position": 132,
+      "text": "There was little difficulty in finding him, for he inhabited one of those villas which I have mentioned.",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "silver-blaze-section_1",
+      "position": 133,
+      "text": "His name, it appears, was Fitzroy Simpson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "silver-blaze-section_1",
+      "position": 134,
+      "text": "He was a man of excellent birth and education, who had squandered a fortune upon the turf, and who lived now by doing a little quiet and genteel book-making in the sporting clubs of London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "silver-blaze-section_1",
+      "position": 135,
+      "text": "An examination of his betting-book shows that bets to the amount of five thousand pounds had been registered by him against the favourite.",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "silver-blaze-section_1",
+      "position": 136,
+      "text": "\"On being arrested he volunteered the statement that he had come down to Dartmoor in the hope of getting some information about the King's Pyland horses, and also about Desborough, the second favourite, which was in charge of Silas Brown at the Mapleton stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "silver-blaze-section_1",
+      "position": 137,
+      "text": "He did not attempt to deny that he had acted as described upon the evening before, but declared that he had no sinister designs, and had simply wished to obtain first-hand information.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "silver-blaze-section_1",
+      "position": 138,
+      "text": "When confronted with his cravat, he turned very pale, and was utterly unable to account for its presence in the hand of the murdered man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "silver-blaze-section_1",
+      "position": 139,
+      "text": "His wet clothing showed that he had been out in the storm of the night before, and his stick, which was a Penang-lawyer weighted with lead, was just such a weapon as might, by repeated blows, have inflicted the terrible injuries to which the trainer had succumbed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "silver-blaze-section_1",
+      "position": 140,
+      "text": "\"On the other hand, there was no wound upon his person, while the state of Straker's knife would show that one at least of his assailants must bear his mark upon him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "silver-blaze-section_1",
+      "position": 141,
+      "text": "There you have it all in a nutshell, Watson, and if you can give me any light I shall be infinitely obliged to you.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "silver-blaze-section_1",
+      "position": 142,
+      "text": "I had listened with the greatest interest to the statement which Holmes, with characteristic clearness, had laid before me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "silver-blaze-section_1",
+      "position": 143,
+      "text": "Though most of the facts were familiar to me, I had not sufficiently appreciated their relative importance, nor their connection to each other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "silver-blaze-section_1",
+      "position": 144,
+      "text": "\"Is it not possible,\" I suggested, \"that the incised wound upon Straker may have been caused by his own knife in the convulsive struggles which follow any brain injury?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "silver-blaze-section_1",
+      "position": 145,
+      "text": "\"It is more than possible; it is probable,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "silver-blaze-section_1",
+      "position": 146,
+      "text": "\"In that case one of the main points in favour of the accused disappears.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "silver-blaze-section_1",
+      "position": 147,
+      "text": "\"And yet,\" said I, \"even now I fail to understand what the theory of the police can be.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "silver-blaze-section_1",
+      "position": 148,
+      "text": "\"I am afraid that whatever theory we state has very grave objections to it,\" returned my companion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "silver-blaze-section_1",
+      "position": 149,
+      "text": "\"The police imagine, I take it, that this Fitzroy Simpson, having drugged the lad, and having in some way obtained a duplicate key, opened the stable door and took out the horse, with the intention, apparently, of kidnapping him altogether.",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "silver-blaze-section_1",
+      "position": 150,
+      "text": "His bridle is missing, so that Simpson must have put this on.",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "silver-blaze-section_1",
+      "position": 151,
+      "text": "Then, having left the door open behind him, he was leading the horse away over the moor, when he was either met or overtaken by the trainer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "silver-blaze-section_1",
+      "position": 152,
+      "text": "A row naturally ensued.",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "silver-blaze-section_1",
+      "position": 153,
+      "text": "Simpson beat out the trainer's brains with his heavy stick without receiving any injury from the small knife which Straker used in self-defence, and then the thief either led the horse on to some secret hiding-place, or else it may have bolted during the struggle, and be now wandering out on the moors.",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "silver-blaze-section_1",
+      "position": 154,
+      "text": "That is the case as it appears to the police, and improbable as it is, all other explanations are more improbable still.",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "silver-blaze-section_1",
+      "position": 155,
+      "text": "However, I shall very quickly test the matter when I am once upon the spot, and until then I cannot really see how we can get much further than our present position.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "silver-blaze-section_2",
+      "position": 156,
+      "text": "It was evening before we reached the little town of Tavistock, which lies, like the boss of a shield, in the middle of the huge circle of Dartmoor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "silver-blaze-section_2",
+      "position": 157,
+      "text": "Two gentlemen were awaiting us in the station—the one a tall, fair man with lion-like hair and beard and curiously penetrating light blue eyes; the other a small, alert person, very neat and dapper, in a frock-coat and gaiters, with trim little side-whiskers and an eye-glass.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "silver-blaze-section_2",
+      "position": 158,
+      "text": "The latter was Colonel Ross, the well-known sportsman; the other, Inspector Gregory, a man who was rapidly making his name in the English detective service.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "silver-blaze-section_2",
+      "position": 159,
+      "text": "\"I am delighted that you have come down, Mr. Holmes,\" said the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "silver-blaze-section_2",
+      "position": 160,
+      "text": "\"The Inspector here has done all that could possibly be suggested, but I wish to leave no stone unturned in trying to avenge poor Straker and in recovering my horse.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "silver-blaze-section_2",
+      "position": 161,
+      "text": "\"Have there been any fresh developments?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "silver-blaze-section_2",
+      "position": 162,
+      "text": "asked Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "silver-blaze-section_2",
+      "position": 163,
+      "text": "\"I am sorry to say that we have made very little progress,\" said the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "silver-blaze-section_2",
+      "position": 164,
+      "text": "\"We have an open carriage outside, and as you would no doubt like to see the place before the light fails, we might talk it over as we drive.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "silver-blaze-section_2",
+      "position": 165,
+      "text": "A minute later we were all seated in a comfortable landau, and were rattling through the quaint old Devonshire city.",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "silver-blaze-section_2",
+      "position": 166,
+      "text": "Inspector Gregory was full of his case, and poured out a stream of remarks, while Holmes threw in an occasional question or interjection.",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "silver-blaze-section_2",
+      "position": 167,
+      "text": "Colonel Ross leaned back with his arms folded and his hat tilted over his eyes, while I listened with interest to the dialogue of the two detectives.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "silver-blaze-section_2",
+      "position": 168,
+      "text": "Gregory was formulating his theory, which was almost exactly what Holmes had foretold in the train.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "silver-blaze-section_2",
+      "position": 169,
+      "text": "\"The net is drawn pretty close round Fitzroy Simpson,\" he remarked, \"and I believe myself that he is our man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "silver-blaze-section_2",
+      "position": 170,
+      "text": "At the same time I recognise that the evidence is purely circumstantial, and that some new development may upset it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "silver-blaze-section_2",
+      "position": 171,
+      "text": "\"How about Straker's knife?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "silver-blaze-section_2",
+      "position": 172,
+      "text": "\"We have quite come to the conclusion that he wounded himself in his fall.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "silver-blaze-section_2",
+      "position": 173,
+      "text": "\"My friend Dr. Watson made that suggestion to me as we came down.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "silver-blaze-section_2",
+      "position": 174,
+      "text": "If so, it would tell against this man Simpson.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "silver-blaze-section_2",
+      "position": 175,
+      "text": "\"Undoubtedly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "silver-blaze-section_2",
+      "position": 176,
+      "text": "He has neither a knife nor any sign of a wound.",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "silver-blaze-section_2",
+      "position": 177,
+      "text": "The evidence against him is certainly very strong.",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "silver-blaze-section_2",
+      "position": 178,
+      "text": "He had a great interest in the disappearance of the favourite.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "silver-blaze-section_2",
+      "position": 179,
+      "text": "He lies under suspicion of having poisoned the stable-boy, he was undoubtedly out in the storm, he was armed with a heavy stick, and his cravat was found in the dead man's hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "silver-blaze-section_2",
+      "position": 180,
+      "text": "I really think we have enough to go before a jury.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "silver-blaze-section_2",
+      "position": 181,
+      "text": "Holmes shook his head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "silver-blaze-section_2",
+      "position": 182,
+      "text": "\"A clever counsel would tear it all to rags,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "silver-blaze-section_2",
+      "position": 183,
+      "text": "\"Why should he take the horse out of the stable?",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "silver-blaze-section_2",
+      "position": 184,
+      "text": "If he wished to injure it why could he not do it there?",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "silver-blaze-section_2",
+      "position": 185,
+      "text": "Has a duplicate key been found in his possession?",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "silver-blaze-section_2",
+      "position": 186,
+      "text": "What chemist sold him the powdered opium?",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "silver-blaze-section_2",
+      "position": 187,
+      "text": "Above all, where could he, a stranger to the district, hide a horse, and such a horse as this?",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "silver-blaze-section_2",
+      "position": 188,
+      "text": "What is his own explanation as to the paper which he wished the maid to give to the stable-boy?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "silver-blaze-section_2",
+      "position": 189,
+      "text": "\"He says that it was a ten-pound note.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "silver-blaze-section_2",
+      "position": 190,
+      "text": "One was found in his purse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "silver-blaze-section_2",
+      "position": 191,
+      "text": "But your other difficulties are not so formidable as they seem.",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "silver-blaze-section_2",
+      "position": 192,
+      "text": "He is not a stranger to the district.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "silver-blaze-section_2",
+      "position": 193,
+      "text": "He has twice lodged at Tavistock in the summer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "silver-blaze-section_2",
+      "position": 194,
+      "text": "The opium was probably brought from London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "silver-blaze-section_2",
+      "position": 195,
+      "text": "The key, having served its purpose, would be hurled away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "silver-blaze-section_2",
+      "position": 196,
+      "text": "The horse may be at the bottom of one of the pits or old mines upon the moor.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "silver-blaze-section_2",
+      "position": 197,
+      "text": "\"What does he say about the cravat?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "silver-blaze-section_2",
+      "position": 198,
+      "text": "\"He acknowledges that it is his, and declares that he had lost it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "silver-blaze-section_2",
+      "position": 199,
+      "text": "But a new element has been introduced into the case which may account for his leading the horse from the stable.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "silver-blaze-section_2",
+      "position": 200,
+      "text": "Holmes pricked up his ears.",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "silver-blaze-section_2",
+      "position": 201,
+      "text": "\"We have found traces which show that a party of gypsies encamped on Monday night within a mile of the spot where the murder took place.",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "silver-blaze-section_2",
+      "position": 202,
+      "text": "On Tuesday they were gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "silver-blaze-section_2",
+      "position": 203,
+      "text": "Now, presuming that there was some understanding between Simpson and these gypsies, might he not have been leading the horse to them when he was overtaken, and may they not have him now?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "silver-blaze-section_2",
+      "position": 204,
+      "text": "\"It is certainly possible.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "silver-blaze-section_2",
+      "position": 205,
+      "text": "\"The moor is being scoured for these gypsies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "silver-blaze-section_2",
+      "position": 206,
+      "text": "I have also examined every stable and out-house in Tavistock, and for a radius of ten miles.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "silver-blaze-section_2",
+      "position": 207,
+      "text": "\"There is another training-stable quite close, I understand?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "silver-blaze-section_2",
+      "position": 208,
+      "text": "\"Yes, and that is a factor which we must certainly not neglect.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "silver-blaze-section_2",
+      "position": 209,
+      "text": "As Desborough, their horse, was second in the betting, they had an interest in the disappearance of the favourite.",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "silver-blaze-section_2",
+      "position": 210,
+      "text": "Silas Brown, the trainer, is known to have had large bets upon the event, and he was no friend to poor Straker.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "silver-blaze-section_2",
+      "position": 211,
+      "text": "We have, however, examined the stables, and there is nothing to connect him with the affair.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "silver-blaze-section_2",
+      "position": 212,
+      "text": "\"And nothing to connect this man Simpson with the interests of the Mapleton stables?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "silver-blaze-section_2",
+      "position": 213,
+      "text": "\"Nothing at all.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "silver-blaze-section_2",
+      "position": 214,
+      "text": "Holmes leaned back in the carriage, and the conversation ceased.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "silver-blaze-section_2",
+      "position": 215,
+      "text": "A few minutes later our driver pulled up at a neat little red-brick villa with overhanging eaves which stood by the road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "silver-blaze-section_2",
+      "position": 216,
+      "text": "Some distance off, across a paddock, lay a long grey-tiled out-building.",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "silver-blaze-section_2",
+      "position": 217,
+      "text": "In every other direction the low curves of the moor, bronze-coloured from the fading ferns, stretched away to the sky-line, broken only by the steeples of Tavistock, and by a cluster of houses away to the westward which marked the Mapleton stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "silver-blaze-section_2",
+      "position": 218,
+      "text": "We all sprang out with the exception of Holmes, who continued to lean back with his eyes fixed upon the sky in front of him, entirely absorbed in his own thoughts.",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "silver-blaze-section_2",
+      "position": 219,
+      "text": "It was only when I touched his arm that he roused himself with a violent start and stepped out of the carriage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "silver-blaze-section_2",
+      "position": 220,
+      "text": "\"Excuse me,\" said he, turning to Colonel Ross, who had looked at him in some surprise.",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "silver-blaze-section_2",
+      "position": 221,
+      "text": "\"I was day-dreaming.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "silver-blaze-section_2",
+      "position": 222,
+      "text": "There was a gleam in his eyes and a suppressed excitement in his manner which convinced me, used as I was to his ways, that his hand was upon a clue, though I could not imagine where he had found it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "silver-blaze-section_2",
+      "position": 223,
+      "text": "\"Perhaps you would prefer at once to go on to the scene of the crime, Mr. Holmes?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "silver-blaze-section_2",
+      "position": 224,
+      "text": "said Gregory.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "silver-blaze-section_2",
+      "position": 225,
+      "text": "\"I think that I should prefer to stay here a little and go into one or two questions of detail.",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "silver-blaze-section_2",
+      "position": 226,
+      "text": "Straker was brought back here, I presume?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "silver-blaze-section_2",
+      "position": 227,
+      "text": "\"Yes; he lies upstairs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "silver-blaze-section_2",
+      "position": 228,
+      "text": "The inquest is to-morrow.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "silver-blaze-section_2",
+      "position": 229,
+      "text": "\"He has been in your service some years, Colonel Ross?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "silver-blaze-section_2",
+      "position": 230,
+      "text": "\"I have always found him an excellent servant.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "silver-blaze-section_2",
+      "position": 231,
+      "text": "\"I presume that you made an inventory of what he had in his pockets at the time of his death, Inspector?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "silver-blaze-section_2",
+      "position": 232,
+      "text": "\"I have the things themselves in the sitting-room, if you would care to see them.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "silver-blaze-section_2",
+      "position": 233,
+      "text": "\"I should be very glad.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "silver-blaze-section_2",
+      "position": 234,
+      "text": "We all filed into the front room and sat round the central table while the Inspector unlocked a square tin box and laid a small heap of things before us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "silver-blaze-section_2",
+      "position": 235,
+      "text": "There was a box of vestas, two inches of tallow candle, an A.D.P.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "silver-blaze-section_2",
+      "position": 236,
+      "text": ", London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "silver-blaze-section_2",
+      "position": 237,
+      "text": "t pipe, a pouch of seal-skin with half an ounce of long-cut Cavendish, a silver watch with a gold chain, five sovereigns in gold, an aluminium pencil-case, a few papers, and an ivory-handled knife with a very delicate, inflexible blade marked Weiss & Co., London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "silver-blaze-section_2",
+      "position": 238,
+      "text": "\"This is a very singular knife,\" said Holmes, lifting it up and examining it minutely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "silver-blaze-section_2",
+      "position": 239,
+      "text": "\"I presume, as I see blood-stains upon it, that it is the one which was found in the dead man's grasp.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "silver-blaze-section_2",
+      "position": 240,
+      "text": "Watson, this knife is surely in your line?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "silver-blaze-section_2",
+      "position": 241,
+      "text": "\"It is what we call a cataract knife,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "silver-blaze-section_2",
+      "position": 242,
+      "text": "\"I thought so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "silver-blaze-section_2",
+      "position": 243,
+      "text": "A very delicate blade devised for very delicate work.",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "silver-blaze-section_2",
+      "position": 244,
+      "text": "A strange thing for a man to carry with him upon a rough expedition, especially as it would not shut in his pocket.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "silver-blaze-section_2",
+      "position": 245,
+      "text": "\"The tip was guarded by a disk of cork which we found beside his body,\" said the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "silver-blaze-section_2",
+      "position": 246,
+      "text": "\"His wife tells us that the knife had lain upon the dressing-table, and that he had picked it up as he left the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "silver-blaze-section_2",
+      "position": 247,
+      "text": "It was a poor weapon, but perhaps the best that he could lay his hands on at the moment.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "silver-blaze-section_2",
+      "position": 248,
+      "text": "\"Very possible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "silver-blaze-section_2",
+      "position": 249,
+      "text": "How about these papers?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "silver-blaze-section_2",
+      "position": 250,
+      "text": "\"Three of them are receipted hay-dealers' accounts.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "silver-blaze-section_2",
+      "position": 251,
+      "text": "One of them is a letter of instructions from Colonel Ross.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "silver-blaze-section_2",
+      "position": 252,
+      "text": "This other is a milliner's account for thirty-seven pounds fifteen made out by Madame Lesurier, of Bond Street, to William Derbyshire.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "silver-blaze-section_2",
+      "position": 253,
+      "text": "Mrs. Straker tells us that Derbyshire was a friend of her husband's and that occasionally his letters were addressed here.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "silver-blaze-section_2",
+      "position": 254,
+      "text": "\"Madam Derbyshire had somewhat expensive tastes,\" remarked Holmes, glancing down the account.",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "silver-blaze-section_2",
+      "position": 255,
+      "text": "\"Twenty-two guineas is rather heavy for a single costume.",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "silver-blaze-section_2",
+      "position": 256,
+      "text": "However there appears to be nothing more to learn, and we may now go down to the scene of the crime.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "silver-blaze-section_2",
+      "position": 257,
+      "text": "As we emerged from the sitting-room a woman, who had been waiting in the passage, took a step forward and laid her hand upon the Inspector's sleeve.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "silver-blaze-section_2",
+      "position": 258,
+      "text": "Her face was haggard and thin and eager, stamped with the print of a recent horror.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "silver-blaze-section_2",
+      "position": 259,
+      "text": "\"Have you got them?",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "silver-blaze-section_2",
+      "position": 260,
+      "text": "Have you found them?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "silver-blaze-section_2",
+      "position": 261,
+      "text": "she panted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "silver-blaze-section_2",
+      "position": 262,
+      "text": "\"No, Mrs. Straker.",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "silver-blaze-section_2",
+      "position": 263,
+      "text": "But Mr. Holmes here has come from London to help us, and we shall do all that is possible.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "silver-blaze-section_2",
+      "position": 264,
+      "text": "\"Surely I met you in Plymouth at a garden-party some little time ago, Mrs. Straker?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "silver-blaze-section_2",
+      "position": 265,
+      "text": "said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "silver-blaze-section_2",
+      "position": 266,
+      "text": "\"No, sir; you are mistaken.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "silver-blaze-section_2",
+      "position": 267,
+      "text": "\"Dear me!",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "silver-blaze-section_2",
+      "position": 268,
+      "text": "Why, I could have sworn to it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "silver-blaze-section_2",
+      "position": 269,
+      "text": "You wore a costume of dove-coloured silk with ostrich-feather trimming.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "silver-blaze-section_2",
+      "position": 270,
+      "text": "\"I never had such a dress, sir,\" answered the lady.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "silver-blaze-section_2",
+      "position": 271,
+      "text": "\"Ah, that quite settles it,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "silver-blaze-section_2",
+      "position": 272,
+      "text": "And with an apology he followed the Inspector outside.",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "silver-blaze-section_2",
+      "position": 273,
+      "text": "A short walk across the moor took us to the hollow in which the body had been found.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "silver-blaze-section_2",
+      "position": 274,
+      "text": "At the brink of it was the furze-bush upon which the coat had been hung.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "silver-blaze-section_2",
+      "position": 275,
+      "text": "\"There was no wind that night, I understand,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "silver-blaze-section_2",
+      "position": 276,
+      "text": "\"None; but very heavy rain.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "silver-blaze-section_2",
+      "position": 277,
+      "text": "\"In that case the overcoat was not blown against the furze-bush, but placed there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "silver-blaze-section_2",
+      "position": 278,
+      "text": "\"Yes, it was laid across the bush.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "silver-blaze-section_2",
+      "position": 279,
+      "text": "\"You fill me with interest, I perceive that the ground has been trampled up a good deal.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "silver-blaze-section_2",
+      "position": 280,
+      "text": "No doubt many feet have been here since Monday night.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "silver-blaze-section_2",
+      "position": 281,
+      "text": "\"A piece of matting has been laid here at the side, and we have all stood upon that.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "silver-blaze-section_2",
+      "position": 282,
+      "text": "\"Excellent.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "silver-blaze-section_2",
+      "position": 283,
+      "text": "\"In this bag I have one of the boots which Straker wore, one of Fitzroy Simpson's shoes, and a cast horseshoe of Silver Blaze.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "silver-blaze-section_2",
+      "position": 284,
+      "text": "\"My dear Inspector, you surpass yourself!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "silver-blaze-section_2",
+      "position": 285,
+      "text": "Holmes took the bag, and, descending into the hollow, he pushed the matting into a more central position.",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "silver-blaze-section_2",
+      "position": 286,
+      "text": "Then stretching himself upon his face and leaning his chin upon his hands, he made a careful study of the trampled mud in front of him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "silver-blaze-section_2",
+      "position": 287,
+      "text": "\"Hullo!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "silver-blaze-section_2",
+      "position": 288,
+      "text": "said he, suddenly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "silver-blaze-section_2",
+      "position": 289,
+      "text": "\"What's this?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "silver-blaze-section_2",
+      "position": 290,
+      "text": "It was a wax vesta half burned, which was so coated with mud that it looked at first like a little chip of wood.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "silver-blaze-section_2",
+      "position": 291,
+      "text": "\"I cannot think how I came to overlook it,\" said the Inspector, with an expression of annoyance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "silver-blaze-section_2",
+      "position": 292,
+      "text": "\"It was invisible, buried in the mud.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "silver-blaze-section_2",
+      "position": 293,
+      "text": "I only saw it because I was looking for it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "silver-blaze-section_2",
+      "position": 294,
+      "text": "\"What!",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "silver-blaze-section_2",
+      "position": 295,
+      "text": "You expected to find it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "silver-blaze-section_2",
+      "position": 296,
+      "text": "\"I thought it not unlikely.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "silver-blaze-section_2",
+      "position": 297,
+      "text": "He took the boots from the bag, and compared the impressions of each of them with marks upon the ground.",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "silver-blaze-section_2",
+      "position": 298,
+      "text": "Then he clambered up to the rim of the hollow, and crawled about among the ferns and bushes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "silver-blaze-section_2",
+      "position": 299,
+      "text": "\"I am afraid that there are no more tracks,\" said the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "silver-blaze-section_2",
+      "position": 300,
+      "text": "\"I have examined the ground very carefully for a hundred yards in each direction.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "silver-blaze-section_2",
+      "position": 301,
+      "text": "\"Indeed!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "silver-blaze-section_2",
+      "position": 302,
+      "text": "said Holmes, rising.",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "silver-blaze-section_2",
+      "position": 303,
+      "text": "\"I should not have the impertinence to do it again after what you say.",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "silver-blaze-section_2",
+      "position": 304,
+      "text": "But I should like to take a little walk over the moor before it grows dark, that I may know my ground to-morrow, and I think that I shall put this horseshoe into my pocket for luck.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "silver-blaze-section_2",
+      "position": 305,
+      "text": "Colonel Ross, who had shown some signs of impatience at my companion's quiet and systematic method of work, glanced at his watch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "silver-blaze-section_2",
+      "position": 306,
+      "text": "\"I wish you would come back with me, Inspector,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "silver-blaze-section_2",
+      "position": 307,
+      "text": "\"There are several points on which I should like your advice, and especially as to whether we do not owe it to the public to remove our horse's name from the entries for the Cup.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "silver-blaze-section_2",
+      "position": 308,
+      "text": "\"Certainly not,\" cried Holmes, with decision.",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "silver-blaze-section_2",
+      "position": 309,
+      "text": "\"I should let the name stand.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "silver-blaze-section_2",
+      "position": 310,
+      "text": "The Colonel bowed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "silver-blaze-section_2",
+      "position": 311,
+      "text": "\"I am very glad to have had your opinion, sir,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "silver-blaze-section_2",
+      "position": 312,
+      "text": "\"You will find us at poor Straker's house when you have finished your walk, and we can drive together into Tavistock.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "silver-blaze-section_2",
+      "position": 313,
+      "text": "He turned back with the Inspector, while Holmes and I walked slowly across the moor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "silver-blaze-section_2",
+      "position": 314,
+      "text": "The sun was beginning to sink behind the stables of Mapleton, and the long, sloping plain in front of us was tinged with gold, deepening into rich, ruddy browns where the faded ferns and brambles caught the evening light.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "silver-blaze-section_2",
+      "position": 315,
+      "text": "But the glories of the landscape were all wasted upon my companion, who was sunk in the deepest thought.",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "silver-blaze-section_2",
+      "position": 316,
+      "text": "\"It's this way, Watson,\" said he at last.",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "silver-blaze-section_2",
+      "position": 317,
+      "text": "\"We may leave the question of who killed John Straker for the instant, and confine ourselves to finding out what has become of the horse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "silver-blaze-section_2",
+      "position": 318,
+      "text": "Now, supposing that he broke away during or after the tragedy, where could he have gone to?",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "silver-blaze-section_2",
+      "position": 319,
+      "text": "The horse is a very gregarious creature.",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "silver-blaze-section_2",
+      "position": 320,
+      "text": "If left to himself his instincts would have been either to return to King's Pyland or go over to Mapleton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "silver-blaze-section_2",
+      "position": 321,
+      "text": "Why should he run wild upon the moor?",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "silver-blaze-section_2",
+      "position": 322,
+      "text": "He would surely have been seen by now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "silver-blaze-section_2",
+      "position": 323,
+      "text": "And why should gypsies kidnap him?",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "silver-blaze-section_2",
+      "position": 324,
+      "text": "These people always clear out when they hear of trouble, for they do not wish to be pestered by the police.",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "silver-blaze-section_2",
+      "position": 325,
+      "text": "They could not hope to sell such a horse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "silver-blaze-section_2",
+      "position": 326,
+      "text": "They would run a great risk and gain nothing by taking him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "silver-blaze-section_2",
+      "position": 327,
+      "text": "Surely that is clear.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "silver-blaze-section_2",
+      "position": 328,
+      "text": "\"Where is he, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "silver-blaze-section_2",
+      "position": 329,
+      "text": "\"I have already said that he must have gone to King's Pyland or to Mapleton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "silver-blaze-section_2",
+      "position": 330,
+      "text": "He is not at King's Pyland.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "silver-blaze-section_2",
+      "position": 331,
+      "text": "Therefore he is at Mapleton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "silver-blaze-section_2",
+      "position": 332,
+      "text": "Let us take that as a working hypothesis and see what it leads us to.",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "silver-blaze-section_2",
+      "position": 333,
+      "text": "This part of the moor, as the Inspector remarked, is very hard and dry.",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "silver-blaze-section_2",
+      "position": 334,
+      "text": "But it falls away towards Mapleton, and you can see from here that there is a long hollow over yonder, which must have been very wet on Monday night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "silver-blaze-section_2",
+      "position": 335,
+      "text": "If our supposition is correct, then the horse must have crossed that, and there is the point where we should look for his tracks.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "silver-blaze-section_2",
+      "position": 336,
+      "text": "We had been walking briskly during this conversation, and a few more minutes brought us to the hollow in question.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "silver-blaze-section_2",
+      "position": 337,
+      "text": "At Holmes' request I walked down the bank to the right, and he to the left, but I had not taken fifty paces before I heard him give a shout, and saw him waving his hand to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "silver-blaze-section_2",
+      "position": 338,
+      "text": "The track of a horse was plainly outlined in the soft earth in front of him, and the shoe which he took from his pocket exactly fitted the impression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "silver-blaze-section_2",
+      "position": 339,
+      "text": "\"See the value of imagination,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "silver-blaze-section_2",
+      "position": 340,
+      "text": "\"It is the one quality which Gregory lacks.",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "silver-blaze-section_2",
+      "position": 341,
+      "text": "We imagined what might have happened, acted upon the supposition, and find ourselves justified.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "silver-blaze-section_2",
+      "position": 342,
+      "text": "Let us proceed.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "silver-blaze-section_2",
+      "position": 343,
+      "text": "We crossed the marshy bottom and passed over a quarter of a mile of dry, hard turf.",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "silver-blaze-section_2",
+      "position": 344,
+      "text": "Again the ground sloped, and again we came on the tracks.",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "silver-blaze-section_2",
+      "position": 345,
+      "text": "Then we lost them for half a mile, but only to pick them up once more quite close to Mapleton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "silver-blaze-section_2",
+      "position": 346,
+      "text": "It was Holmes who saw them first, and he stood pointing with a look of triumph upon his face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "silver-blaze-section_2",
+      "position": 347,
+      "text": "A man's track was visible beside the horse's.",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "silver-blaze-section_2",
+      "position": 348,
+      "text": "\"The horse was alone before,\" I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "silver-blaze-section_2",
+      "position": 349,
+      "text": "\"Quite so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "silver-blaze-section_2",
+      "position": 350,
+      "text": "It was alone before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "silver-blaze-section_2",
+      "position": 351,
+      "text": "Hullo, what is this?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "silver-blaze-section_2",
+      "position": 352,
+      "text": "The double track turned sharp off and took the direction of King's Pyland.",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "silver-blaze-section_2",
+      "position": 353,
+      "text": "Holmes whistled, and we both followed along after it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "silver-blaze-section_2",
+      "position": 354,
+      "text": "His eyes were on the trail, but I happened to look a little to one side, and saw to my surprise the same tracks coming back again in the opposite direction.",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "silver-blaze-section_2",
+      "position": 355,
+      "text": "\"One for you, Watson,\" said Holmes, when I pointed it out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "silver-blaze-section_2",
+      "position": 356,
+      "text": "\"You have saved us a long walk, which would have brought us back on our own traces.",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "silver-blaze-section_2",
+      "position": 357,
+      "text": "Let us follow the return track.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "silver-blaze-section_2",
+      "position": 358,
+      "text": "We had not to go far.",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "silver-blaze-section_2",
+      "position": 359,
+      "text": "It ended at the paving of asphalt which led up to the gates of the Mapleton stables.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "silver-blaze-section_2",
+      "position": 360,
+      "text": "As we approached, a groom ran out from them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "silver-blaze-section_2",
+      "position": 361,
+      "text": "\"We don't want any loiterers about here,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "silver-blaze-section_2",
+      "position": 362,
+      "text": "\"I only wished to ask a question,\" said Holmes, with his finger and thumb in his waistcoat pocket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "silver-blaze-section_2",
+      "position": 363,
+      "text": "\"Should I be too early to see your master, Mr. Silas Brown, if I were to call at five o'clock to-morrow morning?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "silver-blaze-section_2",
+      "position": 364,
+      "text": "\"Bless you, sir, if any one is about he will be, for he is always the first stirring.",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "silver-blaze-section_2",
+      "position": 365,
+      "text": "But here he is, sir, to answer your questions for himself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "silver-blaze-section_2",
+      "position": 366,
+      "text": "No, sir, no; it is as much as my place is worth to let him see me touch your money.",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "silver-blaze-section_2",
+      "position": 367,
+      "text": "Afterwards, if you like.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "silver-blaze-section_2",
+      "position": 368,
+      "text": "As Sherlock Holmes replaced the half-crown which he had drawn from his pocket, a fierce-looking elderly man strode out from the gate with a hunting-crop swinging in his hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "silver-blaze-section_2",
+      "position": 369,
+      "text": "\"What's this, Dawson!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "silver-blaze-section_2",
+      "position": 370,
+      "text": "he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "silver-blaze-section_2",
+      "position": 371,
+      "text": "\"No gossiping!",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "silver-blaze-section_2",
+      "position": 372,
+      "text": "Go about your business!",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "silver-blaze-section_2",
+      "position": 373,
+      "text": "And you, what the devil do you want here?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "silver-blaze-section_2",
+      "position": 374,
+      "text": "\"Ten minutes' talk with you, my good sir,\" said Holmes in the sweetest of voices.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "silver-blaze-section_2",
+      "position": 375,
+      "text": "\"I've no time to talk to every gadabout.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "silver-blaze-section_2",
+      "position": 376,
+      "text": "We want no strangers here.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "silver-blaze-section_2",
+      "position": 377,
+      "text": "Be off, or you may find a dog at your heels.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "silver-blaze-section_2",
+      "position": 378,
+      "text": "Holmes leaned forward and whispered something in the trainer's ear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "silver-blaze-section_2",
+      "position": 379,
+      "text": "He started violently and flushed to the temples.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "silver-blaze-section_3",
+      "position": 380,
+      "text": "\"It's a lie!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "silver-blaze-section_3",
+      "position": 381,
+      "text": "he shouted, \"an infernal lie!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "silver-blaze-section_3",
+      "position": 382,
+      "text": "\"Very good.",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "silver-blaze-section_3",
+      "position": 383,
+      "text": "Shall we argue about it here in public or talk it over in your parlour?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "silver-blaze-section_3",
+      "position": 384,
+      "text": "\"Oh, come in if you wish to.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "silver-blaze-section_3",
+      "position": 385,
+      "text": "Holmes smiled.",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "silver-blaze-section_3",
+      "position": 386,
+      "text": "\"I shall not keep you more than a few minutes, Watson,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "silver-blaze-section_3",
+      "position": 387,
+      "text": "\"Now, Mr. Brown, I am quite at your disposal.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "silver-blaze-section_3",
+      "position": 388,
+      "text": "It was twenty minutes, and the reds had all faded into greys before Holmes and the trainer reappeared.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "silver-blaze-section_3",
+      "position": 389,
+      "text": "Never have I seen such a change as had been brought about in Silas Brown in that short time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "silver-blaze-section_3",
+      "position": 390,
+      "text": "His face was ashy pale, beads of perspiration shone upon his brow, and his hands shook until the hunting-crop wagged like a branch in the wind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "silver-blaze-section_3",
+      "position": 391,
+      "text": "His bullying, overbearing manner was all gone too, and he cringed along at my companion's side like a dog with its master.",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "silver-blaze-section_3",
+      "position": 392,
+      "text": "\"Your instructions will be done.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "silver-blaze-section_3",
+      "position": 393,
+      "text": "It shall all be done,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "silver-blaze-section_3",
+      "position": 394,
+      "text": "\"There must be no mistake,\" said Holmes, looking round at him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "silver-blaze-section_3",
+      "position": 395,
+      "text": "The other winced as he read the menace in his eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "silver-blaze-section_3",
+      "position": 396,
+      "text": "\"Oh no, there shall be no mistake.",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "silver-blaze-section_3",
+      "position": 397,
+      "text": "It shall be there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "silver-blaze-section_3",
+      "position": 398,
+      "text": "Should I change it first or not?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "silver-blaze-section_3",
+      "position": 399,
+      "text": "Holmes thought a little and then burst out laughing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "silver-blaze-section_3",
+      "position": 400,
+      "text": "\"No, don't,\" said he; \"I shall write to you about it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "silver-blaze-section_3",
+      "position": 401,
+      "text": "No tricks, now, or—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "silver-blaze-section_3",
+      "position": 402,
+      "text": "\"Oh, you can trust me, you can trust me!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "silver-blaze-section_3",
+      "position": 403,
+      "text": "\"Yes, I think I can.",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "silver-blaze-section_3",
+      "position": 404,
+      "text": "Well, you shall hear from me to-morrow.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "silver-blaze-section_3",
+      "position": 405,
+      "text": "He turned upon his heel, disregarding the trembling hand which the other held out to him, and we set off for King's Pyland.",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "silver-blaze-section_3",
+      "position": 406,
+      "text": "\"A more perfect compound of the bully, coward, and sneak than Master Silas Brown I have seldom met with,\" remarked Holmes as we trudged along together.",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "silver-blaze-section_3",
+      "position": 407,
+      "text": "\"He has the horse, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "silver-blaze-section_3",
+      "position": 408,
+      "text": "\"He tried to bluster out of it, but I described to him so exactly what his actions had been upon that morning that he is convinced that I was watching him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "silver-blaze-section_3",
+      "position": 409,
+      "text": "Of course you observed the peculiarly square toes in the impressions, and that his own boots exactly corresponded to them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "silver-blaze-section_3",
+      "position": 410,
+      "text": "Again, of course no subordinate would have dared to do such a thing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "silver-blaze-section_3",
+      "position": 411,
+      "text": "I described to him how, when according to his custom he was the first down, he perceived a strange horse wandering over the moor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "silver-blaze-section_3",
+      "position": 412,
+      "text": "How he went out to it, and his astonishment at recognising, from the white forehead which has given the favourite its name, that chance had put in his power the only horse which could beat the one upon which he had put his money.",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "silver-blaze-section_3",
+      "position": 413,
+      "text": "Then I described how his first impulse had been to lead him back to King's Pyland, and how the devil had shown him how he could hide the horse until the race was over, and how he had led it back and concealed it at Mapleton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "silver-blaze-section_3",
+      "position": 414,
+      "text": "When I told him every detail he gave it up and thought only of saving his own skin.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "silver-blaze-section_3",
+      "position": 415,
+      "text": "\"But his stables had been searched?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "silver-blaze-section_3",
+      "position": 416,
+      "text": "\"Oh, an old horse-faker like him has many a dodge.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "silver-blaze-section_3",
+      "position": 417,
+      "text": "\"But are you not afraid to leave the horse in his power now, since he has every interest in injuring it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "silver-blaze-section_3",
+      "position": 418,
+      "text": "\"My dear fellow, he will guard it as the apple of his eye.",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "silver-blaze-section_3",
+      "position": 419,
+      "text": "He knows that his only hope of mercy is to produce it safe.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "silver-blaze-section_3",
+      "position": 420,
+      "text": "\"Colonel Ross did not impress me as a man who would be likely to show much mercy in any case.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "silver-blaze-section_3",
+      "position": 421,
+      "text": "\"The matter does not rest with Colonel Ross.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "silver-blaze-section_3",
+      "position": 422,
+      "text": "I follow my own methods, and tell as much or as little as I choose.",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "silver-blaze-section_3",
+      "position": 423,
+      "text": "That is the advantage of being unofficial.",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "silver-blaze-section_3",
+      "position": 424,
+      "text": "I don't know whether you observed it, Watson, but the Colonel's manner has been just a trifle cavalier to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "silver-blaze-section_3",
+      "position": 425,
+      "text": "I am inclined now to have a little amusement at his expense.",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "silver-blaze-section_3",
+      "position": 426,
+      "text": "Say nothing to him about the horse.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "silver-blaze-section_3",
+      "position": 427,
+      "text": "\"Certainly not without your permission.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "silver-blaze-section_3",
+      "position": 428,
+      "text": "\"And of course this is all quite a minor point compared to the question of who killed John Straker.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "silver-blaze-section_3",
+      "position": 429,
+      "text": "\"And you will devote yourself to that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "silver-blaze-section_3",
+      "position": 430,
+      "text": "\"On the contrary, we both go back to London by the night train.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "silver-blaze-section_3",
+      "position": 431,
+      "text": "I was thunderstruck by my friend's words.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "silver-blaze-section_3",
+      "position": 432,
+      "text": "We had only been a few hours in Devonshire, and that he should give up an investigation which he had begun so brilliantly was quite incomprehensible to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "silver-blaze-section_3",
+      "position": 433,
+      "text": "Not a word more could I draw from him until we were back at the trainer's house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "silver-blaze-section_3",
+      "position": 434,
+      "text": "The Colonel and the Inspector were awaiting us in the parlour.",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "silver-blaze-section_3",
+      "position": 435,
+      "text": "\"My friend and I return to town by the night-express,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "silver-blaze-section_3",
+      "position": 436,
+      "text": "\"We have had a charming little breath of your beautiful Dartmoor air.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "silver-blaze-section_3",
+      "position": 437,
+      "text": "The Inspector opened his eyes, and the Colonel's lip curled in a sneer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "silver-blaze-section_3",
+      "position": 438,
+      "text": "\"So you despair of arresting the murderer of poor Straker,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "silver-blaze-section_3",
+      "position": 439,
+      "text": "Holmes shrugged his shoulders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "silver-blaze-section_3",
+      "position": 440,
+      "text": "\"There are certainly grave difficulties in the way,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "silver-blaze-section_3",
+      "position": 441,
+      "text": "\"I have every hope, however, that your horse will start upon Tuesday, and I beg that you will have your jockey in readiness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "silver-blaze-section_3",
+      "position": 442,
+      "text": "Might I ask for a photograph of Mr. John Straker?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "silver-blaze-section_3",
+      "position": 443,
+      "text": "The Inspector took one from an envelope and handed it to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "silver-blaze-section_3",
+      "position": 444,
+      "text": "\"My dear Gregory, you anticipate all my wants.",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "silver-blaze-section_3",
+      "position": 445,
+      "text": "If I might ask you to wait here for an instant, I have a question which I should like to put to the maid.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "silver-blaze-section_3",
+      "position": 446,
+      "text": "\"I must say that I am rather disappointed in our London consultant,\" said Colonel Ross, bluntly, as my friend left the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_448",
+      "section": "silver-blaze-section_3",
+      "position": 447,
+      "text": "\"I do not see that we are any further than when he came.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_449",
+      "section": "silver-blaze-section_3",
+      "position": 448,
+      "text": "\"At least you have his assurance that your horse will run,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_450",
+      "section": "silver-blaze-section_3",
+      "position": 449,
+      "text": "\"Yes, I have his assurance,\" said the Colonel, with a shrug of his shoulders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_451",
+      "section": "silver-blaze-section_3",
+      "position": 450,
+      "text": "\"I should prefer to have the horse.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_452",
+      "section": "silver-blaze-section_3",
+      "position": 451,
+      "text": "I was about to make some reply in defence of my friend when he entered the room again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_453",
+      "section": "silver-blaze-section_3",
+      "position": 452,
+      "text": "\"Now, gentlemen,\" said he, \"I am quite ready for Tavistock.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_454",
+      "section": "silver-blaze-section_3",
+      "position": 453,
+      "text": "As we stepped into the carriage one of the stable-lads held the door open for us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_455",
+      "section": "silver-blaze-section_3",
+      "position": 454,
+      "text": "A sudden idea seemed to occur to Holmes, for he leaned forward and touched the lad upon the sleeve.",
+      "entities": []
+    },
+    {
+      "id": "sentence_456",
+      "section": "silver-blaze-section_3",
+      "position": 455,
+      "text": "\"You have a few sheep in the paddock,\" he said.",
+      "entities": []
+    },
+    {
+      "id": "sentence_457",
+      "section": "silver-blaze-section_3",
+      "position": 456,
+      "text": "\"Who attends to them?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_458",
+      "section": "silver-blaze-section_3",
+      "position": 457,
+      "text": "\"I do, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_459",
+      "section": "silver-blaze-section_3",
+      "position": 458,
+      "text": "\"Have you noticed anything amiss with them of late?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_460",
+      "section": "silver-blaze-section_3",
+      "position": 459,
+      "text": "\"Well, sir, not of much account; but three of them have gone lame, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_461",
+      "section": "silver-blaze-section_3",
+      "position": 460,
+      "text": "I could see that Holmes was extremely pleased, for he chuckled and rubbed his hands together.",
+      "entities": []
+    },
+    {
+      "id": "sentence_462",
+      "section": "silver-blaze-section_3",
+      "position": 461,
+      "text": "\"A long shot, Watson; a very long shot,\" said he, pinching my arm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_463",
+      "section": "silver-blaze-section_3",
+      "position": 462,
+      "text": "\"Gregory, let me recommend to your attention this singular epidemic among the sheep.",
+      "entities": []
+    },
+    {
+      "id": "sentence_464",
+      "section": "silver-blaze-section_3",
+      "position": 463,
+      "text": "Drive on, coachman!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_465",
+      "section": "silver-blaze-section_3",
+      "position": 464,
+      "text": "Colonel Ross still wore an expression which showed the poor opinion which he had formed of my companion's ability, but I saw by the Inspector's face that his attention had been keenly aroused.",
+      "entities": []
+    },
+    {
+      "id": "sentence_466",
+      "section": "silver-blaze-section_3",
+      "position": 465,
+      "text": "\"You consider that to be important?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_467",
+      "section": "silver-blaze-section_3",
+      "position": 466,
+      "text": "he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_468",
+      "section": "silver-blaze-section_3",
+      "position": 467,
+      "text": "\"Exceedingly so.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_469",
+      "section": "silver-blaze-section_3",
+      "position": 468,
+      "text": "\"Is there any point to which you would wish to draw my attention?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_470",
+      "section": "silver-blaze-section_3",
+      "position": 469,
+      "text": "\"To the curious incident of the dog in the night-time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_471",
+      "section": "silver-blaze-section_3",
+      "position": 470,
+      "text": "\"The dog did nothing in the night-time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_472",
+      "section": "silver-blaze-section_3",
+      "position": 471,
+      "text": "\"That was the curious incident,\" remarked Sherlock Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_473",
+      "section": "silver-blaze-section_3",
+      "position": 472,
+      "text": "Four days later Holmes and I were again in the train, bound for Winchester to see the race for the Wessex Cup.",
+      "entities": []
+    },
+    {
+      "id": "sentence_474",
+      "section": "silver-blaze-section_3",
+      "position": 473,
+      "text": "Colonel Ross met us by appointment outside the station, and we drove in his drag to the course beyond the town.",
+      "entities": []
+    },
+    {
+      "id": "sentence_475",
+      "section": "silver-blaze-section_3",
+      "position": 474,
+      "text": "His face was grave, and his manner was cold in the extreme.",
+      "entities": []
+    },
+    {
+      "id": "sentence_476",
+      "section": "silver-blaze-section_3",
+      "position": 475,
+      "text": "\"I have seen nothing of my horse,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_477",
+      "section": "silver-blaze-section_3",
+      "position": 476,
+      "text": "\"I suppose that you would know him when you saw him?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_478",
+      "section": "silver-blaze-section_3",
+      "position": 477,
+      "text": "asked Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_479",
+      "section": "silver-blaze-section_3",
+      "position": 478,
+      "text": "The Colonel was very angry.",
+      "entities": []
+    },
+    {
+      "id": "sentence_480",
+      "section": "silver-blaze-section_3",
+      "position": 479,
+      "text": "\"I have been on the turf for twenty years, and never was asked such a question as that before,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_481",
+      "section": "silver-blaze-section_3",
+      "position": 480,
+      "text": "\"A child would know Silver Blaze, with his white forehead and his mottled off-foreleg.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_482",
+      "section": "silver-blaze-section_3",
+      "position": 481,
+      "text": "\"How is the betting?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_483",
+      "section": "silver-blaze-section_3",
+      "position": 482,
+      "text": "\"Well, that is the curious part of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_484",
+      "section": "silver-blaze-section_3",
+      "position": 483,
+      "text": "You could have got fifteen to one yesterday, but the price has become shorter and shorter, until you can hardly get three to one now.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_485",
+      "section": "silver-blaze-section_3",
+      "position": 484,
+      "text": "\"Hum!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_486",
+      "section": "silver-blaze-section_3",
+      "position": 485,
+      "text": "said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_487",
+      "section": "silver-blaze-section_3",
+      "position": 486,
+      "text": "\"Somebody knows something, that is clear.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_488",
+      "section": "silver-blaze-section_3",
+      "position": 487,
+      "text": "As the drag drew up in the enclosure near the grand stand I glanced at the card to see the entries.",
+      "entities": []
+    },
+    {
+      "id": "sentence_489",
+      "section": "silver-blaze-section_3",
+      "position": 488,
+      "text": "It ran:—",
+      "entities": []
+    },
+    {
+      "id": "sentence_490",
+      "section": "silver-blaze-section_3",
+      "position": 489,
+      "text": "Wessex Plate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_491",
+      "section": "silver-blaze-section_3",
+      "position": 490,
+      "text": "50 sovs each h ft with 1000 sovs added for four and five year olds.",
+      "entities": []
+    },
+    {
+      "id": "sentence_492",
+      "section": "silver-blaze-section_3",
+      "position": 491,
+      "text": "Second, £300.",
+      "entities": []
+    },
+    {
+      "id": "sentence_493",
+      "section": "silver-blaze-section_3",
+      "position": 492,
+      "text": "Third, £200.",
+      "entities": []
+    },
+    {
+      "id": "sentence_494",
+      "section": "silver-blaze-section_3",
+      "position": 493,
+      "text": "New course (one mile and five furlongs).",
+      "entities": []
+    },
+    {
+      "id": "sentence_495",
+      "section": "silver-blaze-section_3",
+      "position": 494,
+      "text": "1.",
+      "entities": []
+    },
+    {
+      "id": "sentence_496",
+      "section": "silver-blaze-section_3",
+      "position": 495,
+      "text": "Mr. Heath Newton's The Negro (red cap, cinnamon jacket).",
+      "entities": []
+    },
+    {
+      "id": "sentence_497",
+      "section": "silver-blaze-section_3",
+      "position": 496,
+      "text": "2.",
+      "entities": []
+    },
+    {
+      "id": "sentence_498",
+      "section": "silver-blaze-section_3",
+      "position": 497,
+      "text": "Colonel Wardlaw's Pugilist (pink cap, blue and black jacket).",
+      "entities": []
+    },
+    {
+      "id": "sentence_499",
+      "section": "silver-blaze-section_3",
+      "position": 498,
+      "text": "3.",
+      "entities": []
+    },
+    {
+      "id": "sentence_500",
+      "section": "silver-blaze-section_3",
+      "position": 499,
+      "text": "Lord Backwater's Desborough (yellow cap and sleeves).",
+      "entities": []
+    },
+    {
+      "id": "sentence_501",
+      "section": "silver-blaze-section_3",
+      "position": 500,
+      "text": "4.",
+      "entities": []
+    },
+    {
+      "id": "sentence_502",
+      "section": "silver-blaze-section_3",
+      "position": 501,
+      "text": "Colonel Ross's Silver Blaze (black cap, red jacket).",
+      "entities": []
+    },
+    {
+      "id": "sentence_503",
+      "section": "silver-blaze-section_3",
+      "position": 502,
+      "text": "5.",
+      "entities": []
+    },
+    {
+      "id": "sentence_504",
+      "section": "silver-blaze-section_3",
+      "position": 503,
+      "text": "Duke of Balmoral's Iris (yellow and black stripes).",
+      "entities": []
+    },
+    {
+      "id": "sentence_505",
+      "section": "silver-blaze-section_3",
+      "position": 504,
+      "text": "6.",
+      "entities": []
+    },
+    {
+      "id": "sentence_506",
+      "section": "silver-blaze-section_3",
+      "position": 505,
+      "text": "Lord Singleford's Rasper (purple cap, black sleeves).",
+      "entities": []
+    },
+    {
+      "id": "sentence_507",
+      "section": "silver-blaze-section_3",
+      "position": 506,
+      "text": "\"We scratched our other one, and put all hopes on your word,\" said the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_508",
+      "section": "silver-blaze-section_3",
+      "position": 507,
+      "text": "\"Why, what is that?",
+      "entities": []
+    },
+    {
+      "id": "sentence_509",
+      "section": "silver-blaze-section_3",
+      "position": 508,
+      "text": "Silver Blaze favourite?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_510",
+      "section": "silver-blaze-section_3",
+      "position": 509,
+      "text": "\"Five to four against Silver Blaze!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_511",
+      "section": "silver-blaze-section_3",
+      "position": 510,
+      "text": "roared the ring.",
+      "entities": []
+    },
+    {
+      "id": "sentence_512",
+      "section": "silver-blaze-section_3",
+      "position": 511,
+      "text": "\"Five to four against Silver Blaze!",
+      "entities": []
+    },
+    {
+      "id": "sentence_513",
+      "section": "silver-blaze-section_3",
+      "position": 512,
+      "text": "Five to fifteen against Desborough!",
+      "entities": []
+    },
+    {
+      "id": "sentence_514",
+      "section": "silver-blaze-section_3",
+      "position": 513,
+      "text": "Five to four on the field!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_515",
+      "section": "silver-blaze-section_3",
+      "position": 514,
+      "text": "\"There are the numbers up,\" I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_516",
+      "section": "silver-blaze-section_3",
+      "position": 515,
+      "text": "\"They are all six there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_517",
+      "section": "silver-blaze-section_3",
+      "position": 516,
+      "text": "\"All six there?",
+      "entities": []
+    },
+    {
+      "id": "sentence_518",
+      "section": "silver-blaze-section_3",
+      "position": 517,
+      "text": "Then my horse is running,\" cried the Colonel in great agitation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_519",
+      "section": "silver-blaze-section_3",
+      "position": 518,
+      "text": "\"But I don't see him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_520",
+      "section": "silver-blaze-section_3",
+      "position": 519,
+      "text": "My colours have not passed.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_521",
+      "section": "silver-blaze-section_3",
+      "position": 520,
+      "text": "\"Only five have passed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_522",
+      "section": "silver-blaze-section_3",
+      "position": 521,
+      "text": "This must be he.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_523",
+      "section": "silver-blaze-section_3",
+      "position": 522,
+      "text": "As I spoke a powerful bay horse swept out from the weighing enclosure and cantered past us, bearing on its back the well-known black and red of the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_524",
+      "section": "silver-blaze-section_3",
+      "position": 523,
+      "text": "\"That's not my horse,\" cried the owner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_525",
+      "section": "silver-blaze-section_3",
+      "position": 524,
+      "text": "\"That beast has not a white hair upon its body.",
+      "entities": []
+    },
+    {
+      "id": "sentence_526",
+      "section": "silver-blaze-section_3",
+      "position": 525,
+      "text": "What is this that you have done, Mr. Holmes?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_527",
+      "section": "silver-blaze-section_3",
+      "position": 526,
+      "text": "\"Well, well, let us see how he gets on,\" said my friend, imperturbably.",
+      "entities": []
+    },
+    {
+      "id": "sentence_528",
+      "section": "silver-blaze-section_3",
+      "position": 527,
+      "text": "For a few minutes he gazed through my field-glass.",
+      "entities": []
+    },
+    {
+      "id": "sentence_529",
+      "section": "silver-blaze-section_3",
+      "position": 528,
+      "text": "\"Capital!",
+      "entities": []
+    },
+    {
+      "id": "sentence_530",
+      "section": "silver-blaze-section_3",
+      "position": 529,
+      "text": "An excellent start!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_531",
+      "section": "silver-blaze-section_3",
+      "position": 530,
+      "text": "he cried suddenly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_532",
+      "section": "silver-blaze-section_3",
+      "position": 531,
+      "text": "\"There they are, coming round the curve!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_533",
+      "section": "silver-blaze-section_3",
+      "position": 532,
+      "text": "From our drag we had a superb view as they came up the straight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_534",
+      "section": "silver-blaze-section_3",
+      "position": 533,
+      "text": "The six horses were so close together that a carpet could have covered them, but half way up the yellow of the Mapleton stable showed to the front.",
+      "entities": []
+    },
+    {
+      "id": "sentence_535",
+      "section": "silver-blaze-section_3",
+      "position": 534,
+      "text": "Before they reached us, however, Desborough's bolt was shot, and the Colonel's horse, coming away with a rush, passed the post a good six lengths before its rival, the Duke of Balmoral's Iris making a bad third.",
+      "entities": []
+    },
+    {
+      "id": "sentence_536",
+      "section": "silver-blaze-section_3",
+      "position": 535,
+      "text": "\"It's my race, anyhow,\" gasped the Colonel, passing his hand over his eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_537",
+      "section": "silver-blaze-section_3",
+      "position": 536,
+      "text": "\"I confess that I can make neither head nor tail of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_538",
+      "section": "silver-blaze-section_3",
+      "position": 537,
+      "text": "Don't you think that you have kept up your mystery long enough, Mr. Holmes?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_539",
+      "section": "silver-blaze-section_3",
+      "position": 538,
+      "text": "\"Certainly, Colonel, you shall know everything.",
+      "entities": []
+    },
+    {
+      "id": "sentence_540",
+      "section": "silver-blaze-section_3",
+      "position": 539,
+      "text": "Let us all go round and have a look at the horse together.",
+      "entities": []
+    },
+    {
+      "id": "sentence_541",
+      "section": "silver-blaze-section_3",
+      "position": 540,
+      "text": "Here he is,\" he continued, as we made our way into the weighing enclosure, where only owners and their friends find admittance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_542",
+      "section": "silver-blaze-section_3",
+      "position": 541,
+      "text": "\"You have only to wash his face and his leg in spirits of wine, and you will find that he is the same old Silver Blaze as ever.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_543",
+      "section": "silver-blaze-section_3",
+      "position": 542,
+      "text": "\"You take my breath away!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_544",
+      "section": "silver-blaze-section_3",
+      "position": 543,
+      "text": "\"I found him in the hands of a faker, and took the liberty of running him just as he was sent over.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_545",
+      "section": "silver-blaze-section_3",
+      "position": 544,
+      "text": "\"My dear sir, you have done wonders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_546",
+      "section": "silver-blaze-section_3",
+      "position": 545,
+      "text": "The horse looks very fit and well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_547",
+      "section": "silver-blaze-section_3",
+      "position": 546,
+      "text": "It never went better in its life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_548",
+      "section": "silver-blaze-section_3",
+      "position": 547,
+      "text": "I owe you a thousand apologies for having doubted your ability.",
+      "entities": []
+    },
+    {
+      "id": "sentence_549",
+      "section": "silver-blaze-section_3",
+      "position": 548,
+      "text": "You have done me a great service by recovering my horse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_550",
+      "section": "silver-blaze-section_3",
+      "position": 549,
+      "text": "You would do me a greater still if you could lay your hands on the murderer of John Straker.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_551",
+      "section": "silver-blaze-section_3",
+      "position": 550,
+      "text": "\"I have done so,\" said Holmes quietly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_552",
+      "section": "silver-blaze-section_3",
+      "position": 551,
+      "text": "The Colonel and I stared at him in amazement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_553",
+      "section": "silver-blaze-section_3",
+      "position": 552,
+      "text": "\"You have got him!",
+      "entities": []
+    },
+    {
+      "id": "sentence_554",
+      "section": "silver-blaze-section_3",
+      "position": 553,
+      "text": "Where is he, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_555",
+      "section": "silver-blaze-section_3",
+      "position": 554,
+      "text": "\"He is here.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_556",
+      "section": "silver-blaze-section_3",
+      "position": 555,
+      "text": "\"Here!",
+      "entities": []
+    },
+    {
+      "id": "sentence_557",
+      "section": "silver-blaze-section_3",
+      "position": 556,
+      "text": "Where?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_558",
+      "section": "silver-blaze-section_3",
+      "position": 557,
+      "text": "\"In my company at the present moment.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_559",
+      "section": "silver-blaze-section_3",
+      "position": 558,
+      "text": "The Colonel flushed angrily.",
+      "entities": []
+    },
+    {
+      "id": "sentence_560",
+      "section": "silver-blaze-section_3",
+      "position": 559,
+      "text": "\"I quite recognise that I am under obligations to you, Mr. Holmes,\" said he, \"but I must regard what you have just said as either a very bad joke or an insult.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_561",
+      "section": "silver-blaze-section_3",
+      "position": 560,
+      "text": "Sherlock Holmes laughed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_562",
+      "section": "silver-blaze-section_3",
+      "position": 561,
+      "text": "\"I assure you that I have not associated you with the crime, Colonel,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_563",
+      "section": "silver-blaze-section_3",
+      "position": 562,
+      "text": "\"The real murderer is standing immediately behind you.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_564",
+      "section": "silver-blaze-section_3",
+      "position": 563,
+      "text": "He stepped past and laid his hand upon the glossy neck of the thoroughbred.",
+      "entities": []
+    },
+    {
+      "id": "sentence_565",
+      "section": "silver-blaze-section_3",
+      "position": 564,
+      "text": "\"The horse!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_566",
+      "section": "silver-blaze-section_3",
+      "position": 565,
+      "text": "cried both the Colonel and myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_567",
+      "section": "silver-blaze-section_3",
+      "position": 566,
+      "text": "\"Yes, the horse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_568",
+      "section": "silver-blaze-section_3",
+      "position": 567,
+      "text": "And it may lessen his guilt if I say that it was done in self-defence, and that John Straker was a man who was entirely unworthy of your confidence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_569",
+      "section": "silver-blaze-section_3",
+      "position": 568,
+      "text": "But there goes the bell, and as I stand to win a little on this next race, I shall defer a lengthy explanation until a more fitting time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_570",
+      "section": "silver-blaze-section_3",
+      "position": 569,
+      "text": "We had the corner of a Pullman car to ourselves that evening as we whirled back to London, and I fancy that the journey was a short one to Colonel Ross as well as to myself, as we listened to our companion's narrative of the events which had occurred at the Dartmoor training-stables upon the Monday night, and the means by which he had unravelled them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_571",
+      "section": "silver-blaze-section_3",
+      "position": 570,
+      "text": "\"I confess,\" said he, \"that any theories which I had formed from the newspaper reports were entirely erroneous.",
+      "entities": []
+    },
+    {
+      "id": "sentence_572",
+      "section": "silver-blaze-section_3",
+      "position": 571,
+      "text": "And yet there were indications there, had they not been overlaid by other details which concealed their true import.",
+      "entities": []
+    },
+    {
+      "id": "sentence_573",
+      "section": "silver-blaze-section_3",
+      "position": 572,
+      "text": "I went to Devonshire with the conviction that Fitzroy Simpson was the true culprit, although, of course, I saw that the evidence against him was by no means complete.",
+      "entities": []
+    },
+    {
+      "id": "sentence_574",
+      "section": "silver-blaze-section_3",
+      "position": 573,
+      "text": "It was while I was in the carriage, just as we reached the trainer's house, that the immense significance of the curried mutton occurred to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_575",
+      "section": "silver-blaze-section_3",
+      "position": 574,
+      "text": "You may remember that I was distrait, and remained sitting after you had all alighted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_576",
+      "section": "silver-blaze-section_3",
+      "position": 575,
+      "text": "I was marvelling in my own mind how I could possibly have overlooked so obvious a clue.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_577",
+      "section": "silver-blaze-section_3",
+      "position": 576,
+      "text": "\"I confess,\" said the Colonel, \"that even now I cannot see how it helps us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_578",
+      "section": "silver-blaze-section_3",
+      "position": 577,
+      "text": "\"It was the first link in my chain of reasoning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_579",
+      "section": "silver-blaze-section_3",
+      "position": 578,
+      "text": "Powdered opium is by no means tasteless.",
+      "entities": []
+    },
+    {
+      "id": "sentence_580",
+      "section": "silver-blaze-section_3",
+      "position": 579,
+      "text": "The flavour is not disagreeable, but it is perceptible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_581",
+      "section": "silver-blaze-section_3",
+      "position": 580,
+      "text": "Were it mixed with any ordinary dish the eater would undoubtedly detect it, and would probably eat no more.",
+      "entities": []
+    },
+    {
+      "id": "sentence_582",
+      "section": "silver-blaze-section_3",
+      "position": 581,
+      "text": "A curry was exactly the medium which would disguise this taste.",
+      "entities": []
+    },
+    {
+      "id": "sentence_583",
+      "section": "silver-blaze-section_3",
+      "position": 582,
+      "text": "By no possible supposition could this stranger, Fitzroy Simpson, have caused curry to be served in the trainer's family that night, and it is surely too monstrous a coincidence to suppose that he happened to come along with powdered opium upon the very night when a dish happened to be served which would disguise the flavour.",
+      "entities": []
+    },
+    {
+      "id": "sentence_584",
+      "section": "silver-blaze-section_3",
+      "position": 583,
+      "text": "That is unthinkable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_585",
+      "section": "silver-blaze-section_3",
+      "position": 584,
+      "text": "Therefore Simpson becomes eliminated from the case, and our attention centres upon Straker and his wife, the only two people who could have chosen curried mutton for supper that night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_586",
+      "section": "silver-blaze-section_3",
+      "position": 585,
+      "text": "The opium was added after the dish was set aside for the stable-boy, for the others had the same for supper with no ill effects.",
+      "entities": []
+    },
+    {
+      "id": "sentence_587",
+      "section": "silver-blaze-section_3",
+      "position": 586,
+      "text": "Which of them, then, had access to that dish without the maid seeing them?",
+      "entities": []
+    },
+    {
+      "id": "sentence_588",
+      "section": "silver-blaze-section_3",
+      "position": 587,
+      "text": "\"Before deciding that question I had grasped the significance of the silence of the dog, for one true inference invariably suggests others.",
+      "entities": []
+    },
+    {
+      "id": "sentence_589",
+      "section": "silver-blaze-section_3",
+      "position": 588,
+      "text": "The Simpson incident had shown me that a dog was kept in the stables, and yet, though some one had been in and had fetched out a horse, he had not barked enough to arouse the two lads in the loft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_590",
+      "section": "silver-blaze-section_3",
+      "position": 589,
+      "text": "Obviously the midnight visitor was some one whom the dog knew well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_591",
+      "section": "silver-blaze-section_3",
+      "position": 590,
+      "text": "\"I was already convinced, or almost convinced, that John Straker went down to the stables in the dead of the night and took out Silver Blaze.",
+      "entities": []
+    },
+    {
+      "id": "sentence_592",
+      "section": "silver-blaze-section_3",
+      "position": 591,
+      "text": "For what purpose?",
+      "entities": []
+    },
+    {
+      "id": "sentence_593",
+      "section": "silver-blaze-section_3",
+      "position": 592,
+      "text": "For a dishonest one, obviously, or why should he drug his own stable-boy?",
+      "entities": []
+    },
+    {
+      "id": "sentence_594",
+      "section": "silver-blaze-section_3",
+      "position": 593,
+      "text": "And yet I was at a loss to know why.",
+      "entities": []
+    },
+    {
+      "id": "sentence_595",
+      "section": "silver-blaze-section_3",
+      "position": 594,
+      "text": "There have been cases before now where trainers have made sure of great sums of money by laying against their own horses, through agents, and then preventing them from winning by fraud.",
+      "entities": []
+    },
+    {
+      "id": "sentence_596",
+      "section": "silver-blaze-section_3",
+      "position": 595,
+      "text": "Sometimes it is a pulling jockey.",
+      "entities": []
+    },
+    {
+      "id": "sentence_597",
+      "section": "silver-blaze-section_3",
+      "position": 596,
+      "text": "Sometimes it is some surer and subtler means.",
+      "entities": []
+    },
+    {
+      "id": "sentence_598",
+      "section": "silver-blaze-section_3",
+      "position": 597,
+      "text": "What was it here?",
+      "entities": []
+    },
+    {
+      "id": "sentence_599",
+      "section": "silver-blaze-section_3",
+      "position": 598,
+      "text": "I hoped that the contents of his pockets might help me to form a conclusion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_600",
+      "section": "silver-blaze-section_3",
+      "position": 599,
+      "text": "\"And they did so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_601",
+      "section": "silver-blaze-section_3",
+      "position": 600,
+      "text": "You cannot have forgotten the singular knife which was found in the dead man's hand, a knife which certainly no sane man would choose for a weapon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_602",
+      "section": "silver-blaze-section_3",
+      "position": 601,
+      "text": "It was, as Dr. Watson told us, a form of knife which is used for the most delicate operations known in surgery.",
+      "entities": []
+    },
+    {
+      "id": "sentence_603",
+      "section": "silver-blaze-section_3",
+      "position": 602,
+      "text": "And it was to be used for a delicate operation that night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_604",
+      "section": "silver-blaze-section_3",
+      "position": 603,
+      "text": "You must know, with your wide experience of turf matters, Colonel Ross, that it is possible to make a slight nick upon the tendons of a horse's ham, and to do it subcutaneously, so as to leave absolutely no trace.",
+      "entities": []
+    },
+    {
+      "id": "sentence_605",
+      "section": "silver-blaze-section_3",
+      "position": 604,
+      "text": "A horse so treated would develop a slight lameness, which would be put down to a strain in exercise or a touch of rheumatism, but never to foul play.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_606",
+      "section": "silver-blaze-section_3",
+      "position": 605,
+      "text": "\"Villain!",
+      "entities": []
+    },
+    {
+      "id": "sentence_607",
+      "section": "silver-blaze-section_3",
+      "position": 606,
+      "text": "Scoundrel!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_608",
+      "section": "silver-blaze-section_3",
+      "position": 607,
+      "text": "cried the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_609",
+      "section": "silver-blaze-section_3",
+      "position": 608,
+      "text": "\"We have here the explanation of why John Straker wished to take the horse out on to the moor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_610",
+      "section": "silver-blaze-section_3",
+      "position": 609,
+      "text": "So spirited a creature would have certainly roused the soundest of sleepers when it felt the prick of the knife.",
+      "entities": []
+    },
+    {
+      "id": "sentence_611",
+      "section": "silver-blaze-section_3",
+      "position": 610,
+      "text": "It was absolutely necessary to do it in the open air.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_612",
+      "section": "silver-blaze-section_3",
+      "position": 611,
+      "text": "\"I have been blind!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_613",
+      "section": "silver-blaze-section_3",
+      "position": 612,
+      "text": "cried the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_614",
+      "section": "silver-blaze-section_3",
+      "position": 613,
+      "text": "\"Of course that was why he needed the candle, and struck the match.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_615",
+      "section": "silver-blaze-section_3",
+      "position": 614,
+      "text": "\"Undoubtedly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_616",
+      "section": "silver-blaze-section_3",
+      "position": 615,
+      "text": "But in examining his belongings I was fortunate enough to discover not only the method of the crime, but even its motives.",
+      "entities": []
+    },
+    {
+      "id": "sentence_617",
+      "section": "silver-blaze-section_3",
+      "position": 616,
+      "text": "As a man of the world, Colonel, you know that men do not carry other people's bills about in their pockets.",
+      "entities": []
+    },
+    {
+      "id": "sentence_618",
+      "section": "silver-blaze-section_3",
+      "position": 617,
+      "text": "We have most of us quite enough to do to settle our own.",
+      "entities": []
+    },
+    {
+      "id": "sentence_619",
+      "section": "silver-blaze-section_3",
+      "position": 618,
+      "text": "I at once concluded that Straker was leading a double life, and keeping a second establishment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_620",
+      "section": "silver-blaze-section_3",
+      "position": 619,
+      "text": "The nature of the bill showed that there was a lady in the case, and one who had expensive tastes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_621",
+      "section": "silver-blaze-section_3",
+      "position": 620,
+      "text": "Liberal as you are with your servants, one can hardly expect that they can buy twenty-guinea walking dresses for their ladies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_622",
+      "section": "silver-blaze-section_3",
+      "position": 621,
+      "text": "I questioned Mrs. Straker as to the dress without her knowing it, and having satisfied myself that it had never reached her, I made a note of the milliner's address, and felt that by calling there with Straker's photograph I could easily dispose of the mythical Derbyshire.",
+      "entities": []
+    },
+    {
+      "id": "sentence_623",
+      "section": "silver-blaze-section_4",
+      "position": 622,
+      "text": "\"From that time on all was plain.",
+      "entities": []
+    },
+    {
+      "id": "sentence_624",
+      "section": "silver-blaze-section_4",
+      "position": 623,
+      "text": "Straker had led out the horse to a hollow where his light would be invisible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_625",
+      "section": "silver-blaze-section_4",
+      "position": 624,
+      "text": "Simpson in his flight had dropped his cravat, and Straker had picked it up—with some idea, perhaps, that he might use it in securing the horse's leg.",
+      "entities": []
+    },
+    {
+      "id": "sentence_626",
+      "section": "silver-blaze-section_4",
+      "position": 625,
+      "text": "Once in the hollow, he had got behind the horse and had struck a light; but the creature frightened at the sudden glare, and with the strange instinct of animals feeling that some mischief was intended, had lashed out, and the steel shoe had struck Straker full on the forehead.",
+      "entities": []
+    },
+    {
+      "id": "sentence_627",
+      "section": "silver-blaze-section_4",
+      "position": 626,
+      "text": "He had already, in spite of the rain, taken off his overcoat in order to do his delicate task, and so, as he fell, his knife gashed his thigh.",
+      "entities": []
+    },
+    {
+      "id": "sentence_628",
+      "section": "silver-blaze-section_4",
+      "position": 627,
+      "text": "Do I make it clear?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_629",
+      "section": "silver-blaze-section_4",
+      "position": 628,
+      "text": "\"Wonderful!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_630",
+      "section": "silver-blaze-section_4",
+      "position": 629,
+      "text": "cried the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_631",
+      "section": "silver-blaze-section_4",
+      "position": 630,
+      "text": "\"Wonderful!",
+      "entities": []
+    },
+    {
+      "id": "sentence_632",
+      "section": "silver-blaze-section_4",
+      "position": 631,
+      "text": "You might have been there!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_633",
+      "section": "silver-blaze-section_4",
+      "position": 632,
+      "text": "\"My final shot was, I confess a very long one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_634",
+      "section": "silver-blaze-section_4",
+      "position": 633,
+      "text": "It struck me that so astute a man as Straker would not undertake this delicate tendon-nicking without a little practice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_635",
+      "section": "silver-blaze-section_4",
+      "position": 634,
+      "text": "What could he practice on?",
+      "entities": []
+    },
+    {
+      "id": "sentence_636",
+      "section": "silver-blaze-section_4",
+      "position": 635,
+      "text": "My eyes fell upon the sheep, and I asked a question which, rather to my surprise, showed that my surmise was correct.",
+      "entities": []
+    },
+    {
+      "id": "sentence_637",
+      "section": "silver-blaze-section_4",
+      "position": 636,
+      "text": "\"When I returned to London I called upon the milliner, who had recognised Straker as an excellent customer of the name of Derbyshire, who had a very dashing wife, with a strong partiality for expensive dresses.",
+      "entities": []
+    },
+    {
+      "id": "sentence_638",
+      "section": "silver-blaze-section_4",
+      "position": 637,
+      "text": "I have no doubt that this woman had plunged him over head and ears in debt, and so led him into this miserable plot.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_639",
+      "section": "silver-blaze-section_4",
+      "position": 638,
+      "text": "\"You have explained all but one thing,\" cried the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_640",
+      "section": "silver-blaze-section_4",
+      "position": 639,
+      "text": "\"Where was the horse?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_641",
+      "section": "silver-blaze-section_4",
+      "position": 640,
+      "text": "\"Ah, it bolted, and was cared for by one of your neighbours.",
+      "entities": []
+    },
+    {
+      "id": "sentence_642",
+      "section": "silver-blaze-section_4",
+      "position": 641,
+      "text": "We must have an amnesty in that direction, I think.",
+      "entities": []
+    },
+    {
+      "id": "sentence_643",
+      "section": "silver-blaze-section_4",
+      "position": 642,
+      "text": "This is Clapham Junction, if I am not mistaken, and we shall be in Victoria in less than ten minutes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_644",
+      "section": "silver-blaze-section_4",
+      "position": 643,
+      "text": "If you care to smoke a cigar in our rooms, Colonel, I shall be happy to give you any other details which might interest you.\"",
+      "entities": []
+    }
+  ]
+}

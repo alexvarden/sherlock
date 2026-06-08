@@ -1,0 +1,3531 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "stockbrokers-clerk-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 632
+    },
+    {
+      "id": "stockbrokers-clerk-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 726
+    },
+    {
+      "id": "stockbrokers-clerk-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 600
+    },
+    {
+      "id": "stockbrokers-clerk-section_4",
+      "index": 3,
+      "title": "Section 4",
+      "wordCount": 605
+    },
+    {
+      "id": "stockbrokers-clerk-section_5",
+      "index": 4,
+      "title": "Section 5",
+      "wordCount": 627
+    },
+    {
+      "id": "stockbrokers-clerk-section_6",
+      "index": 5,
+      "title": "Section 6",
+      "wordCount": 715
+    },
+    {
+      "id": "stockbrokers-clerk-section_7",
+      "index": 6,
+      "title": "Section 7",
+      "wordCount": 642
+    },
+    {
+      "id": "stockbrokers-clerk-section_8",
+      "index": 7,
+      "title": "Section 8",
+      "wordCount": 647
+    },
+    {
+      "id": "stockbrokers-clerk-section_9",
+      "index": 8,
+      "title": "Section 9",
+      "wordCount": 642
+    },
+    {
+      "id": "stockbrokers-clerk-section_10",
+      "index": 9,
+      "title": "Section 10",
+      "wordCount": 626
+    },
+    {
+      "id": "stockbrokers-clerk-section_11",
+      "index": 10,
+      "title": "Section 11",
+      "wordCount": 320
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 0,
+      "text": "IV.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 1,
+      "text": "The Stockbroker's Clerk",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 2,
+      "text": "Shortly after my marriage I had bought a connection in the Paddington district.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 3,
+      "text": "Old Mr. Farquhar, from whom I purchased it, had at one time an excellent general practice; but his age, and an affliction of the nature of St. Vitus's dance from which he suffered, had very much thinned it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 4,
+      "text": "The public not unnaturally goes on the principle that he who would heal others must himself be whole, and looks askance at the curative powers of the man whose own case is beyond the reach of his drugs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 5,
+      "text": "Thus as my predecessor weakened his practice declined, until when I purchased it from him it had sunk from twelve hundred to little more than three hundred a year.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 6,
+      "text": "I had confidence, however, in my own youth and energy, and was convinced that in a very few years the concern would be as flourishing as ever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 7,
+      "text": "For three months after taking over the practice I was kept very closely at work, and saw little of my friend Sherlock Holmes, for I was too busy to visit Baker Street, and he seldom went anywhere himself save upon professional business.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 8,
+      "text": "I was surprised, therefore, when, one morning in June, as I sat reading the _British Medical Journal_ after breakfast, I heard a ring at the bell, followed by the high, somewhat strident tones of my old companion's voice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 9,
+      "text": "\"Ah, my dear Watson,\" said he, striding into the room, \"I am very delighted to see you!",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 10,
+      "text": "I trust that Mrs. Watson has entirely recovered from all the little excitements connected with our adventure of the Sign of Four.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 11,
+      "text": "\"Thank you, we are both very well,\" said I, shaking him warmly by the hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 12,
+      "text": "\"And I hope, also,\" he continued, sitting down in the rocking-chair, \"that the cares of medical practice have not entirely obliterated the interest which you used to take in our little deductive problems.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 13,
+      "text": "\"On the contrary,\" I answered, \"it was only last night that I was looking over my old notes, and classifying some of our past results.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 14,
+      "text": "\"I trust that you don't consider your collection closed.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 15,
+      "text": "\"Not at all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 16,
+      "text": "I should wish nothing better than to have some more of such experiences.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 17,
+      "text": "\"To-day, for example?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 18,
+      "text": "\"Yes, to-day, if you like.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 19,
+      "text": "\"And as far off as Birmingham?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 20,
+      "text": "\"Certainly, if you wish it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 21,
+      "text": "\"And the practice?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 22,
+      "text": "\"I do my neighbour's when he goes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 23,
+      "text": "He is always ready to work off the debt.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 24,
+      "text": "\"Ha!",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 25,
+      "text": "Nothing could be better,\" said Holmes, leaning back in his chair and looking keenly at me from under his half closed lids.",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 26,
+      "text": "\"I perceive that you have been unwell lately.",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 27,
+      "text": "Summer colds are always a little trying.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 28,
+      "text": "\"I was confined to the house by a severe chill for three days last week.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 29,
+      "text": "I thought, however, that I had cast off every trace of it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 30,
+      "text": "\"So you have.",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 31,
+      "text": "You look remarkably robust.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 32,
+      "text": "\"How, then, did you know of it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 33,
+      "text": "\"My dear fellow, you know my methods.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 34,
+      "text": "\"You deduced it, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 35,
+      "text": "\"Certainly.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 36,
+      "text": "\"And from what?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 37,
+      "text": "\"From your slippers.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 38,
+      "text": "I glanced down at the new patent leathers which I was wearing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 39,
+      "text": "\"How on earth—\" I began, but Holmes answered my question before it was asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 40,
+      "text": "\"Your slippers are new,\" he said.",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 41,
+      "text": "\"You could not have had them more than a few weeks.",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 42,
+      "text": "The soles which you are at this moment presenting to me are slightly scorched.",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 43,
+      "text": "For a moment I thought they might have got wet and been burned in the drying.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 44,
+      "text": "But near the instep there is a small circular wafer of paper with the shopman's hieroglyphics upon it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 45,
+      "text": "Damp would of course have removed this.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "stockbrokers-clerk-section_1",
+      "position": 46,
+      "text": "You had, then, been sitting with your feet outstretched to the fire, which a man would hardly do even in so wet a June as this if he were in his full health.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 47,
+      "text": "Like all Holmes's reasoning the thing seemed simplicity itself when it was once explained.",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 48,
+      "text": "He read the thought upon my features, and his smile had a tinge of bitterness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 49,
+      "text": "\"I am afraid that I rather give myself away when I explain,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 50,
+      "text": "\"Results without causes are much more impressive.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 51,
+      "text": "You are ready to come to Birmingham, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 52,
+      "text": "\"Certainly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 53,
+      "text": "What is the case?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 54,
+      "text": "\"You shall hear it all in the train.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 55,
+      "text": "My client is outside in a four-wheeler.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 56,
+      "text": "Can you come at once?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 57,
+      "text": "\"In an instant.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 58,
+      "text": "I scribbled a note to my neighbour, rushed upstairs to explain the matter to my wife, and joined Holmes upon the door-step.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 59,
+      "text": "\"Your neighbour is a doctor,\" said he, nodding at the brass plate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 60,
+      "text": "\"Yes; he bought a practice as I did.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 61,
+      "text": "\"An old-established one?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 62,
+      "text": "\"Just the same as mine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 63,
+      "text": "Both have been ever since the houses were built.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 64,
+      "text": "\"Ah!",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 65,
+      "text": "Then you got hold of the best of the two.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 66,
+      "text": "\"I think I did.",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 67,
+      "text": "But how do you know?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 68,
+      "text": "\"By the steps, my boy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 69,
+      "text": "Yours are worn three inches deeper than his.",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 70,
+      "text": "But this gentleman in the cab is my client, Mr. Hall Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 71,
+      "text": "Allow me to introduce you to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 72,
+      "text": "Whip your horse up, cabby, for we have only just time to catch our train.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 73,
+      "text": "The man whom I found myself facing was a well-built, fresh-complexioned young fellow, with a frank, honest face and a slight, crisp, yellow moustache.",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 74,
+      "text": "He wore a very shiny top hat and a neat suit of sober black, which made him look what he was—a smart young City man, of the class who have been labeled cockneys, but who give us our crack volunteer regiments, and who turn out more fine athletes and sportsmen than any body of men in these islands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 75,
+      "text": "His round, ruddy face was naturally full of cheeriness, but the corners of his mouth seemed to me to be pulled down in a half-comical distress.",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 76,
+      "text": "It was not, however, until we were all in a first-class carriage and well started upon our journey to Birmingham that I was able to learn what the trouble was which had driven him to Sherlock Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 77,
+      "text": "\"We have a clear run here of seventy minutes,\" Holmes remarked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 78,
+      "text": "\"I want you, Mr. Hall Pycroft, to tell my friend your very interesting experience exactly as you have told it to me, or with more detail if possible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 79,
+      "text": "It will be of use to me to hear the succession of events again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 80,
+      "text": "It is a case, Watson, which may prove to have something in it, or may prove to have nothing, but which, at least, presents those unusual and _outré_ features which are as dear to you as they are to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 81,
+      "text": "Now, Mr. Pycroft, I shall not interrupt you again.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 82,
+      "text": "Our young companion looked at me with a twinkle in his eye.",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 83,
+      "text": "\"The worst of the story is,\" said he, \"that I show myself up as such a confounded fool.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 84,
+      "text": "Of course it may work out all right, and I don't see that I could have done otherwise; but if I have lost my crib and get nothing in exchange I shall feel what a soft Johnnie I have been.",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 85,
+      "text": "I'm not very good at telling a story, Dr. Watson, but it is like this with me:",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 86,
+      "text": "\"I used to have a billet at Coxon & Woodhouse, of Drapers' Gardens, but they were let in early in the spring through the Venezuelan loan, as no doubt you remember, and came a nasty cropper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 87,
+      "text": "I had been with them five years, and old Coxon gave me a ripping good testimonial when the smash came, but of course we clerks were all turned adrift, the twenty-seven of us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 88,
+      "text": "I tried here and tried there, but there were lots of other chaps on the same lay as myself, and it was a perfect frost for a long time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 89,
+      "text": "I had been taking three pounds a week at Coxon's, and I had saved about seventy of them, but I soon worked my way through that and out at the other end.",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 90,
+      "text": "I was fairly at the end of my tether at last, and could hardly find the stamps to answer the advertisements or the envelopes to stick them to.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "stockbrokers-clerk-section_2",
+      "position": 91,
+      "text": "I had worn out my boots paddling up office stairs, and I seemed just as far from getting a billet as ever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 92,
+      "text": "\"At last I saw a vacancy at Mawson & Williams', the great stockbroking firm in Lombard Street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 93,
+      "text": "I daresay E.C.",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 94,
+      "text": "is not much in your line, but I can tell you that this is about the richest house in London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 95,
+      "text": "The advertisement was to be answered by letter only.",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 96,
+      "text": "I sent in my testimonial and application, but without the least hope of getting it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 97,
+      "text": "Back came an answer by return, saying that if I would appear next Monday I might take over my new duties at once, provided that my appearance was satisfactory.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 98,
+      "text": "No one knows how these things are worked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 99,
+      "text": "Some people say that the manager just plunges his hand into the heap and takes the first that comes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 100,
+      "text": "Anyhow it was my innings that time, and I don't ever wish to feel better pleased.",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 101,
+      "text": "The screw was a pound a week rise, and the duties just about the same as at Coxon's.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 102,
+      "text": "\"And now I come to the queer part of the business.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 103,
+      "text": "I was in diggings out Hampstead way—17, Potter's Terrace.",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 104,
+      "text": "Well, I was sitting doing a smoke that very evening after I had been promised the appointment, when up came my landlady with a card which had 'Arthur Pinner, Financial Agent,' printed upon it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 105,
+      "text": "I had never heard the name before and could not imagine what he wanted with me; but, of course, I asked her to show him up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 106,
+      "text": "In he walked, a middle-sized, dark-haired, dark-eyed, black-bearded man, with a touch of the Sheeny about his nose.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 107,
+      "text": "He had a brisk kind of way with him and spoke sharply, like a man who knew the value of time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 108,
+      "text": "'\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 109,
+      "text": "Pycroft, I believe?'\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 110,
+      "text": "\"'Yes, sir,' I answered, pushing a chair towards him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 111,
+      "text": "\"'Lately engaged at Coxon & Woodhouse's?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 112,
+      "text": "\"'Yes, sir.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 113,
+      "text": "\"'And now on the staff of Mawson's.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 114,
+      "text": "\"'Quite so.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 115,
+      "text": "\"'Well,' said he, 'the fact is that I have heard some really extraordinary stories about your financial ability.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 116,
+      "text": "You remember Parker, who used to be Coxon's manager?",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 117,
+      "text": "He can never say enough about it.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 118,
+      "text": "\"Of course I was pleased to hear this.",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 119,
+      "text": "I had always been pretty sharp in the office, but I had never dreamed that I was talked about in the City in this fashion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 120,
+      "text": "' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 121,
+      "text": "a good memory?' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 122,
+      "text": "\"'Pretty fair,' I answered, modestly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 123,
+      "text": "' he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 124,
+      "text": "kept in touch with the market while you have been out of work?' he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 125,
+      "text": "\"'Yes; I read the Stock Exchange List every morning.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 126,
+      "text": "' he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 127,
+      "text": "'That is the way to prosper!",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 128,
+      "text": "You won't mind my testing you, will you?",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 129,
+      "text": "Let me see.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 130,
+      "text": "testing you, will you? Let me see. How are Ayrshires?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 131,
+      "text": "\"'A hundred and six and a quarter to a hundred and five and seven-eighths.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 132,
+      "text": "\"'And New Zealand Consolidated?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 133,
+      "text": "\"'A hundred and four.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 134,
+      "text": "\"'And British Broken Hills?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 135,
+      "text": "\"'Seven to seven-and-six.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 136,
+      "text": "' he cried, with his hands up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 137,
+      "text": "'This quite fits in with all that I had heard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 138,
+      "text": "I had heard. My boy, my boy, you are very much too good to be a clerk at Mawson's!'",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 139,
+      "text": "\"This outburst rather astonished me, as you can think.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 140,
+      "text": "'Well,' said I, 'other people don't think quite so much of me as you seem to do, Mr. Pinner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 141,
+      "text": "I had a hard enough fight to get this berth, and I am very glad to have it.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 142,
+      "text": "\"'Pooh, man; you should soar above it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 143,
+      "text": "You are not in your true sphere.",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 144,
+      "text": "Now, I'll tell you how it stands with me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 145,
+      "text": "What I have to offer is little enough when measured by your ability, but when compared with Mawson's, it's light to dark.",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 146,
+      "text": "Let me see.",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "stockbrokers-clerk-section_3",
+      "position": 147,
+      "text": "When do you go to Mawson's?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 148,
+      "text": "\"'On Monday.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 149,
+      "text": "\"'Ha, ha!",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 150,
+      "text": "I think I would risk a little sporting flutter that you don't go there at all.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 151,
+      "text": "\"'Not go to Mawson's?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 152,
+      "text": "\"'No, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 153,
+      "text": "By that day you will be the business manager of the Franco-Midland Hardware Company, Limited, with a hundred and thirty-four branches in the towns and villages of France, not counting one in Brussels and one in San Remo.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 154,
+      "text": "\"This took my breath away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 155,
+      "text": "'I never heard of it,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 156,
+      "text": "\"'Very likely not.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 157,
+      "text": "It has been kept very quiet, for the capital was all privately subscribed, and it's too good a thing to let the public into.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 158,
+      "text": "My brother, Harry Pinner, is promoter, and joins the board after allotment as managing director.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 159,
+      "text": "He knew I was in the swim down here, and asked me to pick up a good man cheap.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 160,
+      "text": "A young, pushing man with plenty of snap about him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 161,
+      "text": "Parker spoke of you, and that brought me here to-night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 162,
+      "text": "We can only offer you a beggarly five hundred to start with.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 163,
+      "text": "' I shouted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 164,
+      "text": "ed a year!' I shouted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 165,
+      "text": "\"'Only that at the beginning; but you are to have an overriding commission of one per cent on all business done by your agents, and you may take my word for it that this will come to more than your salary.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 166,
+      "text": "\"'But I know nothing about hardware.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 167,
+      "text": "\"'Tut, my boy; you know about figures.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 168,
+      "text": "\"My head buzzed, and I could hardly sit still in my chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 169,
+      "text": "But suddenly a little chill of doubt came upon me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 170,
+      "text": "\"'I must be frank with you,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 171,
+      "text": "'Mawson only gives me two hundred, but Mawson is safe.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 172,
+      "text": "Now, really, I know so little about your company that—'",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 173,
+      "text": "' he cried, in a kind of ecstasy of delight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 174,
+      "text": "'You are the very man for us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 175,
+      "text": "You are not to be talked over, and quite right, too.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 176,
+      "text": "d quite right, too. Now, here's a note for a hundred pounds, and if you think that we can do business you may just slip it into your pocket as an advance upon your salary.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 177,
+      "text": "\"'That is very handsome,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 178,
+      "text": "'When should I take over my new duties?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 179,
+      "text": "\"'Be in Birmingham to-morrow at one,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 180,
+      "text": "'I have a note in my pocket here which you will take to my brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 181,
+      "text": "You will find him at 126B, Corporation Street, where the temporary offices of the company are situated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 182,
+      "text": "Of course he must confirm your engagement, but between ourselves it will be all right.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 183,
+      "text": "\"'Really, I hardly know how to express my gratitude, Mr. Pinner,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 184,
+      "text": "\"'Not at all, my boy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 185,
+      "text": "You have only got your deserts.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 186,
+      "text": "There are one or two small things—mere formalities—which I must arrange with you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 187,
+      "text": "You have a bit of paper beside you there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 188,
+      "text": "Kindly write upon it \"I am perfectly willing to act as business manager to the Franco-Midland Hardware Company, Limited, at a minimum salary of £500.\"'",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 189,
+      "text": "\"I did as he asked, and he put the paper in his pocket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 190,
+      "text": "\"'There is one other detail,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 191,
+      "text": "'What do you intend to do about Mawson's?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 192,
+      "text": "\"I had forgotten all about Mawson's in my joy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 193,
+      "text": "'I'll write and resign,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 194,
+      "text": "\"'Precisely what I don't want you to do.",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 195,
+      "text": "I had a row over you with Mawson's manager.",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 196,
+      "text": "I had gone up to ask him about you, and he was very offensive; accused me of coaxing you away from the service of the firm, and that sort of thing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 197,
+      "text": "At last I fairly lost my temper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 198,
+      "text": "\"If you want good men you should pay them a good price,\" said I.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "stockbrokers-clerk-section_4",
+      "position": 199,
+      "text": "\"'He would rather have our small price than your big one,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 200,
+      "text": "\"'I'll lay you a fiver,' said I, 'that when he has my offer you'll never so much as hear from him again.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 201,
+      "text": "' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 202,
+      "text": "' Those were his very words.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 203,
+      "text": "the gutter, and he won't leave us so easily.' Those were his very words.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 204,
+      "text": "' I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 205,
+      "text": "'I've never so much as seen him in my life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 206,
+      "text": "Why should I consider him in any way?",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 207,
+      "text": "consider him in any way? I shall certainly not write if you would rather I didn't.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 208,
+      "text": "\"'Good!",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 209,
+      "text": "That's a promise,' said he, rising from his chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 210,
+      "text": "'Well, I'm delighted to have got so good a man for my brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 211,
+      "text": "Here's your advance of a hundred pounds, and here is the letter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 212,
+      "text": "Make a note of the address, 126B, Corporation Street, and remember that one o'clock to-morrow is your appointment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 213,
+      "text": "Good-night; and may you have all the fortune that you deserve!'",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 214,
+      "text": "\"That's just about all that passed between us, as near as I can remember.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 215,
+      "text": "You can imagine, Dr. Watson, how pleased I was at such an extraordinary bit of good fortune.",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 216,
+      "text": "I sat up half the night hugging myself over it, and next day I was off to Birmingham in a train that would take me in plenty time for my appointment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 217,
+      "text": "I took my things to a hotel in New Street, and then I made my way to the address which had been given me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 218,
+      "text": "\"It was a quarter of an hour before my time, but I thought that would make no difference.",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 219,
+      "text": "126B, was a passage between two large shops, which led to a winding stone stair, from which there were many flats, let as offices to companies or professional men.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 220,
+      "text": "The names of the occupants were painted at the bottom on the wall, but there was no such name as the Franco-Midland Hardware Company, Limited.",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 221,
+      "text": "I stood for a few minutes with my heart in my boots, wondering whether the whole thing was an elaborate hoax or not, when up came a man and addressed me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 222,
+      "text": "He was very like the chap I had seen the night before, the same figure and voice, but he was clean shaven and his hair was lighter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 223,
+      "text": "' he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 224,
+      "text": "r. Hall Pycroft?' he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 225,
+      "text": "\"'Yes,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 226,
+      "text": "\"'Oh!",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 227,
+      "text": "I was expecting you, but you are a trifle before your time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 228,
+      "text": "I had a note from my brother this morning in which he sang your praises very loudly.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 229,
+      "text": "\"'I was just looking for the offices when you came.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 230,
+      "text": "\"'We have not got our name up yet, for we only secured these temporary premises last week.",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 231,
+      "text": "Come up with me, and we will talk the matter over.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 232,
+      "text": "\"I followed him to the top of a very lofty stair, and there, right under the slates, were a couple of empty, dusty little rooms, uncarpeted and uncurtained, into which he led me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 233,
+      "text": "I had thought of a great office with shining tables and rows of clerks, such as I was used to, and I daresay I stared rather straight at the two deal chairs and one little table, which, with a ledger and a waste paper basket, made up the whole furniture.",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 234,
+      "text": "\"'Don't be disheartened, Mr. Pycroft,' said my new acquaintance, seeing the length of my face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 235,
+      "text": "'Rome was not built in a day, and we have lots of money at our backs, though we don't cut much dash yet in offices.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 236,
+      "text": "Pray sit down, and let me have your letter.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 237,
+      "text": "\"I gave it to him, and he read it over very carefully.",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 238,
+      "text": "\"'You seem to have made a vast impression upon my brother Arthur,' said he; 'and I know that he is a pretty shrewd judge.",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 239,
+      "text": "He swears by London, you know; and I by Birmingham; but this time I shall follow his advice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "stockbrokers-clerk-section_5",
+      "position": 240,
+      "text": "Pray consider yourself definitely engaged.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 241,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 242,
+      "text": "my duties?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 243,
+      "text": "\"'You will eventually manage the great depôt in Paris, which will pour a flood of English crockery into the shops of a hundred and thirty-four agents in France.",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 244,
+      "text": "The purchase will be completed in a week, and meanwhile you will remain in Birmingham and make yourself useful.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 245,
+      "text": "\"'How?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 246,
+      "text": "\"For answer, he took a big red book out of a drawer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 247,
+      "text": "\"'This is a directory of Paris,' said he, 'with the trades after the names of the people.",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 248,
+      "text": "I want you to take it home with you, and to mark off all the hardware sellers, with their addresses.",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 249,
+      "text": "It would be of the greatest use to me to have them.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 250,
+      "text": "' I suggested.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 251,
+      "text": "are classified lists?' I suggested.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 252,
+      "text": "\"'Not reliable ones.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 253,
+      "text": "Their system is different from ours.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 254,
+      "text": "Stick at it, and let me have the lists by Monday, at twelve.",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 255,
+      "text": "Good-day, Mr. Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 256,
+      "text": "If you continue to show zeal and intelligence you will find the company a good master.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 257,
+      "text": "\"I went back to the hotel with the big book under my arm, and with very conflicting feelings in my breast.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 258,
+      "text": "On the one hand, I was definitely engaged and had a hundred pounds in my pocket; on the other, the look of the offices, the absence of name on the wall, and other of the points which would strike a business man had left a bad impression as to the position of my employers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 259,
+      "text": "However, come what might, I had my money, so I settled down to my task.",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 260,
+      "text": "All Sunday I was kept hard at work, and yet by Monday I had only got as far as H.",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 261,
+      "text": "I went round to my employer, found him in the same dismantled kind of room, and was told to keep at it until Wednesday, and then come again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 262,
+      "text": "On Wednesday it was still unfinished, so I hammered away until Friday—that is, yesterday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 263,
+      "text": "Then I brought it round to Mr. Harry Pinner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 264,
+      "text": "\"'Thank you very much,' said he; 'I fear that I underrated the difficulty of the task.",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 265,
+      "text": "This list will be of very material assistance to me.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 266,
+      "text": "\"'It took some time,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 267,
+      "text": "\"'And now,' said he, 'I want you to make a list of the furniture shops, for they all sell crockery.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 268,
+      "text": "\"'Very good.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 269,
+      "text": "\"'And you can come up to-morrow evening, at seven, and let me know how you are getting on.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 270,
+      "text": "Don't overwork yourself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 271,
+      "text": "' He laughed as he spoke, and I saw with a thrill that his second tooth upon the left-hand side had been very badly stuffed with gold.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 272,
+      "text": "thrill that his second tooth upon the left-hand side had been very badly stuffed with gold.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 273,
+      "text": "Sherlock Holmes rubbed his hands with delight, and I stared with astonishment at our client.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 274,
+      "text": "\"You may well look surprised, Dr. Watson; but it is this way,\" said he: \"When I was speaking to the other chap in London, at the time that he laughed at my not going to Mawson's, I happened to notice that his tooth was stuffed in this very identical fashion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 275,
+      "text": "The glint of the gold in each case caught my eye, you see.",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 276,
+      "text": "When I put that with the voice and figure being the same, and only those things altered which might be changed by a razor or a wig, I could not doubt that it was the same man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 277,
+      "text": "Of course you expect two brothers to be alike, but not that they should have the same tooth stuffed in the same way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 278,
+      "text": "He bowed me out, and I found myself in the street, hardly knowing whether I was on my head or my heels.",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 279,
+      "text": "Back I went to my hotel, put my head in a basin of cold water, and tried to think it out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 280,
+      "text": "Why had he sent me from London to Birmingham?",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 281,
+      "text": "Why had he got there before me?",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 282,
+      "text": "And why had he written a letter from himself to himself?",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 283,
+      "text": "It was altogether too much for me, and I could make no sense of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 284,
+      "text": "And then suddenly it struck me that what was dark to me might be very light to Mr. Sherlock Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "stockbrokers-clerk-section_6",
+      "position": 285,
+      "text": "I had just time to get up to town by the night train to see him this morning, and to bring you both back with me to Birmingham.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 286,
+      "text": "There was a pause after the stockbroker's clerk had concluded his surprising experience.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 287,
+      "text": "Then Sherlock Holmes cocked his eye at me, leaning back on the cushions with a pleased and yet critical face, like a connoisseur who has just taken his first sip of a comet vintage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 288,
+      "text": "\"Rather fine, Watson, is it not?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 289,
+      "text": "said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 290,
+      "text": "\"There are points in it which please me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 291,
+      "text": "I think that you will agree with me that an interview with Mr. Arthur Harry Pinner in the temporary offices of the Franco-Midland Hardware Company, Limited, would be a rather interesting experience for both of us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 292,
+      "text": "\"But how can we do it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 293,
+      "text": "I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 294,
+      "text": "\"Oh, easily enough,\" said Hall Pycroft, cheerily.",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 295,
+      "text": "\"You are two friends of mine who are in want of a billet, and what could be more natural than that I should bring you both round to the managing director?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 296,
+      "text": "\"Quite so, of course,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 297,
+      "text": "\"I should like to have a look at the gentleman, and see if I can make anything of his little game.",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 298,
+      "text": "What qualities have you, my friend, which would make your services so valuable?",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 299,
+      "text": "or is it possible that—\" He began biting his nails and staring blankly out of the window, and we hardly drew another word from him until we were in New Street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 300,
+      "text": "At seven o'clock that evening we were walking, the three of us, down Corporation Street to the company's offices.",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 301,
+      "text": "\"It is no use our being at all before our time,\" said our client.",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 302,
+      "text": "\"He only comes there to see me, apparently, for the place is deserted up to the very hour he names.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 303,
+      "text": "\"That is suggestive,\" remarked Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 304,
+      "text": "\"By Jove, I told you so!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 305,
+      "text": "cried the clerk.",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 306,
+      "text": "\"That's he walking ahead of us there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 307,
+      "text": "He pointed to a smallish, dark, well-dressed man who was bustling along the other side of the road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 308,
+      "text": "As we watched him he looked across at a boy who was bawling out the latest edition of the evening paper, and running over among the cabs and busses, he bought one from him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 309,
+      "text": "Then, clutching it in his hand, he vanished through a doorway.",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 310,
+      "text": "\"There he goes!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 311,
+      "text": "cried Hall Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 312,
+      "text": "\"These are the company's offices into which he has gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 313,
+      "text": "Come with me, and I'll fix it up as easily as possible.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 314,
+      "text": "Following his lead, we ascended five stories, until we found ourselves outside a half-opened door, at which our client tapped.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 315,
+      "text": "A voice within bade us enter, and we entered a bare, unfurnished room such as Hall Pycroft had described.",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 316,
+      "text": "At the single table sat the man whom we had seen in the street, with his evening paper spread out in front of him, and as he looked up at us it seemed to me that I had never looked upon a face which bore such marks of grief, and of something beyond grief—of a horror such as comes to few men in a lifetime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 317,
+      "text": "His brow glistened with perspiration, his cheeks were of the dull, dead white of a fish's belly, and his eyes were wild and staring.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 318,
+      "text": "He looked at his clerk as though he failed to recognise him, and I could see by the astonishment depicted upon our conductor's face that this was by no means the usual appearance of his employer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 319,
+      "text": "\"You look ill, Mr. Pinner!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 320,
+      "text": "he exclaimed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 321,
+      "text": "\"Yes, I am not very well,\" answered the other, making obvious efforts to pull himself together, and licking his dry lips before he spoke.",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 322,
+      "text": "\"Who are these gentlemen whom you have brought with you?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 323,
+      "text": "\"One is Mr. Harris, of Bermondsey, and the other is Mr. Price, of this town,\" said our clerk, glibly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "stockbrokers-clerk-section_7",
+      "position": 324,
+      "text": "\"They are friends of mine and gentlemen of experience, but they have been out of a place for some little time, and they hoped that perhaps you might find an opening for them in the company's employment.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 325,
+      "text": "\"Very possibly!",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 326,
+      "text": "Very possibly!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 327,
+      "text": "cried Mr. Pinner with a ghastly smile.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 328,
+      "text": "\"Yes, I have no doubt that we shall be able to do something for you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 329,
+      "text": "What is your particular line, Mr. Harris?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 330,
+      "text": "\"I am an accountant,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 331,
+      "text": "\"Ah yes, we shall want something of the sort.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 332,
+      "text": "And you, Mr. Price?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 333,
+      "text": "\"A clerk,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 334,
+      "text": "\"I have every hope that the company may accommodate you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 335,
+      "text": "I will let you know about it as soon as we come to any conclusion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 336,
+      "text": "And now I beg that you will go.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 337,
+      "text": "For God's sake leave me to myself!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 338,
+      "text": "These last words were shot out of him, as though the constraint which he was evidently setting upon himself had suddenly and utterly burst asunder.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 339,
+      "text": "Holmes and I glanced at each other, and Hall Pycroft took a step towards the table.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 340,
+      "text": "\"You forget, Mr. Pinner, that I am here by appointment to receive some directions from you,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 341,
+      "text": "\"Certainly, Mr. Pycroft, certainly,\" the other resumed in a calmer tone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 342,
+      "text": "\"You may wait here a moment; and there is no reason why your friends should not wait with you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 343,
+      "text": "I will be entirely at your service in three minutes, if I might trespass upon your patience so far.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 344,
+      "text": "He rose with a very courteous air, and, bowing to us, he passed out through a door at the farther end of the room, which he closed behind him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 345,
+      "text": "\"What now?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 346,
+      "text": "whispered Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 347,
+      "text": "\"Is he giving us the slip?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 348,
+      "text": "\"Impossible,\" answered Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 349,
+      "text": "\"Why so?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 350,
+      "text": "\"That door leads into an inner room.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 351,
+      "text": "\"There is no exit?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 352,
+      "text": "\"None.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 353,
+      "text": "\"Is it furnished?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 354,
+      "text": "\"It was empty yesterday.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 355,
+      "text": "\"Then what on earth can he be doing?",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 356,
+      "text": "There is something which I don't understand in this manner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 357,
+      "text": "If ever a man was three parts mad with terror, that man's name is Pinner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 358,
+      "text": "What can have put the shivers on him?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 359,
+      "text": "\"He suspects that we are detectives,\" I suggested.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 360,
+      "text": "\"That's it,\" cried Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 361,
+      "text": "Holmes shook his head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 362,
+      "text": "\"He did not turn pale.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 363,
+      "text": "He was pale when we entered the room,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 364,
+      "text": "\"It is just possible that—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 365,
+      "text": "His words were interrupted by a sharp rat-tat from the direction of the inner door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 366,
+      "text": "\"What the deuce is he knocking at his own door for?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 367,
+      "text": "cried the clerk.",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 368,
+      "text": "Again and much louder came the rat-tat-tat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 369,
+      "text": "We all gazed expectantly at the closed door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 370,
+      "text": "Glancing at Holmes, I saw his face turn rigid, and he leaned forward in intense excitement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 371,
+      "text": "Then suddenly came a low guggling, gargling sound, and a brisk drumming upon woodwork.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 372,
+      "text": "Holmes sprang frantically across the room and pushed at the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 373,
+      "text": "It was fastened on the inner side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 374,
+      "text": "Following his example, we threw ourselves upon it with all our weight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 375,
+      "text": "One hinge snapped, then the other, and down came the door with a crash.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 376,
+      "text": "Rushing over it, we found ourselves in the inner room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 377,
+      "text": "It was empty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 378,
+      "text": "But it was only for a moment that we were at fault.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 379,
+      "text": "At one corner, the corner nearest the room which we had left, there was a second door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 380,
+      "text": "Holmes sprang to it and pulled it open.",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 381,
+      "text": "A coat and waistcoat were lying on the floor, and from a hook behind the door, with his own braces round his neck, was hanging the managing director of the Franco-Midland Hardware Company.",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 382,
+      "text": "His knees were drawn up, his head hung at a dreadful angle to his body, and the clatter of his heels against the door made the noise which had broken in upon our conversation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 383,
+      "text": "In an instant I had caught him round the waist, and held him up while Holmes and Pycroft untied the elastic bands which had disappeared between the livid creases of skin.",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "stockbrokers-clerk-section_8",
+      "position": 384,
+      "text": "Then we carried him into the other room, where he lay with a clay-coloured face, puffing his purple lips in and out with every breath—a dreadful wreck of all that he had been but five minutes before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 385,
+      "text": "\"What do you think of him, Watson?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 386,
+      "text": "asked Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 387,
+      "text": "I stooped over him and examined him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 388,
+      "text": "His pulse was feeble and intermittent, but his breathing grew longer, and there was a little shivering of his eyelids, which showed a thin white slit of ball beneath.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 389,
+      "text": "\"It has been touch and go with him,\" said I, \"but he'll live now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 390,
+      "text": "Just open that window, and hand me the water carafe.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 391,
+      "text": "I undid his collar, poured the cold water over his face, and raised and sank his arms until he drew a long, natural breath.",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 392,
+      "text": "\"It's only a question of time now,\" said I, as I turned away from him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 393,
+      "text": "Holmes stood by the table, with his hands deep in his trouser's pockets and his chin upon his breast.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 394,
+      "text": "\"I suppose we ought to call the police in now,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 395,
+      "text": "\"And yet I confess that I'd like to give them a complete case when they come.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 396,
+      "text": "\"It's a blessed mystery to me,\" cried Pycroft, scratching his head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 397,
+      "text": "\"Whatever they wanted to bring me all the way up here for, and then—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 398,
+      "text": "\"Pooh!",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 399,
+      "text": "All that is clear enough,\" said Holmes impatiently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 400,
+      "text": "\"It is this last sudden move.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 401,
+      "text": "\"You understand the rest, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 402,
+      "text": "\"I think that it is fairly obvious.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 403,
+      "text": "What do you say, Watson?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 404,
+      "text": "I shrugged my shoulders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 405,
+      "text": "\"I must confess that I am out of my depths,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 406,
+      "text": "\"Oh, surely if you consider the events at first they can only point to one conclusion.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 407,
+      "text": "\"What do you make of them?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 408,
+      "text": "\"Well, the whole thing hinges upon two points.",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 409,
+      "text": "The first is the making of Pycroft write a declaration by which he entered the service of this preposterous company.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 410,
+      "text": "Do you not see how very suggestive that is?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 411,
+      "text": "\"I am afraid I miss the point.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 412,
+      "text": "\"Well, why did they want him to do it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 413,
+      "text": "Not as a business matter, for these arrangements are usually verbal, and there was no earthly business reason why this should be an exception.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 414,
+      "text": "Don't you see, my young friend, that they were very anxious to obtain a specimen of your handwriting, and had no other way of doing it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 415,
+      "text": "\"And why?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 416,
+      "text": "\"Quite so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 417,
+      "text": "Why?",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 418,
+      "text": "When we answer that we have made some progress with our little problem.",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 419,
+      "text": "Why?",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 420,
+      "text": "There can be only one adequate reason.",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 421,
+      "text": "Some one wanted to learn to imitate your writing, and had to procure a specimen of it first.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 422,
+      "text": "And now if we pass on to the second point we find that each throws light upon the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 423,
+      "text": "That point is the request made by Pinner that you should not resign your place, but should leave the manager of this important business in the full expectation that a Mr. Hall Pycroft, whom he had never seen, was about to enter the office upon the Monday morning.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 424,
+      "text": "\"My God!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 425,
+      "text": "cried our client, \"what a blind beetle I have been!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 426,
+      "text": "\"Now you see the point about the handwriting.",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 427,
+      "text": "Suppose that some one turned up in your place who wrote a completely different hand from that in which you had applied for the vacancy, of course the game would have been up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 428,
+      "text": "But in the interval the rogue had learned to imitate you, and his position was therefore secure, as I presume that nobody in the office had ever set eyes upon you.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 429,
+      "text": "\"Not a soul,\" groaned Hall Pycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 430,
+      "text": "\"Very good.",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 431,
+      "text": "Of course it was of the utmost importance to prevent you from thinking better of it, and also to keep you from coming into contact with any one who might tell you that your double was at work in Mawson's office.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 432,
+      "text": "Therefore they gave you a handsome advance on your salary, and ran you off to the Midlands, where they gave you enough work to do to prevent your going to London, where you might have burst their little game up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "stockbrokers-clerk-section_9",
+      "position": 433,
+      "text": "That is all plain enough.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 434,
+      "text": "\"But why should this man pretend to be his own brother?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 435,
+      "text": "\"Well, that is pretty clear also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 436,
+      "text": "There are evidently only two of them in it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 437,
+      "text": "The other is impersonating you at the office.",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 438,
+      "text": "This one acted as your engager, and then found that he could not find you an employer without admitting a third person into his plot.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 439,
+      "text": "That he was most unwilling to do.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 440,
+      "text": "He changed his appearance as far as he could, and trusted that the likeness, which you could not fail to observe, would be put down to a family resemblance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 441,
+      "text": "But for the happy chance of the gold stuffing, your suspicions would probably never have been aroused.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 442,
+      "text": "Hall Pycroft shook his clinched hands in the air.",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 443,
+      "text": "\"Good Lord!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 444,
+      "text": "he cried, \"while I have been fooled in this way, what has this other Hall Pycroft been doing at Mawson's?",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 445,
+      "text": "What should we do, Mr. Holmes?",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 446,
+      "text": "Tell me what to do.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_448",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 447,
+      "text": "\"We must wire to Mawson's.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_449",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 448,
+      "text": "\"They shut at twelve on Saturdays.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_450",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 449,
+      "text": "\"Never mind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_451",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 450,
+      "text": "There may be some door-keeper or attendant—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_452",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 451,
+      "text": "\"Ah yes, they keep a permanent guard there on account of the value of the securities that they hold.",
+      "entities": []
+    },
+    {
+      "id": "sentence_453",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 452,
+      "text": "I remember hearing it talked of in the City.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_454",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 453,
+      "text": "\"Very good; we shall wire to him, and see if all is well, and if a clerk of your name is working there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_455",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 454,
+      "text": "That is clear enough; but what is not so clear is why at sight of us one of the rogues should instantly walk out of the room and hang himself.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_456",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 455,
+      "text": "\"The paper!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_457",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 456,
+      "text": "croaked a voice behind us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_458",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 457,
+      "text": "The man was sitting up, blanched and ghastly, with returning reason in his eyes, and hands which rubbed nervously at the broad red band which still encircled his throat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_459",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 458,
+      "text": "\"The paper!",
+      "entities": []
+    },
+    {
+      "id": "sentence_460",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 459,
+      "text": "Of course!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_461",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 460,
+      "text": "yelled Holmes, in a paroxysm of excitement.",
+      "entities": []
+    },
+    {
+      "id": "sentence_462",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 461,
+      "text": "\"Idiot that I was!",
+      "entities": []
+    },
+    {
+      "id": "sentence_463",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 462,
+      "text": "I thought so much of our visit that the paper never entered my head for an instant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_464",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 463,
+      "text": "To be sure, the secret must be there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_465",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 464,
+      "text": "He flattened it out upon the table, and a cry of triumph burst from his lips.",
+      "entities": []
+    },
+    {
+      "id": "sentence_466",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 465,
+      "text": "\"Look at this, Watson,\" he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_467",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 466,
+      "text": "\"It is a London paper, an early edition of the _Evening Standard_.",
+      "entities": []
+    },
+    {
+      "id": "sentence_468",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 467,
+      "text": "Here is what we want.",
+      "entities": []
+    },
+    {
+      "id": "sentence_469",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 468,
+      "text": "Look at the headlines: 'Crime in the City.",
+      "entities": []
+    },
+    {
+      "id": "sentence_470",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 469,
+      "text": "Murder at Mawson & Williams'.",
+      "entities": []
+    },
+    {
+      "id": "sentence_471",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 470,
+      "text": "Gigantic Attempted Robbery.",
+      "entities": []
+    },
+    {
+      "id": "sentence_472",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 471,
+      "text": "' Here, Watson, we are all equally anxious to hear it, so kindly read it aloud to us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_473",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 472,
+      "text": "ly read it aloud to us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_474",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 473,
+      "text": "It appeared from its position in the paper to have been the one event of importance in town, and the account of it ran in this way:",
+      "entities": []
+    },
+    {
+      "id": "sentence_475",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 474,
+      "text": "\"A desperate attempt at robbery, culminating in the death of one man and the capture of the criminal, occurred this afternoon in the City.",
+      "entities": []
+    },
+    {
+      "id": "sentence_476",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 475,
+      "text": "For some time back Mawson & Williams, the famous financial house, have been the guardians of securities which amount in the aggregate to a sum of considerably over a million sterling.",
+      "entities": []
+    },
+    {
+      "id": "sentence_477",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 476,
+      "text": "So conscious was the manager of the responsibility which devolved upon him in consequence of the great interests at stake that safes of the very latest construction have been employed, and an armed watchman has been left day and night in the building.",
+      "entities": []
+    },
+    {
+      "id": "sentence_478",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 477,
+      "text": "It appears that last week a new clerk named Hall Pycroft was engaged by the firm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_479",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 478,
+      "text": "This person appears to have been none other than Beddington, the famous forger and cracksman, who, with his brother, had only recently emerged from a five years' spell of penal servitude.",
+      "entities": []
+    },
+    {
+      "id": "sentence_480",
+      "section": "stockbrokers-clerk-section_10",
+      "position": 479,
+      "text": "By some means, which are not yet clear, he succeeded in winning, under a false name, this official position in the office, which he utilised in order to obtain moulding of various locks, and a thorough knowledge of the position of the strong room and the safes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_481",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 480,
+      "text": "\"It is customary at Mawson's for the clerks to leave at midday on Saturday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_482",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 481,
+      "text": "Sergeant Tuson, of the City Police, was somewhat surprised, therefore to see a gentleman with a carpet bag come down the steps at twenty minutes past one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_483",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 482,
+      "text": "His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_484",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 483,
+      "text": "It was at once clear that a daring and gigantic robbery had been committed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_485",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 484,
+      "text": "Nearly a hundred thousand pounds' worth of American railway bonds, with a large amount of scrip in other mines and companies, was discovered in the bag.",
+      "entities": []
+    },
+    {
+      "id": "sentence_486",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 485,
+      "text": "On examining the premises the body of the unfortunate watchman was found doubled up and thrust into the largest of the safes, where it would not have been discovered until Monday morning had it not been for the prompt action of Sergeant Tuson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_487",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 486,
+      "text": "The man's skull had been shattered by a blow from a poker delivered from behind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_488",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 487,
+      "text": "There could be no doubt that Beddington had obtained entrance by pretending that he had left something behind him, and having murdered the watchman, rapidly rifled the large safe, and then made off with his booty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_489",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 488,
+      "text": "His brother, who usually works with him, has not appeared in this job as far as can at present be ascertained, although the police are making energetic inquiries as to his whereabouts.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_490",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 489,
+      "text": "\"Well, we may save the police some little trouble in that direction,\" said Holmes, glancing at the haggard figure huddled up by the window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_491",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 490,
+      "text": "\"Human nature is a strange mixture, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_492",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 491,
+      "text": "You see that even a villain and murderer can inspire such affection that his brother turns to suicide when he learns that his neck is forfeited.",
+      "entities": []
+    },
+    {
+      "id": "sentence_493",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 492,
+      "text": "However, we have no choice as to our action.",
+      "entities": []
+    },
+    {
+      "id": "sentence_494",
+      "section": "stockbrokers-clerk-section_11",
+      "position": 493,
+      "text": "The doctor and I will remain on guard, Mr. Pycroft, if you will have the kindness to step out for the police.\"",
+      "entities": []
+    }
+  ]
+}

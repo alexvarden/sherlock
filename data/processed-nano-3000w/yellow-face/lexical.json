@@ -1,0 +1,3294 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "yellow-face-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 3188
+    },
+    {
+      "id": "yellow-face-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 3040
+    },
+    {
+      "id": "yellow-face-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 1275
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "yellow-face-section_1",
+      "position": 0,
+      "text": "III.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "yellow-face-section_1",
+      "position": 1,
+      "text": "The Yellow Face",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "yellow-face-section_1",
+      "position": 2,
+      "text": "In publishing these short sketches based upon the numerous cases in which my companion's singular gifts have made us the listeners to, and eventually the actors in, some strange drama, it is only natural that I should dwell rather upon his successes than upon his failures.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "yellow-face-section_1",
+      "position": 3,
+      "text": "And this not so much for the sake of his reputation—for, indeed, it was when he was at his wits' end that his energy and his versatility were most admirable—but because where he failed it happened too often that no one else succeeded, and that the tale was left forever without a conclusion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "yellow-face-section_1",
+      "position": 4,
+      "text": "Now and again, however, it chanced that even when he erred, the truth was still discovered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "yellow-face-section_1",
+      "position": 5,
+      "text": "I have noted of some half-dozen cases of the kind, of which the Affair of the Second Stain and that which I am now about to recount are the two which present the strongest features of interest.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "yellow-face-section_1",
+      "position": 6,
+      "text": "Sherlock Holmes was a man who seldom took exercise for exercise's sake.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "yellow-face-section_1",
+      "position": 7,
+      "text": "Few men were capable of greater muscular effort, and he was undoubtedly one of the finest boxers of his weight that I have ever seen; but he looked upon aimless bodily exertion as a waste of energy, and he seldom bestirred himself save when there was some professional object to be served.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "yellow-face-section_1",
+      "position": 8,
+      "text": "Then he was absolutely untiring and indefatigable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "yellow-face-section_1",
+      "position": 9,
+      "text": "That he should have kept himself in training under such circumstances is remarkable, but his diet was usually of the sparest, and his habits were simple to the verge of austerity.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "yellow-face-section_1",
+      "position": 10,
+      "text": "Save for the occasional use of cocaine, he had no vices, and he only turned to the drug as a protest against the monotony of existence when cases were scanty and the papers uninteresting.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "yellow-face-section_1",
+      "position": 11,
+      "text": "One day in early spring he had so far relaxed as to go for a walk with me in the Park, where the first faint shoots of green were breaking out upon the elms, and the sticky spear-heads of the chestnuts were just beginning to burst into their five-fold leaves.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "yellow-face-section_1",
+      "position": 12,
+      "text": "For two hours we rambled about together, in silence for the most part, as befits two men who know each other intimately.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "yellow-face-section_1",
+      "position": 13,
+      "text": "It was nearly five before we were back in Baker Street once more.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "yellow-face-section_1",
+      "position": 14,
+      "text": "\"Beg pardon, sir,\" said our page-boy, as he opened the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "yellow-face-section_1",
+      "position": 15,
+      "text": "\"There's been a gentleman here asking for you, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "yellow-face-section_1",
+      "position": 16,
+      "text": "Holmes glanced reproachfully at me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "yellow-face-section_1",
+      "position": 17,
+      "text": "\"So much for afternoon walks!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "yellow-face-section_1",
+      "position": 18,
+      "text": "said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "yellow-face-section_1",
+      "position": 19,
+      "text": "\"Has this gentleman gone, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "yellow-face-section_1",
+      "position": 20,
+      "text": "\"Yes, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "yellow-face-section_1",
+      "position": 21,
+      "text": "\"Didn't you ask him in?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "yellow-face-section_1",
+      "position": 22,
+      "text": "\"Yes, sir; he came in.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "yellow-face-section_1",
+      "position": 23,
+      "text": "\"How long did he wait?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "yellow-face-section_1",
+      "position": 24,
+      "text": "\"Half an hour, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "yellow-face-section_1",
+      "position": 25,
+      "text": "He was a very restless gentleman, sir, a-walkin' and a-stampin' all the time he was here.",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "yellow-face-section_1",
+      "position": 26,
+      "text": "I was waitin' outside the door, sir, and I could hear him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "yellow-face-section_1",
+      "position": 27,
+      "text": "' Those were his very words, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "yellow-face-section_1",
+      "position": 28,
+      "text": "'You'll only need to wait a little longer,' says I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "yellow-face-section_1",
+      "position": 29,
+      "text": "'Then I'll wait in the open air, for I feel half choked,' says he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "yellow-face-section_1",
+      "position": 30,
+      "text": "' And with that he ups and he outs, and all I could say wouldn't hold him back.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "yellow-face-section_1",
+      "position": 31,
+      "text": "'I'll be back before long.' And with that he ups and he outs, and all I could say wouldn't hold him back.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "yellow-face-section_1",
+      "position": 32,
+      "text": "\"Well, well, you did your best,\" said Holmes, as we walked into our room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "yellow-face-section_1",
+      "position": 33,
+      "text": "\"It's very annoying, though, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "yellow-face-section_1",
+      "position": 34,
+      "text": "I was badly in need of a case, and this looks, from the man's impatience, as if it were of importance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "yellow-face-section_1",
+      "position": 35,
+      "text": "Halloa!",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "yellow-face-section_1",
+      "position": 36,
+      "text": "That's not your pipe on the table.",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "yellow-face-section_1",
+      "position": 37,
+      "text": "He must have left his behind him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "yellow-face-section_1",
+      "position": 38,
+      "text": "A nice old briar with a good long stem of what the tobacconists call amber.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "yellow-face-section_1",
+      "position": 39,
+      "text": "I wonder how many real amber mouthpieces there are in London.",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "yellow-face-section_1",
+      "position": 40,
+      "text": "Some people think that a fly in it is a sign.",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "yellow-face-section_1",
+      "position": 41,
+      "text": "Well, he must have been disturbed in his mind to leave a pipe behind him which he evidently values highly.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "yellow-face-section_1",
+      "position": 42,
+      "text": "\"How do you know that he values it highly?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "yellow-face-section_1",
+      "position": 43,
+      "text": "I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "yellow-face-section_1",
+      "position": 44,
+      "text": "\"Well, I should put the original cost of the pipe at seven and sixpence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "yellow-face-section_1",
+      "position": 45,
+      "text": "Now it has, you see, been twice mended, once in the wooden stem and once in the amber.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "yellow-face-section_1",
+      "position": 46,
+      "text": "Each of these mends, done, as you observe, with silver bands, must have cost more than the pipe did originally.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "yellow-face-section_1",
+      "position": 47,
+      "text": "The man must value the pipe highly when he prefers to patch it up rather than buy a new one with the same money.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "yellow-face-section_1",
+      "position": 48,
+      "text": "\"Anything else?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "yellow-face-section_1",
+      "position": 49,
+      "text": "I asked, for Holmes was turning the pipe about in his hand, and staring at it in his peculiar pensive way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "yellow-face-section_1",
+      "position": 50,
+      "text": "He held it up and tapped on it with his long, thin fore-finger, as a professor might who was lecturing on a bone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "yellow-face-section_1",
+      "position": 51,
+      "text": "\"Pipes are occasionally of extraordinary interest,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "yellow-face-section_1",
+      "position": 52,
+      "text": "\"Nothing has more individuality, save perhaps watches and bootlaces.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "yellow-face-section_1",
+      "position": 53,
+      "text": "The indications here, however, are neither very marked nor very important.",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "yellow-face-section_1",
+      "position": 54,
+      "text": "The owner is obviously a muscular man, left-handed, with an excellent set of teeth, careless in his habits, and with no need to practise economy.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "yellow-face-section_1",
+      "position": 55,
+      "text": "My friend threw out the information in a very offhand way, but I saw that he cocked his eye at me to see if I had followed his reasoning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "yellow-face-section_1",
+      "position": 56,
+      "text": "\"You think a man must be well-to-do if he smokes a seven-shilling pipe,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "yellow-face-section_1",
+      "position": 57,
+      "text": "\"This is Grosvenor mixture at eightpence an ounce,\" Holmes answered, knocking a little out on his palm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "yellow-face-section_1",
+      "position": 58,
+      "text": "\"As he might get an excellent smoke for half the price, he has no need to practise economy.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "yellow-face-section_1",
+      "position": 59,
+      "text": "\"And the other points?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "yellow-face-section_1",
+      "position": 60,
+      "text": "\"He has been in the habit of lighting his pipe at lamps and gas-jets.",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "yellow-face-section_1",
+      "position": 61,
+      "text": "You can see that it is quite charred all down one side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "yellow-face-section_1",
+      "position": 62,
+      "text": "Of course a match could not have done that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "yellow-face-section_1",
+      "position": 63,
+      "text": "Why should a man hold a match to the side of his pipe?",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "yellow-face-section_1",
+      "position": 64,
+      "text": "But you cannot light it at a lamp without getting the bowl charred.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "yellow-face-section_1",
+      "position": 65,
+      "text": "And it is all on the right side of the pipe.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "yellow-face-section_1",
+      "position": 66,
+      "text": "From that I gather that he is a left-handed man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "yellow-face-section_1",
+      "position": 67,
+      "text": "You hold your own pipe to the lamp, and see how naturally you, being right-handed, hold the left side to the flame.",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "yellow-face-section_1",
+      "position": 68,
+      "text": "You might do it once the other way, but not as a constancy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "yellow-face-section_1",
+      "position": 69,
+      "text": "This has always been held so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "yellow-face-section_1",
+      "position": 70,
+      "text": "Then he has bitten through his amber.",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "yellow-face-section_1",
+      "position": 71,
+      "text": "It takes a muscular, energetic fellow, and one with a good set of teeth, to do that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "yellow-face-section_1",
+      "position": 72,
+      "text": "But if I am not mistaken I hear him upon the stair, so we shall have something more interesting than his pipe to study.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "yellow-face-section_1",
+      "position": 73,
+      "text": "An instant later our door opened, and a tall young man entered the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "yellow-face-section_1",
+      "position": 74,
+      "text": "He was well but quietly dressed in a dark-grey suit, and carried a brown wide-awake in his hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "yellow-face-section_1",
+      "position": 75,
+      "text": "I should have put him at about thirty, though he was really some years older.",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "yellow-face-section_1",
+      "position": 76,
+      "text": "\"I beg your pardon,\" said he, with some embarrassment; \"I suppose I should have knocked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "yellow-face-section_1",
+      "position": 77,
+      "text": "Yes, of course I should have knocked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "yellow-face-section_1",
+      "position": 78,
+      "text": "The fact is that I am a little upset, and you must put it all down to that.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "yellow-face-section_1",
+      "position": 79,
+      "text": "He passed his hand over his forehead like a man who is half dazed, and then fell rather than sat down upon a chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "yellow-face-section_1",
+      "position": 80,
+      "text": "\"I can see that you have not slept for a night or two,\" said Holmes, in his easy, genial way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "yellow-face-section_1",
+      "position": 81,
+      "text": "\"That tries a man's nerves more than work, and more even than pleasure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "yellow-face-section_1",
+      "position": 82,
+      "text": "May I ask how I can help you?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "yellow-face-section_1",
+      "position": 83,
+      "text": "\"I wanted your advice, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "yellow-face-section_1",
+      "position": 84,
+      "text": "I don't know what to do and my whole life seems to have gone to pieces.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "yellow-face-section_1",
+      "position": 85,
+      "text": "\"You wish to employ me as a consulting detective?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "yellow-face-section_1",
+      "position": 86,
+      "text": "\"Not that only.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "yellow-face-section_1",
+      "position": 87,
+      "text": "I want your opinion as a judicious man—as a man of the world.",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "yellow-face-section_1",
+      "position": 88,
+      "text": "I want to know what I ought to do next.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "yellow-face-section_1",
+      "position": 89,
+      "text": "I hope to God you'll be able to tell me.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "yellow-face-section_1",
+      "position": 90,
+      "text": "He spoke in little, sharp, jerky outbursts, and it seemed to me that to speak at all was very painful to him, and that his will all through was overriding his inclinations.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "yellow-face-section_1",
+      "position": 91,
+      "text": "\"It's a very delicate thing,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "yellow-face-section_1",
+      "position": 92,
+      "text": "\"One does not like to speak of one's domestic affairs to strangers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "yellow-face-section_1",
+      "position": 93,
+      "text": "It seems dreadful to discuss the conduct of one's wife with two men whom I have never seen before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "yellow-face-section_1",
+      "position": 94,
+      "text": "It's horrible to have to do it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "yellow-face-section_1",
+      "position": 95,
+      "text": "But I've got to the end of my tether, and I must have advice.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "yellow-face-section_1",
+      "position": 96,
+      "text": "\"My dear Mr. Grant Munro—\" began Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "yellow-face-section_1",
+      "position": 97,
+      "text": "Our visitor sprang from his chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "yellow-face-section_1",
+      "position": 98,
+      "text": "\"What!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "yellow-face-section_1",
+      "position": 99,
+      "text": "he cried, \"you know my name?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "yellow-face-section_1",
+      "position": 100,
+      "text": "\"If you wish to preserve your _incognito_,\" said Holmes, smiling, \"I would suggest that you cease to write your name upon the lining of your hat, or else that you turn the crown towards the person whom you are addressing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "yellow-face-section_1",
+      "position": 101,
+      "text": "I was about to say that my friend and I have listened to a good many strange secrets in this room, and that we have had the good fortune to bring peace to many troubled souls.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "yellow-face-section_1",
+      "position": 102,
+      "text": "I trust that we may do as much for you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "yellow-face-section_1",
+      "position": 103,
+      "text": "Might I beg you, as time may prove to be of importance, to furnish me with the facts of your case without further delay?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "yellow-face-section_1",
+      "position": 104,
+      "text": "Our visitor again passed his hand over his forehead, as if he found it bitterly hard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "yellow-face-section_1",
+      "position": 105,
+      "text": "From every gesture and expression I could see that he was a reserved, self-contained man, with a dash of pride in his nature, more likely to hide his wounds than to expose them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "yellow-face-section_1",
+      "position": 106,
+      "text": "Then suddenly, with a fierce gesture of his closed hand, like one who throws reserve to the winds, he began.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "yellow-face-section_1",
+      "position": 107,
+      "text": "\"The facts are these, Mr. Holmes,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "yellow-face-section_1",
+      "position": 108,
+      "text": "\"I am a married man, and have been so for three years.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "yellow-face-section_1",
+      "position": 109,
+      "text": "During that time my wife and I have loved each other as fondly and lived as happily as any two that ever were joined.",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "yellow-face-section_1",
+      "position": 110,
+      "text": "We have not had a difference, not one, in thought or word or deed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "yellow-face-section_1",
+      "position": 111,
+      "text": "And now, since last Monday, there has suddenly sprung up a barrier between us, and I find that there is something in her life and in her thought of which I know as little as if she were the woman who brushes by me in the street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "yellow-face-section_1",
+      "position": 112,
+      "text": "We are estranged, and I want to know why.",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "yellow-face-section_1",
+      "position": 113,
+      "text": "\"Now there is one thing that I want to impress upon you before I go any further, Mr. Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "yellow-face-section_1",
+      "position": 114,
+      "text": "Effie loves me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "yellow-face-section_1",
+      "position": 115,
+      "text": "Don't let there be any mistake about that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "yellow-face-section_1",
+      "position": 116,
+      "text": "She loves me with her whole heart and soul, and never more than now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "yellow-face-section_1",
+      "position": 117,
+      "text": "I know it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "yellow-face-section_1",
+      "position": 118,
+      "text": "I feel it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "yellow-face-section_1",
+      "position": 119,
+      "text": "I don't want to argue about that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "yellow-face-section_1",
+      "position": 120,
+      "text": "A man can tell easily enough when a woman loves him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "yellow-face-section_1",
+      "position": 121,
+      "text": "But there's this secret between us, and we can never be the same until it is cleared.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "yellow-face-section_1",
+      "position": 122,
+      "text": "\"Kindly let me have the facts, Mr. Munro,\" said Holmes, with some impatience.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "yellow-face-section_1",
+      "position": 123,
+      "text": "\"I'll tell you what I know about Effie's history.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "yellow-face-section_1",
+      "position": 124,
+      "text": "She was a widow when I met her first, though quite young—only twenty-five.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "yellow-face-section_1",
+      "position": 125,
+      "text": "Her name then was Mrs. Hebron.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "yellow-face-section_1",
+      "position": 126,
+      "text": "She went out to America when she was young, and lived in the town of Atlanta, where she married this Hebron, who was a lawyer with a good practice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "yellow-face-section_1",
+      "position": 127,
+      "text": "They had one child, but the yellow fever broke out badly in the place, and both husband and child died of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "yellow-face-section_1",
+      "position": 128,
+      "text": "I have seen his death certificate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "yellow-face-section_1",
+      "position": 129,
+      "text": "This sickened her of America, and she came back to live with a maiden aunt at Pinner, in Middlesex.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "yellow-face-section_1",
+      "position": 130,
+      "text": "I may mention that her husband had left her comfortably off, and that she had a capital of about four thousand five hundred pounds, which had been so well invested by him that it returned an average of seven per cent.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "yellow-face-section_1",
+      "position": 131,
+      "text": "She had only been six months at Pinner when I met her; we fell in love with each other, and we married a few weeks afterwards.",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "yellow-face-section_1",
+      "position": 132,
+      "text": "\"I am a hop merchant myself, and as I have an income of seven or eight hundred, we found ourselves comfortably off, and took a nice eighty-pound-a-year villa at Norbury.",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "yellow-face-section_1",
+      "position": 133,
+      "text": "Our little place was very countrified, considering that it is so close to town.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "yellow-face-section_1",
+      "position": 134,
+      "text": "We had an inn and two houses a little above us, and a single cottage at the other side of the field which faces us, and except those there were no houses until you got half way to the station.",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "yellow-face-section_1",
+      "position": 135,
+      "text": "My business took me into town at certain seasons, but in summer I had less to do, and then in our country home my wife and I were just as happy as could be wished.",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "yellow-face-section_1",
+      "position": 136,
+      "text": "I tell you that there never was a shadow between us until this accursed affair began.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "yellow-face-section_1",
+      "position": 137,
+      "text": "\"There's one thing I ought to tell you before I go further.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "yellow-face-section_1",
+      "position": 138,
+      "text": "When we married, my wife made over all her property to me—rather against my will, for I saw how awkward it would be if my business affairs went wrong.",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "yellow-face-section_1",
+      "position": 139,
+      "text": "However, she would have it so, and it was done.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "yellow-face-section_1",
+      "position": 140,
+      "text": "Well, about six weeks ago she came to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "yellow-face-section_1",
+      "position": 141,
+      "text": "\"'Jack,' said she, 'when you took my money you said that if ever I wanted any I was to ask you for it.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "yellow-face-section_1",
+      "position": 142,
+      "text": "\"'Certainly,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "yellow-face-section_1",
+      "position": 143,
+      "text": "'It's all your own.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "yellow-face-section_1",
+      "position": 144,
+      "text": "\"'Well,' said she, 'I want a hundred pounds.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "yellow-face-section_1",
+      "position": 145,
+      "text": "\"I was a bit staggered at this, for I had imagined it was simply a new dress or something of the kind that she was after.",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "yellow-face-section_1",
+      "position": 146,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "yellow-face-section_1",
+      "position": 147,
+      "text": "earth for?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "yellow-face-section_1",
+      "position": 148,
+      "text": "\"'Oh,' said she, in her playful way, 'you said that you were only my banker, and bankers never ask questions, you know.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "yellow-face-section_1",
+      "position": 149,
+      "text": "\"'If you really mean it, of course you shall have the money,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "yellow-face-section_1",
+      "position": 150,
+      "text": "\"'Oh, yes, I really mean it.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "yellow-face-section_1",
+      "position": 151,
+      "text": "\"'And you won't tell me what you want it for?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "yellow-face-section_1",
+      "position": 152,
+      "text": "\"'Some day, perhaps, but not just at present, Jack.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "yellow-face-section_1",
+      "position": 153,
+      "text": "\"So I had to be content with that, though it was the first time that there had ever been any secret between us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "yellow-face-section_1",
+      "position": 154,
+      "text": "I gave her a check, and I never thought any more of the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "yellow-face-section_1",
+      "position": 155,
+      "text": "It may have nothing to do with what came afterwards, but I thought it only right to mention it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "yellow-face-section_1",
+      "position": 156,
+      "text": "\"Well, I told you just now that there is a cottage not far from our house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "yellow-face-section_1",
+      "position": 157,
+      "text": "There is just a field between us, but to reach it you have to go along the road and then turn down a lane.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "yellow-face-section_1",
+      "position": 158,
+      "text": "Just beyond it is a nice little grove of Scotch firs, and I used to be very fond of strolling down there, for trees are always a neighbourly kind of things.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "yellow-face-section_1",
+      "position": 159,
+      "text": "The cottage had been standing empty this eight months, and it was a pity, for it was a pretty two-storied place, with an old-fashioned porch and honeysuckle about it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "yellow-face-section_1",
+      "position": 160,
+      "text": "I have stood many a time and thought what a neat little homestead it would make.",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "yellow-face-section_1",
+      "position": 161,
+      "text": "\"Well, last Monday evening I was taking a stroll down that way, when I met an empty van coming up the lane, and saw a pile of carpets and things lying about on the grass-plot beside the porch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "yellow-face-section_1",
+      "position": 162,
+      "text": "It was clear that the cottage had at last been let.",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "yellow-face-section_1",
+      "position": 163,
+      "text": "I walked past it, and wondered what sort of folk they were who had come to live so near us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "yellow-face-section_1",
+      "position": 164,
+      "text": "And as I looked I suddenly became aware that a face was watching me out of one of the upper windows.",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "yellow-face-section_1",
+      "position": 165,
+      "text": "\"I don't know what there was about that face, Mr. Holmes, but it seemed to send a chill right down my back.",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "yellow-face-section_1",
+      "position": 166,
+      "text": "I was some little way off, so that I could not make out the features, but there was something unnatural and inhuman about the face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "yellow-face-section_1",
+      "position": 167,
+      "text": "That was the impression that I had, and I moved quickly forwards to get a nearer view of the person who was watching me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "yellow-face-section_1",
+      "position": 168,
+      "text": "But as I did so the face suddenly disappeared, so suddenly that it seemed to have been plucked away into the darkness of the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "yellow-face-section_1",
+      "position": 169,
+      "text": "I stood for five minutes thinking the business over, and trying to analyze my impressions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "yellow-face-section_1",
+      "position": 170,
+      "text": "I could not tell if the face were that of a man or a woman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "yellow-face-section_1",
+      "position": 171,
+      "text": "It had been too far from me for that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "yellow-face-section_1",
+      "position": 172,
+      "text": "But its colour was what had impressed me most.",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "yellow-face-section_1",
+      "position": 173,
+      "text": "It was of a livid chalky white, and with something set and rigid about it which was shockingly unnatural.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "yellow-face-section_1",
+      "position": 174,
+      "text": "So disturbed was I that I determined to see a little more of the new inmates of the cottage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "yellow-face-section_1",
+      "position": 175,
+      "text": "I approached and knocked at the door, which was instantly opened by a tall, gaunt woman with a harsh, forbidding face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "yellow-face-section_1",
+      "position": 176,
+      "text": "' she asked, in a Northern accent.",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "yellow-face-section_1",
+      "position": 177,
+      "text": "ked, in a Northern accent.",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "yellow-face-section_1",
+      "position": 178,
+      "text": "\"'I am your neighbour over yonder,' said I, nodding towards my house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "yellow-face-section_1",
+      "position": 179,
+      "text": "'I see that you have only just moved in, so I thought that if I could be of any help to you in any—'",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "yellow-face-section_1",
+      "position": 180,
+      "text": "\"'Ay, we'll just ask ye when we want ye,' said she, and shut the door in my face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "yellow-face-section_1",
+      "position": 181,
+      "text": "Annoyed at the churlish rebuff, I turned my back and walked home.",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "yellow-face-section_1",
+      "position": 182,
+      "text": "All evening, though I tried to think of other things, my mind would still turn to the apparition at the window and the rudeness of the woman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "yellow-face-section_1",
+      "position": 183,
+      "text": "I determined to say nothing about the former to my wife, for she is a nervous, highly strung woman, and I had no wish that she would share the unpleasant impression which had been produced upon myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "yellow-face-section_1",
+      "position": 184,
+      "text": "I remarked to her, however, before I fell asleep, that the cottage was now occupied, to which she returned no reply.",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "yellow-face-section_1",
+      "position": 185,
+      "text": "\"I am usually an extremely sound sleeper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "yellow-face-section_1",
+      "position": 186,
+      "text": "It has been a standing jest in the family that nothing could ever wake me during the night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "yellow-face-section_1",
+      "position": 187,
+      "text": "And yet somehow on that particular night, whether it may have been the slight excitement produced by my little adventure or not I know not, but I slept much more lightly than usual.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "yellow-face-section_1",
+      "position": 188,
+      "text": "Half in my dreams I was dimly conscious that something was going on in the room, and gradually became aware that my wife had dressed herself and was slipping on her mantle and her bonnet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "yellow-face-section_1",
+      "position": 189,
+      "text": "My lips were parted to murmur out some sleepy words of surprise or remonstrance at this untimely preparation, when suddenly my half-opened eyes fell upon her face, illuminated by the candle-light, and astonishment held me dumb.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "yellow-face-section_1",
+      "position": 190,
+      "text": "She wore an expression such as I had never seen before—such as I should have thought her incapable of assuming.",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "yellow-face-section_1",
+      "position": 191,
+      "text": "She was deadly pale and breathing fast, glancing furtively towards the bed as she fastened her mantle, to see if she had disturbed me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "yellow-face-section_1",
+      "position": 192,
+      "text": "Then, thinking that I was still asleep, she slipped noiselessly from the room, and an instant later I heard a sharp creaking which could only come from the hinges of the front door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "yellow-face-section_1",
+      "position": 193,
+      "text": "I sat up in bed and rapped my knuckles against the rail to make certain that I was truly awake.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "yellow-face-section_1",
+      "position": 194,
+      "text": "Then I took my watch from under the pillow.",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "yellow-face-section_1",
+      "position": 195,
+      "text": "It was three in the morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "yellow-face-section_1",
+      "position": 196,
+      "text": "What on this earth could my wife be doing out on the country road at three in the morning?",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "yellow-face-section_2",
+      "position": 197,
+      "text": "\"I had sat for about twenty minutes turning the thing over in my mind and trying to find some possible explanation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "yellow-face-section_2",
+      "position": 198,
+      "text": "The more I thought, the more extraordinary and inexplicable did it appear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "yellow-face-section_2",
+      "position": 199,
+      "text": "I was still puzzling over it when I heard the door gently close again, and her footsteps coming up the stairs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "yellow-face-section_2",
+      "position": 200,
+      "text": "' I asked as she entered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "yellow-face-section_2",
+      "position": 201,
+      "text": "you been, Effie?' I asked as she entered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "yellow-face-section_2",
+      "position": 202,
+      "text": "\"She gave a violent start and a kind of gasping cry when I spoke, and that cry and start troubled me more than all the rest, for there was something indescribably guilty about them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "yellow-face-section_2",
+      "position": 203,
+      "text": "My wife had always been a woman of a frank, open nature, and it gave me a chill to see her slinking into her own room, and crying out and wincing when her own husband spoke to her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "yellow-face-section_2",
+      "position": 204,
+      "text": "' she cried, with a nervous laugh.",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "yellow-face-section_2",
+      "position": 205,
+      "text": "h a nervous laugh. 'Why, I thought that nothing could awake you.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "yellow-face-section_2",
+      "position": 206,
+      "text": "' I asked, more sternly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "yellow-face-section_2",
+      "position": 207,
+      "text": "I asked, more sternly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "yellow-face-section_2",
+      "position": 208,
+      "text": "\"'I don't wonder that you are surprised,' said she, and I could see that her fingers were trembling as she undid the fastenings of her mantle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "yellow-face-section_2",
+      "position": 209,
+      "text": "'Why, I never remember having done such a thing in my life before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "yellow-face-section_2",
+      "position": 210,
+      "text": "The fact is that I felt as though I were choking, and had a perfect longing for a breath of fresh air.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "yellow-face-section_2",
+      "position": 211,
+      "text": "I really think that I should have fainted if I had not gone out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "yellow-face-section_2",
+      "position": 212,
+      "text": "I stood at the door for a few minutes, and now I am quite myself again.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "yellow-face-section_2",
+      "position": 213,
+      "text": "\"All the time that she was telling me this story she never once looked in my direction, and her voice was quite unlike her usual tones.",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "yellow-face-section_2",
+      "position": 214,
+      "text": "It was evident to me that she was saying what was false.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "yellow-face-section_2",
+      "position": 215,
+      "text": "I said nothing in reply, but turned my face to the wall, sick at heart, with my mind filled with a thousand venomous doubts and suspicions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "yellow-face-section_2",
+      "position": 216,
+      "text": "What was it that my wife was concealing from me?",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "yellow-face-section_2",
+      "position": 217,
+      "text": "Where had she been during that strange expedition?",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "yellow-face-section_2",
+      "position": 218,
+      "text": "I felt that I should have no peace until I knew, and yet I shrank from asking her again after once she had told me what was false.",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "yellow-face-section_2",
+      "position": 219,
+      "text": "All the rest of the night I tossed and tumbled, framing theory after theory, each more unlikely than the last.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "yellow-face-section_2",
+      "position": 220,
+      "text": "\"I should have gone to the City that day, but I was too disturbed in my mind to be able to pay attention to business matters.",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "yellow-face-section_2",
+      "position": 221,
+      "text": "My wife seemed to be as upset as myself, and I could see from the little questioning glances which she kept shooting at me that she understood that I disbelieved her statement, and that she was at her wits' end what to do.",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "yellow-face-section_2",
+      "position": 222,
+      "text": "We hardly exchanged a word during breakfast, and immediately afterwards I went out for a walk, that I might think the matter out in the fresh morning air.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "yellow-face-section_2",
+      "position": 223,
+      "text": "\"I went as far as the Crystal Palace, spent an hour in the grounds, and was back in Norbury by one o'clock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "yellow-face-section_2",
+      "position": 224,
+      "text": "It happened that my way took me past the cottage, and I stopped for an instant to look at the windows, and to see if I could catch a glimpse of the strange face which had looked out at me on the day before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "yellow-face-section_2",
+      "position": 225,
+      "text": "As I stood there, imagine my surprise, Mr. Holmes, when the door suddenly opened and my wife walked out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "yellow-face-section_2",
+      "position": 226,
+      "text": "\"I was struck dumb with astonishment at the sight of her; but my emotions were nothing to those which showed themselves upon her face when our eyes met.",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "yellow-face-section_2",
+      "position": 227,
+      "text": "She seemed for an instant to wish to shrink back inside the house again; and then, seeing how useless all concealment must be, she came forward, with a very white face and frightened eyes which belied the smile upon her lips.",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "yellow-face-section_2",
+      "position": 228,
+      "text": "\"'Ah, Jack,' she said, 'I have just been in to see if I can be of any assistance to our new neighbours.",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "yellow-face-section_2",
+      "position": 229,
+      "text": "Why do you look at me like that, Jack?",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "yellow-face-section_2",
+      "position": 230,
+      "text": "You are not angry with me?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "yellow-face-section_2",
+      "position": 231,
+      "text": "\"'So,' said I, 'this is where you went during the night.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "yellow-face-section_2",
+      "position": 232,
+      "text": "' she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "yellow-face-section_2",
+      "position": 233,
+      "text": "u mean?' she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "yellow-face-section_2",
+      "position": 234,
+      "text": "\"'You came here.",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "yellow-face-section_2",
+      "position": 235,
+      "text": "I am sure of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "yellow-face-section_2",
+      "position": 236,
+      "text": "Who are these people, that you should visit them at such an hour?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "yellow-face-section_2",
+      "position": 237,
+      "text": "\"'I have not been here before.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "yellow-face-section_2",
+      "position": 238,
+      "text": "' I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "yellow-face-section_2",
+      "position": 239,
+      "text": "'Your very voice changes as you speak.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "yellow-face-section_2",
+      "position": 240,
+      "text": "When have I ever had a secret from you?",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "yellow-face-section_2",
+      "position": 241,
+      "text": "peak. When have I ever had a secret from you? I shall enter that cottage, and I shall probe the matter to the bottom.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "yellow-face-section_2",
+      "position": 242,
+      "text": "' she gasped, in uncontrollable emotion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "yellow-face-section_2",
+      "position": 243,
+      "text": "Then, as I approached the door, she seized my sleeve and pulled me back with convulsive strength.",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "yellow-face-section_2",
+      "position": 244,
+      "text": "back with convulsive strength.",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "yellow-face-section_2",
+      "position": 245,
+      "text": "\"'I implore you not to do this, Jack,' she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "yellow-face-section_2",
+      "position": 246,
+      "text": "' Then, as I tried to shake her off, she clung to me in a frenzy of entreaty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "yellow-face-section_2",
+      "position": 247,
+      "text": "come of it if you enter that cottage.' Then, as I tried to shake her off, she clung to me in a frenzy of entreaty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "yellow-face-section_2",
+      "position": 248,
+      "text": "' she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "yellow-face-section_2",
+      "position": 249,
+      "text": "'Trust me only this once.",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "yellow-face-section_2",
+      "position": 250,
+      "text": "You will never have cause to regret it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "yellow-face-section_2",
+      "position": 251,
+      "text": "You know that I would not have a secret from you if it were not for your own sake.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "yellow-face-section_2",
+      "position": 252,
+      "text": "Our whole lives are at stake in this.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "yellow-face-section_2",
+      "position": 253,
+      "text": "If you come home with me, all will be well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "yellow-face-section_2",
+      "position": 254,
+      "text": "all will be well. If you force your way into that cottage, all is over between us.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "yellow-face-section_2",
+      "position": 255,
+      "text": "\"There was such earnestness, such despair, in her manner that her words arrested me, and I stood irresolute before the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "yellow-face-section_2",
+      "position": 256,
+      "text": "\"'I will trust you on one condition, and on one condition only,' said I at last.",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "yellow-face-section_2",
+      "position": 257,
+      "text": "'It is that this mystery comes to an end from now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "yellow-face-section_2",
+      "position": 258,
+      "text": "You are at liberty to preserve your secret, but you must promise me that there shall be no more nightly visits, no more doings which are kept from my knowledge.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "yellow-face-section_2",
+      "position": 259,
+      "text": "I am willing to forget those which are passed if you will promise that there shall be no more in the future.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "yellow-face-section_2",
+      "position": 260,
+      "text": "\"'I was sure that you would trust me,' she cried, with a great sigh of relief.",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "yellow-face-section_2",
+      "position": 261,
+      "text": "'It shall be just as you wish.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "yellow-face-section_2",
+      "position": 262,
+      "text": "Come away—oh, come away up to the house.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "yellow-face-section_2",
+      "position": 263,
+      "text": "\"Still pulling at my sleeve, she led me away from the cottage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "yellow-face-section_2",
+      "position": 264,
+      "text": "As we went I glanced back, and there was that yellow livid face watching us out of the upper window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "yellow-face-section_2",
+      "position": 265,
+      "text": "What link could there be between that creature and my wife?",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "yellow-face-section_2",
+      "position": 266,
+      "text": "Or how could the coarse, rough woman whom I had seen the day before be connected with her?",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "yellow-face-section_2",
+      "position": 267,
+      "text": "It was a strange puzzle, and yet I knew that my mind could never know ease again until I had solved it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "yellow-face-section_2",
+      "position": 268,
+      "text": "\"For two days after this I stayed at home, and my wife appeared to abide loyally by our engagement, for, as far as I know, she never stirred out of the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "yellow-face-section_2",
+      "position": 269,
+      "text": "On the third day, however, I had ample evidence that her solemn promise was not enough to hold her back from this secret influence which drew her away from her husband and her duty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "yellow-face-section_2",
+      "position": 270,
+      "text": "36, which is my usual train.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "yellow-face-section_2",
+      "position": 271,
+      "text": "As I entered the house the maid ran into the hall with a startled face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "yellow-face-section_2",
+      "position": 272,
+      "text": "train. As I entered the house the maid ran into the hall with a startled face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "yellow-face-section_2",
+      "position": 273,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "yellow-face-section_2",
+      "position": 274,
+      "text": "your mistress?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "yellow-face-section_2",
+      "position": 275,
+      "text": "\"'I think that she has gone out for a walk,' she answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "yellow-face-section_2",
+      "position": 276,
+      "text": "\"My mind was instantly filled with suspicion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "yellow-face-section_2",
+      "position": 277,
+      "text": "I rushed upstairs to make sure that she was not in the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "yellow-face-section_2",
+      "position": 278,
+      "text": "As I did so I happened to glance out of one of the upper windows, and saw the maid with whom I had just been speaking running across the field in the direction of the cottage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "yellow-face-section_2",
+      "position": 279,
+      "text": "Then of course I saw exactly what it all meant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "yellow-face-section_2",
+      "position": 280,
+      "text": "My wife had gone over there, and had asked the servant to call her if I should return.",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "yellow-face-section_2",
+      "position": 281,
+      "text": "Tingling with anger, I rushed down and hurried across, determined to end the matter once and forever.",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "yellow-face-section_2",
+      "position": 282,
+      "text": "I saw my wife and the maid hurrying back along the lane, but I did not stop to speak with them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "yellow-face-section_2",
+      "position": 283,
+      "text": "In the cottage lay the secret which was casting a shadow over my life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "yellow-face-section_2",
+      "position": 284,
+      "text": "I vowed that, come what might, it should be a secret no longer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "yellow-face-section_2",
+      "position": 285,
+      "text": "I did not even knock when I reached it, but turned the handle and rushed into the passage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "yellow-face-section_2",
+      "position": 286,
+      "text": "\"It was all still and quiet upon the ground floor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "yellow-face-section_2",
+      "position": 287,
+      "text": "In the kitchen a kettle was singing on the fire, and a large black cat lay coiled up in the basket; but there was no sign of the woman whom I had seen before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "yellow-face-section_2",
+      "position": 288,
+      "text": "I ran into the other room, but it was equally deserted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "yellow-face-section_2",
+      "position": 289,
+      "text": "Then I rushed up the stairs, only to find two other rooms empty and deserted at the top.",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "yellow-face-section_2",
+      "position": 290,
+      "text": "There was no one at all in the whole house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "yellow-face-section_2",
+      "position": 291,
+      "text": "The furniture and pictures were of the most common and vulgar description, save in the one chamber at the window of which I had seen the strange face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "yellow-face-section_2",
+      "position": 292,
+      "text": "That was comfortable and elegant, and all my suspicions rose into a fierce bitter flame when I saw that on the mantelpiece stood a copy of a full-length photograph of my wife, which had been taken at my request only three months ago.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "yellow-face-section_2",
+      "position": 293,
+      "text": "\"I stayed long enough to make certain that the house was absolutely empty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "yellow-face-section_2",
+      "position": 294,
+      "text": "Then I left it, feeling a weight at my heart such as I had never had before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "yellow-face-section_2",
+      "position": 295,
+      "text": "My wife came out into the hall as I entered my house; but I was too hurt and angry to speak with her, and pushing past her, I made my way into my study.",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "yellow-face-section_2",
+      "position": 296,
+      "text": "She followed me, however, before I could close the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "yellow-face-section_2",
+      "position": 297,
+      "text": "\"'I am sorry that I broke my promise, Jack,' said she; 'but if you knew all the circumstances I am sure that you would forgive me.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "yellow-face-section_2",
+      "position": 298,
+      "text": "\"'Tell me everything, then,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "yellow-face-section_2",
+      "position": 299,
+      "text": "\"'I cannot, Jack, I cannot,' she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "yellow-face-section_2",
+      "position": 300,
+      "text": "\"'Until you tell me who it is that has been living in that cottage, and who it is to whom you have given that photograph, there can never be any confidence between us,' said I, and breaking away from her, I left the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "yellow-face-section_2",
+      "position": 301,
+      "text": "That was yesterday, Mr. Holmes, and I have not seen her since, nor do I know anything more about this strange business.",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "yellow-face-section_2",
+      "position": 302,
+      "text": "It is the first shadow that has come between us, and it has so shaken me that I do not know what I should do for the best.",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "yellow-face-section_2",
+      "position": 303,
+      "text": "Suddenly this morning it occurred to me that you were the man to advise me, so I have hurried to you now, and I place myself unreservedly in your hands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "yellow-face-section_2",
+      "position": 304,
+      "text": "If there is any point which I have not made clear, pray question me about it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "yellow-face-section_2",
+      "position": 305,
+      "text": "But, above all, tell me quickly what I am to do, for this misery is more than I can bear.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "yellow-face-section_2",
+      "position": 306,
+      "text": "Holmes and I had listened with the utmost interest to this extraordinary statement, which had been delivered in the jerky, broken fashion of a man who is under the influence of extreme emotions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "yellow-face-section_2",
+      "position": 307,
+      "text": "My companion sat silent for some time, with his chin upon his hand, lost in thought.",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "yellow-face-section_2",
+      "position": 308,
+      "text": "\"Tell me,\" said he at last, \"could you swear that this was a man's face which you saw at the window?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "yellow-face-section_2",
+      "position": 309,
+      "text": "\"Each time that I saw it I was some distance away from it, so that it is impossible for me to say.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "yellow-face-section_2",
+      "position": 310,
+      "text": "\"You appear, however, to have been disagreeably impressed by it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "yellow-face-section_2",
+      "position": 311,
+      "text": "\"It seemed to be of an unnatural colour, and to have a strange rigidity about the features.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "yellow-face-section_2",
+      "position": 312,
+      "text": "When I approached, it vanished with a jerk.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "yellow-face-section_2",
+      "position": 313,
+      "text": "\"How long is it since your wife asked you for a hundred pounds?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "yellow-face-section_2",
+      "position": 314,
+      "text": "\"Nearly two months.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "yellow-face-section_2",
+      "position": 315,
+      "text": "\"Have you ever seen a photograph of her first husband?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "yellow-face-section_2",
+      "position": 316,
+      "text": "\"No; there was a great fire at Atlanta very shortly after his death, and all her papers were destroyed.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "yellow-face-section_2",
+      "position": 317,
+      "text": "\"And yet she had a certificate of death.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "yellow-face-section_2",
+      "position": 318,
+      "text": "You say that you saw it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "yellow-face-section_2",
+      "position": 319,
+      "text": "\"Yes; she got a duplicate after the fire.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "yellow-face-section_2",
+      "position": 320,
+      "text": "\"Did you ever meet any one who knew her in America?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "yellow-face-section_2",
+      "position": 321,
+      "text": "\"No.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "yellow-face-section_2",
+      "position": 322,
+      "text": "\"Did she ever talk of revisiting the place?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "yellow-face-section_2",
+      "position": 323,
+      "text": "\"No.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "yellow-face-section_2",
+      "position": 324,
+      "text": "\"Or get letters from it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "yellow-face-section_2",
+      "position": 325,
+      "text": "\"No.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "yellow-face-section_2",
+      "position": 326,
+      "text": "\"Thank you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "yellow-face-section_2",
+      "position": 327,
+      "text": "I should like to think over the matter a little now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "yellow-face-section_2",
+      "position": 328,
+      "text": "If the cottage is now permanently deserted we may have some difficulty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "yellow-face-section_2",
+      "position": 329,
+      "text": "If, on the other hand, as I fancy is more likely, the inmates were warned of your coming, and left before you entered yesterday, then they may be back now, and we should clear it all up easily.",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "yellow-face-section_2",
+      "position": 330,
+      "text": "Let me advise you, then, to return to Norbury, and to examine the windows of the cottage again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "yellow-face-section_2",
+      "position": 331,
+      "text": "If you have reason to believe that it is inhabited, do not force your way in, but send a wire to my friend and me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "yellow-face-section_2",
+      "position": 332,
+      "text": "We shall be with you within an hour of receiving it, and we shall then very soon get to the bottom of the business.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "yellow-face-section_2",
+      "position": 333,
+      "text": "\"And if it is still empty?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "yellow-face-section_2",
+      "position": 334,
+      "text": "\"In that case I shall come out to-morrow and talk it over with you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "yellow-face-section_2",
+      "position": 335,
+      "text": "Good-by; and, above all, do not fret until you know that you really have a cause for it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "yellow-face-section_2",
+      "position": 336,
+      "text": "\"I am afraid that this is a bad business, Watson,\" said my companion, as he returned after accompanying Mr. Grant Munro to the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "yellow-face-section_2",
+      "position": 337,
+      "text": "\"What do you make of it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "yellow-face-section_2",
+      "position": 338,
+      "text": "\"It had an ugly sound,\" I answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "yellow-face-section_2",
+      "position": 339,
+      "text": "\"Yes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "yellow-face-section_2",
+      "position": 340,
+      "text": "There's blackmail in it, or I am much mistaken.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "yellow-face-section_2",
+      "position": 341,
+      "text": "\"And who is the blackmailer?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "yellow-face-section_2",
+      "position": 342,
+      "text": "\"Well, it must be the creature who lives in the only comfortable room in the place, and has her photograph above his fireplace.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "yellow-face-section_2",
+      "position": 343,
+      "text": "Upon my word, Watson, there is something very attractive about that livid face at the window, and I would not have missed the case for worlds.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "yellow-face-section_2",
+      "position": 344,
+      "text": "\"You have a theory?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "yellow-face-section_2",
+      "position": 345,
+      "text": "\"Yes, a provisional one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "yellow-face-section_2",
+      "position": 346,
+      "text": "But I shall be surprised if it does not turn out to be correct.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "yellow-face-section_2",
+      "position": 347,
+      "text": "This woman's first husband is in that cottage.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "yellow-face-section_2",
+      "position": 348,
+      "text": "\"Why do you think so?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "yellow-face-section_2",
+      "position": 349,
+      "text": "\"How else can we explain her frenzied anxiety that her second one should not enter it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "yellow-face-section_2",
+      "position": 350,
+      "text": "The facts, as I read them, are something like this: This woman was married in America.",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "yellow-face-section_2",
+      "position": 351,
+      "text": "Her husband developed some hateful qualities; or shall we say that he contracted some loathsome disease, and became a leper or an imbecile?",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "yellow-face-section_2",
+      "position": 352,
+      "text": "She flies from him at last, returns to England, changes her name, and starts her life, as she thinks, afresh.",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "yellow-face-section_2",
+      "position": 353,
+      "text": "She has been married three years, and believes that her position is quite secure, having shown her husband the death certificate of some man whose name she has assumed, when suddenly her whereabouts is discovered by her first husband; or, we may suppose, by some unscrupulous woman who has attached herself to the invalid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "yellow-face-section_2",
+      "position": 354,
+      "text": "They write to the wife, and threaten to come and expose her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "yellow-face-section_2",
+      "position": 355,
+      "text": "She asks for a hundred pounds, and endeavours to buy them off.",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "yellow-face-section_2",
+      "position": 356,
+      "text": "They come in spite of it, and when the husband mentions casually to the wife that there are new-comers in the cottage, she knows in some way that they are her pursuers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "yellow-face-section_2",
+      "position": 357,
+      "text": "She waits until her husband is asleep, and then she rushes down to endeavour to persuade them to leave her in peace.",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "yellow-face-section_2",
+      "position": 358,
+      "text": "Having no success, she goes again next morning, and her husband meets her, as he has told us, as she comes out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "yellow-face-section_2",
+      "position": 359,
+      "text": "She promises him then not to go there again, but two days afterwards the hope of getting rid of those dreadful neighbours was too strong for her, and she made another attempt, taking down with her the photograph which had probably been demanded from her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "yellow-face-section_2",
+      "position": 360,
+      "text": "In the midst of this interview the maid rushed in to say that the master had come home, on which the wife, knowing that he would come straight down to the cottage, hurried the inmates out at the back door, into the grove of fir-trees, probably, which was mentioned as standing near.",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "yellow-face-section_2",
+      "position": 361,
+      "text": "In this way he found the place deserted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "yellow-face-section_2",
+      "position": 362,
+      "text": "I shall be very much surprised, however, if it is still so when he reconnoitres it this evening.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "yellow-face-section_2",
+      "position": 363,
+      "text": "What do you think of my theory?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "yellow-face-section_2",
+      "position": 364,
+      "text": "\"It is all surmise.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "yellow-face-section_2",
+      "position": 365,
+      "text": "\"But at least it covers all the facts.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "yellow-face-section_2",
+      "position": 366,
+      "text": "When new facts come to our knowledge which cannot be covered by it, it will be time enough to reconsider it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "yellow-face-section_2",
+      "position": 367,
+      "text": "We can do nothing more until we have a message from our friend at Norbury.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "yellow-face-section_2",
+      "position": 368,
+      "text": "But we had not a very long time to wait for that.",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "yellow-face-section_2",
+      "position": 369,
+      "text": "It came just as we had finished our tea.",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "yellow-face-section_2",
+      "position": 370,
+      "text": "\"The cottage is still tenanted,\" it said.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "yellow-face-section_2",
+      "position": 371,
+      "text": "\"Have seen the face again at the window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "yellow-face-section_2",
+      "position": 372,
+      "text": "Will meet the seven o'clock train, and will take no steps until you arrive.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "yellow-face-section_2",
+      "position": 373,
+      "text": "He was waiting on the platform when we stepped out, and we could see in the light of the station lamps that he was very pale, and quivering with agitation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "yellow-face-section_2",
+      "position": 374,
+      "text": "\"They are still there, Mr. Holmes,\" said he, laying his hand hard upon my friend's sleeve.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "yellow-face-section_2",
+      "position": 375,
+      "text": "\"I saw lights in the cottage as I came down.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "yellow-face-section_2",
+      "position": 376,
+      "text": "We shall settle it now once and for all.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "yellow-face-section_2",
+      "position": 377,
+      "text": "\"What is your plan, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "yellow-face-section_2",
+      "position": 378,
+      "text": "asked Holmes, as he walked down the dark tree-lined road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "yellow-face-section_2",
+      "position": 379,
+      "text": "\"I am going to force my way in and see for myself who is in the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "yellow-face-section_2",
+      "position": 380,
+      "text": "I wish you both to be there as witnesses.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "yellow-face-section_2",
+      "position": 381,
+      "text": "\"You are quite determined to do this, in spite of your wife's warning that it is better that you should not solve the mystery?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "yellow-face-section_2",
+      "position": 382,
+      "text": "\"Yes, I am determined.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "yellow-face-section_2",
+      "position": 383,
+      "text": "\"Well, I think that you are in the right.",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "yellow-face-section_2",
+      "position": 384,
+      "text": "Any truth is better than indefinite doubt.",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "yellow-face-section_2",
+      "position": 385,
+      "text": "We had better go up at once.",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "yellow-face-section_2",
+      "position": 386,
+      "text": "Of course, legally, we are putting ourselves hopelessly in the wrong; but I think that it is worth it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "yellow-face-section_2",
+      "position": 387,
+      "text": "It was a very dark night, and a thin rain began to fall as we turned from the high road into a narrow lane, deeply rutted, with hedges on either side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "yellow-face-section_2",
+      "position": 388,
+      "text": "Mr. Grant Munro pushed impatiently forward, however, and we stumbled after him as best we could.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "yellow-face-section_3",
+      "position": 389,
+      "text": "\"There are the lights of my house,\" he murmured, pointing to a glimmer among the trees.",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "yellow-face-section_3",
+      "position": 390,
+      "text": "\"And here is the cottage which I am going to enter.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "yellow-face-section_3",
+      "position": 391,
+      "text": "We turned a corner in the lane as he spoke, and there was the building close beside us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "yellow-face-section_3",
+      "position": 392,
+      "text": "A yellow bar falling across the black foreground showed that the door was not quite closed, and one window in the upper story was brightly illuminated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "yellow-face-section_3",
+      "position": 393,
+      "text": "As we looked, we saw a dark blur moving across the blind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "yellow-face-section_3",
+      "position": 394,
+      "text": "\"There is that creature!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "yellow-face-section_3",
+      "position": 395,
+      "text": "cried Grant Munro.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "yellow-face-section_3",
+      "position": 396,
+      "text": "\"You can see for yourselves that some one is there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "yellow-face-section_3",
+      "position": 397,
+      "text": "Now follow me, and we shall soon know all.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "yellow-face-section_3",
+      "position": 398,
+      "text": "We approached the door; but suddenly a woman appeared out of the shadow and stood in the golden track of the lamp-light.",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "yellow-face-section_3",
+      "position": 399,
+      "text": "I could not see her face in the darkness, but her arms were thrown out in an attitude of entreaty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "yellow-face-section_3",
+      "position": 400,
+      "text": "\"For God's sake, don't Jack!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "yellow-face-section_3",
+      "position": 401,
+      "text": "she cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "yellow-face-section_3",
+      "position": 402,
+      "text": "\"I had a presentiment that you would come this evening.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "yellow-face-section_3",
+      "position": 403,
+      "text": "Think better of it, dear!",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "yellow-face-section_3",
+      "position": 404,
+      "text": "Trust me again, and you will never have cause to regret it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "yellow-face-section_3",
+      "position": 405,
+      "text": "\"I have trusted you too long, Effie,\" he cried, sternly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "yellow-face-section_3",
+      "position": 406,
+      "text": "\"Leave go of me!",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "yellow-face-section_3",
+      "position": 407,
+      "text": "I must pass you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "yellow-face-section_3",
+      "position": 408,
+      "text": "My friends and I are going to settle this matter once and forever!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "yellow-face-section_3",
+      "position": 409,
+      "text": "He pushed her to one side, and we followed closely after him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "yellow-face-section_3",
+      "position": 410,
+      "text": "As he threw the door open an old woman ran out in front of him and tried to bar his passage, but he thrust her back, and an instant afterwards we were all upon the stairs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "yellow-face-section_3",
+      "position": 411,
+      "text": "Grant Munro rushed into the lighted room at the top, and we entered at his heels.",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "yellow-face-section_3",
+      "position": 412,
+      "text": "It was a cosey, well-furnished apartment, with two candles burning upon the table and two upon the mantelpiece.",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "yellow-face-section_3",
+      "position": 413,
+      "text": "In the corner, stooping over a desk, there sat what appeared to be a little girl.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "yellow-face-section_3",
+      "position": 414,
+      "text": "Her face was turned away as we entered, but we could see that she was dressed in a red frock, and that she had long white gloves on.",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "yellow-face-section_3",
+      "position": 415,
+      "text": "As she whisked round to us, I gave a cry of surprise and horror.",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "yellow-face-section_3",
+      "position": 416,
+      "text": "The face which she turned towards us was of the strangest livid tint, and the features were absolutely devoid of any expression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "yellow-face-section_3",
+      "position": 417,
+      "text": "An instant later the mystery was explained.",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "yellow-face-section_3",
+      "position": 418,
+      "text": "Holmes, with a laugh, passed his hand behind the child's ear, a mask peeled off from her countenance, and there was a little coal black negress, with all her white teeth flashing in amusement at our amazed faces.",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "yellow-face-section_3",
+      "position": 419,
+      "text": "I burst out laughing, out of sympathy with her merriment; but Grant Munro stood staring, with his hand clutching his throat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "yellow-face-section_3",
+      "position": 420,
+      "text": "\"My God!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "yellow-face-section_3",
+      "position": 421,
+      "text": "he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "yellow-face-section_3",
+      "position": 422,
+      "text": "\"What can be the meaning of this?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "yellow-face-section_3",
+      "position": 423,
+      "text": "\"I will tell you the meaning of it,\" cried the lady, sweeping into the room with a proud, set face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "yellow-face-section_3",
+      "position": 424,
+      "text": "\"You have forced me, against my own judgment, to tell you, and now we must both make the best of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "yellow-face-section_3",
+      "position": 425,
+      "text": "My husband died at Atlanta.",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "yellow-face-section_3",
+      "position": 426,
+      "text": "My child survived.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "yellow-face-section_3",
+      "position": 427,
+      "text": "\"Your child?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "yellow-face-section_3",
+      "position": 428,
+      "text": "She drew a large silver locket from her bosom.",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "yellow-face-section_3",
+      "position": 429,
+      "text": "\"You have never seen this open.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "yellow-face-section_3",
+      "position": 430,
+      "text": "\"I understood that it did not open.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "yellow-face-section_3",
+      "position": 431,
+      "text": "She touched a spring, and the front hinged back.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "yellow-face-section_3",
+      "position": 432,
+      "text": "There was a portrait within of a man strikingly handsome and intelligent-looking, but bearing unmistakable signs upon his features of his African descent.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "yellow-face-section_3",
+      "position": 433,
+      "text": "\"That is John Hebron, of Atlanta,\" said the lady, \"and a nobler man never walked the earth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "yellow-face-section_3",
+      "position": 434,
+      "text": "I cut myself off from my race in order to wed him, but never once while he lived did I for an instant regret it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "yellow-face-section_3",
+      "position": 435,
+      "text": "It was our misfortune that our only child took after his people rather than mine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "yellow-face-section_3",
+      "position": 436,
+      "text": "It is often so in such matches, and little Lucy is darker far than ever her father was.",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "yellow-face-section_3",
+      "position": 437,
+      "text": "But dark or fair, she is my own dear little girlie, and her mother's pet.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "yellow-face-section_3",
+      "position": 438,
+      "text": "The little creature ran across at the words and nestled up against the lady's dress.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "yellow-face-section_3",
+      "position": 439,
+      "text": "\"When I left her in America,\" she continued, \"it was only because her health was weak, and the change might have done her harm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "yellow-face-section_3",
+      "position": 440,
+      "text": "She was given to the care of a faithful Scotch woman who had once been our servant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "yellow-face-section_3",
+      "position": 441,
+      "text": "Never for an instant did I dream of disowning her as my child.",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "yellow-face-section_3",
+      "position": 442,
+      "text": "But when chance threw you in my way, Jack, and I learned to love you, I feared to tell you about my child.",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "yellow-face-section_3",
+      "position": 443,
+      "text": "God forgive me, I feared that I should lose you, and I had not the courage to tell you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "yellow-face-section_3",
+      "position": 444,
+      "text": "I had to choose between you, and in my weakness I turned away from my own little girl.",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "yellow-face-section_3",
+      "position": 445,
+      "text": "For three years I have kept her existence a secret from you, but I heard from the nurse, and I knew that all was well with her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "yellow-face-section_3",
+      "position": 446,
+      "text": "At last, however, there came an overwhelming desire to see the child once more.",
+      "entities": []
+    },
+    {
+      "id": "sentence_448",
+      "section": "yellow-face-section_3",
+      "position": 447,
+      "text": "I struggled against it, but in vain.",
+      "entities": []
+    },
+    {
+      "id": "sentence_449",
+      "section": "yellow-face-section_3",
+      "position": 448,
+      "text": "Though I knew the danger, I determined to have the child over, if it were but for a few weeks.",
+      "entities": []
+    },
+    {
+      "id": "sentence_450",
+      "section": "yellow-face-section_3",
+      "position": 449,
+      "text": "I sent a hundred pounds to the nurse, and I gave her instructions about this cottage, so that she might come as a neighbour, without my appearing to be in any way connected with her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_451",
+      "section": "yellow-face-section_3",
+      "position": 450,
+      "text": "I pushed my precautions so far as to order her to keep the child in the house during the daytime, and to cover up her little face and hands so that even those who might see her at the window should not gossip about there being a black child in the neighbourhood.",
+      "entities": []
+    },
+    {
+      "id": "sentence_452",
+      "section": "yellow-face-section_3",
+      "position": 451,
+      "text": "If I had been less cautious I might have been more wise, but I was half crazy with fear that you should learn the truth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_453",
+      "section": "yellow-face-section_3",
+      "position": 452,
+      "text": "\"It was you who told me first that the cottage was occupied.",
+      "entities": []
+    },
+    {
+      "id": "sentence_454",
+      "section": "yellow-face-section_3",
+      "position": 453,
+      "text": "I should have waited for the morning, but I could not sleep for excitement, and so at last I slipped out, knowing how difficult it is to awake you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_455",
+      "section": "yellow-face-section_3",
+      "position": 454,
+      "text": "But you saw me go, and that was the beginning of my troubles.",
+      "entities": []
+    },
+    {
+      "id": "sentence_456",
+      "section": "yellow-face-section_3",
+      "position": 455,
+      "text": "Next day you had my secret at your mercy, but you nobly refrained from pursuing your advantage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_457",
+      "section": "yellow-face-section_3",
+      "position": 456,
+      "text": "Three days later, however, the nurse and child only just escaped from the back door as you rushed in at the front one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_458",
+      "section": "yellow-face-section_3",
+      "position": 457,
+      "text": "And now to-night you at last know all, and I ask you what is to become of us, my child and me?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_459",
+      "section": "yellow-face-section_3",
+      "position": 458,
+      "text": "She clasped her hands and waited for an answer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_460",
+      "section": "yellow-face-section_3",
+      "position": 459,
+      "text": "It was a long ten minutes before Grant Munro broke the silence, and when his answer came it was one of which I love to think.",
+      "entities": []
+    },
+    {
+      "id": "sentence_461",
+      "section": "yellow-face-section_3",
+      "position": 460,
+      "text": "He lifted the little child, kissed her, and then, still carrying her, he held his other hand out to his wife and turned towards the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_462",
+      "section": "yellow-face-section_3",
+      "position": 461,
+      "text": "\"We can talk it over more comfortably at home,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_463",
+      "section": "yellow-face-section_3",
+      "position": 462,
+      "text": "\"I am not a very good man, Effie, but I think that I am a better one than you have given me credit for being.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_464",
+      "section": "yellow-face-section_3",
+      "position": 463,
+      "text": "Holmes and I followed them down the lane, and my friend plucked at my sleeve as we came out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_465",
+      "section": "yellow-face-section_3",
+      "position": 464,
+      "text": "\"I think,\" said he, \"that we shall be of more use in London than in Norbury.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_466",
+      "section": "yellow-face-section_3",
+      "position": 465,
+      "text": "Not another word did he say of the case until late that night, when he was turning away, with his lighted candle, for his bedroom.",
+      "entities": []
+    },
+    {
+      "id": "sentence_467",
+      "section": "yellow-face-section_3",
+      "position": 466,
+      "text": "\"Watson,\" said he, \"if it should ever strike you that I am getting a little over-confident in my powers, or giving less pains to a case than it deserves, kindly whisper 'Norbury' in my ear, and I shall be infinitely obliged to you.\"",
+      "entities": []
+    }
+  ]
+}

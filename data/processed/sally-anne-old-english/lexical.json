@@ -1,0 +1,207 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 179
+    },
+    {
+      "id": "section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 198
+    },
+    {
+      "id": "section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 157
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "section_1",
+      "position": 0,
+      "text": "It was upon a mild and fragrant afternoon, in a quiet garden bordered by neatly trimmed hedges, that the curious incident of Anne and Sally unfolded—a case which, though simple in its outward form, reveals much about the inner workings of the human mind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "section_1",
+      "position": 1,
+      "text": "Anne, a thoughtful child with a keen and observant manner, had brought with her a small blue box of polished wood.",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "section_1",
+      "position": 2,
+      "text": "Sally, no less earnest but perhaps more trusting in disposition, carried a bright red basket lined with cloth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "section_1",
+      "position": 3,
+      "text": "The two companions, having exhausted their earlier amusements, devised a small game involving a glass marble of particular beauty—clear as crystal, with a swirl of green at its center.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "section_1",
+      "position": 4,
+      "text": "“We shall hide it,” said Sally, “and then delight in its rediscovery.”",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "section_1",
+      "position": 5,
+      "text": "With this, she placed the marble into her red basket, pressing the cloth gently over it as though to ensure its secrecy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "section_1",
+      "position": 6,
+      "text": "Anne watched this act with quiet attention, her eyes following every motion with a precision that might have impressed even the great Arthur Conan Doyle himself in the construction of a deductive tale.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "section_2",
+      "position": 7,
+      "text": "Before long, Sally announced that she must step inside the house to fetch a small refreshment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "section_2",
+      "position": 8,
+      "text": "She departed without hesitation, her mind entirely at ease, for she held no doubt as to the marble’s location.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "section_2",
+      "position": 9,
+      "text": "Anne remained behind in the garden, standing still for a moment as though considering some private line of inquiry.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "section_2",
+      "position": 10,
+      "text": "Then, with deliberate care, she approached the basket, lifted the cloth, and retrieved the marble.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "section_2",
+      "position": 11,
+      "text": "After a brief pause, she transferred it into her blue box and secured the lid, restoring the scene to an appearance of innocence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "section_2",
+      "position": 12,
+      "text": "When Sally returned, there was nothing in her demeanor to suggest suspicion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "section_2",
+      "position": 13,
+      "text": "Indeed, she carried herself with the quiet confidence of one who believes the world to be in perfect accordance with her expectations.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "section_2",
+      "position": 14,
+      "text": "Anne, however, now possessed knowledge that set her apart—knowledge not shared, and therein lay the heart of the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "section_2",
+      "position": 15,
+      "text": "Sally turned toward her red basket and, without hesitation, knelt beside it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "section_2",
+      "position": 16,
+      "text": "Her actions were guided not by the present reality—unknown to her—but by the memory she retained from before her departure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "section_2",
+      "position": 17,
+      "text": "Anne observed her closely, perhaps with the faintest hint of anticipation, as though awaiting the resolution of a most subtle puzzle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "section_3",
+      "position": 18,
+      "text": "And here, one is compelled to ask: where would Sally seek the marble?",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "section_3",
+      "position": 19,
+      "text": "Would she look within the blue box, wherein the marble now lay concealed, or would she search the basket, faithful to her original belief?",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "section_3",
+      "position": 20,
+      "text": "The answer, as any careful observer must conclude, is that Sally would first look into the red basket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "section_3",
+      "position": 21,
+      "text": "For though the marble has been moved, Sally has not witnessed this change.",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "section_3",
+      "position": 22,
+      "text": "Her belief remains anchored in her last observation, and it is upon this belief that her actions depend.",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "section_3",
+      "position": 23,
+      "text": "Anne’s knowledge, though accurate, is irrelevant to Sally’s perspective.",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "section_3",
+      "position": 24,
+      "text": "Thus, in this modest garden scene, we find a principle of profound significance: that each mind constructs its own version of events, and that behavior is governed not by objective truth alone, but by the truths we individually perceive.",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "section_3",
+      "position": 25,
+      "text": "It is a lesson worthy of reflection—one that echoes, in its own quiet way, the finest traditions of deductive reasoning and human understanding.",
+      "entities": []
+    }
+  ]
+}

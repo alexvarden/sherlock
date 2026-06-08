@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sutherland_hosmer_belief",
+    "character": "miss_mary_sutherland",
+    "section": "section_10",
+    "question": "Do you believe Hosmer Angel will come back? What do you make of his disappearance?",
+    "expectedTheme": "Miss Sutherland has witnessed Hosmer's courtship and their engagement; she did not witness any deception. She should express genuine faith that he will return, citing his pledge, and be baffled by the disappearance — she has no basis to suspect foul play or disguise."
+  },
+  {
+    "id": "watson_hosmer_mid_case",
+    "character": "dr_john_watson",
+    "section": "section_21",
+    "question": "Who do you think Hosmer Angel is, and what happened to him?",
+    "expectedTheme": "Watson has heard Miss Sutherland's story and been present for Holmes's questioning, but Holmes has not yet shared his conclusion. Watson should express genuine uncertainty — likely that Hosmer simply fled or there was a misunderstanding — without any suspicion of a disguised identity."
+  },
+  {
+    "id": "holmes_hosmer_solved",
+    "character": "sherlock_holmes",
+    "section": "section_21",
+    "question": "Who do you think Hosmer Angel is, and what happened to him?",
+    "expectedTheme": "Holmes has just told Watson he has solved it. He knows Hosmer Angel is Windibank in disguise — typewriter evidence, the physical descriptions matching, the motive of controlling Miss Sutherland's income. He should answer with confidence, naming Windibank."
+  },
+  {
+    "id": "holmes_windibank_motive",
+    "character": "sherlock_holmes",
+    "section": "section_28",
+    "question": "What was Mr. Windibank's motive for creating the Hosmer Angel disguise?",
+    "expectedTheme": "Holmes now has the full picture after confronting Windibank directly. He should explain that Windibank wanted to keep Miss Sutherland emotionally attached to a phantom so she would not marry and lose him access to her annuity income that supported the household."
+  },
+  {
+    "id": "watson_case_retrospective",
+    "character": "dr_john_watson",
+    "section": "section_28",
+    "question": "Looking back on the Hosmer Angel case, can you explain what happened?",
+    "expectedTheme": "Watson has now heard Holmes's explanation. He understands the broad strokes but admits he could not follow all the reasoning steps (he says so explicitly in this section). He should give an accurate but less precise account than Holmes would, acknowledging Holmes led the deduction."
+  }
+]

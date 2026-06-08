@@ -1,0 +1,2377 @@
+{
+  "entities": [
+    {
+      "id": "cardboard_box_case",
+      "type": "case",
+      "label": "Investigation into the Cardboard Box packet sent to Miss Cushing",
+      "description": "Investigation described as being actively investigated by Lestrade, involving a packet containing a cardboard box filled with coarse salt and two severed human ears sent to Miss Susan Cushing.",
+      "firstSection": "cardboard-box-section_1",
+      "source": "cardboard-box-section_1",
+      "crime_type": "murder",
+      "outcome": "unresolved",
+      "primary_location": "croydon_cross_street"
+    },
+    {
+      "id": "croydon_cross_street",
+      "type": "location",
+      "label": "Cross Street, Croydon",
+      "description": "Street where Miss Susan Cushing resides, visited by Holmes and Watson.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "belfast_post",
+      "type": "location",
+      "label": "Belfast (parcel-post sending area)",
+      "description": "Origin area from which the cardboard box was sent via parcel post.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "baker_street_house",
+      "type": "location",
+      "label": "Baker Street house",
+      "description": "Location of Holmes and Watson at the start of the section.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "broad_pointed_pen",
+      "type": "object",
+      "label": "Broad-pointed pen",
+      "description": "Pen type said to have been used to do parts of the parcel address.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "tarred_twine_string",
+      "type": "object",
+      "label": "Tarred twine string",
+      "description": "String around the parcel, described as tarred and cut with a scissors leaving a double fray while the knot remained intact.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "coffee_smelling_brown_paper",
+      "type": "object",
+      "label": "Brown paper with a distinct smell of coffee",
+      "description": "Wrapper around the packet/box, described with a coffee smell.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "yellow_cardboard_box",
+      "type": "object",
+      "label": "Yellow half-pound honeydew cardboard box",
+      "description": "Yellow cardboard box containing coarse salt and embedded severed ears.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "coarse_salt",
+      "type": "object",
+      "label": "Rough coarse salt",
+      "description": "Coarse salt used for preserving hides and other commercial purposes, filling the box.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "severed_womans_ear",
+      "type": "object",
+      "label": "Severed woman's ear",
+      "description": "An ear described as small, finely formed, and pierced for an earring.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "severed_mans_ear",
+      "type": "object",
+      "label": "Severed man's ear",
+      "description": "An ear described as sun-burned, discoloured, and pierced for an earring.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "daily_chronicle",
+      "type": "document",
+      "label": "Daily Chronicle newspaper paragraph",
+      "description": "Newspaper paragraph titled 'A Gruesome Packet' describing the mailing of the packet to Miss Cushing and its contents.",
+      "firstSection": "cardboard-box-section_1",
+      "document_type": "newspaper",
+      "content_summary": "Reports that Miss Susan Cushing of Cross Street, Croydon received a small parcel containing a cardboard box filled with coarse salt; upon emptying it she found two human ears, apparently freshly severed. States the box was sent from Belfast by parcel post the morning before; no sender is indicated. Notes Miss Cushing’s retired life and speculation that three medical students from her former Penge residence may be responsible. Says police are actively investigating and that Lestrade is in charge."
+    },
+    {
+      "id": "lestrade_note",
+      "type": "document",
+      "label": "Note from Lestrade to Holmes",
+      "description": "Note received by Holmes, mentioning difficulties identifying the parcel sender and requesting Watson to come to Croydon.",
+      "firstSection": "cardboard-box-section_1",
+      "document_type": "note",
+      "from": "lestrade",
+      "to": "holmes",
+      "content_summary": "Says the case is in Holmes's line; they hope to clear it up but have difficulty finding anything to work on because many parcels were handed in at Belfast and the sender/parcel cannot be identified. Mentions wiring the Belfast post-office, that the box is honeydew tobacco, and that the medical student theory seems feasible. Requests Holmes to see Watson out at his convenience and asks Watson to travel with him to Croydon in the event a case for Watson’s records arises."
+    },
+    {
+      "id": "string_knot",
+      "type": "object",
+      "label": "Parcel knot in tarred twine",
+      "description": "The knot in the tarred twine said to remain intact and described as of a peculiar character.",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "holmes",
+      "type": "character",
+      "label": "holmes",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "watson",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "lestrade",
+      "type": "character",
+      "label": "lestrade",
+      "firstSection": "cardboard-box-section_1"
+    },
+    {
+      "id": "miss_cushing",
+      "type": "character",
+      "label": "miss cushing",
+      "firstSection": "cardboard-box-section_1"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_cardboard_box_section_1_5",
+      "type": "event",
+      "label": "Narrator sets up to turn to notes of a strange chain of events",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_5"
+      ],
+      "participants": [
+        "narrator_watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_cardboard_box_section_1_9",
+      "type": "event",
+      "label": "Watson is seated in a room while Holmes lies on the sofa reading a letter",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "watson",
+        "holmes",
+        "letter"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_17",
+      "type": "event",
+      "label": "Watson tosses aside the morning paper and falls into a study",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_17"
+      ],
+      "participants": [
+        "watson",
+        "morning_paper"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_18",
+      "type": "event",
+      "label": "Holmes interrupts Watson’s thoughts with speech",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_18"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You are right, Watson"
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_20",
+      "type": "event",
+      "label": "Holmes comments that a preposterous way of settling a dispute is used",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_20"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It does seem a most preposterous way of settling a dispute."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_19",
+      "type": "event",
+      "label": "Holmes and Watson exchange acknowledgements about preposterousness",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_19",
+        "sentence_21"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Most preposterous!"
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_26",
+      "type": "event",
+      "label": "Holmes laughs at Watson’s perplexity",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_26"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_27",
+      "type": "event",
+      "label": "Holmes tells Watson he had read passage about following unspoken thoughts",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_27"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You remember, that some little time ago when I read you the passage in one of Poe's sketches in which a close reasoner follows the unspoken thoughts of his companion, you were inclined to treat the matter as a mere tour-de-force of the author."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_31",
+      "type": "event",
+      "label": "Holmes explains he read Watson’s train of thought off his expression",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_31"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "So when I saw you throw down your paper and enter upon a train of thought, I was very happy to have the opportunity of reading it off, and eventually of breaking into it, as a proof that I had been in rapport with you."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_68",
+      "type": "event",
+      "label": "Holmes asks Watson whether he observed a paragraph about a packet sent to Miss Cushing",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_68"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Have you observed in the paper a short paragraph referring to the remarkable contents of a packet sent through the post to Miss Cushing, of Cross Street, Croydon?"
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_73",
+      "type": "event",
+      "label": "Holmes instructs Watson to toss the paper and read a paragraph aloud",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_72",
+        "sentence_74"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "morning_paper"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Perhaps you would be good enough to read it aloud."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_75",
+      "type": "event",
+      "label": "Watson reads aloud the indicated paragraph from the paper",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_75",
+        "sentence_76"
+      ],
+      "participants": [
+        "watson",
+        "daily_chronicle"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_86",
+      "type": "event",
+      "label": "Holmes summarizes the Daily Chronicle and introduces Lestrade’s note",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_87",
+        "sentence_88"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "daily_chronicle",
+        "lestrade_note"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_89",
+      "type": "event",
+      "label": "Holmes recounts the contents of Lestrade’s note to Watson",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_89"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "lestrade",
+        "lestrade_note"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I think that this case is very much in your line."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_95",
+      "type": "event",
+      "label": "Holmes invites Watson to travel to Croydon despite the heat",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_95"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Can you rise superior to the heat and run down to Croydon with me on the off chance of a case for your annals?"
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_97",
+      "type": "event",
+      "label": "Watson agrees to go",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_97"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "I was longing for something to do."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_99",
+      "type": "event",
+      "label": "Holmes orders Watson to ring for boots and order a cab",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_98",
+        "sentence_99"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Ring for our boots and tell them to order a cab."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_100",
+      "type": "event",
+      "label": "Holmes leaves briefly to change dressing-gown and fill cigar-case",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_100"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I'll be back in a moment when I have changed my dressing-gown and filled my cigar-case."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_102",
+      "type": "event",
+      "label": "Lestrade waits at the station for Holmes and Watson",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_102"
+      ],
+      "participants": [
+        "lestrade",
+        "holmes",
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_cardboard_box_section_1_103",
+      "type": "event",
+      "label": "Holmes and Watson walk to Cross Street, where Miss Cushing resides",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_103"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "croydon_cross_street"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_105",
+      "type": "event",
+      "label": "Lestrade taps at a door and it is opened by a servant girl",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_105"
+      ],
+      "participants": [
+        "lestrade",
+        "servant_girl",
+        "miss_cushing"
+      ],
+      "performs": [
+        "lestrade",
+        "servant_girl"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_106",
+      "type": "event",
+      "label": "Miss Cushing receives Holmes and Watson in the front room",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_106"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes",
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_cardboard_box_section_1_110",
+      "type": "event",
+      "label": "Miss Cushing asks Lestrade to take the outhouse items away altogether",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_110"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "I wish that you would take them away altogether."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_112",
+      "type": "event",
+      "label": "Holmes is said to have kept the items until he could see them; Lestrade replies",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_112"
+      ],
+      "participants": [
+        "lestrade",
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I only kept them here until my friend, Mr. Holmes, should have seen them in your presence."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_114",
+      "type": "event",
+      "label": "Lestrade explains the items were kept in case Holmes wished to ask questions",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_114"
+      ],
+      "participants": [
+        "lestrade",
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "In case he wished to ask any questions."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_116",
+      "type": "event",
+      "label": "Holmes reassures Miss Cushing about questions and annoyance",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_116",
+        "sentence_117"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I have no doubt that you have been annoyed more than enough already over this business."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_121",
+      "type": "event",
+      "label": "Miss Cushing demands the items not be brought into her room",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_121"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "I won't have those things in here, Mr. Lestrade."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_122",
+      "type": "event",
+      "label": "Miss Cushing instructs that items must be seen in the outhouse",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_122"
+      ],
+      "participants": [
+        "miss_cushing",
+        "lestrade",
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "If you wish to see them you must go to the outhouse."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_124",
+      "type": "event",
+      "label": "Lestrade brings out a yellow cardboard box with brown paper and string from the outhouse",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_124"
+      ],
+      "participants": [
+        "lestrade",
+        "yellow_cardboard_box",
+        "coffee_smelling_brown_paper",
+        "tarred_twine_string",
+        "outhouse_shed"
+      ],
+      "performs": [
+        "lestrade"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_125",
+      "type": "event",
+      "label": "Holmes examines the parcel items one by one while Lestrade and Watson sit nearby",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_125"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade",
+        "watson",
+        "yellow_cardboard_box",
+        "tarred_twine_string",
+        "coffee_smelling_brown_paper",
+        "severed_womans_ear",
+        "severed_mans_ear"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_126",
+      "type": "event",
+      "label": "Holmes remarks on the string and asks Lestrade what he makes of it",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_126",
+        "sentence_127"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade",
+        "tarred_twine_string"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "What do you make of this string, Lestrade?"
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_128",
+      "type": "event",
+      "label": "Lestrade states the string has been tarred",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_128"
+      ],
+      "participants": [
+        "lestrade",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "It has been tarred."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_131",
+      "type": "event",
+      "label": "Holmes identifies scissors cutting of the cord and states importance of intact knot",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_131",
+        "sentence_134"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade",
+        "tarred_twine_string",
+        "string_knot"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "The importance lies in the fact that the knot is left intact, and that this knot is of a peculiar character."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_149",
+      "type": "event",
+      "label": "Holmes takes out both ears and examines them while others look on",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_149"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade",
+        "watson",
+        "severed_womans_ear",
+        "severed_mans_ear",
+        "yellow_cardboard_box"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_150",
+      "type": "event",
+      "label": "Holmes returns the ears to the box and sits in meditation",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_150"
+      ],
+      "participants": [
+        "holmes",
+        "severed_womans_ear",
+        "severed_mans_ear",
+        "yellow_cardboard_box"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_cardboard_box_section_1_151",
+      "type": "event",
+      "label": "Holmes states the ears are not a pair",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_151"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "You have observed, of course, that the ears are not a pair."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_155",
+      "type": "event",
+      "label": "Holmes asserts that the situation is not a practical joke",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_155"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "But this is not a practical joke."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_163",
+      "type": "event",
+      "label": "Holmes says there is no practical joke and that they are investigating a serious crime",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_163"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade",
+          "watson"
+        ],
+        "content": "I repeat that there is no practical joke here, but that we are investigating a serious crime."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_171",
+      "type": "event",
+      "label": "Holmes states he will proceed by presuming a double murder committed and describes both ears",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "lestrade",
+        "severed_womans_ear",
+        "severed_mans_ear"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson",
+          "lestrade"
+        ],
+        "content": "and for my part I shall set about it by presuming that my reasoning is correct, and that a double murder has been committed."
+      }
+    },
+    {
+      "id": "event_cardboard_box_section_1_191",
+      "type": "event",
+      "label": "Holmes says there is a tangle that needs straightening out and then stands and walks toward the house",
+      "section": "cardboard-box-section_1",
+      "source_nodes": [
+        "sentence_191",
+        "sentence_192"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "lestrade"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson",
+          "lestrade"
+        ],
+        "content": "There is a tangle here which needs straightening out."
+      }
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Lestrade tells Holmes that he may leave him there because he has another business",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "lestrade",
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "In that case I may leave you here, for I have another small business on hand."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Holmes answers that they shall look in on their way to the train",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_197"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "We shall look in on our way to the train,"
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Holmes and Watson re-enter the front room",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_198"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "miss_cushing"
+      ],
+      "performs": [
+        "holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Miss Cushing places the antimacassar down on her lap as the men enter and looks at them",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_199"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "miss_cushing"
+      ]
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Miss Cushing says that the matter is a mistake and the parcel was never meant for her",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_200"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "I am convinced, sir, that this matter is a mistake, and that the parcel was never meant for me at all."
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Miss Cushing says she has said the claim several times to the gentleman from Scotland Yard but he laughs",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_201"
+      ],
+      "participants": [
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [],
+        "content": "I have said this several times to the gentleman from Scotland Yard, but he simply laughs at me."
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Miss Cushing asks why anyone would play her such a trick",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_202"
+      ],
+      "participants": [
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [],
+        "content": "I have not an enemy in the world, as far as I know, so why should anyone play me such a trick?"
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Holmes takes a seat beside Miss Cushing",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_203"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Holmes says he is coming to be of the same opinion as Miss Cushing",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_203"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I think that it is more than probable——"
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Miss Cushing cries impatiently that she is weary of questions",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_209"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Oh, I am weary of questions!"
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Holmes says Miss Cushing has two sisters",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_210"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "You have two sisters, I believe."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Miss Cushing asks how Holmes could know that",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_211"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "How could you know that?"
+      }
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "Holmes states what he observed about a portrait group and claims it shows Miss Cushing and her sisters",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_212"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I observed the very instant that I entered the room that you have a portrait group of three ladies upon the mantelpiece, one of whom is undoubtedly yourself, while the others are so exceedingly like you that there could be no doubt of the relationship."
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "Miss Cushing confirms that the sisters in the portraits are Sarah and Mary",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_213",
+        "sentence_214"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Those are my sisters, Sarah and Mary."
+      }
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "Holmes points out another portrait taken at Liverpool of Miss Cushing's younger sister with a man in uniform",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_215",
+        "sentence_216"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "And here at my elbow is another portrait, taken at Liverpool, of your younger sister, in the company of a man who appears to be a steward by his uniform. I observe that she was unmarried at the time."
+      }
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "Holmes says the younger sister Sarah later married Mr. Browner a few days afterwards",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_219",
+        "sentence_220"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "But she was married to Mr. Browner a few days afterwards."
+      }
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "Holmes states that Mr. Browner was on the South American line when the portrait was taken and returned via Liverpool and London boats",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_221"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "He was on the South American line when that was taken, but he was so fond of her that he couldn't abide to leave her for so long, and he got into the Liverpool and London boats."
+      }
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "Miss Cushing asks whether the ship was the Conqueror",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_222"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Ah, the _Conqueror_, perhaps?"
+      }
+    },
+    {
+      "id": "event_2_19",
+      "type": "event",
+      "label": "Holmes denies and says it was the May Day",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_223"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "No, the _May Day_, when last I heard."
+      }
+    },
+    {
+      "id": "event_2_20",
+      "type": "event",
+      "label": "Miss Cushing says Jim came down to see her once",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_224"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Jim came down here to see me once."
+      }
+    },
+    {
+      "id": "event_2_21",
+      "type": "event",
+      "label": "Miss Cushing says Jim broke the pledge and later always drank when ashore",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_225"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "That was before he broke the pledge; but afterwards he would always take drink when he was ashore, and a little drink would send him stark, staring mad."
+      }
+    },
+    {
+      "id": "event_2_22",
+      "type": "event",
+      "label": "Miss Cushing says Sarah and Mary events unfolded after Jim began drinking and that she does not know how things are going",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_228"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "First he dropped me, then he quarrelled with Sarah, and now that Mary has stopped writing we don't know how things are going with them."
+      }
+    },
+    {
+      "id": "event_2_23",
+      "type": "event",
+      "label": "Holmes asks why Sarah and Mary do not keep house together",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_234"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "I wonder, since you are both maiden ladies, that you do not keep house together."
+      }
+    },
+    {
+      "id": "event_2_24",
+      "type": "event",
+      "label": "Miss Cushing says she tried keeping house with Sarah but they had to part about two months ago",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_237"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "I tried it when I came to Croydon, and we kept on until about two months ago, when we had to part."
+      }
+    },
+    {
+      "id": "event_2_25",
+      "type": "event",
+      "label": "Miss Cushing explains that Sarah was meddlesome and hard to please",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_238"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "I don't want to say a word against my own sister, but she was always meddlesome and hard to please, was Sarah."
+      }
+    },
+    {
+      "id": "event_2_26",
+      "type": "event",
+      "label": "Miss Cushing says Sarah quarrelled with Jim Browner and Liverpool relations, and Sarah went up to live near them",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_241",
+        "sentence_242"
+      ],
+      "participants": [
+        "miss_cushing",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_cushing",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Why, she went up there to live in order to be near them. And now she has no word hard enough for Jim Browner."
+      }
+    },
+    {
+      "id": "event_2_27",
+      "type": "event",
+      "label": "Holmes rises and bows after Miss Cushing answers",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_245"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_2_28",
+      "type": "event",
+      "label": "Holmes asks where Sarah lives and says goodbye to Miss Cushing",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_246",
+        "sentence_247"
+      ],
+      "participants": [
+        "holmes",
+        "miss_cushing"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "miss_cushing"
+        ],
+        "content": "Your sister Sarah lives, I think you said, at New Street Wallington? Good-bye, and I am very sorry that you should have been troubled over a case with which, as you say, you have nothing whatever to do."
+      }
+    },
+    {
+      "id": "event_2_29",
+      "type": "event",
+      "label": "Holmes hails a cab as Watson and Holmes come out",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_248"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_2_30",
+      "type": "event",
+      "label": "Holmes asks the cab driver how far it is to Wallington",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_249"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "cabby"
+        ],
+        "content": "How far to Wallington?"
+      }
+    },
+    {
+      "id": "event_2_31",
+      "type": "event",
+      "label": "The cab driver says it is only about a mile to Wallington",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_251"
+      ],
+      "participants": [
+        "cabby",
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "cabby",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Only about a mile, sir."
+      }
+    },
+    {
+      "id": "event_2_32",
+      "type": "event",
+      "label": "Holmes orders Watson to jump into the cab",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_253"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "cabby"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Jump in, Watson."
+      }
+    },
+    {
+      "id": "event_2_33",
+      "type": "event",
+      "label": "Holmes sends off a short wire while in the cab",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_257"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "cabby"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_2_34",
+      "type": "event",
+      "label": "The cab stops at a house and a grave young gentleman in black appears on the step",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_258",
+        "sentence_259"
+      ],
+      "participants": [
+        "watson",
+        "holmes",
+        "cabby",
+        "grave_young_gentleman"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_35",
+      "type": "event",
+      "label": "Holmes asks if Miss Cushing is at home",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_260",
+        "sentence_261"
+      ],
+      "participants": [
+        "holmes",
+        "grave_young_gentleman"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "grave_young_gentleman"
+        ],
+        "content": "Is Miss Cushing at home?"
+      }
+    },
+    {
+      "id": "event_2_36",
+      "type": "event",
+      "label": "The grave young gentleman says Miss Sarah Cushing is extremely ill and advises Holmes to call again in ten days",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_262",
+        "sentence_265"
+      ],
+      "participants": [
+        "grave_young_gentleman",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "grave_young_gentleman",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "Miss Sarah Cushing is extremely ill. She has been suffering since yesterday from brain symptoms of great severity. As her medical adviser, I cannot possibly take the responsibility of allowing anyone to see her. I should recommend you to call again in ten days."
+      }
+    },
+    {
+      "id": "event_2_37",
+      "type": "event",
+      "label": "The grave young gentleman draws on his gloves, closes the door, and walks away",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_266"
+      ],
+      "participants": [
+        "grave_young_gentleman"
+      ],
+      "performs": [
+        "grave_young_gentleman"
+      ]
+    },
+    {
+      "id": "event_2_38",
+      "type": "event",
+      "label": "Holmes tells Watson they will not be able to see Sarah and may have to wait",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_267"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Well, if we can't we can't"
+      }
+    },
+    {
+      "id": "event_2_39",
+      "type": "event",
+      "label": "Holmes orders the cab driver to take them to a hotel for lunch",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_272"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "cabby"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "cabby"
+        ],
+        "content": "Drive us to some decent hotel, cabby, where we may have some lunch, and afterwards we shall drop down upon friend Lestrade at the police-station."
+      }
+    },
+    {
+      "id": "event_2_40",
+      "type": "event",
+      "label": "Holmes and Watson arrive at the police-station and Lestrade waits at the door",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_275",
+        "sentence_276"
+      ],
+      "participants": [
+        "holmes",
+        "watson",
+        "lestrade"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_2_41",
+      "type": "event",
+      "label": "Lestrade tells Holmes that there is a telegram for him and says it is the answer",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_277"
+      ],
+      "participants": [
+        "lestrade",
+        "holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "lestrade",
+        "recipients": [
+          "holmes"
+        ],
+        "content": "A telegram for you, Mr. Holmes"
+      }
+    },
+    {
+      "id": "event_2_42",
+      "type": "event",
+      "label": "Holmes opens the telegram, reads it, and crumples it into his pocket",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_280"
+      ],
+      "participants": [
+        "holmes"
+      ],
+      "performs": [
+        "holmes"
+      ]
+    },
+    {
+      "id": "event_2_43",
+      "type": "event",
+      "label": "Holmes tells Lestrade he has found out everything",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_282",
+        "sentence_283"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "I have found out everything!"
+      }
+    },
+    {
+      "id": "event_2_44",
+      "type": "event",
+      "label": "Holmes tells Lestrade a shocking crime was committed and he laid bare every detail",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_288"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "A shocking crime has been committed, and I think I have now laid bare every detail of it."
+      }
+    },
+    {
+      "id": "event_2_45",
+      "type": "event",
+      "label": "Holmes throws a visiting card with a name to Lestrade and says an arrest cannot occur until to-morrow night at the earliest",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_290",
+        "sentence_292",
+        "sentence_293"
+      ],
+      "participants": [
+        "holmes",
+        "lestrade"
+      ],
+      "performs": [
+        "holmes"
+      ],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "lestrade"
+        ],
+        "content": "That is the name. You cannot effect an arrest until to-morrow night at the earliest. I should prefer that you do not mention my name at all in connection with the case, as I choose to be only associated with those crimes which present some difficulty in their solution."
+      }
+    },
+    {
+      "id": "event_2_46",
+      "type": "event",
+      "label": "Holmes tells Watson to come on and they leave the station together",
+      "section": "cardboard-box-section_2",
+      "source_nodes": [
+        "sentence_294"
+      ],
+      "participants": [
+        "holmes",
+        "watson"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Come on, Watson."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "watson",
+      "to": "baker_street_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_cardboard_box_section_1_5",
+      "valid_until": "event_cardboard_box_section_1_103",
+      "caused_by": [
+        "event_cardboard_box_section_1_5"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "watson",
+      "to": "croydon_cross_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_cardboard_box_section_1_103",
+      "caused_by": [
+        "event_cardboard_box_section_1_103"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "holmes",
+      "to": "baker_street_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_cardboard_box_section_1_5",
+      "valid_until": "event_cardboard_box_section_1_103",
+      "caused_by": [
+        "event_cardboard_box_section_1_5"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "holmes",
+      "to": "croydon_cross_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_cardboard_box_section_1_103",
+      "caused_by": [
+        "event_cardboard_box_section_1_103"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "morning_paper",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_cardboard_box_section_1_17",
+      "caused_by": [
+        "event_cardboard_box_section_1_17"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "morning_paper",
+      "to": "null",
+      "type": "IS_INSIDE",
+      "valid_from": "event_cardboard_box_section_1_17",
+      "caused_by": [
+        "event_cardboard_box_section_1_17"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "yellow_cardboard_box",
+      "to": "null",
+      "type": "LOCATED_AT",
+      "valid_from": "event_cardboard_box_section_1_124",
+      "caused_by": [
+        "event_cardboard_box_section_1_124"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "tarred_twine_string",
+      "to": "yellow_cardboard_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_cardboard_box_section_1_124",
+      "caused_by": [
+        "event_cardboard_box_section_1_124"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "coffee_smelling_brown_paper",
+      "to": "yellow_cardboard_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_cardboard_box_section_1_124",
+      "caused_by": [
+        "event_cardboard_box_section_1_124"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "severed_womans_ear",
+      "to": "yellow_cardboard_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_cardboard_box_section_1_150",
+      "caused_by": [
+        "event_cardboard_box_section_1_150"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "severed_mans_ear",
+      "to": "yellow_cardboard_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_cardboard_box_section_1_150",
+      "caused_by": [
+        "event_cardboard_box_section_1_150"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "holmes",
+      "section": "cardboard-box-section_1",
+      "mention_count": 31,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_9",
+        "sentence_19",
+        "sentence_22",
+        "sentence_27",
+        "sentence_31",
+        "sentence_36",
+        "sentence_42",
+        "sentence_49",
+        "sentence_61",
+        "sentence_66",
+        "sentence_67",
+        "sentence_72",
+        "sentence_74",
+        "sentence_87",
+        "sentence_98",
+        "sentence_100",
+        "sentence_102",
+        "sentence_106",
+        "sentence_112",
+        "sentence_114",
+        "sentence_116",
+        "sentence_125",
+        "sentence_126",
+        "sentence_131",
+        "sentence_137",
+        "sentence_151",
+        "sentence_155",
+        "sentence_163",
+        "sentence_171",
+        "sentence_192"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_1",
+      "mention_count": 36,
+      "sentence_ids": [
+        "sentence_19",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_28",
+        "sentence_30",
+        "sentence_31",
+        "sentence_33",
+        "sentence_35",
+        "sentence_38",
+        "sentence_41",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_61",
+        "sentence_64",
+        "sentence_69",
+        "sentence_72",
+        "sentence_74",
+        "sentence_75",
+        "sentence_93",
+        "sentence_95",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_103",
+        "sentence_104",
+        "sentence_106",
+        "sentence_125",
+        "sentence_138",
+        "sentence_149",
+        "sentence_164",
+        "sentence_171",
+        "sentence_191",
+        "sentence_192"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_1",
+      "mention_count": 22,
+      "sentence_ids": [
+        "sentence_82",
+        "sentence_84",
+        "sentence_86",
+        "sentence_88",
+        "sentence_89",
+        "sentence_102",
+        "sentence_105",
+        "sentence_109",
+        "sentence_111",
+        "sentence_112",
+        "sentence_121",
+        "sentence_122",
+        "sentence_124",
+        "sentence_127",
+        "sentence_133",
+        "sentence_136",
+        "sentence_137",
+        "sentence_151",
+        "sentence_166",
+        "sentence_168",
+        "sentence_170",
+        "sentence_171"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_1",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_68",
+        "sentence_77",
+        "sentence_78",
+        "sentence_80",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_103",
+        "sentence_106",
+        "sentence_109",
+        "sentence_110",
+        "sentence_112",
+        "sentence_113",
+        "sentence_115",
+        "sentence_118",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122"
+      ]
+    },
+    {
+      "entity": "severed_womans_ear",
+      "section": "cardboard-box-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_172"
+      ]
+    },
+    {
+      "entity": "severed_mans_ear",
+      "section": "cardboard-box-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_173"
+      ]
+    },
+    {
+      "entity": "daily_chronicle",
+      "section": "cardboard-box-section_1",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_87",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86"
+      ]
+    },
+    {
+      "entity": "lestrade_note",
+      "section": "cardboard-box-section_1",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94"
+      ]
+    },
+    {
+      "entity": "holmes",
+      "section": "cardboard-box-section_2",
+      "mention_count": 31,
+      "sentence_ids": [
+        "sentence_193",
+        "sentence_197",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_209",
+        "sentence_212",
+        "sentence_218",
+        "sentence_203",
+        "sentence_245",
+        "sentence_246",
+        "sentence_248",
+        "sentence_249",
+        "sentence_252",
+        "sentence_253",
+        "sentence_257",
+        "sentence_261",
+        "sentence_265",
+        "sentence_267",
+        "sentence_268",
+        "sentence_271",
+        "sentence_272",
+        "sentence_276",
+        "sentence_277",
+        "sentence_279",
+        "sentence_280",
+        "sentence_282",
+        "sentence_283",
+        "sentence_288",
+        "sentence_294",
+        "sentence_296"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "cardboard-box-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_198",
+        "sentence_199",
+        "sentence_204",
+        "sentence_206",
+        "sentence_224",
+        "sentence_245",
+        "sentence_248",
+        "sentence_253",
+        "sentence_272",
+        "sentence_275",
+        "sentence_276",
+        "sentence_295",
+        "sentence_296"
+      ]
+    },
+    {
+      "entity": "lestrade",
+      "section": "cardboard-box-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_194",
+        "sentence_276",
+        "sentence_277",
+        "sentence_282",
+        "sentence_285",
+        "sentence_295"
+      ]
+    },
+    {
+      "entity": "miss_cushing",
+      "section": "cardboard-box-section_2",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_193",
+        "sentence_195",
+        "sentence_196",
+        "sentence_198",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_206",
+        "sentence_209",
+        "sentence_210",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_220",
+        "sentence_233",
+        "sentence_245",
+        "sentence_246",
+        "sentence_249"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "tarred_twine_string",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred that the parcel used tarred twine because the string was described as tarred.",
+      "source_nodes": [
+        "sentence_128",
+        "sentence_129",
+        "sentence_130"
+      ]
+    },
+    {
+      "object": "string_knot",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred the knot’s intact state and its unusual character from the observed knot remaining intact after cutting.",
+      "source_nodes": [
+        "sentence_134"
+      ]
+    },
+    {
+      "object": "coffee_smelling_brown_paper",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred the wrapper had a coffee smell because he noted a distinct smell of coffee from the brown paper.",
+      "source_nodes": [
+        "sentence_138"
+      ]
+    },
+    {
+      "object": "broad_pointed_pen",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred the parcel address handwriting was made with a broad-pointed pen because he stated the address was done with a broad-pointed pen.",
+      "source_nodes": [
+        "sentence_143"
+      ]
+    },
+    {
+      "object": "severed_womans_ear",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred the ear belonged to a woman because he described it as small, finely formed, and pierced for an earring.",
+      "source_nodes": [
+        "sentence_172"
+      ]
+    },
+    {
+      "object": "severed_mans_ear",
+      "case": "cardboard_box_case",
+      "discovered_by": "holmes",
+      "discovered_in_section": "cardboard-box-section_1",
+      "significance": "Holmes inferred the ear belonged to a man because he described it as sun-burned, discoloured, and pierced for an earring.",
+      "source_nodes": [
+        "sentence_173"
+      ]
+    }
+  ],
+  "memberOf": []
+}

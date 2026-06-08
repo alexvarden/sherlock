@@ -1,0 +1,4578 @@
+{
+  "entities": [
+    {
+      "id": "dundas_separation_case",
+      "type": "case",
+      "label": "Dundas separation case",
+      "description": "A separation matter referenced by Holmes and connected to a husband’s conduct and a wife dispute.",
+      "firstSection": "section_1",
+      "source": "section_1",
+      "client": "sherlock_holmes",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "london"
+    },
+    {
+      "id": "husbands_cruelty_newspaper_heading",
+      "type": "document",
+      "label": "Newspaper heading: A husband’s cruelty to his wife",
+      "description": "A newspaper heading read by the narrator, followed by half a column of print.",
+      "firstSection": "section_1",
+      "document_type": "newspaper",
+      "from": "unknown",
+      "to": "unknown",
+      "content_summary": "A heading about a husband’s cruelty to his wife; described as familiar and containing typical elements such as an 'other woman', drink, push, blow, bruise, and a sympathetic sister or landlady."
+    },
+    {
+      "id": "sherlock_holmes_snuffbox",
+      "type": "object",
+      "label": "Snuffbox of old gold with an amethyst",
+      "description": "A snuffbox with an amethyst in the centre of the lid, held out by Holmes.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "broken_bell_wire",
+      "type": "object",
+      "label": "broken bell wire",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "sherlock holmes",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "dr_watson",
+      "type": "character",
+      "label": "dr watson",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "morning_paper",
+      "type": "character",
+      "label": "morning paper",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "king_of_bohemia",
+      "type": "character",
+      "label": "king of bohemia",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "irene_adler",
+      "type": "character",
+      "label": "irene adler",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "hosmer_angel",
+      "type": "character",
+      "label": "hosmer angel",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "miss_mary_sutherland",
+      "type": "character",
+      "label": "miss mary sutherland",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "windibank",
+      "type": "character",
+      "label": "windibank",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "mother",
+      "type": "character",
+      "label": "mother",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "uncle_ned",
+      "type": "character",
+      "label": "uncle ned",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "auckland",
+      "type": "character",
+      "label": "auckland",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "new_zealand_stock",
+      "type": "character",
+      "label": "new zealand stock",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "mrs_etherege",
+      "type": "character",
+      "label": "mrs etherege",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "typewriting_machine",
+      "type": "character",
+      "label": "typewriting machine",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "leadenhall_street_post_office",
+      "type": "character",
+      "label": "leadenhall street post office",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "st_saviours_church",
+      "type": "character",
+      "label": "st saviours church",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "st_pancras_hotel",
+      "type": "character",
+      "label": "st pancras hotel",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "kings_cross",
+      "type": "character",
+      "label": "kings cross",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "bordeaux",
+      "type": "character",
+      "label": "bordeaux",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "hardy",
+      "type": "character",
+      "label": "hardy",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "plumber_of_tottenham_court_road",
+      "type": "character",
+      "label": "plumber of tottenham court road",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "testament",
+      "type": "character",
+      "label": "testament",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "handkerchief",
+      "type": "character",
+      "label": "handkerchief",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "muff",
+      "type": "character",
+      "label": "muff",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "boy",
+      "type": "character",
+      "label": "boy",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "study_in_silence_case_section_2",
+      "type": "case",
+      "label": "Hosmer Angel / Missing gentleman case",
+      "description": "Investigation involving a missing man named Hosmer Angel and related communications and appointments.",
+      "firstSection": "section_2",
+      "source": "story-slug",
+      "client": "sherlock_holmes",
+      "crime_type": "disappearance",
+      "outcome": "unresolved",
+      "primary_location": "leadenhall_street_post_office"
+    },
+    {
+      "id": "case_hosmer_angel_missing_gentleman",
+      "type": "case",
+      "label": "Hosmer Angel / Missing gentleman case",
+      "description": "The investigation concerning Hosmer Angel and related events described in this section.",
+      "firstSection": "section_3",
+      "source": "study_in_silence_case_section_2",
+      "client": "miss_mary_sutherland",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "st_saviours_church"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Holmes says life is stranger than anything the mind of man could invent",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_1"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "unknown_audience"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson",
+          "unknown_audience"
+        ],
+        "content": "life is infinitely stranger than anything which the mind of man could invent."
+      }
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Watson answers that he is not convinced by Holmes",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And yet I am not convinced of it,"
+      }
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Holmes remarks that police reports lack selection and discretion for realistic effect",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_7",
+        "sentence_8"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "police_reports",
+        "magistrate",
+        "observer"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "A certain selection and discretion must be used in producing a realistic effect"
+      }
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes says there is nothing so unnatural as the commonplace",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Depend upon it, there is nothing so unnatural as the commonplace."
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Watson smiles and shakes his head",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_10"
+      ],
+      "participants": [
+        "dr_watson"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Watson says he can understand Holmes’s thinking",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_11",
+        "sentence_12"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I can quite understand your thinking so."
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Watson picks up the morning paper and says to put it to a practical test",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "dr_watson",
+        "morning_paper",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "let us put it to a practical test."
+      }
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Watson presents the first heading about a husband’s cruelty to his wife",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_15",
+        "sentence_16"
+      ],
+      "participants": [
+        "dr_watson",
+        "morning_paper",
+        "sherlock_holmes",
+        "husbands_cruelty_newspaper_heading"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "A husband’s cruelty to his wife."
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Watson lists typical elements in the heading",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_18"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "There is, of course, the other woman, the drink, the push, the blow, the bruise, the sympathetic sister or landlady."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes takes the paper and says the Dundas separation case is the one referenced",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_21"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "morning_paper",
+        "dundas_separation_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "This is the Dundas separation case"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Holmes describes the husband in the Dundas separation case as a teetotaler and says there was no other woman",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_22"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "dundas_separation_case",
+        "husband_in_case",
+        "wife_in_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "The husband was a teetotaler, there was no other woman, and the conduct complained of was that he had drifted into the habit of winding up every meal by taking out his false teeth and hurling them at his wife"
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes asks Watson to acknowledge his score over Watson’s example",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_23"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Take a pinch of snuff, Doctor, and acknowledge that I have scored over you in your example."
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes holds out a snuffbox with an amethyst lid",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_24"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "sherlock_holmes_snuffbox",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Watson comments on the snuffbox’s contrast with Holmes’s homely ways",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_25"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes",
+        "sherlock_holmes_snuffbox"
+      ],
+      "performs": [
+        "dr_watson"
+      ]
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes says he forgot he had not seen Watson for some weeks and offers the snuffbox as a souvenir",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_26",
+        "sentence_27"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "sherlock_holmes_snuffbox",
+        "king_of_bohemia"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "It is a little souvenir from the King of Bohemia in return for my assistance in the case of the Irene Adler papers."
+      }
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Watson asks about the ring",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_28"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes",
+        "holmes_ring"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And the ring?"
+      }
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Holmes says the ring was from the reigning family of Holland",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_30"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "holmes_ring",
+        "reigning_family_of_holland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "It was from the reigning family of Holland"
+      }
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Holmes says he has some ten or twelve cases but none present any feature of interest",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_33",
+        "sentence_34"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Some ten or twelve, but none which present any feature of interest."
+      }
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Holmes rises from his chair and stands between parted blinds gazing down into London street",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_39"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "baker_street_lodgings",
+        "london_street_opposite"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Holmes’s gaze shows a large woman standing on the pavement opposite",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_40"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "large_woman"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_21",
+      "type": "event",
+      "label": "Large woman oscillates at the windows and fidgets with her glove buttons",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_41"
+      ],
+      "participants": [
+        "large_woman"
+      ],
+      "performs": [
+        "large_woman"
+      ]
+    },
+    {
+      "id": "event_1_22",
+      "type": "event",
+      "label": "Large woman hurries across the road and a bell clang is heard",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_42"
+      ],
+      "participants": [
+        "large_woman",
+        "bell"
+      ],
+      "performs": [
+        "large_woman"
+      ]
+    },
+    {
+      "id": "event_1_23",
+      "type": "event",
+      "label": "Holmes says he has seen those symptoms before and connects pavement oscillation with an affaire de coeur",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_43",
+        "sentence_44"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Oscillation upon the pavement always means an affaire de coeur ."
+      }
+    },
+    {
+      "id": "event_1_24",
+      "type": "event",
+      "label": "Holmes says a woman seriously wronged no longer oscillates and the broken bell wire is the usual symptom",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_47"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "broken_bell_wire"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "When a woman has been seriously wronged by a man she no longer oscillates, and the usual symptom is a broken bell wire."
+      }
+    },
+    {
+      "id": "event_1_25",
+      "type": "event",
+      "label": "Holmes says the woman comes in person to resolve their doubts",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_49"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "large_woman"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "But here she comes in person to resolve our doubts."
+      }
+    },
+    {
+      "id": "event_1_26",
+      "type": "event",
+      "label": "A tap occurs at the door and a boy enters to announce Miss Mary Sutherland",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_50"
+      ],
+      "participants": [
+        "boy",
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "dr_watson",
+        "door"
+      ],
+      "performs": [
+        "boy"
+      ]
+    },
+    {
+      "id": "event_1_27",
+      "type": "event",
+      "label": "Holmes welcomes Miss Mary Sutherland, closes the door, and bows her into an armchair",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_51"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "armchair",
+        "dr_watson",
+        "door"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_28",
+      "type": "event",
+      "label": "Holmes asks whether Miss Mary Sutherland finds typewriting trying with short sight",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_52"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Do you not find that with your short sight it is a little trying to do so much typewriting?"
+      }
+    },
+    {
+      "id": "event_1_29",
+      "type": "event",
+      "label": "Miss Mary Sutherland replies that she now knows where the letters are without looking",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_53"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I did at first, but now I know where the letters are without looking."
+      }
+    },
+    {
+      "id": "event_1_30",
+      "type": "event",
+      "label": "Miss Mary Sutherland starts violently and looks up in fear and astonishment",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_54"
+      ],
+      "participants": [
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ]
+    },
+    {
+      "id": "event_1_31",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Holmes has heard about her and asks how he could know",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_55"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "You've heard about me, Mr. Holmes, else how could you know all that?"
+      }
+    },
+    {
+      "id": "event_1_32",
+      "type": "event",
+      "label": "Holmes laughs and says it is his business to know things",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_56"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Never mind, it is my business to know things."
+      }
+    },
+    {
+      "id": "event_1_33",
+      "type": "event",
+      "label": "Holmes says he may have trained himself to see what others overlook and asks why she came to consult him",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_57",
+        "sentence_58"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "If not, why should you come to consult me?"
+      }
+    },
+    {
+      "id": "event_1_34",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she heard about Holmes from Mrs. Etherege and came for help about Mr. Hosmer Angel",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_59",
+        "sentence_60",
+        "sentence_61"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "mrs_etherege",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I came to you, sir, because I heard of you from Mrs. Etherege, whose husband you found so easy when the police and everyone had given him up for dead."
+      }
+    },
+    {
+      "id": "event_1_35",
+      "type": "event",
+      "label": "Holmes asks why Miss Mary Sutherland came away in such a hurry",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_62"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Why did you come away to consult me in such a hurry?"
+      }
+    },
+    {
+      "id": "event_1_36",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she banged out of the house because it made her angry how Mr. Windibank took it",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_65"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, I did bang out of the house, for it made me angry to see the easy way in which Mr. Windibank—that is, my father—took it all."
+      }
+    },
+    {
+      "id": "event_1_37",
+      "type": "event",
+      "label": "Miss Mary Sutherland says her father refused police and refused Holmes, so she went to Holmes",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_66"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank",
+        "police",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "He would not go to the police, and he would not go to you, and so at last, as he would do nothing and kept on saying that there was no harm done, it made me mad, and I just on with my things and came right away to you."
+      }
+    },
+    {
+      "id": "event_1_38",
+      "type": "event",
+      "label": "Holmes says Windibank is her stepfather since the name is different",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_67"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "your stepfather, surely, since the name is different."
+      }
+    },
+    {
+      "id": "event_1_39",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Windibank is only five years and two months older than her",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_69"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I call him father, though it sounds funny, too, for he is only five years and two months older than myself."
+      }
+    },
+    {
+      "id": "event_1_40",
+      "type": "event",
+      "label": "Miss Mary Sutherland states her mother is alive and well and married again soon after her father’s death",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_70",
+        "sentence_71",
+        "sentence_72"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "mother",
+        "windibank"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Oh, yes, mother is alive and well."
+      }
+    },
+    {
+      "id": "event_1_41",
+      "type": "event",
+      "label": "Miss Mary Sutherland describes her former father as a plumber and says mother sold the business after Windibank arrived",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_73",
+        "sentence_74"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "mother",
+        "windibank",
+        "plumber_of_tottenham_court_road",
+        "hardy",
+        "bordeaux_company"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "They got £4700 for the goodwill and interest"
+      }
+    },
+    {
+      "id": "event_1_42",
+      "type": "event",
+      "label": "Holmes asks whether Miss Mary Sutherland’s income comes out of the business",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_76"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Your own little income, does it come out of the business?"
+      }
+    },
+    {
+      "id": "event_1_43",
+      "type": "event",
+      "label": "Miss Mary Sutherland says her income is separate and left by her uncle Ned in Auckland as New Zealand stock paying 4.5 percent interest",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_78",
+        "sentence_79",
+        "sentence_80"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "uncle_ned",
+        "auckland",
+        "new_zealand_stock"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It is in New Zealand stock, paying 41/2 per cent."
+      }
+    },
+    {
+      "id": "event_1_44",
+      "type": "event",
+      "label": "Holmes says he is interested extremely and comments on her income and estimate of what a single lady can live on",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_81",
+        "sentence_83"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "I believe that a single lady can get on very nicely upon an income of about £60."
+      }
+    },
+    {
+      "id": "event_1_45",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she lives at home, is not burden, Windibank draws her interest every quarter and pays it to her mother, and she earns by typewriting",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_84",
+        "sentence_86",
+        "sentence_87"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank",
+        "mother",
+        "typewriting_machine"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Mr. Windibank draws my interest every quarter and pays it over to mother, and I find that I can do pretty well with what I earn at typewriting."
+      }
+    },
+    {
+      "id": "event_1_46",
+      "type": "event",
+      "label": "Holmes introduces Watson as his friend and asks Miss Mary Sutherland to tell them about her connection with Mr. Hosmer Angel",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_89",
+        "sentence_90",
+        "sentence_91"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Kindly tell us now all about your connection with Mr. Hosmer Angel."
+      }
+    },
+    {
+      "id": "event_1_47",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she met Hosmer Angel first at the gasfitters’ ball",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_93"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "gasfitters_ball"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I met him first at the gasfitters’ ball,"
+      }
+    },
+    {
+      "id": "event_1_48",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Windibank did not wish them to go and she eventually went with mother and Mr. Hardy",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_95",
+        "sentence_101"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "mother",
+        "windibank",
+        "hardy",
+        "gasfitters_ball"
+      ],
+      "performs": [
+        "miss_mary_sutherland",
+        "mother"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "At last, when nothing else would do, he went off to France upon the business of the firm, but we went, mother and I, with Mr. Hardy, who used to be our foreman, and it was there I met Mr. Hosmer Angel."
+      }
+    },
+    {
+      "id": "event_1_49",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer Angel came after the first walk, walked with her twice, and could not come to the house after her father returned from France",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_109"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "he called next day to ask if we had got home all safe, and after that we met him—that is to say, Mr. Holmes, I met him twice for walks, but after that father came back again, and Mr. Hosmer Angel could not come to the house any more."
+      }
+    },
+    {
+      "id": "event_1_50",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer Angel advised they write but not see each other while Windibank was away, and she took in letters in the morning",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_116",
+        "sentence_117",
+        "sentence_118"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "windibank",
+        "letters"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "We could write in the meantime, and he used to write every day."
+      }
+    },
+    {
+      "id": "event_1_51",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she typed and sent letters to the Leadenhall Street Post Office to be left till called for",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_129",
+        "sentence_130"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "leadenhall_street_post_office",
+        "letters"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "To the Leadenhall Street Post Ofﬁce, to be left till called for."
+      }
+    },
+    {
+      "id": "event_1_52",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she was engaged after the first walk and that Hosmer Angel was a cashier in an office in Leadenhall Street",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_119",
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "We were engaged after the ﬁrst walk that we took."
+      }
+    },
+    {
+      "id": "event_1_53",
+      "type": "event",
+      "label": "Holmes asks where Hosmer Angel worked and Miss Mary Sutherland says she does not know the office name",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_122",
+        "sentence_123"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "That’s the worst of it, Mr. Holmes, I don’t know."
+      }
+    },
+    {
+      "id": "event_1_54",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer Angel slept on the premises and she only knows it was Leadenhall Street",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_125",
+        "sentence_127"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "leadenhall_street"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "He slept on the premises."
+      }
+    },
+    {
+      "id": "event_1_55",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer Angel wrote daily, she brought the letters home in the morning, and she had typed letters when asked",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_118",
+        "sentence_130"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "letters",
+        "typewriting_machine"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ]
+    },
+    {
+      "id": "event_1_56",
+      "type": "event",
+      "label": "Holmes asks what happened when Windibank returned from France and Miss Mary Sutherland says Hosmer Angel proposed they marry before father came back",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_141",
+        "sentence_142"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "windibank",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Well, and what happened when Mr. Windibank, your stepfather, returned to France?"
+      }
+    },
+    {
+      "id": "event_1_57",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she swore to be true to Hosmer Angel on the Testament",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_143"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "testament"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "He was in dreadful earnest and made me swear, with my hands on the Testament, that whatever happened I would always be true to him."
+      }
+    },
+    {
+      "id": "event_1_58",
+      "type": "event",
+      "label": "Miss Mary Sutherland says she wrote to her father at Bordeaux and the letter came back the morning of the wedding",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_148"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank",
+        "bordeaux",
+        "company_french_offices",
+        "letter"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I wrote to father at Bordeaux, where the company has its French ofﬁces, but the letter came back to me on the very morning of the wedding."
+      }
+    },
+    {
+      "id": "event_1_59",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Windibank started to England before the letter arrived and the wedding was arranged for Friday at St. Saviour’s near King’s Cross with breakfast at the St. Pancras Hotel",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_150",
+        "sentence_153",
+        "sentence_155",
+        "sentence_156",
+        "sentence_157"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "windibank",
+        "st_saviours_church",
+        "kings_cross",
+        "st_pancras_hotel",
+        "wedding_friday"
+      ],
+      "performs": [],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, sir, but very quietly."
+      }
+    },
+    {
+      "id": "event_1_60",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer Angel came for them in a hansom, but the cabman found no one there when the four-wheeler arrived",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_158",
+        "sentence_159",
+        "sentence_160"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "cabman",
+        "hansom",
+        "four_wheeler",
+        "st_saviours_church"
+      ],
+      "performs": [
+        "hosmer_angel"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "We got to the church ﬁrst, and when the four-wheeler drove up we waited for him to step out, but he never did, and when the cabman got down from the box and looked there was no one there!"
+      }
+    },
+    {
+      "id": "event_1_61",
+      "type": "event",
+      "label": "Miss Mary Sutherland says last Friday was when it happened and she has never seen or heard anything since",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_161"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "That was last Friday, Mr. Holmes, and I have never seen or heard anything since then to throw any light upon what became of him."
+      }
+    },
+    {
+      "id": "event_1_62",
+      "type": "event",
+      "label": "Holmes says Miss Mary Sutherland has been shamefully treated",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_162"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "It seems to me that you have been very shamefully treated,"
+      }
+    },
+    {
+      "id": "event_1_63",
+      "type": "event",
+      "label": "Miss Mary Sutherland says Hosmer was too good and kind to leave her and that he talked about being true on the wedding morning",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_164",
+        "sentence_165",
+        "sentence_166"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Why, all the morning he was saying to me that, whatever happened, I was to be true; and that even if something quite unforeseen occurred to separate us, I was always to remember that I was pledged to him"
+      }
+    },
+    {
+      "id": "event_1_64",
+      "type": "event",
+      "label": "Holmes asks whether Miss Mary Sutherland thinks a catastrophe has occurred to Hosmer Angel",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_168"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Your own opinion is, then, that some unforeseen catastrophe has occurred to him?"
+      }
+    },
+    {
+      "id": "event_1_65",
+      "type": "event",
+      "label": "Miss Mary Sutherland says her mother was angry and told her never to speak of the matter again",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_175",
+        "sentence_176"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "mother",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "She was angry, and said that I was never to speak of the matter again."
+      }
+    },
+    {
+      "id": "event_1_66",
+      "type": "event",
+      "label": "Holmes and Miss Mary Sutherland discuss that she told her father and that she cannot sleep and is driven half-mad",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_179",
+        "sentence_184"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Oh, it drives me half-mad to think of it, and I can’t sleep a wink at night."
+      }
+    },
+    {
+      "id": "event_1_67",
+      "type": "event",
+      "label": "Miss Mary Sutherland pulls out a handkerchief from her muff and sobs heavily into it",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_185"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "handkerchief",
+        "muff"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ]
+    },
+    {
+      "id": "event_section_2_1",
+      "type": "event",
+      "label": "Holmes rises and tells Watson he will glance into the case",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_186"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I shall glance into the case for you"
+      }
+    },
+    {
+      "id": "event_section_2_2",
+      "type": "event",
+      "label": "Holmes tells Watson to let the weight rest upon him",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_187"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Let the weight of the matter rest upon me now, and do not let your mind dwell upon it fur- ther."
+      }
+    },
+    {
+      "id": "event_section_2_3",
+      "type": "event",
+      "label": "Holmes tells Watson to forget Mr. Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_188"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Above all, try to let Mr. Hosmer Angel vanish from your memory, as he has done from your life."
+      }
+    },
+    {
+      "id": "event_section_2_4",
+      "type": "event",
+      "label": "Woman asks Holmes whether she will see Hosmer Angel again",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_189"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Then you don’t think I’ll see him again?"
+      }
+    },
+    {
+      "id": "event_section_2_5",
+      "type": "event",
+      "label": "Holmes replies he fears not",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_190"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "I fear not."
+      }
+    },
+    {
+      "id": "event_section_2_6",
+      "type": "event",
+      "label": "Woman asks what has happened to Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_191"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Then what has happened to him?"
+      }
+    },
+    {
+      "id": "event_section_2_7",
+      "type": "event",
+      "label": "Holmes tells her to leave the question in his hands",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_192"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "You will leave that question in my hands."
+      }
+    },
+    {
+      "id": "event_section_2_8",
+      "type": "event",
+      "label": "Holmes asks for an accurate description of Hosmer Angel and letters she can spare",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_193"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "I should like an accurate description of him and any letters of his which you can spare."
+      }
+    },
+    {
+      "id": "event_section_2_9",
+      "type": "event",
+      "label": "Woman says she advertised for Hosmer Angel in last Saturday’s Chronicle",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_194"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I advertised for him in last Saturday’s Chronicle"
+      }
+    },
+    {
+      "id": "event_section_2_10",
+      "type": "event",
+      "label": "Woman presents a slip and four letters from Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_195"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ]
+    },
+    {
+      "id": "event_section_2_11",
+      "type": "event",
+      "label": "Holmes asks for the woman’s address",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_197"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "And your address?"
+      }
+    },
+    {
+      "id": "event_section_2_12",
+      "type": "event",
+      "label": "Woman gives her address as 31 Lyon Place, Camberwell",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_199"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "31 Lyon Place, Camberwell."
+      }
+    },
+    {
+      "id": "event_section_2_13",
+      "type": "event",
+      "label": "Holmes asks where her father’s place of business is",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_201"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Where is your father’s place of business?"
+      }
+    },
+    {
+      "id": "event_section_2_14",
+      "type": "event",
+      "label": "Woman says her father travels for Westhouse & Marbank",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_202"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street."
+      }
+    },
+    {
+      "id": "event_section_2_15",
+      "type": "event",
+      "label": "Holmes tells the woman to leave the papers and remember his advice",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_205"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "You will leave the papers here, and remember the advice which I have given you."
+      }
+    },
+    {
+      "id": "event_section_2_16",
+      "type": "event",
+      "label": "Holmes tells her to let the whole incident be a sealed book and not let it affect her life",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_206"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "miss_mary_sutherland"
+        ],
+        "content": "Let the whole incident be a sealed book, and do not allow it to affect your life."
+      }
+    },
+    {
+      "id": "event_section_2_17",
+      "type": "event",
+      "label": "Woman tells Holmes she cannot do that and will be true to Hosmer",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_207",
+        "sentence_208"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I shall be true to Hosmer."
+      }
+    },
+    {
+      "id": "event_section_2_18",
+      "type": "event",
+      "label": "Woman says Hosmer will find her ready when he comes back",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_209"
+      ],
+      "participants": [
+        "miss_mary_sutherland",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ],
+      "communicates": {
+        "speaker": "miss_mary_sutherland",
+        "recipients": [
+          "hosmer_angel"
+        ],
+        "content": "He shall ﬁnd me ready when he comes back."
+      }
+    },
+    {
+      "id": "event_section_2_19",
+      "type": "event",
+      "label": "Woman lays her little bundle of papers on the table and leaves with a promise to come again when summoned",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_211"
+      ],
+      "participants": [
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "miss_mary_sutherland"
+      ]
+    },
+    {
+      "id": "event_section_2_20",
+      "type": "event",
+      "label": "Holmes sits silent, then lights an old clay pipe and leans back",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_212",
+        "sentence_213"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "sherlock_holmes_snuffbox"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_section_2_21",
+      "type": "event",
+      "label": "Holmes observes that the maiden is an interesting study",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_214"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Quite an interesting study, that maiden"
+      }
+    },
+    {
+      "id": "event_section_2_22",
+      "type": "event",
+      "label": "Holmes says he found parallel cases and that details were new to him",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_216",
+        "sentence_217"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "You will find parallel cases... Old as is the idea, however, there were one or two details which were new to me."
+      }
+    },
+    {
+      "id": "event_section_2_23",
+      "type": "event",
+      "label": "Holmes rebukes Watson for missing what was important and names examples of details",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_220",
+        "sentence_222"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Not invisible but unnoticed, Watson... I can never bring you to realise the importance of sleeves, the suggestiveness of thumb-nails, or the great issues that may hang from a boot-lace."
+      }
+    },
+    {
+      "id": "event_section_2_24",
+      "type": "event",
+      "label": "Holmes asks Watson to describe what he gathered from the woman’s appearance",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_223",
+        "sentence_224"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Describe it."
+      }
+    },
+    {
+      "id": "event_section_2_25",
+      "type": "event",
+      "label": "Watson describes the woman’s hat, jacket, dress, gloves, and earrings",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_225",
+        "sentence_230"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Well, she had a slate-coloured, broad-brimmed straw hat, with a feather of a brickish red... She had small round, hanging gold earrings, and a general air of being fairly well-to-do in a vulgar, comfortable, easy-going way."
+      }
+    },
+    {
+      "id": "event_section_2_26",
+      "type": "event",
+      "label": "Holmes gives Watson guidance to trust details over general impressions",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_234",
+        "sentence_236"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Never trust to general impressions, my boy, but concentrate yourself upon details. My ﬁrst glance is always at a woman’s sleeve."
+      }
+    },
+    {
+      "id": "event_section_2_27",
+      "type": "event",
+      "label": "Holmes explains physical traces on the woman’s sleeves, typewriting marks, and pince-nez dint",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_238",
+        "sentence_241"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "As you observe, this woman had plush upon her sleeves... The sewing-machine... leaves a similar mark... I then glanced at her face... dint of a pince-nez... short sight and typewriting"
+      }
+    },
+    {
+      "id": "event_section_2_28",
+      "type": "event",
+      "label": "Holmes explains he noticed odd boots and half-buttoning as evidence she came away in a hurry",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_244",
+        "sentence_246"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I was then much surprised... they were really odd ones... half-buttoned... it is no great deduction to say that she came away in a hurry."
+      }
+    },
+    {
+      "id": "event_section_2_29",
+      "type": "event",
+      "label": "Holmes states he observed a note written before leaving after full dressing and violet ink on glove and finger",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_249",
+        "sentence_252"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I noted... that she had written a note before leaving home but after being fully dressed... both glove and ﬁnger were stained with violet ink... She had written in a hurry and dipped her pen too deep."
+      }
+    },
+    {
+      "id": "event_section_2_30",
+      "type": "event",
+      "label": "Holmes asks Watson to read the advertised description of Mr. Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_254"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Would you mind reading me the advertised description of Mr. Hosmer Angel?"
+      }
+    },
+    {
+      "id": "event_section_2_31",
+      "type": "event",
+      "label": "Watson reads the printed slip stating Hosmer Angel is missing on the morning of the fourteenth",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_256",
+        "sentence_260"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Missing... on the morning of the fourteenth... About five ft. seven in. in height; strongly built... black hair... tinted glasses... slight infirmity of speech... dressed... in black frock-coat faced with silk... grey Harris tweed trousers, with brown gaiters over elastic-sided boots."
+      }
+    },
+    {
+      "id": "event_section_2_32",
+      "type": "event",
+      "label": "Holmes tells Watson the letters contain no clue except that Hosmer Angel quotes Balzac once",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_263",
+        "sentence_264"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Absolutely no clue in them to Mr. Angel, save that he quotes Balzac once."
+      }
+    },
+    {
+      "id": "event_section_2_33",
+      "type": "event",
+      "label": "Watson remarks the letters are typewritten and the signature is typewritten",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_266",
+        "sentence_268"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "They are typewritten... the signature is typewritten."
+      }
+    },
+    {
+      "id": "event_section_2_34",
+      "type": "event",
+      "label": "Holmes states the signature point is suggestive and conclusive",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_270"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "The point about the signature is very suggestive—in fact, we may call it conclusive."
+      }
+    },
+    {
+      "id": "event_section_2_35",
+      "type": "event",
+      "label": "Holmes says he will write two letters to settle the matter",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_275",
+        "sentence_276",
+        "sentence_278"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson",
+        "hosmer_angel",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "However, I shall write two letters... One is to a firm in the City, the other is to the young lady’s stepfather, Mr. Windibank... asking him whether he could meet us here at six o’clock tomorrow evening."
+      }
+    },
+    {
+      "id": "event_section_2_36",
+      "type": "event",
+      "label": "Holmes states they can do nothing until answers come and put the problem on the shelf for the interim",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_278"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "And now, Doctor, we can do nothing until the answers to those letters come, so we may put our little problem upon the shelf for the interim."
+      }
+    },
+    {
+      "id": "event_section_2_37",
+      "type": "event",
+      "label": "Watson asks Holmes if he has solved it after entering Baker Street",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_286",
+        "sentence_287"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Well, have you solved it?"
+      }
+    },
+    {
+      "id": "event_section_2_38",
+      "type": "event",
+      "label": "Holmes answers it was bisulphate of baryta",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_288",
+        "sentence_289"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "It was the bisulphate of baryta."
+      }
+    },
+    {
+      "id": "event_section_2_39",
+      "type": "event",
+      "label": "Watson interrupts and cries about the mystery",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_290",
+        "sentence_291"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No, no, the mystery!"
+      }
+    },
+    {
+      "id": "event_section_2_40",
+      "type": "event",
+      "label": "Holmes says there was never any mystery in the matter and remarks some details are of interest",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_292",
+        "sentence_294"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "There was never any mystery in the matter, though... some of the details are of interest."
+      }
+    },
+    {
+      "id": "event_section_2_41",
+      "type": "event",
+      "label": "Holmes identifies the visitor as the girl’s stepfather, Mr. James Windibank",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_298"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "This is the girl’s stepfather, Mr. James Windibank"
+      }
+    },
+    {
+      "id": "event_section_2_42",
+      "type": "event",
+      "label": "Holmes invites Windibank to come in",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_300"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "Come in!"
+      }
+    },
+    {
+      "id": "event_section_2_43",
+      "type": "event",
+      "label": "Holmes asks Windibank about a typewritten letter appointing him at six o’clock",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_304"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "I think that this typewritten letter is from you, in which you made an appointment with me for six o’clock?"
+      }
+    },
+    {
+      "id": "event_section_2_44",
+      "type": "event",
+      "label": "Windibank says he is late but not his own master, and says Miss Sutherland came against his wishes",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_306",
+        "sentence_308"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Yes, sir... I am sorry that Miss Sutherland has troubled you... It was quite against my wishes that she came... she is not easily controlled when she has made up her mind on a point."
+      }
+    },
+    {
+      "id": "event_section_2_45",
+      "type": "event",
+      "label": "Windibank says it is not pleasant to have a family misfortune noised abroad and asks how Holmes can find Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_309",
+        "sentence_310"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Besides, it is a useless expense, for how could you possibly ﬁnd this Hosmer Angel?"
+      }
+    },
+    {
+      "id": "event_section_2_46",
+      "type": "event",
+      "label": "Holmes says he has every reason to believe he will discover Mr. Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_311"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "hosmer_angel"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "On the contrary... I have every reason to believe that I will succeed in discovering Mr. Hosmer Angel."
+      }
+    },
+    {
+      "id": "event_section_2_47",
+      "type": "event",
+      "label": "Windibank responds with a violent start and drops his gloves, then says he is delighted",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_312",
+        "sentence_313"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_section_2_48",
+      "type": "event",
+      "label": "Holmes tells Windibank that typewriters have individuality like handwriting and points out slurring and defects in the note",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_314",
+        "sentence_318"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "It is a curious thing... that a typewriter has really quite as much individuality as a man’s handwriting... in every case there is some little slurring over of the ‘e,’ and a slight defect in the tail of the ‘r.’"
+      }
+    },
+    {
+      "id": "event_section_2_49",
+      "type": "event",
+      "label": "Windibank says they do correspondence with the machine at the office and it is worn",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_319"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "We do all our correspondence with this machine at the ofﬁce, and no doubt it is a little worn"
+      }
+    },
+    {
+      "id": "event_section_2_50",
+      "type": "event",
+      "label": "Holmes shows that the letters purporting to come from the missing man are typewritten and match the same defects",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_320",
+        "sentence_325"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "I have here four letters which purport to come from the missing man... They are all type- written... you will observe... the fourteen other characteristics... are there as well."
+      }
+    },
+    {
+      "id": "event_section_2_51",
+      "type": "event",
+      "label": "Windibank picks up his hat and says he cannot waste time on fantastic talk",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_326",
+        "sentence_327"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I cannot waste time over this sort of fantastic talk, Mr. Holmes"
+      }
+    },
+    {
+      "id": "event_section_2_52",
+      "type": "event",
+      "label": "Holmes steps over and turns the key in the door",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_329"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_section_2_53",
+      "type": "event",
+      "label": "Holmes says he has caught him, and Windibank asks what and where",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_330",
+        "sentence_331",
+        "sentence_332"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "I let you know, then, that I have caught him!"
+      }
+    },
+    {
+      "id": "event_section_2_54",
+      "type": "event",
+      "label": "Windibank turns white and glances around in alarm",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_333"
+      ],
+      "participants": [
+        "windibank"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_section_2_55",
+      "type": "event",
+      "label": "Holmes says Windibank must sit down and let them talk it over",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_338",
+        "sentence_339"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "Sit down and let us talk it over."
+      }
+    },
+    {
+      "id": "event_section_2_56",
+      "type": "event",
+      "label": "Windibank collapses into a chair and looks ghastly",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_340"
+      ],
+      "participants": [
+        "windibank"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_section_2_57",
+      "type": "event",
+      "label": "Windibank says it’s not actionable; Holmes replies it is not",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_341",
+        "sentence_342"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It—it’s not actionable,"
+      }
+    },
+    {
+      "id": "event_section_2_58",
+      "type": "event",
+      "label": "Holmes runs over the course of events describing Windibank’s deception as Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_344",
+        "sentence_358"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "mother"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "The man married a woman very much older than himself for her money... the stepfather disguised himself, covered those keen eyes with tinted glasses, masked the face with a moustache... sunk that clear voice... and doubly secure... appears as Mr. Hosmer Angel, and keeps off other lovers by making love himself."
+      }
+    },
+    {
+      "id": "event_section_2_59",
+      "type": "event",
+      "label": "Windibank groans that it was only a joke at first",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_359"
+      ],
+      "participants": [
+        "windibank",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "windibank"
+      ],
+      "communicates": {
+        "speaker": "windibank",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It was only a joke at ﬁrst,"
+      }
+    },
+    {
+      "id": "event_section_2_60",
+      "type": "event",
+      "label": "Holmes continues explaining that the young lady became carried away and believed her stepfather was in France",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_361",
+        "sentence_363"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "However that may be, the young lady was very decidedly carried away, and, having quite made up her mind that her stepfather was in France, the suspicion of treachery never for an instant entered her mind."
+      }
+    },
+    {
+      "id": "event_section_2_61",
+      "type": "event",
+      "label": "Holmes states they had meetings and an engagement to secure the girl’s affections, but the deception could not be kept up forever",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_366",
+        "sentence_368"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "There were meetings, and an engagement... But the deception could not be kept up forever."
+      }
+    },
+    {
+      "id": "event_section_2_62",
+      "type": "event",
+      "label": "Holmes states the deception used vows of fidelity and allusions to something happening on the morning of the wedding to bind her to Hosmer Angel",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_370",
+        "sentence_371"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank",
+        "miss_mary_sutherland",
+        "hosmer_angel",
+        "testament"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "windibank"
+        ],
+        "content": "Hence those vows of ﬁdelity ex- acted upon a Testament, and hence also the allusions to a possibility of something happening on the very morning of the wedding... that for ten years... she would not listen to another man."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "A man brings a young woman to a church door and then vanishes by entering one door of a four-wheeler and exiting through another door",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_372"
+      ],
+      "participants": [
+        "windibank",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Holmes unlocks and throws open a door",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_377"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Holmes throws a hunting crop forward by taking swift steps toward it",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_380"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Mr. James Windibank runs down the road at top speed",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_380"
+      ],
+      "participants": [
+        "windibank"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Holmes laughs while sitting back down into his chair",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_382"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "I (Watson) remarks that he cannot see all the steps of Holmes's reasoning",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_385"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I cannot now entirely see all the steps of your reasoning"
+      }
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Holmes explains that it was obvious from the first that Hosmer Angel had a strong object for his curious conduct",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_386"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Well, of course it was obvious from the first that this Mr. Hosmer Angel must have some strong object for his curious conduct"
+      }
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Holmes states that the only man who really profited by the incident was the stepfather",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_386"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "and it was equally clear that the only man who really profited by the incident, as far as we could see, was the stepfather"
+      }
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Holmes states that the two men were never together and the one always appeared when the other was away",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_387"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Then the fact that the two men were never together, but that the one always appeared when the other was away, was suggestive"
+      }
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "Holmes states that tinted spectacles and a curious voice hinted at a disguise, as did bushy whiskers",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_388"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "So were the tinted spectacles and the curious voice, which both hinted at a disguise, as did the bushy whiskers"
+      }
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "Holmes states that suspicions were confirmed by the man's peculiar action in typewriting his signature",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_389"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "My suspicions were all confirmed by his peculiar action in typewriting his signature"
+      }
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Holmes states that isolated facts and minor ones pointed in the same direction",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_390"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "You see all these isolated facts, together with many minor ones, all pointed in the same direction"
+      }
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "Watson asks how Holmes verified the points",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_391"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And how did you verify them?"
+      }
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "Holmes states that once he spotted his man, it was easy to get corroboration",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_392"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "Having once spotted my man, it was easy to get corroboration"
+      }
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "Holmes states that he knew the firm for which the man worked",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_393"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "I knew the firm for which this man worked"
+      }
+    },
+    {
+      "id": "event_3_16",
+      "type": "event",
+      "label": "Holmes sends a description to the firm and requests they inform him whether it matches any travellers they employ",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_394"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_17",
+      "type": "event",
+      "label": "Holmes writes to the man himself at his business address asking him to come there",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_395"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "windibank"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_18",
+      "type": "event",
+      "label": "A reply from the man is typewritten and shows the same trivial but characteristic defects",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_396"
+      ],
+      "participants": [
+        "windibank"
+      ],
+      "performs": [
+        "windibank"
+      ]
+    },
+    {
+      "id": "event_3_19",
+      "type": "event",
+      "label": "A letter from Westhouse & Marbank is received stating the description tallied in every respect with their employee James Windibank",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_397"
+      ],
+      "participants": [
+        "windibank"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_20",
+      "type": "event",
+      "label": "Watson asks about Miss Sutherland",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_399"
+      ],
+      "participants": [
+        "dr_watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "dr_watson"
+      ],
+      "communicates": {
+        "speaker": "dr_watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And Miss Sutherland?"
+      }
+    },
+    {
+      "id": "event_3_21",
+      "type": "event",
+      "label": "Holmes says that if he tells her she will not believe him",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_400"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "miss_mary_sutherland"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "If I tell her she will not believe me"
+      }
+    },
+    {
+      "id": "event_3_22",
+      "type": "event",
+      "label": "Holmes cites a Persian saying about danger for him who taketh the tiger cub and danger for whoso snatches a delusion from a woman",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_401"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "There is danger for him who taketh the tiger cub, and danger also for whoso snatches a delusion from a woman"
+      }
+    },
+    {
+      "id": "event_3_23",
+      "type": "event",
+      "label": "Holmes states that there is as much sense in Hafiz as in Horace, and as much knowledge of the world",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_402"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "dr_watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "dr_watson"
+        ],
+        "content": "There is as much sense in Hafiz as in Horace, and as much knowledge of the world"
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "morning_paper",
+      "to": "dr_watson_holds",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_7",
+      "caused_by": [
+        "event_1_7"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sherlock_holmes_snuffbox",
+      "to": "dr_watson_reaches_for",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_13",
+      "caused_by": [
+        "event_1_13"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "miss_mary_sutherland",
+      "to": "armchair",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_27",
+      "valid_until": "event_section_2_19",
+      "caused_by": [
+        "event_1_27"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "miss_mary_sutherland",
+      "to": "table",
+      "type": "IS_INSIDE",
+      "valid_from": "event_section_2_19",
+      "caused_by": [
+        "event_section_2_19"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "letter",
+      "to": "bordeaux_addressing_area",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_58",
+      "valid_until": "event_1_58",
+      "caused_by": [
+        "event_1_58"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "letter",
+      "to": "miss_mary_sutherland",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_58",
+      "caused_by": [
+        "event_1_58"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "windibank",
+      "to": "st_saviours_church",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_1",
+      "valid_until": "event_3_4",
+      "caused_by": [
+        "event_3_1"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "windibank",
+      "to": "kings_cross",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_4",
+      "caused_by": [
+        "event_3_4"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "miss_mary_sutherland",
+      "to": "st_saviours_church",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_1",
+      "caused_by": [
+        "event_3_1"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "sherlock_holmes",
+      "section": "section_1",
+      "mention_count": 67,
+      "sentence_ids": [
+        "sentence_1",
+        "sentence_4",
+        "sentence_7",
+        "sentence_8",
+        "sentence_9",
+        "sentence_10",
+        "sentence_11",
+        "sentence_13",
+        "sentence_20",
+        "sentence_21",
+        "sentence_23",
+        "sentence_26",
+        "sentence_27",
+        "sentence_30",
+        "sentence_33",
+        "sentence_34",
+        "sentence_39",
+        "sentence_43",
+        "sentence_44",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_51",
+        "sentence_52",
+        "sentence_55",
+        "sentence_56",
+        "sentence_57",
+        "sentence_58",
+        "sentence_62",
+        "sentence_63",
+        "sentence_67",
+        "sentence_70",
+        "sentence_76",
+        "sentence_81",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_102",
+        "sentence_103",
+        "sentence_106",
+        "sentence_107",
+        "sentence_110",
+        "sentence_114",
+        "sentence_115",
+        "sentence_119",
+        "sentence_122",
+        "sentence_123",
+        "sentence_124",
+        "sentence_126",
+        "sentence_128",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_141",
+        "sentence_142",
+        "sentence_168",
+        "sentence_172",
+        "sentence_174",
+        "sentence_175",
+        "sentence_177",
+        "sentence_178",
+        "sentence_180",
+        "sentence_181",
+        "sentence_182",
+        "sentence_183"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "section_1",
+      "mention_count": 22,
+      "sentence_ids": [
+        "sentence_1",
+        "sentence_4",
+        "sentence_10",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_23",
+        "sentence_25",
+        "sentence_31",
+        "sentence_32",
+        "sentence_53",
+        "sentence_59",
+        "sentence_62",
+        "sentence_75",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90"
+      ]
+    },
+    {
+      "entity": "morning_paper",
+      "section": "section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_14",
+        "sentence_20"
+      ]
+    },
+    {
+      "entity": "husbands_cruelty_newspaper_heading",
+      "section": "section_1",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_15",
+        "sentence_16",
+        "sentence_17",
+        "sentence_18"
+      ]
+    },
+    {
+      "entity": "dundas_separation_case",
+      "section": "section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_21",
+        "sentence_22"
+      ]
+    },
+    {
+      "entity": "king_of_bohemia",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "irene_adler",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "hosmer_angel",
+      "section": "section_1",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_61",
+        "sentence_91",
+        "sentence_93",
+        "sentence_101",
+        "sentence_109",
+        "sentence_116",
+        "sentence_121",
+        "sentence_122",
+        "sentence_125",
+        "sentence_129",
+        "sentence_134",
+        "sentence_135",
+        "sentence_141",
+        "sentence_142",
+        "sentence_160",
+        "sentence_161",
+        "sentence_165",
+        "sentence_168",
+        "sentence_169"
+      ]
+    },
+    {
+      "entity": "miss_mary_sutherland",
+      "section": "section_1",
+      "mention_count": 90,
+      "sentence_ids": [
+        "sentence_50",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_60",
+        "sentence_61",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_69",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_77",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_89",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_108",
+        "sentence_109",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116",
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_128",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146",
+        "sentence_147",
+        "sentence_148",
+        "sentence_149",
+        "sentence_150",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155",
+        "sentence_156",
+        "sentence_157",
+        "sentence_158",
+        "sentence_159",
+        "sentence_160",
+        "sentence_161",
+        "sentence_162",
+        "sentence_163",
+        "sentence_165",
+        "sentence_166",
+        "sentence_176",
+        "sentence_178",
+        "sentence_179",
+        "sentence_184",
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "windibank",
+      "section": "section_1",
+      "mention_count": 21,
+      "sentence_ids": [
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_73",
+        "sentence_74",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_104",
+        "sentence_109",
+        "sentence_111",
+        "sentence_115",
+        "sentence_116",
+        "sentence_141",
+        "sentence_149",
+        "sentence_150",
+        "sentence_177",
+        "sentence_179",
+        "sentence_180"
+      ]
+    },
+    {
+      "entity": "mother",
+      "section": "section_1",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_70",
+        "sentence_71",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_94",
+        "sentence_101",
+        "sentence_104",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146",
+        "sentence_176"
+      ]
+    },
+    {
+      "entity": "uncle_ned",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_78"
+      ]
+    },
+    {
+      "entity": "auckland",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_78"
+      ]
+    },
+    {
+      "entity": "new_zealand_stock",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_79"
+      ]
+    },
+    {
+      "entity": "mrs_etherege",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_59"
+      ]
+    },
+    {
+      "entity": "typewriting_machine",
+      "section": "section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_53",
+        "sentence_61",
+        "sentence_86",
+        "sentence_87",
+        "sentence_130"
+      ]
+    },
+    {
+      "entity": "leadenhall_street_post_office",
+      "section": "section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_129",
+        "sentence_130"
+      ]
+    },
+    {
+      "entity": "st_saviours_church",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_156"
+      ]
+    },
+    {
+      "entity": "st_pancras_hotel",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_157"
+      ]
+    },
+    {
+      "entity": "kings_cross",
+      "section": "section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_156",
+        "sentence_157"
+      ]
+    },
+    {
+      "entity": "bordeaux",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_148"
+      ]
+    },
+    {
+      "entity": "hardy",
+      "section": "section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_73",
+        "sentence_101"
+      ]
+    },
+    {
+      "entity": "plumber_of_tottenham_court_road",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_73"
+      ]
+    },
+    {
+      "entity": "testament",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_143"
+      ]
+    },
+    {
+      "entity": "handkerchief",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "muff",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_185"
+      ]
+    },
+    {
+      "entity": "boy",
+      "section": "section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_50"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "section_2",
+      "mention_count": 56,
+      "sentence_ids": [
+        "sentence_186",
+        "sentence_187",
+        "sentence_188",
+        "sentence_192",
+        "sentence_193",
+        "sentence_205",
+        "sentence_206",
+        "sentence_214",
+        "sentence_216",
+        "sentence_217",
+        "sentence_220",
+        "sentence_231",
+        "sentence_232",
+        "sentence_233",
+        "sentence_234",
+        "sentence_235",
+        "sentence_236",
+        "sentence_238",
+        "sentence_241",
+        "sentence_254",
+        "sentence_262",
+        "sentence_263",
+        "sentence_270",
+        "sentence_275",
+        "sentence_278",
+        "sentence_286",
+        "sentence_288",
+        "sentence_294",
+        "sentence_298",
+        "sentence_303",
+        "sentence_311",
+        "sentence_314",
+        "sentence_320",
+        "sentence_321",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_329",
+        "sentence_330",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_343",
+        "sentence_344",
+        "sentence_346",
+        "sentence_347",
+        "sentence_358",
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_367",
+        "sentence_370",
+        "sentence_371"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "section_2",
+      "mention_count": 30,
+      "sentence_ids": [
+        "sentence_186",
+        "sentence_187",
+        "sentence_189",
+        "sentence_192",
+        "sentence_204",
+        "sentence_210",
+        "sentence_212",
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_224",
+        "sentence_225",
+        "sentence_231",
+        "sentence_234",
+        "sentence_237",
+        "sentence_247",
+        "sentence_248",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256",
+        "sentence_266",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273",
+        "sentence_286",
+        "sentence_287",
+        "sentence_290",
+        "sentence_291",
+        "sentence_296",
+        "sentence_297"
+      ]
+    },
+    {
+      "entity": "hosmer_angel",
+      "section": "section_2",
+      "mention_count": 28,
+      "sentence_ids": [
+        "sentence_188",
+        "sentence_189",
+        "sentence_191",
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_200",
+        "sentence_209",
+        "sentence_254",
+        "sentence_256",
+        "sentence_260",
+        "sentence_261",
+        "sentence_263",
+        "sentence_264",
+        "sentence_270",
+        "sentence_271",
+        "sentence_297",
+        "sentence_304",
+        "sentence_310",
+        "sentence_311",
+        "sentence_323",
+        "sentence_330",
+        "sentence_357",
+        "sentence_358",
+        "sentence_362",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371"
+      ]
+    },
+    {
+      "entity": "miss_mary_sutherland",
+      "section": "section_2",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_207",
+        "sentence_211",
+        "sentence_281",
+        "sentence_282",
+        "sentence_296",
+        "sentence_307",
+        "sentence_308",
+        "sentence_362"
+      ]
+    },
+    {
+      "entity": "windibank",
+      "section": "section_2",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_276",
+        "sentence_298",
+        "sentence_299",
+        "sentence_303",
+        "sentence_304",
+        "sentence_305",
+        "sentence_306",
+        "sentence_310",
+        "sentence_312",
+        "sentence_313",
+        "sentence_317",
+        "sentence_319",
+        "sentence_326",
+        "sentence_327",
+        "sentence_330",
+        "sentence_331",
+        "sentence_333",
+        "sentence_335",
+        "sentence_338",
+        "sentence_341",
+        "sentence_342",
+        "sentence_343",
+        "sentence_344"
+      ]
+    },
+    {
+      "entity": "mother",
+      "section": "section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_363",
+        "sentence_364",
+        "sentence_356",
+        "sentence_357"
+      ]
+    },
+    {
+      "entity": "testament",
+      "section": "section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_370"
+      ]
+    },
+    {
+      "entity": "typewriting_machine",
+      "section": "section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_240",
+        "sentence_241",
+        "sentence_251",
+        "sentence_267",
+        "sentence_269",
+        "sentence_314",
+        "sentence_319",
+        "sentence_324",
+        "sentence_325"
+      ]
+    },
+    {
+      "entity": "leadenhall_street_post_office",
+      "section": "section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_261",
+        "sentence_269"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_248"
+      ]
+    },
+    {
+      "entity": "typewriting_machine",
+      "section": "section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_240"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "section_3",
+      "mention_count": 16,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_377",
+        "sentence_378",
+        "sentence_382",
+        "sentence_385",
+        "sentence_386",
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402"
+      ]
+    },
+    {
+      "entity": "dr_watson",
+      "section": "section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_385",
+        "sentence_391",
+        "sentence_399"
+      ]
+    },
+    {
+      "entity": "windibank",
+      "section": "section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_380",
+        "sentence_397"
+      ]
+    },
+    {
+      "entity": "miss_mary_sutherland",
+      "section": "section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_399",
+        "sentence_400"
+      ]
+    },
+    {
+      "entity": "hosmer_angel",
+      "section": "section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_386"
+      ]
+    },
+    {
+      "entity": "st_saviours_church",
+      "section": "section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_372"
+      ]
+    },
+    {
+      "entity": "kings_cross",
+      "section": "section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_380"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "broken_bell_wire",
+      "case": "dundas_separation_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "section_1",
+      "significance": "Holmes stated that a broken bell wire is the usual symptom indicating a woman has been seriously wronged by a man",
+      "source_nodes": [
+        "sentence_47"
+      ]
+    },
+    {
+      "object": "typewriting_machine",
+      "case": "study_in_silence_case_section_2",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "section_2",
+      "significance": "Holmes inferred the note and letters involved typewriting from the observed marks and the typewritten nature of the characters on the letters.",
+      "source_nodes": [
+        "sentence_238",
+        "sentence_240",
+        "sentence_263",
+        "sentence_324",
+        "sentence_325"
+      ]
+    },
+    {
+      "object": "typewriting_machine",
+      "case": "case_hosmer_angel_missing_gentleman",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "section_3",
+      "significance": "Holmes used the man's peculiar action in typewriting his signature as confirmation that typewritten signing was tied to his identity and handwriting familiarity with the woman.",
+      "source_nodes": [
+        "sentence_389"
+      ]
+    }
+  ],
+  "memberOf": []
+}

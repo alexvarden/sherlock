@@ -1,0 +1,3202 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "greek-interpreter-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 601
+    },
+    {
+      "id": "greek-interpreter-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 602
+    },
+    {
+      "id": "greek-interpreter-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 630
+    },
+    {
+      "id": "greek-interpreter-section_4",
+      "index": 3,
+      "title": "Section 4",
+      "wordCount": 648
+    },
+    {
+      "id": "greek-interpreter-section_5",
+      "index": 4,
+      "title": "Section 5",
+      "wordCount": 660
+    },
+    {
+      "id": "greek-interpreter-section_6",
+      "index": 5,
+      "title": "Section 6",
+      "wordCount": 637
+    },
+    {
+      "id": "greek-interpreter-section_7",
+      "index": 6,
+      "title": "Section 7",
+      "wordCount": 622
+    },
+    {
+      "id": "greek-interpreter-section_8",
+      "index": 7,
+      "title": "Section 8",
+      "wordCount": 620
+    },
+    {
+      "id": "greek-interpreter-section_9",
+      "index": 8,
+      "title": "Section 9",
+      "wordCount": 605
+    },
+    {
+      "id": "greek-interpreter-section_10",
+      "index": 9,
+      "title": "Section 10",
+      "wordCount": 769
+    },
+    {
+      "id": "greek-interpreter-section_11",
+      "index": 10,
+      "title": "Section 11",
+      "wordCount": 605
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "greek-interpreter-section_1",
+      "position": 0,
+      "text": "X.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "greek-interpreter-section_1",
+      "position": 1,
+      "text": "The Greek Interpreter",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "greek-interpreter-section_1",
+      "position": 2,
+      "text": "During my long and intimate acquaintance with Mr. Sherlock Holmes I had never heard him refer to his relations, and hardly ever to his own early life.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "greek-interpreter-section_1",
+      "position": 3,
+      "text": "This reticence upon his part had increased the somewhat inhuman effect which he produced upon me, until sometimes I found myself regarding him as an isolated phenomenon, a brain without a heart, as deficient in human sympathy as he was pre-eminent in intelligence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "greek-interpreter-section_1",
+      "position": 4,
+      "text": "His aversion to women and his disinclination to form new friendships were both typical of his unemotional character, but not more so than his complete suppression of every reference to his own people.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "greek-interpreter-section_1",
+      "position": 5,
+      "text": "I had come to believe that he was an orphan with no relatives living, but one day, to my very great surprise, he began to talk to me about his brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "greek-interpreter-section_1",
+      "position": 6,
+      "text": "It was after tea on a summer evening, and the conversation, which had roamed in a desultory, spasmodic fashion from golf clubs to the causes of the change in the obliquity of the ecliptic, came round at last to the question of atavism and hereditary aptitudes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "greek-interpreter-section_1",
+      "position": 7,
+      "text": "The point under discussion was, how far any singular gift in an individual was due to his ancestry and how far to his own early training.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "greek-interpreter-section_1",
+      "position": 8,
+      "text": "\"In your own case,\" said I, \"from all that you have told me, it seems obvious that your faculty of observation and your peculiar facility for deduction are due to your own systematic training.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "greek-interpreter-section_1",
+      "position": 9,
+      "text": "\"To some extent,\" he answered, thoughtfully.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "greek-interpreter-section_1",
+      "position": 10,
+      "text": "\"My ancestors were country squires, who appear to have led much the same life as is natural to their class.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "greek-interpreter-section_1",
+      "position": 11,
+      "text": "But, none the less, my turn that way is in my veins, and may have come with my grandmother, who was the sister of Vernet, the French artist.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "greek-interpreter-section_1",
+      "position": 12,
+      "text": "Art in the blood is liable to take the strangest forms.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "greek-interpreter-section_1",
+      "position": 13,
+      "text": "\"But how do you know that it is hereditary?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "greek-interpreter-section_1",
+      "position": 14,
+      "text": "\"Because my brother Mycroft possesses it in a larger degree than I do.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "greek-interpreter-section_1",
+      "position": 15,
+      "text": "This was news to me indeed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "greek-interpreter-section_1",
+      "position": 16,
+      "text": "If there were another man with such singular powers in England, how was it that neither police nor public had heard of him?",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "greek-interpreter-section_1",
+      "position": 17,
+      "text": "I put the question, with a hint that it was my companion's modesty which made him acknowledge his brother as his superior.",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "greek-interpreter-section_1",
+      "position": 18,
+      "text": "Holmes laughed at my suggestion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "greek-interpreter-section_1",
+      "position": 19,
+      "text": "\"My dear Watson,\" said he, \"I cannot agree with those who rank modesty among the virtues.",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "greek-interpreter-section_1",
+      "position": 20,
+      "text": "To the logician all things should be seen exactly as they are, and to underestimate one's self is as much a departure from truth as to exaggerate one's own powers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "greek-interpreter-section_1",
+      "position": 21,
+      "text": "When I say, therefore, that Mycroft has better powers of observation than I, you may take it that I am speaking the exact and literal truth.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "greek-interpreter-section_1",
+      "position": 22,
+      "text": "\"Is he your junior?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "greek-interpreter-section_1",
+      "position": 23,
+      "text": "\"Seven years my senior.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "greek-interpreter-section_1",
+      "position": 24,
+      "text": "\"How comes it that he is unknown?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "greek-interpreter-section_1",
+      "position": 25,
+      "text": "\"Oh, he is very well known in his own circle.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "greek-interpreter-section_1",
+      "position": 26,
+      "text": "\"Where, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "greek-interpreter-section_1",
+      "position": 27,
+      "text": "\"Well, in the Diogenes Club, for example.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "greek-interpreter-section_1",
+      "position": 28,
+      "text": "I had never heard of the institution, and my face must have proclaimed as much, for Sherlock Holmes pulled out his watch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "greek-interpreter-section_1",
+      "position": 29,
+      "text": "\"The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "greek-interpreter-section_1",
+      "position": 30,
+      "text": "He's always there from quarter to five to twenty to eight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "greek-interpreter-section_1",
+      "position": 31,
+      "text": "It's six now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "greek-interpreter-section_1",
+      "position": 32,
+      "text": "Five minutes later we were in the street, walking towards Regent's Circus.",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "greek-interpreter-section_1",
+      "position": 33,
+      "text": "\"You wonder,\" said my companion, \"why it is that Mycroft does not use his powers for detective work.",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "greek-interpreter-section_1",
+      "position": 34,
+      "text": "He is incapable of it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "greek-interpreter-section_2",
+      "position": 35,
+      "text": "\"But I thought you said—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "greek-interpreter-section_2",
+      "position": 36,
+      "text": "\"I said that he was my superior in observation and deduction.",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "greek-interpreter-section_2",
+      "position": 37,
+      "text": "If the art of the detective began and ended in reasoning from an armchair, my brother would be the greatest criminal agent that ever lived.",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "greek-interpreter-section_2",
+      "position": 38,
+      "text": "But he has no ambition and no energy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "greek-interpreter-section_2",
+      "position": 39,
+      "text": "He will not even go out of his way to verify his own solutions, and would rather be considered wrong than take the trouble to prove himself right.",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "greek-interpreter-section_2",
+      "position": 40,
+      "text": "Again and again I have taken a problem to him, and have received an explanation which has afterwards proved to be the correct one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "greek-interpreter-section_2",
+      "position": 41,
+      "text": "And yet he was absolutely incapable of working out the practical points which must be gone into before a case could be laid before a judge or jury.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "greek-interpreter-section_2",
+      "position": 42,
+      "text": "\"It is not his profession, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "greek-interpreter-section_2",
+      "position": 43,
+      "text": "\"By no means.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "greek-interpreter-section_2",
+      "position": 44,
+      "text": "What is to me a means of livelihood is to him the merest hobby of a dilettante.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "greek-interpreter-section_2",
+      "position": 45,
+      "text": "He has an extraordinary faculty for figures, and audits the books in some of the government departments.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "greek-interpreter-section_2",
+      "position": 46,
+      "text": "Mycroft lodges in Pall Mall, and he walks round the corner into Whitehall every morning and back every evening.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "greek-interpreter-section_2",
+      "position": 47,
+      "text": "From year's end to year's end he takes no other exercise, and is seen nowhere else, except only in the Diogenes Club, which is just opposite his rooms.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "greek-interpreter-section_2",
+      "position": 48,
+      "text": "\"I cannot recall the name.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "greek-interpreter-section_2",
+      "position": 49,
+      "text": "\"Very likely not.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "greek-interpreter-section_2",
+      "position": 50,
+      "text": "There are many men in London, you know, who, some from shyness, some from misanthropy, have no wish for the company of their fellows.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "greek-interpreter-section_2",
+      "position": 51,
+      "text": "Yet they are not averse to comfortable chairs and the latest periodicals.",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "greek-interpreter-section_2",
+      "position": 52,
+      "text": "It is for the convenience of these that the Diogenes Club was started, and it now contains the most unsociable and unclubable men in town.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "greek-interpreter-section_2",
+      "position": 53,
+      "text": "No member is permitted to take the least notice of any other one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "greek-interpreter-section_2",
+      "position": 54,
+      "text": "Save in the Stranger's Room, no talking is, under any circumstances, allowed, and three offences, if brought to the notice of the committee, render the talker liable to expulsion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "greek-interpreter-section_2",
+      "position": 55,
+      "text": "My brother was one of the founders, and I have myself found it a very soothing atmosphere.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "greek-interpreter-section_2",
+      "position": 56,
+      "text": "We had reached Pall Mall as we talked, and were walking down it from the St. James's end.",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "greek-interpreter-section_2",
+      "position": 57,
+      "text": "Sherlock Holmes stopped at a door some little distance from the Carlton, and, cautioning me not to speak, he led the way into the hall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "greek-interpreter-section_2",
+      "position": 58,
+      "text": "Through the glass paneling I caught a glimpse of a large and luxurious room, in which a considerable number of men were sitting about and reading papers, each in his own little nook.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "greek-interpreter-section_2",
+      "position": 59,
+      "text": "Holmes showed me into a small chamber which looked out into Pall Mall, and then, leaving me for a minute, he came back with a companion whom I knew could only be his brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "greek-interpreter-section_2",
+      "position": 60,
+      "text": "Mycroft Holmes was a much larger and stouter man than Sherlock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "greek-interpreter-section_2",
+      "position": 61,
+      "text": "His body was absolutely corpulent, but his face, though massive, had preserved something of the sharpness of expression which was so remarkable in that of his brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "greek-interpreter-section_2",
+      "position": 62,
+      "text": "His eyes, which were of a peculiarly light, watery grey, seemed to always retain that far-away, introspective look which I had only observed in Sherlock's when he was exerting his full powers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "greek-interpreter-section_2",
+      "position": 63,
+      "text": "\"I am glad to meet you, sir,\" said he, putting out a broad, fat hand like the flipper of a seal.",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "greek-interpreter-section_2",
+      "position": 64,
+      "text": "\"I hear of Sherlock everywhere since you became his chronicler.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "greek-interpreter-section_2",
+      "position": 65,
+      "text": "By the way, Sherlock, I expected to see you round last week, to consult me over that Manor House case.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "greek-interpreter-section_2",
+      "position": 66,
+      "text": "I thought you might be a little out of your depth.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "greek-interpreter-section_2",
+      "position": 67,
+      "text": "\"No, I solved it,\" said my friend, smiling.",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "greek-interpreter-section_2",
+      "position": 68,
+      "text": "\"It was Adams, of course.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "greek-interpreter-section_3",
+      "position": 69,
+      "text": "\"Yes, it was Adams.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "greek-interpreter-section_3",
+      "position": 70,
+      "text": "\"I was sure of it from the first.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "greek-interpreter-section_3",
+      "position": 71,
+      "text": "The two sat down together in the bow-window of the club.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "greek-interpreter-section_3",
+      "position": 72,
+      "text": "\"To any one who wishes to study mankind this is the spot,\" said Mycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "greek-interpreter-section_3",
+      "position": 73,
+      "text": "\"Look at the magnificent types!",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "greek-interpreter-section_3",
+      "position": 74,
+      "text": "Look at these two men who are coming towards us, for example.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "greek-interpreter-section_3",
+      "position": 75,
+      "text": "\"The billiard-marker and the other?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "greek-interpreter-section_3",
+      "position": 76,
+      "text": "\"Precisely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "greek-interpreter-section_3",
+      "position": 77,
+      "text": "What do you make of the other?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "greek-interpreter-section_3",
+      "position": 78,
+      "text": "The two men had stopped opposite the window.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "greek-interpreter-section_3",
+      "position": 79,
+      "text": "Some chalk marks over the waistcoat pocket were the only signs of billiards which I could see in one of them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "greek-interpreter-section_3",
+      "position": 80,
+      "text": "The other was a very small, dark fellow, with his hat pushed back and several packages under his arm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "greek-interpreter-section_3",
+      "position": 81,
+      "text": "\"An old soldier, I perceive,\" said Sherlock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "greek-interpreter-section_3",
+      "position": 82,
+      "text": "\"And very recently discharged,\" remarked the brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "greek-interpreter-section_3",
+      "position": 83,
+      "text": "\"Served in India, I see.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "greek-interpreter-section_3",
+      "position": 84,
+      "text": "\"And a non-commissioned officer.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "greek-interpreter-section_3",
+      "position": 85,
+      "text": "\"Royal Artillery, I fancy,\" said Sherlock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "greek-interpreter-section_3",
+      "position": 86,
+      "text": "\"And a widower.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "greek-interpreter-section_3",
+      "position": 87,
+      "text": "\"But with a child.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "greek-interpreter-section_3",
+      "position": 88,
+      "text": "\"Children, my dear boy, children.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "greek-interpreter-section_3",
+      "position": 89,
+      "text": "\"Come,\" said I, laughing, \"this is a little too much.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "greek-interpreter-section_3",
+      "position": 90,
+      "text": "\"Surely,\" answered Holmes, \"it is not hard to say that a man with that bearing, expression of authority, and sunbaked skin, is a soldier, is more than a private, and is not long from India.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "greek-interpreter-section_3",
+      "position": 91,
+      "text": "\"That he has not left the service long is shown by his still wearing his ammunition boots, as they are called,\" observed Mycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "greek-interpreter-section_3",
+      "position": 92,
+      "text": "\"He had not the cavalry stride, yet he wore his hat on one side, as is shown by the lighter skin of that side of his brow.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "greek-interpreter-section_3",
+      "position": 93,
+      "text": "His weight is against his being a sapper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "greek-interpreter-section_3",
+      "position": 94,
+      "text": "He is in the artillery.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "greek-interpreter-section_3",
+      "position": 95,
+      "text": "\"Then, of course, his complete mourning shows that he has lost some one very dear.",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "greek-interpreter-section_3",
+      "position": 96,
+      "text": "The fact that he is doing his own shopping looks as though it were his wife.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "greek-interpreter-section_3",
+      "position": 97,
+      "text": "He has been buying things for children, you perceive.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "greek-interpreter-section_3",
+      "position": 98,
+      "text": "There is a rattle, which shows that one of them is very young.",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "greek-interpreter-section_3",
+      "position": 99,
+      "text": "The wife probably died in childbed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "greek-interpreter-section_3",
+      "position": 100,
+      "text": "The fact that he has a picture-book under his arm shows that there is another child to be thought of.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "greek-interpreter-section_3",
+      "position": 101,
+      "text": "I began to understand what my friend meant when he said that his brother possessed even keener faculties that he did himself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "greek-interpreter-section_3",
+      "position": 102,
+      "text": "He glanced across at me and smiled.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "greek-interpreter-section_3",
+      "position": 103,
+      "text": "Mycroft took snuff from a tortoise-shell box, and brushed away the wandering grains from his coat front with a large, red silk handkerchief.",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "greek-interpreter-section_3",
+      "position": 104,
+      "text": "\"By the way, Sherlock,\" said he, \"I have had something quite after your own heart—a most singular problem—submitted to my judgment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "greek-interpreter-section_3",
+      "position": 105,
+      "text": "I really had not the energy to follow it up save in a very incomplete fashion, but it gave me a basis for some pleasing speculation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "greek-interpreter-section_3",
+      "position": 106,
+      "text": "If you would care to hear the facts—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "greek-interpreter-section_3",
+      "position": 107,
+      "text": "\"My dear Mycroft, I should be delighted.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "greek-interpreter-section_3",
+      "position": 108,
+      "text": "The brother scribbled a note upon a leaf of his pocket-book, and, ringing the bell, he handed it to the waiter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "greek-interpreter-section_3",
+      "position": 109,
+      "text": "\"I have asked Mr. Melas to step across,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "greek-interpreter-section_3",
+      "position": 110,
+      "text": "\"He lodges on the floor above me, and I have some slight acquaintance with him, which led him to come to me in his perplexity.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "greek-interpreter-section_3",
+      "position": 111,
+      "text": "Mr. Melas is a Greek by extraction, as I understand, and he is a remarkable linguist.",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "greek-interpreter-section_3",
+      "position": 112,
+      "text": "He earns his living partly as interpreter in the law courts and partly by acting as guide to any wealthy Orientals who may visit the Northumberland Avenue hotels.",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "greek-interpreter-section_3",
+      "position": 113,
+      "text": "I think I will leave him to tell his very remarkable experience in his own fashion.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "greek-interpreter-section_3",
+      "position": 114,
+      "text": "A few minutes later we were joined by a short, stout man whose olive face and coal-black hair proclaimed his Southern origin, though his speech was that of an educated Englishman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "greek-interpreter-section_3",
+      "position": 115,
+      "text": "He shook hands eagerly with Sherlock Holmes, and his dark eyes sparkled with pleasure when he understood that the specialist was anxious to hear his story.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "greek-interpreter-section_4",
+      "position": 116,
+      "text": "\"I do not believe that the police credit me—on my word, I do not,\" said he in a wailing voice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "greek-interpreter-section_4",
+      "position": 117,
+      "text": "\"Just because they have never heard of it before, they think that such a thing cannot be.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "greek-interpreter-section_4",
+      "position": 118,
+      "text": "But I know that I shall never be easy in my mind until I know what has become of my poor man with the sticking-plaster upon his face.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "greek-interpreter-section_4",
+      "position": 119,
+      "text": "\"I am all attention,\" said Sherlock Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "greek-interpreter-section_4",
+      "position": 120,
+      "text": "\"This is Wednesday evening,\" said Mr. Melas.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "greek-interpreter-section_4",
+      "position": 121,
+      "text": "\"Well then, it was Monday night—only two days ago, you understand—that all this happened.",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "greek-interpreter-section_4",
+      "position": 122,
+      "text": "I am an interpreter, as perhaps my neighbour there has told you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "greek-interpreter-section_4",
+      "position": 123,
+      "text": "I interpret all languages—or nearly all—but as I am a Greek by birth and with a Grecian name, it is with that particular tongue that I am principally associated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "greek-interpreter-section_4",
+      "position": 124,
+      "text": "For many years I have been the chief Greek interpreter in London, and my name is very well known in the hotels.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "greek-interpreter-section_4",
+      "position": 125,
+      "text": "\"It happens not unfrequently that I am sent for at strange hours by foreigners who get into difficulties, or by travelers who arrive late and wish my services.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "greek-interpreter-section_4",
+      "position": 126,
+      "text": "I was not surprised, therefore, on Monday night when a Mr. Latimer, a very fashionably dressed young man, came up to my rooms and asked me to accompany him in a cab which was waiting at the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "greek-interpreter-section_4",
+      "position": 127,
+      "text": "A Greek friend had come to see him upon business, he said, and as he could speak nothing but his own tongue, the services of an interpreter were indispensable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "greek-interpreter-section_4",
+      "position": 128,
+      "text": "He gave me to understand that his house was some little distance off, in Kensington, and he seemed to be in a great hurry, bustling me rapidly into the cab when we had descended to the street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "greek-interpreter-section_4",
+      "position": 129,
+      "text": "\"I say into the cab, but I soon became doubtful as to whether it was not a carriage in which I found myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "greek-interpreter-section_4",
+      "position": 130,
+      "text": "It was certainly more roomy than the ordinary four-wheeled disgrace to London, and the fittings, though frayed, were of rich quality.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "greek-interpreter-section_4",
+      "position": 131,
+      "text": "Mr. Latimer seated himself opposite to me and we started off through Charing Cross and up the Shaftesbury Avenue.",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "greek-interpreter-section_4",
+      "position": 132,
+      "text": "We had come out upon Oxford Street and I had ventured some remark as to this being a roundabout way to Kensington, when my words were arrested by the extraordinary conduct of my companion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "greek-interpreter-section_4",
+      "position": 133,
+      "text": "\"He began by drawing a most formidable-looking bludgeon loaded with lead from his pocket, and switching it backward and forward several times, as if to test its weight and strength.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "greek-interpreter-section_4",
+      "position": 134,
+      "text": "Then he placed it without a word upon the seat beside him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "greek-interpreter-section_4",
+      "position": 135,
+      "text": "Having done this, he drew up the windows on each side, and I found to my astonishment that they were covered with paper so as to prevent my seeing through them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "greek-interpreter-section_4",
+      "position": 136,
+      "text": "\"'I am sorry to cut off your view, Mr. Melas,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "greek-interpreter-section_4",
+      "position": 137,
+      "text": "'The fact is that I have no intention that you should see what the place is to which we are driving.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "greek-interpreter-section_4",
+      "position": 138,
+      "text": "It might possibly be inconvenient to me if you could find your way there again.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "greek-interpreter-section_4",
+      "position": 139,
+      "text": "\"As you can imagine, I was utterly taken aback by such an address.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "greek-interpreter-section_4",
+      "position": 140,
+      "text": "My companion was a powerful, broad-shouldered young fellow, and, apart from the weapon, I should not have had the slightest chance in a struggle with him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "greek-interpreter-section_4",
+      "position": 141,
+      "text": "\"'This is very extraordinary conduct, Mr. Latimer,' I stammered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "greek-interpreter-section_4",
+      "position": 142,
+      "text": "'You must be aware that what you are doing is quite illegal.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "greek-interpreter-section_4",
+      "position": 143,
+      "text": "\"'It is somewhat of a liberty, no doubt,' said he, 'but we'll make it up to you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "greek-interpreter-section_4",
+      "position": 144,
+      "text": "I must warn you, however, Mr. Melas, that if at any time to-night you attempt to raise an alarm or do anything which is against my interests, you will find it a very serious thing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "greek-interpreter-section_4",
+      "position": 145,
+      "text": "I beg you to remember that no one knows where you are, and that, whether you are in this carriage or in my house, you are equally in my power.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "greek-interpreter-section_5",
+      "position": 146,
+      "text": "\"His words were quiet, but he had a rasping way of saying them which was very menacing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "greek-interpreter-section_5",
+      "position": 147,
+      "text": "I sat in silence wondering what on earth could be his reason for kidnapping me in this extraordinary fashion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "greek-interpreter-section_5",
+      "position": 148,
+      "text": "Whatever it might be, it was perfectly clear that there was no possible use in my resisting, and that I could only wait to see what might befall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "greek-interpreter-section_5",
+      "position": 149,
+      "text": "\"For nearly two hours we drove without my having the least clue as to where we were going.",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "greek-interpreter-section_5",
+      "position": 150,
+      "text": "Sometimes the rattle of the stones told of a paved causeway, and at others our smooth, silent course suggested asphalt; but, save by this variation in sound, there was nothing at all which could in the remotest way help me to form a guess as to where we were.",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "greek-interpreter-section_5",
+      "position": 151,
+      "text": "The paper over each window was impenetrable to light, and a blue curtain was drawn across the glass work in front.",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "greek-interpreter-section_5",
+      "position": 152,
+      "text": "It was a quarter-past seven when we left Pall Mall, and my watch showed me that it was ten minutes to nine when we at last came to a standstill.",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "greek-interpreter-section_5",
+      "position": 153,
+      "text": "My companion let down the window, and I caught a glimpse of a low, arched doorway with a lamp burning above it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "greek-interpreter-section_5",
+      "position": 154,
+      "text": "As I was hurried from the carriage it swung open, and I found myself inside the house, with a vague impression of a lawn and trees on each side of me as I entered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "greek-interpreter-section_5",
+      "position": 155,
+      "text": "Whether these were private grounds, however, or _bonâ-fide_ country was more than I could possibly venture to say.",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "greek-interpreter-section_5",
+      "position": 156,
+      "text": "\"There was a coloured gas-lamp inside which was turned so low that I could see little save that the hall was of some size and hung with pictures.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "greek-interpreter-section_5",
+      "position": 157,
+      "text": "In the dim light I could make out that the person who had opened the door was a small, mean-looking, middle-aged man with rounded shoulders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "greek-interpreter-section_5",
+      "position": 158,
+      "text": "As he turned towards us the glint of the light showed me that he was wearing glasses.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "greek-interpreter-section_5",
+      "position": 159,
+      "text": "' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "greek-interpreter-section_5",
+      "position": 160,
+      "text": "Mr. Melas, Harold?' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "greek-interpreter-section_5",
+      "position": 161,
+      "text": "\"'Yes.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "greek-interpreter-section_5",
+      "position": 162,
+      "text": "\"'Well done, well done!",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "greek-interpreter-section_5",
+      "position": 163,
+      "text": "No ill-will, Mr. Melas, I hope, but we could not get on without you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "greek-interpreter-section_5",
+      "position": 164,
+      "text": "If you deal fair with us you'll not regret it, but if you try any tricks, God help you!'",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "greek-interpreter-section_5",
+      "position": 165,
+      "text": "He spoke in a nervous, jerky fashion, and with little giggling laughs in between, but somehow he impressed me with fear more than the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "greek-interpreter-section_5",
+      "position": 166,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "greek-interpreter-section_5",
+      "position": 167,
+      "text": "you want with me?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "greek-interpreter-section_5",
+      "position": 168,
+      "text": "\"'Only to ask a few questions of a Greek gentleman who is visiting us, and to let us have the answers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "greek-interpreter-section_5",
+      "position": 169,
+      "text": "But say no more than you are told to say, or'—here came the nervous giggle again—'you had better never have been born.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "greek-interpreter-section_5",
+      "position": 170,
+      "text": "\"As he spoke he opened a door and showed the way into a room which appeared to be very richly furnished, but again the only light was afforded by a single lamp half-turned down.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "greek-interpreter-section_5",
+      "position": 171,
+      "text": "The chamber was certainly large, and the way in which my feet sank into the carpet as I stepped across it told me of its richness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "greek-interpreter-section_5",
+      "position": 172,
+      "text": "I caught glimpses of velvet chairs, a high white marble mantel-piece, and what seemed to be a suit of Japanese armour at one side of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "greek-interpreter-section_5",
+      "position": 173,
+      "text": "There was a chair just under the lamp, and the elderly man motioned that I should sit in it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "greek-interpreter-section_5",
+      "position": 174,
+      "text": "The younger had left us, but he suddenly returned through another door, leading with him a gentleman clad in some sort of loose dressing-gown who moved slowly towards us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "greek-interpreter-section_5",
+      "position": 175,
+      "text": "As he came into the circle of dim light which enables me to see him more clearly I was thrilled with horror at his appearance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "greek-interpreter-section_5",
+      "position": 176,
+      "text": "He was deadly pale and terribly emaciated, with the protruding, brilliant eyes of a man whose spirit was greater than his strength.",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "greek-interpreter-section_5",
+      "position": 177,
+      "text": "But what shocked me more than any signs of physical weakness was that his face was grotesquely criss-crossed with sticking-plaster, and that one large pad of it was fastened over his mouth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "greek-interpreter-section_6",
+      "position": 178,
+      "text": "' cried the older man, as this strange being fell rather than sat down into a chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "greek-interpreter-section_6",
+      "position": 179,
+      "text": "'Are his hands loose?",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "greek-interpreter-section_6",
+      "position": 180,
+      "text": "Now, then, give him the pencil.",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "greek-interpreter-section_6",
+      "position": 181,
+      "text": "You are to ask the questions, Mr. Melas, and he will write the answers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "greek-interpreter-section_6",
+      "position": 182,
+      "text": "nd he will write the answers. Ask him first of all whether he is prepared to sign the papers?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "greek-interpreter-section_6",
+      "position": 183,
+      "text": "\"The man's eyes flashed fire.",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "greek-interpreter-section_6",
+      "position": 184,
+      "text": "' he wrote in Greek upon the slate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "greek-interpreter-section_6",
+      "position": 185,
+      "text": "e slate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "greek-interpreter-section_6",
+      "position": 186,
+      "text": "' I asked, at the bidding of our tyrant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "greek-interpreter-section_6",
+      "position": 187,
+      "text": "ing of our tyrant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "greek-interpreter-section_6",
+      "position": 188,
+      "text": "\"'Only if I see her married in my presence by a Greek priest whom I know.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "greek-interpreter-section_6",
+      "position": 189,
+      "text": "\"The man giggled in his venomous way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "greek-interpreter-section_6",
+      "position": 190,
+      "text": "\"'You know what awaits you, then?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "greek-interpreter-section_6",
+      "position": 191,
+      "text": "\"'I care nothing for myself.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "greek-interpreter-section_6",
+      "position": 192,
+      "text": "\"These are samples of the questions and answers which made up our strange half-spoken, half-written conversation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "greek-interpreter-section_6",
+      "position": 193,
+      "text": "Again and again I had to ask him whether he would give in and sign the documents.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "greek-interpreter-section_6",
+      "position": 194,
+      "text": "Again and again I had the same indignant reply.",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "greek-interpreter-section_6",
+      "position": 195,
+      "text": "But soon a happy thought came to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "greek-interpreter-section_6",
+      "position": 196,
+      "text": "I took to adding on little sentences of my own to each question, innocent ones at first, to test whether either of our companions knew anything of the matter, and then, as I found that they showed no signs I played a more dangerous game.",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "greek-interpreter-section_6",
+      "position": 197,
+      "text": "Our conversation ran something like this:",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "greek-interpreter-section_6",
+      "position": 198,
+      "text": "\"'You can do no good by this obstinacy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "greek-interpreter-section_6",
+      "position": 199,
+      "text": "_Who are you?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "greek-interpreter-section_6",
+      "position": 200,
+      "text": "\"'I care not.",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "greek-interpreter-section_6",
+      "position": 201,
+      "text": "_I am a stranger in London._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "greek-interpreter-section_6",
+      "position": 202,
+      "text": "\"'Your fate will be upon your own head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "greek-interpreter-section_6",
+      "position": 203,
+      "text": "_How long have you been here?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "greek-interpreter-section_6",
+      "position": 204,
+      "text": "\"'Let it be so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "greek-interpreter-section_6",
+      "position": 205,
+      "text": "_Three weeks._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "greek-interpreter-section_6",
+      "position": 206,
+      "text": "\"'The property can never be yours.",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "greek-interpreter-section_6",
+      "position": 207,
+      "text": "_What ails you?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "greek-interpreter-section_6",
+      "position": 208,
+      "text": "\"'It shall not go to villains.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "greek-interpreter-section_6",
+      "position": 209,
+      "text": "_They are starving me._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "greek-interpreter-section_6",
+      "position": 210,
+      "text": "\"'You shall go free if you sign.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "greek-interpreter-section_6",
+      "position": 211,
+      "text": "_What house is this?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "greek-interpreter-section_6",
+      "position": 212,
+      "text": "\"'I will never sign.",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "greek-interpreter-section_6",
+      "position": 213,
+      "text": "_I do not know._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "greek-interpreter-section_6",
+      "position": 214,
+      "text": "\"'You are not doing her any service.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "greek-interpreter-section_6",
+      "position": 215,
+      "text": "_What is your name?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "greek-interpreter-section_6",
+      "position": 216,
+      "text": "\"'Let me hear her say so.",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "greek-interpreter-section_6",
+      "position": 217,
+      "text": "_Kratides._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "greek-interpreter-section_6",
+      "position": 218,
+      "text": "\"'You shall see her if you sign.",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "greek-interpreter-section_6",
+      "position": 219,
+      "text": "_Where are you from?_'",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "greek-interpreter-section_6",
+      "position": 220,
+      "text": "\"'Then I shall never see her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "greek-interpreter-section_6",
+      "position": 221,
+      "text": "_Athens._'",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "greek-interpreter-section_6",
+      "position": 222,
+      "text": "\"Another five minutes, Mr. Holmes, and I should have wormed out the whole story under their very noses.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "greek-interpreter-section_6",
+      "position": 223,
+      "text": "My very next question might have cleared the matter up, but at that instant the door opened and a woman stepped into the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "greek-interpreter-section_6",
+      "position": 224,
+      "text": "I could not see her clearly enough to know more than that she was tall and graceful, with black hair, and clad in some sort of loose white gown.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "greek-interpreter-section_6",
+      "position": 225,
+      "text": "\"'Harold,' said she, speaking English with a broken accent.",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "greek-interpreter-section_6",
+      "position": 226,
+      "text": "'I could not stay away longer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "greek-interpreter-section_6",
+      "position": 227,
+      "text": "It is so lonely up there with only—Oh, my God, it is Paul!'",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "greek-interpreter-section_6",
+      "position": 228,
+      "text": "\"These last words were in Greek, and at the same instant the man with a convulsive effort tore the plaster from his lips, and screaming out 'Sophy!",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "greek-interpreter-section_6",
+      "position": 229,
+      "text": "' rushed into the woman's arms.",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "greek-interpreter-section_6",
+      "position": 230,
+      "text": "Their embrace was but for an instant, however, for the younger man seized the woman and pushed her out of the room, while the elder easily overpowered his emaciated victim, and dragged him away through the other door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "greek-interpreter-section_6",
+      "position": 231,
+      "text": "For a moment I was left alone in the room, and I sprang to my feet with some vague idea that I might in some way get a clue to what this house was in which I found myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "greek-interpreter-section_6",
+      "position": 232,
+      "text": "Fortunately, however, I took no steps, for looking up I saw that the older man was standing in the doorway with his eyes fixed upon me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "greek-interpreter-section_6",
+      "position": 233,
+      "text": "on me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "greek-interpreter-section_6",
+      "position": 234,
+      "text": "\"'That will do, Mr. Melas,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "greek-interpreter-section_6",
+      "position": 235,
+      "text": "'You perceive that we have taken you into our confidence over some very private business.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "greek-interpreter-section_6",
+      "position": 236,
+      "text": "We should not have troubled you, only that our friend who speaks Greek and who began these negotiations has been forced to return to the East.",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "greek-interpreter-section_6",
+      "position": 237,
+      "text": "It was quite necessary for us to find some one to take his place, and we were fortunate in hearing of your powers.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "greek-interpreter-section_7",
+      "position": 238,
+      "text": "\"I bowed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "greek-interpreter-section_7",
+      "position": 239,
+      "text": "\"'There are five sovereigns here,' said he, walking up to me, 'which will, I hope, be a sufficient fee.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "greek-interpreter-section_7",
+      "position": 240,
+      "text": "But remember,' he added, tapping me lightly on the chest and giggling, 'if you speak to a human soul about this—one human soul, mind—well, may God have mercy upon your soul!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "greek-interpreter-section_7",
+      "position": 241,
+      "text": "\"I cannot tell you the loathing and horror with which this insignificant-looking man inspired me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "greek-interpreter-section_7",
+      "position": 242,
+      "text": "I could see him better now as the lamp-light shone upon him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "greek-interpreter-section_7",
+      "position": 243,
+      "text": "His features were peaky and sallow, and his little pointed beard was thready and ill-nourished.",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "greek-interpreter-section_7",
+      "position": 244,
+      "text": "He pushed his face forward as he spoke and his lips and eyelids were continually twitching like a man with St. Vitus's dance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "greek-interpreter-section_7",
+      "position": 245,
+      "text": "I could not help thinking that his strange, catchy little laugh was also a symptom of some nervous malady.",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "greek-interpreter-section_7",
+      "position": 246,
+      "text": "The terror of his face lay in his eyes, however, steel grey, and glistening coldly with a malignant, inexorable cruelty in their depths.",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "greek-interpreter-section_7",
+      "position": 247,
+      "text": "\"'We shall know if you speak of this,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "greek-interpreter-section_7",
+      "position": 248,
+      "text": "'We have our own means of information.",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "greek-interpreter-section_7",
+      "position": 249,
+      "text": "Now you will find the carriage waiting, and my friend will see you on your way.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "greek-interpreter-section_7",
+      "position": 250,
+      "text": "\"I was hurried through the hall and into the vehicle, again obtaining that momentary glimpse of trees and a garden.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "greek-interpreter-section_7",
+      "position": 251,
+      "text": "Mr. Latimer followed closely at my heels, and took his place opposite to me without a word.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "greek-interpreter-section_7",
+      "position": 252,
+      "text": "In silence we again drove for an interminable distance with the windows raised, until at last, just after midnight, the carriage pulled up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "greek-interpreter-section_7",
+      "position": 253,
+      "text": "\"'You will get down here, Mr. Melas,' said my companion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "greek-interpreter-section_7",
+      "position": 254,
+      "text": "'I am sorry to leave you so far from your house, but there is no alternative.",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "greek-interpreter-section_7",
+      "position": 255,
+      "text": "Any attempt upon your part to follow the carriage can only end in injury to yourself.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "greek-interpreter-section_7",
+      "position": 256,
+      "text": "\"He opened the door as he spoke, and I had hardly time to spring out when the coachman lashed the horse and the carriage rattled away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "greek-interpreter-section_7",
+      "position": 257,
+      "text": "I looked around me in astonishment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "greek-interpreter-section_7",
+      "position": 258,
+      "text": "I was on some sort of a heathy common mottled over with dark clumps of furze-bushes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "greek-interpreter-section_7",
+      "position": 259,
+      "text": "Far away stretched a line of houses, with a light here and there in the upper windows.",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "greek-interpreter-section_7",
+      "position": 260,
+      "text": "On the other side I saw the red signal-lamps of a railway.",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "greek-interpreter-section_7",
+      "position": 261,
+      "text": "\"The carriage which had brought me was already out of sight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "greek-interpreter-section_7",
+      "position": 262,
+      "text": "I stood gazing round and wondering where on earth I might be, when I saw some one coming towards me in the darkness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "greek-interpreter-section_7",
+      "position": 263,
+      "text": "As he came up to me I made out that he was a railway porter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "greek-interpreter-section_7",
+      "position": 264,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "greek-interpreter-section_7",
+      "position": 265,
+      "text": "tell me what place this is?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "greek-interpreter-section_7",
+      "position": 266,
+      "text": "\"'Wandsworth Common,' said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "greek-interpreter-section_7",
+      "position": 267,
+      "text": "\"'Can I get a train into town?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "greek-interpreter-section_7",
+      "position": 268,
+      "text": "\"'If you walk on a mile or so to Clapham Junction,' said he, 'you'll just be in time for the last to Victoria.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "greek-interpreter-section_7",
+      "position": 269,
+      "text": "\"So that was the end of my adventure, Mr. Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "greek-interpreter-section_7",
+      "position": 270,
+      "text": "I do not know where I was, nor whom I spoke with, nor anything save what I have told you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "greek-interpreter-section_7",
+      "position": 271,
+      "text": "But I know that there is foul play going on, and I want to help that unhappy man if I can.",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "greek-interpreter-section_7",
+      "position": 272,
+      "text": "I told the whole story to Mr. Mycroft Holmes next morning, and subsequently to the police.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "greek-interpreter-section_7",
+      "position": 273,
+      "text": "We all sat in silence for some little time after listening to this extraordinary narrative.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "greek-interpreter-section_7",
+      "position": 274,
+      "text": "Then Sherlock looked across at his brother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "greek-interpreter-section_7",
+      "position": 275,
+      "text": "\"Any steps?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "greek-interpreter-section_7",
+      "position": 276,
+      "text": "he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "greek-interpreter-section_7",
+      "position": 277,
+      "text": "Mycroft picked up the _Daily News_, which was lying on the side-table.",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "greek-interpreter-section_7",
+      "position": 278,
+      "text": "\"'Anybody supplying any information to the whereabouts of a Greek gentleman named Paul Kratides, from Athens, who is unable to speak English, will be rewarded.",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "greek-interpreter-section_7",
+      "position": 279,
+      "text": "A similar reward paid to any one giving information about a Greek lady whose first name is Sophy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "greek-interpreter-section_7",
+      "position": 280,
+      "text": "' That was in all the dailies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "greek-interpreter-section_7",
+      "position": 281,
+      "text": "No answer.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "greek-interpreter-section_7",
+      "position": 282,
+      "text": "nswer.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "greek-interpreter-section_8",
+      "position": 283,
+      "text": "\"How about the Greek Legation?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "greek-interpreter-section_8",
+      "position": 284,
+      "text": "\"I have inquired.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "greek-interpreter-section_8",
+      "position": 285,
+      "text": "They know nothing.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "greek-interpreter-section_8",
+      "position": 286,
+      "text": "\"A wire to the head of the Athens police, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "greek-interpreter-section_8",
+      "position": 287,
+      "text": "\"Sherlock has all the energy of the family,\" said Mycroft, turning to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "greek-interpreter-section_8",
+      "position": 288,
+      "text": "\"Well, you take the case up by all means, and let me know if you do any good.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "greek-interpreter-section_8",
+      "position": 289,
+      "text": "\"Certainly,\" answered my friend, rising from his chair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "greek-interpreter-section_8",
+      "position": 290,
+      "text": "\"I'll let you know, and Mr. Melas also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "greek-interpreter-section_8",
+      "position": 291,
+      "text": "In the meantime, Mr. Melas, I should certainly be on my guard, if I were you, for of course they must know through these advertisements that you have betrayed them.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "greek-interpreter-section_8",
+      "position": 292,
+      "text": "As we walked home together, Holmes stopped at a telegraph office and sent off several wires.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "greek-interpreter-section_8",
+      "position": 293,
+      "text": "\"You see, Watson,\" he remarked, \"our evening has been by no means wasted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "greek-interpreter-section_8",
+      "position": 294,
+      "text": "Some of my most interesting cases have come to me in this way through Mycroft.",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "greek-interpreter-section_8",
+      "position": 295,
+      "text": "The problem which we have just listened to, although it can admit of but one explanation, has still some distinguishing features.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "greek-interpreter-section_8",
+      "position": 296,
+      "text": "\"You have hopes of solving it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "greek-interpreter-section_8",
+      "position": 297,
+      "text": "\"Well, knowing as much as we do, it will be singular indeed if we fail to discover the rest.",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "greek-interpreter-section_8",
+      "position": 298,
+      "text": "You must yourself have formed some theory which will explain the facts to which we have listened.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "greek-interpreter-section_8",
+      "position": 299,
+      "text": "\"In a vague way, yes.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "greek-interpreter-section_8",
+      "position": 300,
+      "text": "\"What was your idea, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "greek-interpreter-section_8",
+      "position": 301,
+      "text": "\"It seemed to me to be obvious that this Greek girl had been carried off by the young Englishman named Harold Latimer.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "greek-interpreter-section_8",
+      "position": 302,
+      "text": "\"Carried off from where?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "greek-interpreter-section_8",
+      "position": 303,
+      "text": "\"Athens, perhaps.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "greek-interpreter-section_8",
+      "position": 304,
+      "text": "Sherlock Holmes shook his head.",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "greek-interpreter-section_8",
+      "position": 305,
+      "text": "\"This young man could not talk a word of Greek.",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "greek-interpreter-section_8",
+      "position": 306,
+      "text": "The lady could talk English fairly well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "greek-interpreter-section_8",
+      "position": 307,
+      "text": "Inference, that she had been in England some little time, but he had not been in Greece.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "greek-interpreter-section_8",
+      "position": 308,
+      "text": "\"Well, then, we will presume that she had come on a visit to England, and that this Harold had persuaded her to fly with him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "greek-interpreter-section_8",
+      "position": 309,
+      "text": "\"That is more probable.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "greek-interpreter-section_8",
+      "position": 310,
+      "text": "\"Then the brother—for that, I fancy, must be the relationship—comes over from Greece to interfere.",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "greek-interpreter-section_8",
+      "position": 311,
+      "text": "He imprudently puts himself into the power of the young man and his older associate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "greek-interpreter-section_8",
+      "position": 312,
+      "text": "They seize him and use violence towards him in order to make him sign some papers to make over the girl's fortune—of which he may be trustee—to them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "greek-interpreter-section_8",
+      "position": 313,
+      "text": "This he refuses to do.",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "greek-interpreter-section_8",
+      "position": 314,
+      "text": "In order to negotiate with him they have to get an interpreter, and they pitch upon this Mr. Melas, having used some other one before.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "greek-interpreter-section_8",
+      "position": 315,
+      "text": "The girl is not told of the arrival of her brother, and finds it out by the merest accident.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "greek-interpreter-section_8",
+      "position": 316,
+      "text": "\"Excellent, Watson!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "greek-interpreter-section_8",
+      "position": 317,
+      "text": "cried Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "greek-interpreter-section_8",
+      "position": 318,
+      "text": "\"I really fancy that you are not far from the truth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "greek-interpreter-section_8",
+      "position": 319,
+      "text": "You see that we hold all the cards, and we have only to fear some sudden act of violence on their part.",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "greek-interpreter-section_8",
+      "position": 320,
+      "text": "If they give us time we must have them.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "greek-interpreter-section_8",
+      "position": 321,
+      "text": "\"But how can we find where this house lies?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "greek-interpreter-section_8",
+      "position": 322,
+      "text": "\"Well, if our conjecture is correct and the girl's name is or was Sophy Kratides, we should have no difficulty in tracing her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "greek-interpreter-section_8",
+      "position": 323,
+      "text": "That must be our main hope, for the brother is, of course, a complete stranger.",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "greek-interpreter-section_8",
+      "position": 324,
+      "text": "It is clear that some time has elapsed since this Harold established these relations with the girl—some weeks, at any rate—since the brother in Greece has had time to hear of it and come across.",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "greek-interpreter-section_8",
+      "position": 325,
+      "text": "If they have been living in the same place during this time, it is probable that we shall have some answer to Mycroft's advertisement.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "greek-interpreter-section_8",
+      "position": 326,
+      "text": "We had reached our house in Baker Street while we had been talking.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "greek-interpreter-section_8",
+      "position": 327,
+      "text": "Holmes ascended the stair first, and as he opened the door of our room he gave a start of surprise.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "greek-interpreter-section_8",
+      "position": 328,
+      "text": "Looking over his shoulder, I was equally astonished.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "greek-interpreter-section_8",
+      "position": 329,
+      "text": "His brother Mycroft was sitting smoking in the armchair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "greek-interpreter-section_9",
+      "position": 330,
+      "text": "\"Come in, Sherlock!",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "greek-interpreter-section_9",
+      "position": 331,
+      "text": "Come in, sir,\" said he blandly, smiling at our surprised faces.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "greek-interpreter-section_9",
+      "position": 332,
+      "text": "\"You don't expect such energy from me, do you, Sherlock?",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "greek-interpreter-section_9",
+      "position": 333,
+      "text": "But somehow this case attracts me.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "greek-interpreter-section_9",
+      "position": 334,
+      "text": "\"How did you get here?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "greek-interpreter-section_9",
+      "position": 335,
+      "text": "\"I passed you in a hansom.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "greek-interpreter-section_9",
+      "position": 336,
+      "text": "\"There has been some new development?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "greek-interpreter-section_9",
+      "position": 337,
+      "text": "\"I had an answer to my advertisement.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "greek-interpreter-section_9",
+      "position": 338,
+      "text": "\"Ah!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "greek-interpreter-section_9",
+      "position": 339,
+      "text": "\"Yes, it came within a few minutes of your leaving.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "greek-interpreter-section_9",
+      "position": 340,
+      "text": "\"And to what effect?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "greek-interpreter-section_9",
+      "position": 341,
+      "text": "Mycroft Holmes took out a sheet of paper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "greek-interpreter-section_9",
+      "position": 342,
+      "text": "\"Here it is,\" said he, \"written with a J pen on royal cream paper by a middle-aged man with a weak constitution.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "greek-interpreter-section_9",
+      "position": 343,
+      "text": "'Sir,' he says, 'in answer to your advertisement of to-day's date, I beg to inform you that I know the young lady in question very well.",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "greek-interpreter-section_9",
+      "position": 344,
+      "text": "If you should care to call upon me I could give you some particulars as to her painful history.",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "greek-interpreter-section_9",
+      "position": 345,
+      "text": "She is living at present at The Myrtles, Beckenham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "greek-interpreter-section_9",
+      "position": 346,
+      "text": "Yours faithfully, J.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "greek-interpreter-section_9",
+      "position": 347,
+      "text": "Davenport.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "greek-interpreter-section_9",
+      "position": 348,
+      "text": "\"He writes from Lower Brixton,\" said Mycroft Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "greek-interpreter-section_9",
+      "position": 349,
+      "text": "\"Do you not think that we might drive to him now, Sherlock, and learn these particulars?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "greek-interpreter-section_9",
+      "position": 350,
+      "text": "\"My dear Mycroft, the brother's life is more valuable than the sister's story.",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "greek-interpreter-section_9",
+      "position": 351,
+      "text": "I think we should call at Scotland Yard for Inspector Gregson, and go straight out to Beckenham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "greek-interpreter-section_9",
+      "position": 352,
+      "text": "We know that a man is being done to death, and every hour may be vital.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "greek-interpreter-section_9",
+      "position": 353,
+      "text": "\"Better pick up Mr. Melas on our way,\" I suggested.",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "greek-interpreter-section_9",
+      "position": 354,
+      "text": "\"We may need an interpreter.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "greek-interpreter-section_9",
+      "position": 355,
+      "text": "\"Excellent,\" said Sherlock Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "greek-interpreter-section_9",
+      "position": 356,
+      "text": "\"Send the boy for a four-wheeler, and we shall be off at once.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "greek-interpreter-section_9",
+      "position": 357,
+      "text": "He opened the table-drawer as he spoke, and I noticed that he slipped his revolver into his pocket.",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "greek-interpreter-section_9",
+      "position": 358,
+      "text": "\"Yes,\" said he, in answer to my glance; \"I should say from what we have heard, that we are dealing with a particularly dangerous gang.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "greek-interpreter-section_9",
+      "position": 359,
+      "text": "It was almost dark before we found ourselves in Pall Mall, at the rooms of Mr. Melas.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "greek-interpreter-section_9",
+      "position": 360,
+      "text": "A gentleman had just called for him, and he was gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "greek-interpreter-section_9",
+      "position": 361,
+      "text": "\"Can you tell me where?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "greek-interpreter-section_9",
+      "position": 362,
+      "text": "asked Mycroft Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "greek-interpreter-section_9",
+      "position": 363,
+      "text": "\"I don't know, sir,\" answered the woman who had opened the door; \"I only know that he drove away with the gentleman in a carriage.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "greek-interpreter-section_9",
+      "position": 364,
+      "text": "\"Did the gentleman give a name?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "greek-interpreter-section_9",
+      "position": 365,
+      "text": "\"No, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "greek-interpreter-section_9",
+      "position": 366,
+      "text": "\"He wasn't a tall, handsome, dark young man?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "greek-interpreter-section_9",
+      "position": 367,
+      "text": "\"Oh, no, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "greek-interpreter-section_9",
+      "position": 368,
+      "text": "He was a little gentleman, with glasses, thin in the face, but very pleasant in his ways, for he was laughing all the time that he was talking.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "greek-interpreter-section_9",
+      "position": 369,
+      "text": "\"Come along!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "greek-interpreter-section_9",
+      "position": 370,
+      "text": "cried Sherlock Holmes, abruptly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "greek-interpreter-section_9",
+      "position": 371,
+      "text": "\"This grows serious,\" he observed, as we drove to Scotland Yard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "greek-interpreter-section_9",
+      "position": 372,
+      "text": "\"These men have got hold of Melas again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "greek-interpreter-section_9",
+      "position": 373,
+      "text": "He is a man of no physical courage, as they are well aware from their experience the other night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "greek-interpreter-section_9",
+      "position": 374,
+      "text": "This villain was able to terrorise him the instant that he got into his presence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "greek-interpreter-section_9",
+      "position": 375,
+      "text": "No doubt they want his professional services, but, having used him, they may be inclined to punish him for what they will regard as his treachery.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "greek-interpreter-section_9",
+      "position": 376,
+      "text": "Our hope was that, by taking train, we might get to Beckenham as soon or sooner than the carriage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "greek-interpreter-section_9",
+      "position": 377,
+      "text": "On reaching Scotland Yard, however, it was more than an hour before we could get Inspector Gregson and comply with the legal formalities which would enable us to enter the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "greek-interpreter-section_9",
+      "position": 378,
+      "text": "It was a quarter to ten before we reached London Bridge, and half past before the four of us alighted on the Beckenham platform.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "greek-interpreter-section_9",
+      "position": 379,
+      "text": "A drive of half a mile brought us to The Myrtles—a large, dark house standing back from the road in its own grounds.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "greek-interpreter-section_9",
+      "position": 380,
+      "text": "Here we dismissed our cab, and made our way up the drive together.",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "greek-interpreter-section_10",
+      "position": 381,
+      "text": "\"The windows are all dark,\" remarked the inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "greek-interpreter-section_10",
+      "position": 382,
+      "text": "\"The house seems deserted.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "greek-interpreter-section_10",
+      "position": 383,
+      "text": "\"Our birds are flown and the nest empty,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "greek-interpreter-section_10",
+      "position": 384,
+      "text": "\"Why do you say so?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "greek-interpreter-section_10",
+      "position": 385,
+      "text": "\"A carriage heavily loaded with luggage has passed out during the last hour.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "greek-interpreter-section_10",
+      "position": 386,
+      "text": "The inspector laughed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "greek-interpreter-section_10",
+      "position": 387,
+      "text": "\"I saw the wheel-tracks in the light of the gate-lamp, but where does the luggage come in?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "greek-interpreter-section_10",
+      "position": 388,
+      "text": "\"You may have observed the same wheel-tracks going the other way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "greek-interpreter-section_10",
+      "position": 389,
+      "text": "But the outward-bound ones were very much deeper—so much so that we can say for a certainty that there was a very considerable weight on the carriage.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "greek-interpreter-section_10",
+      "position": 390,
+      "text": "\"You get a trifle beyond me there,\" said the inspector, shrugging his shoulder.",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "greek-interpreter-section_10",
+      "position": 391,
+      "text": "\"It will not be an easy door to force, but we will try if we cannot make some one hear us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "greek-interpreter-section_10",
+      "position": 392,
+      "text": "He hammered loudly at the knocker and pulled at the bell, but without any success.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "greek-interpreter-section_10",
+      "position": 393,
+      "text": "Holmes had slipped away, but he came back in a few minutes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "greek-interpreter-section_10",
+      "position": 394,
+      "text": "\"I have a window open,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "greek-interpreter-section_10",
+      "position": 395,
+      "text": "\"It is a mercy that you are on the side of the force, and not against it, Mr. Holmes,\" remarked the inspector, as he noted the clever way in which my friend had forced back the catch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "greek-interpreter-section_10",
+      "position": 396,
+      "text": "\"Well, I think that under the circumstances we may enter without an invitation.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "greek-interpreter-section_10",
+      "position": 397,
+      "text": "One after the other we made our way into a large apartment, which was evidently that in which Mr. Melas had found himself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "greek-interpreter-section_10",
+      "position": 398,
+      "text": "The inspector had lit his lantern, and by its light we could see the two doors, the curtain, the lamp, and the suit of Japanese mail as he had described them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "greek-interpreter-section_10",
+      "position": 399,
+      "text": "On the table lay two glasses, and empty brandy-bottle, and the remains of a meal.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "greek-interpreter-section_10",
+      "position": 400,
+      "text": "\"What is that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "greek-interpreter-section_10",
+      "position": 401,
+      "text": "asked Holmes, suddenly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "greek-interpreter-section_10",
+      "position": 402,
+      "text": "We all stood still and listened.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "greek-interpreter-section_10",
+      "position": 403,
+      "text": "A low moaning sound was coming from somewhere over our heads.",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "greek-interpreter-section_10",
+      "position": 404,
+      "text": "Holmes rushed to the door and out into the hall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "greek-interpreter-section_10",
+      "position": 405,
+      "text": "The dismal noise came from upstairs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "greek-interpreter-section_10",
+      "position": 406,
+      "text": "He dashed up, the inspector and I at his heels, while his brother Mycroft followed as quickly as his great bulk would permit.",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "greek-interpreter-section_10",
+      "position": 407,
+      "text": "Three doors faced up upon the second floor, and it was from the central of these that the sinister sounds were issuing, sinking sometimes into a dull mumble and rising again into a shrill whine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "greek-interpreter-section_10",
+      "position": 408,
+      "text": "It was locked, but the key had been left on the outside.",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "greek-interpreter-section_10",
+      "position": 409,
+      "text": "Holmes flung open the door and rushed in, but he was out again in an instant, with his hand to his throat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "greek-interpreter-section_10",
+      "position": 410,
+      "text": "\"It's charcoal,\" he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "greek-interpreter-section_10",
+      "position": 411,
+      "text": "\"Give it time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "greek-interpreter-section_10",
+      "position": 412,
+      "text": "It will clear.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "greek-interpreter-section_10",
+      "position": 413,
+      "text": "Peering in, we could see that the only light in the room came from a dull blue flame which flickered from a small brass tripod in the centre.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "greek-interpreter-section_10",
+      "position": 414,
+      "text": "It threw a livid, unnatural circle upon the floor, while in the shadows beyond we saw the vague loom of two figures which crouched against the wall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "greek-interpreter-section_10",
+      "position": 415,
+      "text": "From the open door there reeked a horrible poisonous exhalation which set us gasping and coughing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "greek-interpreter-section_10",
+      "position": 416,
+      "text": "Holmes rushed to the top of the stairs to draw in the fresh air, and then, dashing into the room, he threw up the window and hurled the brazen tripod out into the garden.",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "greek-interpreter-section_10",
+      "position": 417,
+      "text": "\"We can enter in a minute,\" he gasped, darting out again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "greek-interpreter-section_10",
+      "position": 418,
+      "text": "\"Where is a candle?",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "greek-interpreter-section_10",
+      "position": 419,
+      "text": "I doubt if we could strike a match in that atmosphere.",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "greek-interpreter-section_10",
+      "position": 420,
+      "text": "Hold the light at the door and we shall get them out, Mycroft, now!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "greek-interpreter-section_10",
+      "position": 421,
+      "text": "With a rush we got to the poisoned men and dragged them out into the well-lit hall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "greek-interpreter-section_10",
+      "position": 422,
+      "text": "Both of them were blue-lipped and insensible, with swollen, congested faces and protruding eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "greek-interpreter-section_10",
+      "position": 423,
+      "text": "Indeed, so distorted were their features that, save for his black beard and stout figure, we might have failed to recognise in one of them the Greek interpreter who had parted from us only a few hours before at the Diogenes Club.",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "greek-interpreter-section_10",
+      "position": 424,
+      "text": "His hands and feet were securely strapped together, and he bore over one eye the marks of a violent blow.",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "greek-interpreter-section_10",
+      "position": 425,
+      "text": "The other, who was secured in a similar fashion, was a tall man in the last stage of emaciation, with several strips of sticking-plaster arranged in a grotesque pattern over his face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "greek-interpreter-section_10",
+      "position": 426,
+      "text": "He had ceased to moan as we laid him down, and a glance showed me that for him at least our aid had come too late.",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "greek-interpreter-section_10",
+      "position": 427,
+      "text": "Mr. Melas, however, still lived, and in less than an hour, with the aid of ammonia and brandy I had the satisfaction of seeing him open his eyes, and of knowing that my hand had drawn him back from that dark valley in which all paths meet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "greek-interpreter-section_11",
+      "position": 428,
+      "text": "It was a simple story which he had to tell, and one which did but confirm our own deductions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "greek-interpreter-section_11",
+      "position": 429,
+      "text": "His visitor, on entering his rooms, had drawn a life-preserver from his sleeve, and had so impressed him with the fear of instant and inevitable death that he had kidnapped him for the second time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "greek-interpreter-section_11",
+      "position": 430,
+      "text": "Indeed, it was almost mesmeric, the effect which this giggling ruffian had produced upon the unfortunate linguist, for he could not speak of him save with trembling hands and a blanched cheek.",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "greek-interpreter-section_11",
+      "position": 431,
+      "text": "He had been taken swiftly to Beckenham, and had acted as interpreter in a second interview, even more dramatic than the first, in which the two Englishmen had menaced their prisoner with instant death if he did not comply with their demands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "greek-interpreter-section_11",
+      "position": 432,
+      "text": "Finally, finding him proof against every threat, they had hurled him back into his prison, and after reproaching Melas with his treachery, which appeared from the newspaper advertisement, they had stunned him with a blow from a stick, and he remembered nothing more until he found us bending over him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "greek-interpreter-section_11",
+      "position": 433,
+      "text": "And this was the singular case of the Grecian Interpreter, the explanation of which is still involved in some mystery.",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "greek-interpreter-section_11",
+      "position": 434,
+      "text": "We were able to find out, by communicating with the gentleman who had answered the advertisement, that the unfortunate young lady came of a wealthy Grecian family, and that she had been on a visit to some friends in England.",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "greek-interpreter-section_11",
+      "position": 435,
+      "text": "While there she had met a young man named Harold Latimer, who had acquired an ascendancy over her and had eventually persuaded her to fly with him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "greek-interpreter-section_11",
+      "position": 436,
+      "text": "Her friends, shocked at the event, had contented themselves with informing her brother at Athens, and had then washed their hands of the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "greek-interpreter-section_11",
+      "position": 437,
+      "text": "The brother, on his arrival in England, had imprudently placed himself in the power of Latimer and of his associate, whose name was Wilson Kemp—a man of the foulest antecedents.",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "greek-interpreter-section_11",
+      "position": 438,
+      "text": "These two, finding that through his ignorance of the language he was helpless in their hands, had kept him a prisoner, and had endeavoured by cruelty and starvation to make him sign away his own and his sister's property.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "greek-interpreter-section_11",
+      "position": 439,
+      "text": "They had kept him in the house without the girl's knowledge, and the plaster over the face had been for the purpose of making recognition difficult in case she should ever catch a glimpse of him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "greek-interpreter-section_11",
+      "position": 440,
+      "text": "Her feminine perception, however, had instantly seen through the disguise when, on the occasion of the interpreter's visit, she had seen him for the first time.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "greek-interpreter-section_11",
+      "position": 441,
+      "text": "The poor girl, however, was herself a prisoner, for there was no one about the house except the man who acted as coachman, and his wife, both of whom were tools of the conspirators.",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "greek-interpreter-section_11",
+      "position": 442,
+      "text": "Finding that their secret was out, and that their prisoner was not to be coerced, the two villains with the girl had fled away at a few hours' notice from the furnished house which they had hired, having first, as they thought, taken vengeance both upon the man who had defied and the one who had betrayed them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "greek-interpreter-section_11",
+      "position": 443,
+      "text": "Months afterwards a curious newspaper cutting reached us from Buda-Pesth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "greek-interpreter-section_11",
+      "position": 444,
+      "text": "It told how two Englishmen who had been traveling with a woman had met with a tragic end.",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "greek-interpreter-section_11",
+      "position": 445,
+      "text": "They had each been stabbed, it seems, and the Hungarian police were of opinion that they had quarreled and had inflicted mortal injuries upon each other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "greek-interpreter-section_11",
+      "position": 446,
+      "text": "Holmes, however, is, I fancy, of a different way of thinking, and holds to this day that, if one could find the Grecian girl, one might learn how the wrongs of herself and her brother came to be avenged.",
+      "entities": []
+    }
+  ]
+}

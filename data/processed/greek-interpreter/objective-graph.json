@@ -1,0 +1,5292 @@
+{
+  "entities": [
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective and narrator's companion",
+      "firstSection": "greek-interpreter-section_1"
+    },
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Narrator and companion of Holmes",
+      "firstSection": "greek-interpreter-section_1"
+    },
+    {
+      "id": "mycroft_holmes",
+      "type": "character",
+      "label": "Mycroft Holmes",
+      "description": "Sherlock Holmes's brother",
+      "firstSection": "greek-interpreter-section_1"
+    },
+    {
+      "id": "vernets_sister",
+      "type": "character",
+      "label": "Vernet's sister",
+      "description": "Holmes's grandmother; sister of the French artist Vernet",
+      "firstSection": "greek-interpreter-section_1"
+    },
+    {
+      "id": "vernet",
+      "type": "character",
+      "label": "Vernet",
+      "description": "French artist mentioned as Holmes's grandmother's brother",
+      "firstSection": "greek-interpreter-section_1"
+    },
+    {
+      "id": "diogenes_club",
+      "type": "organisation",
+      "label": "Diogenes Club",
+      "description": "A club in London associated with Mycroft Holmes",
+      "firstSection": "greek-interpreter-section_1",
+      "org_type": "club"
+    },
+    {
+      "id": "pall_mall",
+      "type": "location",
+      "label": "Pall Mall",
+      "description": "A London street",
+      "firstSection": "greek-interpreter-section_2"
+    },
+    {
+      "id": "whitehall",
+      "type": "location",
+      "label": "Whitehall",
+      "description": "A London district and street",
+      "firstSection": "greek-interpreter-section_2"
+    },
+    {
+      "id": "diogenes_club_room",
+      "type": "location",
+      "label": "Diogenes Club room",
+      "description": "The room of the Diogenes Club near Mycroft Holmes's rooms",
+      "firstSection": "greek-interpreter-section_2"
+    },
+    {
+      "id": "strangers_room",
+      "type": "location",
+      "label": "Stranger's Room",
+      "description": "A room in the Diogenes Club where talking is allowed",
+      "firstSection": "greek-interpreter-section_2"
+    },
+    {
+      "id": "manor_house_case",
+      "type": "case",
+      "label": "Manor House case",
+      "description": "An investigation involving a Manor House",
+      "firstSection": "greek-interpreter-section_2",
+      "source": "greek-interpreter",
+      "client": "watson",
+      "crime_type": "other",
+      "outcome": "solved",
+      "primary_location": "pall_mall"
+    },
+    {
+      "id": "adams",
+      "type": "character",
+      "label": "Adams",
+      "description": "A man identified by name in conversation.",
+      "firstSection": "greek-interpreter-section_3"
+    },
+    {
+      "id": "mr_melas",
+      "type": "character",
+      "label": "Mr. Melas",
+      "description": "A Greek interpreter and guide who is invited to tell his experience.",
+      "firstSection": "greek-interpreter-section_3"
+    },
+    {
+      "id": "chalk_marks",
+      "type": "object",
+      "label": "chalk marks",
+      "firstSection": "greek-interpreter-section_3"
+    },
+    {
+      "id": "latimer",
+      "type": "character",
+      "label": "Mr. Latimer",
+      "description": "A fashionably dressed young man who summons Mr. Melas and travels with him by cab or carriage.",
+      "firstSection": "greek-interpreter-section_4"
+    },
+    {
+      "id": "greek_friend",
+      "type": "character",
+      "label": "Greek friend",
+      "description": "A Greek associate whom Latimer says has come to see him on business.",
+      "firstSection": "greek-interpreter-section_4"
+    },
+    {
+      "id": "cab",
+      "type": "object",
+      "label": "Cab",
+      "description": "The vehicle that first takes Mr. Melas from his rooms.",
+      "firstSection": "greek-interpreter-section_4"
+    },
+    {
+      "id": "carriage",
+      "type": "object",
+      "label": "Carriage",
+      "description": "The more roomy, richer vehicle in which Mr. Melas finds himself during the journey.",
+      "firstSection": "greek-interpreter-section_4"
+    },
+    {
+      "id": "bludgeon",
+      "type": "object",
+      "label": "Bludgeon",
+      "description": "A formidable-looking lead-loaded weapon carried by Latimer.",
+      "firstSection": "greek-interpreter-section_4"
+    },
+    {
+      "id": "gated_house",
+      "type": "location",
+      "label": "House with low arched doorway",
+      "description": "A house reached after the drive, with a low arched doorway and interior hall.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "hall",
+      "type": "location",
+      "label": "Hall",
+      "description": "A large hall inside the house, hung with pictures and dimly lit by a gas-lamp.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "rich_room",
+      "type": "location",
+      "label": "Richly furnished room",
+      "description": "A large room inside the house with rich furnishings, velvet chairs, a marble mantelpiece, and Japanese armour.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "elderly_man",
+      "type": "character",
+      "label": "Elderly man",
+      "description": "A small, mean-looking, middle-aged man with rounded shoulders and glasses who opens the door and questions Mr. Melas.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "younger_man",
+      "type": "character",
+      "label": "Younger man",
+      "description": "A man who leaves and then returns leading another gentleman into the room.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "gagged_gentleman",
+      "type": "character",
+      "label": "Gagged gentleman",
+      "description": "A dangerously thin, pale man in a loose dressing-gown with his mouth covered by sticking-plaster.",
+      "firstSection": "greek-interpreter-section_5"
+    },
+    {
+      "id": "sophy",
+      "type": "character",
+      "label": "Sophy",
+      "description": "Woman who enters the room and embraces Paul",
+      "firstSection": "greek-interpreter-section_6"
+    },
+    {
+      "id": "paul",
+      "type": "character",
+      "label": "Paul",
+      "description": "Younger man who is called Paul and is seized and pushed from the room",
+      "firstSection": "greek-interpreter-section_6"
+    },
+    {
+      "id": "harold",
+      "type": "character",
+      "label": "Harold",
+      "description": "Name used by the woman when she addresses Mr. Melas",
+      "firstSection": "greek-interpreter-section_6"
+    },
+    {
+      "id": "greek_priest",
+      "type": "character",
+      "label": "Greek priest",
+      "description": "A Greek priest mentioned as the required officiant for a marriage",
+      "firstSection": "greek-interpreter-section_6"
+    },
+    {
+      "id": "wandsworth_common",
+      "type": "location",
+      "label": "Wandsworth Common",
+      "description": "A common where Melas is left by the carriage.",
+      "firstSection": "greek-interpreter-section_7"
+    },
+    {
+      "id": "clapham_junction",
+      "type": "location",
+      "label": "Clapham Junction",
+      "description": "A railway junction mentioned as the place to reach a train to Victoria.",
+      "firstSection": "greek-interpreter-section_7"
+    },
+    {
+      "id": "victoria_station",
+      "type": "location",
+      "label": "Victoria",
+      "description": "A London destination reached by train from Clapham Junction.",
+      "firstSection": "greek-interpreter-section_7"
+    },
+    {
+      "id": "daily_news",
+      "type": "document",
+      "label": "Daily News",
+      "description": "A newspaper containing notices about Paul Kratides and Sophy.",
+      "firstSection": "greek-interpreter-section_7",
+      "document_type": "newspaper",
+      "content_summary": "Offers rewards for information about the whereabouts of Paul Kratides, a Greek gentleman from Athens unable to speak English, and a Greek lady whose first name is Sophy."
+    },
+    {
+      "id": "athens_police",
+      "type": "organisation",
+      "label": "Athens police",
+      "description": "The police force in Athens.",
+      "firstSection": "greek-interpreter-section_8",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "greece",
+      "type": "location",
+      "label": "Greece",
+      "description": "The country referenced as the origin of the brother.",
+      "firstSection": "greek-interpreter-section_8"
+    },
+    {
+      "id": "athens",
+      "type": "location",
+      "label": "Athens",
+      "description": "The city in Greece referenced in the discussion.",
+      "firstSection": "greek-interpreter-section_8"
+    },
+    {
+      "id": "greek_legation",
+      "type": "organisation",
+      "label": "Greek Legation",
+      "description": "The Greek diplomatic mission being contacted.",
+      "firstSection": "greek-interpreter-section_8",
+      "org_type": "other"
+    },
+    {
+      "id": "scotland_yard",
+      "type": "organisation",
+      "label": "Scotland Yard",
+      "description": "London police headquarters and law-enforcement organisation",
+      "firstSection": "greek-interpreter-section_9",
+      "org_type": "law_enforcement"
+    },
+    {
+      "id": "lower_brixton",
+      "type": "location",
+      "label": "Lower Brixton",
+      "description": "Area in London",
+      "firstSection": "greek-interpreter-section_9"
+    },
+    {
+      "id": "beckenham",
+      "type": "location",
+      "label": "Beckenham",
+      "description": "Place where The Myrtles is located",
+      "firstSection": "greek-interpreter-section_9"
+    },
+    {
+      "id": "the_myrtles",
+      "type": "location",
+      "label": "The Myrtles",
+      "description": "Large dark house in Beckenham",
+      "firstSection": "greek-interpreter-section_9"
+    },
+    {
+      "id": "j_davenport",
+      "type": "character",
+      "label": "J. Davenport",
+      "description": "Middle-aged man who writes the reply letter",
+      "firstSection": "greek-interpreter-section_9"
+    },
+    {
+      "id": "mycroft_holmes_advertisement_reply_letter",
+      "type": "document",
+      "label": "Reply letter to the advertisement",
+      "description": "Letter saying the young lady in question is known well and can be discussed in person",
+      "firstSection": "greek-interpreter-section_9",
+      "document_type": "letter",
+      "from": "j_davenport",
+      "to": "mycroft_holmes",
+      "content_summary": "The writer knows the young lady in question very well, can give particulars about her painful history, and says she is living at The Myrtles, Beckenham."
+    },
+    {
+      "id": "dangerous_gang",
+      "type": "organisation",
+      "label": "Dangerous gang",
+      "description": "Unnamed criminal group Holmes says they are dealing with",
+      "firstSection": "greek-interpreter-section_9",
+      "org_type": "criminal_network"
+    },
+    {
+      "id": "charcoal",
+      "type": "object",
+      "label": "Charcoal",
+      "description": "A poisonous charcoal-burning apparatus used in the upstairs room.",
+      "firstSection": "greek-interpreter-section_10"
+    },
+    {
+      "id": "grecian_interpreter_case",
+      "type": "case",
+      "label": "The Grecian Interpreter case",
+      "description": "An investigation involving the kidnapping and abuse of a Greek interpreter and related conspirators.",
+      "firstSection": "greek-interpreter-section_11",
+      "source": "greek-interpreter-section_11",
+      "client": "mr_melas",
+      "crime_type": "kidnapping",
+      "outcome": "unresolved",
+      "primary_location": "beckenham"
+    },
+    {
+      "id": "wilson_kemp",
+      "type": "character",
+      "label": "wilson kemp",
+      "firstSection": "greek-interpreter-section_11"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Watson narrates his acquaintance with Holmes and Holmes's reticence about his relations and early life",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "During my long and intimate acquaintance with Mr. Sherlock Holmes I had never heard him refer to his relations, and hardly ever to his own early life."
+      }
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Holmes begins talking to Watson about his brother",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_6"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "he began to talk to me about his brother"
+      }
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Watson and Holmes discuss whether singular gifts come from ancestry or early training",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_7",
+        "sentence_8",
+        "sentence_9",
+        "sentence_10"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "from all that you have told me, it seems obvious that your faculty of observation and your peculiar facility for deduction are due to your own systematic training."
+      }
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Holmes states that his ancestors were country squires and that his turn for observation may have come from his grandmother",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_11",
+        "sentence_12",
+        "sentence_13"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "vernets_sister",
+        "vernet"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "My ancestors were country squires, who appear to have led much the same life as is natural to their class. But, none the less, my turn that way is in my veins, and may have come with my grandmother, who was the sister of Vernet, the French artist. Art in the blood is liable to take the strangest forms."
+      }
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Watson asks Holmes how he knows the trait is hereditary",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_14"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "But how do you know that it is hereditary?"
+      }
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Holmes states that Mycroft possesses the trait in a larger degree",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_15"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Because my brother Mycroft possesses it in a larger degree than I do."
+      }
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Watson remarks that Holmes's answer is news to him",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Watson questions why such a man is unknown in England",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_17",
+        "sentence_18"
+      ],
+      "participants": [
+        "watson",
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "If there were another man with such singular powers in England, how was it that neither police nor public had heard of him?"
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes rejects the suggestion that modesty explains his remark",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "My dear Watson, I cannot agree with those who rank modesty among the virtues. To the logician all things should be seen exactly as they are, and to underestimate one's self is as much a departure from truth as to exaggerate one's own powers. When I say, therefore, that Mycroft has better powers of observation than I, you may take it that I am speaking the exact and literal truth."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Watson asks whether Mycroft is Holmes's junior",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_23"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Is he your junior?"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Holmes states that Mycroft is seven years his senior",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_24"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Seven years my senior."
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Watson asks how Mycroft comes to be unknown",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_25"
+      ],
+      "participants": [
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "How comes it that he is unknown?"
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes says that Mycroft is well known in his own circle",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_26",
+        "sentence_27",
+        "sentence_28"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "diogenes_club"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Oh, he is very well known in his own circle. Well, in the Diogenes Club, for example."
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Holmes checks the time and invites Watson for a stroll to meet Mycroft and the club",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_29",
+        "sentence_30",
+        "sentence_31",
+        "sentence_32"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "diogenes_club"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He's always there from quarter to five to twenty to eight. It's six now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities."
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Watson and Holmes walk in the street toward Regent's Circus",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_33"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson",
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Holmes states that Mycroft does not use his powers for detective work because he is incapable of it",
+      "section": "greek-interpreter-section_1",
+      "source_nodes": [
+        "sentence_34",
+        "sentence_35"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You wonder why it is that Mycroft does not use his powers for detective work. He is incapable of it."
+      }
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Mycroft Holmes explains his superiority in observation and deduction",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42"
+      ],
+      "participants": [
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I said that he was my superior in observation and deduction. If the art of the detective began and ended in reasoning from an armchair, my brother would be the greatest criminal agent that ever lived. But he has no ambition and no energy. He will not even go out of his way to verify his own solutions, and would rather be considered wrong than take the trouble to prove himself right. Again and again I have taken a problem to him, and have received an explanation which has afterwards proved to be the correct one. And yet he was absolutely incapable of working out the practical points which must be gone into before a case could be laid before a judge or jury."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Mycroft Holmes states that detective work is not his profession",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46"
+      ],
+      "participants": [
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It is not his profession, then? By no means. What is to me a means of livelihood is to him the merest hobby of a dilettante. He has an extraordinary faculty for figures, and audits the books in some of the government departments."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Mycroft Holmes describes his daily routine and the Diogenes Club",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_47",
+        "sentence_48",
+        "sentence_50",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "diogenes_club"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Mycroft lodges in Pall Mall, and he walks round the corner into Whitehall every morning and back every evening. From year's end to year's end he takes no other exercise, and is seen nowhere else, except only in the Diogenes Club, which is just opposite his rooms. Very likely not. There are many men in London, you know, who, some from shyness, some from misanthropy, have no wish for the company of their fellows. Yet they are not averse to comfortable chairs and the latest periodicals. It is for the convenience of these that the Diogenes Club was started, and it now contains the most unsociable and unclubable men in town. No member is permitted to take the least notice of any other one. Save in the Stranger's Room, no talking is, under any circumstances, allowed, and three offences, if brought to the notice of the committee, render the talker liable to expulsion. My brother was one of the founders, and I have myself found it a very soothing atmosphere."
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Holmes and Watson arrive at Pall Mall and enter the club hall",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_57",
+        "sentence_58",
+        "sentence_59"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "pall_mall",
+        "diogenes_club"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "cautioning me not to speak"
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Holmes leaves Watson briefly and returns with Mycroft Holmes",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_60"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Mycroft Holmes greets Watson and Sherlock Holmes",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_64",
+        "sentence_65"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "I am glad to meet you, sir. I hear of Sherlock everywhere since you became his chronicler."
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Mycroft Holmes refers to the Manor House case and says he expected Sherlock Holmes to consult him",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_66",
+        "sentence_67"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "manor_house_case"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "By the way, Sherlock, I expected to see you round last week, to consult me over that Manor House case. I thought you might be a little out of your depth."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Sherlock Holmes states that he solved the Manor House case",
+      "section": "greek-interpreter-section_2",
+      "source_nodes": [
+        "sentence_68",
+        "sentence_69"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "manor_house_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "No, I solved it. It was Adams, of course."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "The two men sit down together in the club bow-window",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_72"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "diogenes_club",
+        "diogenes_club_room"
+      ],
+      "performs": [
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Mycroft points out the passing men and asks Sherlock Holmes what he makes of the other man",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_73",
+        "sentence_74",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77",
+        "sentence_78"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "To any one who wishes to study mankind this is the spot. Look at the magnificent types! Look at these two men who are coming towards us, for example. Precisely. What do you make of the other?"
+      }
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "The two men stop opposite the window",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_79"
+      ],
+      "participants": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "Holmes identifies the first passerby as a billiard-marker and the second as a soldier with other attributes",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97",
+        "sentence_98",
+        "sentence_99",
+        "sentence_100",
+        "sentence_101",
+        "sentence_102"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "An old soldier, I perceive. Served in India. Royal Artillery, I fancy. And a widower. But with a child."
+      }
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Mycroft receives snuff and brushes grains from his coat",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_104"
+      ],
+      "participants": [
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ]
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Mycroft says he has had a singular problem submitted to his judgment and can leave the rest to Mr. Melas",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "mr_melas"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I have had something quite after your own heart—a most singular problem—submitted to my judgment. I really had not the energy to follow it up save in a very incomplete fashion, but it gave me a basis for some pleasing speculation. If you would care to hear the facts— My dear Mycroft, I should be delighted. I have asked Mr. Melas to step across. He lodges on the floor above me, and I have some slight acquaintance with him, which led him to come to me in his perplexity. Mr. Melas is a Greek by extraction, as I understand, and he is a remarkable linguist. He earns his living partly as interpreter in the law courts and partly by acting as guide to any wealthy Orientals who may visit the Northumberland Avenue hotels. I think I will leave him to tell his very remarkable experience in his own fashion."
+      }
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Mr. Melas joins the group and greets Sherlock Holmes eagerly",
+      "section": "greek-interpreter-section_3",
+      "source_nodes": [
+        "sentence_115",
+        "sentence_116"
+      ],
+      "participants": [
+        "mr_melas",
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "[greeting and eager response to Holmes's hearing his story]"
+      }
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "Mr. Melas identifies the time and places the incident on Monday night",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "mr_melas"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "This is Wednesday evening. It was Monday night—only two days ago—that all this happened."
+      }
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "Mr. Melas explains that he works as an interpreter",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_126"
+      ],
+      "participants": [
+        "mr_melas"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I am an interpreter. I interpret all languages—or nearly all—but as I am a Greek by birth and with a Grecian name, I am principally associated with Greek. For many years I have been the chief Greek interpreter in London, and my name is very well known in the hotels. It happens not unfrequently that I am sent for at strange hours by foreigners who get into difficulties, or by travelers who arrive late and wish my services."
+      }
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "Mr. Latimer comes to Mr. Melas and asks him to accompany him",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_127"
+      ],
+      "participants": [
+        "mr_melas",
+        "latimer",
+        "cab"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "He asks Mr. Melas to accompany him in a cab."
+      }
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "Latimer explains that a Greek friend needs an interpreter",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_128"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas",
+        "greek_friend"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "A Greek friend has come to see him upon business, and because the friend can speak nothing but his own tongue, the services of an interpreter are indispensable."
+      }
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "Latimer says his house is in Kensington and hurries Mr. Melas into the vehicle",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_129"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas",
+        "cab"
+      ],
+      "performs": [
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "Mr. Melas and Latimer travel through London",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_132",
+        "sentence_133"
+      ],
+      "participants": [
+        "mr_melas",
+        "latimer",
+        "carriage"
+      ],
+      "performs": [
+        "latimer",
+        "mr_melas"
+      ]
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "Latimer draws a bludgeon and places it beside him",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_134",
+        "sentence_135"
+      ],
+      "participants": [
+        "latimer",
+        "bludgeon",
+        "carriage"
+      ],
+      "performs": [
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "Latimer covers the carriage windows with paper",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_136"
+      ],
+      "participants": [
+        "latimer",
+        "carriage"
+      ],
+      "performs": [
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "Latimer speaks to Mr. Melas and threatens him",
+      "section": "greek-interpreter-section_4",
+      "source_nodes": [
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "I am sorry to cut off your view, Mr. Melas. I have no intention that you should see what the place is to which we are driving. It might possibly be inconvenient to me if you could find your way there again. It is somewhat of a liberty, no doubt, but we'll make it up to you. I must warn you, however, Mr. Melas, that if at any time to-night you attempt to raise an alarm or do anything which is against my interests, you will find it a very serious thing. I beg you to remember that no one knows where you are, and that, whether you are in this carriage or in my house, you are equally in my power."
+      }
+    },
+    {
+      "id": "event_5_1",
+      "type": "event",
+      "label": "A carriage arrives at a house and stops",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_153",
+        "sentence_154",
+        "sentence_155"
+      ],
+      "participants": [
+        "mr_melas",
+        "carriage",
+        "gated_house"
+      ],
+      "performs": [
+        "carriage"
+      ]
+    },
+    {
+      "id": "event_5_2",
+      "type": "event",
+      "label": "Mr. Melas is hurried from the carriage into the house",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_155",
+        "sentence_156"
+      ],
+      "participants": [
+        "mr_melas",
+        "carriage",
+        "gated_house",
+        "hall"
+      ],
+      "performs": [
+        "elderly_man"
+      ]
+    },
+    {
+      "id": "event_5_3",
+      "type": "event",
+      "label": "The elderly man opens the door and greets Mr. Melas as Harold",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_158",
+        "sentence_159",
+        "sentence_160",
+        "sentence_161",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164",
+        "sentence_165"
+      ],
+      "participants": [
+        "elderly_man",
+        "mr_melas"
+      ],
+      "performs": [
+        "elderly_man"
+      ],
+      "communicates": {
+        "speaker": "elderly_man",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "Mr. Melas, Harold?"
+      }
+    },
+    {
+      "id": "event_5_4",
+      "type": "event",
+      "label": "The elderly man threatens Mr. Melas with warning conditions",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_163",
+        "sentence_164",
+        "sentence_165",
+        "sentence_166"
+      ],
+      "participants": [
+        "elderly_man",
+        "mr_melas"
+      ],
+      "performs": [
+        "elderly_man"
+      ],
+      "communicates": {
+        "speaker": "elderly_man",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "Well done, well done! No ill-will, Mr. Melas, I hope, but we could not get on without you. If you deal fair with us you'll not regret it, but if you try any tricks, God help you!"
+      }
+    },
+    {
+      "id": "event_5_5",
+      "type": "event",
+      "label": "The elderly man leads Mr. Melas into a richly furnished room",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174"
+      ],
+      "participants": [
+        "elderly_man",
+        "mr_melas",
+        "rich_room"
+      ],
+      "performs": [
+        "elderly_man"
+      ]
+    },
+    {
+      "id": "event_5_6",
+      "type": "event",
+      "label": "The younger man returns leading a gentleman into the room",
+      "section": "greek-interpreter-section_5",
+      "source_nodes": [
+        "sentence_175",
+        "sentence_176"
+      ],
+      "participants": [
+        "younger_man",
+        "gagged_gentleman",
+        "rich_room"
+      ],
+      "performs": [
+        "younger_man"
+      ]
+    },
+    {
+      "id": "event_6_1",
+      "type": "event",
+      "label": "Mr. Melas continues a half-spoken, half-written conversation with the detained man",
+      "section": "greek-interpreter-section_6",
+      "source_nodes": [
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_196",
+        "sentence_197",
+        "sentence_198",
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212",
+        "sentence_213",
+        "sentence_214",
+        "sentence_215",
+        "sentence_216",
+        "sentence_217",
+        "sentence_218",
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_222"
+      ],
+      "participants": [
+        "mr_melas",
+        "elderly_man"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "elderly_man"
+        ],
+        "content": "You can do no good by this obstinacy. Your fate will be upon your own head. The property can never be yours. You shall go free if you sign. You are not doing her any service. You shall see her if you sign. Ask him whether he will give in and sign the documents."
+      }
+    },
+    {
+      "id": "event_6_2",
+      "type": "event",
+      "label": "The detained man writes answers on the slate",
+      "section": "greek-interpreter-section_6",
+      "source_nodes": [
+        "sentence_185",
+        "sentence_187",
+        "sentence_189",
+        "sentence_190",
+        "sentence_191",
+        "sentence_192"
+      ],
+      "participants": [
+        "elderly_man",
+        "mr_melas"
+      ],
+      "performs": [
+        "elderly_man"
+      ],
+      "communicates": {
+        "speaker": "elderly_man",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "Only if I see her married in my presence by a Greek priest whom I know. I care nothing for myself."
+      }
+    },
+    {
+      "id": "event_6_3",
+      "type": "event",
+      "label": "A woman enters the room and speaks to the detained men",
+      "section": "greek-interpreter-section_6",
+      "source_nodes": [
+        "sentence_224",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228"
+      ],
+      "participants": [
+        "sophy",
+        "mr_melas",
+        "elderly_man",
+        "younger_man"
+      ],
+      "performs": [
+        "sophy"
+      ],
+      "communicates": {
+        "speaker": "sophy",
+        "recipients": [
+          "mr_melas",
+          "elderly_man",
+          "younger_man"
+        ],
+        "content": "Harold, I could not stay away longer. It is so lonely up there with only—Oh, my God, it is Paul!"
+      }
+    },
+    {
+      "id": "event_6_4",
+      "type": "event",
+      "label": "The woman and Paul embrace, then he is seized and dragged away",
+      "section": "greek-interpreter-section_6",
+      "source_nodes": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ],
+      "participants": [
+        "sophy",
+        "paul",
+        "younger_man",
+        "elderly_man"
+      ],
+      "performs": [
+        "paul",
+        "younger_man",
+        "elderly_man"
+      ],
+      "communicates": {
+        "speaker": "paul",
+        "recipients": [
+          "sophy"
+        ],
+        "content": "Sophy!"
+      }
+    },
+    {
+      "id": "event_6_5",
+      "type": "event",
+      "label": "The older man explains why Mr. Melas was brought in",
+      "section": "greek-interpreter-section_6",
+      "source_nodes": [
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ],
+      "participants": [
+        "elderly_man",
+        "mr_melas"
+      ],
+      "performs": [
+        "elderly_man"
+      ],
+      "communicates": {
+        "speaker": "elderly_man",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "That will do, Mr. Melas. We have taken you into our confidence over some very private business. Our friend who speaks Greek and who began these negotiations has been forced to return to the East. It was necessary to find someone to take his place, and we were fortunate in hearing of your powers."
+      }
+    },
+    {
+      "id": "event_7_1",
+      "type": "event",
+      "label": "Mr. Melas bows",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_239"
+      ],
+      "participants": [
+        "mr_melas"
+      ],
+      "performs": [
+        "mr_melas"
+      ]
+    },
+    {
+      "id": "event_7_2",
+      "type": "event",
+      "label": "Latimer tells Melas about the fee and warns him to stay silent",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_240",
+        "sentence_241"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "There are five sovereigns here, which will, I hope, be a sufficient fee. But remember, if you speak to a human soul about this—one human soul, mind—well, may God have mercy upon your soul!"
+      }
+    },
+    {
+      "id": "event_7_3",
+      "type": "event",
+      "label": "Latimer threatens Melas with discovery if he speaks",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_248",
+        "sentence_249",
+        "sentence_250"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "We shall know if you speak of this. We have our own means of information. Now you will find the carriage waiting, and my friend will see you on your way."
+      }
+    },
+    {
+      "id": "event_7_4",
+      "type": "event",
+      "label": "Melas is hurried into the carriage and departs",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_257"
+      ],
+      "participants": [
+        "mr_melas",
+        "latimer",
+        "carriage"
+      ],
+      "performs": [
+        "mr_melas",
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_7_5",
+      "type": "event",
+      "label": "Latimer tells Melas to get down and warns him not to follow the carriage",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_254",
+        "sentence_255",
+        "sentence_256"
+      ],
+      "participants": [
+        "latimer",
+        "mr_melas",
+        "carriage"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "latimer",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "You will get down here, Mr. Melas. I am sorry to leave you so far from your house, but there is no alternative. Any attempt upon your part to follow the carriage can only end in injury to yourself."
+      }
+    },
+    {
+      "id": "event_7_6",
+      "type": "event",
+      "label": "Melas is left on Wandsworth Common",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_267"
+      ],
+      "participants": [
+        "mr_melas",
+        "carriage",
+        "wandsworth_common"
+      ],
+      "performs": [
+        "latimer"
+      ],
+      "communicates": {
+        "speaker": "porter",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "Wandsworth Common."
+      }
+    },
+    {
+      "id": "event_7_7",
+      "type": "event",
+      "label": "The railway porter tells Melas how to get a train to town",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_265",
+        "sentence_266",
+        "sentence_268",
+        "sentence_269"
+      ],
+      "participants": [
+        "mr_melas",
+        "clapham_junction",
+        "victoria_station"
+      ],
+      "performs": [
+        "railway_porter"
+      ],
+      "communicates": {
+        "speaker": "railway_porter",
+        "recipients": [
+          "mr_melas"
+        ],
+        "content": "If you walk on a mile or so to Clapham Junction, you'll just be in time for the last to Victoria."
+      }
+    },
+    {
+      "id": "event_7_8",
+      "type": "event",
+      "label": "Melas reports the story to Mycroft Holmes and the police",
+      "section": "greek-interpreter-section_7",
+      "source_nodes": [
+        "sentence_273"
+      ],
+      "participants": [
+        "mr_melas",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "the whole story"
+      }
+    },
+    {
+      "id": "event_8_1",
+      "type": "event",
+      "label": "Mycroft says that he has inquired and they know nothing.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_285",
+        "sentence_286"
+      ],
+      "participants": [
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I have inquired. They know nothing."
+      }
+    },
+    {
+      "id": "event_8_2",
+      "type": "event",
+      "label": "Someone proposes sending a wire to the head of the Athens police.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_287"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "athens_police"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "A wire to the head of the Athens police, then?"
+      }
+    },
+    {
+      "id": "event_8_3",
+      "type": "event",
+      "label": "Holmes sends several telegrams.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_293"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_4",
+      "type": "event",
+      "label": "Watson suggests that Harold Latimer carried off a Greek girl.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_300",
+        "sentence_301",
+        "sentence_302"
+      ],
+      "participants": [
+        "watson",
+        "harold",
+        "sophy"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It seemed to me to be obvious that this Greek girl had been carried off by the young Englishman named Harold Latimer."
+      }
+    },
+    {
+      "id": "event_8_5",
+      "type": "event",
+      "label": "Watson states that the girl may have come on a visit to England and that Harold persuaded her to flee with him.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_309",
+        "sentence_310"
+      ],
+      "participants": [
+        "watson",
+        "harold",
+        "sophy"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Well, then, we will presume that she had come on a visit to England, and that this Harold had persuaded her to fly with him."
+      }
+    },
+    {
+      "id": "event_8_6",
+      "type": "event",
+      "label": "Watson describes the brother coming from Greece, being seized, and being forced to sign papers for the girl's fortune.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_314",
+        "sentence_315",
+        "sentence_316"
+      ],
+      "participants": [
+        "watson",
+        "harold",
+        "sophy",
+        "greek_friend",
+        "mr_melas"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Then the brother—for that, I fancy, must be the relationship—comes over from Greece to interfere. He imprudently puts himself into the power of the young man and his older associate. They seize him and use violence towards him in order to make him sign some papers to make over the girl's fortune—of which he may be trustee—to them. This he refuses to do. In order to negotiate with him they have to get an interpreter, and they pitch upon this Mr. Melas, having used some other one before. The girl is not told of the arrival of her brother, and finds it out by the merest accident."
+      }
+    },
+    {
+      "id": "event_8_7",
+      "type": "event",
+      "label": "Holmes praises Watson's account and says they hold all the cards.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_317",
+        "sentence_318",
+        "sentence_319",
+        "sentence_320",
+        "sentence_321"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Excellent, Watson! I really fancy that you are not far from the truth. You see that we hold all the cards, and we have only to fear some sudden act of violence on their part. If they give us time we must have them."
+      }
+    },
+    {
+      "id": "event_8_8",
+      "type": "event",
+      "label": "Holmes says that if the girl's name is or was Sophy Kratides they should have no difficulty tracing her.",
+      "section": "greek-interpreter-section_8",
+      "source_nodes": [
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "sophy"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Well, if our conjecture is correct and the girl's name is or was Sophy Kratides, we should have no difficulty in tracing her. That must be our main hope, for the brother is, of course, a complete stranger. It is clear that some time has elapsed since this Harold established these relations with the girl—some weeks, at any rate—since the brother in Greece has had time to hear of it and come across. If they have been living in the same place during this time, it is probable that we shall have some answer to Mycroft's advertisement."
+      }
+    },
+    {
+      "id": "event_9_1",
+      "type": "event",
+      "label": "Mycroft Holmes greets Sherlock Holmes at the room",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_331",
+        "sentence_332"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "Come in, Sherlock! Come in, sir."
+      }
+    },
+    {
+      "id": "event_9_2",
+      "type": "event",
+      "label": "Mycroft Holmes explains that he is attracted to the case",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_333",
+        "sentence_334"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "You don't expect such energy from me, do you, Sherlock? But somehow this case attracts me."
+      }
+    },
+    {
+      "id": "event_9_3",
+      "type": "event",
+      "label": "Sherlock Holmes asks how Mycroft Holmes got there",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "How did you get here?"
+      }
+    },
+    {
+      "id": "event_9_4",
+      "type": "event",
+      "label": "Mycroft Holmes says he passed them in a hansom",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I passed you in a hansom."
+      }
+    },
+    {
+      "id": "event_9_5",
+      "type": "event",
+      "label": "Sherlock Holmes asks whether there has been a new development",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_338"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "There has been some new development?"
+      }
+    },
+    {
+      "id": "event_9_6",
+      "type": "event",
+      "label": "Mycroft Holmes says an answer arrived to his advertisement",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_338",
+        "sentence_340"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I had an answer to my advertisement. Yes, it came within a few minutes of your leaving."
+      }
+    },
+    {
+      "id": "event_9_7",
+      "type": "event",
+      "label": "Mycroft Holmes shows and reads the reply letter",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_342",
+        "sentence_343",
+        "sentence_344",
+        "sentence_345",
+        "sentence_346",
+        "sentence_347",
+        "sentence_348"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "j_davenport",
+        "vernets_sister",
+        "the_myrtles",
+        "beckenham"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "Here it is: written with a J pen on royal cream paper by a middle-aged man with a weak constitution. Sir, in answer to your advertisement of to-day's date, I beg to inform you that I know the young lady in question very well. If you should care to call upon me I could give you some particulars as to her painful history. She is living at present at The Myrtles, Beckenham. Yours faithfully, J. Davenport."
+      }
+    },
+    {
+      "id": "event_9_8",
+      "type": "event",
+      "label": "Mycroft Holmes states that the letter writer writes from Lower Brixton",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_349"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "j_davenport",
+        "lower_brixton"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "He writes from Lower Brixton."
+      }
+    },
+    {
+      "id": "event_9_9",
+      "type": "event",
+      "label": "Sherlock Holmes proposes going to Scotland Yard and then Beckenham",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "scotland_yard",
+        "beckenham"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "My dear Mycroft, the brother's life is more valuable than the sister's story. I think we should call at Scotland Yard for Inspector Gregson, and go straight out to Beckenham. We know that a man is being done to death, and every hour may be vital."
+      }
+    },
+    {
+      "id": "event_9_10",
+      "type": "event",
+      "label": "Watson suggests picking up Mr. Melas",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_354",
+        "sentence_355"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "mr_melas"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes",
+          "mycroft_holmes"
+        ],
+        "content": "Better pick up Mr. Melas on our way. We may need an interpreter."
+      }
+    },
+    {
+      "id": "event_9_11",
+      "type": "event",
+      "label": "Sherlock Holmes agrees and orders a four-wheeler",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_356",
+        "sentence_357"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson",
+          "mycroft_holmes"
+        ],
+        "content": "Excellent. Send the boy for a four-wheeler, and we shall be off at once."
+      }
+    },
+    {
+      "id": "event_9_12",
+      "type": "event",
+      "label": "Sherlock Holmes arms himself with a revolver",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_358",
+        "sentence_359"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_9_13",
+      "type": "event",
+      "label": "The group arrives at Mr. Melas's rooms in Pall Mall and finds him gone",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_360",
+        "sentence_361"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "mr_melas",
+        "pall_mall"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_9_14",
+      "type": "event",
+      "label": "Mycroft Holmes asks where Mr. Melas has gone",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_362",
+        "sentence_363"
+      ],
+      "participants": [
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "woman"
+        ],
+        "content": "Can you tell me where?"
+      }
+    },
+    {
+      "id": "event_9_15",
+      "type": "event",
+      "label": "The woman says Mr. Melas drove away in a carriage with a gentleman",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_364",
+        "sentence_365",
+        "sentence_366"
+      ],
+      "participants": [
+        "woman",
+        "mycroft_holmes",
+        "mr_melas",
+        "carriage"
+      ],
+      "performs": [
+        "woman"
+      ],
+      "communicates": {
+        "speaker": "woman",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "I only know that he drove away with the gentleman in a carriage. No, sir."
+      }
+    },
+    {
+      "id": "event_9_16",
+      "type": "event",
+      "label": "Mycroft Holmes asks about the gentleman's appearance",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_367",
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "woman"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "woman"
+        ],
+        "content": "He wasn't a tall, handsome, dark young man?"
+      }
+    },
+    {
+      "id": "event_9_17",
+      "type": "event",
+      "label": "The woman describes the gentleman as a little man with glasses",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_368",
+        "sentence_369"
+      ],
+      "participants": [
+        "woman",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "woman"
+      ],
+      "communicates": {
+        "speaker": "woman",
+        "recipients": [
+          "mycroft_holmes"
+        ],
+        "content": "Oh, no, sir. He was a little gentleman, with glasses, thin in the face, but very pleasant in his ways, for he was laughing all the time that he was talking."
+      }
+    },
+    {
+      "id": "event_9_18",
+      "type": "event",
+      "label": "Sherlock Holmes orders the others to come along",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_370",
+        "sentence_371"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "Come along!"
+      }
+    },
+    {
+      "id": "event_9_19",
+      "type": "event",
+      "label": "Sherlock Holmes says the matter has become serious and they drive to Scotland Yard",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "mr_melas",
+        "dangerous_gang",
+        "scotland_yard"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "This grows serious. These men have got hold of Melas again. He is a man of no physical courage, as they are well aware from their experience the other night. This villain was able to terrorise him the instant that he got into his presence. No doubt they want his professional services, but, having used him, they may be inclined to punish him for what they will regard as his treachery."
+      }
+    },
+    {
+      "id": "event_9_20",
+      "type": "event",
+      "label": "The party travels by train toward Beckenham",
+      "section": "greek-interpreter-section_9",
+      "source_nodes": [
+        "sentence_377",
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "mr_melas",
+        "beckenham",
+        "the_myrtles"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_10_1",
+      "type": "event",
+      "label": "The inspector remarks that the windows are dark and the house seems deserted",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_382",
+        "sentence_383"
+      ],
+      "participants": [
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes",
+          "watson",
+          "mycroft_holmes"
+        ],
+        "content": "The windows are all dark. The house seems deserted."
+      }
+    },
+    {
+      "id": "event_10_2",
+      "type": "event",
+      "label": "Holmes states that a heavily loaded carriage has passed out during the last hour",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_384",
+        "sentence_386"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "Our birds are flown and the nest empty. A carriage heavily loaded with luggage has passed out during the last hour."
+      }
+    },
+    {
+      "id": "event_10_3",
+      "type": "event",
+      "label": "The inspector laughs and questions Holmes about the luggage inference",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_387",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ],
+      "communicates": {
+        "speaker": "mycroft_holmes",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "Why do you say so?"
+      }
+    },
+    {
+      "id": "event_10_4",
+      "type": "event",
+      "label": "Holmes says the door may be forced and they will try to make someone hear them",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_392"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "It will not be an easy door to force, but we will try if we cannot make some one hear us."
+      }
+    },
+    {
+      "id": "event_10_5",
+      "type": "event",
+      "label": "The inspector hammers at the knocker and pulls the bell without success",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_393"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "gated_house"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ]
+    },
+    {
+      "id": "event_10_6",
+      "type": "event",
+      "label": "Holmes opens a window and forces back the catch",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_394",
+        "sentence_395",
+        "sentence_396"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "gated_house"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_7",
+      "type": "event",
+      "label": "Holmes says they may enter without an invitation",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_397"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "mycroft_holmes",
+          "watson"
+        ],
+        "content": "Well, I think that under the circumstances we may enter without an invitation."
+      }
+    },
+    {
+      "id": "event_10_8",
+      "type": "event",
+      "label": "Holmes, Watson, and the inspector enter the large apartment",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_398"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "rich_room"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ]
+    },
+    {
+      "id": "event_10_9",
+      "type": "event",
+      "label": "The inspector lights his lantern and the room reveals its contents",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_399",
+        "sentence_400"
+      ],
+      "participants": [
+        "mycroft_holmes",
+        "sherlock_holmes",
+        "watson",
+        "diogenes_club_room"
+      ],
+      "performs": [
+        "mycroft_holmes"
+      ]
+    },
+    {
+      "id": "event_10_10",
+      "type": "event",
+      "label": "Holmes hears a low moaning sound from upstairs and rushes to the hall and upstairs",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "hall"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_11",
+      "type": "event",
+      "label": "Holmes finds the central upstairs door locked with the key left on the outside",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_408",
+        "sentence_409"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_12",
+      "type": "event",
+      "label": "Holmes opens the door, rushes in, and retreats covering his throat",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_413"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "charcoal"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_13",
+      "type": "event",
+      "label": "Holmes observes the blue flame, the two crouching figures, and the poisonous fumes",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_414",
+        "sentence_415",
+        "sentence_416"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "charcoal"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_14",
+      "type": "event",
+      "label": "Holmes throws open the window and hurls the tripod into the garden",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_417",
+        "sentence_418",
+        "sentence_419",
+        "sentence_420",
+        "sentence_421"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mycroft_holmes",
+        "watson",
+        "charcoal"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_10_15",
+      "type": "event",
+      "label": "They drag the poisoned men into the hall",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_422",
+        "sentence_423",
+        "sentence_424",
+        "sentence_425",
+        "sentence_426"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes",
+        "mr_melas",
+        "greek_friend",
+        "hall"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson",
+        "mycroft_holmes"
+      ]
+    },
+    {
+      "id": "event_10_16",
+      "type": "event",
+      "label": "Watson gives ammonia and brandy to Mr. Melas and revives him",
+      "section": "greek-interpreter-section_10",
+      "source_nodes": [
+        "sentence_427",
+        "sentence_428"
+      ],
+      "participants": [
+        "watson",
+        "mr_melas"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_11_1",
+      "type": "event",
+      "label": "Mr. Melas recounts the story to Watson and Holmes",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_429",
+        "sentence_434"
+      ],
+      "participants": [
+        "mr_melas",
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "mr_melas"
+      ],
+      "communicates": {
+        "speaker": "mr_melas",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "It was a simple story which he had to tell, and one which did but confirm our own deductions."
+      }
+    },
+    {
+      "id": "event_11_2",
+      "type": "event",
+      "label": "A visitor enters Mr. Melas's rooms with a life-preserver and threatens him",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_430",
+        "sentence_431"
+      ],
+      "participants": [
+        "mr_melas",
+        "latimer"
+      ],
+      "performs": [
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_11_3",
+      "type": "event",
+      "label": "Mr. Melas kidnaps the visitor a second time",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_430"
+      ],
+      "participants": [
+        "mr_melas",
+        "latimer"
+      ],
+      "performs": [
+        "mr_melas"
+      ]
+    },
+    {
+      "id": "event_11_4",
+      "type": "event",
+      "label": "Mr. Melas is taken swiftly to Beckenham",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_432"
+      ],
+      "participants": [
+        "mr_melas",
+        "beckenham"
+      ],
+      "performs": [
+        "latimer"
+      ]
+    },
+    {
+      "id": "event_11_5",
+      "type": "event",
+      "label": "Two Englishmen menace their prisoner in a second interview",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_432"
+      ],
+      "participants": [
+        "latimer",
+        "harold",
+        "mr_melas"
+      ],
+      "performs": [
+        "latimer",
+        "harold"
+      ]
+    },
+    {
+      "id": "event_11_6",
+      "type": "event",
+      "label": "The Englishmen hurl their prisoner back into prison, reproach Mr. Melas with treachery, and stun him with a stick",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_433"
+      ],
+      "participants": [
+        "latimer",
+        "harold",
+        "mr_melas",
+        "daily_news"
+      ],
+      "performs": [
+        "latimer",
+        "harold"
+      ]
+    },
+    {
+      "id": "event_11_7",
+      "type": "event",
+      "label": "The story of the Grecian Interpreter is described as mysterious",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_434"
+      ],
+      "participants": [
+        "grecian_interpreter_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_11_8",
+      "type": "event",
+      "label": "The young lady is identified as coming from a wealthy Grecian family and visiting friends in England",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_435"
+      ],
+      "participants": [
+        "sophy",
+        "greece",
+        "athens"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_11_9",
+      "type": "event",
+      "label": "The young lady meets Harold Latimer and is persuaded to flee with him",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_436"
+      ],
+      "participants": [
+        "sophy",
+        "harold"
+      ],
+      "performs": [
+        "harold"
+      ]
+    },
+    {
+      "id": "event_11_10",
+      "type": "event",
+      "label": "Her friends inform her brother at Athens",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_437"
+      ],
+      "participants": [
+        "sophy",
+        "vernet",
+        "athens"
+      ],
+      "performs": [
+        "sophy"
+      ]
+    },
+    {
+      "id": "event_11_11",
+      "type": "event",
+      "label": "The brother arrives in England and places himself in Latimer's power and Wilson Kemp's power",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_438"
+      ],
+      "participants": [
+        "vernet",
+        "latimer",
+        "wilson_kemp"
+      ],
+      "performs": [
+        "vernet"
+      ]
+    },
+    {
+      "id": "event_11_12",
+      "type": "event",
+      "label": "Latimer and Wilson Kemp keep the brother prisoner and try to make him sign away property by cruelty and starvation",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_439"
+      ],
+      "participants": [
+        "vernet",
+        "latimer",
+        "wilson_kemp",
+        "greek_friend"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_13",
+      "type": "event",
+      "label": "The brother is kept in the house without the girl's knowledge and his face is plastered to hinder recognition",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_440"
+      ],
+      "participants": [
+        "vernet",
+        "sophy",
+        "latimer",
+        "wilson_kemp"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_14",
+      "type": "event",
+      "label": "The girl sees through the disguise during the interpreter's visit",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_441"
+      ],
+      "participants": [
+        "sophy",
+        "mr_melas"
+      ],
+      "performs": [
+        "sophy"
+      ]
+    },
+    {
+      "id": "event_11_15",
+      "type": "event",
+      "label": "The girl is herself a prisoner in the house with the coachman and his wife as tools of the conspirators",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_442"
+      ],
+      "participants": [
+        "sophy"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_16",
+      "type": "event",
+      "label": "The villains and the girl flee from the furnished house at a few hours' notice",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_443"
+      ],
+      "participants": [
+        "sophy",
+        "latimer",
+        "wilson_kemp"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_17",
+      "type": "event",
+      "label": "The villains take vengeance on the man who defied them and the one who betrayed them",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_443"
+      ],
+      "participants": [
+        "mr_melas",
+        "vernet",
+        "latimer",
+        "wilson_kemp"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_18",
+      "type": "event",
+      "label": "A newspaper cutting arrives from Buda-Pesth",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_444"
+      ],
+      "participants": [
+        "daily_news"
+      ],
+      "performs": [
+        "daily_news"
+      ]
+    },
+    {
+      "id": "event_11_19",
+      "type": "event",
+      "label": "The newspaper cutting reports that two Englishmen traveling with a woman meet a tragic end",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_445"
+      ],
+      "participants": [
+        "latimer",
+        "wilson_kemp",
+        "sophy",
+        "daily_news"
+      ],
+      "performs": [
+        "daily_news"
+      ]
+    },
+    {
+      "id": "event_11_20",
+      "type": "event",
+      "label": "The two Englishmen are stabbed and the Hungarian police conclude that they quarrel and inflict mortal injuries on each other",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_446"
+      ],
+      "participants": [
+        "latimer",
+        "wilson_kemp",
+        "athens_police"
+      ],
+      "performs": [
+        "latimer",
+        "wilson_kemp"
+      ]
+    },
+    {
+      "id": "event_11_21",
+      "type": "event",
+      "label": "Holmes holds that finding the Grecian girl would reveal how the wrongs of her and her brother were avenged",
+      "section": "greek-interpreter-section_11",
+      "source_nodes": [
+        "sentence_447"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "sophy",
+        "vernet"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "sherlock_holmes",
+      "to": "street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_15",
+      "valid_until": "event_2_4",
+      "caused_by": [
+        "event_1_15"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "sherlock_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_4",
+      "valid_until": "event_2_4",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "sherlock_holmes",
+      "to": "diogenes_club_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_4",
+      "valid_until": "event_9_1",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "sherlock_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_1",
+      "valid_until": "event_9_9",
+      "caused_by": [
+        "event_9_1"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "sherlock_holmes",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_9",
+      "valid_until": "event_9_13",
+      "caused_by": [
+        "event_9_9"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "sherlock_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_13",
+      "valid_until": "event_9_19",
+      "caused_by": [
+        "event_9_13"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "sherlock_holmes",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_19",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_19"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "sherlock_holmes",
+      "to": "beckenham",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "sherlock_holmes",
+      "to": "the_myrtles",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "sherlock_holmes",
+      "to": "gated_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "sherlock_holmes",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_10",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "sherlock_holmes",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_10",
+      "caused_by": [
+        "event_10_10"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "watson",
+      "to": "street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_15",
+      "valid_until": "event_2_4",
+      "caused_by": [
+        "event_1_15"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "watson",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_4",
+      "valid_until": "event_2_4",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "watson",
+      "to": "diogenes_club_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_4",
+      "valid_until": "event_9_1",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "watson",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_1",
+      "valid_until": "event_9_9",
+      "caused_by": [
+        "event_9_1"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "watson",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_9",
+      "valid_until": "event_9_13",
+      "caused_by": [
+        "event_9_9"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "watson",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_13",
+      "valid_until": "event_9_19",
+      "caused_by": [
+        "event_9_13"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "watson",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_19",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_19"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "watson",
+      "to": "beckenham",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "watson",
+      "to": "the_myrtles",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "watson",
+      "to": "gated_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "watson",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_10",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "watson",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_10",
+      "caused_by": [
+        "event_10_10"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "mycroft_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_3",
+      "valid_until": "event_2_3",
+      "caused_by": [
+        "event_2_3"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "mycroft_holmes",
+      "to": "whitehall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_3",
+      "valid_until": "event_2_3",
+      "caused_by": [
+        "event_2_3"
+      ]
+    },
+    {
+      "id": "state_27",
+      "from": "mycroft_holmes",
+      "to": "diogenes_club_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_2_3",
+      "valid_until": "event_9_1",
+      "caused_by": [
+        "event_2_3"
+      ]
+    },
+    {
+      "id": "state_28",
+      "from": "mycroft_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_1",
+      "valid_until": "event_9_9",
+      "caused_by": [
+        "event_9_1"
+      ]
+    },
+    {
+      "id": "state_29",
+      "from": "mycroft_holmes",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_9",
+      "valid_until": "event_9_13",
+      "caused_by": [
+        "event_9_9"
+      ]
+    },
+    {
+      "id": "state_30",
+      "from": "mycroft_holmes",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_13",
+      "valid_until": "event_9_19",
+      "caused_by": [
+        "event_9_13"
+      ]
+    },
+    {
+      "id": "state_31",
+      "from": "mycroft_holmes",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_19",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_19"
+      ]
+    },
+    {
+      "id": "state_32",
+      "from": "mycroft_holmes",
+      "to": "beckenham",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_33",
+      "from": "mycroft_holmes",
+      "to": "the_myrtles",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_34",
+      "from": "mycroft_holmes",
+      "to": "gated_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_8",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_35",
+      "from": "mycroft_holmes",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_8",
+      "valid_until": "event_10_10",
+      "caused_by": [
+        "event_10_8"
+      ]
+    },
+    {
+      "id": "state_36",
+      "from": "mycroft_holmes",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_10",
+      "caused_by": [
+        "event_10_10"
+      ]
+    },
+    {
+      "id": "state_37",
+      "from": "mr_melas",
+      "to": "cab",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_3",
+      "valid_until": "event_7_4",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_38",
+      "from": "mr_melas",
+      "to": "carriage",
+      "type": "IS_INSIDE",
+      "valid_from": "event_7_4",
+      "caused_by": [
+        "event_7_4"
+      ]
+    },
+    {
+      "id": "state_39",
+      "from": "cab",
+      "to": "carriage",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_5",
+      "caused_by": [
+        "event_4_5"
+      ]
+    },
+    {
+      "id": "state_40",
+      "from": "bludgeon",
+      "to": "carriage",
+      "type": "IS_INSIDE",
+      "valid_from": "event_4_7",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_41",
+      "from": "mr_melas",
+      "to": "gated_house",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_2",
+      "valid_until": "event_5_2",
+      "caused_by": [
+        "event_5_2"
+      ]
+    },
+    {
+      "id": "state_42",
+      "from": "mr_melas",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_2",
+      "valid_until": "event_5_5",
+      "caused_by": [
+        "event_5_2"
+      ]
+    },
+    {
+      "id": "state_43",
+      "from": "mr_melas",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_5",
+      "valid_until": "event_7_6",
+      "caused_by": [
+        "event_5_5"
+      ]
+    },
+    {
+      "id": "state_44",
+      "from": "mr_melas",
+      "to": "wandsworth_common",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_6",
+      "valid_until": "event_7_7",
+      "caused_by": [
+        "event_7_6"
+      ]
+    },
+    {
+      "id": "state_45",
+      "from": "mr_melas",
+      "to": "victoria_station",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_7",
+      "valid_until": "event_9_13",
+      "caused_by": [
+        "event_7_7"
+      ]
+    },
+    {
+      "id": "state_46",
+      "from": "mr_melas",
+      "to": "pall_mall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_13",
+      "valid_until": "event_9_15",
+      "caused_by": [
+        "event_9_13"
+      ]
+    },
+    {
+      "id": "state_47",
+      "from": "mr_melas",
+      "to": "carriage",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_15",
+      "valid_until": "event_9_19",
+      "caused_by": [
+        "event_9_15"
+      ]
+    },
+    {
+      "id": "state_48",
+      "from": "mr_melas",
+      "to": "scotland_yard",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_19",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_19"
+      ]
+    },
+    {
+      "id": "state_49",
+      "from": "mr_melas",
+      "to": "beckenham",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_9_20",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_50",
+      "from": "mr_melas",
+      "to": "the_myrtles",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_20",
+      "valid_until": "event_10_15",
+      "caused_by": [
+        "event_9_20"
+      ]
+    },
+    {
+      "id": "state_51",
+      "from": "mr_melas",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_15",
+      "caused_by": [
+        "event_10_15"
+      ]
+    },
+    {
+      "id": "state_52",
+      "from": "elderly_man",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_3",
+      "valid_until": "event_5_5",
+      "caused_by": [
+        "event_5_3"
+      ]
+    },
+    {
+      "id": "state_53",
+      "from": "elderly_man",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_5",
+      "caused_by": [
+        "event_5_5"
+      ]
+    },
+    {
+      "id": "state_54",
+      "from": "gagged_gentleman",
+      "to": "rich_room",
+      "type": "LOCATED_AT",
+      "valid_from": "event_5_6",
+      "caused_by": [
+        "event_5_6"
+      ]
+    },
+    {
+      "id": "state_55",
+      "from": "mycroft_holmes_advertisement_reply_letter",
+      "to": "mycroft_holmes",
+      "type": "OWNS",
+      "valid_from": "event_9_7",
+      "caused_by": [
+        "event_9_7"
+      ]
+    },
+    {
+      "id": "state_56",
+      "from": "charcoal",
+      "to": "rich_room",
+      "type": "IS_INSIDE",
+      "valid_from": "event_10_9",
+      "valid_until": "event_10_14",
+      "caused_by": [
+        "event_10_9"
+      ]
+    },
+    {
+      "id": "state_57",
+      "from": "charcoal",
+      "to": "garden",
+      "type": "IS_INSIDE",
+      "valid_from": "event_10_14",
+      "caused_by": [
+        "event_10_14"
+      ]
+    },
+    {
+      "id": "state_58",
+      "from": "greek_friend",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_15",
+      "caused_by": [
+        "event_10_15"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 20,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5",
+        "sentence_6",
+        "sentence_9",
+        "sentence_15",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_32",
+        "sentence_34",
+        "sentence_35"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_6",
+        "sentence_9",
+        "sentence_14",
+        "sentence_16",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_25",
+        "sentence_29",
+        "sentence_32",
+        "sentence_33",
+        "sentence_34"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_15",
+        "sentence_17",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_26",
+        "sentence_28",
+        "sentence_30",
+        "sentence_31",
+        "sentence_34",
+        "sentence_35"
+      ]
+    },
+    {
+      "entity": "vernets_sister",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_12"
+      ]
+    },
+    {
+      "entity": "vernet",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_12"
+      ]
+    },
+    {
+      "entity": "diogenes_club",
+      "section": "greek-interpreter-section_1",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_26",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_32"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_58",
+        "sentence_60",
+        "sentence_63",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_41",
+        "sentence_49",
+        "sentence_56",
+        "sentence_60",
+        "sentence_64",
+        "sentence_65"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_56",
+        "sentence_60",
+        "sentence_61",
+        "sentence_62",
+        "sentence_63",
+        "sentence_64",
+        "sentence_66",
+        "sentence_67"
+      ]
+    },
+    {
+      "entity": "diogenes_club",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_48",
+        "sentence_53",
+        "sentence_54",
+        "sentence_55",
+        "sentence_56",
+        "sentence_59"
+      ]
+    },
+    {
+      "entity": "pall_mall",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_47",
+        "sentence_57",
+        "sentence_58",
+        "sentence_60"
+      ]
+    },
+    {
+      "entity": "whitehall",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_47"
+      ]
+    },
+    {
+      "entity": "strangers_room",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_55"
+      ]
+    },
+    {
+      "entity": "manor_house_case",
+      "section": "greek-interpreter-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69"
+      ]
+    },
+    {
+      "entity": "adams",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_70"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 17,
+      "sentence_ids": [
+        "sentence_72",
+        "sentence_73",
+        "sentence_77",
+        "sentence_83",
+        "sentence_89",
+        "sentence_92",
+        "sentence_102",
+        "sentence_103",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_76",
+        "sentence_78",
+        "sentence_82",
+        "sentence_86",
+        "sentence_90",
+        "sentence_91",
+        "sentence_102",
+        "sentence_108",
+        "sentence_116"
+      ]
+    },
+    {
+      "entity": "diogenes_club",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_72"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_110",
+        "sentence_111",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114",
+        "sentence_115",
+        "sentence_116"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_3",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_90",
+        "sentence_102",
+        "sentence_103",
+        "sentence_116"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 30,
+      "sentence_ids": [
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122",
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_128",
+        "sentence_129",
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_136",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_120"
+      ]
+    },
+    {
+      "entity": "latimer",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_127",
+        "sentence_129",
+        "sentence_132",
+        "sentence_133",
+        "sentence_134",
+        "sentence_135",
+        "sentence_137",
+        "sentence_138",
+        "sentence_139",
+        "sentence_141",
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145",
+        "sentence_146"
+      ]
+    },
+    {
+      "entity": "greek_friend",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_128"
+      ]
+    },
+    {
+      "entity": "cab",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_127",
+        "sentence_129",
+        "sentence_130"
+      ]
+    },
+    {
+      "entity": "carriage",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_136",
+        "sentence_146"
+      ]
+    },
+    {
+      "entity": "bludgeon",
+      "section": "greek-interpreter-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_134",
+        "sentence_135",
+        "sentence_141"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 13,
+      "sentence_ids": [
+        "sentence_148",
+        "sentence_149",
+        "sentence_150",
+        "sentence_151",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155",
+        "sentence_157",
+        "sentence_158",
+        "sentence_161",
+        "sentence_162",
+        "sentence_164",
+        "sentence_165"
+      ]
+    },
+    {
+      "entity": "carriage",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "gated_house",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "hall",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_157"
+      ]
+    },
+    {
+      "entity": "elderly_man",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_158",
+        "sentence_159",
+        "sentence_161",
+        "sentence_163",
+        "sentence_164",
+        "sentence_165",
+        "sentence_166"
+      ]
+    },
+    {
+      "entity": "younger_man",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_175"
+      ]
+    },
+    {
+      "entity": "gagged_gentleman",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_175",
+        "sentence_176",
+        "sentence_177",
+        "sentence_178"
+      ]
+    },
+    {
+      "entity": "rich_room",
+      "section": "greek-interpreter-section_5",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174",
+        "sentence_175"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_182",
+        "sentence_183",
+        "sentence_194",
+        "sentence_223",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "elderly_man",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 38,
+      "sentence_ids": [
+        "sentence_179",
+        "sentence_180",
+        "sentence_181",
+        "sentence_182",
+        "sentence_183",
+        "sentence_184",
+        "sentence_185",
+        "sentence_187",
+        "sentence_189",
+        "sentence_190",
+        "sentence_191",
+        "sentence_192",
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_197",
+        "sentence_198",
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_203",
+        "sentence_205",
+        "sentence_207",
+        "sentence_209",
+        "sentence_211",
+        "sentence_213",
+        "sentence_215",
+        "sentence_217",
+        "sentence_219",
+        "sentence_221",
+        "sentence_224",
+        "sentence_229",
+        "sentence_231",
+        "sentence_233",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "younger_man",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_231",
+        "sentence_237"
+      ]
+    },
+    {
+      "entity": "sophy",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_226",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ]
+    },
+    {
+      "entity": "paul",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_231"
+      ]
+    },
+    {
+      "entity": "harold",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_226"
+      ]
+    },
+    {
+      "entity": "greek_priest",
+      "section": "greek-interpreter-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_189"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 35,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_240",
+        "sentence_241",
+        "sentence_242",
+        "sentence_243",
+        "sentence_244",
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256",
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273"
+      ]
+    },
+    {
+      "entity": "latimer",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_240",
+        "sentence_241",
+        "sentence_242",
+        "sentence_243",
+        "sentence_244",
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_249",
+        "sentence_250",
+        "sentence_252",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256"
+      ]
+    },
+    {
+      "entity": "carriage",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_250",
+        "sentence_251",
+        "sentence_252",
+        "sentence_253",
+        "sentence_257",
+        "sentence_262",
+        "sentence_269"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_273",
+        "sentence_275",
+        "sentence_278"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_275",
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "daily_news",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_278",
+        "sentence_281"
+      ]
+    },
+    {
+      "entity": "paul",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_279"
+      ]
+    },
+    {
+      "entity": "sophy",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_280"
+      ]
+    },
+    {
+      "entity": "clapham_junction",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_269"
+      ]
+    },
+    {
+      "entity": "victoria_station",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_269"
+      ]
+    },
+    {
+      "entity": "wandsworth_common",
+      "section": "greek-interpreter-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_267"
+      ]
+    },
+    {
+      "entity": "greek_legation",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_284"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_285",
+        "sentence_288",
+        "sentence_291",
+        "sentence_326",
+        "sentence_330"
+      ]
+    },
+    {
+      "entity": "athens_police",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_287"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_288",
+        "sentence_293",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_305",
+        "sentence_317",
+        "sentence_319",
+        "sentence_322",
+        "sentence_323",
+        "sentence_324",
+        "sentence_325",
+        "sentence_326",
+        "sentence_328",
+        "sentence_330"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_293",
+        "sentence_294",
+        "sentence_297",
+        "sentence_300",
+        "sentence_301",
+        "sentence_303",
+        "sentence_309",
+        "sentence_317",
+        "sentence_329"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_291",
+        "sentence_292",
+        "sentence_315"
+      ]
+    },
+    {
+      "entity": "harold",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_302",
+        "sentence_306",
+        "sentence_309",
+        "sentence_311",
+        "sentence_313",
+        "sentence_315",
+        "sentence_325"
+      ]
+    },
+    {
+      "entity": "athens",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_304"
+      ]
+    },
+    {
+      "entity": "sophy",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_307",
+        "sentence_309",
+        "sentence_316",
+        "sentence_323"
+      ]
+    },
+    {
+      "entity": "greece",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_308",
+        "sentence_311",
+        "sentence_325"
+      ]
+    },
+    {
+      "entity": "greek_friend",
+      "section": "greek-interpreter-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_311",
+        "sentence_312"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_331",
+        "sentence_333",
+        "sentence_335",
+        "sentence_352",
+        "sentence_356",
+        "sentence_357",
+        "sentence_359",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376",
+        "sentence_377",
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 36,
+      "sentence_ids": [
+        "sentence_331",
+        "sentence_332",
+        "sentence_333",
+        "sentence_334",
+        "sentence_335",
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_340",
+        "sentence_342",
+        "sentence_343",
+        "sentence_349",
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_354",
+        "sentence_356",
+        "sentence_357",
+        "sentence_359",
+        "sentence_360",
+        "sentence_361",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_368",
+        "sentence_369",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_377",
+        "sentence_378",
+        "sentence_379",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_332",
+        "sentence_354",
+        "sentence_355",
+        "sentence_358",
+        "sentence_360",
+        "sentence_377",
+        "sentence_378",
+        "sentence_379",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_354",
+        "sentence_360",
+        "sentence_361",
+        "sentence_364",
+        "sentence_373",
+        "sentence_374",
+        "sentence_375",
+        "sentence_376",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "scotland_yard",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_352",
+        "sentence_378",
+        "sentence_372",
+        "sentence_379"
+      ]
+    },
+    {
+      "entity": "beckenham",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_346",
+        "sentence_352",
+        "sentence_377",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "the_myrtles",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_346",
+        "sentence_380",
+        "sentence_381"
+      ]
+    },
+    {
+      "entity": "j_davenport",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_347",
+        "sentence_348",
+        "sentence_349"
+      ]
+    },
+    {
+      "entity": "lower_brixton",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_349"
+      ]
+    },
+    {
+      "entity": "carriage",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_364",
+        "sentence_379"
+      ]
+    },
+    {
+      "entity": "pall_mall",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_360"
+      ]
+    },
+    {
+      "entity": "dangerous_gang",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_359",
+        "sentence_373"
+      ]
+    },
+    {
+      "entity": "vernets_sister",
+      "section": "greek-interpreter-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_344",
+        "sentence_345",
+        "sentence_346"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 37,
+      "sentence_ids": [
+        "sentence_384",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_392",
+        "sentence_394",
+        "sentence_395",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398",
+        "sentence_399",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405",
+        "sentence_406",
+        "sentence_407",
+        "sentence_408",
+        "sentence_409",
+        "sentence_410",
+        "sentence_411",
+        "sentence_412",
+        "sentence_413",
+        "sentence_414",
+        "sentence_415",
+        "sentence_416",
+        "sentence_417",
+        "sentence_418",
+        "sentence_419",
+        "sentence_420",
+        "sentence_421",
+        "sentence_422",
+        "sentence_423",
+        "sentence_424",
+        "sentence_425",
+        "sentence_426"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_398",
+        "sentence_399",
+        "sentence_403",
+        "sentence_407",
+        "sentence_422",
+        "sentence_428"
+      ]
+    },
+    {
+      "entity": "mycroft_holmes",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_396",
+        "sentence_398",
+        "sentence_399",
+        "sentence_407",
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_398",
+        "sentence_424",
+        "sentence_428"
+      ]
+    },
+    {
+      "entity": "diogenes_club",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_424"
+      ]
+    },
+    {
+      "entity": "hall",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_405",
+        "sentence_407",
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "greek_friend",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_424"
+      ]
+    },
+    {
+      "entity": "gated_house",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_393"
+      ]
+    },
+    {
+      "entity": "rich_room",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_398",
+        "sentence_399"
+      ]
+    },
+    {
+      "entity": "charcoal",
+      "section": "greek-interpreter-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_411",
+        "sentence_414",
+        "sentence_416",
+        "sentence_417",
+        "sentence_422"
+      ]
+    },
+    {
+      "entity": "mr_melas",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_430",
+        "sentence_431",
+        "sentence_432",
+        "sentence_433",
+        "sentence_435",
+        "sentence_441"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_429"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_429",
+        "sentence_447"
+      ]
+    },
+    {
+      "entity": "beckenham",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_432"
+      ]
+    },
+    {
+      "entity": "latimer",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_436",
+        "sentence_438",
+        "sentence_439",
+        "sentence_443",
+        "sentence_445",
+        "sentence_446"
+      ]
+    },
+    {
+      "entity": "harold",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_436"
+      ]
+    },
+    {
+      "entity": "sophy",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_435",
+        "sentence_436",
+        "sentence_437",
+        "sentence_441",
+        "sentence_442",
+        "sentence_443",
+        "sentence_445",
+        "sentence_447"
+      ]
+    },
+    {
+      "entity": "greece",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_435"
+      ]
+    },
+    {
+      "entity": "athens",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_437",
+        "sentence_438"
+      ]
+    },
+    {
+      "entity": "vernet",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_437",
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_443",
+        "sentence_447"
+      ]
+    },
+    {
+      "entity": "wilson_kemp",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_438",
+        "sentence_439",
+        "sentence_440",
+        "sentence_443",
+        "sentence_445",
+        "sentence_446"
+      ]
+    },
+    {
+      "entity": "grecian_interpreter_case",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_434"
+      ]
+    },
+    {
+      "entity": "daily_news",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_444",
+        "sentence_445",
+        "sentence_446"
+      ]
+    },
+    {
+      "entity": "athens_police",
+      "section": "greek-interpreter-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_446"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "chalk_marks",
+      "case": "manor_house_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "greek-interpreter-section_3",
+      "significance": "Holmes inferred that one passerby was a billiard-marker from the chalk marks over his waistcoat pocket.",
+      "source_nodes": [
+        "sentence_80"
+      ]
+    },
+    {
+      "object": "daily_news",
+      "case": "manor_house_case",
+      "discovered_by": "mycroft_holmes",
+      "discovered_in_section": "greek-interpreter-section_7",
+      "significance": "Mycroft Holmes used the newspaper notice to show that information was being sought about Paul Kratides and Sophy.",
+      "source_nodes": [
+        "sentence_278",
+        "sentence_279",
+        "sentence_280",
+        "sentence_281",
+        "sentence_282"
+      ]
+    },
+    {
+      "object": "mycroft_holmes_advertisement_reply_letter",
+      "case": "manor_house_case",
+      "discovered_by": "mycroft_holmes",
+      "discovered_in_section": "greek-interpreter-section_9",
+      "significance": "Mycroft Holmes inferred the writer was a middle-aged man with a weak constitution from the letter's handwriting and paper, and learned that J. Davenport knew the young lady in question and that she lived at The Myrtles, Beckenham.",
+      "source_nodes": [
+        "sentence_342",
+        "sentence_343",
+        "sentence_344",
+        "sentence_345",
+        "sentence_346",
+        "sentence_347",
+        "sentence_348"
+      ]
+    },
+    {
+      "object": "carriage",
+      "case": "manor_house_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "greek-interpreter-section_10",
+      "significance": "Holmes inferred that a carriage had carried a very considerable weight from the deeply impressed outward-bound wheel-tracks.",
+      "source_nodes": [
+        "sentence_386",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390"
+      ]
+    },
+    {
+      "object": "charcoal",
+      "case": "manor_house_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "greek-interpreter-section_10",
+      "significance": "Holmes identified charcoal as the source of the poisonous atmosphere in the upstairs room.",
+      "source_nodes": [
+        "sentence_411",
+        "sentence_414",
+        "sentence_416"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "mycroft_holmes",
+      "organisation": "diogenes_club"
+    },
+    {
+      "character": "mr_melas",
+      "organisation": "diogenes_club"
+    }
+  ]
+}

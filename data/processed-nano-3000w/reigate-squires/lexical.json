@@ -1,0 +1,3350 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "reigate-squires-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 3012
+    },
+    {
+      "id": "reigate-squires-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 3005
+    },
+    {
+      "id": "reigate-squires-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 1151
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "reigate-squires-section_1",
+      "position": 0,
+      "text": "VII.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "reigate-squires-section_1",
+      "position": 1,
+      "text": "The Reigate Squires",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "reigate-squires-section_1",
+      "position": 2,
+      "text": "It was some time before the health of my friend Mr. Sherlock Holmes recovered from the strain caused by his immense exertions in the spring of '87.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "reigate-squires-section_1",
+      "position": 3,
+      "text": "The whole question of the Netherland-Sumatra Company and of the colossal schemes of Baron Maupertuis are too recent in the minds of the public, and are too intimately concerned with politics and finance to be fitting subjects for this series of sketches.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "reigate-squires-section_1",
+      "position": 4,
+      "text": "They led, however, in an indirect fashion to a singular and complex problem which gave my friend an opportunity of demonstrating the value of a fresh weapon among the many with which he waged his life-long battle against crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "reigate-squires-section_1",
+      "position": 5,
+      "text": "On referring to my notes I see that it was upon the 14th of April that I received a telegram from Lyons which informed me that Holmes was lying ill in the Hotel Dulong.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "reigate-squires-section_1",
+      "position": 6,
+      "text": "Within twenty-four hours I was in his sick-room, and was relieved to find that there was nothing formidable in his symptoms.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "reigate-squires-section_1",
+      "position": 7,
+      "text": "Even his iron constitution, however, had broken down under the strain of an investigation which had extended over two months, during which period he had never worked less than fifteen hours a day, and had more than once, as he assured me, kept to his task for five days at a stretch.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "reigate-squires-section_1",
+      "position": 8,
+      "text": "Even the triumphant issue of his labours could not save him from reaction after so terrible an exertion, and at a time when Europe was ringing with his name and when his room was literally ankle-deep with congratulatory telegrams I found him a prey to the blackest depression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "reigate-squires-section_1",
+      "position": 9,
+      "text": "Even the knowledge that he had succeeded where the police of three countries had failed, and that he had outmanœuvred at every point the most accomplished swindler in Europe, was insufficient to rouse him from his nervous prostration.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "reigate-squires-section_1",
+      "position": 10,
+      "text": "Three days later we were back in Baker Street together; but it was evident that my friend would be much the better for a change, and the thought of a week of spring time in the country was full of attractions to me also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "reigate-squires-section_1",
+      "position": 11,
+      "text": "My old friend, Colonel Hayter, who had come under my professional care in Afghanistan, had now taken a house near Reigate in Surrey, and had frequently asked me to come down to him upon a visit.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "reigate-squires-section_1",
+      "position": 12,
+      "text": "On the last occasion he had remarked that if my friend would only come with me he would be glad to extend his hospitality to him also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "reigate-squires-section_1",
+      "position": 13,
+      "text": "A little diplomacy was needed, but when Holmes understood that the establishment was a bachelor one, and that he would be allowed the fullest freedom, he fell in with my plans and a week after our return from Lyons we were under the Colonel's roof.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "reigate-squires-section_1",
+      "position": 14,
+      "text": "Hayter was a fine old soldier who had seen much of the world, and he soon found, as I had expected, that Holmes and he had much in common.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "reigate-squires-section_1",
+      "position": 15,
+      "text": "On the evening of our arrival we were sitting in the Colonel's gun-room after dinner, Holmes stretched upon the sofa, while Hayter and I looked over his little armoury of fire-arms.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "reigate-squires-section_1",
+      "position": 16,
+      "text": "\"By the way,\" said he suddenly, \"I think I'll take one of these pistols upstairs with me in case we have an alarm.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "reigate-squires-section_1",
+      "position": 17,
+      "text": "\"An alarm!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "reigate-squires-section_1",
+      "position": 18,
+      "text": "said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "reigate-squires-section_1",
+      "position": 19,
+      "text": "\"Yes, we've had a scare in this part lately.",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "reigate-squires-section_1",
+      "position": 20,
+      "text": "Old Acton, who is one of our county magnates, had his house broken into last Monday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "reigate-squires-section_1",
+      "position": 21,
+      "text": "No great damage done, but the fellows are still at large.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "reigate-squires-section_1",
+      "position": 22,
+      "text": "\"No clue?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "reigate-squires-section_1",
+      "position": 23,
+      "text": "asked Holmes, cocking his eye at the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "reigate-squires-section_1",
+      "position": 24,
+      "text": "\"None as yet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "reigate-squires-section_1",
+      "position": 25,
+      "text": "But the affair is a petty one, one of our little country crimes, which must seem too small for your attention, Mr. Holmes, after this great international affair.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "reigate-squires-section_1",
+      "position": 26,
+      "text": "Holmes waved away the compliment, though his smile showed that it had pleased him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "reigate-squires-section_1",
+      "position": 27,
+      "text": "\"Was there any feature of interest?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "reigate-squires-section_1",
+      "position": 28,
+      "text": "\"I fancy not.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "reigate-squires-section_1",
+      "position": 29,
+      "text": "The thieves ransacked the library and got very little for their pains.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "reigate-squires-section_1",
+      "position": 30,
+      "text": "The whole place was turned upside down, drawers burst open, and presses ransacked, with the result that an odd volume of Pope's 'Homer,' two plated candlesticks, an ivory letter-weight, a small oak barometer, and a ball of twine are all that have vanished.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "reigate-squires-section_1",
+      "position": 31,
+      "text": "\"What an extraordinary assortment!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "reigate-squires-section_1",
+      "position": 32,
+      "text": "I exclaimed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "reigate-squires-section_1",
+      "position": 33,
+      "text": "\"Oh, the fellows evidently grabbed hold of everything they could get.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "reigate-squires-section_1",
+      "position": 34,
+      "text": "Holmes grunted from the sofa.",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "reigate-squires-section_1",
+      "position": 35,
+      "text": "\"The county police ought to make something of that,\" said he; \"why, it is surely obvious that—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "reigate-squires-section_1",
+      "position": 36,
+      "text": "But I held up a warning finger.",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "reigate-squires-section_1",
+      "position": 37,
+      "text": "\"You are here for a rest, my dear fellow.",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "reigate-squires-section_1",
+      "position": 38,
+      "text": "For Heaven's sake don't get started on a new problem when your nerves are all in shreds.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "reigate-squires-section_1",
+      "position": 39,
+      "text": "Holmes shrugged his shoulders with a glance of comic resignation towards the Colonel, and the talk drifted away into less dangerous channels.",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "reigate-squires-section_1",
+      "position": 40,
+      "text": "It was destined, however, that all my professional caution should be wasted, for next morning the problem obtruded itself upon us in such a way that it was impossible to ignore it, and our country visit took a turn which neither of us could have anticipated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "reigate-squires-section_1",
+      "position": 41,
+      "text": "We were at breakfast when the Colonel's butler rushed in with all his propriety shaken out of him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "reigate-squires-section_1",
+      "position": 42,
+      "text": "\"Have you heard the news, sir?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "reigate-squires-section_1",
+      "position": 43,
+      "text": "he gasped.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "reigate-squires-section_1",
+      "position": 44,
+      "text": "\"At the Cunningham's sir!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "reigate-squires-section_1",
+      "position": 45,
+      "text": "\"Burglary!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "reigate-squires-section_1",
+      "position": 46,
+      "text": "cried the Colonel, with his coffee-cup in mid-air.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "reigate-squires-section_1",
+      "position": 47,
+      "text": "\"Murder!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "reigate-squires-section_1",
+      "position": 48,
+      "text": "The Colonel whistled.",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "reigate-squires-section_1",
+      "position": 49,
+      "text": "\"By Jove!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "reigate-squires-section_1",
+      "position": 50,
+      "text": "said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "reigate-squires-section_1",
+      "position": 51,
+      "text": "\"Who's killed, then?",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "reigate-squires-section_1",
+      "position": 52,
+      "text": "The J.P.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "reigate-squires-section_1",
+      "position": 53,
+      "text": "or his son?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "reigate-squires-section_1",
+      "position": 54,
+      "text": "\"Neither, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "reigate-squires-section_1",
+      "position": 55,
+      "text": "It was William the coachman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "reigate-squires-section_1",
+      "position": 56,
+      "text": "Shot through the heart, sir, and never spoke again.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "reigate-squires-section_1",
+      "position": 57,
+      "text": "\"Who shot him, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "reigate-squires-section_1",
+      "position": 58,
+      "text": "\"The burglar, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "reigate-squires-section_1",
+      "position": 59,
+      "text": "He was off like a shot and got clean away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "reigate-squires-section_1",
+      "position": 60,
+      "text": "He'd just broke in at the pantry window when William came on him and met his end in saving his master's property.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "reigate-squires-section_1",
+      "position": 61,
+      "text": "\"What time?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "reigate-squires-section_1",
+      "position": 62,
+      "text": "\"It was last night, sir, somewhere about twelve.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "reigate-squires-section_1",
+      "position": 63,
+      "text": "\"Ah, then, we'll step over afterwards,\" said the Colonel, coolly settling down to his breakfast again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "reigate-squires-section_1",
+      "position": 64,
+      "text": "\"It's a baddish business,\" he added when the butler had gone; \"he's our leading man about here, is old Cunningham, and a very decent fellow too.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "reigate-squires-section_1",
+      "position": 65,
+      "text": "He'll be cut up over this, for the man has been in his service for years and was a good servant.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "reigate-squires-section_1",
+      "position": 66,
+      "text": "It's evidently the same villains who broke into Acton's.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "reigate-squires-section_1",
+      "position": 67,
+      "text": "\"And stole that very singular collection,\" said Holmes, thoughtfully.",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "reigate-squires-section_1",
+      "position": 68,
+      "text": "\"Precisely.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "reigate-squires-section_1",
+      "position": 69,
+      "text": "\"Hum!",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "reigate-squires-section_1",
+      "position": 70,
+      "text": "It may prove the simplest matter in the world, but all the same at first glance this is just a little curious, is it not?",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "reigate-squires-section_1",
+      "position": 71,
+      "text": "A gang of burglars acting in the country might be expected to vary the scene of their operations, and not to crack two cribs in the same district within a few days.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "reigate-squires-section_1",
+      "position": 72,
+      "text": "When you spoke last night of taking precautions I remember that it passed through my mind that this was probably the last parish in England to which the thief or thieves would be likely to turn their attention—which shows that I have still much to learn.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "reigate-squires-section_1",
+      "position": 73,
+      "text": "\"I fancy it's some local practitioner,\" said the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "reigate-squires-section_1",
+      "position": 74,
+      "text": "\"In that case, of course, Acton's and Cunningham's are just the places he would go for, since they are far the largest about here.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "reigate-squires-section_1",
+      "position": 75,
+      "text": "\"And richest?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "reigate-squires-section_1",
+      "position": 76,
+      "text": "\"Well, they ought to be, but they've had a lawsuit for some years which has sucked the blood out of both of them, I fancy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "reigate-squires-section_1",
+      "position": 77,
+      "text": "Old Acton has some claim on half Cunningham's estate, and the lawyers have been at it with both hands.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "reigate-squires-section_1",
+      "position": 78,
+      "text": "\"If it's a local villain there should not be much difficulty in running him down,\" said Holmes with a yawn.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "reigate-squires-section_1",
+      "position": 79,
+      "text": "\"All right, Watson, I don't intend to meddle.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "reigate-squires-section_1",
+      "position": 80,
+      "text": "\"Inspector Forrester, sir,\" said the butler, throwing open the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "reigate-squires-section_1",
+      "position": 81,
+      "text": "The official, a smart, keen-faced young fellow, stepped into the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "reigate-squires-section_1",
+      "position": 82,
+      "text": "\"Good-morning, Colonel,\" said he; \"I hope I don't intrude, but we hear that Mr. Holmes of Baker Street is here.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "reigate-squires-section_1",
+      "position": 83,
+      "text": "The Colonel waved his hand towards my friend, and the Inspector bowed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "reigate-squires-section_1",
+      "position": 84,
+      "text": "\"We thought that perhaps you would care to step across, Mr. Holmes.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "reigate-squires-section_1",
+      "position": 85,
+      "text": "\"The fates are against you, Watson,\" said he, laughing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "reigate-squires-section_1",
+      "position": 86,
+      "text": "\"We were chatting about the matter when you came in, Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "reigate-squires-section_1",
+      "position": 87,
+      "text": "Perhaps you can let us have a few details.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "reigate-squires-section_1",
+      "position": 88,
+      "text": "As he leaned back in his chair in the familiar attitude I knew that the case was hopeless.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "reigate-squires-section_1",
+      "position": 89,
+      "text": "\"We had no clue in the Acton affair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "reigate-squires-section_1",
+      "position": 90,
+      "text": "But here we have plenty to go on, and there's no doubt it is the same party in each case.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "reigate-squires-section_1",
+      "position": 91,
+      "text": "The man was seen.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "reigate-squires-section_1",
+      "position": 92,
+      "text": "\"Ah!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "reigate-squires-section_1",
+      "position": 93,
+      "text": "\"Yes, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "reigate-squires-section_1",
+      "position": 94,
+      "text": "But he was off like a deer after the shot that killed poor William Kirwan was fired.",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "reigate-squires-section_1",
+      "position": 95,
+      "text": "Mr. Cunningham saw him from the bedroom window, and Mr. Alec Cunningham saw him from the back passage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "reigate-squires-section_1",
+      "position": 96,
+      "text": "It was quarter to twelve when the alarm broke out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "reigate-squires-section_1",
+      "position": 97,
+      "text": "Mr. Cunningham had just got into bed, and Mr. Alec was smoking a pipe in his dressing-gown.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "reigate-squires-section_1",
+      "position": 98,
+      "text": "They both heard William the coachman calling for help, and Mr. Alec ran down to see what was the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "reigate-squires-section_1",
+      "position": 99,
+      "text": "The back door was open, and as he came to the foot of the stairs he saw two men wrestling together outside.",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "reigate-squires-section_1",
+      "position": 100,
+      "text": "One of them fired a shot, the other dropped, and the murderer rushed across the garden and over the hedge.",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "reigate-squires-section_1",
+      "position": 101,
+      "text": "Mr. Cunningham, looking out of his bedroom, saw the fellow as he gained the road, but lost sight of him at once.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "reigate-squires-section_1",
+      "position": 102,
+      "text": "Mr. Alec stopped to see if he could help the dying man, and so the villain got clean away.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "reigate-squires-section_1",
+      "position": 103,
+      "text": "Beyond the fact that he was a middle-sized man and dressed in some dark stuff, we have no personal clue; but we are making energetic inquiries, and if he is a stranger we shall soon find him out.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "reigate-squires-section_1",
+      "position": 104,
+      "text": "\"What was this William doing there?",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "reigate-squires-section_1",
+      "position": 105,
+      "text": "Did he say anything before he died?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "reigate-squires-section_1",
+      "position": 106,
+      "text": "\"Not a word.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "reigate-squires-section_1",
+      "position": 107,
+      "text": "He lives at the lodge with his mother, and as he was a very faithful fellow we imagine that he walked up to the house with the intention of seeing that all was right there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "reigate-squires-section_1",
+      "position": 108,
+      "text": "Of course this Acton business has put every one on their guard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "reigate-squires-section_1",
+      "position": 109,
+      "text": "The robber must have just burst open the door—the lock has been forced—when William came upon him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "reigate-squires-section_1",
+      "position": 110,
+      "text": "\"Did William say anything to his mother before going out?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "reigate-squires-section_1",
+      "position": 111,
+      "text": "\"She is very old and deaf, and we can get no information from her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "reigate-squires-section_1",
+      "position": 112,
+      "text": "The shock has made her half-witted, but I understand that she was never very bright.",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "reigate-squires-section_1",
+      "position": 113,
+      "text": "There is one very important circumstance, however.",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "reigate-squires-section_1",
+      "position": 114,
+      "text": "Look at this!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "reigate-squires-section_1",
+      "position": 115,
+      "text": "He took a small piece of torn paper from a note-book and spread it out upon his knee.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "reigate-squires-section_1",
+      "position": 116,
+      "text": "\"This was found between the finger and thumb of the dead man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "reigate-squires-section_1",
+      "position": 117,
+      "text": "It appears to be a fragment torn from a larger sheet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "reigate-squires-section_1",
+      "position": 118,
+      "text": "You will observe that the hour mentioned upon it is the very time at which the poor fellow met his fate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "reigate-squires-section_1",
+      "position": 119,
+      "text": "You see that his murderer might have torn the rest of the sheet from him or he might have taken this fragment from the murderer.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "reigate-squires-section_1",
+      "position": 120,
+      "text": "It reads almost as though it were an appointment.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "reigate-squires-section_1",
+      "position": 121,
+      "text": "Holmes took up the scrap of paper, a facsimile of which is here reproduced.",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "reigate-squires-section_1",
+      "position": 122,
+      "text": "scrap of paper",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "reigate-squires-section_1",
+      "position": 123,
+      "text": "\"Presuming that it is an appointment,\" continued the Inspector, \"it is of course a conceivable theory that this William Kirwan—though he had the reputation of being an honest man, may have been in league with the thief.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "reigate-squires-section_1",
+      "position": 124,
+      "text": "He may have met him there, may even have helped him to break in the door, and then they may have fallen out between themselves.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "reigate-squires-section_1",
+      "position": 125,
+      "text": "\"This writing is of extraordinary interest,\" said Holmes, who had been examining it with intense concentration.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "reigate-squires-section_1",
+      "position": 126,
+      "text": "\"These are much deeper waters than I had thought.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "reigate-squires-section_1",
+      "position": 127,
+      "text": "He sank his head upon his hands, while the Inspector smiled at the effect which his case had had upon the famous London specialist.",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "reigate-squires-section_1",
+      "position": 128,
+      "text": "\"Your last remark,\" said Holmes, presently, \"as to the possibility of there being an understanding between the burglar and the servant, and this being a note of appointment from one to the other, is an ingenious and not entirely impossible supposition.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "reigate-squires-section_1",
+      "position": 129,
+      "text": "But this writing opens up—\" He sank his head into his hands again and remained for some minutes in the deepest thought.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "reigate-squires-section_1",
+      "position": 130,
+      "text": "When he raised his face again, I was surprised to see that his cheek was tinged with colour, and his eyes as bright as before his illness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "reigate-squires-section_1",
+      "position": 131,
+      "text": "He sprang to his feet with all his old energy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "reigate-squires-section_1",
+      "position": 132,
+      "text": "\"I'll tell you what,\" said he, \"I should like to have a quiet little glance into the details of this case.",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "reigate-squires-section_1",
+      "position": 133,
+      "text": "There is something in it which fascinates me extremely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "reigate-squires-section_1",
+      "position": 134,
+      "text": "If you will permit me, Colonel, I will leave my friend Watson and you, and I will step round with the Inspector to test the truth of one or two little fancies of mine.",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "reigate-squires-section_1",
+      "position": 135,
+      "text": "I will be with you again in half an hour.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "reigate-squires-section_1",
+      "position": 136,
+      "text": "An hour and half had elapsed before the Inspector returned alone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "reigate-squires-section_1",
+      "position": 137,
+      "text": "\"Mr. Holmes is walking up and down in the field outside,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "reigate-squires-section_1",
+      "position": 138,
+      "text": "\"He wants us all four to go up to the house together.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "reigate-squires-section_1",
+      "position": 139,
+      "text": "\"To Mr. Cunningham's?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "reigate-squires-section_1",
+      "position": 140,
+      "text": "\"Yes, sir.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "reigate-squires-section_1",
+      "position": 141,
+      "text": "\"What for?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "reigate-squires-section_1",
+      "position": 142,
+      "text": "The Inspector shrugged his shoulders.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "reigate-squires-section_1",
+      "position": 143,
+      "text": "\"I don't quite know, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "reigate-squires-section_1",
+      "position": 144,
+      "text": "Between ourselves, I think Mr. Holmes had not quite got over his illness yet.",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "reigate-squires-section_1",
+      "position": 145,
+      "text": "He's been behaving very queerly, and he is very much excited.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "reigate-squires-section_1",
+      "position": 146,
+      "text": "\"I don't think you need alarm yourself,\" said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "reigate-squires-section_1",
+      "position": 147,
+      "text": "\"I have usually found that there was method in his madness.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "reigate-squires-section_1",
+      "position": 148,
+      "text": "\"Some folks might say there was madness in his method,\" muttered the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "reigate-squires-section_1",
+      "position": 149,
+      "text": "\"But he's all on fire to start, Colonel, so we had best go out if you are ready.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "reigate-squires-section_1",
+      "position": 150,
+      "text": "We found Holmes pacing up and down in the field, his chin sunk upon his breast, and his hands thrust into his trousers pockets.",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "reigate-squires-section_1",
+      "position": 151,
+      "text": "\"The matter grows in interest,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "reigate-squires-section_1",
+      "position": 152,
+      "text": "\"Watson, your country-trip has been a distinct success.",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "reigate-squires-section_1",
+      "position": 153,
+      "text": "I have had a charming morning.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "reigate-squires-section_1",
+      "position": 154,
+      "text": "\"You have been up to the scene of the crime, I understand,\" said the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "reigate-squires-section_1",
+      "position": 155,
+      "text": "\"Yes; the Inspector and I have made quite a little reconnaissance together.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "reigate-squires-section_1",
+      "position": 156,
+      "text": "\"Any success?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "reigate-squires-section_1",
+      "position": 157,
+      "text": "\"Well, we have seen some very interesting things.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "reigate-squires-section_1",
+      "position": 158,
+      "text": "I'll tell you what we did as we walk.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "reigate-squires-section_1",
+      "position": 159,
+      "text": "First of all, we saw the body of this unfortunate man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "reigate-squires-section_1",
+      "position": 160,
+      "text": "He certainly died from a revolver wound as reported.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "reigate-squires-section_1",
+      "position": 161,
+      "text": "\"Had you doubted it, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "reigate-squires-section_1",
+      "position": 162,
+      "text": "\"Oh, it is as well to test everything.",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "reigate-squires-section_1",
+      "position": 163,
+      "text": "Our inspection was not wasted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "reigate-squires-section_1",
+      "position": 164,
+      "text": "We then had an interview with Mr. Cunningham and his son, who were able to point out the exact spot where the murderer had broken through the garden-hedge in his flight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "reigate-squires-section_1",
+      "position": 165,
+      "text": "That was of great interest.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "reigate-squires-section_1",
+      "position": 166,
+      "text": "\"Naturally.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "reigate-squires-section_1",
+      "position": 167,
+      "text": "\"Then we had a look at this poor fellow's mother.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "reigate-squires-section_1",
+      "position": 168,
+      "text": "We could get no information from her, however, as she is very old and feeble.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "reigate-squires-section_1",
+      "position": 169,
+      "text": "\"And what is the result of your investigations?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "reigate-squires-section_1",
+      "position": 170,
+      "text": "\"The conviction that the crime is a very peculiar one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "reigate-squires-section_1",
+      "position": 171,
+      "text": "Perhaps our visit now may do something to make it less obscure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "reigate-squires-section_1",
+      "position": 172,
+      "text": "I think that we are both agreed, Inspector that the fragment of paper in the dead man's hand, bearing, as it does, the very hour of his death written upon it, is of extreme importance.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "reigate-squires-section_1",
+      "position": 173,
+      "text": "\"It should give a clue, Mr. Holmes.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "reigate-squires-section_1",
+      "position": 174,
+      "text": "\"It _does_ give a clue.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "reigate-squires-section_1",
+      "position": 175,
+      "text": "Whoever wrote that note was the man who brought William Kirwan out of his bed at that hour.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "reigate-squires-section_1",
+      "position": 176,
+      "text": "But where is the rest of that sheet of paper?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "reigate-squires-section_1",
+      "position": 177,
+      "text": "\"I examined the ground carefully in the hope of finding it,\" said the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "reigate-squires-section_1",
+      "position": 178,
+      "text": "\"It was torn out of the dead man's hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "reigate-squires-section_1",
+      "position": 179,
+      "text": "Why was some one so anxious to get possession of it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "reigate-squires-section_1",
+      "position": 180,
+      "text": "Because it incriminated him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "reigate-squires-section_1",
+      "position": 181,
+      "text": "And what would he do with it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "reigate-squires-section_1",
+      "position": 182,
+      "text": "Thrust it into his pocket, most likely, never noticing that a corner of it had been left in the grip of the corpse.",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "reigate-squires-section_1",
+      "position": 183,
+      "text": "If we could get the rest of that sheet it is obvious that we should have gone a long way towards solving the mystery.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "reigate-squires-section_1",
+      "position": 184,
+      "text": "\"Yes, but how can we get at the criminal's pocket before we catch the criminal?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "reigate-squires-section_1",
+      "position": 185,
+      "text": "\"Well, well, it was worth thinking over.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "reigate-squires-section_1",
+      "position": 186,
+      "text": "Then there is another obvious point.",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "reigate-squires-section_1",
+      "position": 187,
+      "text": "The note was sent to William.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "reigate-squires-section_1",
+      "position": 188,
+      "text": "The man who wrote it could not have taken it; otherwise, of course, he might have delivered his own message by word of mouth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "reigate-squires-section_1",
+      "position": 189,
+      "text": "Who brought the note, then?",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "reigate-squires-section_1",
+      "position": 190,
+      "text": "Or did it come through the post?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "reigate-squires-section_1",
+      "position": 191,
+      "text": "\"I have made inquiries,\" said the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "reigate-squires-section_1",
+      "position": 192,
+      "text": "\"William received a letter by the afternoon post yesterday.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "reigate-squires-section_1",
+      "position": 193,
+      "text": "The envelope was destroyed by him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "reigate-squires-section_1",
+      "position": 194,
+      "text": "\"Excellent!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "reigate-squires-section_1",
+      "position": 195,
+      "text": "cried Holmes, clapping the Inspector on the back.",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "reigate-squires-section_1",
+      "position": 196,
+      "text": "\"You've seen the postman.",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "reigate-squires-section_1",
+      "position": 197,
+      "text": "It is a pleasure to work with you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "reigate-squires-section_1",
+      "position": 198,
+      "text": "Well, here is the lodge, and if you will come up, Colonel, I will show you the scene of the crime.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "reigate-squires-section_1",
+      "position": 199,
+      "text": "We passed the pretty cottage where the murdered man had lived, and walked up an oak-lined avenue to the fine old Queen Anne house, which bears the date of Malplaquet upon the lintel of the door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "reigate-squires-section_1",
+      "position": 200,
+      "text": "Holmes and the Inspector led us round it until we came to the side gate, which is separated by a stretch of garden from the hedge which lines the road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "reigate-squires-section_1",
+      "position": 201,
+      "text": "A constable was standing at the kitchen door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "reigate-squires-section_1",
+      "position": 202,
+      "text": "\"Throw the door open, officer,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "reigate-squires-section_1",
+      "position": 203,
+      "text": "\"Now, it was on those stairs that young Mr. Cunningham stood and saw the two men struggling just where we are.",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "reigate-squires-section_1",
+      "position": 204,
+      "text": "Old Mr. Cunningham was at that window—the second on the left—and he saw the fellow get away just to the left of that bush.",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "reigate-squires-section_1",
+      "position": 205,
+      "text": "Then Mr. Alec ran out and knelt beside the wounded man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "reigate-squires-section_1",
+      "position": 206,
+      "text": "The ground is very hard, you see, and there are no marks to guide us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "reigate-squires-section_1",
+      "position": 207,
+      "text": "As he spoke two men came down the garden path, from round the angle of the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "reigate-squires-section_1",
+      "position": 208,
+      "text": "The one was an elderly man, with a strong, deep-lined, heavy-eyed face; the other a dashing young fellow, whose bright, smiling expression and showy dress were in strange contrast with the business which had brought us there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "reigate-squires-section_1",
+      "position": 209,
+      "text": "\"Still at it, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "reigate-squires-section_1",
+      "position": 210,
+      "text": "said he to Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "reigate-squires-section_1",
+      "position": 211,
+      "text": "\"I thought you Londoners were never at fault.",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "reigate-squires-section_1",
+      "position": 212,
+      "text": "You don't seem to be so very quick, after all.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "reigate-squires-section_2",
+      "position": 213,
+      "text": "\"Ah, you must give us a little time,\" said Holmes good-humoredly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "reigate-squires-section_2",
+      "position": 214,
+      "text": "\"You'll want it,\" said young Alec Cunningham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "reigate-squires-section_2",
+      "position": 215,
+      "text": "\"Why, I don't see that we have any clue at all.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "reigate-squires-section_2",
+      "position": 216,
+      "text": "\"There's only one,\" answered the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "reigate-squires-section_2",
+      "position": 217,
+      "text": "\"We thought that if we could only find—Good heavens, Mr. Holmes!",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "reigate-squires-section_2",
+      "position": 218,
+      "text": "What is the matter?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "reigate-squires-section_2",
+      "position": 219,
+      "text": "My poor friend's face had suddenly assumed the most dreadful expression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "reigate-squires-section_2",
+      "position": 220,
+      "text": "His eyes rolled upwards, his features writhed in agony, and with a suppressed groan he dropped on his face upon the ground.",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "reigate-squires-section_2",
+      "position": 221,
+      "text": "Horrified at the suddenness and severity of the attack, we carried him into the kitchen, where he lay back in a large chair, and breathed heavily for some minutes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "reigate-squires-section_2",
+      "position": 222,
+      "text": "Finally, with a shamefaced apology for his weakness, he rose once more.",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "reigate-squires-section_2",
+      "position": 223,
+      "text": "\"Watson would tell you that I have only just recovered from a severe illness,\" he explained.",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "reigate-squires-section_2",
+      "position": 224,
+      "text": "\"I am liable to these sudden nervous attacks.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "reigate-squires-section_2",
+      "position": 225,
+      "text": "\"Shall I send you home in my trap?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "reigate-squires-section_2",
+      "position": 226,
+      "text": "asked old Cunningham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "reigate-squires-section_2",
+      "position": 227,
+      "text": "\"Well, since I am here, there is one point on which I should like to feel sure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "reigate-squires-section_2",
+      "position": 228,
+      "text": "We can very easily verify it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "reigate-squires-section_2",
+      "position": 229,
+      "text": "\"What was it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "reigate-squires-section_2",
+      "position": 230,
+      "text": "\"Well, it seems to me that it is just possible that the arrival of this poor fellow William was not before, but after, the entrance of the burglar into the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "reigate-squires-section_2",
+      "position": 231,
+      "text": "You appear to take it for granted that, although the door was forced, the robber never got in.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "reigate-squires-section_2",
+      "position": 232,
+      "text": "\"I fancy that is quite obvious,\" said Mr. Cunningham, gravely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "reigate-squires-section_2",
+      "position": 233,
+      "text": "\"Why, my son Alec had not yet gone to bed, and he would certainly have heard any one moving about.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "reigate-squires-section_2",
+      "position": 234,
+      "text": "\"Where was he sitting?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "reigate-squires-section_2",
+      "position": 235,
+      "text": "\"I was smoking in my dressing-room.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "reigate-squires-section_2",
+      "position": 236,
+      "text": "\"Which window is that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "reigate-squires-section_2",
+      "position": 237,
+      "text": "\"The last on the left next my father's.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "reigate-squires-section_2",
+      "position": 238,
+      "text": "\"Both of your lamps were lit, of course?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "reigate-squires-section_2",
+      "position": 239,
+      "text": "\"Undoubtedly.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "reigate-squires-section_2",
+      "position": 240,
+      "text": "\"There are some very singular points here,\" said Holmes, smiling.",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "reigate-squires-section_2",
+      "position": 241,
+      "text": "\"Is it not extraordinary that a burglar—and a burglar who had had some previous experience—should deliberately break into a house at a time when he could see from the lights that two of the family were still afoot?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "reigate-squires-section_2",
+      "position": 242,
+      "text": "\"He must have been a cool hand.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "reigate-squires-section_2",
+      "position": 243,
+      "text": "\"Well, of course, if the case were not an odd one we should not have been driven to ask you for an explanation,\" said young Mr. Alec.",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "reigate-squires-section_2",
+      "position": 244,
+      "text": "\"But as to your ideas that the man had robbed the house before William tackled him, I think it a most absurd notion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "reigate-squires-section_2",
+      "position": 245,
+      "text": "Wouldn't we have found the place disarranged, and missed the things which he had taken?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "reigate-squires-section_2",
+      "position": 246,
+      "text": "\"It depends on what the things were,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "reigate-squires-section_2",
+      "position": 247,
+      "text": "\"You must remember that we are dealing with a burglar who is a very peculiar fellow, and who appears to work on lines of his own.",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "reigate-squires-section_2",
+      "position": 248,
+      "text": "—a ball of string, a letter-weight, and I don't know what other odds and ends.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "reigate-squires-section_2",
+      "position": 249,
+      "text": "as it?—a ball of string, a letter-weight, and I don't know what other odds and ends.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "reigate-squires-section_2",
+      "position": 250,
+      "text": "\"Well, we are quite in your hands, Mr. Holmes,\" said old Cunningham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "reigate-squires-section_2",
+      "position": 251,
+      "text": "\"Anything which you or the Inspector may suggest will most certainly be done.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "reigate-squires-section_2",
+      "position": 252,
+      "text": "\"In the first place,\" said Holmes, \"I should like you to offer a reward—coming from yourself, for the officials may take a little time before they would agree upon the sum, and these things cannot be done too promptly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "reigate-squires-section_2",
+      "position": 253,
+      "text": "I have jotted down the form here, if you would not mind signing it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "reigate-squires-section_2",
+      "position": 254,
+      "text": "Fifty pounds was quite enough, I thought.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "reigate-squires-section_2",
+      "position": 255,
+      "text": ", taking the slip of paper and the pencil which Holmes handed to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "reigate-squires-section_2",
+      "position": 256,
+      "text": "\"This is not quite correct, however,\" he added, glancing over the document.",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "reigate-squires-section_2",
+      "position": 257,
+      "text": "ect, however,\" he added, glancing over the document.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "reigate-squires-section_2",
+      "position": 258,
+      "text": "\"I wrote it rather hurriedly.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "reigate-squires-section_2",
+      "position": 259,
+      "text": "\"You see you begin, 'Whereas, at about a quarter to one on Tuesday morning an attempt was made,' and so on.",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "reigate-squires-section_2",
+      "position": 260,
+      "text": "It was at a quarter to twelve, as a matter of fact.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "reigate-squires-section_2",
+      "position": 261,
+      "text": "I was pained at the mistake, for I knew how keenly Holmes would feel any slip of the kind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "reigate-squires-section_2",
+      "position": 262,
+      "text": "It was his specialty to be accurate as to fact, but his recent illness had shaken him, and this one little incident was enough to show me that he was still far from being himself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "reigate-squires-section_2",
+      "position": 263,
+      "text": "He was obviously embarrassed for an instant, while the Inspector raised his eyebrows, and Alec Cunningham burst into a laugh.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "reigate-squires-section_2",
+      "position": 264,
+      "text": "The old gentleman corrected the mistake, however, and handed the paper back to Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "reigate-squires-section_2",
+      "position": 265,
+      "text": "\"Get it printed as soon as possible,\" he said; \"I think your idea is an excellent one.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "reigate-squires-section_2",
+      "position": 266,
+      "text": "Holmes put the slip of paper carefully away into his pocket-book.",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "reigate-squires-section_2",
+      "position": 267,
+      "text": "\"And now,\" said he, \"it really would be a good thing that we should all go over the house together and make certain that this rather erratic burglar did not, after all, carry anything away with him.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "reigate-squires-section_2",
+      "position": 268,
+      "text": "Before entering, Holmes made an examination of the door which had been forced.",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "reigate-squires-section_2",
+      "position": 269,
+      "text": "It was evident that a chisel or strong knife had been thrust in, and the lock forced back with it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "reigate-squires-section_2",
+      "position": 270,
+      "text": "We could see the marks in the wood where it had been pushed in.",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "reigate-squires-section_2",
+      "position": 271,
+      "text": "\"You don't use bars, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "reigate-squires-section_2",
+      "position": 272,
+      "text": "he asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "reigate-squires-section_2",
+      "position": 273,
+      "text": "\"We have never found it necessary.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "reigate-squires-section_2",
+      "position": 274,
+      "text": "\"You don't keep a dog?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "reigate-squires-section_2",
+      "position": 275,
+      "text": "\"Yes, but he is chained on the other side of the house.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "reigate-squires-section_2",
+      "position": 276,
+      "text": "\"When do the servants go to bed?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "reigate-squires-section_2",
+      "position": 277,
+      "text": "\"About ten.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "reigate-squires-section_2",
+      "position": 278,
+      "text": "\"I understand that William was usually in bed also at that hour.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "reigate-squires-section_2",
+      "position": 279,
+      "text": "\"Yes.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "reigate-squires-section_2",
+      "position": 280,
+      "text": "\"It is singular that on this particular night he should have been up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "reigate-squires-section_2",
+      "position": 281,
+      "text": "Now, I should be very glad if you would have the kindness to show us over the house, Mr. Cunningham.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "reigate-squires-section_2",
+      "position": 282,
+      "text": "A stone-flagged passage, with the kitchens branching away from it, led by a wooden staircase directly to the first floor of the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "reigate-squires-section_2",
+      "position": 283,
+      "text": "It came out upon the landing opposite to a second more ornamental stair which came up from the front hall.",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "reigate-squires-section_2",
+      "position": 284,
+      "text": "Out of this landing opened the drawing-room and several bedrooms, including those of Mr. Cunningham and his son.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "reigate-squires-section_2",
+      "position": 285,
+      "text": "Holmes walked slowly, taking keen note of the architecture of the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "reigate-squires-section_2",
+      "position": 286,
+      "text": "I could tell from his expression that he was on a hot scent, and yet I could not in the least imagine in what direction his inferences were leading him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "reigate-squires-section_2",
+      "position": 287,
+      "text": "\"My good sir,\" said Mr. Cunningham with some impatience, \"this is surely very unnecessary.",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "reigate-squires-section_2",
+      "position": 288,
+      "text": "That is my room at the end of the stairs, and my son's is the one beyond it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "reigate-squires-section_2",
+      "position": 289,
+      "text": "I leave it to your judgment whether it was possible for the thief to have come up here without disturbing us.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "reigate-squires-section_2",
+      "position": 290,
+      "text": "\"You must try round and get on a fresh scent, I fancy,\" said the son with a rather malicious smile.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "reigate-squires-section_2",
+      "position": 291,
+      "text": "\"Still, I must ask you to humour me a little further.",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "reigate-squires-section_2",
+      "position": 292,
+      "text": "I should like, for example, to see how far the windows of the bedrooms command the front.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "reigate-squires-section_2",
+      "position": 293,
+      "text": "This, I understand is your son's room\"—he pushed open the door—\"and that, I presume, is the dressing-room in which he sat smoking when the alarm was given.",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "reigate-squires-section_2",
+      "position": 294,
+      "text": "Where does the window of that look out to?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "reigate-squires-section_2",
+      "position": 295,
+      "text": "He stepped across the bedroom, pushed open the door, and glanced round the other chamber.",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "reigate-squires-section_2",
+      "position": 296,
+      "text": "\"I hope that you are satisfied now?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "reigate-squires-section_2",
+      "position": 297,
+      "text": "said Mr. Cunningham, tartly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "reigate-squires-section_2",
+      "position": 298,
+      "text": "\"Thank you, I think I have seen all that I wished.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "reigate-squires-section_2",
+      "position": 299,
+      "text": "\"Then if it is really necessary we can go into my room.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "reigate-squires-section_2",
+      "position": 300,
+      "text": "\"If it is not too much trouble.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "reigate-squires-section_2",
+      "position": 301,
+      "text": "The J.P.",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "reigate-squires-section_2",
+      "position": 302,
+      "text": "shrugged his shoulders, and led the way into his own chamber, which was a plainly furnished and commonplace room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "reigate-squires-section_2",
+      "position": 303,
+      "text": "As we moved across it in the direction of the window, Holmes fell back until he and I were the last of the group.",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "reigate-squires-section_2",
+      "position": 304,
+      "text": "Near the foot of the bed stood a dish of oranges and a carafe of water.",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "reigate-squires-section_2",
+      "position": 305,
+      "text": "As we passed it Holmes, to my unutterable astonishment, leaned over in front of me and deliberately knocked the whole thing over.",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "reigate-squires-section_2",
+      "position": 306,
+      "text": "The glass smashed into a thousand pieces and the fruit rolled about into every corner of the room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "reigate-squires-section_2",
+      "position": 307,
+      "text": "\"You've done it now, Watson,\" said he, coolly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "reigate-squires-section_2",
+      "position": 308,
+      "text": "\"A pretty mess you've made of the carpet.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "reigate-squires-section_2",
+      "position": 309,
+      "text": "I stooped in some confusion and began to pick up the fruit, understanding for some reason my companion desired me to take the blame upon myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "reigate-squires-section_2",
+      "position": 310,
+      "text": "The others did the same, and set the table on its legs again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "reigate-squires-section_2",
+      "position": 311,
+      "text": "\"Halloa!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "reigate-squires-section_2",
+      "position": 312,
+      "text": "cried the Inspector, \"where's he got to?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "reigate-squires-section_2",
+      "position": 313,
+      "text": "Holmes had disappeared.",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "reigate-squires-section_2",
+      "position": 314,
+      "text": "\"Wait here an instant,\" said young Alec Cunningham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "reigate-squires-section_2",
+      "position": 315,
+      "text": "\"The fellow is off his head, in my opinion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "reigate-squires-section_2",
+      "position": 316,
+      "text": "Come with me, father, and see where he has got to!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "reigate-squires-section_2",
+      "position": 317,
+      "text": "They rushed out of the room, leaving the Inspector, the Colonel, and me staring at each other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "reigate-squires-section_2",
+      "position": 318,
+      "text": "\"'Pon my word, I am inclined to agree with Master Alec,\" said the official.",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "reigate-squires-section_2",
+      "position": 319,
+      "text": "\"It may be the effect of this illness, but it seems to me that—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "reigate-squires-section_2",
+      "position": 320,
+      "text": "His words were cut short by a sudden scream of \"Help!",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "reigate-squires-section_2",
+      "position": 321,
+      "text": "Help!",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "reigate-squires-section_2",
+      "position": 322,
+      "text": "Murder!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "reigate-squires-section_2",
+      "position": 323,
+      "text": "With a thrill I recognised the voice of that of my friend.",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "reigate-squires-section_2",
+      "position": 324,
+      "text": "I rushed madly from the room on to the landing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "reigate-squires-section_2",
+      "position": 325,
+      "text": "The cries, which had sunk down into a hoarse, inarticulate shouting, came from the room which we had first visited.",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "reigate-squires-section_2",
+      "position": 326,
+      "text": "I dashed in, and on into the dressing-room beyond.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "reigate-squires-section_2",
+      "position": 327,
+      "text": "The two Cunninghams were bending over the prostrate figure of Sherlock Holmes, the younger clutching his throat with both hands, while the elder seemed to be twisting one of his wrists.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "reigate-squires-section_2",
+      "position": 328,
+      "text": "In an instant the three of us had torn them away from him, and Holmes staggered to his feet, very pale and evidently greatly exhausted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "reigate-squires-section_2",
+      "position": 329,
+      "text": "\"Arrest these men, Inspector!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "reigate-squires-section_2",
+      "position": 330,
+      "text": "he gasped.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "reigate-squires-section_2",
+      "position": 331,
+      "text": "\"On what charge?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "reigate-squires-section_2",
+      "position": 332,
+      "text": "\"That of murdering their coachman, William Kirwan!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "reigate-squires-section_2",
+      "position": 333,
+      "text": "The Inspector stared about him in bewilderment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "reigate-squires-section_2",
+      "position": 334,
+      "text": "\"Oh, come now, Mr. Holmes,\" said he at last, \"I'm sure you don't really mean to—\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "reigate-squires-section_2",
+      "position": 335,
+      "text": "\"Tut, man, look at their faces!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "reigate-squires-section_2",
+      "position": 336,
+      "text": "cried Holmes, curtly.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "reigate-squires-section_2",
+      "position": 337,
+      "text": "Never, certainly, have I seen a plainer confession of guilt upon human countenances.",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "reigate-squires-section_2",
+      "position": 338,
+      "text": "The older man seemed numbed and dazed with a heavy, sullen expression upon his strongly-marked face.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "reigate-squires-section_2",
+      "position": 339,
+      "text": "The son, on the other hand, had dropped all that jaunty, dashing style which had characterized him, and the ferocity of a dangerous wild beast gleamed in his dark eyes and distorted his handsome features.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "reigate-squires-section_2",
+      "position": 340,
+      "text": "The Inspector said nothing, but, stepping to the door, he blew his whistle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "reigate-squires-section_2",
+      "position": 341,
+      "text": "Two of his constables came at the call.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "reigate-squires-section_2",
+      "position": 342,
+      "text": "\"I have no alternative, Mr. Cunningham,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "reigate-squires-section_2",
+      "position": 343,
+      "text": "\"I trust that this may all prove to be an absurd mistake, but you can see that—Ah, would you?",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "reigate-squires-section_2",
+      "position": 344,
+      "text": "Drop it!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "reigate-squires-section_2",
+      "position": 345,
+      "text": "He struck out with his hand, and a revolver which the younger man was in the act of cocking clattered down upon the floor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "reigate-squires-section_2",
+      "position": 346,
+      "text": "\"Keep that,\" said Holmes, quietly putting his foot upon it; \"you will find it useful at the trial.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "reigate-squires-section_2",
+      "position": 347,
+      "text": "But this is what we really wanted.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "reigate-squires-section_2",
+      "position": 348,
+      "text": "He held up a little crumpled piece of paper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "reigate-squires-section_2",
+      "position": 349,
+      "text": "\"The remainder of the sheet!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "reigate-squires-section_2",
+      "position": 350,
+      "text": "cried the Inspector.",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "reigate-squires-section_2",
+      "position": 351,
+      "text": "\"Precisely.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "reigate-squires-section_2",
+      "position": 352,
+      "text": "\"And where was it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "reigate-squires-section_2",
+      "position": 353,
+      "text": "\"Where I was sure it must be.",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "reigate-squires-section_2",
+      "position": 354,
+      "text": "I'll make the whole matter clear to you presently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "reigate-squires-section_2",
+      "position": 355,
+      "text": "I think, Colonel, that you and Watson might return now, and I will be with you again in an hour at the furthest.",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "reigate-squires-section_2",
+      "position": 356,
+      "text": "The Inspector and I must have a word with the prisoners, but you will certainly see me back at luncheon time.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "reigate-squires-section_2",
+      "position": 357,
+      "text": "Sherlock Holmes was as good as his word, for about one o'clock he rejoined us in the Colonel's smoking-room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "reigate-squires-section_2",
+      "position": 358,
+      "text": "He was accompanied by a little elderly gentleman, who was introduced to me as the Mr. Acton whose house had been the scene of the original burglary.",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "reigate-squires-section_2",
+      "position": 359,
+      "text": "\"I wished Mr. Acton to be present while I demonstrated this small matter to you,\" said Holmes, \"for it is natural that he should take a keen interest in the details.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "reigate-squires-section_2",
+      "position": 360,
+      "text": "I am afraid, my dear Colonel, that you must regret the hour that you took in such a stormy petrel as I am.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "reigate-squires-section_2",
+      "position": 361,
+      "text": "\"On the contrary,\" answered the Colonel, warmly, \"I consider it the greatest privilege to have been permitted to study your methods of working.",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "reigate-squires-section_2",
+      "position": 362,
+      "text": "I confess that they quite surpass my expectations, and that I am utterly unable to account for your result.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "reigate-squires-section_2",
+      "position": 363,
+      "text": "I have not yet seen the vestige of a clue.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "reigate-squires-section_2",
+      "position": 364,
+      "text": "\"I am afraid that my explanation may disillusionize you but it has always been my habit to hide none of my methods, either from my friend Watson or from any one who might take an intelligent interest in them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "reigate-squires-section_2",
+      "position": 365,
+      "text": "But, first, as I am rather shaken by the knocking about which I had in the dressing-room, I think that I shall help myself to a dash of your brandy, Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "reigate-squires-section_2",
+      "position": 366,
+      "text": "My strength has been rather tried of late.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "reigate-squires-section_2",
+      "position": 367,
+      "text": "\"I trust that you had no more of those nervous attacks.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "reigate-squires-section_2",
+      "position": 368,
+      "text": "Sherlock Holmes laughed heartily.",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "reigate-squires-section_2",
+      "position": 369,
+      "text": "\"We will come to that in its turn,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "reigate-squires-section_2",
+      "position": 370,
+      "text": "\"I will lay an account of the case before you in its due order, showing you the various points which guided me in my decision.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "reigate-squires-section_2",
+      "position": 371,
+      "text": "Pray interrupt me if there is any inference which is not perfectly clear to you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "reigate-squires-section_2",
+      "position": 372,
+      "text": "\"It is of the highest importance in the art of detection to be able to recognise, out of a number of facts, which are incidental and which vital.",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "reigate-squires-section_2",
+      "position": 373,
+      "text": "Otherwise your energy and attention must be dissipated instead of being concentrated.",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "reigate-squires-section_2",
+      "position": 374,
+      "text": "Now, in this case there was not the slightest doubt in my mind from the first that the key of the whole matter must be looked for in the scrap of paper in the dead man's hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "reigate-squires-section_2",
+      "position": 375,
+      "text": "\"Before going into this, I would draw your attention to the fact that, if Alec Cunningham's narrative was correct, and if the assailant, after shooting William Kirwan, had _instantly_ fled, then it obviously could not be he who tore the paper from the dead man's hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "reigate-squires-section_2",
+      "position": 376,
+      "text": "But if it was not he, it must have been Alec Cunningham himself, for by the time that the old man had descended several servants were upon the scene.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "reigate-squires-section_2",
+      "position": 377,
+      "text": "The point is a simple one, but the Inspector had overlooked it because he had started with the supposition that these county magnates had had nothing to do with the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "reigate-squires-section_2",
+      "position": 378,
+      "text": "Now, I make a point of never having any prejudices, and of following docilely wherever fact may lead me, and so, in the very first stage of the investigation, I found myself looking a little askance at the part which had been played by Mr. Alec Cunningham.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "reigate-squires-section_2",
+      "position": 379,
+      "text": "\"And now I made a very careful examination of the corner of paper which the Inspector had submitted to us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "reigate-squires-section_2",
+      "position": 380,
+      "text": "It was at once clear to me that it formed part of a very remarkable document.",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "reigate-squires-section_2",
+      "position": 381,
+      "text": "Here it is.",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "reigate-squires-section_2",
+      "position": 382,
+      "text": "Do you not now observe something very suggestive about it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "reigate-squires-section_2",
+      "position": 383,
+      "text": "\"It has a very irregular look,\" said the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "reigate-squires-section_2",
+      "position": 384,
+      "text": "\"My dear sir,\" cried Holmes, \"there cannot be the least doubt in the world that it has been written by two persons doing alternate words.",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "reigate-squires-section_2",
+      "position": 385,
+      "text": "When I draw your attention to the strong t's of 'at' and 'to', and ask you to compare them with the weak ones of 'quarter' and 'twelve,' you will instantly recognise the fact.",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "reigate-squires-section_2",
+      "position": 386,
+      "text": "A very brief analysis of these four words would enable you to say with the utmost confidence that the 'learn' and the 'maybe' are written in the stronger hand, and the 'what' in the weaker.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "reigate-squires-section_2",
+      "position": 387,
+      "text": "\"By Jove, it's as clear as day!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "reigate-squires-section_2",
+      "position": 388,
+      "text": "cried the Colonel.",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "reigate-squires-section_2",
+      "position": 389,
+      "text": "\"Why on earth should two men write a letter in such a fashion?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "reigate-squires-section_2",
+      "position": 390,
+      "text": "\"Obviously the business was a bad one, and one of the men who distrusted the other was determined that, whatever was done, each should have an equal hand in it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "reigate-squires-section_2",
+      "position": 391,
+      "text": "Now, of the two men, it is clear that the one who wrote the 'at' and 'to' was the ringleader.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "reigate-squires-section_2",
+      "position": 392,
+      "text": "\"How do you get at that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "reigate-squires-section_2",
+      "position": 393,
+      "text": "\"We might deduce it from the mere character of the one hand as compared with the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "reigate-squires-section_2",
+      "position": 394,
+      "text": "But we have more assured reasons than that for supposing it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "reigate-squires-section_2",
+      "position": 395,
+      "text": "If you examine this scrap with attention you will come to the conclusion that the man with the stronger hand wrote all his words first, leaving blanks for the other to fill up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "reigate-squires-section_2",
+      "position": 396,
+      "text": "These blanks were not always sufficient, and you can see that the second man had a squeeze to fit his 'quarter' in between the 'at' and the 'to,' showing that the latter were already written.",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "reigate-squires-section_2",
+      "position": 397,
+      "text": "The man who wrote all his words first is undoubtedly the man who planned the affair.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "reigate-squires-section_2",
+      "position": 398,
+      "text": "\"Excellent!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "reigate-squires-section_2",
+      "position": 399,
+      "text": "cried Mr. Acton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "reigate-squires-section_2",
+      "position": 400,
+      "text": "\"But very superficial,\" said Holmes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "reigate-squires-section_2",
+      "position": 401,
+      "text": "\"We come now, however, to a point which is of importance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "reigate-squires-section_2",
+      "position": 402,
+      "text": "You may not be aware that the deduction of a man's age from his writing is one which has been brought to considerable accuracy by experts.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "reigate-squires-section_2",
+      "position": 403,
+      "text": "In normal cases one can place a man in his true decade with tolerable confidence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_405",
+      "section": "reigate-squires-section_2",
+      "position": 404,
+      "text": "I say normal cases, because ill-health and physical weakness reproduce the signs of old age, even when the invalid is a youth.",
+      "entities": []
+    },
+    {
+      "id": "sentence_406",
+      "section": "reigate-squires-section_2",
+      "position": 405,
+      "text": "In this case, looking at the bold, strong hand of the one, and the rather broken-backed appearance of the other, which still retains its legibility although the t's have begun to lose their crossing, we can say that the one was a young man and the other was advanced in years without being positively decrepit.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_407",
+      "section": "reigate-squires-section_2",
+      "position": 406,
+      "text": "\"Excellent!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_408",
+      "section": "reigate-squires-section_2",
+      "position": 407,
+      "text": "cried Mr. Acton again.",
+      "entities": []
+    },
+    {
+      "id": "sentence_409",
+      "section": "reigate-squires-section_2",
+      "position": 408,
+      "text": "\"There is a further point, however, which is subtler and of greater interest.",
+      "entities": []
+    },
+    {
+      "id": "sentence_410",
+      "section": "reigate-squires-section_2",
+      "position": 409,
+      "text": "There is something in common between these hands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_411",
+      "section": "reigate-squires-section_2",
+      "position": 410,
+      "text": "They belong to men who are blood-relatives.",
+      "entities": []
+    },
+    {
+      "id": "sentence_412",
+      "section": "reigate-squires-section_2",
+      "position": 411,
+      "text": "It may be most obvious to you in the Greek e's, but to me there are many small points which indicate the same thing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_413",
+      "section": "reigate-squires-section_2",
+      "position": 412,
+      "text": "I have no doubt at all that a family mannerism can be traced in these two specimens of writing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_414",
+      "section": "reigate-squires-section_2",
+      "position": 413,
+      "text": "I am only, of course, giving you the leading results now of my examination of the paper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_415",
+      "section": "reigate-squires-section_2",
+      "position": 414,
+      "text": "There were twenty-three other deductions which would be of more interest to experts than to you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_416",
+      "section": "reigate-squires-section_2",
+      "position": 415,
+      "text": "They all tend to deepen the impression upon my mind that the Cunninghams, father and son, had written this letter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_417",
+      "section": "reigate-squires-section_3",
+      "position": 416,
+      "text": "\"Having got so far, my next step was, of course, to examine into the details of the crime, and to see how far they would help us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_418",
+      "section": "reigate-squires-section_3",
+      "position": 417,
+      "text": "I went up to the house with the Inspector, and saw all that was to be seen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_419",
+      "section": "reigate-squires-section_3",
+      "position": 418,
+      "text": "The wound upon the dead man was, as I was able to determine with absolute confidence, fired from a revolver at the distance of something over four yards.",
+      "entities": []
+    },
+    {
+      "id": "sentence_420",
+      "section": "reigate-squires-section_3",
+      "position": 419,
+      "text": "There was no powder-blackening on the clothes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_421",
+      "section": "reigate-squires-section_3",
+      "position": 420,
+      "text": "Evidently, therefore, Alec Cunningham had lied when he said that the two men were struggling when the shot was fired.",
+      "entities": []
+    },
+    {
+      "id": "sentence_422",
+      "section": "reigate-squires-section_3",
+      "position": 421,
+      "text": "Again, both father and son agreed as to the place where the man escaped into the road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_423",
+      "section": "reigate-squires-section_3",
+      "position": 422,
+      "text": "At that point, however, as it happens, there is a broadish ditch, moist at the bottom.",
+      "entities": []
+    },
+    {
+      "id": "sentence_424",
+      "section": "reigate-squires-section_3",
+      "position": 423,
+      "text": "As there were no indications of bootmarks about this ditch, I was absolutely sure not only that the Cunninghams had again lied, but that there had never been any unknown man upon the scene at all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_425",
+      "section": "reigate-squires-section_3",
+      "position": 424,
+      "text": "\"And now I have to consider the motive of this singular crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_426",
+      "section": "reigate-squires-section_3",
+      "position": 425,
+      "text": "To get at this, I endeavoured first of all to solve the reason of the original burglary at Mr. Acton's.",
+      "entities": []
+    },
+    {
+      "id": "sentence_427",
+      "section": "reigate-squires-section_3",
+      "position": 426,
+      "text": "I understood, from something which the Colonel told us, that a lawsuit had been going on between you, Mr. Acton, and the Cunninghams.",
+      "entities": []
+    },
+    {
+      "id": "sentence_428",
+      "section": "reigate-squires-section_3",
+      "position": 427,
+      "text": "Of course, it instantly occurred to me that they had broken into your library with the intention of getting at some document which might be of importance in the case.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_429",
+      "section": "reigate-squires-section_3",
+      "position": 428,
+      "text": "\"Precisely so,\" said Mr. Acton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_430",
+      "section": "reigate-squires-section_3",
+      "position": 429,
+      "text": "\"There can be no possible doubt as to their intentions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_431",
+      "section": "reigate-squires-section_3",
+      "position": 430,
+      "text": "I have the clearest claim upon half of their present estate, and if they could have found a single paper—which, fortunately, was in the strong-box of my solicitors—they would undoubtedly have crippled our case.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_432",
+      "section": "reigate-squires-section_3",
+      "position": 431,
+      "text": "\"There you are,\" said Holmes, smiling.",
+      "entities": []
+    },
+    {
+      "id": "sentence_433",
+      "section": "reigate-squires-section_3",
+      "position": 432,
+      "text": "\"It was a dangerous, reckless attempt, in which I seem to trace the influence of young Alec.",
+      "entities": []
+    },
+    {
+      "id": "sentence_434",
+      "section": "reigate-squires-section_3",
+      "position": 433,
+      "text": "Having found nothing they tried to divert suspicion by making it appear to be an ordinary burglary, to which end they carried off whatever they could lay their hands upon.",
+      "entities": []
+    },
+    {
+      "id": "sentence_435",
+      "section": "reigate-squires-section_3",
+      "position": 434,
+      "text": "That is all clear enough, but there was much that was still obscure.",
+      "entities": []
+    },
+    {
+      "id": "sentence_436",
+      "section": "reigate-squires-section_3",
+      "position": 435,
+      "text": "What I wanted above all was to get the missing part of that note.",
+      "entities": []
+    },
+    {
+      "id": "sentence_437",
+      "section": "reigate-squires-section_3",
+      "position": 436,
+      "text": "I was certain that Alec had torn it out of the dead man's hand, and almost certain that he must have thrust it into the pocket of his dressing-gown.",
+      "entities": []
+    },
+    {
+      "id": "sentence_438",
+      "section": "reigate-squires-section_3",
+      "position": 437,
+      "text": "Where else could he have put it?",
+      "entities": []
+    },
+    {
+      "id": "sentence_439",
+      "section": "reigate-squires-section_3",
+      "position": 438,
+      "text": "The only question was whether it was still there.",
+      "entities": []
+    },
+    {
+      "id": "sentence_440",
+      "section": "reigate-squires-section_3",
+      "position": 439,
+      "text": "It was worth an effort to find out, and for that object we all went up to the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_441",
+      "section": "reigate-squires-section_3",
+      "position": 440,
+      "text": "\"The Cunninghams joined us, as you doubtless remember, outside the kitchen door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_442",
+      "section": "reigate-squires-section_3",
+      "position": 441,
+      "text": "It was, of course, of the very first importance that they should not be reminded of the existence of this paper, otherwise they would naturally destroy it without delay.",
+      "entities": []
+    },
+    {
+      "id": "sentence_443",
+      "section": "reigate-squires-section_3",
+      "position": 442,
+      "text": "The Inspector was about to tell them the importance which we attached to it when, by the luckiest chance in the world, I tumbled down in a sort of fit and so changed the conversation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_444",
+      "section": "reigate-squires-section_3",
+      "position": 443,
+      "text": "\"Good heavens!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_445",
+      "section": "reigate-squires-section_3",
+      "position": 444,
+      "text": "cried the Colonel, laughing, \"do you mean to say all our sympathy was wasted and your fit an imposture?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_446",
+      "section": "reigate-squires-section_3",
+      "position": 445,
+      "text": "\"Speaking professionally, it was admirably done,\" cried I, looking in amazement at this man who was forever confounding me with some new phase of his astuteness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_447",
+      "section": "reigate-squires-section_3",
+      "position": 446,
+      "text": "\"It is an art which is often useful,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_448",
+      "section": "reigate-squires-section_3",
+      "position": 447,
+      "text": "\"When I recovered I managed, by a device which had perhaps some little merit of ingenuity, to get old Cunningham to write the word 'twelve,' so that I might compare it with the 'twelve' upon the paper.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_449",
+      "section": "reigate-squires-section_3",
+      "position": 448,
+      "text": "\"Oh, what an ass I have been!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_450",
+      "section": "reigate-squires-section_3",
+      "position": 449,
+      "text": "I exclaimed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_451",
+      "section": "reigate-squires-section_3",
+      "position": 450,
+      "text": "\"I could see that you were commiserating me over my weakness,\" said Holmes, laughing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_452",
+      "section": "reigate-squires-section_3",
+      "position": 451,
+      "text": "\"I was sorry to cause you the sympathetic pain which I know that you felt.",
+      "entities": []
+    },
+    {
+      "id": "sentence_453",
+      "section": "reigate-squires-section_3",
+      "position": 452,
+      "text": "We then went upstairs together, and having entered the room and seen the dressing-gown hanging up behind the door, I contrived, by upsetting a table, to engage their attention for the moment, and slipped back to examine the pockets.",
+      "entities": []
+    },
+    {
+      "id": "sentence_454",
+      "section": "reigate-squires-section_3",
+      "position": 453,
+      "text": "I had hardly got the paper, however—which was, as I had expected, in one of them—when the two Cunninghams were on me, and would, I verily believe, have murdered me then and there but for your prompt and friendly aid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_455",
+      "section": "reigate-squires-section_3",
+      "position": 454,
+      "text": "As it is, I feel that young man's grip on my throat now, and the father has twisted my wrist round in the effort to get the paper out of my hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_456",
+      "section": "reigate-squires-section_3",
+      "position": 455,
+      "text": "They saw that I must know all about it, you see, and the sudden change from absolute security to complete despair made them perfectly desperate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_457",
+      "section": "reigate-squires-section_3",
+      "position": 456,
+      "text": "\"I had a little talk with old Cunningham afterwards as to the motive of the crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_458",
+      "section": "reigate-squires-section_3",
+      "position": 457,
+      "text": "He was tractable enough, though his son was a perfect demon, ready to blow out his own or anybody else's brains if he could have got to his revolver.",
+      "entities": []
+    },
+    {
+      "id": "sentence_459",
+      "section": "reigate-squires-section_3",
+      "position": 458,
+      "text": "When Cunningham saw that the case against him was so strong he lost all heart and made a clean breast of everything.",
+      "entities": []
+    },
+    {
+      "id": "sentence_460",
+      "section": "reigate-squires-section_3",
+      "position": 459,
+      "text": "It seems that William had secretly followed his two masters on the night when they made their raid upon Mr. Acton's, and having thus got them into his power, proceeded, under threats of exposure, to levy blackmail upon them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_461",
+      "section": "reigate-squires-section_3",
+      "position": 460,
+      "text": "Mr. Alec, however, was a dangerous man to play games of that sort with.",
+      "entities": []
+    },
+    {
+      "id": "sentence_462",
+      "section": "reigate-squires-section_3",
+      "position": 461,
+      "text": "It was a stroke of positive genius on his part to see in the burglary scare which was convulsing the country side an opportunity of plausibly getting rid of the man whom he feared.",
+      "entities": []
+    },
+    {
+      "id": "sentence_463",
+      "section": "reigate-squires-section_3",
+      "position": 462,
+      "text": "William was decoyed up and shot, and had they only got the whole of the note and paid a little more attention to detail in the accessories, it is very possible that suspicion might never have been aroused.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_464",
+      "section": "reigate-squires-section_3",
+      "position": 463,
+      "text": "\"And the note?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_465",
+      "section": "reigate-squires-section_3",
+      "position": 464,
+      "text": "I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_466",
+      "section": "reigate-squires-section_3",
+      "position": 465,
+      "text": "Sherlock Holmes placed the subjoined paper before us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_467",
+      "section": "reigate-squires-section_3",
+      "position": 466,
+      "text": "piece of paper",
+      "entities": []
+    },
+    {
+      "id": "sentence_468",
+      "section": "reigate-squires-section_3",
+      "position": 467,
+      "text": "If you will only come round at quarter to twelve to the east gate you will learn what will very much surprise you and maybe be of the greatest service to you and also to Annie Morrison.",
+      "entities": []
+    },
+    {
+      "id": "sentence_469",
+      "section": "reigate-squires-section_3",
+      "position": 468,
+      "text": "But say nothing to anyone upon the matter",
+      "entities": []
+    },
+    {
+      "id": "sentence_470",
+      "section": "reigate-squires-section_3",
+      "position": 469,
+      "text": "\"It is very much the sort of thing that I expected,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_471",
+      "section": "reigate-squires-section_3",
+      "position": 470,
+      "text": "\"Of course, we do not yet know what the relations may have been between Alec Cunningham, William Kirwan, and Annie Morrison.",
+      "entities": []
+    },
+    {
+      "id": "sentence_472",
+      "section": "reigate-squires-section_3",
+      "position": 471,
+      "text": "The results shows that the trap was skillfully baited.",
+      "entities": []
+    },
+    {
+      "id": "sentence_473",
+      "section": "reigate-squires-section_3",
+      "position": 472,
+      "text": "I am sure that you cannot fail to be delighted with the traces of heredity shown in the p's and in the tails of the g's.",
+      "entities": []
+    },
+    {
+      "id": "sentence_474",
+      "section": "reigate-squires-section_3",
+      "position": 473,
+      "text": "The absence of the i-dots in the old man's writing is also most characteristic.",
+      "entities": []
+    },
+    {
+      "id": "sentence_475",
+      "section": "reigate-squires-section_3",
+      "position": 474,
+      "text": "Watson, I think our quiet rest in the country has been a distinct success, and I shall certainly return much invigorated to Baker Street to-morrow.\"",
+      "entities": []
+    }
+  ]
+}

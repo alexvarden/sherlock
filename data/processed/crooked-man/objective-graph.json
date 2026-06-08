@@ -1,0 +1,6068 @@
+{
+  "entities": [
+    {
+      "id": "watson",
+      "type": "character",
+      "label": "Watson",
+      "description": "Narrator and physician who is visited at home by Holmes.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "sherlock_holmes",
+      "type": "character",
+      "label": "Sherlock Holmes",
+      "description": "Detective who arrives late and discusses a case with Watson.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "the_crooked_man_case",
+      "type": "case",
+      "label": "The Crooked Man",
+      "description": "Investigation introduced in this section.",
+      "firstSection": "crooked-man-section_1",
+      "source": "crooked-man-section_1",
+      "client": "watson",
+      "crime_type": "other",
+      "outcome": "unresolved",
+      "primary_location": "watson_home"
+    },
+    {
+      "id": "watson_home",
+      "type": "location",
+      "label": "Watson's home",
+      "description": "Watson's residence where Holmes arrives.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "hall",
+      "type": "location",
+      "label": "Hall",
+      "description": "Hallway area inside Watson's home.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "hearth",
+      "type": "object",
+      "label": "Hearth",
+      "description": "Fireplace hearth where Watson is seated.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "pipe",
+      "type": "object",
+      "label": "Pipe",
+      "description": "Pipe smoked by Watson and later Holmes.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "novel",
+      "type": "object",
+      "label": "Novel",
+      "description": "Novel Watson is reading.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "hall_door",
+      "type": "object",
+      "label": "Hall door",
+      "description": "The door of the hall that is locked by the servants.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "servants",
+      "type": "organisation",
+      "label": "Servants",
+      "description": "Household servants present in Watson's home.",
+      "firstSection": "crooked-man-section_1",
+      "org_type": "other"
+    },
+    {
+      "id": "clock",
+      "type": "object",
+      "label": "Clock",
+      "description": "Clock that Watson looks at to determine the time.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "bell",
+      "type": "object",
+      "label": "Bell",
+      "description": "Bell that rings at the house door.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "waterloo",
+      "type": "location",
+      "label": "Waterloo",
+      "description": "Place where Holmes says he had supper.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "arcadia_mixture",
+      "type": "object",
+      "label": "Arcadia mixture",
+      "description": "Tobacco mixture Holmes identifies as Watson's pipe tobacco.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "coat",
+      "type": "object",
+      "label": "Coat",
+      "description": "Watson's coat with fluffy ash on it.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "uniform",
+      "type": "object",
+      "label": "Uniform",
+      "description": "A uniform Watson had been accustomed to wear.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "handkerchief",
+      "type": "object",
+      "label": "Handkerchief",
+      "description": "Handkerchief Watson carries in his sleeve.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "sleeve",
+      "type": "object",
+      "label": "Sleeve",
+      "description": "Watson's sleeve where he carries his handkerchief.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "hat_stand",
+      "type": "object",
+      "label": "Hat-stand",
+      "description": "Hat-stand in Watson's home.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "peg",
+      "type": "object",
+      "label": "Peg",
+      "description": "Vacant peg on the hat-stand.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "british_workman",
+      "type": "object",
+      "label": "British workman",
+      "description": "Reference to a workman whose presence is inferred from signs in the house.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "drains",
+      "type": "object",
+      "label": "Drains",
+      "description": "House drains mentioned as a possible issue.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "gas",
+      "type": "object",
+      "label": "Gas",
+      "description": "Gas problem identified as the issue in the house.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "linoleum",
+      "type": "object",
+      "label": "Linoleum",
+      "description": "Floor covering with boot marks.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "boot_marks",
+      "type": "object",
+      "label": "Boot marks",
+      "description": "Two nail-marks from a boot on the linoleum.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "hansom",
+      "type": "object",
+      "label": "Hansom",
+      "description": "Hansom used for longer rounds.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "bachelor_days",
+      "type": "object",
+      "label": "Bachelor days",
+      "description": "Watson's earlier bachelor period.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "bachelor_quarters",
+      "type": "location",
+      "label": "Bachelor quarters",
+      "description": "Watson's quarters for one person.",
+      "firstSection": "crooked-man-section_1"
+    },
+    {
+      "id": "colonel_barclay",
+      "type": "character",
+      "label": "Colonel James Barclay",
+      "description": "Colonel of the Royal Mallows, described as a veteran soldier and the apparent murder victim in the case.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "royal_mallows",
+      "type": "organisation",
+      "label": "Royal Mallows",
+      "description": "An Irish regiment in the British army.",
+      "firstSection": "crooked-man-section_2",
+      "org_type": "other"
+    },
+    {
+      "id": "mrs_barclay",
+      "type": "character",
+      "label": "Mrs. Barclay",
+      "description": "Wife of Colonel Barclay, formerly Miss Nancy Devoy.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "major_murphy",
+      "type": "character",
+      "label": "Major Murphy",
+      "description": "An officer who supplied facts about Colonel Barclay.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "jackson",
+      "type": "character",
+      "label": "Jackson",
+      "description": "A person who was expected to take over Watson's practice.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "aldershot",
+      "type": "location",
+      "label": "Aldershot",
+      "description": "Military town where the alleged murder occurred and where Holmes asked Watson to travel.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "crimea",
+      "type": "location",
+      "label": "Crimea",
+      "description": "War theatre mentioned as a place where the Royal Mallows distinguished itself.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "mutiny",
+      "type": "location",
+      "label": "the Mutiny",
+      "description": "Conflict mentioned as a place/time where the Royal Mallows distinguished itself.",
+      "firstSection": "crooked-man-section_2"
+    },
+    {
+      "id": "story_of_colonel_barclay",
+      "type": "case",
+      "label": "Supposed murder of Colonel Barclay",
+      "description": "An investigation into the supposed murder of Colonel Barclay at Aldershot.",
+      "firstSection": "crooked-man-section_2",
+      "source": "crooked-man-section_2",
+      "client": "sherlock_holmes",
+      "crime_type": "murder",
+      "outcome": "unsolved",
+      "primary_location": "aldershot"
+    },
+    {
+      "id": "lachine",
+      "type": "location",
+      "label": "Lachine",
+      "description": "The villa occupied by Colonel Barclay and Mrs. Barclay near Aldershot.",
+      "firstSection": "crooked-man-section_3"
+    },
+    {
+      "id": "church_of_rome",
+      "type": "organisation",
+      "label": "church of rome",
+      "firstSection": "crooked-man-section_3"
+    },
+    {
+      "id": "guild_of_st_george",
+      "type": "organisation",
+      "label": "guild of st george",
+      "firstSection": "crooked-man-section_3"
+    },
+    {
+      "id": "miss_morrison",
+      "type": "character",
+      "label": "miss morrison",
+      "firstSection": "crooked-man-section_3"
+    },
+    {
+      "id": "jane_stewart",
+      "type": "character",
+      "label": "jane stewart",
+      "firstSection": "crooked-man-section_3"
+    },
+    {
+      "id": "policeman",
+      "type": "character",
+      "label": "policeman",
+      "description": "A police officer who assists at the scene.",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "medical_man",
+      "type": "character",
+      "label": "medical man",
+      "description": "A doctor or medical practitioner who assists at the scene.",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "locksmith_from_aldershot",
+      "type": "character",
+      "label": "locksmith from Aldershot",
+      "description": "A locksmith summoned to open the locked door.",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "the_lady",
+      "type": "character",
+      "label": "the lady",
+      "description": "An unnamed woman removed from the room and later described as temporarily insane from brain-fever.",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "club_with_bone_handle",
+      "type": "object",
+      "label": "club of hard carved wood with a bone handle",
+      "description": "A singular club found on the floor near the body.",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "coachman",
+      "type": "character",
+      "label": "coachman",
+      "firstSection": "crooked-man-section_4"
+    },
+    {
+      "id": "small_animal_print",
+      "type": "object",
+      "label": "Small animal footprints",
+      "description": "Tracings of the footprints of a small animal on tissue-paper",
+      "firstSection": "crooked-man-section_5"
+    },
+    {
+      "id": "curtain",
+      "type": "object",
+      "label": "Curtain",
+      "description": "A curtain in the room window",
+      "firstSection": "crooked-man-section_5"
+    },
+    {
+      "id": "canary_cage",
+      "type": "object",
+      "label": "Canary's cage",
+      "description": "A cage hanging in the window containing a canary",
+      "firstSection": "crooked-man-section_5"
+    },
+    {
+      "id": "weasel_stoat_tribe_creature",
+      "type": "object",
+      "label": "Unknown carnivorous creature",
+      "description": "An unidentified small carnivorous animal, larger than a dog and able to run up a curtain",
+      "firstSection": "crooked-man-section_5"
+    },
+    {
+      "id": "mrs_barclay_left_house_event",
+      "type": "case",
+      "label": "Mrs. Barclay left the house event sequence",
+      "description": "The sequence of events surrounding Mrs. Barclay leaving and returning to the house before the confrontation.",
+      "firstSection": "crooked-man-section_6",
+      "source": "crooked-man-section_6",
+      "client": "watson",
+      "crime_type": "murder",
+      "outcome": "unsolved",
+      "primary_location": "hall"
+    },
+    {
+      "id": "henry_wood",
+      "type": "character",
+      "label": "Henry Wood",
+      "description": "A deformed man who appears in Hudson Street and is later identified as living in lodgings there.",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "bad_florin",
+      "type": "object",
+      "label": "bad florin",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "watt_street_mission",
+      "type": "character",
+      "label": "watt street mission",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "hudson_street",
+      "type": "character",
+      "label": "hudson street",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "nancy",
+      "type": "character",
+      "label": "nancy",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "indian_rupee",
+      "type": "character",
+      "label": "indian rupee",
+      "firstSection": "crooked-man-section_7"
+    },
+    {
+      "id": "barclays_conscience",
+      "type": "object",
+      "label": "Barclay's guilty conscience",
+      "description": "The guilty conscience said to have struck Colonel Barclay down.",
+      "firstSection": "crooked-man-section_9"
+    },
+    {
+      "id": "general_neills_column",
+      "type": "organisation",
+      "label": "General Neill's column",
+      "description": "A military column moving up country during the Mutiny.",
+      "firstSection": "crooked-man-section_9",
+      "org_type": "other"
+    },
+    {
+      "id": "native_servant",
+      "type": "character",
+      "label": "native servant",
+      "description": "An unnamed native servant used in the betrayal of Henry Wood.",
+      "firstSection": "crooked-man-section_9"
+    },
+    {
+      "id": "teddy",
+      "type": "object",
+      "label": "Teddy",
+      "description": "A reddish-brown animal kept in a hutch; likely a weasel-like creature.",
+      "firstSection": "crooked-man-section_10"
+    },
+    {
+      "id": "james_barclay",
+      "type": "character",
+      "label": "james barclay",
+      "firstSection": "crooked-man-section_10"
+    },
+    {
+      "id": "nepaul",
+      "type": "character",
+      "label": "nepaul",
+      "firstSection": "crooked-man-section_10"
+    },
+    {
+      "id": "darjeeling",
+      "type": "character",
+      "label": "darjeeling",
+      "firstSection": "crooked-man-section_10"
+    },
+    {
+      "id": "afghans",
+      "type": "character",
+      "label": "afghans",
+      "firstSection": "crooked-man-section_10"
+    },
+    {
+      "id": "punjab",
+      "type": "character",
+      "label": "punjab",
+      "firstSection": "crooked-man-section_10"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Watson sits by the hearth smoking and reading a novel",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_3"
+      ],
+      "participants": [
+        "watson",
+        "hearth",
+        "pipe",
+        "novel"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Watson's wife goes upstairs",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "The servants retire and lock the hall door",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_4"
+      ],
+      "participants": [
+        "servants",
+        "hall_door"
+      ],
+      "performs": [
+        "servants"
+      ]
+    },
+    {
+      "id": "event_1_4",
+      "type": "event",
+      "label": "Watson hears the bell ring",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_5"
+      ],
+      "participants": [
+        "watson",
+        "bell"
+      ],
+      "performs": [
+        "bell"
+      ]
+    },
+    {
+      "id": "event_1_5",
+      "type": "event",
+      "label": "Watson looks at the clock",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_6",
+        "sentence_7"
+      ],
+      "participants": [
+        "watson",
+        "clock"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_6",
+      "type": "event",
+      "label": "Watson opens the door and finds Holmes on the step",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_10",
+        "sentence_11"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "hall",
+        "watson_home"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_7",
+      "type": "event",
+      "label": "Holmes greets Watson and says he hoped not to be too late",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_12"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Ah, Watson, I hoped that I might not be too late to catch you."
+      }
+    },
+    {
+      "id": "event_1_8",
+      "type": "event",
+      "label": "Watson invites Holmes to come in",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_13"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "My dear fellow, pray come in."
+      }
+    },
+    {
+      "id": "event_1_9",
+      "type": "event",
+      "label": "Holmes comments on Watson's appearance and habits",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_14",
+        "sentence_20"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "arcadia_mixture",
+        "coat",
+        "uniform",
+        "handkerchief",
+        "sleeve"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You look surprised, and no wonder! Relieved, too, I fancy! Hum! You still smoke the Arcadia mixture of your bachelor days then! There's no mistaking that fluffy ash upon your coat. It's easy to tell that you have been accustomed to wear a uniform, Watson. You'll never pass as a pure-bred civilian as long as you keep that habit of carrying your handkerchief in your sleeve."
+      }
+    },
+    {
+      "id": "event_1_10",
+      "type": "event",
+      "label": "Holmes asks whether he may stay for the night",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_21"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Could you put me up to-night?"
+      }
+    },
+    {
+      "id": "event_1_11",
+      "type": "event",
+      "label": "Watson agrees to host Holmes",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_22",
+        "sentence_25"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "With pleasure. I shall be delighted if you will stay."
+      }
+    },
+    {
+      "id": "event_1_12",
+      "type": "event",
+      "label": "Holmes remarks that Watson has no current visitor and mentions the hat-stand",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_23",
+        "sentence_24"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "hat_stand"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You told me that you had bachelor quarters for one, and I see that you have no gentleman visitor at present. Your hat-stand proclaims as much."
+      }
+    },
+    {
+      "id": "event_1_13",
+      "type": "event",
+      "label": "Holmes comments on the presence of a British workman and asks about the drains",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_28",
+        "sentence_29",
+        "sentence_30"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "british_workman",
+        "drains"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Sorry to see that you've had the British workman in the house. He's a token of evil. Not the drains, I hope?"
+      }
+    },
+    {
+      "id": "event_1_14",
+      "type": "event",
+      "label": "Watson answers that the problem is the gas",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_31"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "gas"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "No, the gas."
+      }
+    },
+    {
+      "id": "event_1_15",
+      "type": "event",
+      "label": "Holmes notes the boot marks on the linoleum",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_33"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "boot_marks",
+        "linoleum"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_16",
+      "type": "event",
+      "label": "Watson hands Holmes his pouch and Holmes smokes in silence",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_35"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "pipe"
+      ],
+      "performs": [
+        "watson",
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_1_17",
+      "type": "event",
+      "label": "Watson waits for Holmes to begin his business",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_36"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_1_18",
+      "type": "event",
+      "label": "Holmes observes that Watson is professionally busy and explains his deduction",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "hansom"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I see that you are professionally rather busy just now. I have the advantage of knowing your habits, my dear Watson. When your round is a short one you walk, and when it is a long one you use a hansom. As I perceive that your boots, although used, are by no means dirty, I cannot doubt that you are at present busy enough to justify the hansom. Elementary."
+      }
+    },
+    {
+      "id": "event_1_19",
+      "type": "event",
+      "label": "Holmes says he has several threads of a strange case and will obtain the missing ones",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_49",
+        "sentence_50"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "the_crooked_man_case"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Now, at present I am in the position of these same readers, for I hold in this hand several threads of one of the strangest cases which ever perplexed a man's brain, and yet I lack the one or two which are needful to complete my theory. But I'll have them, Watson, I'll have them!"
+      }
+    },
+    {
+      "id": "event_1_20",
+      "type": "event",
+      "label": "Holmes's eyes kindle and his face briefly flushes before resuming composure",
+      "section": "crooked-man-section_1",
+      "source_nodes": [
+        "sentence_51",
+        "sentence_52",
+        "sentence_53"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Holmes states that the problem has exceptional features of interest",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_54",
+        "sentence_55"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The problem presents features of interest, I may even say exceptional features of interest."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Holmes says he has investigated the matter and nearly reached a solution",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_56"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I have already looked into the matter, and have come, as I think, within sight of my solution."
+      }
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Holmes asks Watson to accompany him in the last step",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_57"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "If you could accompany me in that last step you might be of considerable service to me."
+      }
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Watson agrees to accompany Holmes",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_58"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I should be delighted."
+      }
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Holmes asks whether Watson can go to Aldershot tomorrow",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_59"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "aldershot"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Could you go as far as Aldershot to-morrow?"
+      }
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Watson says Jackson would take his practice",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_60"
+      ],
+      "participants": [
+        "watson",
+        "jackson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I have no doubt Jackson would take my practice."
+      }
+    },
+    {
+      "id": "event_2_7",
+      "type": "event",
+      "label": "Holmes gives Watson the departure time from Waterloo",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_61",
+        "sentence_62",
+        "sentence_63"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "waterloo"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Very good. 10 from Waterloo. the 11.10 from Waterloo."
+      }
+    },
+    {
+      "id": "event_2_8",
+      "type": "event",
+      "label": "Watson says the plan would give him time",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_64"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "That would give me time."
+      }
+    },
+    {
+      "id": "event_2_9",
+      "type": "event",
+      "label": "Holmes says he will sketch what has happened and what remains to be done",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_65"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Then, if you are not too sleepy, I will give you a sketch of what has happened, and of what remains to be done."
+      }
+    },
+    {
+      "id": "event_2_10",
+      "type": "event",
+      "label": "Watson says he is now wakeful",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_66",
+        "sentence_67"
+      ],
+      "participants": [
+        "watson"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I was sleepy before you came. I am quite wakeful now."
+      }
+    },
+    {
+      "id": "event_2_11",
+      "type": "event",
+      "label": "Holmes says he will compress the story and that Watson may have read about the matter",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_68",
+        "sentence_69"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "I will compress the story as far as may be done without omitting anything vital to the case. It is conceivable that you may even have read some account of the matter."
+      }
+    },
+    {
+      "id": "event_2_12",
+      "type": "event",
+      "label": "Holmes identifies the case as the supposed murder of Colonel Barclay at Aldershot",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_70"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "colonel_barclay",
+        "aldershot",
+        "story_of_colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It is the supposed murder of Colonel Barclay, of the Royal Mallows, at Aldershot, which I am investigating."
+      }
+    },
+    {
+      "id": "event_2_13",
+      "type": "event",
+      "label": "Holmes says the matter has attracted little attention except locally",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_72"
+      ],
+      "participants": [
+        "story_of_colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It has not excited much attention yet, except locally."
+      }
+    },
+    {
+      "id": "event_2_14",
+      "type": "event",
+      "label": "Holmes states that the facts are two days old",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_73"
+      ],
+      "participants": [
+        "story_of_colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The facts are only two days old."
+      }
+    },
+    {
+      "id": "event_2_15",
+      "type": "event",
+      "label": "Holmes says the Royal Mallows is a famous Irish regiment",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_75"
+      ],
+      "participants": [
+        "royal_mallows"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "The Royal Mallows is, as you know, one of the most famous Irish regiments in the British army."
+      }
+    },
+    {
+      "id": "event_2_16",
+      "type": "event",
+      "label": "Holmes says the Royal Mallows distinguished itself in the Crimea and the Mutiny",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_76"
+      ],
+      "participants": [
+        "royal_mallows",
+        "crimea",
+        "mutiny"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It did wonders both in the Crimea and the Mutiny, and has since that time distinguished itself upon every possible occasion."
+      }
+    },
+    {
+      "id": "event_2_17",
+      "type": "event",
+      "label": "Holmes says James Barclay commanded the regiment up to Monday night",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_77"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "royal_mallows"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It was commanded up to Monday night by James Barclay, a gallant veteran."
+      }
+    },
+    {
+      "id": "event_2_18",
+      "type": "event",
+      "label": "Holmes says Colonel Barclay married Nancy Devoy when he was a sergeant",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_78"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Colonel Barclay had married at the time when he was a sergeant, and his wife, whose maiden name was Miss Nancy Devoy, was the daughter of a former colour-sergeant in the same corps."
+      }
+    },
+    {
+      "id": "event_2_19",
+      "type": "event",
+      "label": "Holmes says the young couple experienced social friction in their new surroundings",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_79"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "There was, therefore, some little social friction when the young couple found themselves in their new surroundings."
+      }
+    },
+    {
+      "id": "event_2_20",
+      "type": "event",
+      "label": "Holmes says the Barclays adapted themselves quickly",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_80"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "They appear, however, to have quickly adapted themselves."
+      }
+    },
+    {
+      "id": "event_2_21",
+      "type": "event",
+      "label": "Holmes says Mrs. Barclay was popular and strikingly beautiful",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_80",
+        "sentence_81"
+      ],
+      "participants": [
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Mrs. Barclay has always, I understand, been as popular with the ladies of the regiment as her husband was with his brother officers. She was a woman of great beauty, and even now she is still of a striking and queenly appearance."
+      }
+    },
+    {
+      "id": "event_2_22",
+      "type": "event",
+      "label": "Holmes says Colonel Barclay's family life was uniformly happy",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_82"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Colonel Barclay's family life appears to have been a uniformly happy one."
+      }
+    },
+    {
+      "id": "event_2_23",
+      "type": "event",
+      "label": "Holmes says Major Murphy supplied most of the facts and reported no misunderstanding between the pair",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87"
+      ],
+      "participants": [
+        "major_murphy",
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Major Murphy, to whom I owe most of my facts, assures me that he has never heard of any misunderstanding between the pair. On the whole, he thinks that Barclay's devotion to his wife was greater than his wife's to Barclay. He was acutely uneasy if he were absent from her for a day. She, on the other hand, though devoted and faithful, was less obtrusively affectionate. But they were regarded in the regiment as the very model of a middle-aged couple."
+      }
+    },
+    {
+      "id": "event_2_24",
+      "type": "event",
+      "label": "Holmes says nothing in the Barclays' relations prepared people for the tragedy",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_88"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay",
+        "story_of_colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "There was absolutely nothing in their mutual relations to prepare people for the tragedy which was to follow."
+      }
+    },
+    {
+      "id": "event_2_25",
+      "type": "event",
+      "label": "Holmes says Colonel Barclay had violent and vindictive traits and periodic depression",
+      "section": "crooked-man-section_2",
+      "source_nodes": [
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97"
+      ],
+      "participants": [
+        "colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Colonel Barclay himself seems to have had some singular traits in his character. He was a dashing, jovial old soldier in his usual mood, but there were occasions on which he seemed to show himself capable of considerable violence and vindictiveness. Another fact was the singular sort of depression which came upon him at times. The smile had often been struck from his mouth, as if by some invisible hand, when he had been joining the gayeties and chaff of the mess-table. For days on end, when the mood was on him, he had been sunk in the deepest gloom. This and a certain tinge of superstition were the only unusual traits in his character which his brother officers had observed. The latter peculiarity took the form of a dislike to being left alone, especially after dark. This feature had often given rise to comment and conjecture."
+      }
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "The Royal Mallows' first battalion is stationed at Aldershot",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_98"
+      ],
+      "participants": [
+        "royal_mallows",
+        "aldershot"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_2",
+      "type": "event",
+      "label": "Colonel Barclay occupies Lachine",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_99"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "lachine"
+      ],
+      "performs": [
+        "colonel_barclay"
+      ]
+    },
+    {
+      "id": "event_3_3",
+      "type": "event",
+      "label": "Lachine stands in its own grounds",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_100"
+      ],
+      "participants": [
+        "lachine"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_4",
+      "type": "event",
+      "label": "The staff of servants consists of a coachman and two maids",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_101"
+      ],
+      "participants": [
+        "servants"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_5",
+      "type": "event",
+      "label": "Mrs. Barclay hurries through dinner to attend a Guild meeting",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_105"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "the_crooked_man_case"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_3_6",
+      "type": "event",
+      "label": "Mrs. Barclay leaves the house with Miss Morrison for the meeting",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_106",
+        "sentence_107"
+      ],
+      "participants": [
+        "mrs_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "colonel_barclay"
+        ],
+        "content": "I will be back before very long."
+      }
+    },
+    {
+      "id": "event_3_7",
+      "type": "event",
+      "label": "Mrs. Barclay returns home and goes into the morning-room",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_108",
+        "sentence_112"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "lachine"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_3_8",
+      "type": "event",
+      "label": "Mrs. Barclay lights the lamp and rings the bell for tea",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_113"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "bell"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_3_9",
+      "type": "event",
+      "label": "Colonel Barclay joins Mrs. Barclay in the morning-room",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_114",
+        "sentence_115"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay",
+        "lachine"
+      ],
+      "performs": [
+        "colonel_barclay"
+      ]
+    },
+    {
+      "id": "event_3_10",
+      "type": "event",
+      "label": "The housemaid brings up the tea",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_117"
+      ],
+      "participants": [
+        "lachine"
+      ],
+      "performs": [
+        "servants"
+      ]
+    },
+    {
+      "id": "event_3_11",
+      "type": "event",
+      "label": "The maid hears Colonel and Mrs. Barclay quarrelling behind a locked door",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_117",
+        "sentence_118",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_122"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_3_12",
+      "type": "event",
+      "label": "Mrs. Barclay cries out during the altercation",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_123",
+        "sentence_124",
+        "sentence_125",
+        "sentence_126",
+        "sentence_127",
+        "sentence_128",
+        "sentence_129"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "colonel_barclay"
+        ],
+        "content": "What can be done now? What can be done now? Give me back my life. I will never so much as breathe the same air with you again! You coward!"
+      }
+    },
+    {
+      "id": "event_3_13",
+      "type": "event",
+      "label": "A crash and a scream follow the quarrel",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_129"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_3_14",
+      "type": "event",
+      "label": "The coachman tries to force the door and then goes to the lawn window",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_130",
+        "sentence_131",
+        "sentence_132",
+        "sentence_133"
+      ],
+      "participants": [
+        "servants",
+        "lachine"
+      ],
+      "performs": [
+        "servants"
+      ]
+    },
+    {
+      "id": "event_3_15",
+      "type": "event",
+      "label": "The coachman enters the morning-room through the open French window and finds Mrs. Barclay insensible and Colonel Barclay dead",
+      "section": "crooked-man-section_3",
+      "source_nodes": [
+        "sentence_134"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay",
+        "servants",
+        "lachine"
+      ],
+      "performs": [
+        "servants"
+      ]
+    },
+    {
+      "id": "event_4_1",
+      "type": "event",
+      "label": "The coachman tries to open the door after finding he can do nothing for his master",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_136"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "hall_door"
+      ],
+      "performs": [
+        "coachman"
+      ]
+    },
+    {
+      "id": "event_4_2",
+      "type": "event",
+      "label": "The coachman finds the key missing from the room and the inner side of the door",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_137",
+        "sentence_138"
+      ],
+      "participants": [
+        "coachman",
+        "hall_door"
+      ]
+    },
+    {
+      "id": "event_4_3",
+      "type": "event",
+      "label": "The coachman exits through the window, obtains help, and returns",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_139"
+      ],
+      "participants": [
+        "coachman",
+        "policeman",
+        "medical_man"
+      ],
+      "performs": [
+        "coachman"
+      ]
+    },
+    {
+      "id": "event_4_4",
+      "type": "event",
+      "label": "The lady is removed to her room in a state of insensibility",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_140"
+      ],
+      "participants": [
+        "the_lady"
+      ],
+      "performs": [
+        "policeman"
+      ]
+    },
+    {
+      "id": "event_4_5",
+      "type": "event",
+      "label": "Colonel Barclay's body is placed on the sofa and the scene is examined",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_141"
+      ],
+      "participants": [
+        "colonel_barclay"
+      ],
+      "performs": [
+        "policeman",
+        "medical_man"
+      ]
+    },
+    {
+      "id": "event_4_6",
+      "type": "event",
+      "label": "The injury on Colonel Barclay's head is found to be a jagged cut caused by a violent blow",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_142"
+      ],
+      "participants": [
+        "colonel_barclay"
+      ],
+      "performs": [
+        "medical_man"
+      ]
+    },
+    {
+      "id": "event_4_7",
+      "type": "event",
+      "label": "A singular club is found lying on the floor near the body",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_144"
+      ],
+      "participants": [
+        "club_with_bone_handle",
+        "colonel_barclay"
+      ]
+    },
+    {
+      "id": "event_4_8",
+      "type": "event",
+      "label": "The police conjecture that Colonel Barclay's club was among his trophies",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_145"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "club_with_bone_handle"
+      ],
+      "performs": [
+        "police"
+      ]
+    },
+    {
+      "id": "event_4_9",
+      "type": "event",
+      "label": "The servants deny having seen the club before",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_146"
+      ],
+      "participants": [
+        "servants",
+        "club_with_bone_handle"
+      ],
+      "communicates": {
+        "speaker": "servants",
+        "recipients": [
+          "police"
+        ],
+        "content": "having seen it before"
+      }
+    },
+    {
+      "id": "event_4_10",
+      "type": "event",
+      "label": "A locksmith from Aldershot opens the door",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_148"
+      ],
+      "participants": [
+        "locksmith_from_aldershot",
+        "hall_door"
+      ],
+      "performs": [
+        "locksmith_from_aldershot"
+      ]
+    },
+    {
+      "id": "event_4_11",
+      "type": "event",
+      "label": "Watson goes down to Aldershot at Major Murphy's request to assist the police",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_149"
+      ],
+      "participants": [
+        "watson",
+        "major_murphy",
+        "aldershot"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "major_murphy",
+        "recipients": [
+          "watson"
+        ],
+        "content": "go down to Aldershot to supplement the efforts of the police"
+      }
+    },
+    {
+      "id": "event_4_12",
+      "type": "event",
+      "label": "Watson cross-questions the servants",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_151"
+      ],
+      "participants": [
+        "watson",
+        "servants"
+      ],
+      "performs": [
+        "watson"
+      ]
+    },
+    {
+      "id": "event_4_13",
+      "type": "event",
+      "label": "Jane Stewart remembers details of the quarrel and the word 'David'",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_152",
+        "sentence_153",
+        "sentence_154",
+        "sentence_155"
+      ],
+      "participants": [
+        "jane_stewart",
+        "servants",
+        "mrs_barclay",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "jane_stewart"
+      ],
+      "communicates": {
+        "speaker": "jane_stewart",
+        "recipients": [
+          "watson"
+        ],
+        "content": "she heard the word 'David' uttered twice by the lady"
+      }
+    },
+    {
+      "id": "event_4_14",
+      "type": "event",
+      "label": "The servants and police are affected by Colonel Barclay's contorted face",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_158",
+        "sentence_159",
+        "sentence_160",
+        "sentence_161"
+      ],
+      "participants": [
+        "servants",
+        "policeman",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "servants",
+        "policeman"
+      ]
+    },
+    {
+      "id": "event_4_15",
+      "type": "event",
+      "label": "The lady is identified as temporarily insane from an acute attack of brain-fever",
+      "section": "crooked-man-section_4",
+      "source_nodes": [
+        "sentence_165"
+      ],
+      "participants": [
+        "the_lady"
+      ]
+    },
+    {
+      "id": "event_5_1",
+      "type": "event",
+      "label": "Miss Morrison denies knowledge of the cause of Mrs. Barclay's ill-humour",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_166"
+      ],
+      "participants": [
+        "miss_morrison",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "miss_morrison"
+      ],
+      "communicates": {
+        "speaker": "miss_morrison",
+        "recipients": [
+          "policeman"
+        ],
+        "content": "I have no knowledge of what caused the ill-humour in which my companion returned."
+      }
+    },
+    {
+      "id": "event_5_2",
+      "type": "event",
+      "label": "Holmes examines the available facts and separates crucial from incidental ones",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_167"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_3",
+      "type": "event",
+      "label": "Holmes determines that the door-key disappeared",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_168",
+        "sentence_169",
+        "sentence_170",
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "hall_door",
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_4",
+      "type": "event",
+      "label": "Holmes examines the room and the lawn for traces",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_175",
+        "sentence_177"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_5",
+      "type": "event",
+      "label": "Holmes discovers traces of a man crossing the lawn from the road and entering through the window",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_178",
+        "sentence_179",
+        "sentence_180",
+        "sentence_181"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_6",
+      "type": "event",
+      "label": "Holmes displays the traced footprints of a small animal",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_185",
+        "sentence_186",
+        "sentence_188",
+        "sentence_189"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "small_animal_print"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_5_7",
+      "type": "event",
+      "label": "Watson identifies the traced animal as a dog",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_190"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "small_animal_print"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "It's a dog."
+      }
+    },
+    {
+      "id": "event_5_8",
+      "type": "event",
+      "label": "Holmes says the creature ran up a curtain and sought the bird",
+      "section": "crooked-man-section_5",
+      "source_nodes": [
+        "sentence_191",
+        "sentence_192",
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_196",
+        "sentence_197",
+        "sentence_198",
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "small_animal_print",
+        "curtain",
+        "canary_cage",
+        "weasel_stoat_tribe_creature"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Did you ever hear of a dog running up a curtain? I found distinct traces that this creature had done so. It is not the print of a monkey. Neither dog nor cat nor monkey nor any creature that we are familiar with. I have tried to reconstruct it from the measurements. Here are four prints where the beast has been standing motionless. You see that it is no less than fifteen inches from fore-foot to hind. Add to that the length of neck and head, and you get a creature not much less than two feet long—probably more if there is any tail. But now observe this other measurement. The animal has been moving, and we have the length of its stride. In each case it is only about three inches. You have an indication, you see, of a long body with very short legs attached to it. It has not been considerate enough to leave any of its hair behind it. But its general shape must be what I have indicated, and it can run up a curtain, and it is carnivorous. Because it ran up the curtain. A canary's cage was hanging in the window, and its aim seems to have been to get at the bird. Ah, if I could give it a name it might go a long way towards solving the case. On the whole, it was probably some creature of the weasel and stoat tribe—and yet it is larger than any of these that I have seen."
+      }
+    },
+    {
+      "id": "event_6_1",
+      "type": "event",
+      "label": "A man stands in the road and watches the Barclays quarrel",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_216"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_6_2",
+      "type": "event",
+      "label": "The intruder runs across the lawn, enters the room with a strange animal, strikes the Colonel or startles him into falling, and leaves with the key",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_217",
+        "sentence_218"
+      ],
+      "participants": [
+        "colonel_barclay",
+        "weasel_stoat_tribe_creature"
+      ],
+      "performs": [
+        "weasel_stoat_tribe_creature"
+      ]
+    },
+    {
+      "id": "event_6_3",
+      "type": "event",
+      "label": "Mrs. Barclay leaves the house at half-past seven",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_225"
+      ],
+      "participants": [
+        "mrs_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_6_4",
+      "type": "event",
+      "label": "Mrs. Barclay chats with the Colonel in a friendly fashion",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_226"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "colonel_barclay",
+        "coachman"
+      ]
+    },
+    {
+      "id": "event_6_5",
+      "type": "event",
+      "label": "Mrs. Barclay returns, goes to the room least likely to contain her husband, takes tea agitatedly, and breaks into violent recriminations when the Colonel comes to her",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_227"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_6_6",
+      "type": "event",
+      "label": "Miss Morrison stays with Mrs. Barclay during the whole hour and a half between half-past seven and nine",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_229"
+      ],
+      "participants": [
+        "miss_morrison",
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_6_7",
+      "type": "event",
+      "label": "The speaker calls on Miss Morrison and warns her about the case",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_236"
+      ],
+      "participants": [
+        "watson",
+        "miss_morrison",
+        "mrs_barclay",
+        "the_crooked_man_case"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "miss_morrison"
+        ],
+        "content": "you hold the facts in your possession, and your friend, Mrs. Barclay, might find herself in the dock upon a capital charge unless the matter were cleared up"
+      }
+    },
+    {
+      "id": "event_6_8",
+      "type": "event",
+      "label": "Miss Morrison sits thinking, then makes a brisk statement",
+      "section": "crooked-man-section_6",
+      "source_nodes": [
+        "sentence_237",
+        "sentence_238"
+      ],
+      "participants": [
+        "miss_morrison"
+      ],
+      "performs": [
+        "miss_morrison"
+      ]
+    },
+    {
+      "id": "event_7_1",
+      "type": "event",
+      "label": "A woman recounts what happened on Monday evening",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_239",
+        "sentence_240"
+      ],
+      "participants": [
+        "mrs_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "I will tell you exactly what happened upon Monday evening."
+      }
+    },
+    {
+      "id": "event_7_2",
+      "type": "event",
+      "label": "Mrs. Barclay and the speaker return from the Watt Street Mission through Hudson Street",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_241",
+        "sentence_242"
+      ],
+      "participants": [
+        "mrs_barclay"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ]
+    },
+    {
+      "id": "event_7_3",
+      "type": "event",
+      "label": "Mrs. Barclay and the speaker encounter Henry Wood in Hudson Street",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_243",
+        "sentence_244",
+        "sentence_245"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_7_4",
+      "type": "event",
+      "label": "Henry Wood cries out when he recognizes Nancy",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_245"
+      ],
+      "participants": [
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "mrs_barclay"
+        ],
+        "content": "My God, it's Nancy!"
+      }
+    },
+    {
+      "id": "event_7_5",
+      "type": "event",
+      "label": "Mrs. Barclay is seized before she can fall",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_246"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_7_6",
+      "type": "event",
+      "label": "Mrs. Barclay speaks civilly to Henry Wood",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_247",
+        "sentence_248",
+        "sentence_249"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "I thought you had been dead this thirty years, Henry."
+      }
+    },
+    {
+      "id": "event_7_7",
+      "type": "event",
+      "label": "Henry Wood replies that he has been dead",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_249"
+      ],
+      "participants": [
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "mrs_barclay"
+        ],
+        "content": "So I have."
+      }
+    },
+    {
+      "id": "event_7_8",
+      "type": "event",
+      "label": "Mrs. Barclay asks the speaker to walk on a little way",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_252",
+        "sentence_253",
+        "sentence_254"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "watson"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Just walk on a little way, dear. I want to have a word with this man. There is nothing to be afraid of."
+      }
+    },
+    {
+      "id": "event_7_9",
+      "type": "event",
+      "label": "The speaker walks on while Mrs. Barclay talks with Henry Wood",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_255"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "henry_wood",
+        "watson"
+      ],
+      "performs": [
+        "watson",
+        "mrs_barclay",
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_7_10",
+      "type": "event",
+      "label": "Mrs. Barclay returns with blazing eyes while Henry Wood shakes his fists",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_256"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "mrs_barclay",
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_7_11",
+      "type": "event",
+      "label": "Mrs. Barclay begs the speaker to tell no one what happened",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261"
+      ],
+      "participants": [
+        "mrs_barclay",
+        "watson"
+      ],
+      "performs": [
+        "mrs_barclay"
+      ],
+      "communicates": {
+        "speaker": "mrs_barclay",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It's an old acquaintance of mine who has come down in the world."
+      }
+    },
+    {
+      "id": "event_7_12",
+      "type": "event",
+      "label": "Holmes identifies the man as Henry Wood and goes to find him",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_7_13",
+      "type": "event",
+      "label": "Holmes interviews Henry Wood's landlady in the role of a registration-agent",
+      "section": "crooked-man-section_7",
+      "source_nodes": [
+        "sentence_270",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ]
+    },
+    {
+      "id": "event_8_1",
+      "type": "event",
+      "label": "Holmes explains that Wood followed the ladies, saw the quarrel, rushed in, and lost control of a creature from his box",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_278",
+        "sentence_279",
+        "sentence_280"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson",
+          "henry_wood"
+        ],
+        "content": "after the ladies parted from this man he followed them at a distance, that he saw the quarrel between husband and wife through the window, that he rushed in, and that the creature which he carried in his box got loose"
+      }
+    },
+    {
+      "id": "event_8_2",
+      "type": "event",
+      "label": "Watson asks whether Holmes intends to question the man",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_281"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "henry_wood"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "And you intend to ask him?"
+      }
+    },
+    {
+      "id": "event_8_3",
+      "type": "event",
+      "label": "Holmes says he will question Wood in the presence of a witness",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_282",
+        "sentence_283",
+        "sentence_284"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Most certainly—but in the presence of a witness. If you will be so good."
+      }
+    },
+    {
+      "id": "event_8_4",
+      "type": "event",
+      "label": "Holmes says they will apply for a warrant if Wood refuses to help",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_285",
+        "sentence_286"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "If he can clear the matter up, well and good. If he refuses, we have no alternative but to apply for a warrant."
+      }
+    },
+    {
+      "id": "event_8_5",
+      "type": "event",
+      "label": "Watson asks how Holmes knows Wood will still be there when they return",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_287"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "henry_wood"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "But how do you know he'll be there when we return?"
+      }
+    },
+    {
+      "id": "event_8_6",
+      "type": "event",
+      "label": "Holmes says he took precautions and placed one of his Baker Street boys to guard Wood",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_288",
+        "sentence_289",
+        "sentence_290"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "You may be sure that I took some precautions. I have one of my Baker Street boys mounting guard over him who would stick to him like a burr, go where he might. We shall find him in Hudson Street to-morrow, Watson, and meanwhile I should be the criminal myself if I kept you out of bed any longer."
+      }
+    },
+    {
+      "id": "event_8_7",
+      "type": "event",
+      "label": "Holmes and Watson arrive at Hudson Street and go to the house",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_291",
+        "sentence_293",
+        "sentence_298",
+        "sentence_299"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood",
+        "hudson_street"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "This is the street. Come along, Watson. This is the house."
+      }
+    },
+    {
+      "id": "event_8_8",
+      "type": "event",
+      "label": "Simpson reports that Wood is inside",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_294",
+        "sentence_295",
+        "sentence_296",
+        "sentence_297"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "nancy"
+      ],
+      "communicates": {
+        "speaker": "nancy",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "He's in all right, Mr. Holmes"
+      }
+    },
+    {
+      "id": "event_8_9",
+      "type": "event",
+      "label": "Holmes sends in his card with a message that he has come on important business",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_300"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "he had come on important business"
+      }
+    },
+    {
+      "id": "event_8_10",
+      "type": "event",
+      "label": "Holmes and Watson meet Henry Wood in his room",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_300",
+        "sentence_301",
+        "sentence_302",
+        "sentence_303"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "Mr. Henry Wood, late of India, I believe"
+      }
+    },
+    {
+      "id": "event_8_11",
+      "type": "event",
+      "label": "Holmes states that he has come about Colonel Barclay's death and asks Wood about it",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_304",
+        "sentence_305",
+        "sentence_306",
+        "sentence_307"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "I've come over this little matter of Colonel Barclay's death. That's what I want to ascertain."
+      }
+    },
+    {
+      "id": "event_8_12",
+      "type": "event",
+      "label": "Holmes says Mrs. Barclay may be tried for murder unless the matter is cleared up",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_308",
+        "sentence_309"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "unless the matter is cleared up, Mrs. Barclay, who is an old friend of yours, will in all probability be tried for murder"
+      }
+    },
+    {
+      "id": "event_8_13",
+      "type": "event",
+      "label": "Wood reacts strongly and asks Holmes whether he is with the police",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_309",
+        "sentence_310",
+        "sentence_311",
+        "sentence_312",
+        "sentence_313",
+        "sentence_314"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "I don't know who you are, nor how you come to know what you do know, but will you swear that this is true that you tell me? My God! Are you in the police yourself?"
+      }
+    },
+    {
+      "id": "event_8_14",
+      "type": "event",
+      "label": "Holmes says it is every man's business to see justice done",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_314",
+        "sentence_315",
+        "sentence_316"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "No. It's every man's business to see justice done."
+      }
+    },
+    {
+      "id": "event_8_15",
+      "type": "event",
+      "label": "Wood says Mrs. Barclay is innocent and Holmes replies that Wood is guilty",
+      "section": "crooked-man-section_8",
+      "source_nodes": [
+        "sentence_317",
+        "sentence_318",
+        "sentence_319"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "henry_wood",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "henry_wood",
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "You can take my word that she is innocent."
+      }
+    },
+    {
+      "id": "event_9_1",
+      "type": "event",
+      "label": "Henry Wood recounts how Colonel Barclay was killed by providence",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay",
+        "barclays_conscience"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "It was a just providence that killed him. But, mind you this, that if I had knocked his brains out, as it was in my heart to do, he would have had no more than his due from my hands. If his own guilty conscience had not struck him down it is likely enough that I might have had his blood upon my soul."
+      }
+    },
+    {
+      "id": "event_9_2",
+      "type": "event",
+      "label": "Henry Wood says he will tell the story",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_324",
+        "sentence_325",
+        "sentence_326"
+      ],
+      "participants": [
+        "henry_wood",
+        "watson",
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "You want me to tell the story. Well, I don't know why I shouldn't, for there's no cause for me to be ashamed of it. It was in this way, sir."
+      }
+    },
+    {
+      "id": "event_9_3",
+      "type": "event",
+      "label": "Henry Wood describes his past, Nancy Devoy, and the regiment in India",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_327",
+        "sentence_328",
+        "sentence_329",
+        "sentence_330",
+        "sentence_331",
+        "sentence_332",
+        "sentence_333"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay",
+        "nancy",
+        "mutiny"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "You see me now with my back like a camel and my ribs all awry, but there was a time when Corporal Henry Wood was the smartest man in the 117th Foot. We were in India then, in cantonments, at a place we'll call Bhurtee. Barclay, who died the other day, was sergeant in the same company as myself, and the belle of the regiment, ay, and the finest girl that ever had the breath of life between her lips, was Nancy Devoy, the daughter of the colour-sergeant. There were two men that loved her, and one that she loved, and it was for my good looks that she loved me. Well, though I had her heart, her father was set upon her marrying Barclay. I was a harum-scarum, reckless lad, and he had had an education, and was already marked for the sword-belt. But the girl held true to me, and it seemed that I would have had her when the Mutiny broke out, and all hell was loose in the country."
+      }
+    },
+    {
+      "id": "event_9_4",
+      "type": "event",
+      "label": "The regiment is shut up in Bhurtee during the Mutiny",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_334",
+        "sentence_335",
+        "sentence_336"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay",
+        "general_neills_column",
+        "mutiny"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "We were shut up in Bhurtee, the regiment of us with half a battery of artillery, a company of Sikhs, and a lot of civilians and women-folk. There were ten thousand rebels round us. About the second week of it our water gave out, and it was a question whether we could communicate with General Neill's column, which was moving up country."
+      }
+    },
+    {
+      "id": "event_9_5",
+      "type": "event",
+      "label": "Henry Wood volunteers to warn General Neill",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_337",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340"
+      ],
+      "participants": [
+        "henry_wood",
+        "general_neills_column",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "It was our only chance, for we could not hope to fight our way out with all the women and children, so I volunteered to go out and to warn General Neill of our danger. My offer was accepted, and I talked it over with Sergeant Barclay, who was supposed to know the ground better than any other man, and who drew up a route by which I might get through the rebel lines. At ten o'clock the same night I started off upon my journey. There were a thousand lives to save, but it was of only one that I was thinking when I dropped over the wall that night."
+      }
+    },
+    {
+      "id": "event_9_6",
+      "type": "event",
+      "label": "Henry Wood is ambushed, stunned, and bound by enemy sentries",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_341",
+        "sentence_342"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "native_servant"
+      ]
+    },
+    {
+      "id": "event_9_7",
+      "type": "event",
+      "label": "Henry Wood learns that Barclay betrayed him through a native servant",
+      "section": "crooked-man-section_9",
+      "source_nodes": [
+        "sentence_343"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay",
+        "native_servant"
+      ],
+      "performs": [
+        "henry_wood"
+      ],
+      "communicates": {
+        "speaker": "henry_wood",
+        "recipients": [
+          "watson",
+          "sherlock_holmes"
+        ],
+        "content": "But the real blow was to my heart and not to my head, for as I came to and listened to as much as I could understand of their talk, I heard enough to tell me that my comrade, the very man who had arranged the way that I was to take, had betrayed me by means of a native servant into the hands of the enemy."
+      }
+    },
+    {
+      "id": "event_10_1",
+      "type": "event",
+      "label": "General Neill relieves Bhurtee",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_346"
+      ],
+      "participants": [
+        "general_neills_column"
+      ],
+      "performs": [
+        "general_neills_column"
+      ]
+    },
+    {
+      "id": "event_10_2",
+      "type": "event",
+      "label": "Rebels take Harry Wood away during their retreat",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_346"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "the_rebels"
+      ]
+    },
+    {
+      "id": "event_10_3",
+      "type": "event",
+      "label": "Harry Wood is tortured, tries to escape, is captured, and is tortured again",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_347"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "the_rebels"
+      ]
+    },
+    {
+      "id": "event_10_4",
+      "type": "event",
+      "label": "Harry Wood is left in a crippled state",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_348"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": []
+    },
+    {
+      "id": "event_10_5",
+      "type": "event",
+      "label": "Some fugitives take Harry Wood into Nepaul and later he goes past Darjeeling",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_349"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "some_of_them"
+      ]
+    },
+    {
+      "id": "event_10_6",
+      "type": "event",
+      "label": "Hill-folk kill the rebels and Harry Wood becomes their slave",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_350"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "hill_folk"
+      ]
+    },
+    {
+      "id": "event_10_7",
+      "type": "event",
+      "label": "Harry Wood escapes and travels north to the Afghans",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_350"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_8",
+      "type": "event",
+      "label": "Harry Wood wanders among the Afghans for many years",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_350",
+        "sentence_351"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_9",
+      "type": "event",
+      "label": "Harry Wood returns to the Punjab and lives among the natives",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_351"
+      ],
+      "participants": [
+        "henry_wood",
+        "native_servant"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_10",
+      "type": "event",
+      "label": "Harry Wood earns a living by performing conjuring tricks",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_351"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_11",
+      "type": "event",
+      "label": "Harry Wood comes back to England",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_359",
+        "sentence_360"
+      ],
+      "participants": [
+        "henry_wood"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_12",
+      "type": "event",
+      "label": "Harry Wood arrives where the soldiers are and amuses them for money",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_360"
+      ],
+      "participants": [
+        "henry_wood",
+        "royal_mallows"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_13",
+      "type": "event",
+      "label": "Sherlock Holmes recounts the meeting with Mrs. Barclay and the recognition",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_361",
+        "sentence_362"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "I have already heard of your meeting with Mrs. Barclay, and your mutual recognition."
+      }
+    },
+    {
+      "id": "event_10_14",
+      "type": "event",
+      "label": "Holmes describes Wood following Mrs. Barclay home and seeing an altercation through the window",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_363"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mrs_barclay",
+        "colonel_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "You then, as I understand, followed her home and saw through the window an altercation between her husband and her."
+      }
+    },
+    {
+      "id": "event_10_15",
+      "type": "event",
+      "label": "Holmes describes Wood running across the lawn and breaking in upon them",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_364"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "mrs_barclay",
+        "colonel_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "henry_wood"
+        ],
+        "content": "Your own feelings overcame you, and you ran across the lawn and broke in upon them."
+      }
+    },
+    {
+      "id": "event_10_16",
+      "type": "event",
+      "label": "Harry Wood enters the room and Colonel Barclay collapses dead",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_365",
+        "sentence_366"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay",
+        "mrs_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_17",
+      "type": "event",
+      "label": "Harry Wood sees death on Colonel Barclay's face",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_367",
+        "sentence_368"
+      ],
+      "participants": [
+        "henry_wood",
+        "colonel_barclay"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_18",
+      "type": "event",
+      "label": "Nancy faints and Harry Wood takes the door key from her hand",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_370"
+      ],
+      "participants": [
+        "nancy",
+        "henry_wood"
+      ],
+      "performs": [
+        "nancy",
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_19",
+      "type": "event",
+      "label": "Harry Wood decides to leave without unlocking the door and flees",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_371",
+        "sentence_373"
+      ],
+      "participants": [
+        "henry_wood",
+        "hall_door"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_20",
+      "type": "event",
+      "label": "Harry Wood pockets the key, drops his stick, and chases Teddy",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_372"
+      ],
+      "participants": [
+        "henry_wood",
+        "bad_florin",
+        "teddy"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_21",
+      "type": "event",
+      "label": "Harry Wood puts Teddy back into its box",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_373"
+      ],
+      "participants": [
+        "henry_wood",
+        "teddy"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_10_22",
+      "type": "event",
+      "label": "The man reveals Teddy from a hutch in the corner",
+      "section": "crooked-man-section_10",
+      "source_nodes": [
+        "sentence_376",
+        "sentence_377"
+      ],
+      "participants": [
+        "henry_wood",
+        "teddy"
+      ],
+      "performs": [
+        "henry_wood"
+      ]
+    },
+    {
+      "id": "event_11_1",
+      "type": "event",
+      "label": "The man identifies the animal as a mongoose and gives alternative names for it",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381"
+      ],
+      "participants": [
+        "sherlock_holmes"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "It's a mongoose. Well, some call them that, and some call them ichneumon. Snake-catcher is what I call them, and Teddy is amazing quick on cobras. I have one here without the fangs, and Teddy catches it every night to please the folk in the canteen."
+      }
+    },
+    {
+      "id": "event_11_2",
+      "type": "event",
+      "label": "The speaker offers to come forward again if Mrs. Barclay is in serious trouble",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_382",
+        "sentence_383",
+        "sentence_384",
+        "sentence_385",
+        "sentence_386"
+      ],
+      "participants": [
+        "watson",
+        "mrs_barclay",
+        "barclays_conscience"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Any other point, sir? Well, we may have to apply to you again if Mrs. Barclay should prove to be in serious trouble. In that case, of course, I'd come forward. But if not, there is no object in raking up this scandal against a dead man, foully as he has acted. You have at least the satisfaction of knowing that for thirty years of his life his conscience bitterly reproached him for this wicked deed."
+      }
+    },
+    {
+      "id": "event_11_3",
+      "type": "event",
+      "label": "Holmes and Watson overtake Major Murphy on the street",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_387",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "major_murphy"
+      ],
+      "performs": [
+        "sherlock_holmes",
+        "watson"
+      ]
+    },
+    {
+      "id": "event_11_4",
+      "type": "event",
+      "label": "Major Murphy says the affair has come to nothing and explains the inquest result",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_391",
+        "sentence_392",
+        "sentence_393",
+        "sentence_394",
+        "sentence_395"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "major_murphy"
+      ],
+      "performs": [
+        "major_murphy"
+      ],
+      "communicates": {
+        "speaker": "major_murphy",
+        "recipients": [
+          "sherlock_holmes",
+          "watson"
+        ],
+        "content": "I suppose you have heard that all this fuss has come to nothing? The inquest is just over. The medical evidence showed conclusively that death was due to apoplexy. You see it was quite a simple case after all."
+      }
+    },
+    {
+      "id": "event_11_5",
+      "type": "event",
+      "label": "Holmes dismisses the case as superficial and says they will not be wanted in Aldershot",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_396",
+        "sentence_397"
+      ],
+      "participants": [
+        "sherlock_holmes",
+        "watson",
+        "aldershot"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "Oh, remarkably superficial. Come, Watson, I don't think we shall be wanted in Aldershot any more."
+      }
+    },
+    {
+      "id": "event_11_6",
+      "type": "event",
+      "label": "Watson asks Holmes about the names David, James, and Henry",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_398",
+        "sentence_399"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "james_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "watson"
+      ],
+      "communicates": {
+        "speaker": "watson",
+        "recipients": [
+          "sherlock_holmes"
+        ],
+        "content": "If the husband's name was James, and the other was Henry, what was this talk about David?"
+      }
+    },
+    {
+      "id": "event_11_7",
+      "type": "event",
+      "label": "Holmes explains that David was a term of reproach and compares it to a biblical story",
+      "section": "crooked-man-section_11",
+      "source_nodes": [
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405"
+      ],
+      "participants": [
+        "watson",
+        "sherlock_holmes",
+        "james_barclay",
+        "henry_wood"
+      ],
+      "performs": [
+        "sherlock_holmes"
+      ],
+      "communicates": {
+        "speaker": "sherlock_holmes",
+        "recipients": [
+          "watson"
+        ],
+        "content": "That one word, my dear Watson, should have told me the whole story had I been the ideal reasoner which you are so fond of depicting. It was evidently a term of reproach. Yes; David strayed a little occasionally, you know, and on one occasion in the same direction as Sergeant James Barclay. You remember the small affair of Uriah and Bathsheba? My biblical knowledge is a trifle rusty, I fear, but you will find the story in the first or second of Samuel."
+      }
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "watson",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_1",
+      "valid_until": "event_1_2",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "watson",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_2",
+      "valid_until": "event_4_11",
+      "caused_by": [
+        "event_1_2"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "watson",
+      "to": "aldershot",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_11",
+      "valid_until": "event_7_2",
+      "caused_by": [
+        "event_4_11"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "watson",
+      "to": "hudson_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_2",
+      "valid_until": "event_11_3",
+      "caused_by": [
+        "event_7_2"
+      ]
+    },
+    {
+      "id": "state_5",
+      "from": "watson",
+      "to": "aldershot",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_3",
+      "caused_by": [
+        "event_11_3"
+      ]
+    },
+    {
+      "id": "state_6",
+      "from": "hearth",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_1",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_7",
+      "from": "pipe",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_1",
+      "valid_until": "event_1_16",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_8",
+      "from": "pipe",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_1_16",
+      "caused_by": [
+        "event_1_16"
+      ]
+    },
+    {
+      "id": "state_9",
+      "from": "novel",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_1",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_10",
+      "from": "servants",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_3",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_11",
+      "from": "hall_door",
+      "to": "hall",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_3",
+      "caused_by": [
+        "event_1_3"
+      ]
+    },
+    {
+      "id": "state_12",
+      "from": "bell",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_4",
+      "caused_by": [
+        "event_1_4"
+      ]
+    },
+    {
+      "id": "state_13",
+      "from": "clock",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_5",
+      "caused_by": [
+        "event_1_5"
+      ]
+    },
+    {
+      "id": "state_14",
+      "from": "sherlock_holmes",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_6",
+      "valid_until": "event_1_6",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_15",
+      "from": "sherlock_holmes",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_6",
+      "valid_until": "event_1_10",
+      "caused_by": [
+        "event_1_6"
+      ]
+    },
+    {
+      "id": "state_16",
+      "from": "sherlock_holmes",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_1_10",
+      "valid_until": "event_11_3",
+      "caused_by": [
+        "event_1_10"
+      ]
+    },
+    {
+      "id": "state_17",
+      "from": "sherlock_holmes",
+      "to": "aldershot",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_3",
+      "caused_by": [
+        "event_11_3"
+      ]
+    },
+    {
+      "id": "state_18",
+      "from": "coat",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_9",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_19",
+      "from": "uniform",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_9",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_20",
+      "from": "handkerchief",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_9",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_21",
+      "from": "handkerchief",
+      "to": "sleeve",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_9",
+      "caused_by": [
+        "event_1_9"
+      ]
+    },
+    {
+      "id": "state_22",
+      "from": "boot_marks",
+      "to": "linoleum",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_15",
+      "caused_by": [
+        "event_1_15"
+      ]
+    },
+    {
+      "id": "state_23",
+      "from": "the_crooked_man_case",
+      "to": "watson",
+      "type": "OWNS",
+      "valid_from": "event_1_19",
+      "caused_by": [
+        "event_1_19"
+      ]
+    },
+    {
+      "id": "state_24",
+      "from": "colonel_barclay",
+      "to": "lachine",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_2",
+      "valid_until": "event_3_9",
+      "caused_by": [
+        "event_3_2"
+      ]
+    },
+    {
+      "id": "state_25",
+      "from": "colonel_barclay",
+      "to": "lachine",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_9",
+      "valid_until": "event_4_5",
+      "caused_by": [
+        "event_3_9"
+      ]
+    },
+    {
+      "id": "state_26",
+      "from": "colonel_barclay",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_5",
+      "valid_until": "event_9_3",
+      "caused_by": [
+        "event_4_5"
+      ]
+    },
+    {
+      "id": "state_27",
+      "from": "colonel_barclay",
+      "to": "bhurtee",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_3",
+      "valid_until": "event_9_4",
+      "caused_by": [
+        "event_9_3"
+      ]
+    },
+    {
+      "id": "state_28",
+      "from": "colonel_barclay",
+      "to": "bhurtee",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_4",
+      "caused_by": [
+        "event_9_4"
+      ]
+    },
+    {
+      "id": "state_29",
+      "from": "mrs_barclay",
+      "to": "lachine",
+      "type": "LOCATED_AT",
+      "valid_from": "event_3_7",
+      "valid_until": "event_6_3",
+      "caused_by": [
+        "event_3_7"
+      ]
+    },
+    {
+      "id": "state_30",
+      "from": "mrs_barclay",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_6_3",
+      "valid_until": "event_7_2",
+      "caused_by": [
+        "event_6_3"
+      ]
+    },
+    {
+      "id": "state_31",
+      "from": "mrs_barclay",
+      "to": "hudson_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_2",
+      "valid_until": "event_7_11",
+      "caused_by": [
+        "event_7_2"
+      ]
+    },
+    {
+      "id": "state_32",
+      "from": "mrs_barclay",
+      "to": "watson_home",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_11",
+      "caused_by": [
+        "event_7_11"
+      ]
+    },
+    {
+      "id": "state_33",
+      "from": "lachine",
+      "to": "lachine",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_15",
+      "caused_by": [
+        "event_3_15"
+      ]
+    },
+    {
+      "id": "state_34",
+      "from": "coachman",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_1",
+      "valid_until": "event_4_3",
+      "caused_by": [
+        "event_4_1"
+      ]
+    },
+    {
+      "id": "state_35",
+      "from": "coachman",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_3",
+      "caused_by": [
+        "event_4_3"
+      ]
+    },
+    {
+      "id": "state_36",
+      "from": "the_lady",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_4",
+      "caused_by": [
+        "event_4_4"
+      ]
+    },
+    {
+      "id": "state_37",
+      "from": "club_with_bone_handle",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_4_7",
+      "caused_by": [
+        "event_4_7"
+      ]
+    },
+    {
+      "id": "state_38",
+      "from": "small_animal_print",
+      "to": "sherlock_holmes",
+      "type": "OWNS",
+      "valid_from": "event_5_6",
+      "caused_by": [
+        "event_5_6"
+      ]
+    },
+    {
+      "id": "state_39",
+      "from": "henry_wood",
+      "to": "hudson_street",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_3",
+      "valid_until": "event_7_12",
+      "caused_by": [
+        "event_7_3"
+      ]
+    },
+    {
+      "id": "state_40",
+      "from": "henry_wood",
+      "to": "aldershot",
+      "type": "LOCATED_AT",
+      "valid_from": "event_7_12",
+      "valid_until": "event_9_3",
+      "caused_by": [
+        "event_7_12"
+      ]
+    },
+    {
+      "id": "state_41",
+      "from": "henry_wood",
+      "to": "bhurtee",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_3",
+      "valid_until": "event_9_4",
+      "caused_by": [
+        "event_9_3"
+      ]
+    },
+    {
+      "id": "state_42",
+      "from": "henry_wood",
+      "to": "bhurtee",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_4",
+      "valid_until": "event_9_5",
+      "caused_by": [
+        "event_9_4"
+      ]
+    },
+    {
+      "id": "state_43",
+      "from": "henry_wood",
+      "to": "general_neills_column",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_5",
+      "valid_until": "event_9_6",
+      "caused_by": [
+        "event_9_5"
+      ]
+    },
+    {
+      "id": "state_44",
+      "from": "henry_wood",
+      "to": "enemy_sentries",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_6",
+      "valid_until": "event_10_1",
+      "caused_by": [
+        "event_9_6"
+      ]
+    },
+    {
+      "id": "state_45",
+      "from": "henry_wood",
+      "to": "general_neills_column",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_1",
+      "valid_until": "event_10_2",
+      "caused_by": [
+        "event_10_1"
+      ]
+    },
+    {
+      "id": "state_46",
+      "from": "henry_wood",
+      "to": "rebel_group",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_2",
+      "valid_until": "event_10_3",
+      "caused_by": [
+        "event_10_2"
+      ]
+    },
+    {
+      "id": "state_47",
+      "from": "henry_wood",
+      "to": "rebel_group",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_3",
+      "valid_until": "event_10_5",
+      "caused_by": [
+        "event_10_3"
+      ]
+    },
+    {
+      "id": "state_48",
+      "from": "henry_wood",
+      "to": "nepaul",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_5",
+      "valid_until": "event_10_5",
+      "caused_by": [
+        "event_10_5"
+      ]
+    },
+    {
+      "id": "state_49",
+      "from": "henry_wood",
+      "to": "darjeeling",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_5",
+      "valid_until": "event_10_6",
+      "caused_by": [
+        "event_10_5"
+      ]
+    },
+    {
+      "id": "state_50",
+      "from": "henry_wood",
+      "to": "afghans",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_6",
+      "valid_until": "event_10_9",
+      "caused_by": [
+        "event_10_6"
+      ]
+    },
+    {
+      "id": "state_51",
+      "from": "henry_wood",
+      "to": "punjab",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_9",
+      "valid_until": "event_10_11",
+      "caused_by": [
+        "event_10_9"
+      ]
+    },
+    {
+      "id": "state_52",
+      "from": "henry_wood",
+      "to": "england",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_11",
+      "valid_until": "event_10_12",
+      "caused_by": [
+        "event_10_11"
+      ]
+    },
+    {
+      "id": "state_53",
+      "from": "henry_wood",
+      "to": "soldiers_location",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_12",
+      "valid_until": "event_10_16",
+      "caused_by": [
+        "event_10_12"
+      ]
+    },
+    {
+      "id": "state_54",
+      "from": "henry_wood",
+      "to": "hall",
+      "type": "LOCATED_AT",
+      "valid_from": "event_10_16",
+      "caused_by": [
+        "event_10_16"
+      ]
+    },
+    {
+      "id": "state_55",
+      "from": "nancy",
+      "to": "bhurtee",
+      "type": "LOCATED_AT",
+      "valid_from": "event_9_3",
+      "caused_by": [
+        "event_9_3"
+      ]
+    },
+    {
+      "id": "state_56",
+      "from": "key",
+      "to": "henry_wood",
+      "type": "OWNS",
+      "valid_from": "event_10_18",
+      "caused_by": [
+        "event_10_18"
+      ]
+    },
+    {
+      "id": "state_57",
+      "from": "stick",
+      "to": "hall",
+      "type": "IS_INSIDE",
+      "valid_from": "event_10_20",
+      "caused_by": [
+        "event_10_20"
+      ]
+    },
+    {
+      "id": "state_58",
+      "from": "teddy",
+      "to": "box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_10_21",
+      "valid_until": "event_10_22",
+      "caused_by": [
+        "event_10_21"
+      ]
+    },
+    {
+      "id": "state_59",
+      "from": "teddy",
+      "to": "hutch",
+      "type": "IS_INSIDE",
+      "valid_from": "event_10_22",
+      "caused_by": [
+        "event_10_22"
+      ]
+    },
+    {
+      "id": "state_60",
+      "from": "major_murphy",
+      "to": "aldershot",
+      "type": "LOCATED_AT",
+      "valid_from": "event_11_3",
+      "caused_by": [
+        "event_11_3"
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_1",
+      "mention_count": 45,
+      "sentence_ids": [
+        "sentence_3",
+        "sentence_4",
+        "sentence_5",
+        "sentence_6",
+        "sentence_10",
+        "sentence_12",
+        "sentence_13",
+        "sentence_14",
+        "sentence_15",
+        "sentence_17",
+        "sentence_18",
+        "sentence_19",
+        "sentence_20",
+        "sentence_21",
+        "sentence_22",
+        "sentence_23",
+        "sentence_24",
+        "sentence_25",
+        "sentence_26",
+        "sentence_27",
+        "sentence_28",
+        "sentence_29",
+        "sentence_30",
+        "sentence_31",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35",
+        "sentence_36",
+        "sentence_37",
+        "sentence_38",
+        "sentence_39",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_45",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_52",
+        "sentence_53"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_1",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_11",
+        "sentence_12",
+        "sentence_14",
+        "sentence_17",
+        "sentence_19",
+        "sentence_21",
+        "sentence_23",
+        "sentence_28",
+        "sentence_33",
+        "sentence_34",
+        "sentence_35",
+        "sentence_37",
+        "sentence_40",
+        "sentence_41",
+        "sentence_42",
+        "sentence_43",
+        "sentence_44",
+        "sentence_46",
+        "sentence_47",
+        "sentence_48",
+        "sentence_49",
+        "sentence_50",
+        "sentence_51",
+        "sentence_53"
+      ]
+    },
+    {
+      "entity": "the_crooked_man_case",
+      "section": "crooked-man-section_1",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_2",
+        "sentence_49",
+        "sentence_50"
+      ]
+    },
+    {
+      "entity": "hearth",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_3"
+      ]
+    },
+    {
+      "entity": "novel",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_3"
+      ]
+    },
+    {
+      "entity": "servants",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_4"
+      ]
+    },
+    {
+      "entity": "hall_door",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_4"
+      ]
+    },
+    {
+      "entity": "bell",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_5"
+      ]
+    },
+    {
+      "entity": "clock",
+      "section": "crooked-man-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_6",
+        "sentence_7"
+      ]
+    },
+    {
+      "entity": "arcadia_mixture",
+      "section": "crooked-man-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_17",
+        "sentence_18"
+      ]
+    },
+    {
+      "entity": "bachelor_days",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_17"
+      ]
+    },
+    {
+      "entity": "coat",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_18"
+      ]
+    },
+    {
+      "entity": "uniform",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_19"
+      ]
+    },
+    {
+      "entity": "handkerchief",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_20"
+      ]
+    },
+    {
+      "entity": "sleeve",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_20"
+      ]
+    },
+    {
+      "entity": "hat_stand",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_24"
+      ]
+    },
+    {
+      "entity": "peg",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_27"
+      ]
+    },
+    {
+      "entity": "british_workman",
+      "section": "crooked-man-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_28",
+        "sentence_29"
+      ]
+    },
+    {
+      "entity": "drains",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_30"
+      ]
+    },
+    {
+      "entity": "gas",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_31"
+      ]
+    },
+    {
+      "entity": "linoleum",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_33"
+      ]
+    },
+    {
+      "entity": "boot_marks",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_33"
+      ]
+    },
+    {
+      "entity": "waterloo",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_34"
+      ]
+    },
+    {
+      "entity": "pipe",
+      "section": "crooked-man-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_34",
+        "sentence_35"
+      ]
+    },
+    {
+      "entity": "hansom",
+      "section": "crooked-man-section_1",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_42",
+        "sentence_43"
+      ]
+    },
+    {
+      "entity": "bachelor_quarters",
+      "section": "crooked-man-section_1",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_23"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_2",
+      "mention_count": 33,
+      "sentence_ids": [
+        "sentence_54",
+        "sentence_56",
+        "sentence_57",
+        "sentence_59",
+        "sentence_61",
+        "sentence_65",
+        "sentence_68",
+        "sentence_70",
+        "sentence_72",
+        "sentence_73",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77",
+        "sentence_78",
+        "sentence_79",
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_2",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_57",
+        "sentence_58",
+        "sentence_59",
+        "sentence_60",
+        "sentence_64",
+        "sentence_65",
+        "sentence_66",
+        "sentence_67",
+        "sentence_68",
+        "sentence_69",
+        "sentence_71"
+      ]
+    },
+    {
+      "entity": "jackson",
+      "section": "crooked-man-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_60"
+      ]
+    },
+    {
+      "entity": "waterloo",
+      "section": "crooked-man-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_62",
+        "sentence_63"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_59",
+        "sentence_70"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_2",
+      "mention_count": 18,
+      "sentence_ids": [
+        "sentence_70",
+        "sentence_77",
+        "sentence_78",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_85",
+        "sentence_87",
+        "sentence_88",
+        "sentence_89",
+        "sentence_90",
+        "sentence_91",
+        "sentence_92",
+        "sentence_93",
+        "sentence_94",
+        "sentence_95",
+        "sentence_96",
+        "sentence_97"
+      ]
+    },
+    {
+      "entity": "royal_mallows",
+      "section": "crooked-man-section_2",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_70",
+        "sentence_75",
+        "sentence_76",
+        "sentence_77"
+      ]
+    },
+    {
+      "entity": "major_murphy",
+      "section": "crooked-man-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_83",
+        "sentence_84"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_2",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_78",
+        "sentence_80",
+        "sentence_81",
+        "sentence_82",
+        "sentence_83",
+        "sentence_84",
+        "sentence_86",
+        "sentence_87",
+        "sentence_88"
+      ]
+    },
+    {
+      "entity": "crimea",
+      "section": "crooked-man-section_2",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_76"
+      ]
+    },
+    {
+      "entity": "mutiny",
+      "section": "crooked-man-section_2",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_76",
+        "sentence_77"
+      ]
+    },
+    {
+      "entity": "story_of_colonel_barclay",
+      "section": "crooked-man-section_2",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_70",
+        "sentence_72",
+        "sentence_73",
+        "sentence_74",
+        "sentence_88"
+      ]
+    },
+    {
+      "entity": "royal_mallows",
+      "section": "crooked-man-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_98"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_98"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_3",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_99",
+        "sentence_106",
+        "sentence_114",
+        "sentence_115",
+        "sentence_117",
+        "sentence_119",
+        "sentence_120",
+        "sentence_121",
+        "sentence_129",
+        "sentence_134"
+      ]
+    },
+    {
+      "entity": "lachine",
+      "section": "crooked-man-section_3",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_99",
+        "sentence_100",
+        "sentence_102",
+        "sentence_103",
+        "sentence_109",
+        "sentence_110",
+        "sentence_111",
+        "sentence_112"
+      ]
+    },
+    {
+      "entity": "servants",
+      "section": "crooked-man-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_101",
+        "sentence_119"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_3",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_102",
+        "sentence_104",
+        "sentence_105",
+        "sentence_106",
+        "sentence_107",
+        "sentence_108",
+        "sentence_112",
+        "sentence_113",
+        "sentence_114",
+        "sentence_117",
+        "sentence_119",
+        "sentence_120",
+        "sentence_122",
+        "sentence_123",
+        "sentence_126",
+        "sentence_127",
+        "sentence_128",
+        "sentence_129",
+        "sentence_134"
+      ]
+    },
+    {
+      "entity": "the_crooked_man_case",
+      "section": "crooked-man-section_3",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_103",
+        "sentence_104",
+        "sentence_105"
+      ]
+    },
+    {
+      "entity": "miss_morrison",
+      "section": "crooked-man-section_3",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_107",
+        "sentence_108"
+      ]
+    },
+    {
+      "entity": "jane_stewart",
+      "section": "crooked-man-section_3",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_113"
+      ]
+    },
+    {
+      "entity": "coachman",
+      "section": "crooked-man-section_4",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_136",
+        "sentence_139"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_4",
+      "mention_count": 11,
+      "sentence_ids": [
+        "sentence_140",
+        "sentence_141",
+        "sentence_142",
+        "sentence_145",
+        "sentence_147",
+        "sentence_157",
+        "sentence_159",
+        "sentence_160",
+        "sentence_162",
+        "sentence_163",
+        "sentence_164"
+      ]
+    },
+    {
+      "entity": "hall_door",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_136",
+        "sentence_138",
+        "sentence_148"
+      ]
+    },
+    {
+      "entity": "policeman",
+      "section": "crooked-man-section_4",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_139",
+        "sentence_140",
+        "sentence_141",
+        "sentence_145",
+        "sentence_147",
+        "sentence_149",
+        "sentence_158",
+        "sentence_161",
+        "sentence_163"
+      ]
+    },
+    {
+      "entity": "medical_man",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_139",
+        "sentence_141",
+        "sentence_142"
+      ]
+    },
+    {
+      "entity": "the_lady",
+      "section": "crooked-man-section_4",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_140",
+        "sentence_147",
+        "sentence_155",
+        "sentence_163",
+        "sentence_165"
+      ]
+    },
+    {
+      "entity": "club_with_bone_handle",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_144",
+        "sentence_145",
+        "sentence_146"
+      ]
+    },
+    {
+      "entity": "servants",
+      "section": "crooked-man-section_4",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_146",
+        "sentence_151",
+        "sentence_153",
+        "sentence_158",
+        "sentence_161"
+      ]
+    },
+    {
+      "entity": "major_murphy",
+      "section": "crooked-man-section_4",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_149"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_149",
+        "sentence_150",
+        "sentence_151"
+      ]
+    },
+    {
+      "entity": "jane_stewart",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_152",
+        "sentence_154",
+        "sentence_155"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_4",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_147",
+        "sentence_154",
+        "sentence_155",
+        "sentence_163"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_4",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_139",
+        "sentence_148",
+        "sentence_149"
+      ]
+    },
+    {
+      "entity": "miss_morrison",
+      "section": "crooked-man-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_166"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_5",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_166",
+        "sentence_171"
+      ]
+    },
+    {
+      "entity": "policeman",
+      "section": "crooked-man-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_166"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_5",
+      "mention_count": 15,
+      "sentence_ids": [
+        "sentence_167",
+        "sentence_175",
+        "sentence_176",
+        "sentence_177",
+        "sentence_178",
+        "sentence_182",
+        "sentence_183",
+        "sentence_185",
+        "sentence_186",
+        "sentence_187",
+        "sentence_192",
+        "sentence_194",
+        "sentence_197",
+        "sentence_211",
+        "sentence_212"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_171"
+      ]
+    },
+    {
+      "entity": "hall_door",
+      "section": "crooked-man-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_168"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_5",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_166",
+        "sentence_167",
+        "sentence_176",
+        "sentence_184",
+        "sentence_190",
+        "sentence_193",
+        "sentence_195",
+        "sentence_207"
+      ]
+    },
+    {
+      "entity": "small_animal_print",
+      "section": "crooked-man-section_5",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_188",
+        "sentence_189",
+        "sentence_190",
+        "sentence_193",
+        "sentence_194",
+        "sentence_195",
+        "sentence_196",
+        "sentence_197",
+        "sentence_198",
+        "sentence_199",
+        "sentence_200",
+        "sentence_201",
+        "sentence_202",
+        "sentence_203",
+        "sentence_204",
+        "sentence_205",
+        "sentence_206",
+        "sentence_207",
+        "sentence_208",
+        "sentence_209",
+        "sentence_210",
+        "sentence_211",
+        "sentence_212"
+      ]
+    },
+    {
+      "entity": "curtain",
+      "section": "crooked-man-section_5",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_191",
+        "sentence_192",
+        "sentence_206",
+        "sentence_208",
+        "sentence_209"
+      ]
+    },
+    {
+      "entity": "canary_cage",
+      "section": "crooked-man-section_5",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_209"
+      ]
+    },
+    {
+      "entity": "weasel_stoat_tribe_creature",
+      "section": "crooked-man-section_5",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_196",
+        "sentence_200",
+        "sentence_204",
+        "sentence_206",
+        "sentence_212"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_6",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_216",
+        "sentence_217",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_231",
+        "sentence_234",
+        "sentence_235"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_6",
+      "mention_count": 9,
+      "sentence_ids": [
+        "sentence_216",
+        "sentence_217",
+        "sentence_225",
+        "sentence_226",
+        "sentence_227",
+        "sentence_228",
+        "sentence_229",
+        "sentence_230",
+        "sentence_236"
+      ]
+    },
+    {
+      "entity": "miss_morrison",
+      "section": "crooked-man-section_6",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_229",
+        "sentence_230",
+        "sentence_231",
+        "sentence_232",
+        "sentence_235",
+        "sentence_236",
+        "sentence_237",
+        "sentence_238"
+      ]
+    },
+    {
+      "entity": "coachman",
+      "section": "crooked-man-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_226"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_6",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_219",
+        "sentence_223",
+        "sentence_224",
+        "sentence_236"
+      ]
+    },
+    {
+      "entity": "the_crooked_man_case",
+      "section": "crooked-man-section_6",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_213",
+        "sentence_214",
+        "sentence_215",
+        "sentence_219",
+        "sentence_220",
+        "sentence_221",
+        "sentence_222",
+        "sentence_236"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_223"
+      ]
+    },
+    {
+      "entity": "weasel_stoat_tribe_creature",
+      "section": "crooked-man-section_6",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_217"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_7",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_241",
+        "sentence_245",
+        "sentence_246",
+        "sentence_247",
+        "sentence_248",
+        "sentence_252",
+        "sentence_254",
+        "sentence_255",
+        "sentence_256",
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_262",
+        "sentence_264",
+        "sentence_267",
+        "sentence_268"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_7",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_240",
+        "sentence_247",
+        "sentence_252",
+        "sentence_253",
+        "sentence_254",
+        "sentence_255",
+        "sentence_260",
+        "sentence_262",
+        "sentence_267",
+        "sentence_270",
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_267",
+        "sentence_270",
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "the_crooked_man_case",
+      "section": "crooked-man-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_239",
+        "sentence_240",
+        "sentence_262",
+        "sentence_263",
+        "sentence_264",
+        "sentence_267"
+      ]
+    },
+    {
+      "entity": "watt_street_mission",
+      "section": "crooked-man-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_241"
+      ]
+    },
+    {
+      "entity": "hudson_street",
+      "section": "crooked-man-section_7",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_242",
+        "sentence_267",
+        "sentence_268"
+      ]
+    },
+    {
+      "entity": "henry_wood",
+      "section": "crooked-man-section_7",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_243",
+        "sentence_244",
+        "sentence_245",
+        "sentence_249",
+        "sentence_250",
+        "sentence_251",
+        "sentence_255",
+        "sentence_256",
+        "sentence_257",
+        "sentence_258",
+        "sentence_259",
+        "sentence_260",
+        "sentence_261",
+        "sentence_264",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270",
+        "sentence_271",
+        "sentence_272",
+        "sentence_273",
+        "sentence_274",
+        "sentence_275",
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "nancy",
+      "section": "crooked-man-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_245"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_7",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_265",
+        "sentence_266",
+        "sentence_267",
+        "sentence_268",
+        "sentence_269",
+        "sentence_270"
+      ]
+    },
+    {
+      "entity": "bad_florin",
+      "section": "crooked-man-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_275"
+      ]
+    },
+    {
+      "entity": "indian_rupee",
+      "section": "crooked-man-section_7",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_276"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_8",
+      "mention_count": 24,
+      "sentence_ids": [
+        "sentence_277",
+        "sentence_281",
+        "sentence_282",
+        "sentence_284",
+        "sentence_287",
+        "sentence_288",
+        "sentence_290",
+        "sentence_291",
+        "sentence_292",
+        "sentence_293",
+        "sentence_294",
+        "sentence_296",
+        "sentence_297",
+        "sentence_298",
+        "sentence_299",
+        "sentence_300",
+        "sentence_304",
+        "sentence_305",
+        "sentence_307",
+        "sentence_308",
+        "sentence_311",
+        "sentence_314",
+        "sentence_316",
+        "sentence_318"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_8",
+      "mention_count": 10,
+      "sentence_ids": [
+        "sentence_277",
+        "sentence_281",
+        "sentence_283",
+        "sentence_284",
+        "sentence_287",
+        "sentence_290",
+        "sentence_291",
+        "sentence_292",
+        "sentence_298",
+        "sentence_300"
+      ]
+    },
+    {
+      "entity": "henry_wood",
+      "section": "crooked-man-section_8",
+      "mention_count": 19,
+      "sentence_ids": [
+        "sentence_278",
+        "sentence_280",
+        "sentence_281",
+        "sentence_282",
+        "sentence_286",
+        "sentence_287",
+        "sentence_289",
+        "sentence_290",
+        "sentence_295",
+        "sentence_300",
+        "sentence_302",
+        "sentence_304",
+        "sentence_305",
+        "sentence_306",
+        "sentence_307",
+        "sentence_308",
+        "sentence_310",
+        "sentence_317",
+        "sentence_319"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_278",
+        "sentence_308",
+        "sentence_317"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_305",
+        "sentence_308"
+      ]
+    },
+    {
+      "entity": "hudson_street",
+      "section": "crooked-man-section_8",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_290",
+        "sentence_291",
+        "sentence_293"
+      ]
+    },
+    {
+      "entity": "nancy",
+      "section": "crooked-man-section_8",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_294",
+        "sentence_295",
+        "sentence_296",
+        "sentence_297"
+      ]
+    },
+    {
+      "entity": "the_crooked_man_case",
+      "section": "crooked-man-section_8",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_278",
+        "sentence_280"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_9",
+      "mention_count": 8,
+      "sentence_ids": [
+        "sentence_320",
+        "sentence_321",
+        "sentence_322",
+        "sentence_323",
+        "sentence_329",
+        "sentence_331",
+        "sentence_338",
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "henry_wood",
+      "section": "crooked-man-section_9",
+      "mention_count": 7,
+      "sentence_ids": [
+        "sentence_327",
+        "sentence_338",
+        "sentence_339",
+        "sentence_340",
+        "sentence_341",
+        "sentence_342",
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "nancy",
+      "section": "crooked-man-section_9",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_329",
+        "sentence_330",
+        "sentence_331",
+        "sentence_333"
+      ]
+    },
+    {
+      "entity": "mutiny",
+      "section": "crooked-man-section_9",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_333",
+        "sentence_334",
+        "sentence_336"
+      ]
+    },
+    {
+      "entity": "general_neills_column",
+      "section": "crooked-man-section_9",
+      "mention_count": 4,
+      "sentence_ids": [
+        "sentence_336",
+        "sentence_337",
+        "sentence_338",
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "native_servant",
+      "section": "crooked-man-section_9",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_343"
+      ]
+    },
+    {
+      "entity": "james_barclay",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_345"
+      ]
+    },
+    {
+      "entity": "general_neills_column",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_346"
+      ]
+    },
+    {
+      "entity": "henry_wood",
+      "section": "crooked-man-section_10",
+      "mention_count": 25,
+      "sentence_ids": [
+        "sentence_346",
+        "sentence_347",
+        "sentence_348",
+        "sentence_349",
+        "sentence_350",
+        "sentence_351",
+        "sentence_352",
+        "sentence_353",
+        "sentence_354",
+        "sentence_355",
+        "sentence_356",
+        "sentence_359",
+        "sentence_360",
+        "sentence_363",
+        "sentence_364",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_368",
+        "sentence_370",
+        "sentence_371",
+        "sentence_372",
+        "sentence_373",
+        "sentence_376",
+        "sentence_377"
+      ]
+    },
+    {
+      "entity": "nepaul",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_349"
+      ]
+    },
+    {
+      "entity": "darjeeling",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_349"
+      ]
+    },
+    {
+      "entity": "afghans",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_350"
+      ]
+    },
+    {
+      "entity": "punjab",
+      "section": "crooked-man-section_10",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_351"
+      ]
+    },
+    {
+      "entity": "nancy",
+      "section": "crooked-man-section_10",
+      "mention_count": 6,
+      "sentence_ids": [
+        "sentence_354",
+        "sentence_356",
+        "sentence_362",
+        "sentence_363",
+        "sentence_364",
+        "sentence_370"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_361",
+        "sentence_362",
+        "sentence_364",
+        "sentence_374",
+        "sentence_375"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_10",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_362",
+        "sentence_363",
+        "sentence_364"
+      ]
+    },
+    {
+      "entity": "colonel_barclay",
+      "section": "crooked-man-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_363",
+        "sentence_365",
+        "sentence_366",
+        "sentence_367",
+        "sentence_368"
+      ]
+    },
+    {
+      "entity": "teddy",
+      "section": "crooked-man-section_10",
+      "mention_count": 5,
+      "sentence_ids": [
+        "sentence_372",
+        "sentence_373",
+        "sentence_374",
+        "sentence_376",
+        "sentence_377"
+      ]
+    },
+    {
+      "entity": "sherlock_holmes",
+      "section": "crooked-man-section_11",
+      "mention_count": 23,
+      "sentence_ids": [
+        "sentence_378",
+        "sentence_379",
+        "sentence_380",
+        "sentence_381",
+        "sentence_382",
+        "sentence_383",
+        "sentence_384",
+        "sentence_385",
+        "sentence_386",
+        "sentence_387",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_392",
+        "sentence_396",
+        "sentence_397",
+        "sentence_400",
+        "sentence_401",
+        "sentence_402",
+        "sentence_403",
+        "sentence_404",
+        "sentence_405"
+      ]
+    },
+    {
+      "entity": "watson",
+      "section": "crooked-man-section_11",
+      "mention_count": 12,
+      "sentence_ids": [
+        "sentence_383",
+        "sentence_384",
+        "sentence_388",
+        "sentence_389",
+        "sentence_390",
+        "sentence_391",
+        "sentence_396",
+        "sentence_397",
+        "sentence_398",
+        "sentence_399",
+        "sentence_400",
+        "sentence_402"
+      ]
+    },
+    {
+      "entity": "major_murphy",
+      "section": "crooked-man-section_11",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_387",
+        "sentence_391",
+        "sentence_393"
+      ]
+    },
+    {
+      "entity": "mrs_barclay",
+      "section": "crooked-man-section_11",
+      "mention_count": 3,
+      "sentence_ids": [
+        "sentence_383",
+        "sentence_384",
+        "sentence_385"
+      ]
+    },
+    {
+      "entity": "barclays_conscience",
+      "section": "crooked-man-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_386"
+      ]
+    },
+    {
+      "entity": "aldershot",
+      "section": "crooked-man-section_11",
+      "mention_count": 1,
+      "sentence_ids": [
+        "sentence_397"
+      ]
+    },
+    {
+      "entity": "james_barclay",
+      "section": "crooked-man-section_11",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_399",
+        "sentence_403"
+      ]
+    },
+    {
+      "entity": "henry_wood",
+      "section": "crooked-man-section_11",
+      "mention_count": 2,
+      "sentence_ids": [
+        "sentence_399",
+        "sentence_403"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "object": "boot_marks",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_1",
+      "significance": "Holmes inferred that a British workman had been in the house from the two boot marks on the linoleum.",
+      "source_nodes": [
+        "sentence_28",
+        "sentence_29",
+        "sentence_33"
+      ]
+    },
+    {
+      "object": "arcadia_mixture",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_1",
+      "significance": "Holmes inferred that Watson still smoked the Arcadia mixture of his bachelor days from the ash on Watson's coat.",
+      "source_nodes": [
+        "sentence_17",
+        "sentence_18"
+      ]
+    },
+    {
+      "object": "handkerchief",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_1",
+      "significance": "Holmes inferred that Watson had been accustomed to wear a uniform from the way Watson carried his handkerchief in his sleeve.",
+      "source_nodes": [
+        "sentence_19",
+        "sentence_20"
+      ]
+    },
+    {
+      "object": "hansom",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_1",
+      "significance": "Holmes inferred that Watson was professionally busy enough to justify a hansom from the condition of his boots.",
+      "source_nodes": [
+        "sentence_42",
+        "sentence_43"
+      ]
+    },
+    {
+      "object": "club_with_bone_handle",
+      "case": "story_of_colonel_barclay",
+      "discovered_by": "policeman",
+      "discovered_in_section": "crooked-man-section_4",
+      "significance": "The police inferred that the club may have been the blunt weapon that caused the jagged cut on Colonel Barclay's head.",
+      "source_nodes": [
+        "sentence_142",
+        "sentence_143",
+        "sentence_144",
+        "sentence_145"
+      ]
+    },
+    {
+      "object": "club_with_bone_handle",
+      "case": "story_of_colonel_barclay",
+      "discovered_by": "policeman",
+      "discovered_in_section": "crooked-man-section_4",
+      "significance": "The police treated the club as possible among Colonel Barclay's trophies from his military service.",
+      "source_nodes": [
+        "sentence_145",
+        "sentence_146"
+      ]
+    },
+    {
+      "object": "hall_door",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_5",
+      "significance": "Holmes inferred that a third person must have entered the room because the door-key had disappeared and could not have been taken by the Colonel or his wife.",
+      "source_nodes": [
+        "sentence_168",
+        "sentence_169",
+        "sentence_170",
+        "sentence_171",
+        "sentence_172",
+        "sentence_173",
+        "sentence_174"
+      ]
+    },
+    {
+      "object": "small_animal_print",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_5",
+      "significance": "Holmes inferred that a small animal had been in the room and had run up the curtain from the road-side entry traces and the footprint measurements.",
+      "source_nodes": [
+        "sentence_178",
+        "sentence_179",
+        "sentence_180",
+        "sentence_181",
+        "sentence_185",
+        "sentence_188",
+        "sentence_189",
+        "sentence_192",
+        "sentence_206",
+        "sentence_208",
+        "sentence_209",
+        "sentence_212"
+      ]
+    },
+    {
+      "object": "bad_florin",
+      "case": "the_crooked_man_case",
+      "discovered_by": "sherlock_holmes",
+      "discovered_in_section": "crooked-man-section_7",
+      "significance": "Holmes found that the supposed bad florin was actually an Indian rupee.",
+      "source_nodes": [
+        "sentence_275",
+        "sentence_276"
+      ]
+    }
+  ],
+  "memberOf": [
+    {
+      "character": "servants",
+      "organisation": "watson_home"
+    },
+    {
+      "character": "mrs_barclay",
+      "organisation": "church_of_rome"
+    },
+    {
+      "character": "mrs_barclay",
+      "organisation": "guild_of_st_george"
+    },
+    {
+      "character": "henry_wood",
+      "organisation": "royal_mallows"
+    }
+  ]
+}

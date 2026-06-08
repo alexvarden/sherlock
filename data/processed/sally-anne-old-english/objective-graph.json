@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "id": "anne",
+      "type": "character",
+      "label": "Anne",
+      "description": "Thoughtful child with a keen and observant manner.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "sally",
+      "type": "character",
+      "label": "Sally",
+      "description": "Earnest companion, trusting in disposition.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "blue_box",
+      "type": "object",
+      "label": "blue box",
+      "description": "Small blue box of polished wood.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "red_basket",
+      "type": "object",
+      "label": "red basket",
+      "description": "Bright red basket lined with cloth.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "marble",
+      "type": "object",
+      "label": "glass marble",
+      "description": "Glass marble of particular beauty—clear as crystal, with a swirl of green at its center.",
+      "firstSection": "section_1"
+    },
+    {
+      "id": "garden",
+      "type": "location",
+      "label": "garden",
+      "description": "Quiet garden bordered by neatly trimmed hedges.",
+      "firstSection": "section_1"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_1_1",
+      "type": "event",
+      "label": "Sally places marble into red basket",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_6"
+      ],
+      "participants": [
+        "sally",
+        "marble",
+        "red_basket"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_1_2",
+      "type": "event",
+      "label": "Sally says to Anne: 'We shall hide it, and then delight in its rediscovery.'",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_5"
+      ],
+      "participants": [
+        "sally",
+        "anne"
+      ],
+      "performs": [
+        "sally"
+      ],
+      "communicates": {
+        "speaker": "sally",
+        "recipients": [
+          "anne"
+        ],
+        "content": "We shall hide it, and then delight in its rediscovery."
+      }
+    },
+    {
+      "id": "event_1_3",
+      "type": "event",
+      "label": "Anne watches the act of placing the marble into the red basket",
+      "section": "section_1",
+      "source_nodes": [
+        "sentence_7"
+      ],
+      "participants": [
+        "anne",
+        "sally",
+        "marble",
+        "red_basket"
+      ],
+      "performs": [
+        "anne"
+      ]
+    },
+    {
+      "id": "event_2_1",
+      "type": "event",
+      "label": "Sally announces that she must step inside the house to fetch a small refreshment",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_8"
+      ],
+      "participants": [
+        "sally"
+      ],
+      "performs": [
+        "sally"
+      ],
+      "communicates": {
+        "speaker": "sally",
+        "recipients": [],
+        "content": "that she must step inside the house to fetch a small refreshment."
+      }
+    },
+    {
+      "id": "event_2_2",
+      "type": "event",
+      "label": "Sally departs",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_9"
+      ],
+      "participants": [
+        "sally"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_2_3",
+      "type": "event",
+      "label": "Anne retrieves the marble from red_basket",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_11"
+      ],
+      "participants": [
+        "anne",
+        "marble",
+        "red_basket"
+      ],
+      "performs": [
+        "anne"
+      ]
+    },
+    {
+      "id": "event_2_4",
+      "type": "event",
+      "label": "Anne transfers the marble into blue_box",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_12"
+      ],
+      "participants": [
+        "anne",
+        "marble",
+        "blue_box"
+      ],
+      "performs": [
+        "anne"
+      ]
+    },
+    {
+      "id": "event_2_5",
+      "type": "event",
+      "label": "Sally kneels beside red_basket",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_16"
+      ],
+      "participants": [
+        "sally",
+        "red_basket"
+      ],
+      "performs": [
+        "sally"
+      ]
+    },
+    {
+      "id": "event_2_6",
+      "type": "event",
+      "label": "Anne remains in garden",
+      "section": "section_2",
+      "source_nodes": [
+        "sentence_10"
+      ],
+      "participants": [
+        "anne",
+        "garden"
+      ],
+      "performs": [
+        "anne"
+      ]
+    },
+    {
+      "id": "event_3_1",
+      "type": "event",
+      "label": "Marble moves from red_basket to blue_box",
+      "section": "section_3",
+      "source_nodes": [
+        "sentence_20",
+        "sentence_22"
+      ],
+      "participants": [
+        "marble",
+        "red_basket",
+        "blue_box"
+      ]
+    }
+  ],
+  "stateEdges": [
+    {
+      "id": "state_1",
+      "from": "marble",
+      "to": "red_basket",
+      "type": "IS_INSIDE",
+      "valid_from": "event_1_1",
+      "valid_until": "event_2_4",
+      "caused_by": [
+        "event_1_1"
+      ]
+    },
+    {
+      "id": "state_2",
+      "from": "marble",
+      "to": "blue_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_2_4",
+      "valid_until": "event_3_1",
+      "caused_by": [
+        "event_2_4"
+      ]
+    },
+    {
+      "id": "state_3",
+      "from": "marble",
+      "to": "blue_box",
+      "type": "IS_INSIDE",
+      "valid_from": "event_3_1",
+      "caused_by": [
+        "event_3_1"
+      ]
+    },
+    {
+      "id": "state_4",
+      "from": "anne",
+      "to": "marble",
+      "type": "OWNS",
+      "valid_from": "event_2_3",
+      "caused_by": [
+        "event_2_3"
+      ]
+    }
+  ]
+}

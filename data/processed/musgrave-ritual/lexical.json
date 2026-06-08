@@ -1,0 +1,2907 @@
+{
+  "granularity": "sentence",
+  "sections": [
+    {
+      "id": "musgrave-ritual-section_1",
+      "index": 0,
+      "title": "Section 1",
+      "wordCount": 681
+    },
+    {
+      "id": "musgrave-ritual-section_2",
+      "index": 1,
+      "title": "Section 2",
+      "wordCount": 746
+    },
+    {
+      "id": "musgrave-ritual-section_3",
+      "index": 2,
+      "title": "Section 3",
+      "wordCount": 670
+    },
+    {
+      "id": "musgrave-ritual-section_4",
+      "index": 3,
+      "title": "Section 4",
+      "wordCount": 611
+    },
+    {
+      "id": "musgrave-ritual-section_5",
+      "index": 4,
+      "title": "Section 5",
+      "wordCount": 627
+    },
+    {
+      "id": "musgrave-ritual-section_6",
+      "index": 5,
+      "title": "Section 6",
+      "wordCount": 614
+    },
+    {
+      "id": "musgrave-ritual-section_7",
+      "index": 6,
+      "title": "Section 7",
+      "wordCount": 661
+    },
+    {
+      "id": "musgrave-ritual-section_8",
+      "index": 7,
+      "title": "Section 8",
+      "wordCount": 627
+    },
+    {
+      "id": "musgrave-ritual-section_9",
+      "index": 8,
+      "title": "Section 9",
+      "wordCount": 698
+    },
+    {
+      "id": "musgrave-ritual-section_10",
+      "index": 9,
+      "title": "Section 10",
+      "wordCount": 697
+    },
+    {
+      "id": "musgrave-ritual-section_11",
+      "index": 10,
+      "title": "Section 11",
+      "wordCount": 601
+    },
+    {
+      "id": "musgrave-ritual-section_12",
+      "index": 11,
+      "title": "Section 12",
+      "wordCount": 321
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sentence_1",
+      "section": "musgrave-ritual-section_1",
+      "position": 0,
+      "text": "VI.",
+      "entities": []
+    },
+    {
+      "id": "sentence_2",
+      "section": "musgrave-ritual-section_1",
+      "position": 1,
+      "text": "The Musgrave Ritual",
+      "entities": []
+    },
+    {
+      "id": "sentence_3",
+      "section": "musgrave-ritual-section_1",
+      "position": 2,
+      "text": "An anomaly which often struck me in the character of my friend Sherlock Holmes was that, although in his methods of thought he was the neatest and most methodical of mankind, and although also he affected a certain quiet primness of dress, he was none the less in his personal habits one of the most untidy men that ever drove a fellow-lodger to distraction.",
+      "entities": []
+    },
+    {
+      "id": "sentence_4",
+      "section": "musgrave-ritual-section_1",
+      "position": 3,
+      "text": "Not that I am in the least conventional in that respect myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_5",
+      "section": "musgrave-ritual-section_1",
+      "position": 4,
+      "text": "The rough-and-tumble work in Afghanistan, coming on the top of a natural Bohemianism of disposition, has made me rather more lax than befits a medical man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_6",
+      "section": "musgrave-ritual-section_1",
+      "position": 5,
+      "text": "But with me there is a limit, and when I find a man who keeps his cigars in the coal-scuttle, his tobacco in the toe end of a Persian slipper, and his unanswered correspondence transfixed by a jack-knife into the very centre of his wooden mantelpiece, then I begin to give myself virtuous airs.",
+      "entities": []
+    },
+    {
+      "id": "sentence_7",
+      "section": "musgrave-ritual-section_1",
+      "position": 6,
+      "text": "I have always held, too, that pistol practice should be distinctly an open-air pastime; and when Holmes, in one of his queer humours, would sit in an armchair with his hair-trigger and a hundred Boxer cartridges, and proceed to adorn the opposite wall with a patriotic V.",
+      "entities": []
+    },
+    {
+      "id": "sentence_8",
+      "section": "musgrave-ritual-section_1",
+      "position": 7,
+      "text": "R.",
+      "entities": []
+    },
+    {
+      "id": "sentence_9",
+      "section": "musgrave-ritual-section_1",
+      "position": 8,
+      "text": "done in bullet-pocks, I felt strongly that neither the atmosphere nor the appearance of our room was improved by it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_10",
+      "section": "musgrave-ritual-section_1",
+      "position": 9,
+      "text": "Our chambers were always full of chemicals and of criminal relics which had a way of wandering into unlikely positions, and of turning up in the butter-dish or in even less desirable places.",
+      "entities": []
+    },
+    {
+      "id": "sentence_11",
+      "section": "musgrave-ritual-section_1",
+      "position": 10,
+      "text": "But his papers were my great crux.",
+      "entities": []
+    },
+    {
+      "id": "sentence_12",
+      "section": "musgrave-ritual-section_1",
+      "position": 11,
+      "text": "He had a horror of destroying documents, especially those which were connected with his past cases, and yet it was only once in every year or two that he would muster energy to docket and arrange them; for, as I have mentioned somewhere in these incoherent memoirs, the outbursts of passionate energy when he performed the remarkable feats with which his name is associated were followed by reactions of lethargy during which he would lie about with his violin and his books, hardly moving save from the sofa to the table.",
+      "entities": []
+    },
+    {
+      "id": "sentence_13",
+      "section": "musgrave-ritual-section_1",
+      "position": 12,
+      "text": "Thus month after month his papers accumulated, until every corner of the room was stacked with bundles of manuscript which were on no account to be burned, and which could not be put away save by their owner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_14",
+      "section": "musgrave-ritual-section_1",
+      "position": 13,
+      "text": "One winter's night, as we sat together by the fire, I ventured to suggest to him that, as he had finished pasting extracts into his common-place book, he might employ the next two hours in making our room a little more habitable.",
+      "entities": []
+    },
+    {
+      "id": "sentence_15",
+      "section": "musgrave-ritual-section_1",
+      "position": 14,
+      "text": "He could not deny the justice of my request, so with a rather rueful face he went off to his bedroom, from which he returned presently pulling a large tin box behind him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_16",
+      "section": "musgrave-ritual-section_1",
+      "position": 15,
+      "text": "This he placed in the middle of the floor and, squatting down upon a stool in front of it, he threw back the lid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_17",
+      "section": "musgrave-ritual-section_1",
+      "position": 16,
+      "text": "I could see that it was already a third full of bundles of paper tied up with red tape into separate packages.",
+      "entities": []
+    },
+    {
+      "id": "sentence_18",
+      "section": "musgrave-ritual-section_1",
+      "position": 17,
+      "text": "\"There are cases enough here, Watson,\" said he, looking at me with mischievous eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_19",
+      "section": "musgrave-ritual-section_1",
+      "position": 18,
+      "text": "\"I think that if you knew all that I had in this box you would ask me to pull some out instead of putting others in.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_20",
+      "section": "musgrave-ritual-section_1",
+      "position": 19,
+      "text": "\"These are the records of your early work, then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_21",
+      "section": "musgrave-ritual-section_1",
+      "position": 20,
+      "text": "I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_22",
+      "section": "musgrave-ritual-section_1",
+      "position": 21,
+      "text": "\"I have often wished that I had notes of those cases.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_23",
+      "section": "musgrave-ritual-section_1",
+      "position": 22,
+      "text": "\"Yes, my boy, these were all done prematurely before my biographer had come to glorify me.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_24",
+      "section": "musgrave-ritual-section_1",
+      "position": 23,
+      "text": "He lifted bundle after bundle in a tender, caressing sort of way.",
+      "entities": []
+    },
+    {
+      "id": "sentence_25",
+      "section": "musgrave-ritual-section_1",
+      "position": 24,
+      "text": "\"They are not all successes, Watson,\" said he.",
+      "entities": []
+    },
+    {
+      "id": "sentence_26",
+      "section": "musgrave-ritual-section_1",
+      "position": 25,
+      "text": "\"But there are some pretty little problems among them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_27",
+      "section": "musgrave-ritual-section_1",
+      "position": 26,
+      "text": "Here's the record of the Tarleton murders, and the case of Vamberry, the wine merchant, and the adventure of the old Russian woman, and the singular affair of the aluminium crutch, as well as a full account of Ricoletti of the club-foot, and his abominable wife.",
+      "entities": []
+    },
+    {
+      "id": "sentence_28",
+      "section": "musgrave-ritual-section_1",
+      "position": 27,
+      "text": "And here—ah, now, this really is something a little _recherché_.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_29",
+      "section": "musgrave-ritual-section_2",
+      "position": 28,
+      "text": "He dived his arm down to the bottom of the chest, and brought up a small wooden box with a sliding lid, such as children's toys are kept in.",
+      "entities": []
+    },
+    {
+      "id": "sentence_30",
+      "section": "musgrave-ritual-section_2",
+      "position": 29,
+      "text": "From within he produced a crumpled piece of paper, an old-fashioned brass key, a peg of wood with a ball of string attached to it, and three rusty old disks of metal.",
+      "entities": []
+    },
+    {
+      "id": "sentence_31",
+      "section": "musgrave-ritual-section_2",
+      "position": 30,
+      "text": "\"Well, my boy, what do you make of this lot?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_32",
+      "section": "musgrave-ritual-section_2",
+      "position": 31,
+      "text": "he asked, smiling at my expression.",
+      "entities": []
+    },
+    {
+      "id": "sentence_33",
+      "section": "musgrave-ritual-section_2",
+      "position": 32,
+      "text": "\"It is a curious collection.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_34",
+      "section": "musgrave-ritual-section_2",
+      "position": 33,
+      "text": "\"Very curious, and the story that hangs round it will strike you as being more curious still.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_35",
+      "section": "musgrave-ritual-section_2",
+      "position": 34,
+      "text": "\"These relics have a history then?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_36",
+      "section": "musgrave-ritual-section_2",
+      "position": 35,
+      "text": "\"So much so that they _are_ history.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_37",
+      "section": "musgrave-ritual-section_2",
+      "position": 36,
+      "text": "\"What do you mean by that?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_38",
+      "section": "musgrave-ritual-section_2",
+      "position": 37,
+      "text": "Sherlock Holmes picked them up one by one, and laid them along the edge of the table.",
+      "entities": []
+    },
+    {
+      "id": "sentence_39",
+      "section": "musgrave-ritual-section_2",
+      "position": 38,
+      "text": "Then he reseated himself in his chair and looked them over with a gleam of satisfaction in his eyes.",
+      "entities": []
+    },
+    {
+      "id": "sentence_40",
+      "section": "musgrave-ritual-section_2",
+      "position": 39,
+      "text": "\"These,\" said he, \"are all that I have left to remind me of the adventure of the Musgrave Ritual.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_41",
+      "section": "musgrave-ritual-section_2",
+      "position": 40,
+      "text": "I had heard him mention the case more than once, though I had never been able to gather the details.",
+      "entities": []
+    },
+    {
+      "id": "sentence_42",
+      "section": "musgrave-ritual-section_2",
+      "position": 41,
+      "text": "\"I should be so glad,\" said I, \"if you would give me an account of it.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_43",
+      "section": "musgrave-ritual-section_2",
+      "position": 42,
+      "text": "\"And leave the litter as it is?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_44",
+      "section": "musgrave-ritual-section_2",
+      "position": 43,
+      "text": "he cried, mischievously.",
+      "entities": []
+    },
+    {
+      "id": "sentence_45",
+      "section": "musgrave-ritual-section_2",
+      "position": 44,
+      "text": "\"Your tidiness won't bear much strain after all, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_46",
+      "section": "musgrave-ritual-section_2",
+      "position": 45,
+      "text": "But I should be glad that you should add this case to your annals, for there are points in it which make it quite unique in the criminal records of this or, I believe, of any other country.",
+      "entities": []
+    },
+    {
+      "id": "sentence_47",
+      "section": "musgrave-ritual-section_2",
+      "position": 46,
+      "text": "A collection of my trifling achievements would certainly be incomplete which contained no account of this very singular business.",
+      "entities": []
+    },
+    {
+      "id": "sentence_48",
+      "section": "musgrave-ritual-section_2",
+      "position": 47,
+      "text": "\"You may remember how the affair of the _Gloria Scott_, and my conversation with the unhappy man whose fate I told you of, first turned my attention in the direction of the profession which has become my life's work.",
+      "entities": []
+    },
+    {
+      "id": "sentence_49",
+      "section": "musgrave-ritual-section_2",
+      "position": 48,
+      "text": "You see me now when my name has become known far and wide, and when I am generally recognised both by the public and by the official force as being a final court of appeal in doubtful cases.",
+      "entities": []
+    },
+    {
+      "id": "sentence_50",
+      "section": "musgrave-ritual-section_2",
+      "position": 49,
+      "text": "Even when you knew me first, at the time of the affair which you have commemorated in 'A Study in Scarlet,' I had already established a considerable, though not a very lucrative, connection.",
+      "entities": []
+    },
+    {
+      "id": "sentence_51",
+      "section": "musgrave-ritual-section_2",
+      "position": 50,
+      "text": "You can hardly realize, then, how difficult I found it at first, and how long I had to wait before I succeeded in making any headway.",
+      "entities": []
+    },
+    {
+      "id": "sentence_52",
+      "section": "musgrave-ritual-section_2",
+      "position": 51,
+      "text": "\"When I first came up to London I had rooms in Montague Street, just round the corner from the British Museum, and there I waited, filling in my too abundant leisure time by studying all those branches of science which might make me more efficient.",
+      "entities": []
+    },
+    {
+      "id": "sentence_53",
+      "section": "musgrave-ritual-section_2",
+      "position": 52,
+      "text": "Now and again cases came in my way, principally through the introduction of old fellow-students, for during my last years at the University there was a good deal of talk there about myself and my methods.",
+      "entities": []
+    },
+    {
+      "id": "sentence_54",
+      "section": "musgrave-ritual-section_2",
+      "position": 53,
+      "text": "The third of these cases was that of the Musgrave Ritual, and it is to the interest which was aroused by that singular chain of events, and the large issues which proved to be at stake, that I trace my first stride towards the position which I now hold.",
+      "entities": []
+    },
+    {
+      "id": "sentence_55",
+      "section": "musgrave-ritual-section_2",
+      "position": 54,
+      "text": "\"Reginald Musgrave had been in the same college as myself, and I had some slight acquaintance with him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_56",
+      "section": "musgrave-ritual-section_2",
+      "position": 55,
+      "text": "He was not generally popular among the undergraduates, though it always seemed to me that what was set down as pride was really an attempt to cover extreme natural diffidence.",
+      "entities": []
+    },
+    {
+      "id": "sentence_57",
+      "section": "musgrave-ritual-section_2",
+      "position": 56,
+      "text": "In appearance he was a man of exceedingly aristocratic type, thin, high-nosed, and large-eyed, with languid and yet courtly manners.",
+      "entities": []
+    },
+    {
+      "id": "sentence_58",
+      "section": "musgrave-ritual-section_2",
+      "position": 57,
+      "text": "He was indeed a scion of one of the very oldest families in the kingdom, though his branch was a cadet one which had separated from the northern Musgraves some time in the sixteenth century, and had established itself in western Sussex, where the Manor House of Hurlstone is perhaps the oldest inhabited building in the county.",
+      "entities": []
+    },
+    {
+      "id": "sentence_59",
+      "section": "musgrave-ritual-section_2",
+      "position": 58,
+      "text": "Something of his birthplace seemed to cling to the man, and I never looked at his pale, keen face or the poise of his head without associating him with grey archways and mullioned windows and all the venerable wreckage of a feudal keep.",
+      "entities": []
+    },
+    {
+      "id": "sentence_60",
+      "section": "musgrave-ritual-section_2",
+      "position": 59,
+      "text": "Once or twice we drifted into talk, and I can remember that more than once he expressed a keen interest in my methods of observation and inference.",
+      "entities": []
+    },
+    {
+      "id": "sentence_61",
+      "section": "musgrave-ritual-section_3",
+      "position": 60,
+      "text": "\"For four years I had seen nothing of him until one morning he walked into my room in Montague Street.",
+      "entities": []
+    },
+    {
+      "id": "sentence_62",
+      "section": "musgrave-ritual-section_3",
+      "position": 61,
+      "text": "He had changed little, was dressed like a young man of fashion—he was always a bit of a dandy—and preserved the same quiet, suave manner which had formerly distinguished him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_63",
+      "section": "musgrave-ritual-section_3",
+      "position": 62,
+      "text": "' I asked, after we had cordially shaken hands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_64",
+      "section": "musgrave-ritual-section_3",
+      "position": 63,
+      "text": "after we had cordially shaken hands.",
+      "entities": []
+    },
+    {
+      "id": "sentence_65",
+      "section": "musgrave-ritual-section_3",
+      "position": 64,
+      "text": "\"'You probably heard of my poor father's death,' said he; 'he was carried off about two years ago.",
+      "entities": []
+    },
+    {
+      "id": "sentence_66",
+      "section": "musgrave-ritual-section_3",
+      "position": 65,
+      "text": "Since then I have of course had the Hurlstone estates to manage, and as I am member for my district as well, my life has been a busy one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_67",
+      "section": "musgrave-ritual-section_3",
+      "position": 66,
+      "text": "But I understand, Holmes, that you are turning to practical ends those powers with which you used to amaze us?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_68",
+      "section": "musgrave-ritual-section_3",
+      "position": 67,
+      "text": "\"'Yes,' said I, 'I have taken to living by my wits.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_69",
+      "section": "musgrave-ritual-section_3",
+      "position": 68,
+      "text": "\"'I am delighted to hear it, for your advice at present would be exceedingly valuable to me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_70",
+      "section": "musgrave-ritual-section_3",
+      "position": 69,
+      "text": "We have had some very strange doings at Hurlstone, and the police have been able to throw no light upon the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_71",
+      "section": "musgrave-ritual-section_3",
+      "position": 70,
+      "text": "It is really the most extraordinary and inexplicable business.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_72",
+      "section": "musgrave-ritual-section_3",
+      "position": 71,
+      "text": "\"You can imagine with what eagerness I listened to him, Watson, for the very chance for which I had been panting during all those months of inaction seemed to have come within my reach.",
+      "entities": []
+    },
+    {
+      "id": "sentence_73",
+      "section": "musgrave-ritual-section_3",
+      "position": 72,
+      "text": "In my inmost heart I believed that I could succeed where others failed, and now I had the opportunity to test myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_74",
+      "section": "musgrave-ritual-section_3",
+      "position": 73,
+      "text": "\"'Pray, let me have the details,' I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_75",
+      "section": "musgrave-ritual-section_3",
+      "position": 74,
+      "text": "\"Reginald Musgrave sat down opposite to me, and lit the cigarette which I had pushed towards him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_76",
+      "section": "musgrave-ritual-section_3",
+      "position": 75,
+      "text": "\"'You must know,' said he, 'that though I am a bachelor, I have to keep up a considerable staff of servants at Hurlstone, for it is a rambling old place, and takes a good deal of looking after.",
+      "entities": []
+    },
+    {
+      "id": "sentence_77",
+      "section": "musgrave-ritual-section_3",
+      "position": 76,
+      "text": "I preserve, too, and in the pheasant months I usually have a house-party, so that it would not do to be short-handed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_78",
+      "section": "musgrave-ritual-section_3",
+      "position": 77,
+      "text": "Altogether there are eight maids, the cook, the butler, two footmen, and a boy.",
+      "entities": []
+    },
+    {
+      "id": "sentence_79",
+      "section": "musgrave-ritual-section_3",
+      "position": 78,
+      "text": "The garden and the stables of course have a separate staff.",
+      "entities": []
+    },
+    {
+      "id": "sentence_80",
+      "section": "musgrave-ritual-section_3",
+      "position": 79,
+      "text": "\"'Of these servants the one who had been longest in our service was Brunton the butler.",
+      "entities": []
+    },
+    {
+      "id": "sentence_81",
+      "section": "musgrave-ritual-section_3",
+      "position": 80,
+      "text": "He was a young schoolmaster out of place when he was first taken up by my father, but he was a man of great energy and character, and he soon became quite invaluable in the household.",
+      "entities": []
+    },
+    {
+      "id": "sentence_82",
+      "section": "musgrave-ritual-section_3",
+      "position": 81,
+      "text": "He was a well-grown, handsome man, with a splendid forehead, and though he has been with us for twenty years he cannot be more than forty now.",
+      "entities": []
+    },
+    {
+      "id": "sentence_83",
+      "section": "musgrave-ritual-section_3",
+      "position": 82,
+      "text": "With his personal advantages and his extraordinary gifts—for he can speak several languages and play nearly every musical instrument—it is wonderful that he should have been satisfied so long in such a position, but I suppose that he was comfortable, and lacked energy to make any change.",
+      "entities": []
+    },
+    {
+      "id": "sentence_84",
+      "section": "musgrave-ritual-section_3",
+      "position": 83,
+      "text": "The butler of Hurlstone is always a thing that is remembered by all who visit us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_85",
+      "section": "musgrave-ritual-section_3",
+      "position": 84,
+      "text": "\"'But this paragon has one fault.",
+      "entities": []
+    },
+    {
+      "id": "sentence_86",
+      "section": "musgrave-ritual-section_3",
+      "position": 85,
+      "text": "He is a bit of a Don Juan, and you can imagine that for a man like him it is not a very difficult part to play in a quiet country district.",
+      "entities": []
+    },
+    {
+      "id": "sentence_87",
+      "section": "musgrave-ritual-section_3",
+      "position": 86,
+      "text": "When he was married it was all right, but since he has been a widower we have had no end of trouble with him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_88",
+      "section": "musgrave-ritual-section_3",
+      "position": 87,
+      "text": "A few months ago we were in hopes that he was about to settle down again for he became engaged to Rachel Howells, our second housemaid; but he has thrown her over since then and taken up with Janet Tregellis, the daughter of the head gamekeeper.",
+      "entities": []
+    },
+    {
+      "id": "sentence_89",
+      "section": "musgrave-ritual-section_3",
+      "position": 88,
+      "text": "Rachel—who is a very good girl, but of an excitable Welsh temperament—had a sharp touch of brain-fever, and goes about the house now—or did until yesterday—like a black-eyed shadow of her former self.",
+      "entities": []
+    },
+    {
+      "id": "sentence_90",
+      "section": "musgrave-ritual-section_3",
+      "position": 89,
+      "text": "That was our first drama at Hurlstone; but a second one came to drive it from our minds, and it was prefaced by the disgrace and dismissal of butler Brunton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_91",
+      "section": "musgrave-ritual-section_4",
+      "position": 90,
+      "text": "\"'This was how it came about.",
+      "entities": []
+    },
+    {
+      "id": "sentence_92",
+      "section": "musgrave-ritual-section_4",
+      "position": 91,
+      "text": "I have said that the man was intelligent, and this very intelligence has caused his ruin, for it seems to have led to an insatiable curiosity about things which did not in the least concern him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_93",
+      "section": "musgrave-ritual-section_4",
+      "position": 92,
+      "text": "I had no idea of the lengths to which this would carry him, until the merest accident opened my eyes to it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_94",
+      "section": "musgrave-ritual-section_4",
+      "position": 93,
+      "text": "\"'I have said that the house is a rambling one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_95",
+      "section": "musgrave-ritual-section_4",
+      "position": 94,
+      "text": "One day last week—on Thursday night, to be more exact—I found that I could not sleep, having foolishly taken a cup of strong _café noir_ after my dinner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_96",
+      "section": "musgrave-ritual-section_4",
+      "position": 95,
+      "text": "After struggling against it until two in the morning, I felt that it was quite hopeless, so I rose and lit the candle with the intention of continuing a novel which I was reading.",
+      "entities": []
+    },
+    {
+      "id": "sentence_97",
+      "section": "musgrave-ritual-section_4",
+      "position": 96,
+      "text": "The book, however, had been left in the billiard-room, so I pulled on my dressing-gown and started off to get it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_98",
+      "section": "musgrave-ritual-section_4",
+      "position": 97,
+      "text": "\"'In order to reach the billiard-room I had to descend a flight of stairs and then to cross the head of a passage which led to the library and the gun-room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_99",
+      "section": "musgrave-ritual-section_4",
+      "position": 98,
+      "text": "You can imagine my surprise when, as I looked down this corridor, I saw a glimmer of light coming from the open door of the library.",
+      "entities": []
+    },
+    {
+      "id": "sentence_100",
+      "section": "musgrave-ritual-section_4",
+      "position": 99,
+      "text": "I had myself extinguished the lamp and closed the door before coming to bed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_101",
+      "section": "musgrave-ritual-section_4",
+      "position": 100,
+      "text": "Naturally my first thought was of burglars.",
+      "entities": []
+    },
+    {
+      "id": "sentence_102",
+      "section": "musgrave-ritual-section_4",
+      "position": 101,
+      "text": "The corridors at Hurlstone have their walls largely decorated with trophies of old weapons.",
+      "entities": []
+    },
+    {
+      "id": "sentence_103",
+      "section": "musgrave-ritual-section_4",
+      "position": 102,
+      "text": "From one of these I picked a battle-axe, and then, leaving my candle behind me, I crept on tiptoe down the passage and peeped in at the open door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_104",
+      "section": "musgrave-ritual-section_4",
+      "position": 103,
+      "text": "\"'Brunton, the butler, was in the library.",
+      "entities": []
+    },
+    {
+      "id": "sentence_105",
+      "section": "musgrave-ritual-section_4",
+      "position": 104,
+      "text": "He was sitting, fully dressed, in an easy-chair, with a slip of paper which looked like a map upon his knee, and his forehead sunk forward upon his hand in deep thought.",
+      "entities": []
+    },
+    {
+      "id": "sentence_106",
+      "section": "musgrave-ritual-section_4",
+      "position": 105,
+      "text": "I stood dumb with astonishment, watching him from the darkness.",
+      "entities": []
+    },
+    {
+      "id": "sentence_107",
+      "section": "musgrave-ritual-section_4",
+      "position": 106,
+      "text": "A small taper on the edge of the table shed a feeble light which sufficed to show me that he was fully dressed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_108",
+      "section": "musgrave-ritual-section_4",
+      "position": 107,
+      "text": "Suddenly, as I looked, he rose from his chair, and walking over to a bureau at the side, he unlocked it and drew out one of the drawers.",
+      "entities": []
+    },
+    {
+      "id": "sentence_109",
+      "section": "musgrave-ritual-section_4",
+      "position": 108,
+      "text": "From this he took a paper, and returning to his seat he flattened it out beside the taper on the edge of the table, and began to study it with minute attention.",
+      "entities": []
+    },
+    {
+      "id": "sentence_110",
+      "section": "musgrave-ritual-section_4",
+      "position": 109,
+      "text": "My indignation at this calm examination of our family documents overcame me so far that I took a step forward, and Brunton, looking up, saw me standing in the doorway.",
+      "entities": []
+    },
+    {
+      "id": "sentence_111",
+      "section": "musgrave-ritual-section_4",
+      "position": 110,
+      "text": "He sprang to his feet, his face turned livid with fear, and he thrust into his breast the chart-like paper which he had been originally studying.",
+      "entities": []
+    },
+    {
+      "id": "sentence_112",
+      "section": "musgrave-ritual-section_4",
+      "position": 111,
+      "text": "\"'\"So!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_113",
+      "section": "musgrave-ritual-section_4",
+      "position": 112,
+      "text": "said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_114",
+      "section": "musgrave-ritual-section_4",
+      "position": 113,
+      "text": "\"This is how you repay the trust which we have reposed in you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_115",
+      "section": "musgrave-ritual-section_4",
+      "position": 114,
+      "text": "You will leave my service to-morrow.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_116",
+      "section": "musgrave-ritual-section_4",
+      "position": 115,
+      "text": "\"'He bowed with the look of a man who is utterly crushed, and slunk past me without a word.",
+      "entities": []
+    },
+    {
+      "id": "sentence_117",
+      "section": "musgrave-ritual-section_4",
+      "position": 116,
+      "text": "The taper was still on the table, and by its light I glanced to see what the paper was which Brunton had taken from the bureau.",
+      "entities": []
+    },
+    {
+      "id": "sentence_118",
+      "section": "musgrave-ritual-section_4",
+      "position": 117,
+      "text": "To my surprise it was nothing of any importance at all, but simply a copy of the questions and answers in the singular old observance called the Musgrave Ritual.",
+      "entities": []
+    },
+    {
+      "id": "sentence_119",
+      "section": "musgrave-ritual-section_4",
+      "position": 118,
+      "text": "It is a sort of ceremony peculiar to our family, which each Musgrave for centuries past has gone through on his coming of age—a thing of private interest, and perhaps of some little importance to the archaeologist, like our own blazonings and charges, but of no practical use whatever.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_120",
+      "section": "musgrave-ritual-section_5",
+      "position": 119,
+      "text": "\"'We had better come back to the paper afterwards,' said I.",
+      "entities": []
+    },
+    {
+      "id": "sentence_121",
+      "section": "musgrave-ritual-section_5",
+      "position": 120,
+      "text": "\"'If you think it really necessary,' he answered, with some hesitation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_122",
+      "section": "musgrave-ritual-section_5",
+      "position": 121,
+      "text": "'To continue my statement, however: I relocked the bureau, using the key which Brunton had left, and I had turned to go when I was surprised to find that the butler had returned, and was standing before me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_123",
+      "section": "musgrave-ritual-section_5",
+      "position": 122,
+      "text": "\"'\"Mr. Musgrave, sir,\" he cried, in a voice which was hoarse with emotion, \"I can't bear disgrace, sir.",
+      "entities": []
+    },
+    {
+      "id": "sentence_124",
+      "section": "musgrave-ritual-section_5",
+      "position": 123,
+      "text": "I've always been proud above my station in life, and disgrace would kill me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_125",
+      "section": "musgrave-ritual-section_5",
+      "position": 124,
+      "text": "My blood will be on your head, sir—it will, indeed—if you drive me to despair.",
+      "entities": []
+    },
+    {
+      "id": "sentence_126",
+      "section": "musgrave-ritual-section_5",
+      "position": 125,
+      "text": "If you cannot keep me after what has passed, then for God's sake let me give you notice and leave in a month, as if of my own free will.",
+      "entities": []
+    },
+    {
+      "id": "sentence_127",
+      "section": "musgrave-ritual-section_5",
+      "position": 126,
+      "text": "I could stand that, Mr. Musgrave, but not to be cast out before all the folk that I know so well.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_128",
+      "section": "musgrave-ritual-section_5",
+      "position": 127,
+      "text": "\"'\"You don't deserve much consideration, Brunton,\" I answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_129",
+      "section": "musgrave-ritual-section_5",
+      "position": 128,
+      "text": "\"Your conduct has been most infamous.",
+      "entities": []
+    },
+    {
+      "id": "sentence_130",
+      "section": "musgrave-ritual-section_5",
+      "position": 129,
+      "text": "However, as you have been a long time in the family, I have no wish to bring public disgrace upon you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_131",
+      "section": "musgrave-ritual-section_5",
+      "position": 130,
+      "text": "A month, however is too long.",
+      "entities": []
+    },
+    {
+      "id": "sentence_132",
+      "section": "musgrave-ritual-section_5",
+      "position": 131,
+      "text": "Take yourself away in a week, and give what reason you like for going.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_133",
+      "section": "musgrave-ritual-section_5",
+      "position": 132,
+      "text": "\"'\"Only a week, sir?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_134",
+      "section": "musgrave-ritual-section_5",
+      "position": 133,
+      "text": "he cried, in a despairing voice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_135",
+      "section": "musgrave-ritual-section_5",
+      "position": 134,
+      "text": "\"A fortnight—say at least a fortnight!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_136",
+      "section": "musgrave-ritual-section_5",
+      "position": 135,
+      "text": "\"'\"A week,\" I repeated, \"and you may consider yourself to have been very leniently dealt with.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_137",
+      "section": "musgrave-ritual-section_5",
+      "position": 136,
+      "text": "\"'He crept away, his face sunk upon his breast, like a broken man, while I put out the light and returned to my room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_138",
+      "section": "musgrave-ritual-section_5",
+      "position": 137,
+      "text": "\"'For two days after this Brunton was most assiduous in his attention to his duties.",
+      "entities": []
+    },
+    {
+      "id": "sentence_139",
+      "section": "musgrave-ritual-section_5",
+      "position": 138,
+      "text": "I made no allusion to what had passed, and waited with some curiosity to see how he would cover his disgrace.",
+      "entities": []
+    },
+    {
+      "id": "sentence_140",
+      "section": "musgrave-ritual-section_5",
+      "position": 139,
+      "text": "On the third morning, however he did not appear, as was his custom, after breakfast to receive my instructions for the day.",
+      "entities": []
+    },
+    {
+      "id": "sentence_141",
+      "section": "musgrave-ritual-section_5",
+      "position": 140,
+      "text": "As I left the dining-room I happened to meet Rachel Howells, the maid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_142",
+      "section": "musgrave-ritual-section_5",
+      "position": 141,
+      "text": "I have told you that she had only recently recovered from an illness, and was looking so wretchedly pale and wan that I remonstrated with her for being at work.",
+      "entities": []
+    },
+    {
+      "id": "sentence_143",
+      "section": "musgrave-ritual-section_5",
+      "position": 142,
+      "text": "\"'\"You should be in bed,\" I said.",
+      "entities": []
+    },
+    {
+      "id": "sentence_144",
+      "section": "musgrave-ritual-section_5",
+      "position": 143,
+      "text": "\"Come back to your duties when you are stronger.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_145",
+      "section": "musgrave-ritual-section_5",
+      "position": 144,
+      "text": "\"'She looked at me with so strange an expression that I began to suspect that her brain was affected.",
+      "entities": []
+    },
+    {
+      "id": "sentence_146",
+      "section": "musgrave-ritual-section_5",
+      "position": 145,
+      "text": "\"'\"I am strong enough, Mr. Musgrave,\" said she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_147",
+      "section": "musgrave-ritual-section_5",
+      "position": 146,
+      "text": "\"'\"We will see what the doctor says,\" I answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_148",
+      "section": "musgrave-ritual-section_5",
+      "position": 147,
+      "text": "\"You must stop work now, and when you go downstairs just say that I wish to see Brunton.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_149",
+      "section": "musgrave-ritual-section_5",
+      "position": 148,
+      "text": "\"'\"The butler is gone,\" said she.",
+      "entities": []
+    },
+    {
+      "id": "sentence_150",
+      "section": "musgrave-ritual-section_5",
+      "position": 149,
+      "text": "\"'\"Gone!",
+      "entities": []
+    },
+    {
+      "id": "sentence_151",
+      "section": "musgrave-ritual-section_5",
+      "position": 150,
+      "text": "Gone where?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_152",
+      "section": "musgrave-ritual-section_5",
+      "position": 151,
+      "text": "\"'\"He is gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_153",
+      "section": "musgrave-ritual-section_5",
+      "position": 152,
+      "text": "No one has seen him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_154",
+      "section": "musgrave-ritual-section_5",
+      "position": 153,
+      "text": "He is not in his room.",
+      "entities": []
+    },
+    {
+      "id": "sentence_155",
+      "section": "musgrave-ritual-section_5",
+      "position": 154,
+      "text": "Oh, yes, he is gone, he is gone!\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_156",
+      "section": "musgrave-ritual-section_5",
+      "position": 155,
+      "text": "She fell back against the wall with shriek after shriek of laughter, while I, horrified at this sudden hysterical attack, rushed to the bell to summon help.",
+      "entities": []
+    },
+    {
+      "id": "sentence_157",
+      "section": "musgrave-ritual-section_5",
+      "position": 156,
+      "text": "The girl was taken to her room, still screaming and sobbing, while I made inquiries about Brunton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_158",
+      "section": "musgrave-ritual-section_5",
+      "position": 157,
+      "text": "There was no doubt about it that he had disappeared.",
+      "entities": []
+    },
+    {
+      "id": "sentence_159",
+      "section": "musgrave-ritual-section_5",
+      "position": 158,
+      "text": "His bed had not been slept in, he had been seen by no one since he had retired to his room the night before, and yet it was difficult to see how he could have left the house, as both windows and doors were found to be fastened in the morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_160",
+      "section": "musgrave-ritual-section_5",
+      "position": 159,
+      "text": "His clothes, his watch, and even his money were in his room, but the black suit which he usually wore was missing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_161",
+      "section": "musgrave-ritual-section_5",
+      "position": 160,
+      "text": "His slippers, too, were gone, but his boots were left behind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_162",
+      "section": "musgrave-ritual-section_5",
+      "position": 161,
+      "text": "Where then could butler Brunton have gone in the night, and what could have become of him now?",
+      "entities": []
+    },
+    {
+      "id": "sentence_163",
+      "section": "musgrave-ritual-section_6",
+      "position": 162,
+      "text": "\"'Of course we searched the house from cellar to garret, but there was no trace of him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_164",
+      "section": "musgrave-ritual-section_6",
+      "position": 163,
+      "text": "It is, as I have said, a labyrinth of an old house, especially the original wing, which is now practically uninhabited; but we ransacked every room and cellar without discovering the least sign of the missing man.",
+      "entities": []
+    },
+    {
+      "id": "sentence_165",
+      "section": "musgrave-ritual-section_6",
+      "position": 164,
+      "text": "It was incredible to me that he could have gone away leaving all his property behind him, and yet where could he be?",
+      "entities": []
+    },
+    {
+      "id": "sentence_166",
+      "section": "musgrave-ritual-section_6",
+      "position": 165,
+      "text": "I called in the local police, but without success.",
+      "entities": []
+    },
+    {
+      "id": "sentence_167",
+      "section": "musgrave-ritual-section_6",
+      "position": 166,
+      "text": "Rain had fallen on the night before and we examined the lawn and the paths all round the house, but in vain.",
+      "entities": []
+    },
+    {
+      "id": "sentence_168",
+      "section": "musgrave-ritual-section_6",
+      "position": 167,
+      "text": "Matters were in this state, when a new development quite drew our attention away from the original mystery.",
+      "entities": []
+    },
+    {
+      "id": "sentence_169",
+      "section": "musgrave-ritual-section_6",
+      "position": 168,
+      "text": "\"'For two days Rachel Howells had been so ill, sometimes delirious, sometimes hysterical, that a nurse had been employed to sit up with her at night.",
+      "entities": []
+    },
+    {
+      "id": "sentence_170",
+      "section": "musgrave-ritual-section_6",
+      "position": 169,
+      "text": "On the third night after Brunton's disappearance, the nurse, finding her patient sleeping nicely, had dropped into a nap in the armchair, when she woke in the early morning to find the bed empty, the window open, and no signs of the invalid.",
+      "entities": []
+    },
+    {
+      "id": "sentence_171",
+      "section": "musgrave-ritual-section_6",
+      "position": 170,
+      "text": "I was instantly aroused, and, with the two footmen, started off at once in search of the missing girl.",
+      "entities": []
+    },
+    {
+      "id": "sentence_172",
+      "section": "musgrave-ritual-section_6",
+      "position": 171,
+      "text": "It was not difficult to tell the direction which she had taken, for, starting from under her window, we could follow her footmarks easily across the lawn to the edge of the mere, where they vanished close to the gravel path which leads out of the grounds.",
+      "entities": []
+    },
+    {
+      "id": "sentence_173",
+      "section": "musgrave-ritual-section_6",
+      "position": 172,
+      "text": "The lake there is eight feet deep, and you can imagine our feelings when we saw that the trail of the poor demented girl came to an end at the edge of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_174",
+      "section": "musgrave-ritual-section_6",
+      "position": 173,
+      "text": "\"'Of course, we had the drags at once, and set to work to recover the remains, but no trace of the body could we find.",
+      "entities": []
+    },
+    {
+      "id": "sentence_175",
+      "section": "musgrave-ritual-section_6",
+      "position": 174,
+      "text": "On the other hand, we brought to the surface an object of a most unexpected kind.",
+      "entities": []
+    },
+    {
+      "id": "sentence_176",
+      "section": "musgrave-ritual-section_6",
+      "position": 175,
+      "text": "It was a linen bag which contained within it a mass of old rusted and discoloured metal and several dull-coloured pieces of pebble or glass.",
+      "entities": []
+    },
+    {
+      "id": "sentence_177",
+      "section": "musgrave-ritual-section_6",
+      "position": 176,
+      "text": "This strange find was all that we could get from the mere, and, although we made every possible search and inquiry yesterday, we know nothing of the fate either of Rachel Howells or of Richard Brunton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_178",
+      "section": "musgrave-ritual-section_6",
+      "position": 177,
+      "text": "The county police are at their wits' end, and I have come up to you as a last resource.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_179",
+      "section": "musgrave-ritual-section_6",
+      "position": 178,
+      "text": "\"You can imagine, Watson, with what eagerness I listened to this extraordinary sequence of events, and endeavoured to piece them together, and to devise some common thread upon which they might all hang.",
+      "entities": []
+    },
+    {
+      "id": "sentence_180",
+      "section": "musgrave-ritual-section_6",
+      "position": 179,
+      "text": "The butler was gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_181",
+      "section": "musgrave-ritual-section_6",
+      "position": 180,
+      "text": "The maid was gone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_182",
+      "section": "musgrave-ritual-section_6",
+      "position": 181,
+      "text": "The maid had loved the butler, but had afterwards had cause to hate him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_183",
+      "section": "musgrave-ritual-section_6",
+      "position": 182,
+      "text": "She was of Welsh blood, fiery and passionate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_184",
+      "section": "musgrave-ritual-section_6",
+      "position": 183,
+      "text": "She had been terribly excited immediately after his disappearance.",
+      "entities": []
+    },
+    {
+      "id": "sentence_185",
+      "section": "musgrave-ritual-section_6",
+      "position": 184,
+      "text": "She had flung into the lake a bag containing some curious contents.",
+      "entities": []
+    },
+    {
+      "id": "sentence_186",
+      "section": "musgrave-ritual-section_6",
+      "position": 185,
+      "text": "These were all factors which had to be taken into consideration, and yet none of them got quite to the heart of the matter.",
+      "entities": []
+    },
+    {
+      "id": "sentence_187",
+      "section": "musgrave-ritual-section_6",
+      "position": 186,
+      "text": "What was the starting-point of this chain of events?",
+      "entities": []
+    },
+    {
+      "id": "sentence_188",
+      "section": "musgrave-ritual-section_6",
+      "position": 187,
+      "text": "There lay the end of this tangled line.",
+      "entities": []
+    },
+    {
+      "id": "sentence_189",
+      "section": "musgrave-ritual-section_6",
+      "position": 188,
+      "text": "\"'I must see that paper, Musgrave,' said I, 'which this butler of yours thought it worth his while to consult, even at the risk of the loss of his place.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_190",
+      "section": "musgrave-ritual-section_6",
+      "position": 189,
+      "text": "\"'It is rather an absurd business, this ritual of ours,' he answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_191",
+      "section": "musgrave-ritual-section_6",
+      "position": 190,
+      "text": "'But it has at least the saving grace of antiquity to excuse it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_192",
+      "section": "musgrave-ritual-section_6",
+      "position": 191,
+      "text": "I have a copy of the questions and answers here if you care to run your eye over them.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_193",
+      "section": "musgrave-ritual-section_7",
+      "position": 192,
+      "text": "\"He handed me the very paper which I have here, Watson, and this is the strange catechism to which each Musgrave had to submit when he came to man's estate.",
+      "entities": []
+    },
+    {
+      "id": "sentence_194",
+      "section": "musgrave-ritual-section_7",
+      "position": 193,
+      "text": "I will read you the questions and answers as they stand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_195",
+      "section": "musgrave-ritual-section_7",
+      "position": 194,
+      "text": "\"'Whose was it?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_196",
+      "section": "musgrave-ritual-section_7",
+      "position": 195,
+      "text": "\"'His who is gone.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_197",
+      "section": "musgrave-ritual-section_7",
+      "position": 196,
+      "text": "\"'Who shall have it?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_198",
+      "section": "musgrave-ritual-section_7",
+      "position": 197,
+      "text": "\"'He who will come.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_199",
+      "section": "musgrave-ritual-section_7",
+      "position": 198,
+      "text": "\"'Where was the sun?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_200",
+      "section": "musgrave-ritual-section_7",
+      "position": 199,
+      "text": "\"'Over the oak.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_201",
+      "section": "musgrave-ritual-section_7",
+      "position": 200,
+      "text": "\"'Where was the shadow?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_202",
+      "section": "musgrave-ritual-section_7",
+      "position": 201,
+      "text": "\"'Under the elm.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_203",
+      "section": "musgrave-ritual-section_7",
+      "position": 202,
+      "text": "\"How was it stepped?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_204",
+      "section": "musgrave-ritual-section_7",
+      "position": 203,
+      "text": "\"'North by ten and by ten, east by five and by five, south by two and by two, west by one and by one, and so under.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_205",
+      "section": "musgrave-ritual-section_7",
+      "position": 204,
+      "text": "\"'What shall we give for it?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_206",
+      "section": "musgrave-ritual-section_7",
+      "position": 205,
+      "text": "\"'All that is ours.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_207",
+      "section": "musgrave-ritual-section_7",
+      "position": 206,
+      "text": "\"'Why should we give it?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_208",
+      "section": "musgrave-ritual-section_7",
+      "position": 207,
+      "text": "\"'For the sake of the trust.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_209",
+      "section": "musgrave-ritual-section_7",
+      "position": 208,
+      "text": "\"'The original has no date, but is in the spelling of the middle of the seventeenth century,' remarked Musgrave.",
+      "entities": []
+    },
+    {
+      "id": "sentence_210",
+      "section": "musgrave-ritual-section_7",
+      "position": 209,
+      "text": "'I am afraid, however, that it can be of little help to you in solving this mystery.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_211",
+      "section": "musgrave-ritual-section_7",
+      "position": 210,
+      "text": "\"'At least,' said I, 'it gives us another mystery, and one which is even more interesting than the first.",
+      "entities": []
+    },
+    {
+      "id": "sentence_212",
+      "section": "musgrave-ritual-section_7",
+      "position": 211,
+      "text": "It may be that the solution of the one may prove to be the solution of the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_213",
+      "section": "musgrave-ritual-section_7",
+      "position": 212,
+      "text": "You will excuse me, Musgrave, if I say that your butler appears to me to have been a very clever man, and to have had a clearer insight than ten generations of his masters.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_214",
+      "section": "musgrave-ritual-section_7",
+      "position": 213,
+      "text": "\"'I hardly follow you,' said Musgrave.",
+      "entities": []
+    },
+    {
+      "id": "sentence_215",
+      "section": "musgrave-ritual-section_7",
+      "position": 214,
+      "text": "'The paper seems to me to be of no practical importance.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_216",
+      "section": "musgrave-ritual-section_7",
+      "position": 215,
+      "text": "\"'But to me it seems immensely practical, and I fancy that Brunton took the same view.",
+      "entities": []
+    },
+    {
+      "id": "sentence_217",
+      "section": "musgrave-ritual-section_7",
+      "position": 216,
+      "text": "He had probably seen it before that night on which you caught him.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_218",
+      "section": "musgrave-ritual-section_7",
+      "position": 217,
+      "text": "\"'It is very possible.",
+      "entities": []
+    },
+    {
+      "id": "sentence_219",
+      "section": "musgrave-ritual-section_7",
+      "position": 218,
+      "text": "We took no pains to hide it.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_220",
+      "section": "musgrave-ritual-section_7",
+      "position": 219,
+      "text": "\"'He simply wished, I should imagine, to refresh his memory upon that last occasion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_221",
+      "section": "musgrave-ritual-section_7",
+      "position": 220,
+      "text": "He had, as I understand, some sort of map or chart which he was comparing with the manuscript, and which he thrust into his pocket when you appeared.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_222",
+      "section": "musgrave-ritual-section_7",
+      "position": 221,
+      "text": "\"'That is true.",
+      "entities": []
+    },
+    {
+      "id": "sentence_223",
+      "section": "musgrave-ritual-section_7",
+      "position": 222,
+      "text": "But what could he have to do with this old family custom of ours, and what does this rigmarole mean?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_224",
+      "section": "musgrave-ritual-section_7",
+      "position": 223,
+      "text": "\"'I don't think that we should have much difficulty in determining that,' said I; 'with your permission we will take the first train down to Sussex, and go a little more deeply into the matter upon the spot.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_225",
+      "section": "musgrave-ritual-section_7",
+      "position": 224,
+      "text": "\"The same afternoon saw us both at Hurlstone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_226",
+      "section": "musgrave-ritual-section_7",
+      "position": 225,
+      "text": "Possibly you have seen pictures and read descriptions of the famous old building, so I will confine my account of it to saying that it is built in the shape of an L, the long arm being the more modern portion, and the shorter the ancient nucleus, from which the other had developed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_227",
+      "section": "musgrave-ritual-section_7",
+      "position": 226,
+      "text": "Over the low, heavily-lintelled door, in the centre of this old part, is chiseled the date, 1607, but experts are agreed that the beams and stonework are really much older than this.",
+      "entities": []
+    },
+    {
+      "id": "sentence_228",
+      "section": "musgrave-ritual-section_7",
+      "position": 227,
+      "text": "The enormously thick walls and tiny windows of this part had in the last century driven the family into building the new wing, and the old one was used now as a storehouse and a cellar, when it was used at all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_229",
+      "section": "musgrave-ritual-section_7",
+      "position": 228,
+      "text": "A splendid park with fine old timber surrounds the house, and the lake, to which my client had referred, lay close to the avenue, about two hundred yards from the building.",
+      "entities": []
+    },
+    {
+      "id": "sentence_230",
+      "section": "musgrave-ritual-section_7",
+      "position": 229,
+      "text": "\"I was already firmly convinced, Watson, that there were not three separate mysteries here, but one only, and that if I could read the Musgrave Ritual aright I should hold in my hand the clue which would lead me to the truth concerning both the butler Brunton and the maid Howells.",
+      "entities": []
+    },
+    {
+      "id": "sentence_231",
+      "section": "musgrave-ritual-section_7",
+      "position": 230,
+      "text": "To that then I turned all my energies.",
+      "entities": []
+    },
+    {
+      "id": "sentence_232",
+      "section": "musgrave-ritual-section_7",
+      "position": 231,
+      "text": "Why should this servant be so anxious to master this old formula?",
+      "entities": []
+    },
+    {
+      "id": "sentence_233",
+      "section": "musgrave-ritual-section_7",
+      "position": 232,
+      "text": "Evidently because he saw something in it which had escaped all those generations of country squires, and from which he expected some personal advantage.",
+      "entities": []
+    },
+    {
+      "id": "sentence_234",
+      "section": "musgrave-ritual-section_7",
+      "position": 233,
+      "text": "What was it then, and how had it affected his fate?",
+      "entities": []
+    },
+    {
+      "id": "sentence_235",
+      "section": "musgrave-ritual-section_8",
+      "position": 234,
+      "text": "\"It was perfectly obvious to me, on reading the Ritual, that the measurements must refer to some spot to which the rest of the document alluded, and that if we could find that spot, we should be in a fair way towards finding what the secret was which the old Musgraves had thought it necessary to embalm in so curious a fashion.",
+      "entities": []
+    },
+    {
+      "id": "sentence_236",
+      "section": "musgrave-ritual-section_8",
+      "position": 235,
+      "text": "There were two guides given us to start with, an oak and an elm.",
+      "entities": []
+    },
+    {
+      "id": "sentence_237",
+      "section": "musgrave-ritual-section_8",
+      "position": 236,
+      "text": "As to the oak there could be no question at all.",
+      "entities": []
+    },
+    {
+      "id": "sentence_238",
+      "section": "musgrave-ritual-section_8",
+      "position": 237,
+      "text": "Right in front of the house, upon the left-hand side of the drive, there stood a patriarch among oaks, one of the most magnificent trees that I have ever seen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_239",
+      "section": "musgrave-ritual-section_8",
+      "position": 238,
+      "text": "\"'That was there when your Ritual was drawn up,' said I, as we drove past it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_240",
+      "section": "musgrave-ritual-section_8",
+      "position": 239,
+      "text": "\"'It was there at the Norman Conquest in all probability,' he answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_241",
+      "section": "musgrave-ritual-section_8",
+      "position": 240,
+      "text": "'It has a girth of twenty-three feet.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_242",
+      "section": "musgrave-ritual-section_8",
+      "position": 241,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_243",
+      "section": "musgrave-ritual-section_8",
+      "position": 242,
+      "text": "any old elms?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_244",
+      "section": "musgrave-ritual-section_8",
+      "position": 243,
+      "text": "\"'There used to be a very old one over yonder but it was struck by lightning ten years ago, and we cut down the stump.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_245",
+      "section": "musgrave-ritual-section_8",
+      "position": 244,
+      "text": "\"'You can see where it used to be?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_246",
+      "section": "musgrave-ritual-section_8",
+      "position": 245,
+      "text": "\"'Oh, yes.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_247",
+      "section": "musgrave-ritual-section_8",
+      "position": 246,
+      "text": "\"'There are no other elms?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_248",
+      "section": "musgrave-ritual-section_8",
+      "position": 247,
+      "text": "\"'No old ones, but plenty of beeches.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_249",
+      "section": "musgrave-ritual-section_8",
+      "position": 248,
+      "text": "\"'I should like to see where it grew.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_250",
+      "section": "musgrave-ritual-section_8",
+      "position": 249,
+      "text": "\"We had driven up in a dog-cart, and my client led me away at once, without our entering the house, to the scar on the lawn where the elm had stood.",
+      "entities": []
+    },
+    {
+      "id": "sentence_251",
+      "section": "musgrave-ritual-section_8",
+      "position": 250,
+      "text": "It was nearly midway between the oak and the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_252",
+      "section": "musgrave-ritual-section_8",
+      "position": 251,
+      "text": "My investigation seemed to be progressing.",
+      "entities": []
+    },
+    {
+      "id": "sentence_253",
+      "section": "musgrave-ritual-section_8",
+      "position": 252,
+      "text": "' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_254",
+      "section": "musgrave-ritual-section_8",
+      "position": 253,
+      "text": "e it is impossible to find out how high the elm was?' I asked.",
+      "entities": []
+    },
+    {
+      "id": "sentence_255",
+      "section": "musgrave-ritual-section_8",
+      "position": 254,
+      "text": "\"'I can give you it at once.",
+      "entities": []
+    },
+    {
+      "id": "sentence_256",
+      "section": "musgrave-ritual-section_8",
+      "position": 255,
+      "text": "It was sixty-four feet.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_257",
+      "section": "musgrave-ritual-section_8",
+      "position": 256,
+      "text": "' I asked, in surprise.",
+      "entities": []
+    },
+    {
+      "id": "sentence_258",
+      "section": "musgrave-ritual-section_8",
+      "position": 257,
+      "text": "ow it?' I asked, in surprise.",
+      "entities": []
+    },
+    {
+      "id": "sentence_259",
+      "section": "musgrave-ritual-section_8",
+      "position": 258,
+      "text": "\"'When my old tutor used to give me an exercise in trigonometry, it always took the shape of measuring heights.",
+      "entities": []
+    },
+    {
+      "id": "sentence_260",
+      "section": "musgrave-ritual-section_8",
+      "position": 259,
+      "text": "When I was a lad I worked out every tree and building in the estate.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_261",
+      "section": "musgrave-ritual-section_8",
+      "position": 260,
+      "text": "\"This was an unexpected piece of luck.",
+      "entities": []
+    },
+    {
+      "id": "sentence_262",
+      "section": "musgrave-ritual-section_8",
+      "position": 261,
+      "text": "My data were coming more quickly than I could have reasonably hoped.",
+      "entities": []
+    },
+    {
+      "id": "sentence_263",
+      "section": "musgrave-ritual-section_8",
+      "position": 262,
+      "text": "\"'Tell me,' I asked, 'did your butler ever ask you such a question?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_264",
+      "section": "musgrave-ritual-section_8",
+      "position": 263,
+      "text": "\"Reginald Musgrave looked at me in astonishment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_265",
+      "section": "musgrave-ritual-section_8",
+      "position": 264,
+      "text": "'Now that you call it to my mind,' he answered, 'Brunton _did_ ask me about the height of the tree some months ago, in connection with some little argument with the groom.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_266",
+      "section": "musgrave-ritual-section_8",
+      "position": 265,
+      "text": "\"This was excellent news, Watson, for it showed me that I was on the right road.",
+      "entities": []
+    },
+    {
+      "id": "sentence_267",
+      "section": "musgrave-ritual-section_8",
+      "position": 266,
+      "text": "I looked up at the sun.",
+      "entities": []
+    },
+    {
+      "id": "sentence_268",
+      "section": "musgrave-ritual-section_8",
+      "position": 267,
+      "text": "It was low in the heavens, and I calculated that in less than an hour it would lie just above the topmost branches of the old oak.",
+      "entities": []
+    },
+    {
+      "id": "sentence_269",
+      "section": "musgrave-ritual-section_8",
+      "position": 268,
+      "text": "One condition mentioned in the Ritual would then be fulfilled.",
+      "entities": []
+    },
+    {
+      "id": "sentence_270",
+      "section": "musgrave-ritual-section_8",
+      "position": 269,
+      "text": "And the shadow of the elm must mean the farther end of the shadow, otherwise the trunk would have been chosen as the guide.",
+      "entities": []
+    },
+    {
+      "id": "sentence_271",
+      "section": "musgrave-ritual-section_8",
+      "position": 270,
+      "text": "I had, then, to find where the far end of the shadow would fall when the sun was just clear of the oak.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_272",
+      "section": "musgrave-ritual-section_8",
+      "position": 271,
+      "text": "\"That must have been difficult, Holmes, when the elm was no longer there.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_273",
+      "section": "musgrave-ritual-section_8",
+      "position": 272,
+      "text": "\"Well, at least I knew that if Brunton could do it, I could also.",
+      "entities": []
+    },
+    {
+      "id": "sentence_274",
+      "section": "musgrave-ritual-section_8",
+      "position": 273,
+      "text": "Besides, there was no real difficulty.",
+      "entities": []
+    },
+    {
+      "id": "sentence_275",
+      "section": "musgrave-ritual-section_8",
+      "position": 274,
+      "text": "I went with Musgrave to his study and whittled myself this peg, to which I tied this long string with a knot at each yard.",
+      "entities": []
+    },
+    {
+      "id": "sentence_276",
+      "section": "musgrave-ritual-section_8",
+      "position": 275,
+      "text": "Then I took two lengths of a fishing-rod, which came to just six feet, and I went back with my client to where the elm had been.",
+      "entities": []
+    },
+    {
+      "id": "sentence_277",
+      "section": "musgrave-ritual-section_8",
+      "position": 276,
+      "text": "The sun was just grazing the top of the oak.",
+      "entities": []
+    },
+    {
+      "id": "sentence_278",
+      "section": "musgrave-ritual-section_8",
+      "position": 277,
+      "text": "I fastened the rod on end, marked out the direction of the shadow, and measured it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_279",
+      "section": "musgrave-ritual-section_8",
+      "position": 278,
+      "text": "It was nine feet in length.",
+      "entities": []
+    },
+    {
+      "id": "sentence_280",
+      "section": "musgrave-ritual-section_9",
+      "position": 279,
+      "text": "\"Of course the calculation now was a simple one.",
+      "entities": []
+    },
+    {
+      "id": "sentence_281",
+      "section": "musgrave-ritual-section_9",
+      "position": 280,
+      "text": "If a rod of six feet threw a shadow of nine, a tree of sixty-four feet would throw one of ninety-six, and the line of the one would of course be the line of the other.",
+      "entities": []
+    },
+    {
+      "id": "sentence_282",
+      "section": "musgrave-ritual-section_9",
+      "position": 281,
+      "text": "I measured out the distance, which brought me almost to the wall of the house, and I thrust a peg into the spot.",
+      "entities": []
+    },
+    {
+      "id": "sentence_283",
+      "section": "musgrave-ritual-section_9",
+      "position": 282,
+      "text": "You can imagine my exultation, Watson, when within two inches of my peg I saw a conical depression in the ground.",
+      "entities": []
+    },
+    {
+      "id": "sentence_284",
+      "section": "musgrave-ritual-section_9",
+      "position": 283,
+      "text": "I knew that it was the mark made by Brunton in his measurements, and that I was still upon his trail.",
+      "entities": []
+    },
+    {
+      "id": "sentence_285",
+      "section": "musgrave-ritual-section_9",
+      "position": 284,
+      "text": "\"From this starting-point I proceeded to step, having first taken the cardinal points by my pocket-compass.",
+      "entities": []
+    },
+    {
+      "id": "sentence_286",
+      "section": "musgrave-ritual-section_9",
+      "position": 285,
+      "text": "Ten steps with each foot took me along parallel with the wall of the house, and again I marked my spot with a peg.",
+      "entities": []
+    },
+    {
+      "id": "sentence_287",
+      "section": "musgrave-ritual-section_9",
+      "position": 286,
+      "text": "Then I carefully paced off five to the east and two to the south.",
+      "entities": []
+    },
+    {
+      "id": "sentence_288",
+      "section": "musgrave-ritual-section_9",
+      "position": 287,
+      "text": "It brought me to the very threshold of the old door.",
+      "entities": []
+    },
+    {
+      "id": "sentence_289",
+      "section": "musgrave-ritual-section_9",
+      "position": 288,
+      "text": "Two steps to the west meant now that I was to go two paces down the stone-flagged passage, and this was the place indicated by the Ritual.",
+      "entities": []
+    },
+    {
+      "id": "sentence_290",
+      "section": "musgrave-ritual-section_9",
+      "position": 289,
+      "text": "\"Never have I felt such a cold chill of disappointment, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_291",
+      "section": "musgrave-ritual-section_9",
+      "position": 290,
+      "text": "For a moment it seemed to me that there must be some radical mistake in my calculations.",
+      "entities": []
+    },
+    {
+      "id": "sentence_292",
+      "section": "musgrave-ritual-section_9",
+      "position": 291,
+      "text": "The setting sun shone full upon the passage floor, and I could see that the old, foot-worn grey stones with which it was paved were firmly cemented together, and had certainly not been moved for many a long year.",
+      "entities": []
+    },
+    {
+      "id": "sentence_293",
+      "section": "musgrave-ritual-section_9",
+      "position": 292,
+      "text": "Brunton had not been at work here.",
+      "entities": []
+    },
+    {
+      "id": "sentence_294",
+      "section": "musgrave-ritual-section_9",
+      "position": 293,
+      "text": "I tapped upon the floor, but it sounded the same all over, and there was no sign of any crack or crevice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_295",
+      "section": "musgrave-ritual-section_9",
+      "position": 294,
+      "text": "But, fortunately, Musgrave, who had begun to appreciate the meaning of my proceedings, and who was now as excited as myself, took out his manuscript to check my calculation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_296",
+      "section": "musgrave-ritual-section_9",
+      "position": 295,
+      "text": "\"'And under,' he cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_297",
+      "section": "musgrave-ritual-section_9",
+      "position": 296,
+      "text": "'You have omitted the \"and under.\"'",
+      "entities": []
+    },
+    {
+      "id": "sentence_298",
+      "section": "musgrave-ritual-section_9",
+      "position": 297,
+      "text": "\"I had thought that it meant that we were to dig, but now, of course, I saw at once that I was wrong.",
+      "entities": []
+    },
+    {
+      "id": "sentence_299",
+      "section": "musgrave-ritual-section_9",
+      "position": 298,
+      "text": "' I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_300",
+      "section": "musgrave-ritual-section_9",
+      "position": 299,
+      "text": "a cellar under this then?' I cried.",
+      "entities": []
+    },
+    {
+      "id": "sentence_301",
+      "section": "musgrave-ritual-section_9",
+      "position": 300,
+      "text": "\"'Yes, and as old as the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_302",
+      "section": "musgrave-ritual-section_9",
+      "position": 301,
+      "text": "Down here, through this door.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_303",
+      "section": "musgrave-ritual-section_9",
+      "position": 302,
+      "text": "\"We went down a winding stone stair, and my companion, striking a match, lit a large lantern which stood on a barrel in the corner.",
+      "entities": []
+    },
+    {
+      "id": "sentence_304",
+      "section": "musgrave-ritual-section_9",
+      "position": 303,
+      "text": "In an instant it was obvious that we had at last come upon the true place, and that we had not been the only people to visit the spot recently.",
+      "entities": []
+    },
+    {
+      "id": "sentence_305",
+      "section": "musgrave-ritual-section_9",
+      "position": 304,
+      "text": "\"It had been used for the storage of wood, but the billets, which had evidently been littered over the floor, were now piled at the sides, so as to leave a clear space in the middle.",
+      "entities": []
+    },
+    {
+      "id": "sentence_306",
+      "section": "musgrave-ritual-section_9",
+      "position": 305,
+      "text": "In this space lay a large and heavy flagstone with a rusted iron ring in the centre to which a thick shepherd's-check muffler was attached.",
+      "entities": []
+    },
+    {
+      "id": "sentence_307",
+      "section": "musgrave-ritual-section_9",
+      "position": 306,
+      "text": "' cried my client.",
+      "entities": []
+    },
+    {
+      "id": "sentence_308",
+      "section": "musgrave-ritual-section_9",
+      "position": 307,
+      "text": "'That's Brunton's muffler.",
+      "entities": []
+    },
+    {
+      "id": "sentence_309",
+      "section": "musgrave-ritual-section_9",
+      "position": 308,
+      "text": "I have seen it on him, and could swear to it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_310",
+      "section": "musgrave-ritual-section_9",
+      "position": 309,
+      "text": "ear to it. What has the villain been doing here?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_311",
+      "section": "musgrave-ritual-section_9",
+      "position": 310,
+      "text": "\"At my suggestion a couple of the county police were summoned to be present, and I then endeavoured to raise the stone by pulling on the cravat.",
+      "entities": []
+    },
+    {
+      "id": "sentence_312",
+      "section": "musgrave-ritual-section_9",
+      "position": 311,
+      "text": "I could only move it slightly, and it was with the aid of one of the constables that I succeeded at last in carrying it to one side.",
+      "entities": []
+    },
+    {
+      "id": "sentence_313",
+      "section": "musgrave-ritual-section_9",
+      "position": 312,
+      "text": "A black hole yawned beneath into which we all peered, while Musgrave, kneeling at the side, pushed down the lantern.",
+      "entities": []
+    },
+    {
+      "id": "sentence_314",
+      "section": "musgrave-ritual-section_9",
+      "position": 313,
+      "text": "\"A small chamber about seven feet deep and four feet square lay open to us.",
+      "entities": []
+    },
+    {
+      "id": "sentence_315",
+      "section": "musgrave-ritual-section_9",
+      "position": 314,
+      "text": "At one side of this was a squat, brass-bound wooden box, the lid of which was hinged upwards, with this curious old-fashioned key projecting from the lock.",
+      "entities": []
+    },
+    {
+      "id": "sentence_316",
+      "section": "musgrave-ritual-section_9",
+      "position": 315,
+      "text": "It was furred outside by a thick layer of dust, and damp and worms had eaten through the wood, so that a crop of livid fungi was growing on the inside of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_317",
+      "section": "musgrave-ritual-section_9",
+      "position": 316,
+      "text": "Several discs of metal, old coins apparently, such as I hold here, were scattered over the bottom of the box, but it contained nothing else.",
+      "entities": []
+    },
+    {
+      "id": "sentence_318",
+      "section": "musgrave-ritual-section_10",
+      "position": 317,
+      "text": "\"At the moment, however, we had no thought for the old chest, for our eyes were riveted upon that which crouched beside it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_319",
+      "section": "musgrave-ritual-section_10",
+      "position": 318,
+      "text": "It was the figure of a man, clad in a suit of black, who squatted down upon his hams with his forehead sunk upon the edge of the box and his two arms thrown out on each side of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_320",
+      "section": "musgrave-ritual-section_10",
+      "position": 319,
+      "text": "The attitude had drawn all the stagnant blood to the face, and no man could have recognised that distorted liver-coloured countenance; but his height, his dress, and his hair were all sufficient to show my client, when we had drawn the body up, that it was indeed his missing butler.",
+      "entities": []
+    },
+    {
+      "id": "sentence_321",
+      "section": "musgrave-ritual-section_10",
+      "position": 320,
+      "text": "He had been dead some days, but there was no wound or bruise upon his person to show how he had met his dreadful end.",
+      "entities": []
+    },
+    {
+      "id": "sentence_322",
+      "section": "musgrave-ritual-section_10",
+      "position": 321,
+      "text": "When his body had been carried from the cellar we found ourselves still confronted with a problem which was almost as formidable as that with which we had started.",
+      "entities": []
+    },
+    {
+      "id": "sentence_323",
+      "section": "musgrave-ritual-section_10",
+      "position": 322,
+      "text": "\"I confess that so far, Watson, I had been disappointed in my investigation.",
+      "entities": []
+    },
+    {
+      "id": "sentence_324",
+      "section": "musgrave-ritual-section_10",
+      "position": 323,
+      "text": "I had reckoned upon solving the matter when once I had found the place referred to in the Ritual; but now I was there, and was apparently as far as ever from knowing what it was which the family had concealed with such elaborate precautions.",
+      "entities": []
+    },
+    {
+      "id": "sentence_325",
+      "section": "musgrave-ritual-section_10",
+      "position": 324,
+      "text": "It is true that I had thrown a light upon the fate of Brunton, but now I had to ascertain how that fate had come upon him, and what part had been played in the matter by the woman who had disappeared.",
+      "entities": []
+    },
+    {
+      "id": "sentence_326",
+      "section": "musgrave-ritual-section_10",
+      "position": 325,
+      "text": "I sat down upon a keg in the corner and thought the whole matter carefully over.",
+      "entities": []
+    },
+    {
+      "id": "sentence_327",
+      "section": "musgrave-ritual-section_10",
+      "position": 326,
+      "text": "\"You know my methods in such cases, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_328",
+      "section": "musgrave-ritual-section_10",
+      "position": 327,
+      "text": "I put myself in the man's place and, having first gauged his intelligence, I try to imagine how I should myself have proceeded under the same circumstances.",
+      "entities": []
+    },
+    {
+      "id": "sentence_329",
+      "section": "musgrave-ritual-section_10",
+      "position": 328,
+      "text": "In this case the matter was simplified by Brunton's intelligence being quite first-rate, so that it was unnecessary to make any allowance for the personal equation, as the astronomers have dubbed it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_330",
+      "section": "musgrave-ritual-section_10",
+      "position": 329,
+      "text": "He knew that something valuable was concealed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_331",
+      "section": "musgrave-ritual-section_10",
+      "position": 330,
+      "text": "He had spotted the place.",
+      "entities": []
+    },
+    {
+      "id": "sentence_332",
+      "section": "musgrave-ritual-section_10",
+      "position": 331,
+      "text": "He found that the stone which covered it was just too heavy for a man to move unaided.",
+      "entities": []
+    },
+    {
+      "id": "sentence_333",
+      "section": "musgrave-ritual-section_10",
+      "position": 332,
+      "text": "What would he do next?",
+      "entities": []
+    },
+    {
+      "id": "sentence_334",
+      "section": "musgrave-ritual-section_10",
+      "position": 333,
+      "text": "He could not get help from outside, even if he had some one whom he could trust, without the unbarring of doors and considerable risk of detection.",
+      "entities": []
+    },
+    {
+      "id": "sentence_335",
+      "section": "musgrave-ritual-section_10",
+      "position": 334,
+      "text": "It was better, if he could, to have his helpmate inside the house.",
+      "entities": []
+    },
+    {
+      "id": "sentence_336",
+      "section": "musgrave-ritual-section_10",
+      "position": 335,
+      "text": "But whom could he ask?",
+      "entities": []
+    },
+    {
+      "id": "sentence_337",
+      "section": "musgrave-ritual-section_10",
+      "position": 336,
+      "text": "This girl had been devoted to him.",
+      "entities": []
+    },
+    {
+      "id": "sentence_338",
+      "section": "musgrave-ritual-section_10",
+      "position": 337,
+      "text": "A man always finds it hard to realize that he may have finally lost a woman's love, however badly he may have treated her.",
+      "entities": []
+    },
+    {
+      "id": "sentence_339",
+      "section": "musgrave-ritual-section_10",
+      "position": 338,
+      "text": "He would try by a few attentions to make his peace with the girl Howells, and then would engage her as his accomplice.",
+      "entities": []
+    },
+    {
+      "id": "sentence_340",
+      "section": "musgrave-ritual-section_10",
+      "position": 339,
+      "text": "Together they would come at night to the cellar, and their united force would suffice to raise the stone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_341",
+      "section": "musgrave-ritual-section_10",
+      "position": 340,
+      "text": "So far I could follow their actions as if I had actually seen them.",
+      "entities": []
+    },
+    {
+      "id": "sentence_342",
+      "section": "musgrave-ritual-section_10",
+      "position": 341,
+      "text": "\"But for two of them, and one a woman, it must have been heavy work the raising of that stone.",
+      "entities": []
+    },
+    {
+      "id": "sentence_343",
+      "section": "musgrave-ritual-section_10",
+      "position": 342,
+      "text": "A burly Sussex policeman and I had found it no light job.",
+      "entities": []
+    },
+    {
+      "id": "sentence_344",
+      "section": "musgrave-ritual-section_10",
+      "position": 343,
+      "text": "What would they do to assist them?",
+      "entities": []
+    },
+    {
+      "id": "sentence_345",
+      "section": "musgrave-ritual-section_10",
+      "position": 344,
+      "text": "Probably what I should have done myself.",
+      "entities": []
+    },
+    {
+      "id": "sentence_346",
+      "section": "musgrave-ritual-section_10",
+      "position": 345,
+      "text": "I rose and examined carefully the different billets of wood which were scattered round the floor.",
+      "entities": []
+    },
+    {
+      "id": "sentence_347",
+      "section": "musgrave-ritual-section_10",
+      "position": 346,
+      "text": "Almost at once I came upon what I expected.",
+      "entities": []
+    },
+    {
+      "id": "sentence_348",
+      "section": "musgrave-ritual-section_10",
+      "position": 347,
+      "text": "One piece, about three feet in length, had a very marked indentation at one end, while several were flattened at the sides as if they had been compressed by some considerable weight.",
+      "entities": []
+    },
+    {
+      "id": "sentence_349",
+      "section": "musgrave-ritual-section_10",
+      "position": 348,
+      "text": "Evidently, as they had dragged the stone up they had thrust the chunks of wood into the chink, until at last, when the opening was large enough to crawl through, they would hold it open by a billet placed lengthwise, which might very well become indented at the lower end, since the whole weight of the stone would press it down on to the edge of this other slab.",
+      "entities": []
+    },
+    {
+      "id": "sentence_350",
+      "section": "musgrave-ritual-section_10",
+      "position": 349,
+      "text": "So far I was still on safe ground.",
+      "entities": []
+    },
+    {
+      "id": "sentence_351",
+      "section": "musgrave-ritual-section_11",
+      "position": 350,
+      "text": "\"And now how was I to proceed to reconstruct this midnight drama?",
+      "entities": []
+    },
+    {
+      "id": "sentence_352",
+      "section": "musgrave-ritual-section_11",
+      "position": 351,
+      "text": "Clearly, only one could fit into the hole, and that one was Brunton.",
+      "entities": []
+    },
+    {
+      "id": "sentence_353",
+      "section": "musgrave-ritual-section_11",
+      "position": 352,
+      "text": "The girl must have waited above.",
+      "entities": []
+    },
+    {
+      "id": "sentence_354",
+      "section": "musgrave-ritual-section_11",
+      "position": 353,
+      "text": "Brunton then unlocked the box, handed up the contents presumably—since they were not to be found—and then—and then what happened?",
+      "entities": []
+    },
+    {
+      "id": "sentence_355",
+      "section": "musgrave-ritual-section_11",
+      "position": 354,
+      "text": "\"What smouldering fire of vengeance had suddenly sprung into flame in this passionate Celtic woman's soul when she saw the man who had wronged her—wronged her, perhaps, far more than we suspected—in her power?",
+      "entities": []
+    },
+    {
+      "id": "sentence_356",
+      "section": "musgrave-ritual-section_11",
+      "position": 355,
+      "text": "Was it a chance that the wood had slipped, and that the stone had shut Brunton into what had become his sepulchre?",
+      "entities": []
+    },
+    {
+      "id": "sentence_357",
+      "section": "musgrave-ritual-section_11",
+      "position": 356,
+      "text": "Had she only been guilty of silence as to his fate?",
+      "entities": []
+    },
+    {
+      "id": "sentence_358",
+      "section": "musgrave-ritual-section_11",
+      "position": 357,
+      "text": "Or had some sudden blow from her hand dashed the support away and sent the slab crashing down into its place?",
+      "entities": []
+    },
+    {
+      "id": "sentence_359",
+      "section": "musgrave-ritual-section_11",
+      "position": 358,
+      "text": "Be that as it might, I seemed to see that woman's figure still clutching at her treasure trove and flying wildly up the winding stair, with her ears ringing perhaps with the muffled screams from behind her and with the drumming of frenzied hands against the slab of stone which was choking her faithless lover's life out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_360",
+      "section": "musgrave-ritual-section_11",
+      "position": 359,
+      "text": "\"Here was the secret of her blanched face, her shaken nerves, her peals of hysterical laughter on the next morning.",
+      "entities": []
+    },
+    {
+      "id": "sentence_361",
+      "section": "musgrave-ritual-section_11",
+      "position": 360,
+      "text": "But what had been in the box?",
+      "entities": []
+    },
+    {
+      "id": "sentence_362",
+      "section": "musgrave-ritual-section_11",
+      "position": 361,
+      "text": "What had she done with that?",
+      "entities": []
+    },
+    {
+      "id": "sentence_363",
+      "section": "musgrave-ritual-section_11",
+      "position": 362,
+      "text": "Of course, it must have been the old metal and pebbles which my client had dragged from the mere.",
+      "entities": []
+    },
+    {
+      "id": "sentence_364",
+      "section": "musgrave-ritual-section_11",
+      "position": 363,
+      "text": "She had thrown them in there at the first opportunity to remove the last trace of her crime.",
+      "entities": []
+    },
+    {
+      "id": "sentence_365",
+      "section": "musgrave-ritual-section_11",
+      "position": 364,
+      "text": "\"For twenty minutes I had sat motionless, thinking the matter out.",
+      "entities": []
+    },
+    {
+      "id": "sentence_366",
+      "section": "musgrave-ritual-section_11",
+      "position": 365,
+      "text": "Musgrave still stood with a very pale face, swinging his lantern and peering down into the hole.",
+      "entities": []
+    },
+    {
+      "id": "sentence_367",
+      "section": "musgrave-ritual-section_11",
+      "position": 366,
+      "text": "\"'These are coins of Charles the First,' said he, holding out the few which had been in the box; 'you see we were right in fixing our date for the Ritual.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_368",
+      "section": "musgrave-ritual-section_11",
+      "position": 367,
+      "text": "\"'We may find something else of Charles the First,' I cried, as the probable meaning of the first two questions of the Ritual broke suddenly upon me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_369",
+      "section": "musgrave-ritual-section_11",
+      "position": 368,
+      "text": "'Let me see the contents of the bag which you fished from the mere.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_370",
+      "section": "musgrave-ritual-section_11",
+      "position": 369,
+      "text": "\"We ascended to his study, and he laid the _débris_ before me.",
+      "entities": []
+    },
+    {
+      "id": "sentence_371",
+      "section": "musgrave-ritual-section_11",
+      "position": 370,
+      "text": "I could understand his regarding it as of small importance when I looked at it, for the metal was almost black and the stones lustreless and dull.",
+      "entities": []
+    },
+    {
+      "id": "sentence_372",
+      "section": "musgrave-ritual-section_11",
+      "position": 371,
+      "text": "I rubbed one of them on my sleeve, however, and it glowed afterwards like a spark in the dark hollow of my hand.",
+      "entities": []
+    },
+    {
+      "id": "sentence_373",
+      "section": "musgrave-ritual-section_11",
+      "position": 372,
+      "text": "The metal work was in the form of a double ring, but it had been bent and twisted out of its original shape.",
+      "entities": []
+    },
+    {
+      "id": "sentence_374",
+      "section": "musgrave-ritual-section_11",
+      "position": 373,
+      "text": "\"'You must bear in mind,' said I, 'that the Royal party made head in England even after the death of the King, and that when they at last fled they probably left many of their most precious possessions buried behind them, with the intention of returning for them in more peaceful times.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_375",
+      "section": "musgrave-ritual-section_11",
+      "position": 374,
+      "text": "\"'My ancestor, Sir Ralph Musgrave, was a prominent Cavalier and the right-hand man of Charles the Second in his wanderings,' said my friend.",
+      "entities": []
+    },
+    {
+      "id": "sentence_376",
+      "section": "musgrave-ritual-section_11",
+      "position": 375,
+      "text": "' I answered.",
+      "entities": []
+    },
+    {
+      "id": "sentence_377",
+      "section": "musgrave-ritual-section_11",
+      "position": 376,
+      "text": "'Well now, I think that really should give us the last link that we wanted.",
+      "entities": []
+    },
+    {
+      "id": "sentence_378",
+      "section": "musgrave-ritual-section_11",
+      "position": 377,
+      "text": "at we wanted. I must congratulate you on coming into the possession, though in rather a tragic manner of a relic which is of great intrinsic value, but of even greater importance as an historical curiosity.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_379",
+      "section": "musgrave-ritual-section_11",
+      "position": 378,
+      "text": "' he gasped in astonishment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_380",
+      "section": "musgrave-ritual-section_11",
+      "position": 379,
+      "text": "ed in astonishment.",
+      "entities": []
+    },
+    {
+      "id": "sentence_381",
+      "section": "musgrave-ritual-section_11",
+      "position": 380,
+      "text": "\"'It is nothing less than the ancient crown of the Kings of England.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_382",
+      "section": "musgrave-ritual-section_11",
+      "position": 381,
+      "text": "\"'The crown!'",
+      "entities": []
+    },
+    {
+      "id": "sentence_383",
+      "section": "musgrave-ritual-section_12",
+      "position": 382,
+      "text": "\"'Precisely.",
+      "entities": []
+    },
+    {
+      "id": "sentence_384",
+      "section": "musgrave-ritual-section_12",
+      "position": 383,
+      "text": "Consider what the Ritual says: How does it run?",
+      "entities": []
+    },
+    {
+      "id": "sentence_385",
+      "section": "musgrave-ritual-section_12",
+      "position": 384,
+      "text": "\"Whose was it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_386",
+      "section": "musgrave-ritual-section_12",
+      "position": 385,
+      "text": "\"His who is gone.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_387",
+      "section": "musgrave-ritual-section_12",
+      "position": 386,
+      "text": "That was after the execution of Charles.",
+      "entities": []
+    },
+    {
+      "id": "sentence_388",
+      "section": "musgrave-ritual-section_12",
+      "position": 387,
+      "text": "Then, \"Who shall have it?\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_389",
+      "section": "musgrave-ritual-section_12",
+      "position": 388,
+      "text": "\"He who will come.\"",
+      "entities": []
+    },
+    {
+      "id": "sentence_390",
+      "section": "musgrave-ritual-section_12",
+      "position": 389,
+      "text": "That was Charles the Second, whose advent was already foreseen.",
+      "entities": []
+    },
+    {
+      "id": "sentence_391",
+      "section": "musgrave-ritual-section_12",
+      "position": 390,
+      "text": "There can, I think, be no doubt that this battered and shapeless diadem once encircled the brows of the royal Stuarts.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_392",
+      "section": "musgrave-ritual-section_12",
+      "position": 391,
+      "text": "\"'And how came it in the pond?'",
+      "entities": []
+    },
+    {
+      "id": "sentence_393",
+      "section": "musgrave-ritual-section_12",
+      "position": 392,
+      "text": "' And with that I sketched out to him the whole long chain of surmise and of proof which I had constructed.",
+      "entities": []
+    },
+    {
+      "id": "sentence_394",
+      "section": "musgrave-ritual-section_12",
+      "position": 393,
+      "text": "The twilight had closed in and the moon was shining brightly in the sky before my narrative was finished.",
+      "entities": []
+    },
+    {
+      "id": "sentence_395",
+      "section": "musgrave-ritual-section_12",
+      "position": 394,
+      "text": "hining brightly in the sky before my narrative was finished.",
+      "entities": []
+    },
+    {
+      "id": "sentence_396",
+      "section": "musgrave-ritual-section_12",
+      "position": 395,
+      "text": "' asked Musgrave, pushing back the relic into its linen bag.",
+      "entities": []
+    },
+    {
+      "id": "sentence_397",
+      "section": "musgrave-ritual-section_12",
+      "position": 396,
+      "text": "n he returned?' asked Musgrave, pushing back the relic into its linen bag.",
+      "entities": []
+    },
+    {
+      "id": "sentence_398",
+      "section": "musgrave-ritual-section_12",
+      "position": 397,
+      "text": "\"'Ah, there you lay your finger upon the one point which we shall probably never be able to clear up.",
+      "entities": []
+    },
+    {
+      "id": "sentence_399",
+      "section": "musgrave-ritual-section_12",
+      "position": 398,
+      "text": "It is likely that the Musgrave who held the secret died in the interval, and by some oversight left this guide to his descendant without explaining the meaning of it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_400",
+      "section": "musgrave-ritual-section_12",
+      "position": 399,
+      "text": "From that day to this it has been handed down from father to son, until at last it came within reach of a man who tore its secret out of it and lost his life in the venture.'",
+      "entities": []
+    },
+    {
+      "id": "sentence_401",
+      "section": "musgrave-ritual-section_12",
+      "position": 400,
+      "text": "\"And that's the story of the Musgrave Ritual, Watson.",
+      "entities": []
+    },
+    {
+      "id": "sentence_402",
+      "section": "musgrave-ritual-section_12",
+      "position": 401,
+      "text": "They have the crown down at Hurlstone—though they had some legal bother and a considerable sum to pay before they were allowed to retain it.",
+      "entities": []
+    },
+    {
+      "id": "sentence_403",
+      "section": "musgrave-ritual-section_12",
+      "position": 402,
+      "text": "I am sure that if you mentioned my name they would be happy to show it to you.",
+      "entities": []
+    },
+    {
+      "id": "sentence_404",
+      "section": "musgrave-ritual-section_12",
+      "position": 403,
+      "text": "Of the woman nothing was ever heard, and the probability is that she got away out of England and carried herself and the memory of her crime to some land beyond the seas.\"",
+      "entities": []
+    }
+  ]
+}
