@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import { CopilotKitProvider } from "@copilotkit/react-core/v2";
 import { CopilotSidebar } from "@copilotkit/react-core/v2";
 import "@copilotkit/react-core/v2/styles.css";
-import type { Entity, LexicalGraph, SectionMeta } from "@/lib/types";
+import type { Entity, LexicalGraph, SectionMeta } from "../lib/types";
 
 
 const PROGRESS_KEY = (slug: string) => `sherlock:read:${slug}`;

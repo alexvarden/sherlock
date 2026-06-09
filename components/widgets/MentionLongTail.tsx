@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
-import type { EntitySummary } from "@/lib/canon-types";
+import type { EntitySummary } from "../../lib/canon-types";
 
 interface Props {
   entities: EntitySummary[];

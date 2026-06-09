@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState, useTransition } from "react";
-import type { SearchSentence } from "@/lib/canon-types";
-import { searchCanon } from "@/app/actions/canon-search";
+import type { SearchSentence } from "../../lib/canon-types";
+import { searchCanon } from "../../app/actions/canon-search";
 
 interface Props {
   famousQuoteCounts: Record<string, number>;

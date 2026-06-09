@@ -1,6 +1,6 @@
 "use client";
 
-import type { WorkSummary, FrequencyByType } from "@/lib/canon-types";
+import type { WorkSummary, FrequencyByType } from "../../lib/canon-types";
 
 interface Props {
   works: WorkSummary[];

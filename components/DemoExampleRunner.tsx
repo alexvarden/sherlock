@@ -2,9 +2,9 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import type { DemoExample, LexicalGraph, ObjectiveGraph } from "@/lib/types";
-import { buildCharacterState, getEventsUpTo } from "@/lib/character-state";
-import MiniGraph from "@/components/MiniGraph";
+import type { DemoExample, LexicalGraph, ObjectiveGraph } from "../lib/types";
+import { buildCharacterState, getEventsUpTo } from "../lib/character-state";
+import MiniGraph from "./MiniGraph";
 
 const MODALITY_COLORS: Record<string, string> = {
   OBSERVED: "#22c55e",   // green-500

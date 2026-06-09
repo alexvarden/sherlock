@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import * as d3 from "d3";
-import type { Entity, EntityType, ObjectiveEvent, StateEdge } from "@/lib/types";
+import type { Entity, EntityType, ObjectiveEvent, StateEdge } from "../lib/types";
 
 const NODE_COLORS: Record<EntityType, string> = {
   character: "#e11d48",  // crimson-500 (Crane brand accent)

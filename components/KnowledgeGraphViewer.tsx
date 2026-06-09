@@ -15,7 +15,7 @@ import type {
   StateEdge,
   SectionMeta,
   Modality,
-} from "@/lib/types";
+} from "../lib/types";
 import {
   entityTypes,
   entityTypeById,
@@ -24,8 +24,8 @@ import {
   edgeOpacity,
   edgeDash,
   type LinkKind,
-} from "@/lib/graph-schema";
-import { buildCharacterState, listCharacters } from "@/lib/character-state";
+} from "../lib/graph-schema";
+import { buildCharacterState, listCharacters } from "../lib/character-state";
 
 // ── Constants ─────────────────────────────────────────────────────────────
 

@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { WorkSummary } from "@/lib/canon-types";
-import { IN_UNIVERSE_ORDER } from "@/lib/canon-types";
+import type { WorkSummary } from "../../lib/canon-types";
+import { IN_UNIVERSE_ORDER } from "../../lib/canon-types";
 
 interface Props {
   works: WorkSummary[];

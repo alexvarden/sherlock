@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { TrajectoryWork, TrajectorySegment } from "@/lib/canon-types";
+import type { TrajectoryWork, TrajectorySegment } from "../../lib/canon-types";
 
 interface Props {
   trajectories: TrajectoryWork[];
