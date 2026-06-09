@@ -1,9 +1,17 @@
 {
-  "name": "sherlock",
+  "name": "@crane/sherlock",
   "version": "0.1.0",
   "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./articles": "./articles/index.ts",
+    "./data": "./lib/article-data.ts",
+    "./*": "./components/*"
+  },
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

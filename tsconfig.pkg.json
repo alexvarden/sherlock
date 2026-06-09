@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["index.ts", "articles/**/*.ts", "articles/**/*.tsx", "components/**/*.ts", "components/**/*.tsx", "lib/**/*.ts"],
+  "exclude": ["node_modules", "app", "scripts"]
+}
