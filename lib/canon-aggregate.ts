@@ -3,12 +3,17 @@
 
 import { readFileSync, existsSync } from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import type {
   LexicalGraph,
   ObjectiveGraph,
   StoryMeta,
   Entity,
 } from "./types";
+
+// Resolve data relative to this module (not process.cwd()), so the loaders
+// work whether run from the standalone repo or as the @crane/sherlock package.
+const DATA_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "processed");
 import {
   CANON_SLUGS,
   type CanonData,
@@ -101,7 +106,7 @@ interface LoadedWork {
 }
 
 function loadWork(slug: string): LoadedWork | null {
-  const dir = path.join(process.cwd(), "data/processed", slug);
+  const dir = path.join(DATA_ROOT, slug);
   const meta = readJson<StoryMeta>(path.join(dir, "meta.json"));
   const lexical = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
   const graph = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));

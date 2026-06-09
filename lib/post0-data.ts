@@ -2,7 +2,12 @@
 
 import { readFileSync, existsSync } from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import type { Entity, LexicalGraph, Mention, ObjectiveEvent, ObjectiveGraph } from "./types";
+
+// Resolve data relative to this module (not process.cwd()), so the loaders
+// work whether run from the standalone repo or as the @crane/sherlock package.
+const DATA_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "processed");
 
 // ── Cypher query demos ──────────────────────────────────────────────────
 // Realistic Cypher syntax against the graph schema, with results computed
@@ -29,7 +34,7 @@ const CANON_SLUGS_FOR_CYPHER = [
 function loadAllWorks() {
   return CANON_SLUGS_FOR_CYPHER
     .map((slug) => {
-      const dir = path.join(process.cwd(), "data/processed", slug);
+      const dir = path.join(DATA_ROOT, slug);
       const lex = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
       const obj = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));
       const meta = readJson<{ slug: string; name: string }>(path.join(dir, "meta.json"));
@@ -208,7 +213,7 @@ function readJson<T>(p: string): T | null {
 }
 
 export function loadSamplePassage(): PassageData | null {
-  const dir = path.join(process.cwd(), "data/processed", PASSAGE_SLUG);
+  const dir = path.join(DATA_ROOT, PASSAGE_SLUG);
   const lex = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
   const obj = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));
   if (!lex || !obj) return null;
@@ -315,7 +320,7 @@ export function loadReconciliationData(): ReconciliationData {
   const variantsByName: Map<string, VariantEntry[]> = new Map();
 
   for (const slug of CANON_SLUGS) {
-    const dir = path.join(process.cwd(), "data/processed", slug);
+    const dir = path.join(DATA_ROOT, slug);
     const obj = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));
     if (!obj) continue;
 
