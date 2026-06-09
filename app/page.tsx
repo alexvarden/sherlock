@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import CraneHeader from "@/components/CraneHeader";
 import CraneFooter from "@/components/CraneFooter";
@@ -35,6 +36,16 @@ export default function Home() {
         />
 
         <div className="relative z-10 text-center space-y-8 max-w-xl px-8">
+          <div className="flex justify-center">
+            <Image
+              src="/sherlock-logo.png"
+              alt="Sherlock"
+              width={140}
+              height={140}
+              priority
+              className="drop-shadow-[0_0_30px_rgba(225,29,72,0.4)]"
+            />
+          </div>
           <div className="space-y-2">
             <h1 className="text-5xl font-bold tracking-tight leading-none">Sherlock</h1>
             <p className="text-xs font-mono uppercase tracking-[0.22em] text-crimson-500">

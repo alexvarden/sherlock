@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/sherlock-logo.png" alt="Sherlock" width="120" />
+</p>
+
 # Sherlock — a theory-of-mind knowledge graph
 
 Turning the Sherlock Holmes canon into a graph a character can reason over —
