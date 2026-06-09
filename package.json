@@ -7,6 +7,7 @@
   "exports": {
     ".": "./index.ts",
     "./articles": "./articles/index.ts",
+    "./articles/bodies": "./articles/bodies.tsx",
     "./data": "./lib/article-data.ts",
     "./*": "./components/*"
   },

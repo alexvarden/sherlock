@@ -1,10 +1,8 @@
-import type { ComponentType } from "react";
-import HowTheCanonBecameData from "./how-the-canon-became-data";
-
-// The Sherlock content manifest. This package is the single source of truth for
-// its own articles — the host app (crane-ai) merges this list into its article
-// registry and renders `Body` inside its shell. Entries without a `Body` are
-// announced/draft posts not yet authored; the host falls back to a placeholder.
+// The Sherlock content manifest — pure, serialisable metadata only.
+// SAFE to import from anywhere, including client components. Article *bodies*
+// (which read fs at build time) live in ./bodies and must only be imported
+// from a server component. The host app (crane-ai) merges this list into its
+// article registry and resolves the body separately for rendering.
 export type SherlockArticle = {
   slug: string;
   title: string;
@@ -14,8 +12,6 @@ export type SherlockArticle = {
   publishedAt: string | null;
   readingTime: number;
   tags: string[];
-  /** Shell-agnostic article body (async server component). Absent = not yet written. */
-  Body?: ComponentType;
 };
 
 export const sherlockArticles: SherlockArticle[] = [
@@ -29,7 +25,6 @@ export const sherlockArticles: SherlockArticle[] = [
     publishedAt: null,
     readingTime: 16,
     tags: ["graphs", "ingest", "pipelines"],
-    Body: HowTheCanonBecameData,
   },
   {
     slug: "lexical-graphs",
