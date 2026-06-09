@@ -17,7 +17,9 @@ export function getDriver(): Driver {
 }
 
 export function getSession(): Session {
-  return getDriver().session({ database: "neo4j" });
+  // Local Docker uses "neo4j"; Aura names the db after the instance id, so
+  // honour NEO4J_DATABASE when set (see .env).
+  return getDriver().session({ database: process.env.NEO4J_DATABASE ?? "neo4j" });
 }
 
 export async function closeDriver(): Promise<void> {

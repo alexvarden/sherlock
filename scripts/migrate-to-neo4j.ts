@@ -1,8 +1,9 @@
 import neo4j from "neo4j-driver";
-import { readFileSync, existsSync, readdirSync, statSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import path from "path";
 import type { EntityType, LexicalGraph, ObjectiveGraph, StoryMeta } from "../lib/types";
 import { entityTypes } from "../lib/graph-schema";
+import { CANON_SLUGS } from "../lib/canon-types";
 
 const driver = neo4j.driver(
   process.env.NEO4J_URI ?? "bolt://localhost:7687",
@@ -239,16 +240,18 @@ async function migrateStory(
 }
 
 async function main() {
-  const session = driver.session({ database: "neo4j" });
+  const session = driver.session({ database: process.env.NEO4J_DATABASE ?? "neo4j" });
   try {
     await clearDatabase(session);
     console.log("Setting up indexes…");
     await setupIndexes(session);
 
     const dataDir = path.join(process.cwd(), "data/processed");
-    const slugs = readdirSync(dataDir).filter((name) =>
-      statSync(path.join(dataDir, name)).isDirectory()
-    );
+    // Load the canon only — never the calibration variants (-600w/-3000w/-mini/
+    // -nano) or Sally-Anne fixtures. CANON_SLUGS is the single source of truth
+    // shared with the article loaders (lib/canon-types.ts).
+    const slugs = CANON_SLUGS;
+    console.log(`Loading ${slugs.length} canon works…`);
 
     for (const slug of slugs) {
       const dir = path.join(dataDir, slug);

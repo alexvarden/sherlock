@@ -10,7 +10,7 @@ const driver = neo4j.driver(
 );
 
 async function main() {
-  const session = driver.session({ database: "neo4j" });
+  const session = driver.session({ database: process.env.NEO4J_DATABASE ?? "neo4j" });
   try {
     console.log("Clearing all nodes and relationships...");
     await session.run("MATCH (n) DETACH DELETE n");
