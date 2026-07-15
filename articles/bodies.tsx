@@ -1,5 +1,5 @@
 import type { ComponentType } from "react";
-import HowTheCanonBecameData from "./how-the-canon-became-data";
+import TheGameIsAfoot from "./the-game-is-afoot";
 
 // SERVER-ONLY. Maps article slug → body component. The bodies read fs at build
 // time (static JSON), so this module must never reach a client bundle — import
@@ -7,5 +7,5 @@ import HowTheCanonBecameData from "./how-the-canon-became-data";
 // for the same articles lives in ./index (client-safe). Slugs without an entry
 // here are draft/announced posts the host renders with a placeholder.
 export const articleBodies: Record<string, ComponentType> = {
-  "how-the-canon-became-data": HowTheCanonBecameData,
+  "the-game-is-afoot": TheGameIsAfoot,
 };

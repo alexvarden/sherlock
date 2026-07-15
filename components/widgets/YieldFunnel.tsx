@@ -27,24 +27,24 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
 
   const stages: Stage[] = [
     {
-      label: "Words",
+      label: "Books",
       layer: "raw source",
-      value: totalWords,
-      unit: "words",
+      value: works.length,
+      unit: "books",
       colour: "#5c5252",
       description: "Project Gutenberg plain text. Headers stripped, paragraphs preserved.",
     },
     {
-      label: "Sections",
-      layer: "Layer 1 · lexical",
+      label: "Paragraphs",
+      layer: "lexical",
       value: totalSections,
-      unit: "sections",
+      unit: "paragraphs",
       colour: "#7a6e6e",
-      description: "Chapters and scenes with stable IDs.",
+      description: "Paragraph chunks with stable IDs.",
     },
     {
       label: "Sentences",
-      layer: "Layer 1 · lexical",
+      layer: "lexical",
       value: totalSentences,
       unit: "sentences",
       colour: "#a19a9a",
@@ -52,7 +52,7 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
     },
     {
       label: "Entities",
-      layer: "Layer 2 · objective",
+      layer: "entity extraction",
       value: totalEntities,
       unit: "entities",
       colour: "#e11d48",
@@ -60,7 +60,7 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
     },
     {
       label: "Events",
-      layer: "Layer 2 · objective",
+      layer: "entity extraction",
       value: totalEvents,
       unit: "events",
       colour: "#fb7185",
@@ -68,7 +68,7 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
     },
     {
       label: "Mentions",
-      layer: "Layer 2 · objective",
+      layer: "entity extraction",
       value: totalMentions,
       unit: "mentions",
       colour: "#a855f7",
@@ -76,7 +76,7 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
     },
     {
       label: "Cases",
-      layer: "Layer 2 · objective",
+      layer: "entity extraction",
       value: totalCases,
       unit: "cases",
       colour: "#f59e0b",
@@ -127,8 +127,8 @@ export default function YieldFunnel({ works, frequency, totalEntities, totalEven
       </div>
 
       <div className="mt-4 pt-4 border-t border-dark-800 text-xs text-dark-500 leading-relaxed">
-        Each row is the canon-wide total at that stage of the pipeline. The bar lengths are scaled to the largest value (words),
-        so the lower rows look thin — but each is still tens of thousands of citation-grounded facts.
+        Each row is the canon-wide total at that stage of the pipeline. The bar lengths are scaled to the largest
+        value (sentences), so some rows look thin — but each is still thousands of citation-grounded facts.
       </div>
     </div>
   );

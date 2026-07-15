@@ -8,11 +8,15 @@ export {
   loadSamplePassage,
   loadReconciliationData,
   loadCypherDemos,
+  loadSampleClue,
+  loadGraphViewerData,
 } from "./post0-data";
 
 export type {
   PassageData,
   ReconciliationData,
   CypherDemo,
+  SampleClue,
+  GraphViewerData,
 } from "./post0-data";
 export type { CanonData } from "./canon-types";

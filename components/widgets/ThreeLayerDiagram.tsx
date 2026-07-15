@@ -8,52 +8,31 @@ interface Layer {
   number: number;
   name: string;
   tagline: string;
-  mode: string;
-  modeColour: string;
   colour: string;
   primitives: string[];
-  example: { label: string; value: string };
 }
 
 const LAYERS: Layer[] = [
   {
     number: 1,
-    name: "Lexical",
-    tagline: "Every sentence positioned, every section catalogued. Immutable.",
-    mode: "Deterministic",
-    modeColour: "#10b981",
+    name: "Lexical Graph",
+    tagline: "breaks books down into sentences, paragraphs, and gives each a unique addressable ID.",
     colour: "#7a6e6e",
-    primitives: ["sentences", "sections", "global position"],
-    example: {
-      label: "sentence_3 · pos 2",
-      value: "“It is with a heavy heart that I take up my pen…”",
-    },
+    primitives: ["book", "paragraphs", "sentences"],
   },
   {
     number: 2,
-    name: "Objective",
+    name: "Entity Extraction",
     tagline: "What happened, where, who was there — extracted, citation-grounded.",
-    mode: "LLM-extracted",
-    modeColour: "#a855f7",
     colour: "#e11d48",
-    primitives: ["entities", "events", "state edges", "mentions", "clues"],
-    example: {
-      label: "event_1_9",
-      value: "Holmes arrives in Watson’s consulting-room · cites sentence_14",
-    },
+    primitives: ["character", "actions", "mentions", "clues", "items", "locations"],
   },
   {
     number: 3,
     name: "Character state",
-    tagline: "What anyone knew, at any point. Derived; never stored.",
-    mode: "Computed at query time",
-    modeColour: "#06b6d4",
+    tagline: "What anyone knew, at any point. Derived from entity extraction data at query time.",
     colour: "#a855f7",
     primitives: ["observations", "beliefs", "deductions"],
-    example: {
-      label: "Watson @ sentence_14",
-      value: "knows: Holmes is in the room. Doesn’t yet know: Holmes is on the run.",
-    },
   },
 ];
 
@@ -85,18 +64,12 @@ export default function ThreeLayerDiagram() {
                 <h3 className="text-base font-semibold" style={{ color: layer.colour }}>
                   {layer.name}
                 </h3>
-                <span
-                  className="text-[10px] font-mono uppercase tracking-[0.15em] px-2 py-0.5 rounded"
-                  style={{ color: layer.modeColour, backgroundColor: `${layer.modeColour}15` }}
-                >
-                  {layer.mode}
-                </span>
               </div>
 
               <p className="text-sm text-dark-300 mb-3 leading-relaxed">{layer.tagline}</p>
 
               {/* Primitive chips */}
-              <div className="flex flex-wrap gap-1.5 mb-3">
+              <div className="flex flex-wrap gap-1.5">
                 {layer.primitives.map((p) => (
                   <span
                     key={p}
@@ -105,17 +78,6 @@ export default function ThreeLayerDiagram() {
                     {p}
                   </span>
                 ))}
-              </div>
-
-              {/* Concrete example */}
-              <div
-                className="rounded p-3 border border-dark-800 bg-dark-950/60 text-xs leading-relaxed"
-              >
-                <div className="font-mono text-[10px] uppercase tracking-[0.15em] text-dark-500 mb-1">
-                  Example value at this layer
-                </div>
-                <div className="font-mono text-dark-400 mb-1">{layer.example.label}</div>
-                <div className="text-dark-200">{layer.example.value}</div>
               </div>
             </div>
 
@@ -133,25 +95,6 @@ export default function ThreeLayerDiagram() {
             )}
           </div>
         ))}
-      </div>
-
-      {/* The rule that holds it together */}
-      <div className="mt-6 p-4 rounded border border-crimson-500/30 bg-crimson-500/5 flex gap-4 items-start">
-        <div className="shrink-0 w-1 h-12 rounded bg-crimson-500" />
-        <div>
-          <p className="text-xs font-mono uppercase tracking-[0.15em] text-crimson-400 mb-1">
-            The rule that holds it together
-          </p>
-          <p className="text-sm text-dark-200 leading-relaxed">
-            The graph stores <span className="text-dark-100 font-medium">reality</span>, not{" "}
-            <span className="text-dark-100 font-medium">knowledge</span>. Belief, perception, what-anyone-knew —
-            those live in Layer 3, computed at query time. A validator forbids cognitive predicates
-            (<code className="font-mono text-crimson-300 text-xs">BELIEVES</code>,{" "}
-            <code className="font-mono text-crimson-300 text-xs">KNOWS</code>,{" "}
-            <code className="font-mono text-crimson-300 text-xs">knownBy</code>) anywhere in Layer 2.
-            If you don&apos;t enforce this rule, the whole system gets fuzzy and you&apos;re back to vector search.
-          </p>
-        </div>
       </div>
     </div>
   );

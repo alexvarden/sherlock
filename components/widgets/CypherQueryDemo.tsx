@@ -48,11 +48,8 @@ export default function CypherQueryDemo({ demos }: Props) {
       {/* Header */}
       <div className="border-b border-dark-800 px-6 py-3 flex flex-wrap items-baseline gap-3">
         <p className="text-xs font-mono uppercase tracking-[0.15em] text-crimson-400">
-          Live · Cypher
+          Graph Queries  
         </p>
-        <span className="text-xs text-dark-500">
-          Queries are real. Results are computed in-browser from the same data that lives in Neo4j after migration.
-        </span>
       </div>
 
       {/* Query selector */}
