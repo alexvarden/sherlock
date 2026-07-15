@@ -57,11 +57,15 @@ export default function DemoExampleRunner({
   example,
   objective,
   lexical,
+  queryUrl = "/api/query",
+  graphBasePath = "/graph",
 }: {
   slug: string;
   example: DemoExample;
   objective: ObjectiveGraph;
   lexical: LexicalGraph | null;
+  queryUrl?: string;
+  graphBasePath?: string;
 }) {
   const [open, setOpen] = useState(false);
   const [showCypher, setShowCypher] = useState(false);
@@ -105,7 +109,7 @@ export default function DemoExampleRunner({
     setError(null);
     setAnswer(null);
     try {
-      const res = await fetch("/api/query", {
+      const res = await fetch(queryUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -171,7 +175,7 @@ export default function DemoExampleRunner({
                       subgraph · {graphEntities.length} entities · {visibleEvents.length} events
                     </p>
                     <Link
-                      href={`/graph?story=${slug}&section=${example.section}&character=${example.character}`}
+                      href={`${graphBasePath}?story=${slug}&section=${example.section}&character=${example.character}`}
                       className="text-xs text-crimson-400 hover:text-crimson-300 transition-colors font-medium"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -293,7 +297,7 @@ export default function DemoExampleRunner({
               </button>
               <span className="text-dark-700 text-xs">·</span>
               <Link
-                href={`/graph?story=${slug}`}
+                href={`${graphBasePath}?story=${slug}`}
                 className="text-xs text-dark-500 hover:text-dark-200 transition-colors"
               >
                 view in graph →

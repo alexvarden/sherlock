@@ -26,10 +26,12 @@ export default function StoryReader({
   slug,
   lexical,
   charactersBySection,
+  runtimeUrl = "/api/copilotkit",
 }: {
   slug: string;
   lexical: LexicalGraph;
   charactersBySection: Record<string, Entity[]>;
+  runtimeUrl?: string;
 }) {
   const { sections, nodes } = lexical;
   const [currentSectionId, setCurrentSectionId] = useState<string>(sections[0]?.id ?? "");
@@ -194,7 +196,7 @@ export default function StoryReader({
       {chat && (
         <CopilotKitProvider
           key={`${chat.characterId}:${chat.sectionId}`}
-          runtimeUrl="/api/copilotkit"
+          runtimeUrl={runtimeUrl}
           headers={{
             "x-story-slug": slug,
             "x-character-id": chat.characterId,

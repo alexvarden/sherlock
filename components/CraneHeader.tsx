@@ -10,10 +10,12 @@ export default function CraneHeader({
   crumbs = [],
   right,
   children,
+  homeHref = "/",
 }: {
   crumbs?: Crumb[];
   right?: ReactNode;
   children?: ReactNode;
+  homeHref?: string;
 }) {
   return (
     <header
@@ -35,7 +37,7 @@ export default function CraneHeader({
 
       <span className="mx-2.5 text-dark-700 shrink-0">/</span>
       <Link
-        href="/"
+        href={homeHref}
         className="text-sm font-medium text-dark-400 hover:text-dark-200 transition-colors shrink-0"
       >
         Sherlock
