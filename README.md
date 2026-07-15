@@ -34,7 +34,7 @@ The source text is Arthur Conan Doyle's canon, which is in the public domain.
   character-perspective filter, live Cypher).
 - `/demo` — character Q&A via graph traversal (no embeddings).
 - `/read` — a perspective-aware reader: talk to the book as you go.
-- `/post0` — the first article with its embedded, interactive widgets.
+- `/the-game-is-afoot` — the first article with its embedded, interactive widgets.
 - `scripts/` — the ingest pipeline (lexical → objective) and the Neo4j migration.
 
 ## Running it locally

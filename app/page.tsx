@@ -9,8 +9,8 @@ export default function Home() {
       <CraneHeader
         right={
           <nav className="flex items-center gap-1">
-            <Link href="/post0" className="text-xs text-dark-400 hover:text-dark-100 px-3 py-1.5 rounded hover:bg-dark-800/60 transition-colors">
-              Post 0
+            <Link href="/the-game-is-afoot" className="text-xs text-dark-400 hover:text-dark-100 px-3 py-1.5 rounded hover:bg-dark-800/60 transition-colors">
+              Article
             </Link>
             <Link href="/analysis" className="text-xs text-dark-400 hover:text-dark-100 px-3 py-1.5 rounded hover:bg-dark-800/60 transition-colors">
               Analysis

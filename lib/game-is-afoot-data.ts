@@ -1,4 +1,4 @@
-// ── Data feeders for the /post0 visual aids (server-side) ───────────────
+// ── Data feeders for the-game-is-afoot visual aids (server-side) ───────
 
 import { readFileSync, existsSync } from "fs";
 import path from "path";

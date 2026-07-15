@@ -76,7 +76,7 @@ export default async function TheGameIsAfoot() {
       {/* ── Hook ──────────────────────────────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-crimson-400">
-          Post 0 · Methods
+          Methods
         </p>
         <h1 className="text-4xl sm:text-5xl font-semibold leading-tight">
           The Game is aFoot

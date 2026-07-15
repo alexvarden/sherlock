@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { PassageData } from "../../lib/post0-data";
+import type { PassageData } from "../../lib/game-is-afoot-data";
 
 interface Props {
   passage: PassageData;

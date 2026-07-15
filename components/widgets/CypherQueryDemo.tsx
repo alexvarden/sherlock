@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { CypherDemo } from "../../lib/post0-data";
+import type { CypherDemo } from "../../lib/game-is-afoot-data";
 
 interface Props {
   demos: CypherDemo[];
