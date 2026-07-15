@@ -1,4 +1,4 @@
-// ── Data feeders for the /post0 visual aids (server-side) ───────────────
+// ── Data feeders for the-game-is-afoot visual aids (server-side) ───────
 
 import { readFileSync, existsSync } from "fs";
 import path from "path";
@@ -275,6 +275,58 @@ export function loadSamplePassage(): PassageData | null {
     sentences,
     entities,
     events,
+  };
+}
+
+// ── Full work data for the embedded KnowledgeGraphViewer ────────────────
+// The article embeds the real /graph viewer scoped to The Final Problem.
+// Same committed JSON the passage loaders use — no Neo4j needed.
+
+export interface GraphViewerData {
+  slug: string;
+  lexical: LexicalGraph;
+  objective: ObjectiveGraph;
+}
+
+export function loadGraphViewerData(): GraphViewerData | null {
+  const dir = path.join(DATA_ROOT, PASSAGE_SLUG);
+  const lexical = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
+  const objective = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));
+  if (!lexical || !objective) return null;
+  return { slug: PASSAGE_SLUG, lexical, objective };
+}
+
+// ── Sample clue: Mortimer's walking stick, opening of Hound ─────────────
+// The first clue extracted from the canon's most famous opening scene:
+// Holmes reading the visitor's stick. Resolves the cited sentences to text.
+
+export interface SampleClue {
+  objectLabel: string;
+  caseLabel: string;
+  discoveredByLabel: string;
+  significance: string;
+  sentences: { id: string; text: string }[];
+}
+
+export function loadSampleClue(): SampleClue | null {
+  const dir = path.join(DATA_ROOT, "hound-of-the-baskervilles");
+  const lex = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
+  const obj = readJson<ObjectiveGraph>(path.join(dir, "objective-graph.json"));
+  if (!lex || !obj || obj.clues.length === 0) return null;
+
+  const clue = obj.clues[0];
+  const entityLabel = (id: string) =>
+    obj.entities.find((e) => e.id === id)?.label ?? id;
+  const nodeText = new Map(lex.nodes.map((n) => [n.id, n.text]));
+
+  return {
+    objectLabel: entityLabel(clue.object),
+    caseLabel: entityLabel(clue.case),
+    discoveredByLabel: entityLabel(clue.discovered_by),
+    significance: clue.significance,
+    sentences: clue.source_nodes
+      .filter((id) => nodeText.has(id))
+      .map((id) => ({ id, text: nodeText.get(id)! })),
   };
 }
 

@@ -16,8 +16,8 @@ export type SherlockArticle = {
 
 export const sherlockArticles: SherlockArticle[] = [
   {
-    slug: "how-the-canon-became-data",
-    title: "How the canon became data",
+    slug: "the-game-is-afoot",
+    title: "The Game is aFoot — Ingesting the works of Sherlock Holmes",
     projectId: "sherlock",
     orderInProject: 1,
     excerpt:

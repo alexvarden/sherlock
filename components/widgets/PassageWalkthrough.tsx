@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { PassageData } from "../../lib/post0-data";
+import type { PassageData } from "../../lib/game-is-afoot-data";
 
 interface Props {
   passage: PassageData;
@@ -135,15 +135,15 @@ export default function PassageWalkthrough({ passage }: Props) {
                 : "border-transparent text-dark-500 hover:text-dark-300"
             }`}
           >
-            {t === "lexical" && "Layer 1 · Lexical"}
-            {t === "objective" && "Layer 2 · Objective"}
+            {t === "lexical" && "Lexical Graph"}
+            {t === "objective" && "Entity Extraction"}
             {t === "citations" && "Reverse · Citations"}
           </button>
         ))}
       </div>
 
       {/* Body */}
-      <div className="p-6">
+      <div className="p-6 max-h-[480px] overflow-y-auto">
         {tab === "lexical" && (
           <div className="space-y-2">
             <p className="text-xs text-dark-500 mb-3">
@@ -240,10 +240,40 @@ export default function PassageWalkthrough({ passage }: Props) {
 
         {tab === "citations" && (
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="space-y-2">
-              <p className="text-xs text-dark-500 mb-2">
-                Click any structured fact to see the sentence(s) it was derived from. The graph is reversible.
-              </p>
+            <div className="space-y-4">
+        
+
+            <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-dark-500 mt-3 mb-1">
+                Entities
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+                {passage.entities.map((e) => {
+                    const active = e.id === highlightedEntityId;
+                    const colour = TYPE_COLOURS[e.type] ?? "#999";
+                    return (
+                        <button
+                            key={e.id}
+                            onClick={() => {
+                                setHighlightedEntityId(e.id);
+                                const sids = new Set<string>();
+                                for (const s of passage.sentences) {
+                                    if (s.entityIds.includes(e.id)) sids.add(s.id);
+                                }
+                                setHighlightedCitations(sids);
+                            }}
+                            className="text-[11px] px-2 py-0.5 rounded transition-colors border"
+                            style={{
+                                color: active ? "#fff" : colour,
+                                backgroundColor: active ? colour : `${colour}15`,
+                                borderColor: active ? colour : `${colour}55`,
+                            }}
+                        >
+                            {e.label}
+                        </button>
+                    );
+                })}
+            </div>
+
               <div className="space-y-1">
                 <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-dark-500 mt-2 mb-1">
                   Events
@@ -264,39 +294,9 @@ export default function PassageWalkthrough({ passage }: Props) {
                     </button>
                   );
                 })}
-                <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-dark-500 mt-3 mb-1">
-                  Entities
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {passage.entities.map((e) => {
-                    const active = e.id === highlightedEntityId;
-                    const colour = TYPE_COLOURS[e.type] ?? "#999";
-                    return (
-                      <button
-                        key={e.id}
-                        onClick={() => {
-                          setHighlightedEntityId(e.id);
-                          const sids = new Set<string>();
-                          for (const s of passage.sentences) {
-                            if (s.entityIds.includes(e.id)) sids.add(s.id);
-                          }
-                          setHighlightedCitations(sids);
-                        }}
-                        className="text-[11px] px-2 py-0.5 rounded transition-colors border"
-                        style={{
-                          color: active ? "#fff" : colour,
-                          backgroundColor: active ? colour : `${colour}15`,
-                          borderColor: active ? colour : `${colour}55`,
-                        }}
-                      >
-                        {e.label}
-                      </button>
-                    );
-                  })}
-                </div>
               </div>
             </div>
-            <div className="space-y-1.5">
+            <div className="space-y-1.5 max-h-[420px] overflow-y-auto pr-1">
               {passage.sentences.map((s) => {
                 const lit = highlightedCitations.has(s.id);
                 return (

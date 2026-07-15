@@ -1,4 +1,4 @@
-// ── Server-only data barrel for the Post 0 article page ──────────────────
+// ── Server-only data barrel for the-game-is-afoot article page ───────────
 // Exposed as `@crane/sherlock/data`. These loaders read static JSON from
 // data/processed via fs — never import this from a client component. The
 // widgets (the package's "." entry) are the client-side counterpart.
@@ -8,11 +8,15 @@ export {
   loadSamplePassage,
   loadReconciliationData,
   loadCypherDemos,
-} from "./post0-data";
+  loadSampleClue,
+  loadGraphViewerData,
+} from "./game-is-afoot-data";
 
 export type {
   PassageData,
   ReconciliationData,
   CypherDemo,
-} from "./post0-data";
+  SampleClue,
+  GraphViewerData,
+} from "./game-is-afoot-data";
 export type { CanonData } from "./canon-types";

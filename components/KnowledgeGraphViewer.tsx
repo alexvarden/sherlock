@@ -26,6 +26,7 @@ import {
   type LinkKind,
 } from "../lib/graph-schema";
 import { buildCharacterState, listCharacters } from "../lib/character-state";
+import ZoomControls from "./ZoomControls";
 
 // ── Constants ─────────────────────────────────────────────────────────────
 
@@ -73,12 +74,20 @@ export default function KnowledgeGraphViewer({
   objective,
   initialSection,
   initialCharacter,
+  embedded = false,
+  autoPlay = false,
 }: {
   slug: string;
   lexical: LexicalGraph;
   objective: ObjectiveGraph | null;
   initialSection?: string;
   initialCharacter?: string;
+  // embedded: article-friendly chrome — no Cypher strip, no reading pane,
+  // no global keyboard capture. The graph, filters, and timeline remain.
+  embedded?: boolean;
+  // autoPlay: walk the playhead through the story sentence by sentence,
+  // assembling the graph as it goes. Any manual scrub pauses it.
+  autoPlay?: boolean;
 }) {
   const svgRef = useRef<SVGSVGElement>(null);
   const zoomBehaviorRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
@@ -148,8 +157,10 @@ export default function KnowledgeGraphViewer({
     });
   }, []);
 
-  // Keyboard nav — arrows step by whole section.
+  // Keyboard nav — arrows step by whole section. Disabled when embedded in
+  // an article: capturing the page's arrow keys there is hostile.
   useEffect(() => {
+    if (embedded) return;
     const handler = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight" || e.key === "ArrowDown") {
         goToSection(currentIdx + 1);
@@ -159,7 +170,33 @@ export default function KnowledgeGraphViewer({
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [goToSection, currentIdx]);
+  }, [goToSection, currentIdx, embedded]);
+
+  // Auto-play — glide the playhead through the story. Pauses at the end or
+  // on any manual interaction with the timeline.
+  const [playing, setPlaying] = useState(autoPlay);
+  useEffect(() => {
+    if (!playing) return;
+    const id = setInterval(() => {
+      setSentenceIdx((i) => {
+        if (i >= totalSentences - 1) {
+          setPlaying(false);
+          return i;
+        }
+        return i + 1;
+      });
+    }, 60);
+    return () => clearInterval(id);
+  }, [playing, totalSentences]);
+
+  const pauseAndScrub = useCallback((idx: number) => {
+    setPlaying(false);
+    setSentenceIdx(idx);
+  }, []);
+  const pauseAndGoToSection = useCallback((idx: number) => {
+    setPlaying(false);
+    goToSection(idx);
+  }, [goToSection]);
 
   // ── Derived data ──────────────────────────────────────────────────────
   const sectionIdToIdx = useMemo(() => {
@@ -504,6 +541,10 @@ export default function KnowledgeGraphViewer({
   } | null>(null);
   const decayTimerRef = useRef<number | null>(null);
   const initialFitDoneRef = useRef(false);
+  // Once the user pans/zooms by hand, the camera stops auto-following the
+  // visible nodes until a replay resets it.
+  const userZoomedRef = useRef(false);
+  const lastAutoFitRef = useRef<{ x: number; y: number; k: number } | null>(null);
   // Pre-computed positions for every entity & event in the full graph. We run
   // a hidden force simulation once at mount to settle the whole layout, then
   // place each node at its slot when it actually enters the visible set. This
@@ -548,7 +589,12 @@ export default function KnowledgeGraphViewer({
         if (event.type === "wheel") return event.ctrlKey || event.metaKey;
         return !event.button;
       })
-      .on("zoom", (event) => root.attr("transform", event.transform));
+      .on("zoom", (event) => {
+        root.attr("transform", event.transform);
+        // sourceEvent is only set for real user gestures, not programmatic
+        // transforms — that's the signal to stop auto-following.
+        if (event.sourceEvent) userZoomedRef.current = true;
+      });
     svg.call(zoom);
     zoomBehaviorRef.current = zoom;
 
@@ -690,24 +736,12 @@ export default function KnowledgeGraphViewer({
     }
     precomputedPositionsRef.current = positions;
 
-    // Fit viewport to the full extent of the layout so the canvas size feels
-    // stable across the whole story rather than zooming as nodes arrive.
-    const xs = fullNodes.map((n) => n.x ?? 0);
-    const ys = fullNodes.map((n) => n.y ?? 0);
-    if (xs.length > 0) {
-      const minX = Math.min(...xs);
-      const maxX = Math.max(...xs);
-      const minY = Math.min(...ys);
-      const maxY = Math.max(...ys);
-      const bw = Math.max(1, maxX - minX);
-      const bh = Math.max(1, maxY - minY);
-      const padding = 80;
-      const scale = Math.min((width - padding) / bw, (height - padding) / bh, 2);
-      const tx = width / 2 - scale * (minX + bw / 2);
-      const ty = height / 2 - scale * (minY + bh / 2);
-      svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-      initialFitDoneRef.current = true;
-    }
+    // The camera does NOT fit to the full-story extent here — that leaves the
+    // opening sentences looking tiny and lost in empty space. Instead the
+    // diff-update pass auto-fits to whichever nodes are currently visible:
+    // instantly on first paint, then gliding out as the story grows.
+    userZoomedRef.current = false;
+    lastAutoFitRef.current = null;
 
     return () => {
       if (decayTimerRef.current !== null) {
@@ -1098,6 +1132,46 @@ export default function KnowledgeGraphViewer({
       // Tiny tick so re-classified edges (active ↔ past) repaint correctly.
       sim.alpha(Math.max(sim.alpha(), 0.01)).restart();
     }
+
+    // ── Auto-fit camera to the visible neighbourhood ──────────────────
+    // Bounds come from the precomputed slots (each node's final resting
+    // place), so the camera target is stable even while the simulation is
+    // still settling. Instant on first paint, a slow glide afterwards, and
+    // hands-off entirely once the user has zoomed or panned manually.
+    const zoomBehavior = zoomBehaviorRef.current;
+    if (!userZoomedRef.current && next.size > 0 && zoomBehavior) {
+      let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+      for (const n of next.values()) {
+        const p = precomputedPositionsRef.current.get(n.id) ?? { x: n.x ?? width / 2, y: n.y ?? height / 2 };
+        if (p.x < minX) minX = p.x;
+        if (p.x > maxX) maxX = p.x;
+        if (p.y < minY) minY = p.y;
+        if (p.y > maxY) maxY = p.y;
+      }
+      // Floor the box so one or two nodes don't get zoomed into a close-up.
+      const bw = Math.max(240, maxX - minX);
+      const bh = Math.max(240, maxY - minY);
+      const padding = 110;
+      const scale = Math.max(0.2, Math.min((width - padding) / bw, (height - padding) / bh, 1.25));
+      const tx = width / 2 - scale * ((minX + maxX) / 2);
+      const ty = height / 2 - scale * ((minY + maxY) / 2);
+      const last = lastAutoFitRef.current;
+      const moved =
+        !last ||
+        Math.abs(scale - last.k) / last.k > 0.03 ||
+        Math.hypot(tx - last.x, ty - last.y) > 24;
+      if (moved) {
+        lastAutoFitRef.current = { x: tx, y: ty, k: scale };
+        const transform = d3.zoomIdentity.translate(tx, ty).scale(scale);
+        const svgSel = d3.select(svgEl);
+        if (!initialFitDoneRef.current) {
+          initialFitDoneRef.current = true;
+          svgSel.call(zoomBehavior.transform, transform);
+        } else {
+          svgSel.transition("autofit").duration(750).call(zoomBehavior.transform, transform);
+        }
+      }
+    }
   }, [
     visibleEntities,
     visibleEvents,
@@ -1119,8 +1193,54 @@ export default function KnowledgeGraphViewer({
   }, [objective, currentSection, sections]);
 
   // ── Render ────────────────────────────────────────────────────────────
+  const perspectiveSelect = (
+    <select
+      value={selectedCharacterId ?? ""}
+      onChange={(e) => setSelectedCharacterId(e.target.value || null)}
+      className="text-xs bg-dark-900 border border-dark-700 text-dark-200 rounded px-2 py-1 focus:outline-none focus:border-crimson-500"
+    >
+      <option value="">All perspectives</option>
+      {characters.map((c) => (
+        <option key={c.id} value={c.id}>{c.label}</option>
+      ))}
+    </select>
+  );
+
   return (
     <div className="flex flex-col h-full bg-dark-950 text-dark-100">
+      {/* Embedded header — a play control prominent enough to invite a first
+          click, with the perspective filter alongside it. */}
+      {embedded && (
+        <div className="flex items-center gap-4 px-4 py-3 border-b border-dark-800 shrink-0 flex-wrap">
+          <button
+            onClick={() => {
+              if (!playing && sentenceIdx >= totalSentences - 1) {
+                setSentenceIdx(0);
+                userZoomedRef.current = false;
+                lastAutoFitRef.current = null;
+              }
+              setPlaying((p) => !p);
+            }}
+            className="flex items-center gap-2.5 px-5 py-2.5 rounded-lg bg-crimson-500/15 border border-crimson-500/60 text-crimson-300 hover:bg-crimson-500/25 hover:text-crimson-200 transition-colors text-sm font-semibold"
+          >
+            {playing ? (
+              <svg width="13" height="13" viewBox="0 0 14 14" fill="currentColor" aria-hidden>
+                <rect x="2" y="1.5" width="3.5" height="11" rx="1" />
+                <rect x="8.5" y="1.5" width="3.5" height="11" rx="1" />
+              </svg>
+            ) : (
+              <svg width="13" height="13" viewBox="0 0 14 14" fill="currentColor" aria-hidden>
+                <path d="M3 1.8v10.4c0 .9 1 1.5 1.8 1L13 8.2c.8-.5.8-1.6 0-2.1L4.8.9C4 .4 3 1 3 1.8z" />
+              </svg>
+            )}
+            {playing ? "Pause" : sentenceIdx >= totalSentences - 1 ? "Replay the story" : "Play the story"}
+          </button>
+          <label className="flex items-center gap-2 text-xs text-dark-500">
+            Perspective
+            {perspectiveSelect}
+          </label>
+        </div>
+      )}
       {/* Top bar */}
       <div className="flex items-center gap-2 px-4 py-2 border-b border-dark-800 flex-wrap shrink-0">
         <span className="text-xs text-dark-500 mr-1">Type:</span>
@@ -1188,28 +1308,23 @@ export default function KnowledgeGraphViewer({
           />
           Past edges
         </label>
-        <div className="ml-auto flex items-center gap-3">
-          <select
-            value={selectedCharacterId ?? ""}
-            onChange={(e) => setSelectedCharacterId(e.target.value || null)}
-            className="text-xs bg-dark-900 border border-dark-700 text-dark-200 rounded px-2 py-1 focus:outline-none focus:border-crimson-500"
-          >
-            <option value="">All perspectives</option>
-            {characters.map((c) => (
-              <option key={c.id} value={c.id}>{c.label}</option>
-            ))}
-          </select>
-          <span className="text-xs text-dark-600">← → step · ⌘/ctrl-scroll zoom · drag nodes</span>
-        </div>
+        {!embedded && (
+          <div className="ml-auto flex items-center gap-3">
+            {perspectiveSelect}
+            <span className="text-xs text-dark-600">← → step · ⌘/ctrl-scroll zoom · drag nodes</span>
+          </div>
+        )}
       </div>
 
       {/* Live Cypher query */}
-      <CypherDisplay
-        slug={slug}
-        selectedCharacterId={selectedCharacterId}
-        selectedCharacter={selectedCharacter}
-        currentIdx={currentIdx}
-      />
+      {!embedded && (
+        <CypherDisplay
+          slug={slug}
+          selectedCharacterId={selectedCharacterId}
+          selectedCharacter={selectedCharacter}
+          currentIdx={currentIdx}
+        />
+      )}
 
       {/* Middle */}
       <div className="flex flex-1 overflow-hidden">
@@ -1226,11 +1341,15 @@ export default function KnowledgeGraphViewer({
           {objective && (
             <>
               <ZoomControls
-                onFit={() => fitToBoundsRef.current?.()}
+                onFit={() => {
+                  userZoomedRef.current = true;
+                  fitToBoundsRef.current?.();
+                }}
                 onZoom={(factor) => {
                   const svg = svgRef.current;
                   const zoom = zoomBehaviorRef.current;
                   if (!svg || !zoom) return;
+                  userZoomedRef.current = true;
                   d3.select(svg).transition().duration(200).call(zoom.scaleBy, factor);
                 }}
               />
@@ -1252,25 +1371,27 @@ export default function KnowledgeGraphViewer({
         </div>
 
         {/* Right: detail / section / states */}
-        <div className="w-80 border-l border-dark-800 overflow-y-auto shrink-0">
-          {selectedEntity ? (
-            <EntityDetail
-              entity={selectedEntity}
-              objective={objective}
-              currentIdx={currentIdx}
-              sectionIdToIdx={sectionIdToIdx}
-              onClose={() => setSelectedEntity(null)}
-            />
-          ) : (
-            <SectionDetail
-              lexicalNodes={sectionLexicalNodes}
-              sectionEvents={sectionEvents}
-              characterStates={characterStates}
-              objective={objective}
-              section={currentSection}
-            />
-          )}
-        </div>
+        {!embedded && (
+          <div className="w-80 border-l border-dark-800 overflow-y-auto shrink-0">
+            {selectedEntity ? (
+              <EntityDetail
+                entity={selectedEntity}
+                objective={objective}
+                currentIdx={currentIdx}
+                sectionIdToIdx={sectionIdToIdx}
+                onClose={() => setSelectedEntity(null)}
+              />
+            ) : (
+              <SectionDetail
+                lexicalNodes={sectionLexicalNodes}
+                sectionEvents={sectionEvents}
+                characterStates={characterStates}
+                objective={objective}
+                section={currentSection}
+              />
+            )}
+          </div>
+        )}
       </div>
 
       {/* Timeline scrubber */}
@@ -1285,8 +1406,8 @@ export default function KnowledgeGraphViewer({
         eventCountPerSection={eventCountPerSection}
         eventTicks={eventTicks}
         thumbPct={thumbPct}
-        onScrub={setSentenceIdx}
-        onSelectSection={goToSection}
+        onScrub={pauseAndScrub}
+        onSelectSection={pauseAndGoToSection}
       />
     </div>
   );
@@ -1626,23 +1747,6 @@ function KnowledgeRow({ item }: { item: { id: string; description: string; modal
 }
 
 // ── Zoom controls overlay ────────────────────────────────────────────────────
-
-function ZoomControls({
-  onFit,
-  onZoom,
-}: {
-  onFit: () => void;
-  onZoom: (factor: number) => void;
-}) {
-  const btn = "w-7 h-7 flex items-center justify-center rounded-md bg-dark-900/85 hover:bg-dark-800 border border-dark-800 text-dark-300 hover:text-dark-100 transition-colors text-sm";
-  return (
-    <div className="absolute top-3 right-3 flex flex-col gap-1 z-10">
-      <button onClick={() => onZoom(1.4)} className={btn} title="Zoom in">+</button>
-      <button onClick={() => onZoom(1 / 1.4)} className={btn} title="Zoom out">−</button>
-      <button onClick={onFit} className={btn} title="Fit to view">⌂</button>
-    </div>
-  );
-}
 
 // ── Timeline scrubber ────────────────────────────────────────────────────────
 

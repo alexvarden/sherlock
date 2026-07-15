@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { PassageData } from "../../lib/post0-data";
+import type { PassageData } from "../../lib/game-is-afoot-data";
 
 interface Props {
   passage: PassageData;
@@ -11,7 +11,7 @@ const TYPE_COLOURS: Record<string, string> = {
   character: "#e11d48",
   location: "#a855f7",
   object: "#7a6e6e",
-  case: "#f59e0b",
+  case: "#22c55e",
   document: "#06b6d4",
   organisation: "#10b981",
 };
@@ -25,6 +25,10 @@ export default function LexicalGraphView({ passage }: Props) {
 
   // Show the first 8 sentences for clarity
   const sentences = useMemo(() => passage.sentences.slice(0, 8), [passage.sentences]);
+
+  const [selectedSentenceId, setSelectedSentenceId] = useState<string | null>(
+    sentences[0]?.id ?? null
+  );
 
   const featuredEntities = useMemo(
     () => FEATURED_ENTITY_IDS
@@ -56,7 +60,7 @@ export default function LexicalGraphView({ passage }: Props) {
 
   const layoutWidth =
     PADDING * 2 + SECTION_FRAME_PAD * 2 + sentences.length * SENTENCE_NODE_W + (sentences.length - 1) * SENTENCE_GAP;
-  const layoutHeight = PADDING + ENTITY_ROW_HEIGHT + ENTITY_GAP_TO_SENTENCES + SECTION_FRAME_PAD * 2 + SENTENCE_NODE_H + PADDING + 40;
+  const layoutHeight = PADDING + ENTITY_ROW_HEIGHT + ENTITY_GAP_TO_SENTENCES + SECTION_FRAME_PAD * 2 + SENTENCE_NODE_H + PADDING;
 
   const sentenceY = PADDING + ENTITY_ROW_HEIGHT + ENTITY_GAP_TO_SENTENCES + SECTION_FRAME_PAD;
   const sentencePositions = sentences.map((_, i) => ({
@@ -119,15 +123,6 @@ export default function LexicalGraphView({ passage }: Props) {
             strokeWidth={1}
             strokeDasharray="3 3"
           />
-          <text
-            x={sectionFrame.x + 8}
-            y={sectionFrame.y + sectionFrame.h + 16}
-            fill="#7a6e6e"
-            fontFamily="var(--font-mono)"
-            fontSize={10}
-          >
-            section · grouping by chapter/scene
-          </text>
 
           {/* ── Positional edges between adjacent sentences ─────────────── */}
           {sentenceCenters.slice(0, -1).map((c, i) => {
@@ -216,7 +211,7 @@ export default function LexicalGraphView({ passage }: Props) {
                   textAnchor="middle"
                   style={{ pointerEvents: "none" }}
                 >
-                  Layer 2 · {ent.type}
+                  Entity · {ent.type}
                 </text>
               </g>
             );
@@ -226,6 +221,7 @@ export default function LexicalGraphView({ passage }: Props) {
           {sentences.map((s, i) => {
             const pos = sentencePositions[i];
             const isHovered = hoveredSentenceId === s.id;
+            const isSelected = selectedSentenceId === s.id;
             const dim =
               (hoveredEntityId && !(mentionsByEntity.get(hoveredEntityId)?.has(s.id))) ?? false;
             return (
@@ -234,6 +230,7 @@ export default function LexicalGraphView({ passage }: Props) {
                 style={{ cursor: "pointer" }}
                 onMouseEnter={() => setHoveredSentenceId(s.id)}
                 onMouseLeave={() => setHoveredSentenceId(null)}
+                onClick={() => setSelectedSentenceId(s.id)}
               >
                 <rect
                   x={pos.x}
@@ -241,29 +238,18 @@ export default function LexicalGraphView({ passage }: Props) {
                   width={SENTENCE_NODE_W}
                   height={SENTENCE_NODE_H}
                   rx={4}
-                  fill={isHovered ? "#262323" : "#1c1a1a"}
-                  stroke={isHovered ? "#e11d48" : "#433f3f"}
-                  strokeWidth={isHovered ? 1.5 : 1}
+                  fill={isSelected ? "#e11d48" : isHovered ? "#262323" : "#1c1a1a"}
+                  stroke={isSelected ? "#e11d48" : isHovered ? "#e11d48" : "#433f3f"}
+                  strokeWidth={isSelected || isHovered ? 1.5 : 1}
                   opacity={dim ? 0.35 : 1}
                 />
                 <text
                   x={pos.x + SENTENCE_NODE_W / 2}
-                  y={pos.y + 16}
-                  fontFamily="var(--font-mono)"
-                  fontSize={9}
-                  fill="#a19a9a"
-                  textAnchor="middle"
-                  style={{ pointerEvents: "none" }}
-                >
-                  pos {s.position}
-                </text>
-                <text
-                  x={pos.x + SENTENCE_NODE_W / 2}
-                  y={pos.y + 32}
+                  y={pos.y + SENTENCE_NODE_H / 2 + 4}
                   fontFamily="var(--font-mono)"
                   fontSize={9}
                   fontWeight={500}
-                  fill="#d7c9c9"
+                  fill={isSelected ? "#ffffff" : "#d7c9c9"}
                   textAnchor="middle"
                   style={{ pointerEvents: "none" }}
                 >
@@ -275,11 +261,11 @@ export default function LexicalGraphView({ passage }: Props) {
         </svg>
       </div>
 
-      {/* Hover detail panel */}
+      {/* Hover / selection detail panel */}
       <div className="min-h-[78px] p-4 rounded bg-dark-950/60 border border-dark-800">
-        {hoveredSentenceId ? (
+        {hoveredSentenceId || (!hoveredEntityId && selectedSentenceId) ? (
           (() => {
-            const s = sentences.find((x) => x.id === hoveredSentenceId);
+            const s = sentences.find((x) => x.id === (hoveredSentenceId ?? selectedSentenceId));
             if (!s) return null;
             return (
               <div className="space-y-2">
@@ -322,31 +308,7 @@ export default function LexicalGraphView({ passage }: Props) {
               </div>
             );
           })()
-        ) : (
-          <p className="text-sm text-dark-500 italic">
-            Hover a sentence node to read it. Hover an entity to see which sentences cite it.
-          </p>
-        )}
-      </div>
-
-      {/* Legend */}
-      <div className="flex flex-wrap gap-5 text-[10px] font-mono text-dark-500">
-        <span className="flex items-center gap-1.5">
-          <svg width="16" height="6">
-            <line x1="0" y1="3" x2="14" y2="3" stroke="#5c5252" strokeWidth="1.2" markerEnd="url(#lg-pos-arrow)" />
-          </svg>
-          positional edge · ordering
-        </span>
-        <span className="flex items-center gap-1.5">
-          <svg width="16" height="6">
-            <line x1="0" y1="3" x2="14" y2="3" stroke="#a19a9a" strokeWidth="1.2" strokeDasharray="3 2" />
-          </svg>
-          mention edge · entity → sentence
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="inline-block w-3 h-3 rounded-sm border border-dashed border-dark-600" />
-          section frame · grouping
-        </span>
+        ) : null}
       </div>
     </div>
   );

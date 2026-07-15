@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { ReconciliationData, ReconciliationCluster } from "../../lib/post0-data";
+import type { ReconciliationData, ReconciliationCluster } from "../../lib/game-is-afoot-data";
 
 interface Props {
   data: ReconciliationData;
@@ -55,7 +55,7 @@ export default function ReconciliationDiagram({ data }: Props) {
               : "border-transparent text-dark-500 hover:text-dark-300"
           }`}
         >
-          The merge case — Sherlock Holmes
+          Merge — Sherlock Holmes
         </button>
         <button
           onClick={() => setTab("collision")}
@@ -65,7 +65,7 @@ export default function ReconciliationDiagram({ data }: Props) {
               : "border-transparent text-dark-500 hover:text-dark-300"
           }`}
         >
-          The collision case — Hudson
+          Collision — Hudson
         </button>
       </div>
 

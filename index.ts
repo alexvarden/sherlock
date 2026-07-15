@@ -1,4 +1,4 @@
-// Post 0 widgets
+// The Game is aFoot widgets
 export { default as ThreeLayerDiagram } from './components/widgets/ThreeLayerDiagram';
 export { default as LexicalHierarchy } from './components/widgets/LexicalHierarchy';
 export { default as LexicalGraphView } from './components/widgets/LexicalGraphView';

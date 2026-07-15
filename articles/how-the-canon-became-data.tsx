@@ -6,26 +6,53 @@ import PassageWalkthrough from "../components/widgets/PassageWalkthrough";
 import ReconciliationDiagram from "../components/widgets/ReconciliationDiagram";
 import YieldFunnel from "../components/widgets/YieldFunnel";
 import ExtractionDensity from "../components/widgets/ExtractionDensity";
-import MentionLongTail from "../components/widgets/MentionLongTail";
+import PresenceStrip from "../components/widgets/PresenceStrip";
+import CitationScoreboard from "../components/widgets/CitationScoreboard";
+import CoOccurrenceNetwork from "../components/widgets/CoOccurrenceNetwork";
+import TrajectoryTracker from "../components/widgets/TrajectoryTracker";
+import IngestLoopDiagram from "../components/widgets/IngestLoopDiagram";
+import KnowledgeGraphViewer from "../components/KnowledgeGraphViewer";
 import {
   loadSamplePassage,
   loadReconciliationData,
   loadCypherDemos,
   loadCanonData,
+  loadSampleClue,
+  loadGraphViewerData,
 } from "../lib/article-data";
 
 // Shell-agnostic article body. The host app (crane-ai) supplies <Header/>,
 // reading-tracker, and the <main> wrapper; this component owns everything
 // inside the article. Data is read from committed static JSON at build time —
 // no live Neo4j query is needed to render the article.
+//
+// NOTE: content is intentionally kept as outline-level bullets, not finished
+// prose. Structure and facts first; voice pass comes later.
 export default async function HowTheCanonBecameData() {
   const passage = loadSamplePassage();
   const reconciliation = loadReconciliationData();
   const cypherDemos = loadCypherDemos();
   const canon = loadCanonData();
+  const clue = loadSampleClue();
+  const graphData = loadGraphViewerData();
 
   const totalSentences = canon.works.reduce((s, w) => s + w.sentenceCount, 0);
   const totalSections = canon.works.reduce((s, w) => s + w.sectionCount, 0);
+  const totalWords = canon.works.reduce((s, w) => s + w.wordCount, 0);
+  const totalEvents = canon.works.reduce((s, w) => s + w.eventCount, 0);
+
+  const byWordCount = [...canon.works].sort((a, b) => b.wordCount - a.wordCount);
+
+  const famousQuoteCounts: Record<string, number> = {};
+  for (const q of ["elementary, my dear watson", "the game is afoot", "you know my methods"]) {
+    const needle = q.toLowerCase();
+    famousQuoteCounts[q] = canon.sentences.reduce(
+      (n, s) => n + (s.text.toLowerCase().includes(needle) ? 1 : 0),
+      0
+    );
+  }
+
+  const bullet = "text-dark-200 leading-relaxed max-w-3xl list-disc pl-5 space-y-2";
 
   return (
     <article className="space-y-24">
@@ -36,111 +63,158 @@ export default async function HowTheCanonBecameData() {
           Post 0 · Methods
         </p>
         <h1 className="text-4xl sm:text-5xl font-semibold leading-tight">
-          How the canon became data.
+          The Game is aFoot
+          <span className="block text-xl sm:text-2xl font-normal text-dark-400 mt-2">
+            Ingesting the adventures of Sherlock Holmes
+          </span>
         </h1>
-        <p className="text-dark-200 text-lg leading-relaxed max-w-3xl">
-          Here&apos;s the dream. You open a Sherlock Holmes story to chapter four, you ask Dr Watson what he makes of the
-          case so far, and you get an answer that&apos;s actually grounded in the page you&apos;re on. Not a paraphrase. Not
-          a guess. Not <em>“based on similar passages in your training data…”</em>
-        </p>
-        <p className="text-dark-200 text-lg leading-relaxed max-w-3xl">
-          The catch: that takes structure the books don&apos;t ship with. Doyle wrote prose, not data. He published 60-odd
-          stories between 1887 and 1927, all sitting on Project Gutenberg as plain text. Turning that text into something
-          a system can <em>reason</em> over — that&apos;s the job. This post is how we did it for the Holmes canon.
-        </p>
-        <div className="mono text-xs text-dark-500 pt-2">
-          <span>“Data, data, data — I cannot make bricks without clay.”</span>
-          <span className="ml-2 text-dark-600">— Holmes, <em>The Copper Beeches</em></span>
-        </div>
+        <ul className={bullet}>
+          <li>Star Trek: Data runs a holodeck program as Sherlock Holmes, interacting with characters inside the stories.</li>
+          <li>Question: is that buildable now? Step into 221B Baker Street, work a case with Holmes.</li>
+          <li>An LLM has read the Doyle canon. Not the same as being reliable about it — it answers fluently, and guesses when it doesn&apos;t know.</li>
+          <li>Before that&apos;s possible, need a system that can point at the text, not paraphrase it. This post: building that substrate.</li>
+        </ul>
+        <blockquote className="border-l-2 border-crimson-400 pl-4 pt-2">
+          <span className="block text-lg sm:text-xl italic text-dark-100 leading-snug">
+            “Data, data, data — I cannot make bricks without clay.”
+          </span>
+          <span className="mono text-xs text-dark-400 mt-2 block">
+            — Holmes, <em>The Copper Beeches</em>
+          </span>
+        </blockquote>
       </section>
 
-      {/* ── §1: Why the obvious answers don't work ────────────────────── */}
+      {/* ── 1: Why the obvious answers don't work ────────────────────── */}
       <section className="space-y-4">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §1 · Why the obvious answers don&apos;t work
+          1 · Why the obvious answers don&apos;t work
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          Three things you might try first. None of them survive contact with the actual problem.
+          Getting the clay: ingest the whole canon
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          <span className="text-dark-100 font-medium">Vector search.</span> Embed every paragraph, run cosine similarity at
-          query time, hand the top-K chunks to an LLM and call it RAG. This is fine if the question is &ldquo;summarise
-          the part where Holmes meets Moriarty.&rdquo; It falls apart the moment you ask something precise. <em>Where was
-          Watson at chapter 7 of Hound?</em> The retriever has no idea what &ldquo;chapter 7&rdquo; means; the LLM cheerfully invents an answer.
+        <ul className={bullet}>
+          <li>Public domain, Project Gutenberg: {totalWords.toLocaleString()} words across {canon.works.length} works.</li>
+        </ul>
+        <div className="space-y-1.5 max-w-3xl">
+          {byWordCount.map((w) => {
+            const widthPct = (w.wordCount / byWordCount[0].wordCount) * 100;
+            return (
+              <div key={w.slug} className="flex items-center gap-3">
+                <div className="w-40 text-xs truncate text-dark-200" title={w.name}>
+                  <em>{w.name}</em>
+                </div>
+                <div className="flex-1 h-5 bg-dark-950/60 rounded border border-dark-800 relative overflow-hidden">
+                  <div
+                    className="absolute inset-y-0 left-0 bg-crimson-500/70"
+                    style={{ width: `${widthPct}%` }}
+                  />
+                </div>
+                <div className="w-16 text-xs text-dark-400 text-right tabular-nums mono">
+                  {(w.wordCount / 1000).toFixed(0)}k
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <p className="text-xs text-dark-500 leading-relaxed max-w-3xl">
+          Four novels, thirteen short stories. The novels are five to eight times the length of a story — a split
+          that shows up again later in extraction density.
         </p>
+        <h3 className="text-lg font-semibold text-dark-100 pt-2">Three possible approaches:</h3>
+        <div className="space-y-4 max-w-3xl">
+          {[
+            {
+              n: "01",
+              title: "Full canon in a long context window.",
+              body: "Expensive. Still no positional grounding. Doesn\u2019t scale past one author.",
+            },
+            {
+              n: "02",
+              title: "Vector search.",
+              body: "Embed paragraphs, cosine similarity at query time. Works for vague asks (\u201csummarise the Moriarty meeting\u201d). Fails on precise ones \u2014 \u201cwhere was Watson at paragraph 7 of Hound?\u201d No concept of position or perspective.",
+            },
+            {
+              n: "03",
+              title: "Fine-tune on the canon.",
+              body: "Bakes in every spoiler. Can\u2019t ask \u201cwhat does this character know at paragraph 4\u201d \u2014 model knows every ending at training time.",
+            },
+          ].map((item) => (
+            <div key={item.n} className="flex gap-4 items-start">
+              <span className="mono text-xl sm:text-2xl font-bold text-crimson-400/40 leading-none tabular-nums">
+                {item.n}
+              </span>
+              <p className="text-dark-200 leading-relaxed pt-1">
+                <span className="text-dark-100 font-medium">{item.title}</span> {item.body}
+              </p>
+            </div>
+          ))}
+        </div>
         <p className="text-dark-200 leading-relaxed max-w-3xl">
-          <span className="text-dark-100 font-medium">Stuff the whole canon into a million-token context window.</span>
-          Possible. Expensive. Still doesn&apos;t solve the precision problem — the model has the text, but no concept of
-          position, ordering, or who could have known what at what point. Plus it doesn&apos;t scale: nice for one author, useless for a library.
-        </p>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          <span className="text-dark-100 font-medium">Fine-tune a model on the canon.</span> Now you&apos;ve baked in every
-          spoiler. There&apos;s no way to ask &ldquo;what does this character know <em>at chapter 4</em>&rdquo; — by training time, the
-          model knows the ending of every story at once. Useful for Doyle pastiche, useless for in-story reasoning.
-        </p>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          What&apos;s missing from all three is <span className="text-dark-100 font-medium">addressability</span>. You
-          can&apos;t ask precise questions of a text the system can&apos;t point at. The fix is to build the address space
-          first, then layer meaning on top. That&apos;s what the rest of this post is about.
+          Missing in all three: <span className="text-dark-100 font-medium">addressability</span>. Fix: build the address space first, layer meaning on top after.
         </p>
       </section>
 
-      {/* ── §2: Three layers, one rule ────────────────────────────────── */}
+      {/* ── 2: Three layers, one rule ────────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §2 · Three layers, one rule
+          2 · Three layers, one rule
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          The architecture is small enough to fit on a postcard.
+          Architecture
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Three layers. Each has one job. Don&apos;t mix them. The lexical layer holds the text exactly as Doyle wrote it.
-          The objective layer extracts the things and the happenings. The character-state layer is where perspective lives —
-          and it&apos;s computed at query time, never stored.
-        </p>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          There&apos;s one rule that holds the whole thing together, and it&apos;s in the diagram below.
-        </p>
+        <ul className={bullet}>
+          <li>Lexical → objective → character state. Each layer one job, not mixed.</li>
+          <li>Lexical: text exactly as Doyle wrote it.</li>
+          <li>Objective: extracted things and happenings.</li>
+          <li>Character state: perspective, computed at query time, never stored.</li>
+          <li>The rule: <span className="text-dark-100 font-medium">the graph stores reality, not knowledge.</span> Belief exists only in the character-state layer.</li>
+        </ul>
         <ThreeLayerDiagram />
+
       </section>
 
-      {/* ── §3a: The lexical graph — shape and hierarchy ──────────────── */}
+      {/* ── 3a: The lexical graph — shape and hierarchy ──────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §3 · The lexical graph
+          3 · The lexical graph
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          An address space made of sentences.
+          Address space made of sentences
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          The lexical layer is the substrate everything else points back to. It&apos;s a directed graph — not a list,
-          not a vector index, not a tree. Sentences are the atomic nodes. Every one of them has a stable ID and a global
-          position in its work. Above them sit sections, then works, then the author at the root.
-        </p>
+        <h3 className="text-lg font-semibold text-dark-100 pt-2">Generally</h3>
+        <ul className={bullet}>
+          <li>A lexical graph represents text as nodes and edges instead of a flat string or a bag of embeddings.</li>
+          <li>Nodes are lexical units — words, sentences, paragraphs. Edges encode relationships between them: sequence (what comes next), containment (what paragraph a unit belongs to), reference (what a unit is about, once something points back at it).</li>
+          <li>The payoff: once text is a graph, you traverse it — step to the next node, step up to a parent, step across a reference edge — instead of embedding it and measuring distance.</li>
+        </ul>
+        <h3 className="text-lg font-semibold text-dark-100 pt-4">Here</h3>
+        <ul className={bullet}>
+          <li>Directed graph: three edge types on one set of nodes — positional (sentence → next sentence), containment (sentence → paragraph), and, after entity extraction runs, mention (entity → sentence).</li>
+          <li>Sentences = atomic nodes. Stable ID + global position.</li>
+          <li>Above sentences: paragraphs, then works, then author at root.</li>
+        </ul>
         <LexicalHierarchy
           workCount={canon.works.length}
           sectionCount={totalSections}
           sentenceCount={totalSentences}
         />
         <p className="text-dark-300 leading-relaxed max-w-3xl">
-          The nesting is just the address space. Every layer above lexical cites at the sentence level —
+          Nesting = address space. Every layer above cites at sentence level —
           <code className="mono text-dark-200 mx-1">final-problem/section_1/sentence_3</code>
-          is enough to find the exact line, in the exact section, of the exact story. That precision is what makes
-          citation-grounded querying possible.
+          finds the exact line. That precision is what makes citation-grounded querying possible.
         </p>
       </section>
 
-      {/* ── §3b: Why graph, not tree ─────────────────────────────────── */}
+      {/* ── 3b: The payoff of addressability ──────────────────────────── */}
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold tracking-tight">
-          Why &ldquo;graph,&rdquo; not &ldquo;tree.&rdquo;
+          Now every sentence is an address, entities can tag onto it
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          A tree is just containment — parent to child, one way. What we&apos;ve actually got is a graph with multiple
-          edge types: sentences chain to the next sentence in order, sentences belong to a section, and (once Layer 2
-          runs) entities point back into every sentence they&apos;re named in. That last set of edges is what makes the
-          substrate queryable in interesting ways. It&apos;s easier to show than describe.
-        </p>
+        <ul className={bullet}>
+          <li>Every sentence already has a stable ID and position. Entity extraction tags entities onto that same namespace — a mention attaches to a sentence ID, not to a raw character offset in a blob of text.</li>
+          <li>Once entities are addressable coordinates rather than plain strings, two sentences that share an entity are connected — even if they come from two entirely different documents, ingested independently of each other.</li>
+          <li>Arbitrarily extendable: ingest a new document, tag its entities, it joins the same traversable map. No re-indexing the existing corpus, no retraining anything.</li>
+        </ul>
         {passage ? (
           <LexicalGraphView passage={passage} />
         ) : (
@@ -149,46 +223,113 @@ export default async function HowTheCanonBecameData() {
           </div>
         )}
         <p className="text-xs text-dark-500 leading-relaxed max-w-3xl">
-          The chain along the bottom is the lexical layer. The pills along the top are entities extracted by Layer 2.
-          The dotted lines are mention edges — every entity points back into the sentences it&apos;s named in.
-          Hover an entity to see only its citations.
+          Bottom chain: lexical layer. Top pills: extracted entities. Dotted lines: mention edges,
+          entity back into sentence. Hover an entity to isolate its citations.
         </p>
+        <h3 className="text-lg font-semibold text-dark-100 pt-2">Where this shows up outside fiction</h3>
+        <ul className={bullet}>
+          <li>Legal / e-discovery: tie every clause mentioning a counterparty or term across thousands of unrelated contracts, traversed instead of keyword-matched.</li>
+          <li>Financial research: link an earnings-call sentence to the 10-K sentence it corroborates or contradicts, across otherwise unconnected filings.</li>
+          <li>Clinical records: a patient&apos;s medications and conditions addressable per note, per visit, per provider — one traversable timeline even when the notes come from different systems.</li>
+          <li>Investigative journalism: the same name surfacing across thousands of independently-leaked documents, followed as graph edges instead of re-run keyword searches.</li>
+        </ul>
       </section>
 
-      {/* ── §3c: What it actually lets you ask ────────────────────────── */}
+      {/* ── 3c: What it actually lets you ask ────────────────────────── */}
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold tracking-tight">
-          What you can ask, in actual Cypher.
+          We can now query the text
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          With the address space in place, you can walk the graph. Position, entity, section — all queryable, all without
-          invoking similarity. Four sample Cypher queries below. The queries are real; the results are computed in your
-          browser from the same data that lives in Neo4j after migration.
-        </p>
+        <ul className={bullet}>
+          <li>By position, by entity, by paragraph.</li>
+          <li>Four sample queries below.</li>
+        </ul>
         <CypherQueryDemo demos={cypherDemos} />
-        <p className="text-xs text-dark-500 leading-relaxed max-w-3xl">
-          Nothing here calls an LLM. Nothing here is approximate. The graph stores the relationships, and you walk them.
-        </p>
       </section>
 
-      {/* ── §4: Layer 2 — extracting reality ──────────────────────────── */}
+      {/* ── 4: Entity extraction ──────────────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §4 · Layer 2, extracting reality
+          4 · Entity extraction
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          One LLM call per section. Every fact cites a sentence.
+          From free text to structured facts
         </h2>
+        <h3 className="text-lg font-semibold text-dark-100 pt-2">Generally</h3>
+        <ul className={bullet}>
+          <li>Entity extraction (also called information extraction: NER plus relation/event extraction) turns unstructured text into structured records — named things, and the relationships or events connecting them.</li>
+          <li>Standard NLP technique, applied everywhere text hides structure: resumes into candidate profiles, invoices into line items, contracts into parties and clauses.</li>
+          <li>The generalisable part: once entities are pulled out, they become join keys — between text and a database row, between text and another document, between text and a graph.</li>
+        </ul>
+        <h3 className="text-lg font-semibold text-dark-100 pt-4">Here</h3>
+        <ul className={bullet}>
+          <li>Lexical is deterministic. Entity extraction isn&apos;t: one LLM call per paragraph, output entities, events, state, who-saw-what.</li>
+          <li>Every event carries <code className="mono text-dark-200">source_nodes</code> — the sentence IDs it came from. Reversible: every claim traces back to text.</li>
+          <li>Two things make this stricter than typical NER: state changes are anchored to the event that caused them, not a timestamp; and speech is captured as an event, not a belief.</li>
+          <li>The loop is resumable: every paragraph checkpoints to disk, so a crash mid-canon resumes instead of restarting. Rejected extractions re-prompt.</li>
+          <li>Ingest model: <code className="mono text-dark-200">claude-sonnet-4-6</code>. One call per paragraph — {totalSections.toLocaleString()} calls for the full corpus. Cost figures: pending a clean re-ingest with token capture.</li>
+        </ul>
+        <IngestLoopDiagram />
+        <h3 className="text-lg font-semibold text-dark-100 pt-4">Watch the graph assemble</h3>
+        <ul className={bullet}>
+          <li>The full extraction for <em>The Final Problem</em>, in the project&apos;s graph viewer. Scrub the timeline: entities and events appear as the story reaches them, edges form between participants.</li>
+          <li>State changes are anchored to the event that caused them, not a timestamp — an object can move locations over the story without contradiction.</li>
+          <li>Speech is captured as a <code className="mono text-dark-200">COMMUNICATES</code> event: the act of saying is objective fact, whether the content is true is a separate question. That separation is what lets the character-state layer derive false beliefs later without ever storing one.</li>
+          <li>The perspective dropdown is a preview of the character-state layer: pick a character and the graph narrows to what they witnessed or were told.</li>
+        </ul>
+        {graphData ? (
+          <div className="rounded-xl border border-dark-800 overflow-hidden h-[560px]">
+            <KnowledgeGraphViewer
+              slug={graphData.slug}
+              lexical={graphData.lexical}
+              objective={graphData.objective}
+              embedded
+              autoPlay
+            />
+          </div>
+        ) : (
+          <div className="rounded p-4 bg-dark-900/50 border border-dark-800 text-sm text-dark-400">
+            Graph data not available — run the ingest first.
+          </div>
+        )}
+        {clue && (
+          <div className="rounded-lg border border-dark-800 bg-dark-900/50 p-5 space-y-3">
+            <p className="mono text-xs uppercase tracking-[0.15em] text-crimson-400">
+              Clues: deduction as data
+            </p>
+            <ul className={bullet}>
+              <li>The extractor also captures clues — an object, the case it belongs to, who read it, and what they inferred. The inference is attributed to a character, not asserted as world-fact: a preview of the character-state layer.</li>
+              <li>The first clue in the data is the canon&apos;s most famous deduction — Holmes reading the visitor&apos;s walking stick in the opening scene of <em>Hound</em>:</li>
+            </ul>
+            <div className="rounded bg-dark-950/60 p-4 space-y-3">
+              <div className="flex flex-wrap gap-x-6 gap-y-1 mono text-xs">
+                <span className="text-dark-500">object <span className="text-dark-200 ml-1">{clue.objectLabel}</span></span>
+                <span className="text-dark-500">case <span className="text-dark-200 ml-1">{clue.caseLabel}</span></span>
+                <span className="text-dark-500">discovered_by <span className="text-dark-200 ml-1">{clue.discoveredByLabel}</span></span>
+              </div>
+              <p className="text-sm text-dark-200 leading-relaxed">
+                <span className="mono text-xs text-dark-500 mr-2">significance</span>
+                {clue.significance}
+              </p>
+              <div className="space-y-1 border-t border-dark-800 pt-3">
+                {clue.sentences.map((s) => (
+                  <p key={s.id} className="text-xs text-dark-400 leading-relaxed">
+                    <span className="mono text-dark-600 mr-2">{s.id}</span>
+                    {s.text}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+        <h3 className="text-lg font-semibold text-dark-100 pt-2">Where this shows up outside fiction</h3>
+        <ul className={bullet}>
+          <li>Invoice / PO processing: vendor, line items, and amounts pulled from a scanned document into a structured record, each field still pointing back at the source line.</li>
+          <li>Clinical coding: diagnoses and medications extracted from free-text notes into billing codes, traceable back to the note that justified them.</li>
+          <li>KYC / compliance screening: names and entities pulled from filings and correspondence, checked against watchlists as structured records rather than re-read prose.</li>
+        </ul>
         <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Lexical is deterministic. Layer 2 isn&apos;t — this is the layer where an LLM reads a section and produces
-          structured output: the named entities, the events that happened, where things were, who saw what. Every event
-          ships with a <code className="mono text-dark-200">source_nodes</code> array pointing back to the sentence
-          IDs it was derived from. The graph is reversible: every claim can be traced back to text.
-        </p>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Same passage as before — Watson&apos;s opening to <em>The Final Problem</em> — now in three views. Tab one is
-          the lexical substrate. Tab two is the extraction. Tab three is the reverse: pick any structured fact and watch
-          the citing sentences light up.
+          Same passage as before, three views: lexical substrate, extraction, reverse citation (pick a fact, watch the citing sentences light up).
         </p>
         {passage ? (
           <PassageWalkthrough passage={passage} />
@@ -197,150 +338,119 @@ export default async function HowTheCanonBecameData() {
             Sample passage not available — run the ingest first.
           </div>
         )}
-        <p className="text-xs text-dark-500 leading-relaxed max-w-3xl">
-          A validator polices what Layer 2 is allowed to contain. Cognitive predicates —
-          <code className="mono text-dark-400 mx-1">BELIEVES</code>,
-          <code className="mono text-dark-400 mx-1">KNOWS</code>,
-          <code className="mono text-dark-400 mx-1">knownBy</code> — are barred. They belong in Layer 3, computed at
-          query time. If the model emits one, the extraction is rejected and we re-prompt. The rule from §2 has teeth.
-        </p>
+
       </section>
 
-      {/* ── §5: What the pipeline produced ────────────────────────────── */}
+      {/* ── 5: What the pipeline produced ────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §5 · Yield
+          5 · Yield
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          From 250,000 words to 6,000 events.
+          {Math.round(totalWords / 1000).toLocaleString()},000 words → {Math.round(totalEvents / 1000).toLocaleString()},000 events
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          The pipeline shrinks the corpus at every step. Words become sentences become entities become events.
-          Each row below is the canon-wide total at that layer — and the small numbers near the bottom are still
-          thousands of citation-grounded facts.
-        </p>
+        <ul className={bullet}>
+          <li>Shrinks at every step: words → sentences → entities → events.</li>
+          <li>Each row below: canon-wide total at that layer.</li>
+        </ul>
         <YieldFunnel
           works={canon.works}
           frequency={canon.frequency}
           totalEntities={canon.entities.length}
-          totalEvents={canon.works.reduce((s, w) => s + w.eventCount, 0)}
+          totalEvents={totalEvents}
         />
 
         <h3 className="text-xl font-semibold tracking-tight pt-4">
-          Not every work yields the same.
+          Yield varies by work
         </h3>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Normalised by word count, the short stories are denser per page than the novels — more named things and more
-          discrete events packed into less prose. The novels carry a structural quirk that shows up here: their flashback
-          halves are entity-thin. Switch the metric to compare.
-        </p>
+        <ul className={bullet}>
+          <li>Normalised by word count: short stories denser per page than novels.</li>
+          <li>Novels: flashback halves are entity-thin.</li>
+        </ul>
         <ExtractionDensity works={canon.works} />
-
-        <h3 className="text-xl font-semibold tracking-tight pt-4">
-          A handful of names carry the canon.
-        </h3>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Plot every character on a log-log rank-frequency chart and you get the classic Zipfian curve. Holmes and Watson
-          sit at the head; the recurring supporting cast (Lestrade, Mycroft, Mrs Hudson, Moriarty) clusters in the next
-          half-decade. The tail is the canon&apos;s churn of one-shot clients and victims.
-        </p>
-        <MentionLongTail entities={canon.entities} />
       </section>
 
-      {/* ── §6: Reconciliation ────────────────────────────────────────── */}
+      {/* ── 6: Reconciliation ────────────────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §6 · Cleaning up across works
+          6 · Cleaning up across works
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          The same person, named seven ways. The same name, three people.
+          Same person, different labels. Same label, different things.
         </h2>
-        <p className="text-dark-200 leading-relaxed max-w-3xl">
-          Per-work extraction is local — the model sees one work at a time. So the same character gets extracted under
-          different labels across works, and (uglier) different things sometimes share a label. Two failure modes, two
-          opposite fixes: merge variants when they&apos;re the same thing; keep collisions distinct when they&apos;re not.
-        </p>
+        <ul className={bullet}>
+          <li>Per-work extraction is local — model sees one work at a time.</li>
+          <li>Two failure modes, two opposite fixes: merge variants (alias map) when same thing; keep distinct (type-aware dedupe) when not.</li>
+          <li>Collision example: three Hudsons. Mrs Hudson (housekeeper), Hudson (seaman, <em>Gloria Scott</em>), Hudson Street (location, <em>The Crooked Man</em>). Same surname, not the same entity — one isn&apos;t even a person.</li>
+        </ul>
         <ReconciliationDiagram data={reconciliation} />
         <p className="text-xs text-dark-500 leading-relaxed max-w-3xl">
-          Cross-work dedupe runs after per-work extraction. The alias rules for major recurring characters are hand-curated;
-          for the long tail (one-shot clients, witnesses), label similarity plus type-equality does the job.
+          Cross-work dedupe runs after per-work extraction. Alias rules for major recurring characters: hand-curated.
+          Long tail (one-shot clients, witnesses): label similarity plus type-equality.
         </p>
       </section>
 
-      {/* ── §7: The honest cut ────────────────────────────────────────── */}
+      {/* ── 7: What you can now ask ──────────────────────────────────── */}
       <section className="space-y-6">
         <p className="mono text-xs uppercase tracking-[0.2em] text-dark-400">
-          §7 · What goes wrong
+          7 · What you can now ask
         </p>
         <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          The honest cut.
+          Queries impossible without the address space
         </h2>
         <p className="text-dark-200 leading-relaxed max-w-3xl">
-          The pipeline works. It also breaks. Four named failure modes from this ingest. Not theoretical — these are in
-          the data right now.
+          Four, live against the same canon-wide data used above. Full portfolio — five primitives, including
+          aggregate — on <code className="mono text-dark-300">/analysis</code>.
         </p>
-        <div className="grid sm:grid-cols-2 gap-4">
-          {FAILURE_MODES.map((f) => (
-            <div key={f.title} className="rounded-lg border border-dark-800 bg-dark-900/50 p-5">
-              <p className="mono text-xs uppercase tracking-[0.15em] text-crimson-400 mb-2">
-                {f.tag}
-              </p>
-              <h3 className="text-base font-semibold text-dark-100 mb-2">
-                {f.title}
-              </h3>
-              <p className="text-sm text-dark-200 leading-relaxed mb-3">
-                {f.body}
-              </p>
-              <p className="mono text-xs text-dark-500">
-                {f.example}
-              </p>
-            </div>
-          ))}
+
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold text-dark-100">Time: where was Watson, when?</h3>
+          <ul className={bullet}>
+            <li>The exact question that broke vector search in section 1. Now answerable: each strip is one character&apos;s location over story time, built from <code className="mono text-dark-300">LOCATED_AT</code> state edges and their validity windows.</li>
+            <li>Pick a work, add characters, read off who was where as the story unfolds.</li>
+          </ul>
         </div>
-        <p className="text-dark-300 leading-relaxed max-w-3xl">
-          The pipeline is good enough to demonstrate the architecture — and good enough to power the widgets above —
-          but not yet good enough to make strong quantitative claims without a caveat. The next ingest will resolve
-          most of this: entity reconciliation, event de-duplication, and case-outcome correction are the priority passes.
-        </p>
+        <TrajectoryTracker trajectories={canon.trajectories} />
+
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold text-dark-100">Position: is Holmes even in his own novels?</h3>
+          <ul className={bullet}>
+            <li>Each mark: one sentence naming the selected character, positioned across the work.</li>
+            <li>Holmes, in <em>A Study in Scarlet</em> or <em>The Valley of Fear</em>: long stretch with no marks — flashback paragraphs narrated with Holmes off-page.</li>
+          </ul>
+        </div>
+        <PresenceStrip works={canon.works} entities={canon.entities} presence={canon.presence} />
+
+        <div className="space-y-3 pt-4">
+          <h3 className="text-lg font-semibold text-dark-100">Search: did Holmes ever say that?</h3>
+          <ul className={bullet}>
+            <li>Case-insensitive substring scan, every sentence in the canon.</li>
+            <li>&ldquo;The game is afoot&rdquo;: genuine. &ldquo;Elementary, my dear Watson&rdquo;: zero hits.</li>
+          </ul>
+        </div>
+        <CitationScoreboard famousQuoteCounts={famousQuoteCounts} totalSentences={totalSentences} />
+
+        <div className="space-y-3 pt-4">
+          <h3 className="text-lg font-semibold text-dark-100">Relation: social shape of the canon</h3>
+          <ul className={bullet}>
+            <li>Edge between two characters: shared a paragraph somewhere in the canon. Weight: how often.</li>
+            <li>Holmes and Watson at the centre. Almost everyone else connects through one of them — a star, not a network.</li>
+          </ul>
+        </div>
+        <CoOccurrenceNetwork entities={canon.entities} edges={canon.coOccurrence} />
       </section>
 
-      {/* ── §8: Next ──────────────────────────────────────────────────── */}
+      {/* ── 9: Next ──────────────────────────────────────────────────── */}
       <section className="space-y-4 pt-8 border-t border-dark-800">
-        <h2 className="text-xl font-semibold">Next: Sally, Anne, and the harder question</h2>
-        <p className="text-dark-300 leading-relaxed max-w-3xl">
-          Everything above is Layers 1 and 2 — facts about the world the books describe. The next post is about Layer 3:
-          <em> what does this character know?</em> That&apos;s a different shape of problem, and the smallest possible test
-          for it is the Sally-Anne false-belief task. Same architecture, much sharper question. More soon.
-        </p>
+        <h2 className="text-xl font-semibold">Next: the harder question</h2>
+        <ul className={bullet}>
+          <li>Above: the lexical graph and entity extraction. Facts about the world, and primitives to query them.</li>
+          <li>Next post: the character-state layer. What does this character know, at this point in the story?</li>
+          <li>Same architecture, sharper question.</li>
+        </ul>
       </section>
 
     </article>
   );
 }
 
-const FAILURE_MODES: { tag: string; title: string; body: string; example: string }[] = [
-  {
-    tag: "Common nouns",
-    title: "Pollution in the location list",
-    body: "The extractor labels common nouns as locations when they appear in a spatial context. \"Hall\", \"corridor\", \"window\", \"mantelpiece\" — all extracted as named places. They need filtering or downweighting.",
-    example: "→ 501 locations canon-wide; ~12% are common-noun false positives.",
-  },
-  {
-    tag: "Within-work duplication",
-    title: "Three Moriartys in The Final Problem",
-    body: "The same character gets multiple entity IDs within a single work. Final Problem has professor_moriarty (the Professor), colonel_james_moriarty (his brother, correct), and a lowercase moriarty (a duplicate of the Professor).",
-    example: "→ Per-work dedupe is needed before cross-work merge.",
-  },
-  {
-    tag: "Event explosion",
-    title: "Eight identical events in Silver Blaze",
-    body: "The event \"Holmes says he must go to Dartmoor and King's Pyland\" is extracted eight times in a single section. The headline event count of 6,121 across the canon is inflated by 30–50%.",
-    example: "→ Affects any frequency or density analysis until de-duplicated.",
-  },
-  {
-    tag: "Status over-tagging",
-    title: "Cases marked \"unresolved\" mid-investigation",
-    body: "Of 114 cases extracted, 70 are tagged unresolved. The extractor marks the outcome from the first section the case appears in, regardless of whether it's resolved later. Case-outcome analysis is unreliable until the pass runs to completion.",
-    example: "→ Only 13 of 114 cases currently tagged \"solved\".",
-  },
-];

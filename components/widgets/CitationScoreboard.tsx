@@ -125,7 +125,7 @@ export default function CitationScoreboard({ famousQuoteCounts, totalSentences }
       </div>
 
       {/* Results */}
-      <div className="min-h-[120px] space-y-2">
+      <div className="min-h-[120px] max-h-80 overflow-y-auto space-y-2">
         {!activeQuery && (
           <p className="text-sm text-dark-500 italic">
             Pick a phrase above or type your own to see every cited sentence in the canon.

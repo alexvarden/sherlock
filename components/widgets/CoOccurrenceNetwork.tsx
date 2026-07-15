@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 import type { EntitySummary, CoOccurrenceEdge } from "../../lib/canon-types";
+import { entityTypeById } from "../../lib/graph-schema";
+import ZoomControls from "../ZoomControls";
 
 interface Props {
   entities: EntitySummary[];
@@ -19,9 +21,18 @@ type SimLink = d3.SimulationLinkDatum<SimNode> & {
   weight: number;
 };
 
+// Same visual language as KnowledgeGraphViewer: character nodes take the
+// schema's character colour, everyone else drops to the schema fallback grey.
+const CHARACTER_COLOR = entityTypeById.get("character")?.color ?? "#e11d48";
+const SUPPORTING_COLOR = "#6b7280";
+const LABEL_BG = "#0a0909";
+const LABEL_FILL = "#d7c9c9";
+
 export default function CoOccurrenceNetwork({ entities, edges }: Props) {
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
+  const fitRef = useRef<(() => void) | null>(null);
   const [minWeight, setMinWeight] = useState(2);
   const [hovered, setHovered] = useState<{ label: string; weight: number; works: number } | null>(null);
 
@@ -63,11 +74,28 @@ export default function CoOccurrenceNetwork({ entities, edges }: Props) {
     svg.attr("viewBox", `0 0 ${w} ${h}`);
 
     const g = svg.append("g");
-    svg.call(
-      d3.zoom<SVGSVGElement, unknown>()
-        .scaleExtent([0.4, 4])
-        .on("zoom", (ev) => g.attr("transform", ev.transform))
-    );
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.2, 4])
+      .filter((event) => {
+        if (event.type === "wheel") return event.ctrlKey || event.metaKey;
+        return !event.button;
+      })
+      .on("zoom", (ev) => g.attr("transform", ev.transform));
+    svg.call(zoom);
+    zoomRef.current = zoom;
+
+    fitRef.current = () => {
+      const node = g.node();
+      if (!node) return;
+      const bounds = node.getBBox();
+      if (!bounds.width || !bounds.height) return;
+      const padding = 60;
+      const scale = Math.min((w - padding) / bounds.width, (h - padding) / bounds.height, 2);
+      const tx = w / 2 - scale * (bounds.x + bounds.width / 2);
+      const ty = h / 2 - scale * (bounds.y + bounds.height / 2);
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+    };
 
     const linkSel = g.append("g")
       .attr("stroke", "#9f1239")
@@ -81,24 +109,45 @@ export default function CoOccurrenceNetwork({ entities, edges }: Props) {
       .selectAll("g")
       .data(nodes)
       .join("g")
-      .style("cursor", "grab");
+      .attr("cursor", "pointer");
 
     const radius = (n: SimNode) => Math.max(4, Math.min(22, Math.sqrt(n.weight) * 0.6));
+    const isLead = (n: SimNode) => n.key === "sherlock_holmes" || n.key === "watson";
 
     nodeSel.append("circle")
       .attr("r", radius)
-      .attr("fill", (d) => d.key === "sherlock_holmes" || d.key === "watson" ? "#e11d48" : "#7a6e6e")
-      .attr("stroke", "#0a0909")
-      .attr("stroke-width", 1.5);
+      .attr("fill", (d) => (isLead(d) ? CHARACTER_COLOR : SUPPORTING_COLOR))
+      .attr("stroke", "transparent")
+      .attr("stroke-width", 2.5);
 
-    nodeSel.append("text")
-      .text((d) => d.label)
-      .attr("x", (d) => radius(d) + 4)
-      .attr("y", 4)
-      .attr("font-size", 11)
-      .attr("font-family", "var(--font-sans)")
-      .attr("fill", "#c6b3b3")
+    // Label pill below the node — mirrors the viewer's node-label treatment.
+    const labelGroup = nodeSel
+      .append("g")
+      .attr("class", "node-label")
       .attr("pointer-events", "none");
+    labelGroup
+      .append("rect")
+      .attr("rx", 3)
+      .attr("ry", 3)
+      .attr("fill", LABEL_BG)
+      .attr("opacity", 0.88);
+    labelGroup
+      .append("text")
+      .attr("text-anchor", "middle")
+      .attr("font-size", 11)
+      .attr("fill", LABEL_FILL)
+      .text((d) => d.label)
+      .each(function (d) {
+        const bbox = (this as SVGTextElement).getBBox();
+        const pad = 3;
+        const baseOffset = radius(d) + 10;
+        d3.select(this).attr("y", baseOffset);
+        d3.select((this as SVGTextElement).previousElementSibling as SVGRectElement)
+          .attr("x", bbox.x - pad)
+          .attr("y", baseOffset - bbox.height + 1)
+          .attr("width", bbox.width + pad * 2)
+          .attr("height", bbox.height + pad);
+      });
 
     nodeSel
       .on("mouseenter", (_, d) => {
@@ -145,9 +194,13 @@ export default function CoOccurrenceNetwork({ entities, edges }: Props) {
         d.fy = null;
       });
 
-    nodeSel.call(drag);
+    nodeSel.call(drag as unknown as (sel: typeof nodeSel) => void);
 
-    return () => { sim.stop(); };
+    return () => {
+      sim.stop();
+      zoomRef.current = null;
+      fitRef.current = null;
+    };
   }, [edges, characterByKey, minWeight]);
 
   const maxWeight = useMemo(() => edges.reduce((m, e) => Math.max(m, e.weight), 0), [edges]);
@@ -169,28 +222,37 @@ export default function CoOccurrenceNetwork({ entities, edges }: Props) {
         <span className="text-xs font-mono tabular-nums text-dark-300">
           ≥ {minWeight}
         </span>
-        <span className="text-xs text-dark-500 ml-auto">
+        <span className="text-xs text-dark-600 ml-auto">
           {hovered ? (
             <span className="text-dark-200">
               <span className="font-medium">{hovered.label}</span> · {hovered.weight} mentions · {hovered.works} works
             </span>
           ) : (
-            "Drag nodes to rearrange. Scroll to zoom."
+            "⌘/ctrl-scroll zoom · drag nodes"
           )}
         </span>
       </div>
 
-      <div ref={containerRef} className="bg-dark-950 rounded border border-dark-800">
+      <div ref={containerRef} className="relative bg-dark-950 rounded border border-dark-800 overflow-hidden">
         <svg ref={svgRef} style={{ width: "100%", height: 480 }} />
+        <ZoomControls
+          onFit={() => fitRef.current?.()}
+          onZoom={(factor) => {
+            const svg = svgRef.current;
+            const zoom = zoomRef.current;
+            if (!svg || !zoom) return;
+            d3.select(svg).transition().duration(200).call(zoom.scaleBy, factor);
+          }}
+        />
       </div>
 
       <div className="flex items-center gap-6 text-xs text-dark-500">
         <span className="flex items-center gap-2">
-          <span className="inline-block w-3 h-3 rounded-full bg-crimson-500" />
+          <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: CHARACTER_COLOR }} />
           Holmes / Watson
         </span>
         <span className="flex items-center gap-2">
-          <span className="inline-block w-3 h-3 rounded-full bg-dark-500" />
+          <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: SUPPORTING_COLOR }} />
           Other recurring characters
         </span>
         <span className="ml-auto">node size = mention count · edge weight = shared sections</span>
