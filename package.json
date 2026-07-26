@@ -9,6 +9,17 @@
     "./articles": "./articles/index.ts",
     "./articles/bodies": "./articles/bodies.tsx",
     "./data": "./lib/article-data.ts",
+    "./graph-query": "./lib/graph-query.ts",
+    "./query": "./lib/query.ts",
+    "./demo-data": "./lib/demo-data.ts",
+    "./read-data": "./lib/read-data.ts",
+    "./types": "./lib/types.ts",
+    "./KnowledgeGraphViewer": "./components/KnowledgeGraphViewer.tsx",
+    "./StorySwitcher": "./components/StorySwitcher.tsx",
+    "./CraneHeader": "./components/CraneHeader.tsx",
+    "./CraneFooter": "./components/CraneFooter.tsx",
+    "./DemoExampleRunner": "./components/DemoExampleRunner.tsx",
+    "./StoryReader": "./components/StoryReader.tsx",
     "./*": "./components/*"
   },
   "scripts": {

@@ -1,7 +1,7 @@
 "use server";
 
-import type { SearchSentence } from "@/lib/canon-types";
-import { loadCanonData } from "@/lib/canon-aggregate";
+import type { SearchSentence } from "../../lib/canon-types";
+import { loadCanonData } from "../../lib/canon-aggregate";
 
 // Module-level cache: load the canon once per server process.
 let cachedSentences: SearchSentence[] | null = null;

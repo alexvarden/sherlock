@@ -22,7 +22,7 @@ export const sherlockArticles: SherlockArticle[] = [
     orderInProject: 1,
     excerpt:
       "Three layers, two deterministic, one LLM-driven. How Doyle's prose becomes a queryable graph — and where the interesting failure modes actually are.",
-    publishedAt: null,
+    publishedAt: "2026-07-15",
     readingTime: 16,
     tags: ["graphs", "ingest", "pipelines"],
   },
