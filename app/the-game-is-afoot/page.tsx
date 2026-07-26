@@ -1,5 +1,3 @@
-export const dynamic = "force-dynamic";
-
 import CraneHeader from "@/components/CraneHeader";
 import CraneFooter from "@/components/CraneFooter";
 import TheGameIsAfoot from "@/articles/the-game-is-afoot";
