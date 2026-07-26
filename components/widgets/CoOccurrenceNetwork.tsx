@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import * as d3 from "d3";
+import * as d3 from "../../lib/d3";
 import type { EntitySummary, CoOccurrenceEdge } from "../../lib/canon-types";
 import { entityTypeById } from "../../lib/graph-schema";
 import ZoomControls from "../ZoomControls";

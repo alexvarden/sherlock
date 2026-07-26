@@ -1,13 +1,21 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { WorkSummary, EntitySummary, PresenceForEntity } from "../../lib/canon-types";
+import type { WorkSummary, EntitySummary } from "../../lib/canon-types";
 import { IN_UNIVERSE_ORDER } from "../../lib/canon-types";
+
+// Structural subset of PresenceMark — the strip only renders position and the
+// tooltip snippet, so callers may pass slimmed data (see lib/derived/) or the
+// full canon presence map interchangeably.
+interface StripMark {
+  position: number;
+  sentenceText: string;
+}
 
 interface Props {
   works: WorkSummary[];
   entities: EntitySummary[];
-  presence: Record<string, PresenceForEntity>;
+  presence: Record<string, { byWork: Record<string, StripMark[]> }>;
 }
 
 const DEFAULTS = ["sherlock_holmes", "watson", "lestrade", "mycroft_holmes", "professor_moriarty"];

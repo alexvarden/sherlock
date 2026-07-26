@@ -6,18 +6,17 @@ import PassageWalkthrough from "../components/widgets/PassageWalkthrough";
 import ReconciliationDiagram from "../components/widgets/ReconciliationDiagram";
 import YieldFunnel from "../components/widgets/YieldFunnel";
 import ExtractionDensity from "../components/widgets/ExtractionDensity";
-import PresenceStrip from "../components/widgets/PresenceStrip";
+import PresenceStripLazy from "../components/widgets/PresenceStripLazy";
 import CitationScoreboard from "../components/widgets/CitationScoreboard";
 import CoOccurrenceNetwork from "../components/widgets/CoOccurrenceNetwork";
 import TrajectoryTracker from "../components/widgets/TrajectoryTracker";
 import IngestLoopDiagram from "../components/widgets/IngestLoopDiagram";
-import KnowledgeGraphViewer from "../components/KnowledgeGraphViewer";
+import EmbeddedGraphViewer from "../components/widgets/EmbeddedGraphViewer";
 import {
   loadSamplePassage,
   loadReconciliationData,
   loadCypherDemos,
   loadCanonData,
-  loadGraphViewerData,
 } from "../lib/article-data";
 
 // Numbered section eyebrow — mirrors the ghosted-numeral style of the
@@ -42,7 +41,13 @@ export default async function TheGameIsAfoot() {
   const reconciliation = loadReconciliationData();
   const cypherDemos = loadCypherDemos();
   const canon = loadCanonData();
-  const graphData = loadGraphViewerData();
+
+  // Only the characters the network actually draws — the full 1,954-entity
+  // list is ~230 KB serialised and would ride in the RSC payload.
+  const coKeys = new Set(canon.coOccurrence.flatMap((e) => [e.a, e.b]));
+  const networkEntities = canon.entities.filter(
+    (e) => e.type === "character" && coKeys.has(e.key)
+  );
 
   const totalSentences = canon.works.reduce((s, w) => s + w.sentenceCount, 0);
   const totalSections = canon.works.reduce((s, w) => s + w.sectionCount, 0);
@@ -386,21 +391,9 @@ export default async function TheGameIsAfoot() {
           without the graph ever storing one. The perspective dropdown is a preview of that
           layer. Pick a character, and the graph narrows to what they witnessed or were told.
         </p>
-        {graphData ? (
-          <div className="rounded-xl border border-dark-800 overflow-hidden h-[560px]">
-            <KnowledgeGraphViewer
-              slug={graphData.slug}
-              lexical={graphData.lexical}
-              objective={graphData.objective}
-              embedded
-              autoPlay
-            />
-          </div>
-        ) : (
-          <div className="rounded p-4 bg-dark-900/50 border border-dark-800 text-sm text-dark-400">
-            Graph data not available. Run the ingest first.
-          </div>
-        )}
+        <div className="rounded-xl border border-dark-800 overflow-hidden h-[560px]">
+          <EmbeddedGraphViewer />
+        </div>
       
       
         <h3 className="text-lg font-semibold text-dark-100 pt-2">
@@ -531,7 +524,7 @@ export default async function TheGameIsAfoot() {
             whole sections of novel narrated with the detective entirely off-page.
           </p>
         </div>
-        <PresenceStrip works={canon.works} entities={canon.entities} presence={canon.presence} />
+        <PresenceStripLazy works={canon.works} />
 
         <div className="space-y-3 pt-4">
           <h3 className="text-lg font-semibold text-dark-100">
@@ -558,7 +551,7 @@ export default async function TheGameIsAfoot() {
             star with two points of light, which is exactly how Conan Doyle wrote it.
           </p>
         </div>
-        <CoOccurrenceNetwork entities={canon.entities} edges={canon.coOccurrence} />
+        <CoOccurrenceNetwork entities={networkEntities} edges={canon.coOccurrence} />
       </section>
 
       {/* ── Next ─────────────────────────────────────────────────────── */}

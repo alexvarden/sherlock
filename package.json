@@ -27,6 +27,7 @@
     "ingest:canon": "tsx --env-file=.env scripts/ingest-canon.ts",
     "reconcile": "tsx scripts/reconcile-entities.ts",
     "aggregate": "tsx scripts/aggregate-canon.ts",
+    "derive:presence": "tsx scripts/derive-presence-strip.ts",
     "clear:neo4j": "tsx --env-file=.env scripts/clear-neo4j.ts",
     "migrate": "tsx --env-file=.env scripts/migrate-to-neo4j.ts"
   },

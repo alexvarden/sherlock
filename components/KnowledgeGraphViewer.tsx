@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback, useMemo } from "react";
-import * as d3 from "d3";
+import * as d3 from "../lib/d3";
 import type {
   Clue,
   Entity,
