@@ -17,13 +17,20 @@ export default async function SherlockGraphExplorer({
   basePath = "/graph",
   homeHref = "/",
   devTools = false,
+  fullHeight = true,
 }: {
   searchParams: { story?: string; section?: string; character?: string };
   basePath?: string;
   homeHref?: string;
   devTools?: boolean;
+  // True (default) for a standalone, full-viewport `h-screen` mount — the
+  // sherlock dev app's own /graph. Pass false when a host renders its own
+  // nav above this component (crane-ai's Header) — the component then fills
+  // whatever bounded-height container the host wraps it in (`h-full`).
+  fullHeight?: boolean;
 }) {
   const { story: slug, section: initialSection, character: initialCharacter } = searchParams;
+  const heightClass = fullHeight ? "h-screen" : "h-full";
 
   let stories: StoryMeta[] = [];
   let unavailable: string | null = null;
@@ -38,7 +45,7 @@ export default async function SherlockGraphExplorer({
 
   if (unavailable) {
     return (
-      <div className="flex items-center justify-center h-screen bg-dark-950 text-dark-300">
+      <div className={`flex items-center justify-center ${heightClass} bg-dark-950 text-dark-300`}>
         <div className="text-center space-y-4 max-w-md">
           <h1 className="text-2xl font-semibold text-crimson-400">Graph unavailable</h1>
           <p className="text-dark-400">{unavailable}</p>
@@ -54,7 +61,7 @@ export default async function SherlockGraphExplorer({
 
   if (stories.length === 0) {
     return (
-      <div className="flex items-center justify-center h-screen bg-dark-950 text-dark-300">
+      <div className={`flex items-center justify-center ${heightClass} bg-dark-950 text-dark-300`}>
         <div className="text-center space-y-4 max-w-sm">
           <h1 className="text-2xl font-semibold">No stories yet</h1>
           <p className="text-dark-400">
@@ -73,7 +80,10 @@ export default async function SherlockGraphExplorer({
   }
 
   const meta = stories.find((s) => s.slug === slug);
-  if (!meta) return <StoryPicker stories={stories} basePath={basePath} homeHref={homeHref} />;
+  if (!meta)
+    return (
+      <StoryPicker stories={stories} basePath={basePath} homeHref={homeHref} heightClass={heightClass} />
+    );
 
   const data = await getStoryData(meta.slug);
   if (!data) {
@@ -82,6 +92,7 @@ export default async function SherlockGraphExplorer({
         stories={stories}
         basePath={basePath}
         homeHref={homeHref}
+        heightClass={heightClass}
         error={
           devTools
             ? `"${meta.name}" is not in Neo4j yet. Run: npm run ingest -- ${meta.slug} && npm run migrate`
@@ -94,7 +105,7 @@ export default async function SherlockGraphExplorer({
   const { lexical, objective } = data;
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className={`${heightClass} flex flex-col`}>
       <CraneHeader
         homeHref={homeHref}
         crumbs={[{ label: "Graph" }]}
@@ -137,14 +148,16 @@ function StoryPicker({
   basePath,
   homeHref,
   error,
+  heightClass,
 }: {
   stories: StoryMeta[];
   basePath: string;
   homeHref: string;
   error?: string;
+  heightClass: string;
 }) {
   return (
-    <div className="h-screen flex flex-col bg-dark-950 text-dark-300 overflow-y-auto">
+    <div className={`${heightClass} flex flex-col bg-dark-950 text-dark-300 overflow-y-auto`}>
       <CraneHeader homeHref={homeHref} crumbs={[{ label: "Graph" }]} />
       <div className="flex-1 flex items-center justify-center py-12">
         <div className="text-center space-y-8 max-w-md w-full px-6">
