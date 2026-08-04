@@ -11,31 +11,39 @@ export default function CraneHeader({
   right,
   children,
   homeHref = "/",
+  showLogo = true,
 }: {
   crumbs?: Crumb[];
   right?: ReactNode;
   children?: ReactNode;
   homeHref?: string;
+  // False when a host already renders its own site branding above this
+  // header (e.g. crane-ai's real site Header) — avoids a redundant second
+  // logo linking out to crane-ai.co.uk.
+  showLogo?: boolean;
 }) {
   return (
     <header
       className="sticky top-0 z-10 flex items-center h-16 px-6 border-b border-dark-800 shrink-0 bg-dark-950/80 backdrop-blur-md"
     >
-      <a
-        href="https://crane-ai.co.uk"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Crane AI homepage"
-        className="flex items-center gap-2 shrink-0 hover:opacity-80 transition-opacity"
-      >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/crane-logo.svg" alt="" aria-hidden="true" width={28} height={28} className="h-7 w-auto" />
-        <span className="text-sm font-medium text-white">
-          crane
-        </span>
-      </a>
-
-      <span className="mx-2.5 text-dark-700 shrink-0">/</span>
+      {showLogo && (
+        <>
+          <a
+            href="https://crane-ai.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Crane AI homepage"
+            className="flex items-center gap-2 shrink-0 hover:opacity-80 transition-opacity"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/crane-logo.svg" alt="" aria-hidden="true" width={28} height={28} className="h-7 w-auto" />
+            <span className="text-sm font-medium text-white">
+              crane
+            </span>
+          </a>
+          <span className="mx-2.5 text-dark-700 shrink-0">/</span>
+        </>
+      )}
       <Link
         href={homeHref}
         className="text-sm font-medium text-dark-400 hover:text-dark-200 transition-colors shrink-0"

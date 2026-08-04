@@ -18,6 +18,7 @@ export default async function SherlockGraphExplorer({
   homeHref = "/",
   devTools = false,
   fullHeight = true,
+  showLogo = true,
 }: {
   searchParams: { story?: string; section?: string; character?: string };
   basePath?: string;
@@ -28,6 +29,9 @@ export default async function SherlockGraphExplorer({
   // nav above this component (crane-ai's Header) — the component then fills
   // whatever bounded-height container the host wraps it in (`h-full`).
   fullHeight?: boolean;
+  // False when a host already renders its own site branding above this
+  // component — suppresses CraneHeader's own crane-ai.co.uk logo/link.
+  showLogo?: boolean;
 }) {
   const { story: slug, section: initialSection, character: initialCharacter } = searchParams;
   const heightClass = fullHeight ? "h-screen" : "h-full";
@@ -82,7 +86,13 @@ export default async function SherlockGraphExplorer({
   const meta = stories.find((s) => s.slug === slug);
   if (!meta)
     return (
-      <StoryPicker stories={stories} basePath={basePath} homeHref={homeHref} heightClass={heightClass} />
+      <StoryPicker
+        stories={stories}
+        basePath={basePath}
+        homeHref={homeHref}
+        heightClass={heightClass}
+        showLogo={showLogo}
+      />
     );
 
   const data = await getStoryData(meta.slug);
@@ -93,6 +103,7 @@ export default async function SherlockGraphExplorer({
         basePath={basePath}
         homeHref={homeHref}
         heightClass={heightClass}
+        showLogo={showLogo}
         error={
           devTools
             ? `"${meta.name}" is not in Neo4j yet. Run: npm run ingest -- ${meta.slug} && npm run migrate`
@@ -109,6 +120,7 @@ export default async function SherlockGraphExplorer({
       <CraneHeader
         homeHref={homeHref}
         crumbs={[{ label: "Graph" }]}
+        showLogo={showLogo}
         right={
           <div className="flex items-center gap-3 text-xs text-dark-500">
             <span>{lexical.sections.length} sections</span>
@@ -149,16 +161,18 @@ function StoryPicker({
   homeHref,
   error,
   heightClass,
+  showLogo,
 }: {
   stories: StoryMeta[];
   basePath: string;
   homeHref: string;
   error?: string;
   heightClass: string;
+  showLogo: boolean;
 }) {
   return (
     <div className={`${heightClass} flex flex-col bg-dark-950 text-dark-300 overflow-y-auto`}>
-      <CraneHeader homeHref={homeHref} crumbs={[{ label: "Graph" }]} />
+      <CraneHeader homeHref={homeHref} crumbs={[{ label: "Graph" }]} showLogo={showLogo} />
       <div className="flex-1 flex items-center justify-center py-12">
         <div className="text-center space-y-8 max-w-md w-full px-6">
           <div>
