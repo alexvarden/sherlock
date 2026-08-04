@@ -1,4 +1,5 @@
 import { getSession } from "./neo4j";
+import { CANON_SLUGS, IN_UNIVERSE_ORDER } from "./canon-types";
 import type {
   CaseOutcome, CharacterState, Clue, CrimeType, DocumentType, Entity,
   KnowledgeItem, LexicalGraph, LexicalNode, MemberOf, Mention, ObjectiveEvent,
@@ -139,10 +140,22 @@ export async function listStoriesFromNeo4j(): Promise<StoryMeta[]> {
   const session = getSession();
   try {
     const res = await session.run(`MATCH (s:Story) RETURN s ORDER BY s.name`);
-    return res.records.map((r) => {
+    const bySlug = new Map<string, StoryMeta>();
+    for (const r of res.records) {
       const s = r.get("s").properties;
-      return { slug: s.slug as string, name: s.name as string, sourceFile: s.sourceFile as string };
-    });
+      const slug = s.slug as string;
+      // Defensive: only ever surface the 17-work canon, even if a stray
+      // fixture (calibration variant, Sally-Anne test data) ever landed in
+      // the database — CANON_SLUGS is the single source of truth, shared
+      // with the load-time filter in scripts/migrate-to-neo4j.ts.
+      if (!CANON_SLUGS.includes(slug as (typeof CANON_SLUGS)[number])) continue;
+      bySlug.set(slug, { slug, name: s.name as string, sourceFile: s.sourceFile as string });
+    }
+    // In-universe order, not alphabetical — a reader picking a story wants
+    // the canon's internal chronology, not a dictionary sort.
+    return IN_UNIVERSE_ORDER.map((slug) => bySlug.get(slug)).filter(
+      (s): s is StoryMeta => s !== undefined
+    );
   } finally {
     await session.close();
   }

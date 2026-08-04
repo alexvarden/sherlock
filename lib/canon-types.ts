@@ -21,6 +21,14 @@ export const CANON_SLUGS = [
   "a-case-of-identity",
 ] as const;
 
+// The four full-length novels — everything else in CANON_SLUGS is a short story.
+export const NOVEL_SLUGS: readonly string[] = [
+  "a-study-in-scarlet",
+  "sign-of-the-four",
+  "hound-of-the-baskervilles",
+  "valley-of-fear",
+];
+
 // Publication date with Memoirs slotted between Sign and Hound.
 export const IN_UNIVERSE_ORDER: readonly string[] = [
   "a-study-in-scarlet",
