@@ -1390,10 +1390,10 @@ export default function KnowledgeGraphViewer({
         )}
       </div>
 
-      {/* Timeline scrubber, with its own play/pause button immediately to
-          its left — kept as a plain sibling (not a Timeline prop) so the
+      {/* Timeline scrubber, with a Spotify-style transport button immediately
+          to its left — kept as a plain sibling (not a Timeline prop) so the
           ref-mutating toggle logic never crosses the component boundary. */}
-      <div className="flex items-stretch shrink-0 border-t border-dark-800 bg-dark-950">
+      <div className="flex items-center shrink-0 border-t border-dark-800 bg-dark-950 pl-4">
         <button
           onClick={() => {
             if (!playing && sentenceIdx >= totalSentences - 1) {
@@ -1405,9 +1405,9 @@ export default function KnowledgeGraphViewer({
           }}
           aria-label={playing ? "Pause" : "Play"}
           title={playing ? "Pause" : "Play"}
-          className="flex items-center justify-center w-9 shrink-0 border-r border-dark-800 text-dark-300 hover:text-crimson-300 hover:bg-dark-900 transition-colors"
+          className="flex items-center justify-center w-11 h-11 mr-1 shrink-0 rounded-full bg-crimson-500 text-white shadow-lg shadow-crimson-950/50 hover:bg-crimson-450 hover:scale-105 active:scale-95 transition-all duration-150"
         >
-          <PlayPauseIcon playing={playing} size={11} />
+          <PlayPauseIcon playing={playing} size={15} />
         </button>
         <Timeline
           sections={sections}
