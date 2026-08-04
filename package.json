@@ -15,6 +15,7 @@
     "./read-data": "./lib/read-data.ts",
     "./types": "./lib/types.ts",
     "./KnowledgeGraphViewer": "./components/KnowledgeGraphViewer.tsx",
+    "./SherlockGraphExplorer": "./components/SherlockGraphExplorer.tsx",
     "./StorySwitcher": "./components/StorySwitcher.tsx",
     "./CraneHeader": "./components/CraneHeader.tsx",
     "./CraneFooter": "./components/CraneFooter.tsx",
