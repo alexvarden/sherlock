@@ -1231,6 +1231,10 @@ export default function KnowledgeGraphViewer({
             <PlayPauseIcon playing={playing} size={13} />
             {playing ? "Pause" : sentenceIdx >= totalSentences - 1 ? "Replay the story" : "Play the story"}
           </button>
+          <label className="flex items-center gap-2 text-xs text-dark-500 ml-auto">
+            Perspective
+            {perspectiveSelect}
+          </label>
         </div>
       )}
       {/* Top bar */}
@@ -1303,6 +1307,11 @@ export default function KnowledgeGraphViewer({
         {!embedded && (
           <div className="ml-auto flex items-center gap-3">
             <span className="text-xs text-dark-600">← → step · ⌘/ctrl-scroll zoom · drag nodes</span>
+            <span className="text-xs text-dark-500 mx-1">·</span>
+            <label className="flex items-center gap-2 text-xs text-dark-500">
+              Perspective
+              {perspectiveSelect}
+            </label>
           </div>
         )}
       </div>
@@ -1402,9 +1411,8 @@ export default function KnowledgeGraphViewer({
       </div>
 
       {/* Timeline scrubber, with a Spotify-style transport button immediately
-          to its left and the perspective filter to its right — kept as plain
-          siblings (not Timeline props) so the ref-mutating toggle logic never
-          crosses the component boundary. */}
+          to its left — kept as a plain sibling (not a Timeline prop) so the
+          ref-mutating toggle logic never crosses the component boundary. */}
       <div className="flex items-center shrink-0 border-t border-dark-800 bg-dark-950 pl-4 pr-4">
         <button
           onClick={() => {
@@ -1435,10 +1443,6 @@ export default function KnowledgeGraphViewer({
           onScrub={pauseAndScrub}
           onSelectSection={pauseAndGoToSection}
         />
-        <label className="flex items-center gap-2 text-xs text-dark-500 shrink-0 ml-3">
-          Perspective
-          {perspectiveSelect}
-        </label>
       </div>
     </div>
   );
