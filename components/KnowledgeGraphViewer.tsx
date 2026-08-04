@@ -1209,7 +1209,12 @@ export default function KnowledgeGraphViewer({
   return (
     <div className="flex flex-col h-full bg-dark-950 text-dark-100">
       {/* Embedded header — a play control prominent enough to invite a first
-          click, with the perspective filter alongside it. */}
+          click, with the perspective filter alongside it. The toggle body is
+          duplicated at the timeline's own play button below rather than
+          extracted into a shared function — a named function mutating these
+          refs and referenced from two JSX call sites trips the
+          react-hooks/immutability rule across the whole component (verified
+          2026-08-04); inlined, it's fine. */}
       {embedded && (
         <div className="flex items-center gap-4 px-4 py-3 border-b border-dark-800 shrink-0 flex-wrap">
           <button
@@ -1223,16 +1228,7 @@ export default function KnowledgeGraphViewer({
             }}
             className="flex items-center gap-2.5 px-5 py-2.5 rounded-lg bg-crimson-500/15 border border-crimson-500/60 text-crimson-300 hover:bg-crimson-500/25 hover:text-crimson-200 transition-colors text-sm font-semibold"
           >
-            {playing ? (
-              <svg width="13" height="13" viewBox="0 0 14 14" fill="currentColor" aria-hidden>
-                <rect x="2" y="1.5" width="3.5" height="11" rx="1" />
-                <rect x="8.5" y="1.5" width="3.5" height="11" rx="1" />
-              </svg>
-            ) : (
-              <svg width="13" height="13" viewBox="0 0 14 14" fill="currentColor" aria-hidden>
-                <path d="M3 1.8v10.4c0 .9 1 1.5 1.8 1L13 8.2c.8-.5.8-1.6 0-2.1L4.8.9C4 .4 3 1 3 1.8z" />
-              </svg>
-            )}
+            <PlayPauseIcon playing={playing} size={13} />
             {playing ? "Pause" : sentenceIdx >= totalSentences - 1 ? "Replay the story" : "Play the story"}
           </button>
           <label className="flex items-center gap-2 text-xs text-dark-500">
@@ -1394,21 +1390,40 @@ export default function KnowledgeGraphViewer({
         )}
       </div>
 
-      {/* Timeline scrubber */}
-      <Timeline
-        sections={sections}
-        currentIdx={currentIdx}
-        sentenceIdx={sentenceIdx}
-        totalSentences={totalSentences}
-        sectionRanges={sectionRanges}
-        sectionWidths={sectionWidths}
-        sectionOffsets={sectionOffsets}
-        eventCountPerSection={eventCountPerSection}
-        eventTicks={eventTicks}
-        thumbPct={thumbPct}
-        onScrub={pauseAndScrub}
-        onSelectSection={pauseAndGoToSection}
-      />
+      {/* Timeline scrubber, with its own play/pause button immediately to
+          its left — kept as a plain sibling (not a Timeline prop) so the
+          ref-mutating toggle logic never crosses the component boundary. */}
+      <div className="flex items-stretch shrink-0 border-t border-dark-800 bg-dark-950">
+        <button
+          onClick={() => {
+            if (!playing && sentenceIdx >= totalSentences - 1) {
+              setSentenceIdx(0);
+              userZoomedRef.current = false;
+              lastAutoFitRef.current = null;
+            }
+            setPlaying((p) => !p);
+          }}
+          aria-label={playing ? "Pause" : "Play"}
+          title={playing ? "Pause" : "Play"}
+          className="flex items-center justify-center w-9 shrink-0 border-r border-dark-800 text-dark-300 hover:text-crimson-300 hover:bg-dark-900 transition-colors"
+        >
+          <PlayPauseIcon playing={playing} size={11} />
+        </button>
+        <Timeline
+          sections={sections}
+          currentIdx={currentIdx}
+          sentenceIdx={sentenceIdx}
+          totalSentences={totalSentences}
+          sectionRanges={sectionRanges}
+          sectionWidths={sectionWidths}
+          sectionOffsets={sectionOffsets}
+          eventCountPerSection={eventCountPerSection}
+          eventTicks={eventTicks}
+          thumbPct={thumbPct}
+          onScrub={pauseAndScrub}
+          onSelectSection={pauseAndGoToSection}
+        />
+      </div>
     </div>
   );
 }
@@ -1748,6 +1763,21 @@ function KnowledgeRow({ item }: { item: { id: string; description: string; modal
 
 // ── Zoom controls overlay ────────────────────────────────────────────────────
 
+// Shared by the embedded header CTA and the timeline's own play/pause button
+// so both stay visually and behaviourally identical.
+function PlayPauseIcon({ playing, size }: { playing: boolean; size: number }) {
+  return playing ? (
+    <svg width={size} height={size} viewBox="0 0 14 14" fill="currentColor" aria-hidden>
+      <rect x="2" y="1.5" width="3.5" height="11" rx="1" />
+      <rect x="8.5" y="1.5" width="3.5" height="11" rx="1" />
+    </svg>
+  ) : (
+    <svg width={size} height={size} viewBox="0 0 14 14" fill="currentColor" aria-hidden>
+      <path d="M3 1.8v10.4c0 .9 1 1.5 1.8 1L13 8.2c.8-.5.8-1.6 0-2.1L4.8.9C4 .4 3 1 3 1.8z" />
+    </svg>
+  );
+}
+
 // ── Timeline scrubber ────────────────────────────────────────────────────────
 
 function Timeline({
@@ -1840,7 +1870,7 @@ function Timeline({
   const notchStride = Math.max(1, Math.ceil(totalSentences / 250));
 
   return (
-    <div className="shrink-0 border-t border-dark-800 bg-dark-950">
+    <div className="flex-1 min-w-0 bg-dark-950">
       {/* Caption row */}
       <div className="px-6 pt-3 pb-2 flex items-baseline gap-3 text-xs">
         <span className="text-dark-600 font-mono">
