@@ -15,12 +15,19 @@ After a clean `npm run db:load` against the local database:
 ```sh
 docker exec sherlock-postgres-1 \
   pg_dump -U postgres -d sherlock --no-owner --no-privileges \
-  | gzip -9 > data/seed/01-canon.sql.gz
+  > data/seed/01-canon.sql
 ```
 
 Commit the result. It is a build artifact, but a deliberately committed one.
-Gzipped because the raw dump is ~9.5 MB against ~1.7 MB compressed, and this
-repo is public; the entrypoint handles `.sql.gz` natively.
+
+**Stored uncompressed on purpose.** The raw dump is ~9.5 MB, but git zlib-
+compresses blobs, so it occupies ~1.8 MB in the pack — near-identical to the
+~1.7 MB it would take gzipped. The difference is what happens on the *second*
+regeneration: plain text deltas against the previous version for almost
+nothing, whereas a `.gz` blob is incompressible and undeltable, so every
+regeneration would add another full 1.7 MB to history forever. Uncompressed is
+cheaper over time and diffable. The entrypoint accepts `.sql.gz` too, if that
+ever changes.
 
 The dump includes the `_migrations` ledger, so a seeded database already knows
 `0001_graph.sql` is applied and `npm run db:migrate` correctly no-ops.
