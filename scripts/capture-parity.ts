@@ -10,7 +10,7 @@
  * What gets written to data/parity/:
  *
  *   manifest.json   every query, its arguments, and a hash of its result
- *   stories.json    listStoriesFromNeo4j() in full (small, and load-bearing —
+ *   stories.json    listStories() in full (small, and load-bearing —
  *                   it encodes the canon filter and in-universe ordering)
  *   full/*.json     complete payloads for three representative works
  *
@@ -26,7 +26,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { CANON_SLUGS } from "../lib/canon-types";
-import { listStoriesFromNeo4j, getStoryData, getCharacterContext, getEntityStateAt } from "../lib/graph-query";
+import { listStories, getStoryData, getCharacterContext, getEntityStateAt } from "./legacy-neo4j-query";
 import { canonicalJson, hash } from "./parity-canonical";
 
 const OUT = path.join(process.cwd(), "data/parity");
@@ -41,8 +41,8 @@ async function main() {
   mkdirSync(path.join(OUT, "full"), { recursive: true });
   const entries: Entry[] = [];
 
-  // ── listStoriesFromNeo4j ──────────────────────────────────────────────────
-  const stories = await listStoriesFromNeo4j();
+  // ── listStories ──────────────────────────────────────────────────
+  const stories = await listStories();
   writeFileSync(path.join(OUT, "stories.json"), canonicalJson(stories) + "\n");
   entries.push({ query: "listStories", args: {}, hash: hash(stories) });
   console.log(`listStories… ${stories.length} works`);
@@ -121,7 +121,7 @@ async function main() {
         entries.push({
           query: "getEntityStateAt",
           args: { story: slug, entityId, sectionIndex: idx },
-          hash: hash(state),
+          hash: hash({ entityState: state }),
           summary: { results: state.length },
         });
       }

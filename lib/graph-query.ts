@@ -1,10 +1,27 @@
-import { getSession } from "./neo4j";
+import { getQuery } from "./db";
 import { CANON_SLUGS, IN_UNIVERSE_ORDER } from "./canon-types";
 import type {
   CaseOutcome, CharacterState, Clue, CrimeType, DocumentType, Entity,
-  KnowledgeItem, LexicalGraph, LexicalNode, MemberOf, Mention, ObjectiveEvent,
-  ObjectiveGraph, OrgType, SectionMeta, StateEdge, StoryMeta,
+  EntityType, KnowledgeItem, LexicalGraph, LexicalNode, MemberOf, Mention,
+  ObjectiveEvent, ObjectiveGraph, OrgType, SectionMeta, StateEdge, StoryMeta,
 } from "./types";
+
+/**
+ * The query layer, in SQL.
+ *
+ * Everything here reads the two-table model in lib/db/migrations/0001_graph.sql.
+ * The three promoted columns do the work that Cypher traversal used to:
+ *
+ *   nodes.pos                        how far into the story a node sits, so the
+ *                                    perspective cutoff and the reader window
+ *                                    are both integer comparisons
+ *   edges.valid_from/to_section      what was true when
+ *   the edge row itself              who saw it
+ *
+ * Signatures are unchanged from the Neo4j implementation so no caller needed
+ * editing. Parity against the Neo4j baseline is enforced by
+ * scripts/compare-parity.ts against the fixtures in data/parity/.
+ */
 
 export interface CharacterContext {
   state: CharacterState;
@@ -12,364 +29,382 @@ export interface CharacterContext {
   characterEntity: Entity;
 }
 
+// ── Row shapes ──────────────────────────────────────────────────────────────
+
+type NodeRow = {
+  id: string;
+  kind: string;
+  subkind: string | null;
+  name: string | null;
+  pos: number | null;
+  props: Record<string, unknown>;
+};
+
+type EventRow = NodeRow & {
+  participants: string[] | null;
+  performers: string[] | null;
+  recipients: string[] | null;
+};
+
+// Aggregating the three entity-to-event relations in one pass, as the Cypher
+// did with collect(). Ordering by pos reproduces ORDER BY e.sectionIndex.
+const EVENT_SELECT = `
+  SELECT e.id, e.kind, e.subkind, e.name, e.pos, e.props,
+         (SELECT array_agg(DISTINCT x.from_id) FROM edges x
+           WHERE x.story = e.story AND x.to_id = e.id AND x.rel_type = 'PARTICIPATED_IN') AS participants,
+         (SELECT array_agg(DISTINCT x.from_id) FROM edges x
+           WHERE x.story = e.story AND x.to_id = e.id AND x.rel_type = 'PERFORMED')       AS performers,
+         (SELECT array_agg(DISTINCT x.to_id)   FROM edges x
+           WHERE x.story = e.story AND x.from_id = e.id AND x.rel_type = 'TOLD_TO')       AS recipients
+    FROM nodes e
+   WHERE e.story = $1 AND e.kind = 'event'`;
+
+// `withPerforms` is not a style choice. The Neo4j getCharacterContext built its
+// visibleEvents from a query that collected only participants and recipients,
+// so `performs` was always absent there — while getStoryData did include it.
+// That inconsistency is reproduced rather than tidied: parity is the deliverable
+// at this stage, and quietly enriching the character-context payload would
+// change what the LLM sees on /read. Worth revisiting once the migration is
+// signed off.
+function toEvent(r: EventRow, withPerforms = true): ObjectiveEvent {
+  const communicatesContent = r.props.communicatesContent as string | null;
+  const recipients = (r.recipients ?? []).filter(Boolean);
+  const performers = (r.performers ?? []).filter(Boolean);
+
+  return {
+    id: r.id,
+    type: "event",
+    label: r.name ?? "",
+    section: (r.props.section as string) ?? "",
+    source_nodes: (r.props.sourceNodes as string[] | null) ?? [],
+    participants: (r.participants ?? []).filter(Boolean),
+    performs: withPerforms && performers.length ? performers : undefined,
+    communicates: communicatesContent
+      ? {
+          speaker: (r.props.speakerId as string | null) ?? "",
+          recipients,
+          content: communicatesContent,
+        }
+      : undefined,
+  };
+}
+
+function toEntity(r: NodeRow): Entity {
+  const p = r.props;
+  const type = (r.subkind ?? "object") as EntityType;
+
+  const base: Entity = {
+    id: r.id,
+    type,
+    label: r.name ?? "",
+    description: (p.description as string) ?? "",
+    firstSection: (p.firstSection as string) ?? "",
+  };
+
+  // Type-specific fields, mirroring what the Neo4j reader reconstructed from
+  // its per-type property fragments. Empty strings collapse to undefined, as
+  // they did there.
+  if (type === "case") {
+    base.source = (p.source as string) || undefined;
+    base.client = (p.client as string) || undefined;
+    base.crime_type = ((p.crime_type as string) || undefined) as CrimeType | undefined;
+    base.outcome = ((p.outcome as string) || undefined) as CaseOutcome | undefined;
+    base.primary_location = (p.primary_location as string) || undefined;
+  } else if (type === "document") {
+    base.document_type = ((p.document_type as string) || undefined) as DocumentType | undefined;
+    base.from = (p.from as string) || undefined;
+    base.to = (p.to as string) || undefined;
+    base.content_summary = (p.content_summary as string) || undefined;
+  } else if (type === "organisation") {
+    base.org_type = ((p.org_type as string) || undefined) as OrgType | undefined;
+  }
+
+  return base;
+}
+
+// ── Character context ───────────────────────────────────────────────────────
+
 export async function getCharacterContext(
   story: string,
   characterId: string,
   sectionId: string
 ): Promise<CharacterContext> {
-  const session = getSession();
-  try {
-    // ── 1. Resolve section cutoff index + character entity ──────────────────
-    const sectionRes = await session.run(
-      `MATCH (s:Section {story: $story, id: $sectionId}) RETURN s.index AS idx`,
-      { story, sectionId }
-    );
-    const charRes = await session.run(
-      `MATCH (c:Entity {story: $story, id: $characterId}) RETURN c`,
-      { story, characterId }
-    );
+  const query = getQuery();
 
-    if (!sectionRes.records.length)
-      throw new Error(`Section "${sectionId}" not found in story "${story}"`);
-    if (!charRes.records.length)
-      throw new Error(`Character "${characterId}" not found in story "${story}"`);
+  const [sectionRow] = await query<{ pos: number }>(
+    `SELECT pos FROM nodes WHERE story = $1 AND id = $2 AND kind = 'section'`,
+    [story, sectionId]
+  );
+  if (!sectionRow) throw new Error(`Section "${sectionId}" not found in story "${story}"`);
 
-    const cutoff = sectionRes.records[0].get("idx") as number;
-    const charProps = charRes.records[0].get("c").properties;
-    const characterEntity: Entity = {
-      id: charProps.id,
-      type: "character",
-      label: charProps.label,
-      description: charProps.description ?? "",
-      firstSection: charProps.firstSection ?? "",
-    };
+  const [charRow] = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes
+      WHERE story = $1 AND id = $2 AND kind = 'entity'`,
+    [story, characterId]
+  );
+  if (!charRow) throw new Error(`Character "${characterId}" not found in story "${story}"`);
 
-    // ── 2. OBSERVED: events where character was a participant ──────────────
-    //    Cypher: find all Event nodes reachable via PARTICIPATED_IN from this character
-    const obsRes = await session.run(
-      `MATCH (c:Entity {story: $story, id: $characterId})-[:PARTICIPATED_IN]->(e:Event)
-       WHERE e.sectionIndex <= $cutoff
-       RETURN e
-       ORDER BY e.sectionIndex`,
-      { story, characterId, cutoff }
-    );
+  const cutoff = sectionRow.pos;
+  const characterEntity = toEntity(charRow);
+  // The Neo4j reader hard-coded type "character" here rather than reading the
+  // label, so preserve that: a mis-typed entity must not change the shape.
+  characterEntity.type = "character";
 
-    const observations: KnowledgeItem[] = obsRes.records.map((r) => {
-      const e = r.get("e").properties;
-      return {
-        id: `obs_${e.id}_${characterId}`,
-        description: e.label as string,
-        modality: "OBSERVED",
-        confidence: 1.0,
-        based_on_events: [e.id as string],
-      };
-    });
+  // OBSERVED — events the character took part in, up to the cutoff.
+  const observed = await query<{ id: string; name: string | null; pos: number }>(
+    `SELECT e.id, e.name, e.pos
+       FROM nodes e
+       JOIN edges r ON r.story = e.story AND r.to_id = e.id AND r.rel_type = 'PARTICIPATED_IN'
+      WHERE e.story = $1 AND e.kind = 'event' AND r.from_id = $2 AND e.pos <= $3
+      ORDER BY e.pos`,
+    [story, characterId, cutoff]
+  );
 
-    // ── 3. TOLD: events where character was an explicit recipient ───────────
-    //    Cypher: find Event nodes that have a TOLD_TO edge pointing at this character
-    const toldRes = await session.run(
-      `MATCH (e:Event {story: $story})-[:TOLD_TO]->(c:Entity {story: $story, id: $characterId})
-       WHERE e.sectionIndex <= $cutoff
-       RETURN e
-       ORDER BY e.sectionIndex`,
-      { story, characterId, cutoff }
-    );
+  const observations: KnowledgeItem[] = observed.map((e) => ({
+    id: `obs_${e.id}_${characterId}`,
+    description: e.name ?? "",
+    modality: "OBSERVED",
+    confidence: 1.0,
+    based_on_events: [e.id],
+  }));
 
-    const beliefs: KnowledgeItem[] = toldRes.records.map((r) => {
-      const e = r.get("e").properties;
-      return {
-        id: `belief_${e.id}_${characterId}`,
-        description: (e.communicatesContent ?? e.label) as string,
-        modality: "TOLD",
-        confidence: 0.7,
-        based_on_events: [e.id as string],
-      };
-    });
+  // TOLD — events where the character was an explicit recipient. The content
+  // of the claim is preferred over the event label, because what a character
+  // was told may be false; that difference is the whole point.
+  const told = await query<{ id: string; name: string | null; content: string | null }>(
+    `SELECT e.id, e.name, e.props->>'communicatesContent' AS content
+       FROM nodes e
+       JOIN edges r ON r.story = e.story AND r.from_id = e.id AND r.rel_type = 'TOLD_TO'
+      WHERE e.story = $1 AND e.kind = 'event' AND r.to_id = $2 AND e.pos <= $3
+      ORDER BY e.pos`,
+    [story, characterId, cutoff]
+  );
 
-    const state: CharacterState = {
-      character: characterId,
-      section: sectionId,
-      observations,
-      beliefs,
-      deductions: [],
-    };
+  const beliefs: KnowledgeItem[] = told.map((e) => ({
+    id: `belief_${e.id}_${characterId}`,
+    description: e.content ?? e.name ?? "",
+    modality: "TOLD",
+    confidence: 0.7,
+    based_on_events: [e.id],
+  }));
 
-    // ── 4. All visible events (for system-prompt context) ───────────────────
-    //    Collect each event's participant ids in one pass via WITH/collect
-    const allEventsRes = await session.run(
-      `MATCH (e:Event {story: $story})
-       WHERE e.sectionIndex <= $cutoff
-       OPTIONAL MATCH (p:Entity)-[:PARTICIPATED_IN]->(e)
-       OPTIONAL MATCH (e)-[:TOLD_TO]->(rec:Entity)
-       WITH e, collect(DISTINCT p.id) AS participantIds, collect(DISTINCT rec.id) AS recipientIds
-       RETURN e, participantIds, recipientIds
-       ORDER BY e.sectionIndex`,
-      { story, cutoff }
-    );
+  const state: CharacterState = {
+    character: characterId,
+    section: sectionId,
+    observations,
+    beliefs,
+    deductions: [],
+  };
 
-    const visibleEvents: ObjectiveEvent[] = allEventsRes.records.map((r) => {
-      const e = r.get("e").properties;
-      const participantIds = r.get("participantIds") as string[];
-      const recipientIds = r.get("recipientIds") as string[];
-      return {
-        id: e.id as string,
-        type: "event",
-        label: e.label as string,
-        section: e.section as string,
-        source_nodes: ((e.sourceNodes as string[] | null) ?? []),
-        participants: participantIds,
-        communicates: e.communicatesContent
-          ? {
-              speaker: (e.speakerId ?? "") as string,
-              recipients: recipientIds,
-              content: e.communicatesContent as string,
-            }
-          : undefined,
-      };
-    });
+  const visible = await query<EventRow>(`${EVENT_SELECT} AND e.pos <= $2 ORDER BY e.pos, e.id`, [
+    story,
+    cutoff,
+  ]);
 
-    return { state, visibleEvents, characterEntity };
-  } finally {
-    await session.close();
-  }
+  return { state, visibleEvents: visible.map((r) => toEvent(r, false)), characterEntity };
 }
 
-// ── Story listing ─────────────────────────────────────────────────────────────
+// ── Story listing ───────────────────────────────────────────────────────────
 
-export async function listStoriesFromNeo4j(): Promise<StoryMeta[]> {
-  const session = getSession();
-  try {
-    const res = await session.run(`MATCH (s:Story) RETURN s ORDER BY s.name`);
-    const bySlug = new Map<string, StoryMeta>();
-    for (const r of res.records) {
-      const s = r.get("s").properties;
-      const slug = s.slug as string;
-      // Defensive: only ever surface the 17-work canon, even if a stray
-      // fixture (calibration variant, Sally-Anne test data) ever landed in
-      // the database — CANON_SLUGS is the single source of truth, shared
-      // with the load-time filter in scripts/migrate-to-neo4j.ts.
-      if (!CANON_SLUGS.includes(slug as (typeof CANON_SLUGS)[number])) continue;
-      bySlug.set(slug, { slug, name: s.name as string, sourceFile: s.sourceFile as string });
-    }
-    // In-universe order, not alphabetical — a reader picking a story wants
-    // the canon's internal chronology, not a dictionary sort.
-    return IN_UNIVERSE_ORDER.map((slug) => bySlug.get(slug)).filter(
-      (s): s is StoryMeta => s !== undefined
-    );
-  } finally {
-    await session.close();
+export async function listStories(): Promise<StoryMeta[]> {
+  const query = getQuery();
+
+  const rows = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes WHERE kind = 'story' ORDER BY name`
+  );
+
+  const bySlug = new Map<string, StoryMeta>();
+  for (const r of rows) {
+    // Defensive: only ever surface the 17-work canon, even if a stray fixture
+    // (calibration variant, Sally-Anne test data) ever landed in the database
+    // — CANON_SLUGS is the single source of truth, shared with the load-time
+    // filter in scripts/load-canon.ts.
+    if (!CANON_SLUGS.includes(r.id as (typeof CANON_SLUGS)[number])) continue;
+    bySlug.set(r.id, {
+      slug: r.id,
+      name: r.name ?? "",
+      sourceFile: (r.props.sourceFile as string) ?? "",
+    });
   }
+
+  // In-universe order, not alphabetical — a reader picking a story wants the
+  // canon's internal chronology, not a dictionary sort.
+  return IN_UNIVERSE_ORDER.map((slug) => bySlug.get(slug)).filter(
+    (s): s is StoryMeta => s !== undefined
+  );
 }
 
-// ── Full story data (replaces JSON file reads) ────────────────────────────────
+// ── Full story data ─────────────────────────────────────────────────────────
 
 export async function getStoryData(story: string): Promise<{
   lexical: LexicalGraph;
   objective: ObjectiveGraph;
 } | null> {
-  const session = getSession();
-  try {
-    // 1. Story meta (confirms it exists + gives granularity)
-    const storyRes = await session.run(
-      `MATCH (s:Story {slug: $story}) RETURN s.granularity AS granularity`,
-      { story }
-    );
-    if (!storyRes.records.length) return null;
-    const granularity = (storyRes.records[0].get("granularity") ?? "sentence") as LexicalGraph["granularity"];
+  const query = getQuery();
 
-    // 2. Sections
-    const sectionsRes = await session.run(
-      `MATCH (s:Section {story: $story}) RETURN s ORDER BY s.index`,
-      { story }
-    );
-    const sections: SectionMeta[] = sectionsRes.records.map((r) => {
-      const s = r.get("s").properties;
-      return { id: s.id as string, index: s.index as number, title: s.title as string, wordCount: s.wordCount as number };
-    });
+  const [storyRow] = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes
+      WHERE story = $1 AND kind = 'story'`,
+    [story]
+  );
+  if (!storyRow) return null;
 
-    // 3. Lexical nodes (sentence text)
-    const nodesRes = await session.run(
-      `MATCH (n:LexicalNode {story: $story}) RETURN n ORDER BY n.position`,
-      { story }
-    );
-    const nodes: LexicalNode[] = nodesRes.records.map((r) => {
-      const n = r.get("n").properties;
-      return {
-        id: n.id as string,
-        section: n.section as string,
-        position: n.position as number,
-        text: n.text as string,
-        entities: (n.entities as string[]) ?? [],
-      };
-    });
+  const granularity = ((storyRow.props.granularity as string) ??
+    "sentence") as LexicalGraph["granularity"];
 
-    // 4. Entities
-    const entitiesRes = await session.run(
-      `MATCH (e:Entity {story: $story}) RETURN e, labels(e) AS labels`,
-      { story }
-    );
-    const entities: Entity[] = entitiesRes.records.map((r) => {
-      const e = r.get("e").properties;
-      const labels = r.get("labels") as string[];
-      const type: Entity["type"] =
-          labels.includes("Character")    ? "character"
-        : labels.includes("Location")     ? "location"
-        : labels.includes("Case")         ? "case"
-        : labels.includes("Document")     ? "document"
-        : labels.includes("Organisation") ? "organisation"
-        : "object";
-      const base: Entity = {
-        id: e.id as string,
-        type,
-        label: e.label as string,
-        description: (e.description as string) ?? "",
-        firstSection: (e.firstSection as string) ?? "",
-      };
-      if (type === "case") {
-        base.source = (e.source as string) || undefined;
-        base.client = (e.client as string) || undefined;
-        base.crime_type = ((e.crime_type as string) || undefined) as CrimeType | undefined;
-        base.outcome = ((e.outcome as string) || undefined) as CaseOutcome | undefined;
-        base.primary_location = (e.primary_location as string) || undefined;
-      } else if (type === "document") {
-        base.document_type = ((e.document_type as string) || undefined) as DocumentType | undefined;
-        base.from = (e.sender as string) || undefined;
-        base.to = (e.recipient as string) || undefined;
-        base.content_summary = (e.content_summary as string) || undefined;
-      } else if (type === "organisation") {
-        base.org_type = ((e.org_type as string) || undefined) as OrgType | undefined;
-      }
-      return base;
-    });
+  const sectionRows = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes
+      WHERE story = $1 AND kind = 'section' ORDER BY pos`,
+    [story]
+  );
+  const sections: SectionMeta[] = sectionRows.map((r) => ({
+    id: r.id,
+    index: r.pos ?? 0,
+    title: r.name ?? "",
+    wordCount: (r.props.wordCount as number) ?? 0,
+  }));
 
-    // 5. Events with participants, performers, and recipients
-    const eventsRes = await session.run(
-      `MATCH (e:Event {story: $story})
-       OPTIONAL MATCH (p:Entity)-[:PARTICIPATED_IN]->(e)
-       OPTIONAL MATCH (perf:Entity)-[:PERFORMED]->(e)
-       OPTIONAL MATCH (e)-[:TOLD_TO]->(r:Entity)
-       WITH e,
-            collect(DISTINCT p.id) AS participants,
-            collect(DISTINCT perf.id) AS performers,
-            collect(DISTINCT r.id)   AS recipients
-       RETURN e, participants, performers, recipients
-       ORDER BY e.sectionIndex`,
-      { story }
-    );
-    const events: ObjectiveEvent[] = eventsRes.records.map((r) => {
-      const e = r.get("e").properties;
-      const participants = (r.get("participants") as string[]).filter(Boolean);
-      const performers   = (r.get("performers")   as string[]).filter(Boolean);
-      const recipients   = (r.get("recipients")   as string[]).filter(Boolean);
-      return {
-        id: e.id as string,
-        type: "event",
-        label: e.label as string,
-        section: e.section as string,
-        source_nodes: ((e.sourceNodes as string[] | null) ?? []),
-        participants,
-        performs: performers.length ? performers : undefined,
-        communicates: e.communicatesContent
-          ? { speaker: (e.speakerId ?? "") as string, recipients, content: e.communicatesContent as string }
-          : undefined,
-      };
-    });
+  const lexicalRows = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes
+      WHERE story = $1 AND kind = 'lexical' ORDER BY pos`,
+    [story]
+  );
+  const nodes: LexicalNode[] = lexicalRows.map((r) => ({
+    id: r.id,
+    section: (r.props.section as string) ?? "",
+    position: r.pos ?? 0,
+    text: (r.props.text as string) ?? "",
+    entities: (r.props.entities as string[] | null) ?? [],
+  }));
 
-    // 6. State edges
-    const stateEdgesRes = await session.run(
-      `MATCH (f:Entity {story: $story})-[r:IS_INSIDE|LOCATED_AT|OWNS]->(t:Entity)
-       RETURN f.id AS fromId, t.id AS toId, type(r) AS relType,
-              r.validFrom AS validFrom, r.validUntil AS validUntil`,
-      { story }
-    );
-    const stateEdges: StateEdge[] = stateEdgesRes.records.map((r, i) => ({
-      id: `state_${i + 1}`,
-      from: r.get("fromId") as string,
-      to: r.get("toId") as string,
-      type: r.get("relType") as StateEdge["type"],
-      valid_from: r.get("validFrom") as string,
-      valid_until: (r.get("validUntil") as string | null) ?? undefined,
-      caused_by: [],
-    }));
+  const entityRows = await query<NodeRow>(
+    `SELECT id, kind, subkind, name, pos, props FROM nodes
+      WHERE story = $1 AND kind = 'entity' ORDER BY id`,
+    [story]
+  );
+  const entities: Entity[] = entityRows.map(toEntity);
 
-    // 7. Mentions (entity → section)
-    const mentionsRes = await session.run(
-      `MATCH (e:Entity {story: $story})-[r:MENTIONED_IN]->(s:Section {story: $story})
-       RETURN e.id AS entityId, s.id AS sectionId,
-              r.mentionCount AS mentionCount, r.sentenceIds AS sentenceIds
-       ORDER BY s.index`,
-      { story }
-    );
-    const mentions: Mention[] = mentionsRes.records.map((r) => ({
-      entity: r.get("entityId") as string,
-      section: r.get("sectionId") as string,
-      mention_count: (r.get("mentionCount") as number) ?? 0,
-      sentence_ids: (r.get("sentenceIds") as string[]) ?? [],
-    }));
+  const eventRows = await query<EventRow>(`${EVENT_SELECT} ORDER BY e.pos, e.id`, [story]);
+  // Wrapped, not passed by reference: Array.map supplies the index as the
+  // second argument, which would land in `withPerforms` and silently strip
+  // `performs` from the first event of every story.
+  const events: ObjectiveEvent[] = eventRows.map((r) => toEvent(r));
 
-    // 8. Clues (object → case)
-    const cluesRes = await session.run(
-      `MATCH (o:Entity {story: $story})-[r:CLUE_FOR]->(k:Entity {story: $story})
-       RETURN o.id AS objectId, k.id AS caseId,
-              r.discoveredBy AS discoveredBy, r.discoveredInSection AS discoveredInSection,
-              r.significance AS significance, r.sourceNodes AS sourceNodes
-       ORDER BY r.sectionIndex`,
-      { story }
-    );
-    const clues: Clue[] = cluesRes.records.map((r) => ({
-      object: r.get("objectId") as string,
-      case: r.get("caseId") as string,
-      discovered_by: r.get("discoveredBy") as string,
-      discovered_in_section: r.get("discoveredInSection") as string,
-      significance: (r.get("significance") as string) ?? "",
-      source_nodes: (r.get("sourceNodes") as string[]) ?? [],
-    }));
+  const stateRows = await query<{
+    from_id: string; to_id: string; rel_type: string;
+    valid_from: string | null; valid_until: string | null;
+  }>(
+    `SELECT from_id, to_id, rel_type,
+            props->>'validFrom'  AS valid_from,
+            props->>'validUntil' AS valid_until
+       FROM edges
+      WHERE story = $1 AND rel_type IN ('IS_INSIDE', 'LOCATED_AT', 'OWNS')
+      ORDER BY from_id, to_id, rel_type, valid_from`,
+    [story]
+  );
+  const stateEdges: StateEdge[] = stateRows.map((r, i) => ({
+    id: `state_${i + 1}`,
+    from: r.from_id,
+    to: r.to_id,
+    type: r.rel_type as StateEdge["type"],
+    valid_from: r.valid_from ?? "",
+    valid_until: r.valid_until ?? undefined,
+    caused_by: [],
+  }));
 
-    // 9. Memberships (character → organisation)
-    const memberRes = await session.run(
-      `MATCH (c:Entity {story: $story})-[r:MEMBER_OF]->(o:Entity {story: $story})
-       RETURN c.id AS characterId, o.id AS organisationId,
-              r.validFrom AS validFrom, r.validUntil AS validUntil`,
-      { story }
-    );
-    const memberOf: MemberOf[] = memberRes.records.map((r) => ({
-      character: r.get("characterId") as string,
-      organisation: r.get("organisationId") as string,
-      valid_from: (r.get("validFrom") as string | null) ?? undefined,
-      valid_until: (r.get("validUntil") as string | null) ?? undefined,
-    }));
+  const mentionRows = await query<{
+    entity: string; section: string; mention_count: number | null; sentence_ids: string[] | null;
+  }>(
+    `SELECT e.from_id AS entity, e.to_id AS section,
+            (e.props->>'mentionCount')::int AS mention_count,
+            ARRAY(SELECT jsonb_array_elements_text(e.props->'sentenceIds')) AS sentence_ids
+       FROM edges e
+       JOIN nodes s ON s.story = e.story AND s.id = e.to_id
+      WHERE e.story = $1 AND e.rel_type = 'MENTIONED_IN'
+      ORDER BY s.pos`,
+    [story]
+  );
+  const mentions: Mention[] = mentionRows.map((r) => ({
+    entity: r.entity,
+    section: r.section,
+    mention_count: r.mention_count ?? 0,
+    sentence_ids: r.sentence_ids ?? [],
+  }));
 
-    return {
-      lexical: { granularity, sections, nodes },
-      objective: { entities, events, stateEdges, mentions, clues, memberOf },
-    };
-  } finally {
-    await session.close();
-  }
+  const clueRows = await query<{
+    object: string; case_id: string; discovered_by: string | null;
+    discovered_in_section: string | null; significance: string | null; source_nodes: string[] | null;
+  }>(
+    `SELECT from_id AS object, to_id AS case_id,
+            props->>'discoveredBy'        AS discovered_by,
+            props->>'discoveredInSection' AS discovered_in_section,
+            props->>'significance'        AS significance,
+            ARRAY(SELECT jsonb_array_elements_text(props->'sourceNodes')) AS source_nodes
+       FROM edges
+      WHERE story = $1 AND rel_type = 'CLUE_FOR'
+      ORDER BY valid_from_section`,
+    [story]
+  );
+  const clues: Clue[] = clueRows.map((r) => ({
+    object: r.object,
+    case: r.case_id,
+    discovered_by: r.discovered_by ?? "",
+    discovered_in_section: r.discovered_in_section ?? "",
+    significance: r.significance ?? "",
+    source_nodes: r.source_nodes ?? [],
+  }));
+
+  const memberRows = await query<{
+    character: string; organisation: string; valid_from: string | null; valid_until: string | null;
+  }>(
+    `SELECT from_id AS character, to_id AS organisation,
+            props->>'validFrom'  AS valid_from,
+            props->>'validUntil' AS valid_until
+       FROM edges
+      WHERE story = $1 AND rel_type = 'MEMBER_OF'
+      ORDER BY from_id, to_id`,
+    [story]
+  );
+  const memberOf: MemberOf[] = memberRows.map((r) => ({
+    character: r.character,
+    organisation: r.organisation,
+    valid_from: r.valid_from ?? undefined,
+    valid_until: r.valid_until ?? undefined,
+  }));
+
+  return {
+    lexical: { granularity, sections, nodes },
+    objective: { entities, events, stateEdges, mentions, clues, memberOf },
+  };
 }
 
-// ── Utility: current location of an entity at a section ──────────────────────
-// Uses the state-edge validity windows (LOCATED_AT / IS_INSIDE) stored during ingestion.
+// ── Entity state at a point in time ─────────────────────────────────────────
+// The validity window, straight off the promoted columns: inclusive lower
+// bound, exclusive upper, NULL upper meaning "still true at the story's end".
+
 export async function getEntityStateAt(
   story: string,
   entityId: string,
   sectionIndex: number
 ): Promise<{ type: string; targetId: string; targetLabel: string }[]> {
-  const session = getSession();
-  try {
-    const res = await session.run(
-      `MATCH (e:Entity {story: $story, id: $entityId})-[r:IS_INSIDE|LOCATED_AT|OWNS]->(t:Entity)
-       WHERE r.validFromIndex <= $sectionIndex
-         AND (r.validUntilIndex IS NULL OR r.validUntilIndex > $sectionIndex)
-       RETURN type(r) AS edgeType, t.id AS targetId, t.label AS targetLabel`,
-      { story, entityId, sectionIndex }
-    );
-    return res.records.map((r) => ({
-      type: r.get("edgeType") as string,
-      targetId: r.get("targetId") as string,
-      targetLabel: r.get("targetLabel") as string,
-    }));
-  } finally {
-    await session.close();
-  }
+  const query = getQuery();
+
+  const rows = await query<{ type: string; target_id: string; target_label: string | null }>(
+    `SELECT e.rel_type AS type, e.to_id AS target_id, t.name AS target_label
+       FROM edges e
+       JOIN nodes t ON t.story = e.story AND t.id = e.to_id
+      WHERE e.story = $1
+        AND e.from_id = $2
+        AND e.rel_type IN ('IS_INSIDE', 'LOCATED_AT', 'OWNS')
+        AND e.valid_from_section <= $3
+        AND (e.valid_to_section IS NULL OR e.valid_to_section > $3)
+      ORDER BY e.rel_type, e.to_id`,
+    [story, entityId, sectionIndex]
+  );
+
+  return rows.map((r) => ({
+    type: r.type,
+    targetId: r.target_id,
+    targetLabel: r.target_label ?? "",
+  }));
 }

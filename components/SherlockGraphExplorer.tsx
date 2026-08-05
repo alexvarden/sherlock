@@ -3,7 +3,7 @@ import CraneHeader from "./CraneHeader";
 import KnowledgeGraphViewer from "./KnowledgeGraphViewer";
 import StorySwitcher from "./StorySwitcher";
 import IngestButton from "./IngestButton";
-import { listStoriesFromNeo4j, getStoryData } from "../lib/graph-query";
+import { listStories, getStoryData } from "../lib/graph-query";
 import { NOVEL_SLUGS } from "../lib/canon-types";
 import { entityTypes, edgeTypes } from "../lib/graph-schema";
 import type { StoryMeta } from "../lib/types";
@@ -40,7 +40,7 @@ export default async function SherlockGraphExplorer({
   let unavailable: string | null = null;
 
   try {
-    stories = await listStoriesFromNeo4j();
+    stories = await listStories();
   } catch {
     unavailable = devTools
       ? "Cannot reach Neo4j. Make sure the container is running: docker compose up -d"

@@ -3027,47 +3027,6 @@
   "objective": {
     "clues": [
       {
-        "case": "dundas_separation_case",
-        "discovered_by": "sherlock_holmes",
-        "discovered_in_section": "section_17",
-        "object": "last_saturdays_chronicle",
-        "significance": "Holmes inferred that Mary Sutherland had advertised for Hosmer Angel from the newspaper slip she produced.",
-        "source_nodes": [
-          "sentence_194",
-          "sentence_195"
-        ]
-      },
-      {
-        "case": "dundas_separation_case",
-        "discovered_by": "sherlock_holmes",
-        "discovered_in_section": "section_20",
-        "object": "plush",
-        "significance": "Holmes inferred that the woman's sleeve material could show traces from her activities",
-        "source_nodes": [
-          "sentence_238"
-        ]
-      },
-      {
-        "case": "dundas_separation_case",
-        "discovered_by": "sherlock_holmes",
-        "discovered_in_section": "section_20",
-        "object": "typewritist",
-        "significance": "Holmes inferred that the wrist mark matched a typewritist's pressure against a table",
-        "source_nodes": [
-          "sentence_239"
-        ]
-      },
-      {
-        "case": "dundas_separation_case",
-        "discovered_by": "sherlock_holmes",
-        "discovered_in_section": "section_20",
-        "object": "pince_nez",
-        "significance": "Holmes inferred short sight and typewriting from the pince-nez marks at either side of her nose",
-        "source_nodes": [
-          "sentence_241"
-        ]
-      },
-      {
         "case": "holmes_case",
         "discovered_by": "sherlock_holmes",
         "discovered_in_section": "section_22",
@@ -3083,6 +3042,27 @@
       {
         "case": "holmes_investigation_case",
         "discovered_by": "sherlock_holmes",
+        "discovered_in_section": "section_32",
+        "object": "bushy_whiskers",
+        "significance": "Holmes inferred a disguise from the bushy whiskers.",
+        "source_nodes": [
+          "sentence_388"
+        ]
+      },
+      {
+        "case": "dundas_separation_case",
+        "discovered_by": "sherlock_holmes",
+        "discovered_in_section": "section_17",
+        "object": "last_saturdays_chronicle",
+        "significance": "Holmes inferred that Mary Sutherland had advertised for Hosmer Angel from the newspaper slip she produced.",
+        "source_nodes": [
+          "sentence_194",
+          "sentence_195"
+        ]
+      },
+      {
+        "case": "holmes_investigation_case",
+        "discovered_by": "sherlock_holmes",
         "discovered_in_section": "section_27",
         "object": "letters",
         "significance": "Holmes inferred that the four letters shared the same typewriter characteristics, including slurred 'e's, tailless 'r's, and fourteen other matching marks.",
@@ -3090,6 +3070,26 @@
           "sentence_323",
           "sentence_324",
           "sentence_325"
+        ]
+      },
+      {
+        "case": "dundas_separation_case",
+        "discovered_by": "sherlock_holmes",
+        "discovered_in_section": "section_20",
+        "object": "pince_nez",
+        "significance": "Holmes inferred short sight and typewriting from the pince-nez marks at either side of her nose",
+        "source_nodes": [
+          "sentence_241"
+        ]
+      },
+      {
+        "case": "dundas_separation_case",
+        "discovered_by": "sherlock_holmes",
+        "discovered_in_section": "section_20",
+        "object": "plush",
+        "significance": "Holmes inferred that the woman's sleeve material could show traces from her activities",
+        "source_nodes": [
+          "sentence_238"
         ]
       },
       {
@@ -3103,13 +3103,13 @@
         ]
       },
       {
-        "case": "holmes_investigation_case",
+        "case": "dundas_separation_case",
         "discovered_by": "sherlock_holmes",
-        "discovered_in_section": "section_32",
-        "object": "bushy_whiskers",
-        "significance": "Holmes inferred a disguise from the bushy whiskers.",
+        "discovered_in_section": "section_20",
+        "object": "typewritist",
+        "significance": "Holmes inferred that the wrist mark matched a typewritist's pressure against a table",
         "source_nodes": [
-          "sentence_388"
+          "sentence_239"
         ]
       },
       {
@@ -3612,1040 +3612,6 @@
         "source_nodes": [
           "sentence_5",
           "sentence_6"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "A certain selection and discretion must be used in producing a realistic effect.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_1",
-        "label": "Sherlock Holmes remarks that realistic effect requires selection and discretion",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_7"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "This is wanting in the police report, where more stress is laid, perhaps, upon the platitudes of the magistrate than upon the details, which to an observer contain the vital essence of the whole matter.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_2",
-        "label": "Sherlock Holmes remarks that the police report lacks details and stresses platitudes",
-        "participants": [
-          "police_reports",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_8"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Depend upon it, there is nothing so unnatural as the commonplace.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_3",
-        "label": "Sherlock Holmes says the commonplace is unnatural",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_9"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_2_4",
-        "label": "The speaker smiles and shakes his head",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_10"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I can quite understand your thinking so.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_5",
-        "label": "The speaker says he can understand Holmes's thinking",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_11",
-          "sentence_12"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Of course, in your position of unofficial adviser and helper to everybody who is absolutely puzzled, throughout three continents, you are brought in contact with all that is strange and bizarre.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_6",
-        "label": "The speaker says Holmes is brought into contact with strange and bizarre things",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_13"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_2_7",
-        "label": "The speaker picks up the morning paper from the ground and presents it for a practical test",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_14",
-          "sentence_15"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Here is the first heading upon which I come. 'A husband's cruelty to his wife.' There is half a column of print, but I know without reading it that it is all perfectly familiar to me.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_2_8",
-        "label": "The speaker identifies the newspaper heading about a husband's cruelty to his wife",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_2",
-        "source_nodes": [
-          "sentence_16",
-          "sentence_17"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Indeed, your example is an unfortunate one for your argument.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_3_1",
-        "label": "Holmes says the Dundas separation case is an unfortunate example for the argument",
-        "participants": [
-          "dundas_separation_case",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_3",
-        "source_nodes": [
-          "sentence_20",
-          "sentence_21"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "This is the Dundas separation case, and, as it happens, I was engaged in clearing up some small points in connection with it.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_3_2",
-        "label": "Holmes identifies the case as the Dundas separation case and says he had been clearing up some small points in connection with it",
-        "participants": [
-          "dundas_separation_case",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_3",
-        "source_nodes": [
-          "sentence_21"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "The husband was a teetotaler, there was no other woman, and the conduct complained of was that he had drifted into the habit of winding up every meal by taking out his false teeth and hurling them at his wife, which, you will allow, is not an action likely to occur to the imagination of the average story-teller.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_3_3",
-        "label": "Holmes describes the husband, wife, and conduct complained of in the Dundas separation case",
-        "participants": [
-          "dundas_separation_case"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_3",
-        "source_nodes": [
-          "sentence_22"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Take a pinch of snuff, Doctor, and acknowledge that I have scored over you in your example.",
-          "recipients": [],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_3_4",
-        "label": "Holmes offers snuff to the doctor and tells him to acknowledge Holmes has scored over him",
-        "participants": [
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_3",
-        "source_nodes": [
-          "sentence_23",
-          "sentence_24"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "It is a little souvenir from the King of Bohemia in return for my assistance in the case of the Irene Adler papers.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_4_1",
-        "label": "Holmes mentions a souvenir from the King of Bohemia",
-        "participants": [
-          "king_of_bohemia",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_4",
-        "source_nodes": [
-          "sentence_27"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "It was from the reigning family of Holland, though the matter in which I served them was of such delicacy that I cannot confide it even to you, who have been good enough to chronicle one or two of my little problems.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_4_2",
-        "label": "Holmes mentions a ring from the reigning family of Holland",
-        "participants": [
-          "holland_reigning_family",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_4",
-        "source_nodes": [
-          "sentence_30"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Some ten or twelve, but none which present any feature of interest. They are important, you understand, without being interesting. Indeed, I have found that it is usually in unimportant matters that there is a field for the observation, and for the quick analysis of cause and effect which gives the charm to an investigation. The larger crimes are apt to be the simpler, for the bigger the crime the more obvious, as a rule, is the motive. In these cases, save for one rather intricate matter which has been referred to me from Marseilles, there is nothing which presents any features of interest. It is possible, however, that I may have something better before very many minutes are over, for this is one of my clients, or I am much mistaken.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_4_3",
-        "label": "Holmes states that he has several matters on hand",
-        "participants": [
-          "marseilles_case",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_4",
-        "source_nodes": [
-          "sentence_33",
-          "sentence_34",
-          "sentence_35",
-          "sentence_36",
-          "sentence_37",
-          "sentence_38"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_4_4",
-        "label": "Holmes rises and stands by the window",
-        "participants": [
-          "baker_street",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_4",
-        "source_nodes": [
-          "sentence_39"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_4_5",
-        "label": "The large woman stands on the pavement opposite and then hurries across the road to the bell",
-        "participants": [
-          "baker_street",
-          "large_woman"
-        ],
-        "performs": [
-          "large_woman"
-        ],
-        "section": "section_4",
-        "source_nodes": [
-          "sentence_40",
-          "sentence_41",
-          "sentence_42"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Do you not find that with your short sight it is a little trying to do so much typewriting?",
-          "recipients": [
-            "large_woman"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_6_1",
-        "label": "Holmes remarks on the woman's short sight and typewriting",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_52"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I did at first, but now I know where the letters are without looking.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "large_woman"
-        },
-        "id": "event_6_2",
-        "label": "The woman replies that she now types without looking at the letters",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "large_woman"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_53"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_6_3",
-        "label": "The woman reacts with fear and astonishment",
-        "participants": [
-          "large_woman"
-        ],
-        "performs": [
-          "large_woman"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_54"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "You’ve heard about me, Mr. Holmes, else how could you know all that?",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "large_woman"
-        },
-        "id": "event_6_4",
-        "label": "The woman asks Holmes how he knew about her",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "large_woman"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_55"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Never mind. It is my business to know things. Perhaps I have trained myself to see what others overlook. If not, why should you come to consult me?",
-          "recipients": [
-            "large_woman"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_6_5",
-        "label": "Holmes laughs and replies that knowing things is his business",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_56",
-          "sentence_57",
-          "sentence_58"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I came to you, sir, because I heard of you from Mrs. Etherege, whose husband you found so easy when the police and everyone had given him up for dead. Oh, Mr. Holmes, I wish you would do as much for me. I’m not rich, but still I have a hundred a year in my own right, besides the little that I make by the machine, and I would give it all to know what has become of Mr. Hosmer Angel.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "large_woman"
-        },
-        "id": "event_6_6",
-        "label": "The woman explains why she came to Holmes and asks him to help find Hosmer Angel",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "large_woman"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_59",
-          "sentence_60",
-          "sentence_61"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Why did you come away to consult me in such a hurry?",
-          "recipients": [
-            "large_woman"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_6_7",
-        "label": "Holmes asks why she came away to consult him in such a hurry",
-        "participants": [
-          "large_woman",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_6",
-        "source_nodes": [
-          "sentence_62",
-          "sentence_63"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Yes, I did bang out of the house, for it made me angry to see the easy way in which Mr. Windibank—that is, my father—took it all. He would not go to the police, and he would not go to you, and so at last, as he would do nothing and kept on saying that there was no harm done, it made me mad, and I just on with my things and came right away to you.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_7_1",
-        "label": "Mary Sutherland says she bangs out of the house and comes right away to Holmes",
-        "participants": [
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_65",
-          "sentence_66"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Your father, your stepfather, surely, since the name is different.",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_7_2",
-        "label": "Holmes remarks that Windibank is Mary Sutherland's stepfather",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_67",
-          "sentence_68"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Yes, my stepfather. I call him father, though it sounds funny, too, for he is only five years and two months older than myself.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_7_3",
-        "label": "Mary Sutherland says Windibank is her stepfather and that she calls him father",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_68",
-          "sentence_69"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "And your mother is alive?",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_7_4",
-        "label": "Holmes asks whether Mary Sutherland's mother is alive",
-        "participants": [
-          "mother_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_70"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Oh, yes, mother is alive and well.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_7_5",
-        "label": "Mary Sutherland says her mother is alive and well",
-        "participants": [
-          "mary_sutherland",
-          "mother_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_71"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I wasn’t best pleased, Mr. Holmes, when she married again so soon after father’s death, and a man who was nearly fifteen years younger than herself.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_7_6",
-        "label": "Mary Sutherland says her mother remarried soon after her father's death",
-        "participants": [
-          "father_sutherland",
-          "mary_sutherland",
-          "mother_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_72"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Father was a plumber in the Tottenham Court Road, and he left a tidy business behind him, which mother carried on with Mr. Hardy, the foreman; but when Mr. Windibank came he made her sell the business, for he was very superior, being a traveller in wines. They got £4700 for the goodwill and interest, which wasn’t near as much as father could have got if he had been alive.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_7_7",
-        "label": "Mary Sutherland describes her father, mother, Mr. Hardy, and Mr. Windibank's role in the business",
-        "participants": [
-          "father_sutherland",
-          "mary_sutherland",
-          "mother_sutherland",
-          "mr_hardy",
-          "mr_windibank",
-          "tottenham_court_road"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_73",
-          "sentence_74"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_7_8",
-        "label": "Holmes listens to Mary Sutherland's narrative with concentration",
-        "participants": [
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_7",
-        "source_nodes": [
-          "sentence_75"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Oh, no, sir. It is quite separate and was left me by my uncle Ned in Auckland. It is in New Zealand stock, paying 41/2 per cent. Two thousand five hundred pounds was the amount, but I can only touch the interest.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_8_1",
-        "label": "Mary Sutherland says her income is separate from the business and was left to her by her uncle",
-        "participants": [
-          "mary_sutherland",
-          "uncle_ned"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_8",
-        "source_nodes": [
-          "sentence_77",
-          "sentence_78",
-          "sentence_79",
-          "sentence_80"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "You interest me extremely.",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_8_2",
-        "label": "Holmes remarks that Mary Sutherland interests him extremely",
-        "participants": [
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_8",
-        "source_nodes": [
-          "sentence_81"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "And since you draw so large a sum as a hundred a year, with what you earn into the bargain, you no doubt travel a little and indulge yourself in every way. I believe that a single lady can get on very nicely upon an income of about £60.",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_8_3",
-        "label": "Holmes comments on Mary Sutherland's income and travel habits",
-        "participants": [
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_8",
-        "source_nodes": [
-          "sentence_82",
-          "sentence_83"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I could do with much less than that, Mr. Holmes, but you understand that as long as I live at home I don’t wish to be a burden to them, and so they have the use of the money just while I am staying with them. Of course, that is only just for the time.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_8_4",
-        "label": "Mary Sutherland says she could live on less and does not wish to be a burden while staying at home",
-        "participants": [
-          "mary_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_8",
-        "source_nodes": [
-          "sentence_84",
-          "sentence_85"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_9_1",
-        "label": "Mr. Windibank pays interest to mother Sutherland every quarter",
-        "participants": [
-          "mother_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mr_windibank"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_86"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_9_2",
-        "label": "Miss Sutherland earns money by typewriting and produces sheets in a day",
-        "participants": [
-          "mary_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_86",
-          "sentence_87"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "You have made your position very clear to me. This is my friend, Dr. Watson, be- fore whom you can speak as freely as before myself. Kindly tell us now all about your connection with Mr. Hosmer Angel.",
-          "recipients": [
-            "mary_sutherland",
-            "watson"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_9_3",
-        "label": "Holmes speaks to Miss Sutherland and Watson and asks about Hosmer Angel",
-        "participants": [
-          "hosmer_angel",
-          "mary_sutherland",
-          "sherlock_holmes",
-          "watson"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_88",
-          "sentence_89",
-          "sentence_90",
-          "sentence_91"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_9_4",
-        "label": "Miss Sutherland flushes and picks nervously at her jacket fringe",
-        "participants": [
-          "mary_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_92"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "I met him first at the gasfitters’ ball.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_5",
-        "label": "Miss Sutherland describes first meeting Hosmer Angel at the gasfitters' ball",
-        "participants": [
-          "hosmer_angel",
-          "mary_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_93"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "They used to send father tickets when he was alive, and then afterwards they remembered us, and sent them to mother.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_6",
-        "label": "Miss Sutherland describes receiving ball tickets from father and mother after his death",
-        "participants": [
-          "father_sutherland",
-          "mary_sutherland",
-          "mother_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_94"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Mr. Windibank did not wish us to go. He never did wish us to go anywhere.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_7",
-        "label": "Mr. Windibank objects to Miss Sutherland going out",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mr_windibank"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_95",
-          "sentence_96"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "He would get quite mad if I wanted so much as to join a Sunday-school treat.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_8",
-        "label": "Mr. Windibank becomes angry when Miss Sutherland wants to join a Sunday-school treat",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mr_windibank"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_97"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "But this time I was set on going, and I would go; for what right had he to prevent?",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_9",
-        "label": "Miss Sutherland insists on going to the ball despite Mr. Windibank's objections",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_98"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "He said the folk were not fit for us to know, when all father’s friends were to be there.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_10",
-        "label": "Mr. Windibank says the guests are not fit for Miss Sutherland and her family to know",
-        "participants": [
-          "father_sutherland",
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mr_windibank"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_99"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "And he said that I had nothing fit to wear, when I had my purple plush that I had never so much as taken out of the drawer.",
-          "recipients": [
-            "sherlock_holmes",
-            "watson"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_9_11",
-        "label": "Mr. Windibank says Miss Sutherland has nothing fit to wear",
-        "participants": [
-          "mary_sutherland",
-          "mr_windibank"
-        ],
-        "performs": [
-          "mr_windibank"
-        ],
-        "section": "section_9",
-        "source_nodes": [
-          "sentence_100"
         ],
         "type": "event"
       },
@@ -5629,6 +4595,123 @@
       },
       {
         "communicates": {
+          "content": "Mr. Angel’s address you never had, I understand. Where is your father’s place of business?",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_17_10",
+        "label": "Holmes says he understands that Mary Sutherland never had Mr. Angel's address and asks about her father's business",
+        "participants": [
+          "father_sutherland",
+          "hosmer_angel",
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_17",
+        "source_nodes": [
+          "sentence_200",
+          "sentence_201"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_17_11",
+        "label": "Mary Sutherland states that her father travels for Westhouse & Marbank of Fenchurch Street",
+        "participants": [
+          "father_sutherland",
+          "mary_sutherland",
+          "westhouse_and_marbank"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_17",
+        "source_nodes": [
+          "sentence_202"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Thank you. You have made your statement very clearly. You will leave the papers here, and remember the advice which I have given you. Let the whole incident be a sealed book, and do not allow it to affect your life.",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_17_12",
+        "label": "Holmes thanks Mary Sutherland and tells her to leave the papers and keep the incident secret",
+        "participants": [
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_17",
+        "source_nodes": [
+          "sentence_203",
+          "sentence_204",
+          "sentence_205",
+          "sentence_206"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "You are very kind, Mr. Holmes, but I cannot do that. I shall be true to Hosmer. He shall find me ready when he comes back.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_17_13",
+        "label": "Mary Sutherland refuses Holmes's advice and declares loyalty to Hosmer Angel",
+        "participants": [
+          "hosmer_angel",
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_17",
+        "source_nodes": [
+          "sentence_207",
+          "sentence_208",
+          "sentence_209"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_17_14",
+        "label": "Mary Sutherland leaves after placing her papers on the table",
+        "participants": [
+          "mary_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_17",
+        "source_nodes": [
+          "sentence_211"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
           "content": "Above all, try to let Mr. Hosmer Angel vanish from your memory, as he has done from your life.",
           "recipients": [
             "mary_sutherland"
@@ -5817,123 +4900,6 @@
         "source_nodes": [
           "sentence_198",
           "sentence_199"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Mr. Angel’s address you never had, I understand. Where is your father’s place of business?",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_17_10",
-        "label": "Holmes says he understands that Mary Sutherland never had Mr. Angel's address and asks about her father's business",
-        "participants": [
-          "father_sutherland",
-          "hosmer_angel",
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_17",
-        "source_nodes": [
-          "sentence_200",
-          "sentence_201"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_17_11",
-        "label": "Mary Sutherland states that her father travels for Westhouse & Marbank of Fenchurch Street",
-        "participants": [
-          "father_sutherland",
-          "mary_sutherland",
-          "westhouse_and_marbank"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_17",
-        "source_nodes": [
-          "sentence_202"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "Thank you. You have made your statement very clearly. You will leave the papers here, and remember the advice which I have given you. Let the whole incident be a sealed book, and do not allow it to affect your life.",
-          "recipients": [
-            "mary_sutherland"
-          ],
-          "speaker": "sherlock_holmes"
-        },
-        "id": "event_17_12",
-        "label": "Holmes thanks Mary Sutherland and tells her to leave the papers and keep the incident secret",
-        "participants": [
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "sherlock_holmes"
-        ],
-        "section": "section_17",
-        "source_nodes": [
-          "sentence_203",
-          "sentence_204",
-          "sentence_205",
-          "sentence_206"
-        ],
-        "type": "event"
-      },
-      {
-        "communicates": {
-          "content": "You are very kind, Mr. Holmes, but I cannot do that. I shall be true to Hosmer. He shall find me ready when he comes back.",
-          "recipients": [
-            "sherlock_holmes"
-          ],
-          "speaker": "mary_sutherland"
-        },
-        "id": "event_17_13",
-        "label": "Mary Sutherland refuses Holmes's advice and declares loyalty to Hosmer Angel",
-        "participants": [
-          "hosmer_angel",
-          "mary_sutherland",
-          "sherlock_holmes"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_17",
-        "source_nodes": [
-          "sentence_207",
-          "sentence_208",
-          "sentence_209"
-        ],
-        "type": "event"
-      },
-      {
-        "id": "event_17_14",
-        "label": "Mary Sutherland leaves after placing her papers on the table",
-        "participants": [
-          "mary_sutherland"
-        ],
-        "performs": [
-          "mary_sutherland"
-        ],
-        "section": "section_17",
-        "source_nodes": [
-          "sentence_211"
         ],
         "type": "event"
       },
@@ -6129,6 +5095,160 @@
         "section": "section_19",
         "source_nodes": [
           "sentence_231"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "A certain selection and discretion must be used in producing a realistic effect.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_1",
+        "label": "Sherlock Holmes remarks that realistic effect requires selection and discretion",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_7"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "This is wanting in the police report, where more stress is laid, perhaps, upon the platitudes of the magistrate than upon the details, which to an observer contain the vital essence of the whole matter.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_2",
+        "label": "Sherlock Holmes remarks that the police report lacks details and stresses platitudes",
+        "participants": [
+          "police_reports",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_8"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Depend upon it, there is nothing so unnatural as the commonplace.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_3",
+        "label": "Sherlock Holmes says the commonplace is unnatural",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_9"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_2_4",
+        "label": "The speaker smiles and shakes his head",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_10"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I can quite understand your thinking so.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_5",
+        "label": "The speaker says he can understand Holmes's thinking",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_11",
+          "sentence_12"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Of course, in your position of unofficial adviser and helper to everybody who is absolutely puzzled, throughout three continents, you are brought in contact with all that is strange and bizarre.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_6",
+        "label": "The speaker says Holmes is brought into contact with strange and bizarre things",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_13"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_2_7",
+        "label": "The speaker picks up the morning paper from the ground and presents it for a practical test",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_14",
+          "sentence_15"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Here is the first heading upon which I come. 'A husband's cruelty to his wife.' There is half a column of print, but I know without reading it that it is all perfectly familiar to me.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_2_8",
+        "label": "The speaker identifies the newspaper heading about a husband's cruelty to his wife",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_2",
+        "source_nodes": [
+          "sentence_16",
+          "sentence_17"
         ],
         "type": "event"
       },
@@ -7419,6 +6539,90 @@
         "type": "event"
       },
       {
+        "communicates": {
+          "content": "Indeed, your example is an unfortunate one for your argument.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_3_1",
+        "label": "Holmes says the Dundas separation case is an unfortunate example for the argument",
+        "participants": [
+          "dundas_separation_case",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_3",
+        "source_nodes": [
+          "sentence_20",
+          "sentence_21"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "This is the Dundas separation case, and, as it happens, I was engaged in clearing up some small points in connection with it.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_3_2",
+        "label": "Holmes identifies the case as the Dundas separation case and says he had been clearing up some small points in connection with it",
+        "participants": [
+          "dundas_separation_case",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_3",
+        "source_nodes": [
+          "sentence_21"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "The husband was a teetotaler, there was no other woman, and the conduct complained of was that he had drifted into the habit of winding up every meal by taking out his false teeth and hurling them at his wife, which, you will allow, is not an action likely to occur to the imagination of the average story-teller.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_3_3",
+        "label": "Holmes describes the husband, wife, and conduct complained of in the Dundas separation case",
+        "participants": [
+          "dundas_separation_case"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_3",
+        "source_nodes": [
+          "sentence_22"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Take a pinch of snuff, Doctor, and acknowledge that I have scored over you in your example.",
+          "recipients": [],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_3_4",
+        "label": "Holmes offers snuff to the doctor and tells him to acknowledge Holmes has scored over him",
+        "participants": [
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_3",
+        "source_nodes": [
+          "sentence_23",
+          "sentence_24"
+        ],
+        "type": "event"
+      },
+      {
         "id": "event_30_1",
         "label": "James Windibank keeps Miss Sutherland bound to Hosmer Angel and away from other lovers",
         "participants": [
@@ -8010,32 +7214,836 @@
           "sentence_402"
         ],
         "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "It is a little souvenir from the King of Bohemia in return for my assistance in the case of the Irene Adler papers.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_4_1",
+        "label": "Holmes mentions a souvenir from the King of Bohemia",
+        "participants": [
+          "king_of_bohemia",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_4",
+        "source_nodes": [
+          "sentence_27"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "It was from the reigning family of Holland, though the matter in which I served them was of such delicacy that I cannot confide it even to you, who have been good enough to chronicle one or two of my little problems.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_4_2",
+        "label": "Holmes mentions a ring from the reigning family of Holland",
+        "participants": [
+          "holland_reigning_family",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_4",
+        "source_nodes": [
+          "sentence_30"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Some ten or twelve, but none which present any feature of interest. They are important, you understand, without being interesting. Indeed, I have found that it is usually in unimportant matters that there is a field for the observation, and for the quick analysis of cause and effect which gives the charm to an investigation. The larger crimes are apt to be the simpler, for the bigger the crime the more obvious, as a rule, is the motive. In these cases, save for one rather intricate matter which has been referred to me from Marseilles, there is nothing which presents any features of interest. It is possible, however, that I may have something better before very many minutes are over, for this is one of my clients, or I am much mistaken.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_4_3",
+        "label": "Holmes states that he has several matters on hand",
+        "participants": [
+          "marseilles_case",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_4",
+        "source_nodes": [
+          "sentence_33",
+          "sentence_34",
+          "sentence_35",
+          "sentence_36",
+          "sentence_37",
+          "sentence_38"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_4_4",
+        "label": "Holmes rises and stands by the window",
+        "participants": [
+          "baker_street",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_4",
+        "source_nodes": [
+          "sentence_39"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_4_5",
+        "label": "The large woman stands on the pavement opposite and then hurries across the road to the bell",
+        "participants": [
+          "baker_street",
+          "large_woman"
+        ],
+        "performs": [
+          "large_woman"
+        ],
+        "section": "section_4",
+        "source_nodes": [
+          "sentence_40",
+          "sentence_41",
+          "sentence_42"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Do you not find that with your short sight it is a little trying to do so much typewriting?",
+          "recipients": [
+            "large_woman"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_6_1",
+        "label": "Holmes remarks on the woman's short sight and typewriting",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_52"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I did at first, but now I know where the letters are without looking.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "large_woman"
+        },
+        "id": "event_6_2",
+        "label": "The woman replies that she now types without looking at the letters",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "large_woman"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_53"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_6_3",
+        "label": "The woman reacts with fear and astonishment",
+        "participants": [
+          "large_woman"
+        ],
+        "performs": [
+          "large_woman"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_54"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "You’ve heard about me, Mr. Holmes, else how could you know all that?",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "large_woman"
+        },
+        "id": "event_6_4",
+        "label": "The woman asks Holmes how he knew about her",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "large_woman"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_55"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Never mind. It is my business to know things. Perhaps I have trained myself to see what others overlook. If not, why should you come to consult me?",
+          "recipients": [
+            "large_woman"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_6_5",
+        "label": "Holmes laughs and replies that knowing things is his business",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_56",
+          "sentence_57",
+          "sentence_58"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I came to you, sir, because I heard of you from Mrs. Etherege, whose husband you found so easy when the police and everyone had given him up for dead. Oh, Mr. Holmes, I wish you would do as much for me. I’m not rich, but still I have a hundred a year in my own right, besides the little that I make by the machine, and I would give it all to know what has become of Mr. Hosmer Angel.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "large_woman"
+        },
+        "id": "event_6_6",
+        "label": "The woman explains why she came to Holmes and asks him to help find Hosmer Angel",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "large_woman"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_59",
+          "sentence_60",
+          "sentence_61"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Why did you come away to consult me in such a hurry?",
+          "recipients": [
+            "large_woman"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_6_7",
+        "label": "Holmes asks why she came away to consult him in such a hurry",
+        "participants": [
+          "large_woman",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_6",
+        "source_nodes": [
+          "sentence_62",
+          "sentence_63"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Yes, I did bang out of the house, for it made me angry to see the easy way in which Mr. Windibank—that is, my father—took it all. He would not go to the police, and he would not go to you, and so at last, as he would do nothing and kept on saying that there was no harm done, it made me mad, and I just on with my things and came right away to you.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_7_1",
+        "label": "Mary Sutherland says she bangs out of the house and comes right away to Holmes",
+        "participants": [
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_65",
+          "sentence_66"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Your father, your stepfather, surely, since the name is different.",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_7_2",
+        "label": "Holmes remarks that Windibank is Mary Sutherland's stepfather",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_67",
+          "sentence_68"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Yes, my stepfather. I call him father, though it sounds funny, too, for he is only five years and two months older than myself.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_7_3",
+        "label": "Mary Sutherland says Windibank is her stepfather and that she calls him father",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_68",
+          "sentence_69"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "And your mother is alive?",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_7_4",
+        "label": "Holmes asks whether Mary Sutherland's mother is alive",
+        "participants": [
+          "mother_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_70"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Oh, yes, mother is alive and well.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_7_5",
+        "label": "Mary Sutherland says her mother is alive and well",
+        "participants": [
+          "mary_sutherland",
+          "mother_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_71"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I wasn’t best pleased, Mr. Holmes, when she married again so soon after father’s death, and a man who was nearly fifteen years younger than herself.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_7_6",
+        "label": "Mary Sutherland says her mother remarried soon after her father's death",
+        "participants": [
+          "father_sutherland",
+          "mary_sutherland",
+          "mother_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_72"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Father was a plumber in the Tottenham Court Road, and he left a tidy business behind him, which mother carried on with Mr. Hardy, the foreman; but when Mr. Windibank came he made her sell the business, for he was very superior, being a traveller in wines. They got £4700 for the goodwill and interest, which wasn’t near as much as father could have got if he had been alive.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_7_7",
+        "label": "Mary Sutherland describes her father, mother, Mr. Hardy, and Mr. Windibank's role in the business",
+        "participants": [
+          "father_sutherland",
+          "mary_sutherland",
+          "mother_sutherland",
+          "mr_hardy",
+          "mr_windibank",
+          "tottenham_court_road"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_73",
+          "sentence_74"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_7_8",
+        "label": "Holmes listens to Mary Sutherland's narrative with concentration",
+        "participants": [
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_7",
+        "source_nodes": [
+          "sentence_75"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Oh, no, sir. It is quite separate and was left me by my uncle Ned in Auckland. It is in New Zealand stock, paying 41/2 per cent. Two thousand five hundred pounds was the amount, but I can only touch the interest.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_8_1",
+        "label": "Mary Sutherland says her income is separate from the business and was left to her by her uncle",
+        "participants": [
+          "mary_sutherland",
+          "uncle_ned"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_8",
+        "source_nodes": [
+          "sentence_77",
+          "sentence_78",
+          "sentence_79",
+          "sentence_80"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "You interest me extremely.",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_8_2",
+        "label": "Holmes remarks that Mary Sutherland interests him extremely",
+        "participants": [
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_8",
+        "source_nodes": [
+          "sentence_81"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "And since you draw so large a sum as a hundred a year, with what you earn into the bargain, you no doubt travel a little and indulge yourself in every way. I believe that a single lady can get on very nicely upon an income of about £60.",
+          "recipients": [
+            "mary_sutherland"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_8_3",
+        "label": "Holmes comments on Mary Sutherland's income and travel habits",
+        "participants": [
+          "mary_sutherland",
+          "sherlock_holmes"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_8",
+        "source_nodes": [
+          "sentence_82",
+          "sentence_83"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I could do with much less than that, Mr. Holmes, but you understand that as long as I live at home I don’t wish to be a burden to them, and so they have the use of the money just while I am staying with them. Of course, that is only just for the time.",
+          "recipients": [
+            "sherlock_holmes"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_8_4",
+        "label": "Mary Sutherland says she could live on less and does not wish to be a burden while staying at home",
+        "participants": [
+          "mary_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_8",
+        "source_nodes": [
+          "sentence_84",
+          "sentence_85"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_9_1",
+        "label": "Mr. Windibank pays interest to mother Sutherland every quarter",
+        "participants": [
+          "mother_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mr_windibank"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_86"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "He said the folk were not fit for us to know, when all father’s friends were to be there.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_10",
+        "label": "Mr. Windibank says the guests are not fit for Miss Sutherland and her family to know",
+        "participants": [
+          "father_sutherland",
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mr_windibank"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_99"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "And he said that I had nothing fit to wear, when I had my purple plush that I had never so much as taken out of the drawer.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_11",
+        "label": "Mr. Windibank says Miss Sutherland has nothing fit to wear",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mr_windibank"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_100"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_9_2",
+        "label": "Miss Sutherland earns money by typewriting and produces sheets in a day",
+        "participants": [
+          "mary_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_86",
+          "sentence_87"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "You have made your position very clear to me. This is my friend, Dr. Watson, be- fore whom you can speak as freely as before myself. Kindly tell us now all about your connection with Mr. Hosmer Angel.",
+          "recipients": [
+            "mary_sutherland",
+            "watson"
+          ],
+          "speaker": "sherlock_holmes"
+        },
+        "id": "event_9_3",
+        "label": "Holmes speaks to Miss Sutherland and Watson and asks about Hosmer Angel",
+        "participants": [
+          "hosmer_angel",
+          "mary_sutherland",
+          "sherlock_holmes",
+          "watson"
+        ],
+        "performs": [
+          "sherlock_holmes"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_88",
+          "sentence_89",
+          "sentence_90",
+          "sentence_91"
+        ],
+        "type": "event"
+      },
+      {
+        "id": "event_9_4",
+        "label": "Miss Sutherland flushes and picks nervously at her jacket fringe",
+        "participants": [
+          "mary_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_92"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "I met him first at the gasfitters’ ball.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_5",
+        "label": "Miss Sutherland describes first meeting Hosmer Angel at the gasfitters' ball",
+        "participants": [
+          "hosmer_angel",
+          "mary_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_93"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "They used to send father tickets when he was alive, and then afterwards they remembered us, and sent them to mother.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_6",
+        "label": "Miss Sutherland describes receiving ball tickets from father and mother after his death",
+        "participants": [
+          "father_sutherland",
+          "mary_sutherland",
+          "mother_sutherland"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_94"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "Mr. Windibank did not wish us to go. He never did wish us to go anywhere.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_7",
+        "label": "Mr. Windibank objects to Miss Sutherland going out",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mr_windibank"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_95",
+          "sentence_96"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "He would get quite mad if I wanted so much as to join a Sunday-school treat.",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_8",
+        "label": "Mr. Windibank becomes angry when Miss Sutherland wants to join a Sunday-school treat",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mr_windibank"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_97"
+        ],
+        "type": "event"
+      },
+      {
+        "communicates": {
+          "content": "But this time I was set on going, and I would go; for what right had he to prevent?",
+          "recipients": [
+            "sherlock_holmes",
+            "watson"
+          ],
+          "speaker": "mary_sutherland"
+        },
+        "id": "event_9_9",
+        "label": "Miss Sutherland insists on going to the ball despite Mr. Windibank's objections",
+        "participants": [
+          "mary_sutherland",
+          "mr_windibank"
+        ],
+        "performs": [
+          "mary_sutherland"
+        ],
+        "section": "section_9",
+        "source_nodes": [
+          "sentence_98"
+        ],
+        "type": "event"
       }
     ],
     "memberOf": [],
     "mentions": [
       {
-        "entity": "fire",
-        "mention_count": 1,
-        "section": "section_1",
+        "entity": "advertised_description_of_mr_hosmer_angel",
+        "mention_count": 7,
+        "section": "section_21",
         "sentence_ids": [
-          "sentence_1"
+          "sentence_255",
+          "sentence_256",
+          "sentence_257",
+          "sentence_258",
+          "sentence_259",
+          "sentence_260",
+          "sentence_261"
         ]
       },
       {
-        "entity": "sherlock_holmes",
-        "mention_count": 1,
-        "section": "section_1",
+        "entity": "advertised_description_of_mr_hosmer_angel",
+        "mention_count": 3,
+        "section": "section_22",
         "sentence_ids": [
-          "sentence_1"
+          "sentence_264",
+          "sentence_268",
+          "sentence_270"
         ]
       },
       {
-        "entity": "police_reports",
+        "entity": "advertised_description_of_mr_hosmer_angel",
         "mention_count": 1,
-        "section": "section_1",
+        "section": "section_33",
         "sentence_ids": [
-          "sentence_6"
+          "sentence_394"
         ]
       },
       {
@@ -8047,93 +8055,12 @@
         ]
       },
       {
-        "entity": "sherlock_holmes",
-        "mention_count": 3,
-        "section": "section_2",
-        "sentence_ids": [
-          "sentence_13",
-          "sentence_7",
-          "sentence_8"
-        ]
-      },
-      {
-        "entity": "police_reports",
-        "mention_count": 1,
-        "section": "section_2",
-        "sentence_ids": [
-          "sentence_8"
-        ]
-      },
-      {
-        "entity": "dundas_separation_case",
+        "entity": "baker_street",
         "mention_count": 2,
-        "section": "section_3",
+        "section": "section_24",
         "sentence_ids": [
-          "sentence_21",
-          "sentence_22"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 5,
-        "section": "section_3",
-        "sentence_ids": [
-          "sentence_20",
-          "sentence_21",
-          "sentence_23",
-          "sentence_24",
-          "sentence_25"
-        ]
-      },
-      {
-        "entity": "large_woman",
-        "mention_count": 3,
-        "section": "section_4",
-        "sentence_ids": [
-          "sentence_40",
-          "sentence_41",
-          "sentence_42"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 9,
-        "section": "section_4",
-        "sentence_ids": [
-          "sentence_27",
-          "sentence_30",
-          "sentence_33",
-          "sentence_34",
-          "sentence_35",
-          "sentence_36",
-          "sentence_37",
-          "sentence_38",
-          "sentence_39"
-        ]
-      },
-      {
-        "entity": "holland_reigning_family",
-        "mention_count": 1,
-        "section": "section_4",
-        "sentence_ids": [
-          "sentence_30"
-        ]
-      },
-      {
-        "entity": "king_of_bohemia",
-        "mention_count": 1,
-        "section": "section_4",
-        "sentence_ids": [
-          "sentence_27"
-        ]
-      },
-      {
-        "entity": "marseilles",
-        "mention_count": 2,
-        "section": "section_4",
-        "sentence_ids": [
-          "sentence_37",
-          "sentence_38"
+          "sentence_283",
+          "sentence_284"
         ]
       },
       {
@@ -8147,12 +8074,439 @@
         ]
       },
       {
-        "entity": "marseilles_case",
+        "entity": "ball",
         "mention_count": 2,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_354",
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "bushy_whiskers",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "bushy_whiskers",
+        "mention_count": 1,
+        "section": "section_32",
+        "sentence_ids": [
+          "sentence_388"
+        ]
+      },
+      {
+        "entity": "bushy_whiskers",
+        "mention_count": 1,
+        "section": "section_33",
+        "sentence_ids": [
+          "sentence_394"
+        ]
+      },
+      {
+        "entity": "church_door",
+        "mention_count": 2,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_372",
+          "sentence_377"
+        ]
+      },
+      {
+        "entity": "church_near_kings_cross",
+        "mention_count": 2,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_157",
+          "sentence_159"
+        ]
+      },
+      {
+        "entity": "church_near_kings_cross",
+        "mention_count": 1,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_372"
+        ]
+      },
+      {
+        "entity": "daughter",
+        "mention_count": 8,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_347",
+          "sentence_348",
+          "sentence_350",
+          "sentence_351",
+          "sentence_352",
+          "sentence_353",
+          "sentence_354",
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "disguise",
+        "mention_count": 1,
+        "section": "section_32",
+        "sentence_ids": [
+          "sentence_388"
+        ]
+      },
+      {
+        "entity": "disguise",
+        "mention_count": 1,
+        "section": "section_33",
+        "sentence_ids": [
+          "sentence_394"
+        ]
+      },
+      {
+        "entity": "dundas_separation_case",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_280"
+        ]
+      },
+      {
+        "entity": "dundas_separation_case",
+        "mention_count": 2,
+        "section": "section_3",
+        "sentence_ids": [
+          "sentence_21",
+          "sentence_22"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 1,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_109"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 4,
+        "section": "section_11",
+        "sentence_ids": [
+          "sentence_111",
+          "sentence_112",
+          "sentence_116",
+          "sentence_118"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 1,
+        "section": "section_13",
+        "sentence_ids": [
+          "sentence_142"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 4,
+        "section": "section_14",
+        "sentence_ids": [
+          "sentence_146",
+          "sentence_148",
+          "sentence_149",
+          "sentence_150"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 5,
+        "section": "section_16",
+        "sentence_ids": [
+          "sentence_177",
+          "sentence_178",
+          "sentence_179",
+          "sentence_180",
+          "sentence_181"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 2,
+        "section": "section_17",
+        "sentence_ids": [
+          "sentence_201",
+          "sentence_202"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 4,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_66",
+          "sentence_72",
+          "sentence_73",
+          "sentence_74"
+        ]
+      },
+      {
+        "entity": "father_sutherland",
+        "mention_count": 2,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_94",
+          "sentence_99"
+        ]
+      },
+      {
+        "entity": "fire",
+        "mention_count": 1,
+        "section": "section_1",
+        "sentence_ids": [
+          "sentence_1"
+        ]
+      },
+      {
+        "entity": "four_wheeler",
+        "mention_count": 1,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_372"
+        ]
+      },
+      {
+        "entity": "hansom",
+        "mention_count": 1,
+        "section": "section_24",
+        "sentence_ids": [
+          "sentence_283"
+        ]
+      },
+      {
+        "entity": "holland_reigning_family",
+        "mention_count": 1,
         "section": "section_4",
         "sentence_ids": [
-          "sentence_37",
-          "sentence_38"
+          "sentence_30"
+        ]
+      },
+      {
+        "entity": "holmes_case",
+        "mention_count": 3,
+        "section": "section_22",
+        "sentence_ids": [
+          "sentence_265",
+          "sentence_272",
+          "sentence_275"
+        ]
+      },
+      {
+        "entity": "holmes_case",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_280"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 4,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_101",
+          "sentence_107",
+          "sentence_108",
+          "sentence_109"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 5,
+        "section": "section_11",
+        "sentence_ids": [
+          "sentence_114",
+          "sentence_115",
+          "sentence_116",
+          "sentence_117",
+          "sentence_120"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 6,
+        "section": "section_12",
+        "sentence_ids": [
+          "sentence_122",
+          "sentence_123",
+          "sentence_125",
+          "sentence_127",
+          "sentence_130",
+          "sentence_131"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 8,
+        "section": "section_13",
+        "sentence_ids": [
+          "sentence_134",
+          "sentence_135",
+          "sentence_136",
+          "sentence_137",
+          "sentence_138",
+          "sentence_139",
+          "sentence_140",
+          "sentence_142"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 5,
+        "section": "section_14",
+        "sentence_ids": [
+          "sentence_143",
+          "sentence_144",
+          "sentence_145",
+          "sentence_146",
+          "sentence_148"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 4,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_158",
+          "sentence_159",
+          "sentence_160",
+          "sentence_161"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 11,
+        "section": "section_16",
+        "sentence_ids": [
+          "sentence_164",
+          "sentence_165",
+          "sentence_168",
+          "sentence_170",
+          "sentence_171",
+          "sentence_172",
+          "sentence_179",
+          "sentence_180",
+          "sentence_181",
+          "sentence_182",
+          "sentence_183"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 9,
+        "section": "section_17",
+        "sentence_ids": [
+          "sentence_188",
+          "sentence_189",
+          "sentence_191",
+          "sentence_193",
+          "sentence_194",
+          "sentence_195",
+          "sentence_200",
+          "sentence_208",
+          "sentence_209"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 4,
+        "section": "section_21",
+        "sentence_ids": [
+          "sentence_254",
+          "sentence_256",
+          "sentence_260",
+          "sentence_261"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 2,
+        "section": "section_22",
+        "sentence_ids": [
+          "sentence_264",
+          "sentence_268"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 2,
+        "section": "section_26",
+        "sentence_ids": [
+          "sentence_310",
+          "sentence_311"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 6,
+        "section": "section_30",
+        "sentence_ids": [
+          "sentence_358",
+          "sentence_362",
+          "sentence_365",
+          "sentence_366",
+          "sentence_370",
+          "sentence_371"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 1,
+        "section": "section_32",
+        "sentence_ids": [
+          "sentence_386"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 1,
+        "section": "section_6",
+        "sentence_ids": [
+          "sentence_61"
+        ]
+      },
+      {
+        "entity": "hosmer_angel",
+        "mention_count": 3,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_90",
+          "sentence_91",
+          "sentence_93"
+        ]
+      },
+      {
+        "entity": "insinuating_whisper",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "insinuating_whisper",
+        "mention_count": 1,
+        "section": "section_33",
+        "sentence_ids": [
+          "sentence_394"
+        ]
+      },
+      {
+        "entity": "ireland_adler_papers",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_280"
         ]
       },
       {
@@ -8161,6 +8515,65 @@
         "section": "section_4",
         "sentence_ids": [
           "sentence_27"
+        ]
+      },
+      {
+        "entity": "king_of_bohemia",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_280"
+        ]
+      },
+      {
+        "entity": "king_of_bohemia",
+        "mention_count": 1,
+        "section": "section_4",
+        "sentence_ids": [
+          "sentence_27"
+        ]
+      },
+      {
+        "entity": "king_s_cross",
+        "mention_count": 2,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_157",
+          "sentence_159"
+        ]
+      },
+      {
+        "entity": "large_woman",
+        "mention_count": 7,
+        "section": "section_19",
+        "sentence_ids": [
+          "sentence_223",
+          "sentence_225",
+          "sentence_226",
+          "sentence_227",
+          "sentence_228",
+          "sentence_229",
+          "sentence_230"
+        ]
+      },
+      {
+        "entity": "large_woman",
+        "mention_count": 3,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_238",
+          "sentence_241",
+          "sentence_242"
+        ]
+      },
+      {
+        "entity": "large_woman",
+        "mention_count": 3,
+        "section": "section_4",
+        "sentence_ids": [
+          "sentence_40",
+          "sentence_41",
+          "sentence_42"
         ]
       },
       {
@@ -8178,386 +8591,12 @@
         ]
       },
       {
-        "entity": "sherlock_holmes",
-        "mention_count": 7,
-        "section": "section_6",
-        "sentence_ids": [
-          "sentence_52",
-          "sentence_55",
-          "sentence_56",
-          "sentence_58",
-          "sentence_60",
-          "sentence_62",
-          "sentence_63"
-        ]
-      },
-      {
-        "entity": "mrs_etherege",
-        "mention_count": 1,
-        "section": "section_6",
-        "sentence_ids": [
-          "sentence_59"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 1,
-        "section": "section_6",
-        "sentence_ids": [
-          "sentence_61"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 7,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_65",
-          "sentence_66",
-          "sentence_67",
-          "sentence_68",
-          "sentence_69",
-          "sentence_73",
-          "sentence_74"
-        ]
-      },
-      {
-        "entity": "tottenham_court_road",
-        "mention_count": 1,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_73"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 5,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_70",
-          "sentence_71",
-          "sentence_72",
-          "sentence_73",
-          "sentence_74"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 8,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_64",
-          "sentence_65",
-          "sentence_66",
-          "sentence_68",
-          "sentence_69",
-          "sentence_72",
-          "sentence_73",
-          "sentence_74"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 5,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_66",
-          "sentence_67",
-          "sentence_70",
-          "sentence_72",
-          "sentence_75"
-        ]
-      },
-      {
-        "entity": "mr_hardy",
-        "mention_count": 1,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_73"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 4,
-        "section": "section_7",
-        "sentence_ids": [
-          "sentence_66",
-          "sentence_72",
-          "sentence_73",
-          "sentence_74"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 5,
-        "section": "section_8",
-        "sentence_ids": [
-          "sentence_76",
-          "sentence_81",
-          "sentence_82",
-          "sentence_83",
-          "sentence_84"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 9,
-        "section": "section_8",
-        "sentence_ids": [
-          "sentence_76",
-          "sentence_77",
-          "sentence_78",
-          "sentence_79",
-          "sentence_80",
-          "sentence_82",
-          "sentence_83",
-          "sentence_84",
-          "sentence_85"
-        ]
-      },
-      {
-        "entity": "uncle_ned",
-        "mention_count": 1,
-        "section": "section_8",
-        "sentence_ids": [
-          "sentence_78"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 3,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_90",
-          "sentence_91",
-          "sentence_93"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 7,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_100",
-          "sentence_86",
-          "sentence_95",
-          "sentence_96",
-          "sentence_97",
-          "sentence_98",
-          "sentence_99"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 3,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_88",
-          "sentence_89",
-          "sentence_90"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 15,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_100",
-          "sentence_86",
-          "sentence_87",
-          "sentence_88",
-          "sentence_89",
-          "sentence_90",
-          "sentence_91",
-          "sentence_92",
-          "sentence_93",
-          "sentence_94",
-          "sentence_95",
-          "sentence_96",
-          "sentence_97",
-          "sentence_98",
-          "sentence_99"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 1,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_89"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
+        "entity": "last_saturdays_chronicle",
         "mention_count": 2,
-        "section": "section_9",
+        "section": "section_17",
         "sentence_ids": [
-          "sentence_94",
-          "sentence_99"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 2,
-        "section": "section_9",
-        "sentence_ids": [
-          "sentence_86",
-          "sentence_94"
-        ]
-      },
-      {
-        "entity": "mr_hardy",
-        "mention_count": 1,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_101"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 1,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_109"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 3,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_102",
-          "sentence_106",
-          "sentence_109"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 1,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_101"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 7,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_101",
-          "sentence_103",
-          "sentence_104",
-          "sentence_105",
-          "sentence_107",
-          "sentence_108",
-          "sentence_109"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 4,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_101",
-          "sentence_103",
-          "sentence_104",
-          "sentence_105"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 4,
-        "section": "section_10",
-        "sentence_ids": [
-          "sentence_101",
-          "sentence_107",
-          "sentence_108",
-          "sentence_109"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 2,
-        "section": "section_11",
-        "sentence_ids": [
-          "sentence_113",
-          "sentence_120"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 5,
-        "section": "section_11",
-        "sentence_ids": [
-          "sentence_114",
-          "sentence_115",
-          "sentence_116",
-          "sentence_117",
-          "sentence_120"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 3,
-        "section": "section_11",
-        "sentence_ids": [
-          "sentence_115",
-          "sentence_119",
-          "sentence_120"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 1,
-        "section": "section_11",
-        "sentence_ids": [
-          "sentence_113"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 4,
-        "section": "section_11",
-        "sentence_ids": [
-          "sentence_111",
-          "sentence_112",
-          "sentence_116",
-          "sentence_118"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 3,
-        "section": "section_12",
-        "sentence_ids": [
-          "sentence_121",
-          "sentence_130",
-          "sentence_131"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 6,
-        "section": "section_12",
-        "sentence_ids": [
-          "sentence_122",
-          "sentence_123",
-          "sentence_125",
-          "sentence_127",
-          "sentence_130",
-          "sentence_131"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 5,
-        "section": "section_12",
-        "sentence_ids": [
-          "sentence_123",
-          "sentence_124",
-          "sentence_126",
-          "sentence_128",
-          "sentence_131"
+          "sentence_194",
+          "sentence_195"
         ]
       },
       {
@@ -8581,14 +8620,104 @@
         ]
       },
       {
-        "entity": "sherlock_holmes",
-        "mention_count": 4,
-        "section": "section_13",
+        "entity": "leadenhall_street",
+        "mention_count": 1,
+        "section": "section_21",
         "sentence_ids": [
-          "sentence_132",
-          "sentence_133",
-          "sentence_134",
-          "sentence_141"
+          "sentence_261"
+        ]
+      },
+      {
+        "entity": "leadenhall_street",
+        "mention_count": 1,
+        "section": "section_22",
+        "sentence_ids": [
+          "sentence_269"
+        ]
+      },
+      {
+        "entity": "letters",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_278"
+        ]
+      },
+      {
+        "entity": "letters",
+        "mention_count": 1,
+        "section": "section_26",
+        "sentence_ids": [
+          "sentence_304"
+        ]
+      },
+      {
+        "entity": "letters",
+        "mention_count": 3,
+        "section": "section_27",
+        "sentence_ids": [
+          "sentence_323",
+          "sentence_324",
+          "sentence_325"
+        ]
+      },
+      {
+        "entity": "marseilles_case",
+        "mention_count": 1,
+        "section": "section_23",
+        "sentence_ids": [
+          "sentence_280"
+        ]
+      },
+      {
+        "entity": "marseilles_case",
+        "mention_count": 2,
+        "section": "section_4",
+        "sentence_ids": [
+          "sentence_37",
+          "sentence_38"
+        ]
+      },
+      {
+        "entity": "marseilles",
+        "mention_count": 2,
+        "section": "section_4",
+        "sentence_ids": [
+          "sentence_37",
+          "sentence_38"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 7,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_101",
+          "sentence_103",
+          "sentence_104",
+          "sentence_105",
+          "sentence_107",
+          "sentence_108",
+          "sentence_109"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 2,
+        "section": "section_11",
+        "sentence_ids": [
+          "sentence_113",
+          "sentence_120"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 3,
+        "section": "section_12",
+        "sentence_ids": [
+          "sentence_121",
+          "sentence_130",
+          "sentence_131"
         ]
       },
       {
@@ -8605,91 +8734,6 @@
           "sentence_140",
           "sentence_141",
           "sentence_142"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 1,
-        "section": "section_13",
-        "sentence_ids": [
-          "sentence_142"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 2,
-        "section": "section_13",
-        "sentence_ids": [
-          "sentence_141",
-          "sentence_142"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 8,
-        "section": "section_13",
-        "sentence_ids": [
-          "sentence_134",
-          "sentence_135",
-          "sentence_136",
-          "sentence_137",
-          "sentence_138",
-          "sentence_139",
-          "sentence_140",
-          "sentence_142"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 4,
-        "section": "section_14",
-        "sentence_ids": [
-          "sentence_147",
-          "sentence_149",
-          "sentence_151",
-          "sentence_154"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 5,
-        "section": "section_14",
-        "sentence_ids": [
-          "sentence_143",
-          "sentence_144",
-          "sentence_145",
-          "sentence_146",
-          "sentence_148"
-        ]
-      },
-      {
-        "entity": "st_swithin_s",
-        "mention_count": 1,
-        "section": "section_14",
-        "sentence_ids": [
-          "sentence_156"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 4,
-        "section": "section_14",
-        "sentence_ids": [
-          "sentence_146",
-          "sentence_148",
-          "sentence_149",
-          "sentence_150"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 4,
-        "section": "section_14",
-        "sentence_ids": [
-          "sentence_143",
-          "sentence_144",
-          "sentence_145",
-          "sentence_146"
         ]
       },
       {
@@ -8712,78 +8756,12 @@
         ]
       },
       {
-        "entity": "watson",
-        "mention_count": 1,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_161"
-        ]
-      },
-      {
         "entity": "mary_sutherland",
         "mention_count": 2,
         "section": "section_15",
         "sentence_ids": [
           "sentence_158",
           "sentence_159"
-        ]
-      },
-      {
-        "entity": "sherlock_holmes",
-        "mention_count": 2,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_161",
-          "sentence_162"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 4,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_158",
-          "sentence_159",
-          "sentence_160",
-          "sentence_161"
-        ]
-      },
-      {
-        "entity": "church_near_kings_cross",
-        "mention_count": 2,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_157",
-          "sentence_159"
-        ]
-      },
-      {
-        "entity": "king_s_cross",
-        "mention_count": 2,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_157",
-          "sentence_159"
-        ]
-      },
-      {
-        "entity": "st_pancras_hotel",
-        "mention_count": 1,
-        "section": "section_15",
-        "sentence_ids": [
-          "sentence_157"
-        ]
-      },
-      {
-        "entity": "father_sutherland",
-        "mention_count": 5,
-        "section": "section_16",
-        "sentence_ids": [
-          "sentence_177",
-          "sentence_178",
-          "sentence_179",
-          "sentence_180",
-          "sentence_181"
         ]
       },
       {
@@ -8815,21 +8793,506 @@
         ]
       },
       {
-        "entity": "hosmer_angel",
-        "mention_count": 11,
+        "entity": "mary_sutherland",
+        "mention_count": 15,
+        "section": "section_17",
+        "sentence_ids": [
+          "sentence_186",
+          "sentence_187",
+          "sentence_188",
+          "sentence_189",
+          "sentence_194",
+          "sentence_195",
+          "sentence_197",
+          "sentence_198",
+          "sentence_199",
+          "sentence_200",
+          "sentence_204",
+          "sentence_205",
+          "sentence_207",
+          "sentence_210",
+          "sentence_211"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 4,
+        "section": "section_21",
+        "sentence_ids": [
+          "sentence_249",
+          "sentence_250",
+          "sentence_251",
+          "sentence_252"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 1,
+        "section": "section_24",
+        "sentence_ids": [
+          "sentence_281"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 2,
+        "section": "section_25",
+        "sentence_ids": [
+          "sentence_296",
+          "sentence_298"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 3,
+        "section": "section_26",
+        "sentence_ids": [
+          "sentence_307",
+          "sentence_308",
+          "sentence_309"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 5,
+        "section": "section_30",
+        "sentence_ids": [
+          "sentence_360",
+          "sentence_362",
+          "sentence_363",
+          "sentence_366",
+          "sentence_371"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 2,
+        "section": "section_34",
+        "sentence_ids": [
+          "sentence_399",
+          "sentence_400"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 8,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_64",
+          "sentence_65",
+          "sentence_66",
+          "sentence_68",
+          "sentence_69",
+          "sentence_72",
+          "sentence_73",
+          "sentence_74"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 9,
+        "section": "section_8",
+        "sentence_ids": [
+          "sentence_76",
+          "sentence_77",
+          "sentence_78",
+          "sentence_79",
+          "sentence_80",
+          "sentence_82",
+          "sentence_83",
+          "sentence_84",
+          "sentence_85"
+        ]
+      },
+      {
+        "entity": "mary_sutherland",
+        "mention_count": 15,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_100",
+          "sentence_86",
+          "sentence_87",
+          "sentence_88",
+          "sentence_89",
+          "sentence_90",
+          "sentence_91",
+          "sentence_92",
+          "sentence_93",
+          "sentence_94",
+          "sentence_95",
+          "sentence_96",
+          "sentence_97",
+          "sentence_98",
+          "sentence_99"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 1,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_101"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 1,
+        "section": "section_11",
+        "sentence_ids": [
+          "sentence_113"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 4,
+        "section": "section_14",
+        "sentence_ids": [
+          "sentence_143",
+          "sentence_144",
+          "sentence_145",
+          "sentence_146"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 2,
         "section": "section_16",
         "sentence_ids": [
-          "sentence_164",
-          "sentence_165",
-          "sentence_168",
-          "sentence_170",
-          "sentence_171",
-          "sentence_172",
-          "sentence_179",
-          "sentence_180",
-          "sentence_181",
-          "sentence_182",
-          "sentence_183"
+          "sentence_175",
+          "sentence_176"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 1,
+        "section": "section_30",
+        "sentence_ids": [
+          "sentence_363"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 5,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_70",
+          "sentence_71",
+          "sentence_72",
+          "sentence_73",
+          "sentence_74"
+        ]
+      },
+      {
+        "entity": "mother_sutherland",
+        "mention_count": 2,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_86",
+          "sentence_94"
+        ]
+      },
+      {
+        "entity": "moustache",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "mr_hardy",
+        "mention_count": 1,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_101"
+        ]
+      },
+      {
+        "entity": "mr_hardy",
+        "mention_count": 1,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_73"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 3,
+        "section": "section_25",
+        "sentence_ids": [
+          "sentence_298",
+          "sentence_299",
+          "sentence_301"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 9,
+        "section": "section_26",
+        "sentence_ids": [
+          "sentence_303",
+          "sentence_304",
+          "sentence_305",
+          "sentence_306",
+          "sentence_307",
+          "sentence_308",
+          "sentence_309",
+          "sentence_312",
+          "sentence_313"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 6,
+        "section": "section_28",
+        "sentence_ids": [
+          "sentence_335",
+          "sentence_336",
+          "sentence_340",
+          "sentence_341",
+          "sentence_343",
+          "sentence_345"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 2,
+        "section": "section_30",
+        "sentence_ids": [
+          "sentence_359",
+          "sentence_371"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 1,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_380"
+        ]
+      },
+      {
+        "entity": "mr_james_windibank",
+        "mention_count": 1,
+        "section": "section_34",
+        "sentence_ids": [
+          "sentence_397"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 4,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_101",
+          "sentence_103",
+          "sentence_104",
+          "sentence_105"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 2,
+        "section": "section_13",
+        "sentence_ids": [
+          "sentence_141",
+          "sentence_142"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 1,
+        "section": "section_22",
+        "sentence_ids": [
+          "sentence_276"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 7,
+        "section": "section_27",
+        "sentence_ids": [
+          "sentence_317",
+          "sentence_319",
+          "sentence_320",
+          "sentence_326",
+          "sentence_327",
+          "sentence_328",
+          "sentence_333"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 1,
+        "section": "section_30",
+        "sentence_ids": [
+          "sentence_371"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 4,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_373",
+          "sentence_374",
+          "sentence_375",
+          "sentence_376"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 7,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_65",
+          "sentence_66",
+          "sentence_67",
+          "sentence_68",
+          "sentence_69",
+          "sentence_73",
+          "sentence_74"
+        ]
+      },
+      {
+        "entity": "mr_windibank",
+        "mention_count": 7,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_100",
+          "sentence_86",
+          "sentence_95",
+          "sentence_96",
+          "sentence_97",
+          "sentence_98",
+          "sentence_99"
+        ]
+      },
+      {
+        "entity": "mrs_etherege",
+        "mention_count": 1,
+        "section": "section_6",
+        "sentence_ids": [
+          "sentence_59"
+        ]
+      },
+      {
+        "entity": "older_woman",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_347"
+        ]
+      },
+      {
+        "entity": "pince_nez",
+        "mention_count": 1,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_241"
+        ]
+      },
+      {
+        "entity": "plush",
+        "mention_count": 1,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_238"
+        ]
+      },
+      {
+        "entity": "police_reports",
+        "mention_count": 1,
+        "section": "section_1",
+        "sentence_ids": [
+          "sentence_6"
+        ]
+      },
+      {
+        "entity": "police_reports",
+        "mention_count": 1,
+        "section": "section_2",
+        "sentence_ids": [
+          "sentence_8"
+        ]
+      },
+      {
+        "entity": "police_reports",
+        "mention_count": 1,
+        "section": "section_26",
+        "sentence_ids": [
+          "sentence_309"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 1,
+        "section": "section_1",
+        "sentence_ids": [
+          "sentence_1"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 3,
+        "section": "section_10",
+        "sentence_ids": [
+          "sentence_102",
+          "sentence_106",
+          "sentence_109"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 3,
+        "section": "section_11",
+        "sentence_ids": [
+          "sentence_115",
+          "sentence_119",
+          "sentence_120"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 5,
+        "section": "section_12",
+        "sentence_ids": [
+          "sentence_123",
+          "sentence_124",
+          "sentence_126",
+          "sentence_128",
+          "sentence_131"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 4,
+        "section": "section_13",
+        "sentence_ids": [
+          "sentence_132",
+          "sentence_133",
+          "sentence_134",
+          "sentence_141"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 4,
+        "section": "section_14",
+        "sentence_ids": [
+          "sentence_147",
+          "sentence_149",
+          "sentence_151",
+          "sentence_154"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 2,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_161",
+          "sentence_162"
         ]
       },
       {
@@ -8844,15 +9307,6 @@
           "sentence_175",
           "sentence_177",
           "sentence_178"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 2,
-        "section": "section_16",
-        "sentence_ids": [
-          "sentence_175",
-          "sentence_176"
         ]
       },
       {
@@ -8879,89 +9333,6 @@
         ]
       },
       {
-        "entity": "father_sutherland",
-        "mention_count": 2,
-        "section": "section_17",
-        "sentence_ids": [
-          "sentence_201",
-          "sentence_202"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 15,
-        "section": "section_17",
-        "sentence_ids": [
-          "sentence_186",
-          "sentence_187",
-          "sentence_188",
-          "sentence_189",
-          "sentence_194",
-          "sentence_195",
-          "sentence_197",
-          "sentence_198",
-          "sentence_199",
-          "sentence_200",
-          "sentence_204",
-          "sentence_205",
-          "sentence_207",
-          "sentence_210",
-          "sentence_211"
-        ]
-      },
-      {
-        "entity": "last_saturdays_chronicle",
-        "mention_count": 2,
-        "section": "section_17",
-        "sentence_ids": [
-          "sentence_194",
-          "sentence_195"
-        ]
-      },
-      {
-        "entity": "westhouse_and_marbank",
-        "mention_count": 1,
-        "section": "section_17",
-        "sentence_ids": [
-          "sentence_202"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 9,
-        "section": "section_17",
-        "sentence_ids": [
-          "sentence_188",
-          "sentence_189",
-          "sentence_191",
-          "sentence_193",
-          "sentence_194",
-          "sentence_195",
-          "sentence_200",
-          "sentence_208",
-          "sentence_209"
-        ]
-      },
-      {
-        "entity": "the_maiden",
-        "mention_count": 4,
-        "section": "section_18",
-        "sentence_ids": [
-          "sentence_214",
-          "sentence_215",
-          "sentence_218",
-          "sentence_219"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 1,
-        "section": "section_18",
-        "sentence_ids": [
-          "sentence_219"
-        ]
-      },
-      {
         "entity": "sherlock_holmes",
         "mention_count": 7,
         "section": "section_18",
@@ -8973,38 +9344,6 @@
           "sentence_216",
           "sentence_217",
           "sentence_218"
-        ]
-      },
-      {
-        "entity": "large_woman",
-        "mention_count": 7,
-        "section": "section_19",
-        "sentence_ids": [
-          "sentence_223",
-          "sentence_225",
-          "sentence_226",
-          "sentence_227",
-          "sentence_228",
-          "sentence_229",
-          "sentence_230"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 11,
-        "section": "section_19",
-        "sentence_ids": [
-          "sentence_220",
-          "sentence_221",
-          "sentence_222",
-          "sentence_223",
-          "sentence_224",
-          "sentence_225",
-          "sentence_226",
-          "sentence_227",
-          "sentence_228",
-          "sentence_229",
-          "sentence_230"
         ]
       },
       {
@@ -9021,51 +9360,13 @@
         ]
       },
       {
-        "entity": "typewritist",
+        "entity": "sherlock_holmes",
         "mention_count": 3,
-        "section": "section_20",
+        "section": "section_2",
         "sentence_ids": [
-          "sentence_239",
-          "sentence_240",
-          "sentence_241"
-        ]
-      },
-      {
-        "entity": "pince_nez",
-        "mention_count": 1,
-        "section": "section_20",
-        "sentence_ids": [
-          "sentence_241"
-        ]
-      },
-      {
-        "entity": "large_woman",
-        "mention_count": 3,
-        "section": "section_20",
-        "sentence_ids": [
-          "sentence_238",
-          "sentence_241",
-          "sentence_242"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 5,
-        "section": "section_20",
-        "sentence_ids": [
-          "sentence_232",
-          "sentence_233",
-          "sentence_234",
-          "sentence_235",
-          "sentence_248"
-        ]
-      },
-      {
-        "entity": "plush",
-        "mention_count": 1,
-        "section": "section_20",
-        "sentence_ids": [
-          "sentence_238"
+          "sentence_13",
+          "sentence_7",
+          "sentence_8"
         ]
       },
       {
@@ -9090,130 +9391,12 @@
         ]
       },
       {
-        "entity": "young_lady",
-        "mention_count": 1,
-        "section": "section_20",
-        "sentence_ids": [
-          "sentence_246"
-        ]
-      },
-      {
         "entity": "sherlock_holmes",
         "mention_count": 2,
         "section": "section_21",
         "sentence_ids": [
           "sentence_253",
           "sentence_254"
-        ]
-      },
-      {
-        "entity": "leadenhall_street",
-        "mention_count": 1,
-        "section": "section_21",
-        "sentence_ids": [
-          "sentence_261"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 4,
-        "section": "section_21",
-        "sentence_ids": [
-          "sentence_249",
-          "sentence_250",
-          "sentence_251",
-          "sentence_252"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 3,
-        "section": "section_21",
-        "sentence_ids": [
-          "sentence_253",
-          "sentence_254",
-          "sentence_255"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 4,
-        "section": "section_21",
-        "sentence_ids": [
-          "sentence_254",
-          "sentence_256",
-          "sentence_260",
-          "sentence_261"
-        ]
-      },
-      {
-        "entity": "advertised_description_of_mr_hosmer_angel",
-        "mention_count": 7,
-        "section": "section_21",
-        "sentence_ids": [
-          "sentence_255",
-          "sentence_256",
-          "sentence_257",
-          "sentence_258",
-          "sentence_259",
-          "sentence_260",
-          "sentence_261"
-        ]
-      },
-      {
-        "entity": "young_lady",
-        "mention_count": 1,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_276"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 4,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_262",
-          "sentence_266",
-          "sentence_271",
-          "sentence_273"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 2,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_264",
-          "sentence_268"
-        ]
-      },
-      {
-        "entity": "holmes_case",
-        "mention_count": 3,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_265",
-          "sentence_272",
-          "sentence_275"
-        ]
-      },
-      {
-        "entity": "leadenhall_street",
-        "mention_count": 1,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_269"
-        ]
-      },
-      {
-        "entity": "advertised_description_of_mr_hosmer_angel",
-        "mention_count": 3,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_264",
-          "sentence_268",
-          "sentence_270"
         ]
       },
       {
@@ -9232,40 +9415,6 @@
         ]
       },
       {
-        "entity": "mr_windibank",
-        "mention_count": 1,
-        "section": "section_22",
-        "sentence_ids": [
-          "sentence_276"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 3,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_278",
-          "sentence_279",
-          "sentence_280"
-        ]
-      },
-      {
-        "entity": "letters",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_278"
-        ]
-      },
-      {
-        "entity": "dundas_separation_case",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_280"
-        ]
-      },
-      {
         "entity": "sherlock_holmes",
         "mention_count": 3,
         "section": "section_23",
@@ -9273,63 +9422,6 @@
           "sentence_278",
           "sentence_279",
           "sentence_280"
-        ]
-      },
-      {
-        "entity": "king_of_bohemia",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_280"
-        ]
-      },
-      {
-        "entity": "ireland_adler_papers",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_280"
-        ]
-      },
-      {
-        "entity": "holmes_case",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_280"
-        ]
-      },
-      {
-        "entity": "marseilles_case",
-        "mention_count": 1,
-        "section": "section_23",
-        "sentence_ids": [
-          "sentence_280"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 1,
-        "section": "section_24",
-        "sentence_ids": [
-          "sentence_281"
-        ]
-      },
-      {
-        "entity": "hansom",
-        "mention_count": 1,
-        "section": "section_24",
-        "sentence_ids": [
-          "sentence_283"
-        ]
-      },
-      {
-        "entity": "baker_street",
-        "mention_count": 2,
-        "section": "section_24",
-        "sentence_ids": [
-          "sentence_283",
-          "sentence_284"
         ]
       },
       {
@@ -9340,27 +9432,6 @@
           "sentence_281",
           "sentence_284",
           "sentence_285"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 4,
-        "section": "section_24",
-        "sentence_ids": [
-          "sentence_281",
-          "sentence_282",
-          "sentence_283",
-          "sentence_284"
-        ]
-      },
-      {
-        "entity": "mr_james_windibank",
-        "mention_count": 3,
-        "section": "section_25",
-        "sentence_ids": [
-          "sentence_298",
-          "sentence_299",
-          "sentence_301"
         ]
       },
       {
@@ -9380,53 +9451,6 @@
         ]
       },
       {
-        "entity": "mary_sutherland",
-        "mention_count": 2,
-        "section": "section_25",
-        "sentence_ids": [
-          "sentence_296",
-          "sentence_298"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 6,
-        "section": "section_25",
-        "sentence_ids": [
-          "sentence_286",
-          "sentence_287",
-          "sentence_291",
-          "sentence_296",
-          "sentence_297",
-          "sentence_302"
-        ]
-      },
-      {
-        "entity": "letters",
-        "mention_count": 1,
-        "section": "section_26",
-        "sentence_ids": [
-          "sentence_304"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 2,
-        "section": "section_26",
-        "sentence_ids": [
-          "sentence_310",
-          "sentence_311"
-        ]
-      },
-      {
-        "entity": "police_reports",
-        "mention_count": 1,
-        "section": "section_26",
-        "sentence_ids": [
-          "sentence_309"
-        ]
-      },
-      {
         "entity": "sherlock_holmes",
         "mention_count": 3,
         "section": "section_26",
@@ -9434,32 +9458,6 @@
           "sentence_303",
           "sentence_304",
           "sentence_311"
-        ]
-      },
-      {
-        "entity": "mr_james_windibank",
-        "mention_count": 9,
-        "section": "section_26",
-        "sentence_ids": [
-          "sentence_303",
-          "sentence_304",
-          "sentence_305",
-          "sentence_306",
-          "sentence_307",
-          "sentence_308",
-          "sentence_309",
-          "sentence_312",
-          "sentence_313"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
-        "mention_count": 3,
-        "section": "section_26",
-        "sentence_ids": [
-          "sentence_307",
-          "sentence_308",
-          "sentence_309"
         ]
       },
       {
@@ -9478,43 +9476,6 @@
         ]
       },
       {
-        "entity": "letters",
-        "mention_count": 3,
-        "section": "section_27",
-        "sentence_ids": [
-          "sentence_323",
-          "sentence_324",
-          "sentence_325"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 7,
-        "section": "section_27",
-        "sentence_ids": [
-          "sentence_317",
-          "sentence_319",
-          "sentence_320",
-          "sentence_326",
-          "sentence_327",
-          "sentence_328",
-          "sentence_333"
-        ]
-      },
-      {
-        "entity": "mr_james_windibank",
-        "mention_count": 6,
-        "section": "section_28",
-        "sentence_ids": [
-          "sentence_335",
-          "sentence_336",
-          "sentence_340",
-          "sentence_341",
-          "sentence_343",
-          "sentence_345"
-        ]
-      },
-      {
         "entity": "sherlock_holmes",
         "mention_count": 6,
         "section": "section_28",
@@ -9525,58 +9486,6 @@
           "sentence_342",
           "sentence_343",
           "sentence_344"
-        ]
-      },
-      {
-        "entity": "older_woman",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_347"
-        ]
-      },
-      {
-        "entity": "moustache",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "stepfather",
-        "mention_count": 6,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_351",
-          "sentence_352",
-          "sentence_353",
-          "sentence_355",
-          "sentence_356",
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "daughter",
-        "mention_count": 8,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_347",
-          "sentence_348",
-          "sentence_350",
-          "sentence_351",
-          "sentence_352",
-          "sentence_353",
-          "sentence_354",
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "tinted_glasses",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_357"
         ]
       },
       {
@@ -9599,145 +9508,15 @@
         ]
       },
       {
-        "entity": "insinuating_whisper",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "bushy_whiskers",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "wife",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "the_man",
-        "mention_count": 2,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_347",
-          "sentence_348"
-        ]
-      },
-      {
-        "entity": "watson",
-        "mention_count": 1,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_346"
-        ]
-      },
-      {
-        "entity": "ball",
-        "mention_count": 2,
-        "section": "section_29",
-        "sentence_ids": [
-          "sentence_354",
-          "sentence_357"
-        ]
-      },
-      {
-        "entity": "hosmer_angel",
-        "mention_count": 6,
-        "section": "section_30",
-        "sentence_ids": [
-          "sentence_358",
-          "sentence_362",
-          "sentence_365",
-          "sentence_366",
-          "sentence_370",
-          "sentence_371"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 1,
-        "section": "section_30",
-        "sentence_ids": [
-          "sentence_371"
-        ]
-      },
-      {
-        "entity": "mr_james_windibank",
-        "mention_count": 2,
-        "section": "section_30",
-        "sentence_ids": [
-          "sentence_359",
-          "sentence_371"
-        ]
-      },
-      {
-        "entity": "mother_sutherland",
-        "mention_count": 1,
-        "section": "section_30",
-        "sentence_ids": [
-          "sentence_363"
-        ]
-      },
-      {
-        "entity": "testament",
-        "mention_count": 1,
-        "section": "section_30",
-        "sentence_ids": [
-          "sentence_370"
-        ]
-      },
-      {
-        "entity": "mary_sutherland",
+        "entity": "sherlock_holmes",
         "mention_count": 5,
-        "section": "section_30",
+        "section": "section_3",
         "sentence_ids": [
-          "sentence_360",
-          "sentence_362",
-          "sentence_363",
-          "sentence_366",
-          "sentence_371"
-        ]
-      },
-      {
-        "entity": "young_lady",
-        "mention_count": 2,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_376",
-          "sentence_378"
-        ]
-      },
-      {
-        "entity": "church_near_kings_cross",
-        "mention_count": 1,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_372"
-        ]
-      },
-      {
-        "entity": "church_door",
-        "mention_count": 2,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_372",
-          "sentence_377"
-        ]
-      },
-      {
-        "entity": "mr_james_windibank",
-        "mention_count": 1,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_380"
+          "sentence_20",
+          "sentence_21",
+          "sentence_23",
+          "sentence_24",
+          "sentence_25"
         ]
       },
       {
@@ -9748,25 +9527,6 @@
           "sentence_375",
           "sentence_377",
           "sentence_380"
-        ]
-      },
-      {
-        "entity": "mr_windibank",
-        "mention_count": 4,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_373",
-          "sentence_374",
-          "sentence_375",
-          "sentence_376"
-        ]
-      },
-      {
-        "entity": "four_wheeler",
-        "mention_count": 1,
-        "section": "section_31",
-        "sentence_ids": [
-          "sentence_372"
         ]
       },
       {
@@ -9784,11 +9544,115 @@
         ]
       },
       {
-        "entity": "bushy_whiskers",
+        "entity": "sherlock_holmes",
         "mention_count": 1,
-        "section": "section_32",
+        "section": "section_33",
         "sentence_ids": [
-          "sentence_388"
+          "sentence_391"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 4,
+        "section": "section_34",
+        "sentence_ids": [
+          "sentence_396",
+          "sentence_400",
+          "sentence_401",
+          "sentence_402"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 9,
+        "section": "section_4",
+        "sentence_ids": [
+          "sentence_27",
+          "sentence_30",
+          "sentence_33",
+          "sentence_34",
+          "sentence_35",
+          "sentence_36",
+          "sentence_37",
+          "sentence_38",
+          "sentence_39"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 7,
+        "section": "section_6",
+        "sentence_ids": [
+          "sentence_52",
+          "sentence_55",
+          "sentence_56",
+          "sentence_58",
+          "sentence_60",
+          "sentence_62",
+          "sentence_63"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 5,
+        "section": "section_7",
+        "sentence_ids": [
+          "sentence_66",
+          "sentence_67",
+          "sentence_70",
+          "sentence_72",
+          "sentence_75"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 5,
+        "section": "section_8",
+        "sentence_ids": [
+          "sentence_76",
+          "sentence_81",
+          "sentence_82",
+          "sentence_83",
+          "sentence_84"
+        ]
+      },
+      {
+        "entity": "sherlock_holmes",
+        "mention_count": 3,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_88",
+          "sentence_89",
+          "sentence_90"
+        ]
+      },
+      {
+        "entity": "st_pancras_hotel",
+        "mention_count": 1,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_157"
+        ]
+      },
+      {
+        "entity": "st_swithin_s",
+        "mention_count": 1,
+        "section": "section_14",
+        "sentence_ids": [
+          "sentence_156"
+        ]
+      },
+      {
+        "entity": "stepfather",
+        "mention_count": 6,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_351",
+          "sentence_352",
+          "sentence_353",
+          "sentence_355",
+          "sentence_356",
+          "sentence_357"
         ]
       },
       {
@@ -9801,27 +9665,31 @@
         ]
       },
       {
-        "entity": "watson",
+        "entity": "testament",
         "mention_count": 1,
-        "section": "section_32",
+        "section": "section_30",
         "sentence_ids": [
-          "sentence_385"
+          "sentence_370"
         ]
       },
       {
-        "entity": "disguise",
-        "mention_count": 1,
-        "section": "section_32",
+        "entity": "the_maiden",
+        "mention_count": 4,
+        "section": "section_18",
         "sentence_ids": [
-          "sentence_388"
+          "sentence_214",
+          "sentence_215",
+          "sentence_218",
+          "sentence_219"
         ]
       },
       {
-        "entity": "hosmer_angel",
-        "mention_count": 1,
-        "section": "section_32",
+        "entity": "the_man",
+        "mention_count": 2,
+        "section": "section_29",
         "sentence_ids": [
-          "sentence_386"
+          "sentence_347",
+          "sentence_348"
         ]
       },
       {
@@ -9830,62 +9698,6 @@
         "section": "section_32",
         "sentence_ids": [
           "sentence_387"
-        ]
-      },
-      {
-        "entity": "tinted_glasses",
-        "mention_count": 1,
-        "section": "section_32",
-        "sentence_ids": [
-          "sentence_388"
-        ]
-      },
-      {
-        "entity": "advertised_description_of_mr_hosmer_angel",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
-        ]
-      },
-      {
-        "entity": "disguise",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
-        ]
-      },
-      {
-        "entity": "insinuating_whisper",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
-        ]
-      },
-      {
-        "entity": "bushy_whiskers",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
-        ]
-      },
-      {
-        "entity": "tinted_glasses",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
-        ]
-      },
-      {
-        "entity": "westhouse_and_marbank",
-        "mention_count": 1,
-        "section": "section_33",
-        "sentence_ids": [
-          "sentence_394"
         ]
       },
       {
@@ -9901,38 +9713,170 @@
         ]
       },
       {
-        "entity": "sherlock_holmes",
+        "entity": "tinted_glasses",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "tinted_glasses",
+        "mention_count": 1,
+        "section": "section_32",
+        "sentence_ids": [
+          "sentence_388"
+        ]
+      },
+      {
+        "entity": "tinted_glasses",
         "mention_count": 1,
         "section": "section_33",
         "sentence_ids": [
-          "sentence_391"
+          "sentence_394"
         ]
       },
       {
-        "entity": "westhouse_and_marbank",
+        "entity": "tottenham_court_road",
         "mention_count": 1,
-        "section": "section_34",
+        "section": "section_7",
         "sentence_ids": [
-          "sentence_397"
+          "sentence_73"
         ]
       },
       {
-        "entity": "sherlock_holmes",
+        "entity": "typewritist",
+        "mention_count": 3,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_239",
+          "sentence_240",
+          "sentence_241"
+        ]
+      },
+      {
+        "entity": "uncle_ned",
+        "mention_count": 1,
+        "section": "section_8",
+        "sentence_ids": [
+          "sentence_78"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 1,
+        "section": "section_15",
+        "sentence_ids": [
+          "sentence_161"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 1,
+        "section": "section_18",
+        "sentence_ids": [
+          "sentence_219"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 11,
+        "section": "section_19",
+        "sentence_ids": [
+          "sentence_220",
+          "sentence_221",
+          "sentence_222",
+          "sentence_223",
+          "sentence_224",
+          "sentence_225",
+          "sentence_226",
+          "sentence_227",
+          "sentence_228",
+          "sentence_229",
+          "sentence_230"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 5,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_232",
+          "sentence_233",
+          "sentence_234",
+          "sentence_235",
+          "sentence_248"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 3,
+        "section": "section_21",
+        "sentence_ids": [
+          "sentence_253",
+          "sentence_254",
+          "sentence_255"
+        ]
+      },
+      {
+        "entity": "watson",
         "mention_count": 4,
-        "section": "section_34",
+        "section": "section_22",
         "sentence_ids": [
-          "sentence_396",
-          "sentence_400",
-          "sentence_401",
-          "sentence_402"
+          "sentence_262",
+          "sentence_266",
+          "sentence_271",
+          "sentence_273"
         ]
       },
       {
-        "entity": "mr_james_windibank",
-        "mention_count": 1,
-        "section": "section_34",
+        "entity": "watson",
+        "mention_count": 3,
+        "section": "section_23",
         "sentence_ids": [
-          "sentence_397"
+          "sentence_278",
+          "sentence_279",
+          "sentence_280"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 4,
+        "section": "section_24",
+        "sentence_ids": [
+          "sentence_281",
+          "sentence_282",
+          "sentence_283",
+          "sentence_284"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 6,
+        "section": "section_25",
+        "sentence_ids": [
+          "sentence_286",
+          "sentence_287",
+          "sentence_291",
+          "sentence_296",
+          "sentence_297",
+          "sentence_302"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_346"
+        ]
+      },
+      {
+        "entity": "watson",
+        "mention_count": 1,
+        "section": "section_32",
+        "sentence_ids": [
+          "sentence_385"
         ]
       },
       {
@@ -9944,62 +9888,92 @@
         ]
       },
       {
-        "entity": "mary_sutherland",
-        "mention_count": 2,
+        "entity": "watson",
+        "mention_count": 1,
+        "section": "section_9",
+        "sentence_ids": [
+          "sentence_89"
+        ]
+      },
+      {
+        "entity": "westhouse_and_marbank",
+        "mention_count": 1,
+        "section": "section_17",
+        "sentence_ids": [
+          "sentence_202"
+        ]
+      },
+      {
+        "entity": "westhouse_and_marbank",
+        "mention_count": 1,
+        "section": "section_33",
+        "sentence_ids": [
+          "sentence_394"
+        ]
+      },
+      {
+        "entity": "westhouse_and_marbank",
+        "mention_count": 1,
         "section": "section_34",
         "sentence_ids": [
-          "sentence_399",
-          "sentence_400"
+          "sentence_397"
+        ]
+      },
+      {
+        "entity": "wife",
+        "mention_count": 1,
+        "section": "section_29",
+        "sentence_ids": [
+          "sentence_357"
+        ]
+      },
+      {
+        "entity": "young_lady",
+        "mention_count": 1,
+        "section": "section_20",
+        "sentence_ids": [
+          "sentence_246"
+        ]
+      },
+      {
+        "entity": "young_lady",
+        "mention_count": 1,
+        "section": "section_22",
+        "sentence_ids": [
+          "sentence_276"
+        ]
+      },
+      {
+        "entity": "young_lady",
+        "mention_count": 2,
+        "section": "section_31",
+        "sentence_ids": [
+          "sentence_376",
+          "sentence_378"
         ]
       }
     ],
     "stateEdges": [
       {
         "caused_by": [],
-        "from": "sherlock_holmes",
+        "from": "bushy_whiskers",
         "id": "state_1",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_3_1",
-        "valid_until": "event_4_4"
+        "to": "stepfather",
+        "type": "IS_INSIDE",
+        "valid_from": "event_29_6"
       },
       {
         "caused_by": [],
-        "from": "sherlock_holmes",
+        "from": "father_sutherland",
         "id": "state_2",
-        "to": "baker_street",
+        "to": "tottenham_court_road",
         "type": "LOCATED_AT",
-        "valid_from": "event_24_4"
-      },
-      {
-        "caused_by": [],
-        "from": "sherlock_holmes",
-        "id": "state_3",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_4_4",
-        "valid_until": "event_24_4"
-      },
-      {
-        "caused_by": [],
-        "from": "sherlock_holmes",
-        "id": "state_4",
-        "to": "dundas_separation_case",
-        "type": "OWNS",
-        "valid_from": "event_3_4"
-      },
-      {
-        "caused_by": [],
-        "from": "large_woman",
-        "id": "state_5",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_4_5"
+        "valid_from": "event_7_7"
       },
       {
         "caused_by": [],
         "from": "hosmer_angel",
-        "id": "state_6",
+        "id": "state_3",
         "to": "four_wheeler",
         "type": "IS_INSIDE",
         "valid_from": "event_15_1"
@@ -10007,7 +9981,7 @@
       {
         "caused_by": [],
         "from": "hosmer_angel",
-        "id": "state_7",
+        "id": "state_4",
         "to": "four_wheeler",
         "type": "IS_INSIDE",
         "valid_from": "event_15_1",
@@ -10016,7 +9990,7 @@
       {
         "caused_by": [],
         "from": "hosmer_angel",
-        "id": "state_8",
+        "id": "state_5",
         "to": "leadenhall_street",
         "type": "LOCATED_AT",
         "valid_from": "event_12_2",
@@ -10025,252 +9999,31 @@
       {
         "caused_by": [],
         "from": "hosmer_angel",
-        "id": "state_9",
+        "id": "state_6",
         "to": "leadenhall_street",
         "type": "LOCATED_AT",
         "valid_from": "event_12_3"
       },
       {
         "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_10",
-        "to": "hansom",
-        "type": "IS_INSIDE",
-        "valid_from": "event_15_2"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_11",
-        "to": "leadenhall_street_post_office",
-        "type": "LOCATED_AT",
-        "valid_from": "event_12_4",
-        "valid_until": "event_14_9"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_12",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_7_1",
-        "valid_until": "event_12_4"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_13",
-        "to": "sherlock_holmes",
-        "type": "LOCATED_AT",
-        "valid_from": "event_17_1",
-        "valid_until": "event_17_9"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_14",
-        "to": "st_swithin_s",
-        "type": "LOCATED_AT",
-        "valid_from": "event_14_9",
-        "valid_until": "event_15_3"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_15",
-        "to": "sherlock_holmes",
-        "type": "LOCATED_AT",
-        "valid_from": "event_16_1",
-        "valid_until": "event_17_1"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_16",
-        "to": "church_near_kings_cross",
-        "type": "LOCATED_AT",
-        "valid_from": "event_15_3",
-        "valid_until": "event_16_1"
-      },
-      {
-        "caused_by": [],
-        "from": "mary_sutherland",
-        "id": "state_17",
-        "to": "sherlock_holmes",
-        "type": "OWNS",
-        "valid_from": "event_17_7"
-      },
-      {
-        "caused_by": [],
-        "from": "father_sutherland",
-        "id": "state_18",
-        "to": "tottenham_court_road",
-        "type": "LOCATED_AT",
-        "valid_from": "event_7_7"
-      },
-      {
-        "caused_by": [],
-        "from": "uncle_ned",
-        "id": "state_19",
-        "to": "mary_sutherland",
-        "type": "OWNS",
-        "valid_from": "event_8_1"
-      },
-      {
-        "caused_by": [],
-        "from": "watson",
-        "id": "state_20",
-        "to": "hansom",
-        "type": "IS_INSIDE",
-        "valid_from": "event_15_2"
-      },
-      {
-        "caused_by": [],
-        "from": "watson",
-        "id": "state_21",
-        "to": "church_near_kings_cross",
-        "type": "LOCATED_AT",
-        "valid_from": "event_15_3",
-        "valid_until": "event_24_3"
-      },
-      {
-        "caused_by": [],
-        "from": "watson",
-        "id": "state_22",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_24_3"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_23",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_26_4",
-        "valid_until": "event_28_1"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_24",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_28_1"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_25",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_26_2",
-        "valid_until": "event_26_3"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_26",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_25_7",
-        "valid_until": "event_26_1"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_27",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_26_1",
-        "valid_until": "event_26_2"
-      },
-      {
-        "caused_by": [],
-        "from": "mr_james_windibank",
-        "id": "state_28",
-        "to": "baker_street",
-        "type": "LOCATED_AT",
-        "valid_from": "event_26_3",
-        "valid_until": "event_26_4"
-      },
-      {
-        "caused_by": [],
-        "from": "stepfather",
-        "id": "state_29",
-        "to": "daughter",
-        "type": "LOCATED_AT",
-        "valid_from": "event_29_3",
-        "valid_until": "event_29_4"
-      },
-      {
-        "caused_by": [],
-        "from": "stepfather",
-        "id": "state_30",
-        "to": "ball",
-        "type": "LOCATED_AT",
-        "valid_from": "event_29_4"
-      },
-      {
-        "caused_by": [],
-        "from": "wife",
-        "id": "state_31",
-        "to": "stepfather",
-        "type": "OWNS",
-        "valid_from": "event_29_6"
-      },
-      {
-        "caused_by": [],
-        "from": "tinted_glasses",
-        "id": "state_32",
-        "to": "stepfather",
-        "type": "IS_INSIDE",
-        "valid_from": "event_29_6"
-      },
-      {
-        "caused_by": [],
-        "from": "moustache",
-        "id": "state_33",
-        "to": "stepfather",
-        "type": "IS_INSIDE",
-        "valid_from": "event_29_6"
-      },
-      {
-        "caused_by": [],
-        "from": "bushy_whiskers",
-        "id": "state_34",
-        "to": "stepfather",
-        "type": "IS_INSIDE",
-        "valid_from": "event_29_6"
-      },
-      {
-        "caused_by": [],
         "from": "insinuating_whisper",
-        "id": "state_35",
+        "id": "state_7",
         "to": "stepfather",
         "type": "IS_INSIDE",
         "valid_from": "event_29_6"
       },
       {
         "caused_by": [],
-        "from": "wedding_morning_pledge",
-        "id": "state_36",
-        "to": "mary_sutherland",
-        "type": "OWNS",
-        "valid_from": "event_16_1"
+        "from": "large_woman",
+        "id": "state_8",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_4_5"
       },
       {
         "caused_by": [],
         "from": "last_saturdays_chronicle",
-        "id": "state_37",
-        "to": "sherlock_holmes",
-        "type": "OWNS",
-        "valid_from": "event_17_7"
-      },
-      {
-        "caused_by": [],
-        "from": "last_saturdays_chronicle",
-        "id": "state_38",
+        "id": "state_9",
         "to": "mary_sutherland",
         "type": "OWNS",
         "valid_from": "event_17_7",
@@ -10279,18 +10032,265 @@
       {
         "caused_by": [],
         "from": "last_saturdays_chronicle",
-        "id": "state_39",
+        "id": "state_10",
         "to": "sherlock_holmes",
         "type": "IS_INSIDE",
         "valid_from": "event_17_7"
       },
       {
         "caused_by": [],
+        "from": "last_saturdays_chronicle",
+        "id": "state_11",
+        "to": "sherlock_holmes",
+        "type": "OWNS",
+        "valid_from": "event_17_7"
+      },
+      {
+        "caused_by": [],
         "from": "letters",
-        "id": "state_40",
+        "id": "state_12",
         "to": "mr_james_windibank",
         "type": "OWNS",
         "valid_from": "event_26_2"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_13",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_7_1",
+        "valid_until": "event_12_4"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_14",
+        "to": "church_near_kings_cross",
+        "type": "LOCATED_AT",
+        "valid_from": "event_15_3",
+        "valid_until": "event_16_1"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_15",
+        "to": "hansom",
+        "type": "IS_INSIDE",
+        "valid_from": "event_15_2"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_16",
+        "to": "leadenhall_street_post_office",
+        "type": "LOCATED_AT",
+        "valid_from": "event_12_4",
+        "valid_until": "event_14_9"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_17",
+        "to": "sherlock_holmes",
+        "type": "LOCATED_AT",
+        "valid_from": "event_16_1",
+        "valid_until": "event_17_1"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_18",
+        "to": "sherlock_holmes",
+        "type": "LOCATED_AT",
+        "valid_from": "event_17_1",
+        "valid_until": "event_17_9"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_19",
+        "to": "sherlock_holmes",
+        "type": "OWNS",
+        "valid_from": "event_17_7"
+      },
+      {
+        "caused_by": [],
+        "from": "mary_sutherland",
+        "id": "state_20",
+        "to": "st_swithin_s",
+        "type": "LOCATED_AT",
+        "valid_from": "event_14_9",
+        "valid_until": "event_15_3"
+      },
+      {
+        "caused_by": [],
+        "from": "moustache",
+        "id": "state_21",
+        "to": "stepfather",
+        "type": "IS_INSIDE",
+        "valid_from": "event_29_6"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_22",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_25_7",
+        "valid_until": "event_26_1"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_23",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_26_1",
+        "valid_until": "event_26_2"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_24",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_26_2",
+        "valid_until": "event_26_3"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_25",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_26_3",
+        "valid_until": "event_26_4"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_26",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_26_4",
+        "valid_until": "event_28_1"
+      },
+      {
+        "caused_by": [],
+        "from": "mr_james_windibank",
+        "id": "state_27",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_28_1"
+      },
+      {
+        "caused_by": [],
+        "from": "sherlock_holmes",
+        "id": "state_28",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_24_4"
+      },
+      {
+        "caused_by": [],
+        "from": "sherlock_holmes",
+        "id": "state_29",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_3_1",
+        "valid_until": "event_4_4"
+      },
+      {
+        "caused_by": [],
+        "from": "sherlock_holmes",
+        "id": "state_30",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_4_4",
+        "valid_until": "event_24_4"
+      },
+      {
+        "caused_by": [],
+        "from": "sherlock_holmes",
+        "id": "state_31",
+        "to": "dundas_separation_case",
+        "type": "OWNS",
+        "valid_from": "event_3_4"
+      },
+      {
+        "caused_by": [],
+        "from": "stepfather",
+        "id": "state_32",
+        "to": "ball",
+        "type": "LOCATED_AT",
+        "valid_from": "event_29_4"
+      },
+      {
+        "caused_by": [],
+        "from": "stepfather",
+        "id": "state_33",
+        "to": "daughter",
+        "type": "LOCATED_AT",
+        "valid_from": "event_29_3",
+        "valid_until": "event_29_4"
+      },
+      {
+        "caused_by": [],
+        "from": "tinted_glasses",
+        "id": "state_34",
+        "to": "stepfather",
+        "type": "IS_INSIDE",
+        "valid_from": "event_29_6"
+      },
+      {
+        "caused_by": [],
+        "from": "uncle_ned",
+        "id": "state_35",
+        "to": "mary_sutherland",
+        "type": "OWNS",
+        "valid_from": "event_8_1"
+      },
+      {
+        "caused_by": [],
+        "from": "watson",
+        "id": "state_36",
+        "to": "baker_street",
+        "type": "LOCATED_AT",
+        "valid_from": "event_24_3"
+      },
+      {
+        "caused_by": [],
+        "from": "watson",
+        "id": "state_37",
+        "to": "church_near_kings_cross",
+        "type": "LOCATED_AT",
+        "valid_from": "event_15_3",
+        "valid_until": "event_24_3"
+      },
+      {
+        "caused_by": [],
+        "from": "watson",
+        "id": "state_38",
+        "to": "hansom",
+        "type": "IS_INSIDE",
+        "valid_from": "event_15_2"
+      },
+      {
+        "caused_by": [],
+        "from": "wedding_morning_pledge",
+        "id": "state_39",
+        "to": "mary_sutherland",
+        "type": "OWNS",
+        "valid_from": "event_16_1"
+      },
+      {
+        "caused_by": [],
+        "from": "wife",
+        "id": "state_40",
+        "to": "stepfather",
+        "type": "OWNS",
+        "valid_from": "event_29_6"
       }
     ]
   }

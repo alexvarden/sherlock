@@ -10,7 +10,7 @@
       "args": {
         "story": "a-study-in-scarlet"
       },
-      "hash": "74e734a86e6e8de4",
+      "hash": "18fcb7e62dfb4823",
       "query": "getStoryData",
       "summary": {
         "clues": 59,
@@ -43,7 +43,7 @@
         "sectionId": "section_40",
         "story": "a-study-in-scarlet"
       },
-      "hash": "529dddef4be81016",
+      "hash": "ec22b8bb69776b70",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -57,7 +57,7 @@
         "sectionId": "section_78",
         "story": "a-study-in-scarlet"
       },
-      "hash": "0f03d094e3d09a65",
+      "hash": "ef07c45e90ee7613",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -85,7 +85,7 @@
         "sectionId": "section_40",
         "story": "a-study-in-scarlet"
       },
-      "hash": "4c297356d294c02c",
+      "hash": "410af14837d49da6",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -99,7 +99,7 @@
         "sectionId": "section_78",
         "story": "a-study-in-scarlet"
       },
-      "hash": "d5ea1ea1f59db726",
+      "hash": "7a7c5f91d70b1e82",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -113,7 +113,7 @@
         "sectionIndex": 0,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -125,7 +125,7 @@
         "sectionIndex": 39,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4745a455cc103b3c",
+      "hash": "3cd4c87f4ed62b85",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -137,7 +137,7 @@
         "sectionIndex": 77,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4745a455cc103b3c",
+      "hash": "3cd4c87f4ed62b85",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -149,7 +149,7 @@
         "sectionIndex": 0,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -161,7 +161,7 @@
         "sectionIndex": 39,
         "story": "a-study-in-scarlet"
       },
-      "hash": "d8cfba6defb3e3d5",
+      "hash": "13a5a4d7ff4751b7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -173,7 +173,7 @@
         "sectionIndex": 77,
         "story": "a-study-in-scarlet"
       },
-      "hash": "d8cfba6defb3e3d5",
+      "hash": "13a5a4d7ff4751b7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -185,7 +185,7 @@
         "sectionIndex": 0,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -197,7 +197,7 @@
         "sectionIndex": 39,
         "story": "a-study-in-scarlet"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -209,7 +209,7 @@
         "sectionIndex": 77,
         "story": "a-study-in-scarlet"
       },
-      "hash": "1a07807fef5517a2",
+      "hash": "5641f7dbca1d46f5",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -219,7 +219,7 @@
       "args": {
         "story": "sign-of-the-four"
       },
-      "hash": "118c9edf0f811d94",
+      "hash": "b1a01ddb6f4175c3",
       "query": "getStoryData",
       "summary": {
         "clues": 52,
@@ -252,7 +252,7 @@
         "sectionId": "section_37",
         "story": "sign-of-the-four"
       },
-      "hash": "6d6a9c888e0bb70b",
+      "hash": "18b005ff4c5c8492",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -266,7 +266,7 @@
         "sectionId": "section_73",
         "story": "sign-of-the-four"
       },
-      "hash": "42614f6cd32b73cd",
+      "hash": "1c3fb04e85b51558",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 6,
@@ -294,7 +294,7 @@
         "sectionId": "section_37",
         "story": "sign-of-the-four"
       },
-      "hash": "2ba68054a8aba6d8",
+      "hash": "71c79483b72fdbfc",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -308,7 +308,7 @@
         "sectionId": "section_73",
         "story": "sign-of-the-four"
       },
-      "hash": "fdbd6c19e7138950",
+      "hash": "f148784306f191d6",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -322,7 +322,7 @@
         "sectionIndex": 0,
         "story": "sign-of-the-four"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -334,7 +334,7 @@
         "sectionIndex": 36,
         "story": "sign-of-the-four"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -346,7 +346,7 @@
         "sectionIndex": 72,
         "story": "sign-of-the-four"
       },
-      "hash": "14e432d3d410c584",
+      "hash": "7162c7b43ea9bc16",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -358,7 +358,7 @@
         "sectionIndex": 0,
         "story": "sign-of-the-four"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -370,7 +370,7 @@
         "sectionIndex": 36,
         "story": "sign-of-the-four"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -382,7 +382,7 @@
         "sectionIndex": 72,
         "story": "sign-of-the-four"
       },
-      "hash": "fb726c560cf9b5fc",
+      "hash": "a6d9b0aa5fbac7f0",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -394,7 +394,7 @@
         "sectionIndex": 0,
         "story": "sign-of-the-four"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -406,7 +406,7 @@
         "sectionIndex": 36,
         "story": "sign-of-the-four"
       },
-      "hash": "8f9588f51f730094",
+      "hash": "85ef9f7c1df5e74d",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -418,7 +418,7 @@
         "sectionIndex": 72,
         "story": "sign-of-the-four"
       },
-      "hash": "8f9588f51f730094",
+      "hash": "85ef9f7c1df5e74d",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -428,7 +428,7 @@
       "args": {
         "story": "silver-blaze"
       },
-      "hash": "d84fe35fa7e01dff",
+      "hash": "e459c2d737129cf0",
       "query": "getStoryData",
       "summary": {
         "clues": 34,
@@ -461,7 +461,7 @@
         "sectionId": "silver-blaze-section_9",
         "story": "silver-blaze"
       },
-      "hash": "c2dd4dd895992811",
+      "hash": "0895d7086717169c",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -475,7 +475,7 @@
         "sectionId": "silver-blaze-section_16",
         "story": "silver-blaze"
       },
-      "hash": "30b2ba5aa5ff1447",
+      "hash": "3b860d25b0acf39f",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -503,7 +503,7 @@
         "sectionId": "silver-blaze-section_9",
         "story": "silver-blaze"
       },
-      "hash": "860730e406ab69a7",
+      "hash": "d39be08fb9afaddb",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -517,7 +517,7 @@
         "sectionId": "silver-blaze-section_16",
         "story": "silver-blaze"
       },
-      "hash": "658662792141d7e4",
+      "hash": "44dea8e080719429",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -531,7 +531,7 @@
         "sectionIndex": 0,
         "story": "silver-blaze"
       },
-      "hash": "5f61418b8b548ebb",
+      "hash": "a0d157e5969801cd",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -543,7 +543,7 @@
         "sectionIndex": 8,
         "story": "silver-blaze"
       },
-      "hash": "5f61418b8b548ebb",
+      "hash": "a0d157e5969801cd",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -555,7 +555,7 @@
         "sectionIndex": 15,
         "story": "silver-blaze"
       },
-      "hash": "5f61418b8b548ebb",
+      "hash": "a0d157e5969801cd",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -567,7 +567,7 @@
         "sectionIndex": 0,
         "story": "silver-blaze"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -579,7 +579,7 @@
         "sectionIndex": 8,
         "story": "silver-blaze"
       },
-      "hash": "06751f762dacc1be",
+      "hash": "a42a0507591997c1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -591,7 +591,7 @@
         "sectionIndex": 15,
         "story": "silver-blaze"
       },
-      "hash": "06751f762dacc1be",
+      "hash": "a42a0507591997c1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -603,7 +603,7 @@
         "sectionIndex": 0,
         "story": "silver-blaze"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -615,7 +615,7 @@
         "sectionIndex": 8,
         "story": "silver-blaze"
       },
-      "hash": "72e803059ce3919e",
+      "hash": "662e132ffd31733a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -627,7 +627,7 @@
         "sectionIndex": 15,
         "story": "silver-blaze"
       },
-      "hash": "72e803059ce3919e",
+      "hash": "662e132ffd31733a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -637,7 +637,7 @@
       "args": {
         "story": "yellow-face"
       },
-      "hash": "8eaedfda084dadd3",
+      "hash": "c213c2ff2a357504",
       "query": "getStoryData",
       "summary": {
         "clues": 10,
@@ -670,7 +670,7 @@
         "sectionId": "yellow-face-section_7",
         "story": "yellow-face"
       },
-      "hash": "9c3f195af9752346",
+      "hash": "0d8cc72b4a627941",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -684,7 +684,7 @@
         "sectionId": "yellow-face-section_12",
         "story": "yellow-face"
       },
-      "hash": "645f15f1d138767b",
+      "hash": "f0f4ef0a3bc9395a",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -712,7 +712,7 @@
         "sectionId": "yellow-face-section_7",
         "story": "yellow-face"
       },
-      "hash": "019a48db3e49cf75",
+      "hash": "2bf397554a4e630d",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 1,
@@ -726,7 +726,7 @@
         "sectionId": "yellow-face-section_12",
         "story": "yellow-face"
       },
-      "hash": "5c086a675d4211d2",
+      "hash": "94a0bec5900f308b",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 2,
@@ -740,7 +740,7 @@
         "sectionIndex": 0,
         "story": "yellow-face"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -752,7 +752,7 @@
         "sectionIndex": 6,
         "story": "yellow-face"
       },
-      "hash": "64a7479ce3d94c12",
+      "hash": "c71f0f30d9eaa8bf",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -764,7 +764,7 @@
         "sectionIndex": 11,
         "story": "yellow-face"
       },
-      "hash": "64a7479ce3d94c12",
+      "hash": "c71f0f30d9eaa8bf",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -776,7 +776,7 @@
         "sectionIndex": 0,
         "story": "yellow-face"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -788,7 +788,7 @@
         "sectionIndex": 6,
         "story": "yellow-face"
       },
-      "hash": "838e478920737dfc",
+      "hash": "fc60d96e377e30d8",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -800,7 +800,7 @@
         "sectionIndex": 11,
         "story": "yellow-face"
       },
-      "hash": "838e478920737dfc",
+      "hash": "fc60d96e377e30d8",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -812,7 +812,7 @@
         "sectionIndex": 0,
         "story": "yellow-face"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -824,7 +824,7 @@
         "sectionIndex": 6,
         "story": "yellow-face"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -836,7 +836,7 @@
         "sectionIndex": 11,
         "story": "yellow-face"
       },
-      "hash": "2e932285b0a57a71",
+      "hash": "cd6dc52c132f8e77",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -846,7 +846,7 @@
       "args": {
         "story": "stockbrokers-clerk"
       },
-      "hash": "c50715243b13ed51",
+      "hash": "8150b19d692b05b9",
       "query": "getStoryData",
       "summary": {
         "clues": 9,
@@ -865,7 +865,7 @@
         "sectionId": "stockbrokers-clerk-section_1",
         "story": "stockbrokers-clerk"
       },
-      "hash": "21f6c1c3b1b75558",
+      "hash": "d37fc2fbe7a2208f",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -879,7 +879,7 @@
         "sectionId": "stockbrokers-clerk-section_6",
         "story": "stockbrokers-clerk"
       },
-      "hash": "b79014c804514981",
+      "hash": "5b8359ddba8b5535",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -893,7 +893,7 @@
         "sectionId": "stockbrokers-clerk-section_11",
         "story": "stockbrokers-clerk"
       },
-      "hash": "c5c690f50e0e7f89",
+      "hash": "9c47700bfb1ea852",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -907,7 +907,7 @@
         "sectionId": "stockbrokers-clerk-section_1",
         "story": "stockbrokers-clerk"
       },
-      "hash": "af33e068c4b87849",
+      "hash": "2e4735bb65a7e2e9",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -921,7 +921,7 @@
         "sectionId": "stockbrokers-clerk-section_6",
         "story": "stockbrokers-clerk"
       },
-      "hash": "8e605bae0123fc73",
+      "hash": "3cc55845144aa971",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 4,
@@ -935,7 +935,7 @@
         "sectionId": "stockbrokers-clerk-section_11",
         "story": "stockbrokers-clerk"
       },
-      "hash": "a26909d037c52bc6",
+      "hash": "09cc10051e10cfc1",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 5,
@@ -949,7 +949,7 @@
         "sectionIndex": 0,
         "story": "stockbrokers-clerk"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -961,7 +961,7 @@
         "sectionIndex": 5,
         "story": "stockbrokers-clerk"
       },
-      "hash": "d67e148851591ee9",
+      "hash": "89d35815e15f0435",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -973,7 +973,7 @@
         "sectionIndex": 10,
         "story": "stockbrokers-clerk"
       },
-      "hash": "d67e148851591ee9",
+      "hash": "89d35815e15f0435",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -985,7 +985,7 @@
         "sectionIndex": 0,
         "story": "stockbrokers-clerk"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -997,7 +997,7 @@
         "sectionIndex": 5,
         "story": "stockbrokers-clerk"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1009,7 +1009,7 @@
         "sectionIndex": 10,
         "story": "stockbrokers-clerk"
       },
-      "hash": "01c07f31e5904212",
+      "hash": "38d5120256fb94dc",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1021,7 +1021,7 @@
         "sectionIndex": 0,
         "story": "stockbrokers-clerk"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1033,7 +1033,7 @@
         "sectionIndex": 5,
         "story": "stockbrokers-clerk"
       },
-      "hash": "80f8a0d912817b01",
+      "hash": "da5ab24d35f6a8ea",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1045,7 +1045,7 @@
         "sectionIndex": 10,
         "story": "stockbrokers-clerk"
       },
-      "hash": "afb0978d2235383d",
+      "hash": "32a8d682bb323480",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -1055,7 +1055,7 @@
       "args": {
         "story": "gloria-scott"
       },
-      "hash": "5283ffc53d791157",
+      "hash": "573b9fd64fd11664",
       "query": "getStoryData",
       "summary": {
         "clues": 5,
@@ -1074,7 +1074,7 @@
         "sectionId": "gloria-scott-section_1",
         "story": "gloria-scott"
       },
-      "hash": "9f1229bf5e0031a0",
+      "hash": "87be7c3f899588d9",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1088,7 +1088,7 @@
         "sectionId": "gloria-scott-section_7",
         "story": "gloria-scott"
       },
-      "hash": "f86b20afa8474dc1",
+      "hash": "ded38ef889cfec50",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1102,7 +1102,7 @@
         "sectionId": "gloria-scott-section_12",
         "story": "gloria-scott"
       },
-      "hash": "d32e4f7b0f386031",
+      "hash": "5e68a07e2c20e83b",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1116,7 +1116,7 @@
         "sectionId": "gloria-scott-section_1",
         "story": "gloria-scott"
       },
-      "hash": "ffed73143ff4d7a5",
+      "hash": "f7205fc10082e6e1",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1130,7 +1130,7 @@
         "sectionId": "gloria-scott-section_7",
         "story": "gloria-scott"
       },
-      "hash": "2afd6bd651642a7e",
+      "hash": "4ba3bc5c24ed5969",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1144,7 +1144,7 @@
         "sectionId": "gloria-scott-section_12",
         "story": "gloria-scott"
       },
-      "hash": "057cf11a109affe0",
+      "hash": "63b1eed4299534c6",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1158,7 +1158,7 @@
         "sectionIndex": 0,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1170,7 +1170,7 @@
         "sectionIndex": 6,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1182,7 +1182,7 @@
         "sectionIndex": 11,
         "story": "gloria-scott"
       },
-      "hash": "f17616b4ae523af3",
+      "hash": "ccded9364279b8d5",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1194,7 +1194,7 @@
         "sectionIndex": 0,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1206,7 +1206,7 @@
         "sectionIndex": 6,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1218,7 +1218,7 @@
         "sectionIndex": 11,
         "story": "gloria-scott"
       },
-      "hash": "b7edcbcc4ab2fdb3",
+      "hash": "209ba5c16eeba032",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1230,7 +1230,7 @@
         "sectionIndex": 0,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1242,7 +1242,7 @@
         "sectionIndex": 6,
         "story": "gloria-scott"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1254,7 +1254,7 @@
         "sectionIndex": 11,
         "story": "gloria-scott"
       },
-      "hash": "b7edcbcc4ab2fdb3",
+      "hash": "209ba5c16eeba032",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1264,7 +1264,7 @@
       "args": {
         "story": "musgrave-ritual"
       },
-      "hash": "2dc3209649dcaeef",
+      "hash": "e3490939131f0507",
       "query": "getStoryData",
       "summary": {
         "clues": 20,
@@ -1283,7 +1283,7 @@
         "sectionId": "musgrave-ritual-section_1",
         "story": "musgrave-ritual"
       },
-      "hash": "6b76d3b1b2bd7cb3",
+      "hash": "2688591a0664e63b",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1297,7 +1297,7 @@
         "sectionId": "musgrave-ritual-section_7",
         "story": "musgrave-ritual"
       },
-      "hash": "44d15cfa344ca7b9",
+      "hash": "044e24591e2e43c0",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 2,
@@ -1311,7 +1311,7 @@
         "sectionId": "musgrave-ritual-section_12",
         "story": "musgrave-ritual"
       },
-      "hash": "44efdd5229da2b1a",
+      "hash": "0db6af34b395d2af",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 2,
@@ -1325,7 +1325,7 @@
         "sectionId": "musgrave-ritual-section_1",
         "story": "musgrave-ritual"
       },
-      "hash": "acdfbdbc20c3ea3a",
+      "hash": "0edc841d2aa85229",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1339,7 +1339,7 @@
         "sectionId": "musgrave-ritual-section_7",
         "story": "musgrave-ritual"
       },
-      "hash": "2aab362023409c3d",
+      "hash": "04fde523756c9d06",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1353,7 +1353,7 @@
         "sectionId": "musgrave-ritual-section_12",
         "story": "musgrave-ritual"
       },
-      "hash": "7d64cb64facdc600",
+      "hash": "b5027f619032201a",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1367,7 +1367,7 @@
         "sectionIndex": 0,
         "story": "musgrave-ritual"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1379,7 +1379,7 @@
         "sectionIndex": 6,
         "story": "musgrave-ritual"
       },
-      "hash": "ffa5fb325921c19b",
+      "hash": "ef5d3264bc1ba45e",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -1391,7 +1391,7 @@
         "sectionIndex": 11,
         "story": "musgrave-ritual"
       },
-      "hash": "ffa5fb325921c19b",
+      "hash": "ef5d3264bc1ba45e",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -1403,7 +1403,7 @@
         "sectionIndex": 0,
         "story": "musgrave-ritual"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1415,7 +1415,7 @@
         "sectionIndex": 6,
         "story": "musgrave-ritual"
       },
-      "hash": "f3ec32f03aa19e84",
+      "hash": "37b6d4ea2c23f55c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1427,7 +1427,7 @@
         "sectionIndex": 11,
         "story": "musgrave-ritual"
       },
-      "hash": "f3ec32f03aa19e84",
+      "hash": "37b6d4ea2c23f55c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1439,7 +1439,7 @@
         "sectionIndex": 0,
         "story": "musgrave-ritual"
       },
-      "hash": "2164ce88dba0681f",
+      "hash": "3212eb603fb3f471",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1451,7 +1451,7 @@
         "sectionIndex": 6,
         "story": "musgrave-ritual"
       },
-      "hash": "2164ce88dba0681f",
+      "hash": "3212eb603fb3f471",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1463,7 +1463,7 @@
         "sectionIndex": 11,
         "story": "musgrave-ritual"
       },
-      "hash": "2164ce88dba0681f",
+      "hash": "3212eb603fb3f471",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1473,7 +1473,7 @@
       "args": {
         "story": "reigate-squires"
       },
-      "hash": "ff0e4e398643cb5a",
+      "hash": "3ac58eab858db468",
       "query": "getStoryData",
       "summary": {
         "clues": 15,
@@ -1492,7 +1492,7 @@
         "sectionId": "reigate-squires-section_1",
         "story": "reigate-squires"
       },
-      "hash": "3344af9abad04c1d",
+      "hash": "69b1d45715043bfc",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1506,7 +1506,7 @@
         "sectionId": "reigate-squires-section_7",
         "story": "reigate-squires"
       },
-      "hash": "20e2ae059ac221fa",
+      "hash": "f05625b4bedeea9f",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1520,7 +1520,7 @@
         "sectionId": "reigate-squires-section_12",
         "story": "reigate-squires"
       },
-      "hash": "30126df4b61f8b09",
+      "hash": "72b0ac0a698b6fb1",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1534,7 +1534,7 @@
         "sectionId": "reigate-squires-section_1",
         "story": "reigate-squires"
       },
-      "hash": "791759d5f7f81a4f",
+      "hash": "197b3b509e720141",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1548,7 +1548,7 @@
         "sectionId": "reigate-squires-section_7",
         "story": "reigate-squires"
       },
-      "hash": "ed6d176f550ccb87",
+      "hash": "d7fb15c0e92b8f4e",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 1,
@@ -1562,7 +1562,7 @@
         "sectionId": "reigate-squires-section_12",
         "story": "reigate-squires"
       },
-      "hash": "b2c2a4ffc2f11357",
+      "hash": "3366076a6c606bd6",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 1,
@@ -1576,7 +1576,7 @@
         "sectionIndex": 0,
         "story": "reigate-squires"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1588,7 +1588,7 @@
         "sectionIndex": 6,
         "story": "reigate-squires"
       },
-      "hash": "09563ed0bfe253a0",
+      "hash": "beb0f5bc10072cf8",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1600,7 +1600,7 @@
         "sectionIndex": 11,
         "story": "reigate-squires"
       },
-      "hash": "0cf41949d541510a",
+      "hash": "de1055a1cb3cecd7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1612,7 +1612,7 @@
         "sectionIndex": 0,
         "story": "reigate-squires"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1624,7 +1624,7 @@
         "sectionIndex": 6,
         "story": "reigate-squires"
       },
-      "hash": "09563ed0bfe253a0",
+      "hash": "beb0f5bc10072cf8",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1636,7 +1636,7 @@
         "sectionIndex": 11,
         "story": "reigate-squires"
       },
-      "hash": "0076af377a4c0295",
+      "hash": "01c05e88ecb78805",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1648,7 +1648,7 @@
         "sectionIndex": 0,
         "story": "reigate-squires"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1660,7 +1660,7 @@
         "sectionIndex": 6,
         "story": "reigate-squires"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -1672,7 +1672,7 @@
         "sectionIndex": 11,
         "story": "reigate-squires"
       },
-      "hash": "0cf41949d541510a",
+      "hash": "de1055a1cb3cecd7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1682,7 +1682,7 @@
       "args": {
         "story": "crooked-man"
       },
-      "hash": "e6dd99c4fa796d31",
+      "hash": "c7bc712d70568f64",
       "query": "getStoryData",
       "summary": {
         "clues": 9,
@@ -1701,7 +1701,7 @@
         "sectionId": "crooked-man-section_1",
         "story": "crooked-man"
       },
-      "hash": "d3b7e8d2f2d5ef40",
+      "hash": "12d4da14c9180ee4",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1715,7 +1715,7 @@
         "sectionId": "crooked-man-section_6",
         "story": "crooked-man"
       },
-      "hash": "a300e4cdc6ed8f0e",
+      "hash": "b8b7dc192a5c07bb",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1729,7 +1729,7 @@
         "sectionId": "crooked-man-section_11",
         "story": "crooked-man"
       },
-      "hash": "0048099787f98ee6",
+      "hash": "e5889a68b158cdfb",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1743,7 +1743,7 @@
         "sectionId": "crooked-man-section_1",
         "story": "crooked-man"
       },
-      "hash": "6fde35b8f60f2a09",
+      "hash": "464134a0804311e1",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1757,7 +1757,7 @@
         "sectionId": "crooked-man-section_6",
         "story": "crooked-man"
       },
-      "hash": "d28d2f1573dd1bef",
+      "hash": "78b9ebcbbd832d30",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1771,7 +1771,7 @@
         "sectionId": "crooked-man-section_11",
         "story": "crooked-man"
       },
-      "hash": "e679c4833d0ca541",
+      "hash": "446a73c6329f2ff1",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1785,7 +1785,7 @@
         "sectionIndex": 0,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1797,7 +1797,7 @@
         "sectionIndex": 5,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1809,7 +1809,7 @@
         "sectionIndex": 10,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1821,7 +1821,7 @@
         "sectionIndex": 0,
         "story": "crooked-man"
       },
-      "hash": "ddb51e2efa14afcb",
+      "hash": "60a3629e492e7ab1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1833,7 +1833,7 @@
         "sectionIndex": 5,
         "story": "crooked-man"
       },
-      "hash": "ddb51e2efa14afcb",
+      "hash": "60a3629e492e7ab1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1845,7 +1845,7 @@
         "sectionIndex": 10,
         "story": "crooked-man"
       },
-      "hash": "ddb51e2efa14afcb",
+      "hash": "60a3629e492e7ab1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1857,7 +1857,7 @@
         "sectionIndex": 0,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1869,7 +1869,7 @@
         "sectionIndex": 5,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1881,7 +1881,7 @@
         "sectionIndex": 10,
         "story": "crooked-man"
       },
-      "hash": "7e027b97b82f39bc",
+      "hash": "f4864f43aa91523a",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -1891,7 +1891,7 @@
       "args": {
         "story": "resident-patient"
       },
-      "hash": "f10685a933a28ed5",
+      "hash": "9542af73c7fbe265",
       "query": "getStoryData",
       "summary": {
         "clues": 11,
@@ -1910,7 +1910,7 @@
         "sectionId": "resident-patient-section_1",
         "story": "resident-patient"
       },
-      "hash": "68c1132c563a5122",
+      "hash": "ee177b8668015dae",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1924,7 +1924,7 @@
         "sectionId": "resident-patient-section_6",
         "story": "resident-patient"
       },
-      "hash": "95add0ad758f90c5",
+      "hash": "f9c107429894a612",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1938,7 +1938,7 @@
         "sectionId": "resident-patient-section_10",
         "story": "resident-patient"
       },
-      "hash": "bd4fe10f75afab55",
+      "hash": "2f34a495cbd34b53",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1952,7 +1952,7 @@
         "sectionId": "resident-patient-section_1",
         "story": "resident-patient"
       },
-      "hash": "e204987399f0946a",
+      "hash": "76b9e4a66c8fd92c",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1966,7 +1966,7 @@
         "sectionId": "resident-patient-section_6",
         "story": "resident-patient"
       },
-      "hash": "d92dad55b36ae732",
+      "hash": "b7ce79015edb0c14",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1980,7 +1980,7 @@
         "sectionId": "resident-patient-section_10",
         "story": "resident-patient"
       },
-      "hash": "7358b453f9c01066",
+      "hash": "9f2a4bd58684b1e0",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -1994,7 +1994,7 @@
         "sectionIndex": 0,
         "story": "resident-patient"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2006,7 +2006,7 @@
         "sectionIndex": 5,
         "story": "resident-patient"
       },
-      "hash": "2dd80b7c4c92e813",
+      "hash": "3dbacee3338c89fd",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2018,7 +2018,7 @@
         "sectionIndex": 9,
         "story": "resident-patient"
       },
-      "hash": "2dd80b7c4c92e813",
+      "hash": "3dbacee3338c89fd",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2030,7 +2030,7 @@
         "sectionIndex": 0,
         "story": "resident-patient"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2042,7 +2042,7 @@
         "sectionIndex": 5,
         "story": "resident-patient"
       },
-      "hash": "01672bb4c3bda794",
+      "hash": "dc6eb0f6c2edf1d7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2054,7 +2054,7 @@
         "sectionIndex": 9,
         "story": "resident-patient"
       },
-      "hash": "01672bb4c3bda794",
+      "hash": "dc6eb0f6c2edf1d7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2066,7 +2066,7 @@
         "sectionIndex": 0,
         "story": "resident-patient"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2078,7 +2078,7 @@
         "sectionIndex": 5,
         "story": "resident-patient"
       },
-      "hash": "01672bb4c3bda794",
+      "hash": "dc6eb0f6c2edf1d7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2090,7 +2090,7 @@
         "sectionIndex": 9,
         "story": "resident-patient"
       },
-      "hash": "01672bb4c3bda794",
+      "hash": "dc6eb0f6c2edf1d7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2100,7 +2100,7 @@
       "args": {
         "story": "greek-interpreter"
       },
-      "hash": "60423a8c9388fd05",
+      "hash": "01cd2173e1c4323f",
       "query": "getStoryData",
       "summary": {
         "clues": 5,
@@ -2119,7 +2119,7 @@
         "sectionId": "greek-interpreter-section_1",
         "story": "greek-interpreter"
       },
-      "hash": "5cf551a7255823b7",
+      "hash": "9ae243304fadbc5f",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2133,7 +2133,7 @@
         "sectionId": "greek-interpreter-section_6",
         "story": "greek-interpreter"
       },
-      "hash": "65f5c636e37c78c3",
+      "hash": "21b7e82e5fc594ec",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2147,7 +2147,7 @@
         "sectionId": "greek-interpreter-section_11",
         "story": "greek-interpreter"
       },
-      "hash": "26b4b8e1ddf43a2d",
+      "hash": "6d09f3d5873cc795",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2161,7 +2161,7 @@
         "sectionId": "greek-interpreter-section_1",
         "story": "greek-interpreter"
       },
-      "hash": "db8799e4ab3c218a",
+      "hash": "4d7a900c4e114c74",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2175,7 +2175,7 @@
         "sectionId": "greek-interpreter-section_6",
         "story": "greek-interpreter"
       },
-      "hash": "8cec3d8f2d863b7e",
+      "hash": "7fdbfb2c52aea562",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 2,
@@ -2189,7 +2189,7 @@
         "sectionId": "greek-interpreter-section_11",
         "story": "greek-interpreter"
       },
-      "hash": "45527c02c7189e2f",
+      "hash": "89c2083496a7ab47",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 2,
@@ -2203,7 +2203,7 @@
         "sectionIndex": 0,
         "story": "greek-interpreter"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2215,7 +2215,7 @@
         "sectionIndex": 5,
         "story": "greek-interpreter"
       },
-      "hash": "1ce762a24031221c",
+      "hash": "03e08422d1f8d305",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2227,7 +2227,7 @@
         "sectionIndex": 10,
         "story": "greek-interpreter"
       },
-      "hash": "1ce762a24031221c",
+      "hash": "03e08422d1f8d305",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2239,7 +2239,7 @@
         "sectionIndex": 0,
         "story": "greek-interpreter"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2251,7 +2251,7 @@
         "sectionIndex": 5,
         "story": "greek-interpreter"
       },
-      "hash": "1ce762a24031221c",
+      "hash": "03e08422d1f8d305",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2263,7 +2263,7 @@
         "sectionIndex": 10,
         "story": "greek-interpreter"
       },
-      "hash": "1ce762a24031221c",
+      "hash": "03e08422d1f8d305",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2275,7 +2275,7 @@
         "sectionIndex": 0,
         "story": "greek-interpreter"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2287,7 +2287,7 @@
         "sectionIndex": 5,
         "story": "greek-interpreter"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2299,7 +2299,7 @@
         "sectionIndex": 10,
         "story": "greek-interpreter"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2309,7 +2309,7 @@
       "args": {
         "story": "naval-treaty"
       },
-      "hash": "5ab491d9911bf8e6",
+      "hash": "cf8f8baee2ce5fca",
       "query": "getStoryData",
       "summary": {
         "clues": 10,
@@ -2342,7 +2342,7 @@
         "sectionId": "naval-treaty-section_11",
         "story": "naval-treaty"
       },
-      "hash": "1edbb513c35c9738",
+      "hash": "2cd9105860116085",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2356,7 +2356,7 @@
         "sectionId": "naval-treaty-section_20",
         "story": "naval-treaty"
       },
-      "hash": "d57a9bfd1a0ea558",
+      "hash": "23a19fa6cc5f7131",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2384,7 +2384,7 @@
         "sectionId": "naval-treaty-section_11",
         "story": "naval-treaty"
       },
-      "hash": "d6f03ee178a9dec2",
+      "hash": "8a51674911158621",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2398,7 +2398,7 @@
         "sectionId": "naval-treaty-section_20",
         "story": "naval-treaty"
       },
-      "hash": "76955e9a3ff16a44",
+      "hash": "40cb6ea0e6e4a889",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2412,7 +2412,7 @@
         "sectionIndex": 0,
         "story": "naval-treaty"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2424,7 +2424,7 @@
         "sectionIndex": 10,
         "story": "naval-treaty"
       },
-      "hash": "64b33e0065709ecd",
+      "hash": "d1c4b63bcbe15f2c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2436,7 +2436,7 @@
         "sectionIndex": 19,
         "story": "naval-treaty"
       },
-      "hash": "64b33e0065709ecd",
+      "hash": "d1c4b63bcbe15f2c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2448,7 +2448,7 @@
         "sectionIndex": 0,
         "story": "naval-treaty"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2460,7 +2460,7 @@
         "sectionIndex": 10,
         "story": "naval-treaty"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2472,7 +2472,7 @@
         "sectionIndex": 19,
         "story": "naval-treaty"
       },
-      "hash": "040ac8ef7c044a38",
+      "hash": "cbc0b3127e9a5d6c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2484,7 +2484,7 @@
         "sectionIndex": 0,
         "story": "naval-treaty"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2496,7 +2496,7 @@
         "sectionIndex": 10,
         "story": "naval-treaty"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2508,7 +2508,7 @@
         "sectionIndex": 19,
         "story": "naval-treaty"
       },
-      "hash": "6cd497de13542efd",
+      "hash": "f3ea62d370f31ba4",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -2518,7 +2518,7 @@
       "args": {
         "story": "final-problem"
       },
-      "hash": "2ebf522ea68e9e02",
+      "hash": "2ef51642d2340e61",
       "query": "getStoryData",
       "summary": {
         "clues": 6,
@@ -2537,7 +2537,7 @@
         "sectionId": "final-problem-section_1",
         "story": "final-problem"
       },
-      "hash": "73a8d76c704a2b8e",
+      "hash": "66728e4b32cc80a5",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2551,7 +2551,7 @@
         "sectionId": "final-problem-section_6",
         "story": "final-problem"
       },
-      "hash": "02bc673bbc5cb5f9",
+      "hash": "edc677abdea63fae",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2565,7 +2565,7 @@
         "sectionId": "final-problem-section_11",
         "story": "final-problem"
       },
-      "hash": "c1bfa56354f9344a",
+      "hash": "cf5c756f7cf44574",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2579,7 +2579,7 @@
         "sectionId": "final-problem-section_1",
         "story": "final-problem"
       },
-      "hash": "733b08a26b34d4ce",
+      "hash": "159bb2eeaf56f10e",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2593,7 +2593,7 @@
         "sectionId": "final-problem-section_6",
         "story": "final-problem"
       },
-      "hash": "bb443bec85d16625",
+      "hash": "3aa021723e7f9402",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2607,7 +2607,7 @@
         "sectionId": "final-problem-section_11",
         "story": "final-problem"
       },
-      "hash": "5c17b757998e33f3",
+      "hash": "4d6167ab54d7322d",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2621,7 +2621,7 @@
         "sectionIndex": 0,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2633,7 +2633,7 @@
         "sectionIndex": 5,
         "story": "final-problem"
       },
-      "hash": "7549c4097df60415",
+      "hash": "f4a43fab51f04972",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -2645,7 +2645,7 @@
         "sectionIndex": 10,
         "story": "final-problem"
       },
-      "hash": "7549c4097df60415",
+      "hash": "f4a43fab51f04972",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -2657,7 +2657,7 @@
         "sectionIndex": 0,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2669,7 +2669,7 @@
         "sectionIndex": 5,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2681,7 +2681,7 @@
         "sectionIndex": 10,
         "story": "final-problem"
       },
-      "hash": "1b0d66518664e2e9",
+      "hash": "be607c91ea8fc532",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2693,7 +2693,7 @@
         "sectionIndex": 0,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2705,7 +2705,7 @@
         "sectionIndex": 5,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2717,7 +2717,7 @@
         "sectionIndex": 10,
         "story": "final-problem"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2727,7 +2727,7 @@
       "args": {
         "story": "cardboard-box"
       },
-      "hash": "537dae34056458ad",
+      "hash": "f70a607d6ef06e3f",
       "query": "getStoryData",
       "summary": {
         "clues": 9,
@@ -2760,7 +2760,7 @@
         "sectionId": "cardboard-box-section_8",
         "story": "cardboard-box"
       },
-      "hash": "a7b9312a17be00fe",
+      "hash": "19773404adea2086",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2774,7 +2774,7 @@
         "sectionId": "cardboard-box-section_14",
         "story": "cardboard-box"
       },
-      "hash": "49381e469fe84a87",
+      "hash": "8e101fc1b3e4e4fe",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2802,7 +2802,7 @@
         "sectionId": "cardboard-box-section_8",
         "story": "cardboard-box"
       },
-      "hash": "8cf7269a355db4f8",
+      "hash": "d636512d8b64a64d",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2816,7 +2816,7 @@
         "sectionId": "cardboard-box-section_14",
         "story": "cardboard-box"
       },
-      "hash": "4648f4ab098a2790",
+      "hash": "d14c5aab62002b13",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2830,7 +2830,7 @@
         "sectionIndex": 0,
         "story": "cardboard-box"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2842,7 +2842,7 @@
         "sectionIndex": 7,
         "story": "cardboard-box"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2854,7 +2854,7 @@
         "sectionIndex": 13,
         "story": "cardboard-box"
       },
-      "hash": "ce2d5a317c828cf8",
+      "hash": "8407c94743d75e49",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2866,7 +2866,7 @@
         "sectionIndex": 0,
         "story": "cardboard-box"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2878,7 +2878,7 @@
         "sectionIndex": 7,
         "story": "cardboard-box"
       },
-      "hash": "1c9b15f1c6c47c84",
+      "hash": "85ea599609c16ad2",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2890,7 +2890,7 @@
         "sectionIndex": 13,
         "story": "cardboard-box"
       },
-      "hash": "54a68bfc76056c69",
+      "hash": "8ecb9241e38e0919",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -2902,7 +2902,7 @@
         "sectionIndex": 0,
         "story": "cardboard-box"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -2914,7 +2914,7 @@
         "sectionIndex": 7,
         "story": "cardboard-box"
       },
-      "hash": "5a4cb07ee753d2a3",
+      "hash": "7ef19fa39ed33330",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2926,7 +2926,7 @@
         "sectionIndex": 13,
         "story": "cardboard-box"
       },
-      "hash": "5a4cb07ee753d2a3",
+      "hash": "7ef19fa39ed33330",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -2936,7 +2936,7 @@
       "args": {
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "c6314ef11d3e9c2a",
+      "hash": "a99eb9579207b4a4",
       "query": "getStoryData",
       "summary": {
         "clues": 66,
@@ -2969,7 +2969,7 @@
         "sectionId": "section_51",
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "04f82c31a36d60f6",
+      "hash": "b005599aad91e3ab",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -2983,7 +2983,7 @@
         "sectionId": "section_101",
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "83af4c2179714145",
+      "hash": "f9a6a56b7dd817ba",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3011,7 +3011,7 @@
         "sectionId": "section_51",
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "40fa3f50210a52bd",
+      "hash": "a1dc740cb4987ca5",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3025,7 +3025,7 @@
         "sectionId": "section_101",
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "2197632500f079f2",
+      "hash": "e067143e80c542c7",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3039,7 +3039,7 @@
         "sectionIndex": 0,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3051,7 +3051,7 @@
         "sectionIndex": 50,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3063,7 +3063,7 @@
         "sectionIndex": 100,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "f5b7324ce7cb4675",
+      "hash": "5d816af52cc35aab",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3075,7 +3075,7 @@
         "sectionIndex": 0,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3087,7 +3087,7 @@
         "sectionIndex": 50,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3099,7 +3099,7 @@
         "sectionIndex": 100,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "9d7fbccb0e7a93d6",
+      "hash": "488f2ac1d34051cc",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3111,7 +3111,7 @@
         "sectionIndex": 0,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3123,7 +3123,7 @@
         "sectionIndex": 50,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "bf0b9c773e32fd31",
+      "hash": "3da0db82b9a7bfe7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 3
@@ -3135,7 +3135,7 @@
         "sectionIndex": 100,
         "story": "hound-of-the-baskervilles"
       },
-      "hash": "79d72279e26116b5",
+      "hash": "ab35c05a0c4e13d7",
       "query": "getEntityStateAt",
       "summary": {
         "results": 3
@@ -3145,7 +3145,7 @@
       "args": {
         "story": "valley-of-fear"
       },
-      "hash": "0352bd549c0b193b",
+      "hash": "4c12ddf8993db40f",
       "query": "getStoryData",
       "summary": {
         "clues": 58,
@@ -3178,7 +3178,7 @@
         "sectionId": "section_48",
         "story": "valley-of-fear"
       },
-      "hash": "5c4809ebcc000b33",
+      "hash": "2a5c2fab143190b3",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 1,
@@ -3192,7 +3192,7 @@
         "sectionId": "section_95",
         "story": "valley-of-fear"
       },
-      "hash": "b5e8d5a2b2343ece",
+      "hash": "f95b6dbe6bf1b55d",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 1,
@@ -3220,7 +3220,7 @@
         "sectionId": "section_48",
         "story": "valley-of-fear"
       },
-      "hash": "8075f29a1a00696c",
+      "hash": "1d5d77259a75d160",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 15,
@@ -3234,7 +3234,7 @@
         "sectionId": "section_95",
         "story": "valley-of-fear"
       },
-      "hash": "91382ea82f8d0742",
+      "hash": "19c689b03a677034",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 15,
@@ -3248,7 +3248,7 @@
         "sectionIndex": 0,
         "story": "valley-of-fear"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3260,7 +3260,7 @@
         "sectionIndex": 47,
         "story": "valley-of-fear"
       },
-      "hash": "a6c2284d5a7eae6e",
+      "hash": "8bc9d574a363da99",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3272,7 +3272,7 @@
         "sectionIndex": 94,
         "story": "valley-of-fear"
       },
-      "hash": "a6c2284d5a7eae6e",
+      "hash": "8bc9d574a363da99",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3284,7 +3284,7 @@
         "sectionIndex": 0,
         "story": "valley-of-fear"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3296,7 +3296,7 @@
         "sectionIndex": 47,
         "story": "valley-of-fear"
       },
-      "hash": "abf7817cc0d64090",
+      "hash": "03e6d09818379bff",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3308,7 +3308,7 @@
         "sectionIndex": 94,
         "story": "valley-of-fear"
       },
-      "hash": "abf7817cc0d64090",
+      "hash": "03e6d09818379bff",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3320,7 +3320,7 @@
         "sectionIndex": 0,
         "story": "valley-of-fear"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3332,7 +3332,7 @@
         "sectionIndex": 47,
         "story": "valley-of-fear"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3344,7 +3344,7 @@
         "sectionIndex": 94,
         "story": "valley-of-fear"
       },
-      "hash": "6eccfd8a7eb08071",
+      "hash": "3e6d15711b8734f6",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3354,7 +3354,7 @@
       "args": {
         "story": "a-case-of-identity"
       },
-      "hash": "442a07acb79ea972",
+      "hash": "286967c54feffed1",
       "query": "getStoryData",
       "summary": {
         "clues": 9,
@@ -3387,7 +3387,7 @@
         "sectionId": "section_18",
         "story": "a-case-of-identity"
       },
-      "hash": "abfeb9579217a7aa",
+      "hash": "db78303864383320",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3401,7 +3401,7 @@
         "sectionId": "section_34",
         "story": "a-case-of-identity"
       },
-      "hash": "70d05819b721f6ce",
+      "hash": "378fa471fd8b029e",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3429,7 +3429,7 @@
         "sectionId": "section_18",
         "story": "a-case-of-identity"
       },
-      "hash": "62ed894c6eb0a145",
+      "hash": "5a36594d2f35f152",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3443,7 +3443,7 @@
         "sectionId": "section_34",
         "story": "a-case-of-identity"
       },
-      "hash": "9f2144b2382170a2",
+      "hash": "79c2f98811de4545",
       "query": "getCharacterContext",
       "summary": {
         "beliefs": 0,
@@ -3457,7 +3457,7 @@
         "sectionIndex": 0,
         "story": "a-case-of-identity"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3469,7 +3469,7 @@
         "sectionIndex": 17,
         "story": "a-case-of-identity"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3481,7 +3481,7 @@
         "sectionIndex": 33,
         "story": "a-case-of-identity"
       },
-      "hash": "3900cec9f97e0338",
+      "hash": "35f39e7f6f6fa2f1",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3493,7 +3493,7 @@
         "sectionIndex": 0,
         "story": "a-case-of-identity"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3505,7 +3505,7 @@
         "sectionIndex": 17,
         "story": "a-case-of-identity"
       },
-      "hash": "3eed4e9b1e4b22f1",
+      "hash": "8a6c1a6e945e0aec",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3517,7 +3517,7 @@
         "sectionIndex": 33,
         "story": "a-case-of-identity"
       },
-      "hash": "3eed4e9b1e4b22f1",
+      "hash": "8a6c1a6e945e0aec",
       "query": "getEntityStateAt",
       "summary": {
         "results": 1
@@ -3529,7 +3529,7 @@
         "sectionIndex": 0,
         "story": "a-case-of-identity"
       },
-      "hash": "4f53cda18c2baa0c",
+      "hash": "a8388cbb7a4e21ac",
       "query": "getEntityStateAt",
       "summary": {
         "results": 0
@@ -3541,7 +3541,7 @@
         "sectionIndex": 17,
         "story": "a-case-of-identity"
       },
-      "hash": "5a1dcd0addc85ecc",
+      "hash": "5f10c882e15fa12c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2
@@ -3553,7 +3553,7 @@
         "sectionIndex": 33,
         "story": "a-case-of-identity"
       },
-      "hash": "5a1dcd0addc85ecc",
+      "hash": "5f10c882e15fa12c",
       "query": "getEntityStateAt",
       "summary": {
         "results": 2

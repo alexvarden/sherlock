@@ -45,7 +45,8 @@
     "db:migrate": "tsx --env-file=.env scripts/migrate.ts",
     "db:load": "tsx --env-file=.env scripts/load-canon.ts",
     "db:verify": "tsx --env-file=.env scripts/verify-load.ts",
-    "parity:capture": "tsx --env-file=.env scripts/capture-parity.ts"
+    "parity:capture": "tsx --env-file=.env scripts/capture-parity.ts",
+    "parity:check": "tsx --env-file=.env scripts/compare-parity.ts"
   },
   "dependencies": {
     "@copilotkit/react-core": "^1.57.1",
