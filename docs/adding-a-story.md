@@ -44,15 +44,15 @@ Example — test the first 3 sections only:
 npm run ingest -- my-new-story --max-sections=3
 ```
 
-## 3. Migrate to Neo4j
+## 3. Load into Postgres
 
 Make sure Docker is running, then:
 
 ```bash
-npm run migrate
+npm run db:load
 ```
 
-This pushes all stories in `data/processed/` to Neo4j. It is idempotent — run it again after any re-ingest.
+This loads all stories in `data/processed/` into Postgres. It is idempotent: each story is deleted and reinserted inside one transaction, so running it again after a re-ingest leaves the same final state rather than doubling rows.
 
 ## 4. Add demo examples (optional)
 
@@ -94,4 +94,4 @@ open http://localhost:3000/demo?story=my-new-story
 
 **Characters have wrong IDs in examples.json** — open `data/processed/<slug>/objective-graph.json` and find the entity `id` fields in the `entities` array.
 
-**Story not appearing after migrate** — check `docker compose ps` to confirm Neo4j is running, then re-run `npm run migrate` and hard-refresh the browser.
+**Story not appearing after load** — check `docker compose ps` to confirm Postgres is running, then re-run `npm run db:load`, confirm with `npm run db:verify`, and hard-refresh the browser.

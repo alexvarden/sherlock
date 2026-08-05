@@ -31,20 +31,23 @@ The source text is Arthur Conan Doyle's canon, which is in the public domain.
 ## What's in here
 
 - `/graph` — knowledge-graph viewer (D3 force graph, timeline scrubber,
-  character-perspective filter, live Cypher).
+  character-perspective filter, live SQL).
 - `/demo` — character Q&A via graph traversal (no embeddings).
 - `/read` — a perspective-aware reader: talk to the book as you go.
 - `/the-game-is-afoot` — the first article with its embedded, interactive widgets.
-- `scripts/` — the ingest pipeline (lexical → objective) and the Neo4j migration.
+- `scripts/` — the ingest pipeline (lexical → objective) and the Postgres loader.
 
 ## Running it locally
 
-You'll need Node, Docker (for Neo4j), and your own OpenAI key (used only at
+You'll need Node, Docker (for Postgres), and your own OpenAI key (used only at
 ingest time, not for retrieval).
+
+The database ships populated: a seed dump of the loaded canon is committed, so
+`docker compose up` gives you the full graph with no ingest and no API key.
 
 ```bash
 cp .env.example .env      # then fill in your values
-docker compose up -d      # starts Neo4j
+docker compose up -d      # starts Postgres, restored from data/seed
 npm install
 npm run dev               # http://localhost:3000
 ```
@@ -52,7 +55,7 @@ npm run dev               # http://localhost:3000
 Full setup, the three-layer architecture, and how to ingest a new story:
 
 - [`docs/setup.md`](docs/setup.md) — prerequisites, env vars, running locally
-- [`docs/architecture.md`](docs/architecture.md) — three-layer design, Neo4j schema, query flow
+- [`docs/architecture.md`](docs/architecture.md) — three-layer design, the two-table schema, query flow
 - [`docs/ingest-architecture.md`](docs/ingest-architecture.md) — the ingestion pipeline
 - [`docs/adding-a-story.md`](docs/adding-a-story.md) — ingesting a new story
 

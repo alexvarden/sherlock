@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - **Node.js 20+** and **npm**
-- **Docker** (for Neo4j)
+- **Docker** (for Postgres)
 - An **OpenAI** or **Anthropic** API key (for ingestion and query answering)
 
 ## Environment variables
@@ -18,10 +18,8 @@ OPENAI_MODEL=gpt-4o              # optional, default: gpt-4o
 OPENAI_ORGANISATION=             # optional
 OPENAI_PROJECT_ID=               # optional
 
-# Neo4j — defaults match docker-compose.yml, only change if needed
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=sherlock
+# Postgres — the default matches docker-compose.yml, only change if needed
+SHERLOCK_DATABASE_URL=postgres://postgres:sherlock@localhost:5432/sherlock
 ```
 
 ## Running locally
@@ -32,15 +30,16 @@ NEO4J_PASSWORD=sherlock
 npm install
 ```
 
-### 2. Start Neo4j
+### 2. Start Postgres
 
 ```bash
 docker compose up -d
 ```
 
-Neo4j browser is available at http://localhost:7474 (login: `neo4j` / `sherlock`).
+The container restores `data/seed/01-canon.sql` on first boot, so the full canon
+is already loaded. Nothing else is needed to browse the tools.
 
-Wait ~15 seconds for Neo4j to be healthy before continuing.
+Wait a few seconds for the healthcheck to pass before continuing.
 
 ### 3. Start the dev server
 
@@ -75,19 +74,19 @@ npm run ingest -- sherlock --split-only
 npm run ingest -- sherlock --max-sections=5
 ```
 
-### 5. Migrate to Neo4j
+### 5. Load into Postgres
 
-After ingest, push the JSON to Neo4j:
+Only needed if you have ingested something new. After ingest, load the JSON:
 
 ```bash
-npm run migrate
+npm run db:load
 ```
 
 This is idempotent — it clears the story's data and re-imports. Run it after every ingest.
 
 ### 6. Verify
 
-Open http://localhost:3000/graph — you should see your story in the dropdown. The graph page, demo page, and Cypher display all require Neo4j to be running and migrated.
+Open http://localhost:3000/graph — you should see your story in the dropdown. The graph page, demo page, and SQL display all read from Postgres, so the container must be running.
 
 ## Pages
 
@@ -104,9 +103,11 @@ Open http://localhost:3000/graph — you should see your story in the dropdown. 
 | `npm run dev` | Start Next.js dev server |
 | `npm run build` | Production build |
 | `npm run ingest -- <slug>` | Run the full ingest pipeline |
-| `npm run migrate` | Push all processed stories to Neo4j |
+| `npm run db:migrate` | Apply pending SQL migrations |
+| `npm run db:load` | Load all processed stories into Postgres |
+| `npm run db:verify` | Check the load against the expected counts |
 
-## Stopping Neo4j
+## Stopping Postgres
 
 ```bash
 docker compose down

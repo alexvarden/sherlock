@@ -23,27 +23,5 @@ services:
       timeout: 5s
       retries: 20
 
-  # Retained as the parity oracle for the Neon migration. Aura is paused, so
-  # this is the only surviving baseline for diffing SQL output against Cypher.
-  # Removed at Stage 5 — not before Stage 2 is signed off and the parity
-  # fixtures are committed. See the migrate-neo4j-to-postgres ticket.
-  neo4j:
-    image: neo4j:5
-    ports:
-      - "7474:7474"  # Neo4j Browser
-      - "7687:7687"  # Bolt
-    environment:
-      - NEO4J_AUTH=neo4j/sherlock
-      - NEO4J_PLUGINS=["apoc"]
-      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
-    volumes:
-      - neo4j_data:/data
-    healthcheck:
-      test: ["CMD", "wget", "-q", "--spider", "http://localhost:7474"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-
 volumes:
   postgres_data:
-  neo4j_data:

@@ -8,28 +8,43 @@
 │                                                          │
 │  /graph          Knowledge graph viewer (D3 + filters)  │
 │  /demo           Character Q&A demo                     │
+│  /read           Perspective-aware reader               │
 │  /api/query      POST → LLM answer for a character      │
-│  /api/graph/query POST → raw Cypher passthrough         │
-│  /api/ingest     POST → trigger re-ingest in browser    │
+│  /api/copilotkit POST → streaming character chat        │
+│  /api/ingest     POST → trigger re-ingest (dev only)    │
 └───────────────────────────┬─────────────────────────────┘
                             │
-                            │ bolt://localhost:7687
+                            │ SHERLOCK_DATABASE_URL
+                            │ node-postgres locally, Neon over HTTP in prod
                             │
 ┌───────────────────────────▼─────────────────────────────┐
-│               Neo4j 5 (Docker)                           │
-│  Story · Section · LexicalNode · Entity · Event         │
-│  Relationships: PARTICIPATED_IN · TOLD_TO · SPOKE_IN    │
-│                 PERFORMED · IS_INSIDE · LOCATED_AT · OWNS│
+│         Postgres 18 (Docker locally · Neon hosted)      │
+│                                                          │
+│  nodes   story · id · kind · subkind · name · pos · props│
+│  edges   story · from_id · to_id · rel_type              │
+│          valid_from_section · valid_to_section · props   │
+│                                                          │
+│  kind:     story · section · lexical · entity · event   │
+│  rel_type: PARTICIPATED_IN · TOLD_TO · SPOKE_IN         │
+│            PERFORMED · MENTIONED_IN · IS_INSIDE         │
+│            LOCATED_AT · OWNS · CLUE_FOR · MEMBER_OF     │
 └───────────────────────────┬─────────────────────────────┘
                             │
                    (write path only)
                             │
 ┌───────────────────────────▼─────────────────────────────┐
-│            Ingest + Migrate Scripts                      │
-│  scripts/ingest.ts         Raw text → JSON              │
-│  scripts/migrate-to-neo4j.ts  JSON → Neo4j             │
+│              Ingest + Load Scripts                       │
+│  scripts/ingest.ts       Raw text → JSON                │
+│  scripts/migrate.ts      Apply lib/db/migrations/*.sql  │
+│  scripts/load-canon.ts   JSON → Postgres                │
+│  scripts/verify-load.ts  Counts + integrity + storage   │
 └─────────────────────────────────────────────────────────┘
 ```
+
+No API endpoint accepts a query. The browser sends filter state — story,
+character, section — and the server builds every statement from it with bound
+parameters. The SQL shown on `/graph` and `/demo` is rendered for the reader,
+never sent back.
 
 ---
 
@@ -58,15 +73,19 @@ What is true in the world. Contains only facts — no beliefs, no character know
 
 **Node types:**
 
-| Label | Description |
+All of these are rows in `nodes`, distinguished by `kind` (and `subkind` for
+entities).
+
+| kind / subkind | Description |
 |-------|-------------|
-| `Story` | Top-level story node, holds slug/name/granularity |
-| `Section` | Named chunk of the story with an `index` for ordering |
-| `LexicalNode` | Individual sentence/paragraph |
-| `Entity:Character` | A person |
-| `Entity:Location` | A place |
-| `Entity:Object` | A thing |
-| `Event` | Something that happened; the primary unit of narrative |
+| `story` | Top-level story row; slug is the id, granularity in `props` |
+| `section` | Named chunk of the story; `pos` is its index |
+| `lexical` | Individual sentence/paragraph; `pos` is its global position |
+| `entity` / `character` | A person |
+| `entity` / `location` | A place |
+| `entity` / `object` | A thing |
+| `entity` / `case`, `document`, `organisation` | The remaining extracted types |
+| `event` | Something that happened; the primary unit of narrative. `pos` is the index of its section |
 
 **Relationship types:**
 
@@ -76,16 +95,25 @@ What is true in the world. Contains only facts — no beliefs, no character know
 | `PERFORMED` | Entity was the agent of the event |
 | `SPOKE_IN` | Entity was the speaker in a communicates event |
 | `TOLD_TO` | Event communicated content to this entity (recipient) |
-| `IS_INSIDE` | Containment state edge (with `validFromIndex`/`validUntilIndex`) |
+| `MENTIONED_IN` | Entity is named in a section; `props.sentenceIds` cites where |
+| `IS_INSIDE` | Containment state edge (carries a validity window) |
 | `LOCATED_AT` | Location state edge |
 | `OWNS` | Ownership state edge |
+| `CLUE_FOR` | Object is evidence for a case |
+| `MEMBER_OF` | Character belongs to an organisation |
 
 **State edges carry validity windows:**
 
 ```
-(marble)-[:IS_INSIDE {validFromIndex: 2, validUntilIndex: 5}]->(red_basket)
-(marble)-[:IS_INSIDE {validFromIndex: 5}]->(blue_box)
+from_id  to_id        rel_type    valid_from_section  valid_to_section
+marble   red_basket   IS_INSIDE   2                   5
+marble   blue_box     IS_INSIDE   5                   NULL
 ```
+
+The window is inclusive at the lower bound and exclusive at the upper; NULL
+means "still true at the end of the story". Because both are real integer
+columns rather than JSON, "what was true at section N" is an indexed range
+predicate.
 
 This is how the graph models objects moving over time without contradiction.
 
@@ -105,15 +133,19 @@ function getCharacterContext(story, characterId, sectionId) {
   const cutoff = sectionIndex(sectionId);
 
   // OBSERVED: events the character was present at
-  const observed = graph.query(`
-    MATCH (c {id: $characterId})-[:PARTICIPATED_IN]->(e:Event)
-    WHERE e.sectionIndex <= $cutoff
+  const observed = sql(`
+    SELECT e.id, e.name, e.pos FROM nodes e
+      JOIN edges r ON r.story = e.story AND r.to_id = e.id
+                  AND r.rel_type = 'PARTICIPATED_IN'
+     WHERE e.kind = 'event' AND r.from_id = $characterId AND e.pos <= $cutoff
   `);
 
   // TOLD: events whose content was communicated to this character
-  const told = graph.query(`
-    MATCH (e:Event)-[:TOLD_TO]->(c {id: $characterId})
-    WHERE e.sectionIndex <= $cutoff
+  const told = sql(`
+    SELECT e.id, e.name FROM nodes e
+      JOIN edges r ON r.story = e.story AND r.from_id = e.id
+                  AND r.rel_type = 'TOLD_TO'
+     WHERE e.kind = 'event' AND r.to_id = $characterId AND e.pos <= $cutoff
   `);
 
   return { observations: observed, beliefs: told };
@@ -121,7 +153,7 @@ function getCharacterContext(story, characterId, sectionId) {
 ```
 
 **Invariants:**
-1. No future knowledge — everything filtered to `sectionIndex <= cutoff`.
+1. No future knowledge — everything filtered to `pos <= cutoff`.
 2. No omniscience — only events where the character was present or a recipient.
 3. Beliefs may be false — `TOLD_TO` events carry what was said, not whether it is true.
 
@@ -137,8 +169,9 @@ POST /api/query
   answerCharacterQuery()  [lib/query.ts]
         │
         ├─→ getCharacterContext()  [lib/graph-query.ts]
-        │     ├─ Neo4j: PARTICIPATED_IN query  → observations
-        │     └─ Neo4j: TOLD_TO query          → beliefs
+        │     ├─ SQL: join edges on PARTICIPATED_IN → observations
+        │     └─ SQL: join edges on TOLD_TO         → beliefs
+        │        both bounded by nodes.pos <= the section cutoff
         │
         ├─→ buildSystemPrompt()
         │     "You are ${character} at ${section}.
@@ -151,13 +184,13 @@ POST /api/query
               └─→ { answer, context }
 ```
 
-Retrieval is pure graph traversal. There is no vector store, no embedding lookup, no cosine similarity.
+Retrieval is a pair of indexed joins bounded by a section cutoff. There is no vector store, no embedding lookup, no cosine similarity. The argument was never that a graph engine was required — it was that perspective and time are structure, not similarity, and structure is what a join is for.
 
 ---
 
 ## Knowledge graph viewer (`/graph`)
 
-The graph page (`app/graph/page.tsx`) is a Next.js server component that fetches data from Neo4j on each request, then passes it to the `KnowledgeGraphViewer` client component.
+The graph page (`app/graph/page.tsx`) is a Next.js server component that fetches data from Postgres on each request, then passes it to the `KnowledgeGraphViewer` client component.
 
 **State in the viewer:**
 
@@ -177,24 +210,63 @@ When a character is selected, `visibleEvents` becomes the union of:
 
 `visibleEntities` is then narrowed to entities that co-appear in at least one of those events. This is the same logic as `getCharacterContext()` — the UI filter mirrors the server-side RAG retrieval.
 
-**Live Cypher display:**
+**Live SQL display:**
 
-The Cypher strip above the graph renders the query that would produce the current view. It updates as the character selector and timeline change, making the graph/query relationship explicit.
+The SQL strip above the graph renders the query that would produce the current view. It updates as the character selector and timeline change, making the graph/query relationship explicit.
+
+It displays; it never accepts. The string is built in the browser from the viewer's own state and rendered — there is no `fetch` in the viewer, no text input, and no endpoint that takes a query. "See the query" must never become "run my query".
 
 ---
 
-## Neo4j schema (indexes)
+## Database schema
 
-Created by `scripts/migrate-to-neo4j.ts` on first run:
+Defined in `lib/db/migrations/0001_graph.sql`, applied by `scripts/migrate.ts`.
 
-```cypher
-CREATE INDEX entity_story_id   FOR (n:Entity)     ON (n.story, n.id)
-CREATE INDEX event_story_id    FOR (e:Event)      ON (e.story, e.id)
-CREATE INDEX event_story_section FOR (e:Event)    ON (e.story, e.sectionIndex)
-CREATE INDEX section_story_id  FOR (s:Section)    ON (s.story, s.id)
-CREATE INDEX story_slug        FOR (s:Story)      ON (s.slug)
-CREATE INDEX lexical_node_story_section FOR (n:LexicalNode) ON (n.story, n.section)
+The model is deliberately generic — two tables, not a normalised set of domain
+tables — because it doubles as the exhibit for the article arc: a graph is two
+tables. What makes it legible is that the three things the project is actually
+about are promoted out of JSONB into real, indexable columns:
+
+| Column | Question it answers |
+|---|---|
+| `nodes.pos` | **where** — how far into the story this sits |
+| `edges.valid_from_section` / `valid_to_section` | **when** — the window a relationship held |
+| the edge row itself | **whose perspective** — who saw or was told |
+
+Everything else lives in `props`.
+
+```sql
+CREATE TABLE nodes (
+  story TEXT, id TEXT, kind TEXT, subkind TEXT, name TEXT, pos INT, props JSONB,
+  PRIMARY KEY (story, id)
+);
+
+CREATE TABLE edges (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  story TEXT NOT NULL, from_id TEXT NOT NULL, to_id TEXT NOT NULL,
+  rel_type TEXT NOT NULL,
+  valid_from_section INT, valid_to_section INT, props JSONB,
+  FOREIGN KEY (story, from_id) REFERENCES nodes (story, id) ON DELETE CASCADE,
+  FOREIGN KEY (story, to_id)   REFERENCES nodes (story, id) ON DELETE CASCADE
+);
+
+CREATE INDEX nodes_story_kind_pos   ON nodes (story, kind, pos);
+CREATE INDEX nodes_story_subkind    ON nodes (story, subkind);
+CREATE INDEX nodes_story_name       ON nodes (story, name);
+CREATE INDEX edges_story_type_from  ON edges (story, rel_type, from_id);
+CREATE INDEX edges_story_type_to    ON edges (story, rel_type, to_id);
+CREATE INDEX edges_story_valid_from ON edges (story, valid_from_section);
+CREATE INDEX edges_story_valid_to   ON edges (story, valid_to_section);
 ```
+
+`pos` carries the ordinal position in whatever unit the kind implies: section
+index for sections, global sentence position for lexical nodes, the index of its
+section for events, and NULL for entities, which have no single position.
+
+`(story, kind, pos)` earns its place three times over — as the `(story, kind)`
+prefix, as the range scan behind the reader window, and as the ordered cutoff
+scan behind "events at or before section N", which is the hottest query in the
+perspective model.
 
 ---
 
@@ -203,24 +275,25 @@ CREATE INDEX lexical_node_story_section FOR (n:LexicalNode) ON (n.story, n.secti
 ```
 sherlock/
 ├── app/
-│   ├── graph/page.tsx          Server component — fetches from Neo4j, renders viewer
+│   ├── graph/page.tsx          Server component — fetches from Postgres, renders viewer
 │   ├── demo/page.tsx           Server component — lists stories with examples
 │   ├── api/
 │   │   ├── query/route.ts      POST — character Q&A via LLM
-│   │   ├── ingest/route.ts     POST — trigger re-ingest in browser
-│   │   └── graph/query/route.ts POST — read-only Cypher passthrough
+│   │   ├── copilotkit/route.ts POST — streaming character chat
+│   │   └── ingest/route.ts     POST — trigger re-ingest (development only)
 │   └── layout.tsx / globals.css / page.tsx
 │
 ├── components/
-│   ├── KnowledgeGraphViewer.tsx   D3 force graph + timeline + Cypher display
+│   ├── KnowledgeGraphViewer.tsx   D3 force graph + timeline + live SQL display
 │   ├── DemoExampleRunner.tsx      Individual Q&A example card
 │   ├── StorySwitcher.tsx          Story dropdown in graph header
 │   └── IngestButton.tsx           Trigger re-ingest from the UI
 │
 ├── lib/
 │   ├── types.ts                All shared TypeScript interfaces
-│   ├── neo4j.ts                Driver singleton (bolt connection)
-│   ├── graph-query.ts          Neo4j queries: story list, story data, character context
+│   ├── db.ts                   Postgres client — node-postgres locally, Neon in prod
+│   ├── db/migrations/          Numbered SQL, applied by scripts/migrate.ts
+│   ├── graph-query.ts          SQL queries: story list, story data, character context
 │   ├── query.ts                LLM query: builds prompt + calls LLM
 │   ├── lexical.ts              Layer 1 builder: segmentation, sentence splitting
 │   ├── objective-extract.ts    Layer 2 builder: LLM-driven entity/event extraction
@@ -228,7 +301,10 @@ sherlock/
 │
 ├── scripts/
 │   ├── ingest.ts               CLI: raw text → data/processed/<slug>/
-│   └── migrate-to-neo4j.ts     CLI: data/processed/<slug>/ → Neo4j
+│   ├── migrate.ts              CLI: apply pending lib/db/migrations/*.sql
+│   ├── load-canon.ts           CLI: data/processed/<slug>/ → Postgres
+│   ├── verify-load.ts          CLI: counts, integrity and storage checks
+│   └── compare-parity.ts       CLI: SQL output vs the frozen Neo4j baseline
 │
 ├── data/
 │   ├── raw/                    Original story text files
@@ -237,6 +313,8 @@ sherlock/
 │       ├── lexical.json        LexicalGraph (sections + nodes)
 │       ├── objective-graph.json ObjectiveGraph (entities + events + stateEdges)
 │       └── examples.json       DemoExample[] (hand-curated Q&A seeds)
+│   ├── seed/                   Committed pg_dump, restored on first boot
+│   └── parity/                 Frozen Neo4j baseline — see its README
 │
-└── docker-compose.yml          Neo4j 5 service
+└── docker-compose.yml          Postgres 18 service
 ```

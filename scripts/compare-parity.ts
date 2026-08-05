@@ -2,9 +2,11 @@
  * Check the SQL query layer against the Neo4j baseline in data/parity/.
  *
  * Replays every query recorded in the manifest against lib/graph-query.ts (now
- * SQL) and compares canonical hashes. Neo4j is not consulted — the fixtures are
- * the baseline, which is the point: they outlive the Neo4j code that Stage 5
- * deletes.
+ * SQL) and compares canonical hashes. Neo4j is not consulted, and can no longer
+ * be: the capture script and the Cypher implementation were deleted in Stage 5,
+ * so this baseline is frozen. See data/parity/README.md for what to do when it
+ * starts failing — in particular, do NOT recapture it against the SQL
+ * implementation, which would be a baseline taken from the system under test.
  *
  * Also asserts the orderings that parity-canonical.ts deliberately normalises
  * away. Those are sorted before hashing because neither system guaranteed them,

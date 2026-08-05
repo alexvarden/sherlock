@@ -7,7 +7,7 @@ A knowledge graph demo that models **theory of mind** inside narrative fiction. 
 | File | What it covers |
 |------|---------------|
 | [setup.md](setup.md) | Prerequisites, environment variables, running locally |
-| [architecture.md](architecture.md) | Three-layer design, Neo4j schema, component map |
+| [architecture.md](architecture.md) | Three-layer design, the two-table schema, component map |
 | [ingest-architecture.md](ingest-architecture.md) | Detailed ingestion pipeline design and constraints |
 | [adding-a-story.md](adding-a-story.md) | Step-by-step guide to ingesting a new story |
 
@@ -34,6 +34,6 @@ The primary story is [A Case of Identity](https://en.wikipedia.org/wiki/A_Case_o
 | Layer | Technology |
 |-------|-----------|
 | Frontend | Next.js 16, React, Tailwind CSS, D3.js |
-| Graph DB | Neo4j 5 (Docker) |
+| Database | Postgres 18 (Docker locally, Neon hosted) |
 | LLM | OpenAI (gpt-4o) or Anthropic (claude-sonnet-4-6) via LangChain |
 | Ingestion | TypeScript scripts (`tsx`) |
