@@ -13,35 +13,53 @@ const MODALITY_COLORS: Record<string, string> = {
   ASSUMED: "#6b7280",    // gray-500
 };
 
-function buildCypherQueries(slug: string, characterId: string, sectionId: string, cutoff: number) {
+// These three mirror the queries lib/graph-query.ts actually runs in
+// getCharacterContext. They are shown, never sent — the browser posts only
+// slug, characterId, sectionId and the question. Keep them in step with the
+// real implementation: displaying a query the system does not run is worse
+// than displaying nothing.
+function buildSqlQueries(slug: string, characterId: string, sectionId: string, cutoff: number) {
   const observed = `-- Events this character directly witnessed
-MATCH (c:Entity {story: '${slug}', id: '${characterId}'})
-      -[:PARTICIPATED_IN]->(e:Event)
-WHERE e.sectionIndex <= ${cutoff}
-RETURN e
-ORDER BY e.sectionIndex`;
+SELECT e.id, e.name, e.pos
+  FROM nodes e
+  JOIN edges r
+    ON r.story = e.story AND r.to_id = e.id AND r.rel_type = 'PARTICIPATED_IN'
+ WHERE e.story = '${slug}'
+   AND e.kind  = 'event'
+   AND r.from_id = '${characterId}'
+   AND e.pos  <= ${cutoff}
+ ORDER BY e.pos;`;
 
-  const told = `-- Events this character was told about
-MATCH (e:Event {story: '${slug}'})-[:TOLD_TO]->
-      (c:Entity {story: '${slug}', id: '${characterId}'})
-WHERE e.sectionIndex <= ${cutoff}
-RETURN e
-ORDER BY e.sectionIndex`;
+  const told = `-- Events this character was told about. The claim's content is
+-- preferred over the event label, because what you were told may be false.
+SELECT e.id, e.name, e.props->>'communicatesContent' AS content
+  FROM nodes e
+  JOIN edges r
+    ON r.story = e.story AND r.from_id = e.id AND r.rel_type = 'TOLD_TO'
+ WHERE e.story = '${slug}'
+   AND e.kind  = 'event'
+   AND r.to_id = '${characterId}'
+   AND e.pos  <= ${cutoff}
+ ORDER BY e.pos;`;
 
-  const context = `-- All events visible at this section (for system prompt)
-MATCH (e:Event {story: '${slug}'})
-WHERE e.sectionIndex <= ${cutoff}
-OPTIONAL MATCH (p:Entity)-[:PARTICIPATED_IN]->(e)
-OPTIONAL MATCH (e)-[:TOLD_TO]->(rec:Entity)
-WITH e, collect(DISTINCT p.id) AS participants,
-        collect(DISTINCT rec.id) AS recipients
-RETURN e, participants, recipients
-ORDER BY e.sectionIndex`;
+  const context = `-- All events visible at this section (for the system prompt)
+SELECT e.id, e.name, e.pos,
+       (SELECT array_agg(DISTINCT x.from_id) FROM edges x
+         WHERE x.story = e.story AND x.to_id = e.id
+           AND x.rel_type = 'PARTICIPATED_IN') AS participants,
+       (SELECT array_agg(DISTINCT x.to_id) FROM edges x
+         WHERE x.story = e.story AND x.from_id = e.id
+           AND x.rel_type = 'TOLD_TO')        AS recipients
+  FROM nodes e
+ WHERE e.story = '${slug}'
+   AND e.kind  = 'event'
+   AND e.pos  <= ${cutoff}
+ ORDER BY e.pos, e.id;`;
 
   return { observed, told, context };
 }
 
-function CypherBlock({ label, query }: { label: string; query: string }) {
+function SqlBlock({ label, query }: { label: string; query: string }) {
   return (
     <div>
       <p className="text-xs text-dark-500 mb-1">{label}</p>
@@ -68,7 +86,7 @@ export default function DemoExampleRunner({
   graphBasePath?: string;
 }) {
   const [open, setOpen] = useState(false);
-  const [showCypher, setShowCypher] = useState(false);
+  const [showSql, setShowSql] = useState(false);
   const [answer, setAnswer] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -100,7 +118,7 @@ export default function DemoExampleRunner({
   );
 
   const queries = useMemo(
-    () => buildCypherQueries(slug, example.character, example.section, sectionIdx),
+    () => buildSqlQueries(slug, example.character, example.section, sectionIdx),
     [slug, example.character, example.section, sectionIdx]
   );
 
@@ -286,14 +304,14 @@ export default function DemoExampleRunner({
             );
           })()}
 
-          {/* Footer: Cypher queries + graph link */}
+          {/* Footer: the SQL behind the answer + graph link */}
           <div className="border-t border-dark-800 bg-dark-900/30">
             <div className="flex items-center gap-3 px-5 py-2.5 border-b border-dark-800/60">
               <button
-                onClick={() => setShowCypher((v) => !v)}
+                onClick={() => setShowSql((v) => !v)}
                 className="text-xs text-emerald-500 hover:text-emerald-300 font-mono transition-colors"
               >
-                {showCypher ? "▲ hide cypher" : "▼ show cypher"}
+                {showSql ? "▲ hide sql" : "▼ show sql"}
               </button>
               <span className="text-dark-700 text-xs">·</span>
               <Link
@@ -304,11 +322,11 @@ export default function DemoExampleRunner({
               </Link>
             </div>
 
-            {showCypher && (
+            {showSql && (
               <div className="px-5 py-4 space-y-4">
-                <CypherBlock label="1. OBSERVED — events the character participated in" query={queries.observed} />
-                <CypherBlock label="2. TOLD — events whose content was directed at the character" query={queries.told} />
-                <CypherBlock label="3. CONTEXT — all events visible at this section (system prompt)" query={queries.context} />
+                <SqlBlock label="1. OBSERVED — events the character participated in" query={queries.observed} />
+                <SqlBlock label="2. TOLD — events whose content was directed at the character" query={queries.told} />
+                <SqlBlock label="3. CONTEXT — all events visible at this section (system prompt)" query={queries.context} />
               </div>
             )}
           </div>
