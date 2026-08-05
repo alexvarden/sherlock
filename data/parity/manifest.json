@@ -1,0 +1,3565 @@
+{
+  "capturedAt": "2026-08-05",
+  "entries": [
+    {
+      "args": {},
+      "hash": "d7c9a5cdddd91445",
+      "query": "listStories"
+    },
+    {
+      "args": {
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "74e734a86e6e8de4",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 59,
+        "entities": 276,
+        "events": 784,
+        "memberOf": 21,
+        "mentions": 663,
+        "nodes": 2792,
+        "sections": 78,
+        "stateEdges": 260
+      }
+    },
+    {
+      "args": {
+        "characterId": "accomplice",
+        "sectionId": "section_1",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "6c8a2a29b2d9a05a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 1
+      }
+    },
+    {
+      "args": {
+        "characterId": "accomplice",
+        "sectionId": "section_40",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "529dddef4be81016",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 366
+      }
+    },
+    {
+      "args": {
+        "characterId": "accomplice",
+        "sectionId": "section_78",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "0f03d094e3d09a65",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 784
+      }
+    },
+    {
+      "args": {
+        "characterId": "adventurer",
+        "sectionId": "section_1",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "2df227b28a3c8eaa",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 1
+      }
+    },
+    {
+      "args": {
+        "characterId": "adventurer",
+        "sectionId": "section_40",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4c297356d294c02c",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 366
+      }
+    },
+    {
+      "args": {
+        "characterId": "adventurer",
+        "sectionId": "section_78",
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "d5ea1ea1f59db726",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 784
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_drebber",
+        "sectionIndex": 0,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_drebber",
+        "sectionIndex": 39,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4745a455cc103b3c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_drebber",
+        "sectionIndex": 77,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4745a455cc103b3c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_stangerson",
+        "sectionIndex": 0,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_stangerson",
+        "sectionIndex": 39,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "d8cfba6defb3e3d5",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "addressed_letter_stangerson",
+        "sectionIndex": 77,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "d8cfba6defb3e3d5",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "adventurer",
+        "sectionIndex": 0,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "adventurer",
+        "sectionIndex": 39,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "adventurer",
+        "sectionIndex": 77,
+        "story": "a-study-in-scarlet"
+      },
+      "hash": "1a07807fef5517a2",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "sign-of-the-four"
+      },
+      "hash": "118c9edf0f811d94",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 52,
+        "entities": 330,
+        "events": 852,
+        "memberOf": 20,
+        "mentions": 788,
+        "nodes": 2968,
+        "sections": 73,
+        "stateEdges": 336
+      }
+    },
+    {
+      "args": {
+        "characterId": "abdullah_khan",
+        "sectionId": "section_1",
+        "story": "sign-of-the-four"
+      },
+      "hash": "eff0eadd4124d91e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 0
+      }
+    },
+    {
+      "args": {
+        "characterId": "abdullah_khan",
+        "sectionId": "section_37",
+        "story": "sign-of-the-four"
+      },
+      "hash": "6d6a9c888e0bb70b",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 407
+      }
+    },
+    {
+      "args": {
+        "characterId": "abdullah_khan",
+        "sectionId": "section_73",
+        "story": "sign-of-the-four"
+      },
+      "hash": "42614f6cd32b73cd",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 6,
+        "observations": 33,
+        "visibleEvents": 852
+      }
+    },
+    {
+      "args": {
+        "characterId": "abel_white",
+        "sectionId": "section_1",
+        "story": "sign-of-the-four"
+      },
+      "hash": "dc96258aed9eca4c",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 0
+      }
+    },
+    {
+      "args": {
+        "characterId": "abel_white",
+        "sectionId": "section_37",
+        "story": "sign-of-the-four"
+      },
+      "hash": "2ba68054a8aba6d8",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 407
+      }
+    },
+    {
+      "args": {
+        "characterId": "abel_white",
+        "sectionId": "section_73",
+        "story": "sign-of-the-four"
+      },
+      "hash": "fdbd6c19e7138950",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 852
+      }
+    },
+    {
+      "args": {
+        "entityId": "abdullah_khan",
+        "sectionIndex": 0,
+        "story": "sign-of-the-four"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abdullah_khan",
+        "sectionIndex": 36,
+        "story": "sign-of-the-four"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abdullah_khan",
+        "sectionIndex": 72,
+        "story": "sign-of-the-four"
+      },
+      "hash": "14e432d3d410c584",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "abel_white_bungalow",
+        "sectionIndex": 0,
+        "story": "sign-of-the-four"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abel_white_bungalow",
+        "sectionIndex": 36,
+        "story": "sign-of-the-four"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abel_white_bungalow",
+        "sectionIndex": 72,
+        "story": "sign-of-the-four"
+      },
+      "hash": "fb726c560cf9b5fc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "acid_carboys",
+        "sectionIndex": 0,
+        "story": "sign-of-the-four"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "acid_carboys",
+        "sectionIndex": 36,
+        "story": "sign-of-the-four"
+      },
+      "hash": "8f9588f51f730094",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "acid_carboys",
+        "sectionIndex": 72,
+        "story": "sign-of-the-four"
+      },
+      "hash": "8f9588f51f730094",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "silver-blaze"
+      },
+      "hash": "d84fe35fa7e01dff",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 34,
+        "entities": 81,
+        "events": 227,
+        "memberOf": 1,
+        "mentions": 222,
+        "nodes": 644,
+        "sections": 16,
+        "stateEdges": 90
+      }
+    },
+    {
+      "args": {
+        "characterId": "Colonel Wardlaw",
+        "sectionId": "silver-blaze-section_1",
+        "story": "silver-blaze"
+      },
+      "hash": "e1a6a69729c06c8f",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 9
+      }
+    },
+    {
+      "args": {
+        "characterId": "Colonel Wardlaw",
+        "sectionId": "silver-blaze-section_9",
+        "story": "silver-blaze"
+      },
+      "hash": "c2dd4dd895992811",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 145
+      }
+    },
+    {
+      "args": {
+        "characterId": "Colonel Wardlaw",
+        "sectionId": "silver-blaze-section_16",
+        "story": "silver-blaze"
+      },
+      "hash": "30b2ba5aa5ff1447",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 227
+      }
+    },
+    {
+      "args": {
+        "characterId": "Duke of Balmoral",
+        "sectionId": "silver-blaze-section_1",
+        "story": "silver-blaze"
+      },
+      "hash": "06b2fc87af4a4391",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 9
+      }
+    },
+    {
+      "args": {
+        "characterId": "Duke of Balmoral",
+        "sectionId": "silver-blaze-section_9",
+        "story": "silver-blaze"
+      },
+      "hash": "860730e406ab69a7",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 145
+      }
+    },
+    {
+      "args": {
+        "characterId": "Duke of Balmoral",
+        "sectionId": "silver-blaze-section_16",
+        "story": "silver-blaze"
+      },
+      "hash": "658662792141d7e4",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 227
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_tobacco",
+        "sectionIndex": 0,
+        "story": "silver-blaze"
+      },
+      "hash": "5f61418b8b548ebb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_tobacco",
+        "sectionIndex": 8,
+        "story": "silver-blaze"
+      },
+      "hash": "5f61418b8b548ebb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_tobacco",
+        "sectionIndex": 15,
+        "story": "silver-blaze"
+      },
+      "hash": "5f61418b8b548ebb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "body_hollow",
+        "sectionIndex": 0,
+        "story": "silver-blaze"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "body_hollow",
+        "sectionIndex": 8,
+        "story": "silver-blaze"
+      },
+      "hash": "06751f762dacc1be",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "body_hollow",
+        "sectionIndex": 15,
+        "story": "silver-blaze"
+      },
+      "hash": "06751f762dacc1be",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cataract_knife",
+        "sectionIndex": 0,
+        "story": "silver-blaze"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "cataract_knife",
+        "sectionIndex": 8,
+        "story": "silver-blaze"
+      },
+      "hash": "72e803059ce3919e",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cataract_knife",
+        "sectionIndex": 15,
+        "story": "silver-blaze"
+      },
+      "hash": "72e803059ce3919e",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "yellow-face"
+      },
+      "hash": "8eaedfda084dadd3",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 10,
+        "entities": 38,
+        "events": 147,
+        "memberOf": 0,
+        "mentions": 103,
+        "nodes": 467,
+        "sections": 12,
+        "stateEdges": 45
+      }
+    },
+    {
+      "args": {
+        "characterId": "child_of_hebron_and_effie",
+        "sectionId": "yellow-face-section_1",
+        "story": "yellow-face"
+      },
+      "hash": "9357d47cd106ec9f",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 7
+      }
+    },
+    {
+      "args": {
+        "characterId": "child_of_hebron_and_effie",
+        "sectionId": "yellow-face-section_7",
+        "story": "yellow-face"
+      },
+      "hash": "9c3f195af9752346",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 82
+      }
+    },
+    {
+      "args": {
+        "characterId": "child_of_hebron_and_effie",
+        "sectionId": "yellow-face-section_12",
+        "story": "yellow-face"
+      },
+      "hash": "645f15f1d138767b",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 11,
+        "visibleEvents": 147
+      }
+    },
+    {
+      "args": {
+        "characterId": "effie_munro",
+        "sectionId": "yellow-face-section_1",
+        "story": "yellow-face"
+      },
+      "hash": "5cdc80aa53665880",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 7
+      }
+    },
+    {
+      "args": {
+        "characterId": "effie_munro",
+        "sectionId": "yellow-face-section_7",
+        "story": "yellow-face"
+      },
+      "hash": "019a48db3e49cf75",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 1,
+        "observations": 8,
+        "visibleEvents": 82
+      }
+    },
+    {
+      "args": {
+        "characterId": "effie_munro",
+        "sectionId": "yellow-face-section_12",
+        "story": "yellow-face"
+      },
+      "hash": "5c086a675d4211d2",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 2,
+        "observations": 17,
+        "visibleEvents": 147
+      }
+    },
+    {
+      "args": {
+        "entityId": "brown_wide_awake",
+        "sectionIndex": 0,
+        "story": "yellow-face"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "brown_wide_awake",
+        "sectionIndex": 6,
+        "story": "yellow-face"
+      },
+      "hash": "64a7479ce3d94c12",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "brown_wide_awake",
+        "sectionIndex": 11,
+        "story": "yellow-face"
+      },
+      "hash": "64a7479ce3d94c12",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "carpets_and_things",
+        "sectionIndex": 0,
+        "story": "yellow-face"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "carpets_and_things",
+        "sectionIndex": 6,
+        "story": "yellow-face"
+      },
+      "hash": "838e478920737dfc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "carpets_and_things",
+        "sectionIndex": 11,
+        "story": "yellow-face"
+      },
+      "hash": "838e478920737dfc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "child_of_hebron_and_effie",
+        "sectionIndex": 0,
+        "story": "yellow-face"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "child_of_hebron_and_effie",
+        "sectionIndex": 6,
+        "story": "yellow-face"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "child_of_hebron_and_effie",
+        "sectionIndex": 11,
+        "story": "yellow-face"
+      },
+      "hash": "2e932285b0a57a71",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "c50715243b13ed51",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 9,
+        "entities": 48,
+        "events": 126,
+        "memberOf": 3,
+        "mentions": 97,
+        "nodes": 494,
+        "sections": 11,
+        "stateEdges": 41
+      }
+    },
+    {
+      "args": {
+        "characterId": "aarthur_pinner_brother",
+        "sectionId": "stockbrokers-clerk-section_1",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "21f6c1c3b1b75558",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 15
+      }
+    },
+    {
+      "args": {
+        "characterId": "aarthur_pinner_brother",
+        "sectionId": "stockbrokers-clerk-section_6",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "b79014c804514981",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 9,
+        "visibleEvents": 74
+      }
+    },
+    {
+      "args": {
+        "characterId": "aarthur_pinner_brother",
+        "sectionId": "stockbrokers-clerk-section_11",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "c5c690f50e0e7f89",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 11,
+        "visibleEvents": 126
+      }
+    },
+    {
+      "args": {
+        "characterId": "arthur_pinner",
+        "sectionId": "stockbrokers-clerk-section_1",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "af33e068c4b87849",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 15
+      }
+    },
+    {
+      "args": {
+        "characterId": "arthur_pinner",
+        "sectionId": "stockbrokers-clerk-section_6",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "8e605bae0123fc73",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 4,
+        "observations": 17,
+        "visibleEvents": 74
+      }
+    },
+    {
+      "args": {
+        "characterId": "arthur_pinner",
+        "sectionId": "stockbrokers-clerk-section_11",
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "a26909d037c52bc6",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 5,
+        "observations": 28,
+        "visibleEvents": 126
+      }
+    },
+    {
+      "args": {
+        "entityId": "aarthur_pinner_brother",
+        "sectionIndex": 0,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "aarthur_pinner_brother",
+        "sectionIndex": 5,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "d67e148851591ee9",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "aarthur_pinner_brother",
+        "sectionIndex": 10,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "d67e148851591ee9",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "american_railway_bonds",
+        "sectionIndex": 0,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "american_railway_bonds",
+        "sectionIndex": 5,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "american_railway_bonds",
+        "sectionIndex": 10,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "01c07f31e5904212",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "arthur_pinner",
+        "sectionIndex": 0,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "arthur_pinner",
+        "sectionIndex": 5,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "80f8a0d912817b01",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "arthur_pinner",
+        "sectionIndex": 10,
+        "story": "stockbrokers-clerk"
+      },
+      "hash": "afb0978d2235383d",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "story": "gloria-scott"
+      },
+      "hash": "5283ffc53d791157",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 5,
+        "entities": 69,
+        "events": 138,
+        "memberOf": 1,
+        "mentions": 127,
+        "nodes": 440,
+        "sections": 12,
+        "stateEdges": 46
+      }
+    },
+    {
+      "args": {
+        "characterId": "beddoes",
+        "sectionId": "gloria-scott-section_1",
+        "story": "gloria-scott"
+      },
+      "hash": "9f1229bf5e0031a0",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 11
+      }
+    },
+    {
+      "args": {
+        "characterId": "beddoes",
+        "sectionId": "gloria-scott-section_7",
+        "story": "gloria-scott"
+      },
+      "hash": "f86b20afa8474dc1",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 5,
+        "visibleEvents": 76
+      }
+    },
+    {
+      "args": {
+        "characterId": "beddoes",
+        "sectionId": "gloria-scott-section_12",
+        "story": "gloria-scott"
+      },
+      "hash": "d32e4f7b0f386031",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 8,
+        "visibleEvents": 138
+      }
+    },
+    {
+      "args": {
+        "characterId": "captain",
+        "sectionId": "gloria-scott-section_1",
+        "story": "gloria-scott"
+      },
+      "hash": "ffed73143ff4d7a5",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 11
+      }
+    },
+    {
+      "args": {
+        "characterId": "captain",
+        "sectionId": "gloria-scott-section_7",
+        "story": "gloria-scott"
+      },
+      "hash": "2afd6bd651642a7e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 76
+      }
+    },
+    {
+      "args": {
+        "characterId": "captain",
+        "sectionId": "gloria-scott-section_12",
+        "story": "gloria-scott"
+      },
+      "hash": "057cf11a109affe0",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 138
+      }
+    },
+    {
+      "args": {
+        "entityId": "barque_gloria_scott",
+        "sectionIndex": 0,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "barque_gloria_scott",
+        "sectionIndex": 6,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "barque_gloria_scott",
+        "sectionIndex": 11,
+        "story": "gloria-scott"
+      },
+      "hash": "f17616b4ae523af3",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrel_of_water",
+        "sectionIndex": 0,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrel_of_water",
+        "sectionIndex": 6,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrel_of_water",
+        "sectionIndex": 11,
+        "story": "gloria-scott"
+      },
+      "hash": "b7edcbcc4ab2fdb3",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cask_of_biscuits",
+        "sectionIndex": 0,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "cask_of_biscuits",
+        "sectionIndex": 6,
+        "story": "gloria-scott"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "cask_of_biscuits",
+        "sectionIndex": 11,
+        "story": "gloria-scott"
+      },
+      "hash": "b7edcbcc4ab2fdb3",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "musgrave-ritual"
+      },
+      "hash": "2dc3209649dcaeef",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 20,
+        "entities": 86,
+        "events": 125,
+        "memberOf": 4,
+        "mentions": 136,
+        "nodes": 404,
+        "sections": 12,
+        "stateEdges": 70
+      }
+    },
+    {
+      "args": {
+        "characterId": "brunton",
+        "sectionId": "musgrave-ritual-section_1",
+        "story": "musgrave-ritual"
+      },
+      "hash": "6b76d3b1b2bd7cb3",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 10
+      }
+    },
+    {
+      "args": {
+        "characterId": "brunton",
+        "sectionId": "musgrave-ritual-section_7",
+        "story": "musgrave-ritual"
+      },
+      "hash": "44d15cfa344ca7b9",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 2,
+        "observations": 19,
+        "visibleEvents": 77
+      }
+    },
+    {
+      "args": {
+        "characterId": "brunton",
+        "sectionId": "musgrave-ritual-section_12",
+        "story": "musgrave-ritual"
+      },
+      "hash": "44efdd5229da2b1a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 2,
+        "observations": 25,
+        "visibleEvents": 125
+      }
+    },
+    {
+      "args": {
+        "characterId": "charles_first",
+        "sectionId": "musgrave-ritual-section_1",
+        "story": "musgrave-ritual"
+      },
+      "hash": "acdfbdbc20c3ea3a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 10
+      }
+    },
+    {
+      "args": {
+        "characterId": "charles_first",
+        "sectionId": "musgrave-ritual-section_7",
+        "story": "musgrave-ritual"
+      },
+      "hash": "2aab362023409c3d",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 77
+      }
+    },
+    {
+      "args": {
+        "characterId": "charles_first",
+        "sectionId": "musgrave-ritual-section_12",
+        "story": "musgrave-ritual"
+      },
+      "hash": "7d64cb64facdc600",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 125
+      }
+    },
+    {
+      "args": {
+        "entityId": "ball_of_string",
+        "sectionIndex": 0,
+        "story": "musgrave-ritual"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "ball_of_string",
+        "sectionIndex": 6,
+        "story": "musgrave-ritual"
+      },
+      "hash": "ffa5fb325921c19b",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "ball_of_string",
+        "sectionIndex": 11,
+        "story": "musgrave-ritual"
+      },
+      "hash": "ffa5fb325921c19b",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "battle_axe",
+        "sectionIndex": 0,
+        "story": "musgrave-ritual"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "battle_axe",
+        "sectionIndex": 6,
+        "story": "musgrave-ritual"
+      },
+      "hash": "f3ec32f03aa19e84",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "battle_axe",
+        "sectionIndex": 11,
+        "story": "musgrave-ritual"
+      },
+      "hash": "f3ec32f03aa19e84",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boxer_cartridges",
+        "sectionIndex": 0,
+        "story": "musgrave-ritual"
+      },
+      "hash": "2164ce88dba0681f",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boxer_cartridges",
+        "sectionIndex": 6,
+        "story": "musgrave-ritual"
+      },
+      "hash": "2164ce88dba0681f",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boxer_cartridges",
+        "sectionIndex": 11,
+        "story": "musgrave-ritual"
+      },
+      "hash": "2164ce88dba0681f",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "reigate-squires"
+      },
+      "hash": "ff0e4e398643cb5a",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 15,
+        "entities": 45,
+        "events": 144,
+        "memberOf": 0,
+        "mentions": 139,
+        "nodes": 475,
+        "sections": 12,
+        "stateEdges": 55
+      }
+    },
+    {
+      "args": {
+        "characterId": "ale c_cunningham",
+        "sectionId": "reigate-squires-section_1",
+        "story": "reigate-squires"
+      },
+      "hash": "3344af9abad04c1d",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "ale c_cunningham",
+        "sectionId": "reigate-squires-section_7",
+        "story": "reigate-squires"
+      },
+      "hash": "20e2ae059ac221fa",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 102
+      }
+    },
+    {
+      "args": {
+        "characterId": "ale c_cunningham",
+        "sectionId": "reigate-squires-section_12",
+        "story": "reigate-squires"
+      },
+      "hash": "30126df4b61f8b09",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_cunningham",
+        "sectionId": "reigate-squires-section_1",
+        "story": "reigate-squires"
+      },
+      "hash": "791759d5f7f81a4f",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_cunningham",
+        "sectionId": "reigate-squires-section_7",
+        "story": "reigate-squires"
+      },
+      "hash": "ed6d176f550ccb87",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 1,
+        "observations": 8,
+        "visibleEvents": 102
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_cunningham",
+        "sectionId": "reigate-squires-section_12",
+        "story": "reigate-squires"
+      },
+      "hash": "b2c2a4ffc2f11357",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 1,
+        "observations": 20,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_cunningham",
+        "sectionIndex": 0,
+        "story": "reigate-squires"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_cunningham",
+        "sectionIndex": 6,
+        "story": "reigate-squires"
+      },
+      "hash": "09563ed0bfe253a0",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_cunningham",
+        "sectionIndex": 11,
+        "story": "reigate-squires"
+      },
+      "hash": "0cf41949d541510a",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "colonel_hayter",
+        "sectionIndex": 0,
+        "story": "reigate-squires"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "colonel_hayter",
+        "sectionIndex": 6,
+        "story": "reigate-squires"
+      },
+      "hash": "09563ed0bfe253a0",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "colonel_hayter",
+        "sectionIndex": 11,
+        "story": "reigate-squires"
+      },
+      "hash": "0076af377a4c0295",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "constable",
+        "sectionIndex": 0,
+        "story": "reigate-squires"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "constable",
+        "sectionIndex": 6,
+        "story": "reigate-squires"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "constable",
+        "sectionIndex": 11,
+        "story": "reigate-squires"
+      },
+      "hash": "0cf41949d541510a",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "crooked-man"
+      },
+      "hash": "e6dd99c4fa796d31",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 9,
+        "entities": 68,
+        "events": 155,
+        "memberOf": 4,
+        "mentions": 124,
+        "nodes": 405,
+        "sections": 11,
+        "stateEdges": 46
+      }
+    },
+    {
+      "args": {
+        "characterId": "afghans",
+        "sectionId": "crooked-man-section_1",
+        "story": "crooked-man"
+      },
+      "hash": "d3b7e8d2f2d5ef40",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 20
+      }
+    },
+    {
+      "args": {
+        "characterId": "afghans",
+        "sectionId": "crooked-man-section_6",
+        "story": "crooked-man"
+      },
+      "hash": "a300e4cdc6ed8f0e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 91
+      }
+    },
+    {
+      "args": {
+        "characterId": "afghans",
+        "sectionId": "crooked-man-section_11",
+        "story": "crooked-man"
+      },
+      "hash": "0048099787f98ee6",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 155
+      }
+    },
+    {
+      "args": {
+        "characterId": "coachman",
+        "sectionId": "crooked-man-section_1",
+        "story": "crooked-man"
+      },
+      "hash": "6fde35b8f60f2a09",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 20
+      }
+    },
+    {
+      "args": {
+        "characterId": "coachman",
+        "sectionId": "crooked-man-section_6",
+        "story": "crooked-man"
+      },
+      "hash": "d28d2f1573dd1bef",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 91
+      }
+    },
+    {
+      "args": {
+        "characterId": "coachman",
+        "sectionId": "crooked-man-section_11",
+        "story": "crooked-man"
+      },
+      "hash": "e679c4833d0ca541",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 155
+      }
+    },
+    {
+      "args": {
+        "entityId": "bell",
+        "sectionIndex": 0,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "bell",
+        "sectionIndex": 5,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "bell",
+        "sectionIndex": 10,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boot_marks",
+        "sectionIndex": 0,
+        "story": "crooked-man"
+      },
+      "hash": "ddb51e2efa14afcb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boot_marks",
+        "sectionIndex": 5,
+        "story": "crooked-man"
+      },
+      "hash": "ddb51e2efa14afcb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "boot_marks",
+        "sectionIndex": 10,
+        "story": "crooked-man"
+      },
+      "hash": "ddb51e2efa14afcb",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "clock",
+        "sectionIndex": 0,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "clock",
+        "sectionIndex": 5,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "clock",
+        "sectionIndex": 10,
+        "story": "crooked-man"
+      },
+      "hash": "7e027b97b82f39bc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "resident-patient"
+      },
+      "hash": "f10685a933a28ed5",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 11,
+        "entities": 57,
+        "events": 144,
+        "memberOf": 6,
+        "mentions": 109,
+        "nodes": 422,
+        "sections": 10,
+        "stateEdges": 46
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_page",
+        "sectionId": "resident-patient-section_1",
+        "story": "resident-patient"
+      },
+      "hash": "68c1132c563a5122",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 11
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_page",
+        "sectionId": "resident-patient-section_6",
+        "story": "resident-patient"
+      },
+      "hash": "95add0ad758f90c5",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 73
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_page",
+        "sectionId": "resident-patient-section_10",
+        "story": "resident-patient"
+      },
+      "hash": "bd4fe10f75afab55",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_russian_nobleman",
+        "sectionId": "resident-patient-section_1",
+        "story": "resident-patient"
+      },
+      "hash": "e204987399f0946a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 11
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_russian_nobleman",
+        "sectionId": "resident-patient-section_6",
+        "story": "resident-patient"
+      },
+      "hash": "d92dad55b36ae732",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 13,
+        "visibleEvents": 73
+      }
+    },
+    {
+      "args": {
+        "characterId": "anonymous_russian_nobleman",
+        "sectionId": "resident-patient-section_10",
+        "story": "resident-patient"
+      },
+      "hash": "7358b453f9c01066",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 19,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_page",
+        "sectionIndex": 0,
+        "story": "resident-patient"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_page",
+        "sectionIndex": 5,
+        "story": "resident-patient"
+      },
+      "hash": "2dd80b7c4c92e813",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_page",
+        "sectionIndex": 9,
+        "story": "resident-patient"
+      },
+      "hash": "2dd80b7c4c92e813",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_russian_nobleman",
+        "sectionIndex": 0,
+        "story": "resident-patient"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_russian_nobleman",
+        "sectionIndex": 5,
+        "story": "resident-patient"
+      },
+      "hash": "01672bb4c3bda794",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_russian_nobleman",
+        "sectionIndex": 9,
+        "story": "resident-patient"
+      },
+      "hash": "01672bb4c3bda794",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_young_man",
+        "sectionIndex": 0,
+        "story": "resident-patient"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_young_man",
+        "sectionIndex": 5,
+        "story": "resident-patient"
+      },
+      "hash": "01672bb4c3bda794",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "anonymous_young_man",
+        "sectionIndex": 9,
+        "story": "resident-patient"
+      },
+      "hash": "01672bb4c3bda794",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "greek-interpreter"
+      },
+      "hash": "60423a8c9388fd05",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 5,
+        "entities": 47,
+        "events": 124,
+        "memberOf": 2,
+        "mentions": 101,
+        "nodes": 447,
+        "sections": 11,
+        "stateEdges": 55
+      }
+    },
+    {
+      "args": {
+        "characterId": "adams",
+        "sectionId": "greek-interpreter-section_1",
+        "story": "greek-interpreter"
+      },
+      "hash": "5cf551a7255823b7",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "adams",
+        "sectionId": "greek-interpreter-section_6",
+        "story": "greek-interpreter"
+      },
+      "hash": "65f5c636e37c78c3",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 51
+      }
+    },
+    {
+      "args": {
+        "characterId": "adams",
+        "sectionId": "greek-interpreter-section_11",
+        "story": "greek-interpreter"
+      },
+      "hash": "26b4b8e1ddf43a2d",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 124
+      }
+    },
+    {
+      "args": {
+        "characterId": "elderly_man",
+        "sectionId": "greek-interpreter-section_1",
+        "story": "greek-interpreter"
+      },
+      "hash": "db8799e4ab3c218a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "elderly_man",
+        "sectionId": "greek-interpreter-section_6",
+        "story": "greek-interpreter"
+      },
+      "hash": "8cec3d8f2d863b7e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 2,
+        "observations": 8,
+        "visibleEvents": 51
+      }
+    },
+    {
+      "args": {
+        "characterId": "elderly_man",
+        "sectionId": "greek-interpreter-section_11",
+        "story": "greek-interpreter"
+      },
+      "hash": "45527c02c7189e2f",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 2,
+        "observations": 8,
+        "visibleEvents": 124
+      }
+    },
+    {
+      "args": {
+        "entityId": "bludgeon",
+        "sectionIndex": 0,
+        "story": "greek-interpreter"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "bludgeon",
+        "sectionIndex": 5,
+        "story": "greek-interpreter"
+      },
+      "hash": "1ce762a24031221c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "bludgeon",
+        "sectionIndex": 10,
+        "story": "greek-interpreter"
+      },
+      "hash": "1ce762a24031221c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cab",
+        "sectionIndex": 0,
+        "story": "greek-interpreter"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "cab",
+        "sectionIndex": 5,
+        "story": "greek-interpreter"
+      },
+      "hash": "1ce762a24031221c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cab",
+        "sectionIndex": 10,
+        "story": "greek-interpreter"
+      },
+      "hash": "1ce762a24031221c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "charcoal",
+        "sectionIndex": 0,
+        "story": "greek-interpreter"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "charcoal",
+        "sectionIndex": 5,
+        "story": "greek-interpreter"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "charcoal",
+        "sectionIndex": 10,
+        "story": "greek-interpreter"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "story": "naval-treaty"
+      },
+      "hash": "5ab491d9911bf8e6",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 10,
+        "entities": 99,
+        "events": 357,
+        "memberOf": 3,
+        "mentions": 240,
+        "nodes": 890,
+        "sections": 20,
+        "stateEdges": 107
+      }
+    },
+    {
+      "args": {
+        "characterId": "annie_harrison",
+        "sectionId": "naval-treaty-section_1",
+        "story": "naval-treaty"
+      },
+      "hash": "ce93abc186ab5005",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 7
+      }
+    },
+    {
+      "args": {
+        "characterId": "annie_harrison",
+        "sectionId": "naval-treaty-section_11",
+        "story": "naval-treaty"
+      },
+      "hash": "1edbb513c35c9738",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 10,
+        "visibleEvents": 196
+      }
+    },
+    {
+      "args": {
+        "characterId": "annie_harrison",
+        "sectionId": "naval-treaty-section_20",
+        "story": "naval-treaty"
+      },
+      "hash": "d57a9bfd1a0ea558",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 10,
+        "visibleEvents": 357
+      }
+    },
+    {
+      "args": {
+        "characterId": "bell",
+        "sectionId": "naval-treaty-section_1",
+        "story": "naval-treaty"
+      },
+      "hash": "7395ea6be6e8009a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 7
+      }
+    },
+    {
+      "args": {
+        "characterId": "bell",
+        "sectionId": "naval-treaty-section_11",
+        "story": "naval-treaty"
+      },
+      "hash": "d6f03ee178a9dec2",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 196
+      }
+    },
+    {
+      "args": {
+        "characterId": "bell",
+        "sectionId": "naval-treaty-section_20",
+        "story": "naval-treaty"
+      },
+      "hash": "76955e9a3ff16a44",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 3,
+        "visibleEvents": 357
+      }
+    },
+    {
+      "args": {
+        "entityId": "annie_harrison",
+        "sectionIndex": 0,
+        "story": "naval-treaty"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "annie_harrison",
+        "sectionIndex": 10,
+        "story": "naval-treaty"
+      },
+      "hash": "64b33e0065709ecd",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "annie_harrison",
+        "sectionIndex": 19,
+        "story": "naval-treaty"
+      },
+      "hash": "64b33e0065709ecd",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "bedroom_marks",
+        "sectionIndex": 0,
+        "story": "naval-treaty"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "bedroom_marks",
+        "sectionIndex": 10,
+        "story": "naval-treaty"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "bedroom_marks",
+        "sectionIndex": 19,
+        "story": "naval-treaty"
+      },
+      "hash": "040ac8ef7c044a38",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "blue_grey_paper_cylinder",
+        "sectionIndex": 0,
+        "story": "naval-treaty"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "blue_grey_paper_cylinder",
+        "sectionIndex": 10,
+        "story": "naval-treaty"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "blue_grey_paper_cylinder",
+        "sectionIndex": 19,
+        "story": "naval-treaty"
+      },
+      "hash": "6cd497de13542efd",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "story": "final-problem"
+      },
+      "hash": "2ebf522ea68e9e02",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 6,
+        "entities": 92,
+        "events": 144,
+        "memberOf": 2,
+        "mentions": 145,
+        "nodes": 418,
+        "sections": 11,
+        "stateEdges": 70
+      }
+    },
+    {
+      "args": {
+        "characterId": "colonel_james_moriarty",
+        "sectionId": "final-problem-section_1",
+        "story": "final-problem"
+      },
+      "hash": "73a8d76c704a2b8e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "colonel_james_moriarty",
+        "sectionId": "final-problem-section_6",
+        "story": "final-problem"
+      },
+      "hash": "02bc673bbc5cb5f9",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 82
+      }
+    },
+    {
+      "args": {
+        "characterId": "colonel_james_moriarty",
+        "sectionId": "final-problem-section_11",
+        "story": "final-problem"
+      },
+      "hash": "c1bfa56354f9344a",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "characterId": "continental_express_train",
+        "sectionId": "final-problem-section_1",
+        "story": "final-problem"
+      },
+      "hash": "733b08a26b34d4ce",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 16
+      }
+    },
+    {
+      "args": {
+        "characterId": "continental_express_train",
+        "sectionId": "final-problem-section_6",
+        "story": "final-problem"
+      },
+      "hash": "bb443bec85d16625",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 82
+      }
+    },
+    {
+      "args": {
+        "characterId": "continental_express_train",
+        "sectionId": "final-problem-section_11",
+        "story": "final-problem"
+      },
+      "hash": "5c17b757998e33f3",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 5,
+        "visibleEvents": 144
+      }
+    },
+    {
+      "args": {
+        "entityId": "air_guns",
+        "sectionIndex": 0,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "air_guns",
+        "sectionIndex": 5,
+        "story": "final-problem"
+      },
+      "hash": "7549c4097df60415",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "air_guns",
+        "sectionIndex": 10,
+        "story": "final-problem"
+      },
+      "hash": "7549c4097df60415",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "alpine_stock",
+        "sectionIndex": 0,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "alpine_stock",
+        "sectionIndex": 5,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "alpine_stock",
+        "sectionIndex": 10,
+        "story": "final-problem"
+      },
+      "hash": "1b0d66518664e2e9",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_cassock",
+        "sectionIndex": 0,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_cassock",
+        "sectionIndex": 5,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "black_cassock",
+        "sectionIndex": 10,
+        "story": "final-problem"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "story": "cardboard-box"
+      },
+      "hash": "537dae34056458ad",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 9,
+        "entities": 60,
+        "events": 141,
+        "memberOf": 3,
+        "mentions": 125,
+        "nodes": 510,
+        "sections": 14,
+        "stateEdges": 34
+      }
+    },
+    {
+      "args": {
+        "characterId": "aldridge",
+        "sectionId": "cardboard-box-section_1",
+        "story": "cardboard-box"
+      },
+      "hash": "6abf82d31042135b",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 6
+      }
+    },
+    {
+      "args": {
+        "characterId": "aldridge",
+        "sectionId": "cardboard-box-section_8",
+        "story": "cardboard-box"
+      },
+      "hash": "a7b9312a17be00fe",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 75
+      }
+    },
+    {
+      "args": {
+        "characterId": "aldridge",
+        "sectionId": "cardboard-box-section_14",
+        "story": "cardboard-box"
+      },
+      "hash": "49381e469fe84a87",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 141
+      }
+    },
+    {
+      "args": {
+        "characterId": "aleck_fairbairn",
+        "sectionId": "cardboard-box-section_1",
+        "story": "cardboard-box"
+      },
+      "hash": "62629d3ebbfda3fe",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 6
+      }
+    },
+    {
+      "args": {
+        "characterId": "aleck_fairbairn",
+        "sectionId": "cardboard-box-section_8",
+        "story": "cardboard-box"
+      },
+      "hash": "8cf7269a355db4f8",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 75
+      }
+    },
+    {
+      "args": {
+        "characterId": "aleck_fairbairn",
+        "sectionId": "cardboard-box-section_14",
+        "story": "cardboard-box"
+      },
+      "hash": "4648f4ab098a2790",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 9,
+        "visibleEvents": 141
+      }
+    },
+    {
+      "args": {
+        "entityId": "aleck_fairbairn",
+        "sectionIndex": 0,
+        "story": "cardboard-box"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "aleck_fairbairn",
+        "sectionIndex": 7,
+        "story": "cardboard-box"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "aleck_fairbairn",
+        "sectionIndex": 13,
+        "story": "cardboard-box"
+      },
+      "hash": "ce2d5a317c828cf8",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cardboard_box_object",
+        "sectionIndex": 0,
+        "story": "cardboard-box"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "cardboard_box_object",
+        "sectionIndex": 7,
+        "story": "cardboard-box"
+      },
+      "hash": "1c9b15f1c6c47c84",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "cardboard_box_object",
+        "sectionIndex": 13,
+        "story": "cardboard-box"
+      },
+      "hash": "54a68bfc76056c69",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "coarse_salt",
+        "sectionIndex": 0,
+        "story": "cardboard-box"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "coarse_salt",
+        "sectionIndex": 7,
+        "story": "cardboard-box"
+      },
+      "hash": "5a4cb07ee753d2a3",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "coarse_salt",
+        "sectionIndex": 13,
+        "story": "cardboard-box"
+      },
+      "hash": "5a4cb07ee753d2a3",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "c6314ef11d3e9c2a",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 66,
+        "entities": 296,
+        "events": 1087,
+        "memberOf": 18,
+        "mentions": 1000,
+        "nodes": 3957,
+        "sections": 101,
+        "stateEdges": 381
+      }
+    },
+    {
+      "args": {
+        "characterId": "a_conan_doyle",
+        "sectionId": "section_1",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "15605a050dc338cc",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 2
+      }
+    },
+    {
+      "args": {
+        "characterId": "a_conan_doyle",
+        "sectionId": "section_51",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "04f82c31a36d60f6",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 511
+      }
+    },
+    {
+      "args": {
+        "characterId": "a_conan_doyle",
+        "sectionId": "section_101",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "83af4c2179714145",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 2,
+        "visibleEvents": 1087
+      }
+    },
+    {
+      "args": {
+        "characterId": "anthony",
+        "sectionId": "section_1",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "6685f4a5716b708f",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 2
+      }
+    },
+    {
+      "args": {
+        "characterId": "anthony",
+        "sectionId": "section_51",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "40fa3f50210a52bd",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 511
+      }
+    },
+    {
+      "args": {
+        "characterId": "anthony",
+        "sectionId": "section_101",
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "2197632500f079f2",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 1,
+        "visibleEvents": 1087
+      }
+    },
+    {
+      "args": {
+        "entityId": "abandoned_mine",
+        "sectionIndex": 0,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abandoned_mine",
+        "sectionIndex": 50,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "abandoned_mine",
+        "sectionIndex": 100,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "f5b7324ce7cb4675",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "animal_confinement_spot",
+        "sectionIndex": 0,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "animal_confinement_spot",
+        "sectionIndex": 50,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "animal_confinement_spot",
+        "sectionIndex": 100,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "9d7fbccb0e7a93d6",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrymore",
+        "sectionIndex": 0,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrymore",
+        "sectionIndex": 50,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "bf0b9c773e32fd31",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 3
+      }
+    },
+    {
+      "args": {
+        "entityId": "barrymore",
+        "sectionIndex": 100,
+        "story": "hound-of-the-baskervilles"
+      },
+      "hash": "79d72279e26116b5",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 3
+      }
+    },
+    {
+      "args": {
+        "story": "valley-of-fear"
+      },
+      "hash": "0352bd549c0b193b",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 58,
+        "entities": 355,
+        "events": 1140,
+        "memberOf": 50,
+        "mentions": 933,
+        "nodes": 4324,
+        "sections": 95,
+        "stateEdges": 332
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_macdonald",
+        "sectionId": "section_1",
+        "story": "valley-of-fear"
+      },
+      "hash": "9071425bce36d2d2",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 0
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_macdonald",
+        "sectionId": "section_48",
+        "story": "valley-of-fear"
+      },
+      "hash": "5c4809ebcc000b33",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 1,
+        "observations": 10,
+        "visibleEvents": 563
+      }
+    },
+    {
+      "args": {
+        "characterId": "alec_macdonald",
+        "sectionId": "section_95",
+        "story": "valley-of-fear"
+      },
+      "hash": "b5e8d5a2b2343ece",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 1,
+        "observations": 10,
+        "visibleEvents": 1140
+      }
+    },
+    {
+      "args": {
+        "characterId": "ames",
+        "sectionId": "section_1",
+        "story": "valley-of-fear"
+      },
+      "hash": "b230fa5dfa872b03",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 0
+      }
+    },
+    {
+      "args": {
+        "characterId": "ames",
+        "sectionId": "section_48",
+        "story": "valley-of-fear"
+      },
+      "hash": "8075f29a1a00696c",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 15,
+        "observations": 44,
+        "visibleEvents": 563
+      }
+    },
+    {
+      "args": {
+        "characterId": "ames",
+        "sectionId": "section_95",
+        "story": "valley-of-fear"
+      },
+      "hash": "91382ea82f8d0742",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 15,
+        "observations": 44,
+        "visibleEvents": 1140
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_macdonald",
+        "sectionIndex": 0,
+        "story": "valley-of-fear"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_macdonald",
+        "sectionIndex": 47,
+        "story": "valley-of-fear"
+      },
+      "hash": "a6c2284d5a7eae6e",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "alec_macdonald",
+        "sectionIndex": 94,
+        "story": "valley-of-fear"
+      },
+      "hash": "a6c2284d5a7eae6e",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "ames",
+        "sectionIndex": 0,
+        "story": "valley-of-fear"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "ames",
+        "sectionIndex": 47,
+        "story": "valley-of-fear"
+      },
+      "hash": "abf7817cc0d64090",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "ames",
+        "sectionIndex": 94,
+        "story": "valley-of-fear"
+      },
+      "hash": "abf7817cc0d64090",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "andrews",
+        "sectionIndex": 0,
+        "story": "valley-of-fear"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "andrews",
+        "sectionIndex": 47,
+        "story": "valley-of-fear"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "andrews",
+        "sectionIndex": 94,
+        "story": "valley-of-fear"
+      },
+      "hash": "6eccfd8a7eb08071",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "story": "a-case-of-identity"
+      },
+      "hash": "442a07acb79ea972",
+      "query": "getStoryData",
+      "summary": {
+        "clues": 9,
+        "entities": 57,
+        "events": 206,
+        "memberOf": 0,
+        "mentions": 184,
+        "nodes": 402,
+        "sections": 34,
+        "stateEdges": 40
+      }
+    },
+    {
+      "args": {
+        "characterId": "daughter",
+        "sectionId": "section_1",
+        "story": "a-case-of-identity"
+      },
+      "hash": "9513b0a6f385e22e",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 3
+      }
+    },
+    {
+      "args": {
+        "characterId": "daughter",
+        "sectionId": "section_18",
+        "story": "a-case-of-identity"
+      },
+      "hash": "abfeb9579217a7aa",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 113
+      }
+    },
+    {
+      "args": {
+        "characterId": "daughter",
+        "sectionId": "section_34",
+        "story": "a-case-of-identity"
+      },
+      "hash": "70d05819b721f6ce",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 5,
+        "visibleEvents": 206
+      }
+    },
+    {
+      "args": {
+        "characterId": "father_sutherland",
+        "sectionId": "section_1",
+        "story": "a-case-of-identity"
+      },
+      "hash": "befcc97eb5f01ccd",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 0,
+        "visibleEvents": 3
+      }
+    },
+    {
+      "args": {
+        "characterId": "father_sutherland",
+        "sectionId": "section_18",
+        "story": "a-case-of-identity"
+      },
+      "hash": "62ed894c6eb0a145",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 15,
+        "visibleEvents": 113
+      }
+    },
+    {
+      "args": {
+        "characterId": "father_sutherland",
+        "sectionId": "section_34",
+        "story": "a-case-of-identity"
+      },
+      "hash": "9f2144b2382170a2",
+      "query": "getCharacterContext",
+      "summary": {
+        "beliefs": 0,
+        "observations": 15,
+        "visibleEvents": 206
+      }
+    },
+    {
+      "args": {
+        "entityId": "bushy_whiskers",
+        "sectionIndex": 0,
+        "story": "a-case-of-identity"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "bushy_whiskers",
+        "sectionIndex": 17,
+        "story": "a-case-of-identity"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "bushy_whiskers",
+        "sectionIndex": 33,
+        "story": "a-case-of-identity"
+      },
+      "hash": "3900cec9f97e0338",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "father_sutherland",
+        "sectionIndex": 0,
+        "story": "a-case-of-identity"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "father_sutherland",
+        "sectionIndex": 17,
+        "story": "a-case-of-identity"
+      },
+      "hash": "3eed4e9b1e4b22f1",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "father_sutherland",
+        "sectionIndex": 33,
+        "story": "a-case-of-identity"
+      },
+      "hash": "3eed4e9b1e4b22f1",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 1
+      }
+    },
+    {
+      "args": {
+        "entityId": "hosmer_angel",
+        "sectionIndex": 0,
+        "story": "a-case-of-identity"
+      },
+      "hash": "4f53cda18c2baa0c",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 0
+      }
+    },
+    {
+      "args": {
+        "entityId": "hosmer_angel",
+        "sectionIndex": 17,
+        "story": "a-case-of-identity"
+      },
+      "hash": "5a1dcd0addc85ecc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    },
+    {
+      "args": {
+        "entityId": "hosmer_angel",
+        "sectionIndex": 33,
+        "story": "a-case-of-identity"
+      },
+      "hash": "5a1dcd0addc85ecc",
+      "query": "getEntityStateAt",
+      "summary": {
+        "results": 2
+      }
+    }
+  ],
+  "note": "Baseline for the Neo4j -> Neon Postgres migration. Regenerate only if the canon data changes.",
+  "source": "local Neo4j (bolt://localhost:7687)"
+}

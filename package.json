@@ -41,7 +41,11 @@
     "aggregate": "tsx scripts/aggregate-canon.ts",
     "derive:presence": "tsx scripts/derive-presence-strip.ts",
     "clear:neo4j": "tsx --env-file=.env scripts/clear-neo4j.ts",
-    "migrate": "tsx --env-file=.env scripts/migrate-to-neo4j.ts"
+    "migrate": "tsx --env-file=.env scripts/migrate-to-neo4j.ts",
+    "db:migrate": "tsx --env-file=.env scripts/migrate.ts",
+    "db:load": "tsx --env-file=.env scripts/load-canon.ts",
+    "db:verify": "tsx --env-file=.env scripts/verify-load.ts",
+    "parity:capture": "tsx --env-file=.env scripts/capture-parity.ts"
   },
   "dependencies": {
     "@copilotkit/react-core": "^1.57.1",
@@ -49,11 +53,13 @@
     "@langchain/anthropic": "^1.3.27",
     "@langchain/core": "^1.1.41",
     "@langchain/openai": "^1.4.4",
+    "@neondatabase/serverless": "^1.1.0",
     "@types/d3": "^7.4.3",
     "d3": "^7.9.0",
     "langchain": "^1.3.4",
     "neo4j-driver": "^5.28.1",
     "next": "16.2.4",
+    "pg": "^8.22.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0"
@@ -61,6 +67,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.20.4",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "A Study in Scarlet",
+    "slug": "a-study-in-scarlet",
+    "sourceFile": "data/raw/a-study-in-scarlet.txt"
+  },
+  {
+    "name": "A Case of Identity",
+    "slug": "a-case-of-identity",
+    "sourceFile": "data/raw/a-case-of-identity.txt"
+  },
+  {
+    "name": "The Sign of the Four",
+    "slug": "sign-of-the-four",
+    "sourceFile": "data/raw/sign-of-the-four.txt"
+  },
+  {
+    "name": "Silver Blaze",
+    "slug": "silver-blaze",
+    "sourceFile": "data/raw/memoirs/silver-blaze.txt"
+  },
+  {
+    "name": "The Cardboard Box",
+    "slug": "cardboard-box",
+    "sourceFile": "data/raw/memoirs/cardboard-box.txt"
+  },
+  {
+    "name": "The Yellow Face",
+    "slug": "yellow-face",
+    "sourceFile": "data/raw/memoirs/yellow-face.txt"
+  },
+  {
+    "name": "The Stockbroker's Clerk",
+    "slug": "stockbrokers-clerk",
+    "sourceFile": "data/raw/memoirs/stockbrokers-clerk.txt"
+  },
+  {
+    "name": "The Gloria Scott",
+    "slug": "gloria-scott",
+    "sourceFile": "data/raw/memoirs/gloria-scott.txt"
+  },
+  {
+    "name": "The Musgrave Ritual",
+    "slug": "musgrave-ritual",
+    "sourceFile": "data/raw/memoirs/musgrave-ritual.txt"
+  },
+  {
+    "name": "The Reigate Squires",
+    "slug": "reigate-squires",
+    "sourceFile": "data/raw/memoirs/reigate-squires.txt"
+  },
+  {
+    "name": "The Crooked Man",
+    "slug": "crooked-man",
+    "sourceFile": "data/raw/memoirs/crooked-man.txt"
+  },
+  {
+    "name": "The Resident Patient",
+    "slug": "resident-patient",
+    "sourceFile": "data/raw/memoirs/resident-patient.txt"
+  },
+  {
+    "name": "The Greek Interpreter",
+    "slug": "greek-interpreter",
+    "sourceFile": "data/raw/memoirs/greek-interpreter.txt"
+  },
+  {
+    "name": "The Naval Treaty",
+    "slug": "naval-treaty",
+    "sourceFile": "data/raw/memoirs/naval-treaty.txt"
+  },
+  {
+    "name": "The Final Problem",
+    "slug": "final-problem",
+    "sourceFile": "data/raw/memoirs/final-problem.txt"
+  },
+  {
+    "name": "The Hound of the Baskervilles",
+    "slug": "hound-of-the-baskervilles",
+    "sourceFile": "data/raw/hound-of-the-baskervilles.txt"
+  },
+  {
+    "name": "The Valley of Fear",
+    "slug": "valley-of-fear",
+    "sourceFile": "data/raw/valley-of-fear.txt"
+  }
+]

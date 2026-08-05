@@ -10,15 +10,20 @@ runnable.
 
 ## Regenerating the dump
 
-After a clean `load-canon` run against the local database:
+After a clean `npm run db:load` against the local database:
 
 ```sh
 docker exec sherlock-postgres-1 \
   pg_dump -U postgres -d sherlock --no-owner --no-privileges \
-  > data/seed/01-canon.sql
+  | gzip -9 > data/seed/01-canon.sql.gz
 ```
 
 Commit the result. It is a build artifact, but a deliberately committed one.
+Gzipped because the raw dump is ~9.5 MB against ~1.7 MB compressed, and this
+repo is public; the entrypoint handles `.sql.gz` natively.
+
+The dump includes the `_migrations` ledger, so a seeded database already knows
+`0001_graph.sql` is applied and `npm run db:migrate` correctly no-ops.
 
 ## Re-seeding
 
