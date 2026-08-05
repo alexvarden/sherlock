@@ -1,4 +1,32 @@
 services:
+  # Version-matched to Neon, which defaults new projects to Postgres 18.
+  postgres:
+    image: postgres:18
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=sherlock
+      - POSTGRES_DB=sherlock
+    volumes:
+      # Postgres 18+ images store data in a major-version subdirectory, so the
+      # mount goes at /var/lib/postgresql — NOT .../data, which the image
+      # rejects as a stale pre-18 layout. See docker-library/postgres#1259.
+      - postgres_data:/var/lib/postgresql
+      # Committed seed dump — restored automatically on first boot of an empty
+      # volume, so `docker compose up` yields a populated graph with no
+      # re-ingest. Public repo; this must stay one-command runnable.
+      - ./data/seed:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d sherlock"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # Retained as the parity oracle for the Neon migration. Aura is paused, so
+  # this is the only surviving baseline for diffing SQL output against Cypher.
+  # Removed at Stage 5 — not before Stage 2 is signed off and the parity
+  # fixtures are committed. See the migrate-neo4j-to-postgres ticket.
   neo4j:
     image: neo4j:5
     ports:
@@ -17,4 +45,5 @@ services:
       retries: 10
 
 volumes:
+  postgres_data:
   neo4j_data:
