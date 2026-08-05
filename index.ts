@@ -2,7 +2,7 @@
 export { default as ThreeLayerDiagram } from './components/widgets/ThreeLayerDiagram';
 export { default as LexicalHierarchy } from './components/widgets/LexicalHierarchy';
 export { default as LexicalGraphView } from './components/widgets/LexicalGraphView';
-export { default as CypherQueryDemo } from './components/widgets/CypherQueryDemo';
+export { default as SqlQueryDemo } from './components/widgets/SqlQueryDemo';
 export { default as PassageWalkthrough } from './components/widgets/PassageWalkthrough';
 export { default as ReconciliationDiagram } from './components/widgets/ReconciliationDiagram';
 export { default as YieldFunnel } from './components/widgets/YieldFunnel';

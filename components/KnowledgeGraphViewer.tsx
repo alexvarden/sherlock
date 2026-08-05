@@ -82,7 +82,7 @@ export default function KnowledgeGraphViewer({
   objective: ObjectiveGraph | null;
   initialSection?: string;
   initialCharacter?: string;
-  // embedded: article-friendly chrome — no Cypher strip, no reading pane,
+  // embedded: article-friendly chrome — no SQL strip, no reading pane,
   // no global keyboard capture. The graph, filters, and timeline remain.
   embedded?: boolean;
   // autoPlay: walk the playhead through the story sentence by sentence,
@@ -1316,9 +1316,9 @@ export default function KnowledgeGraphViewer({
         )}
       </div>
 
-      {/* Live Cypher query */}
+      {/* Live SQL query — displays the query, never accepts one */}
       {!embedded && (
-        <CypherDisplay
+        <SqlDisplay
           slug={slug}
           selectedCharacterId={selectedCharacterId}
           selectedCharacter={selectedCharacter}
@@ -2043,61 +2043,78 @@ function Timeline({
   );
 }
 
-// ── Live Cypher Display ───────────────────────────────────────────────────────
+// ── Live SQL Display ──────────────────────────────────────────────────────────
+//
+// This strip DISPLAYS the query; it never accepts one. The string is built here
+// from the viewer's own filter state (story, selected character, playhead) and
+// rendered — nothing is sent anywhere, and no query text ever travels from the
+// browser to the database. Keep it that way: the moment this posts a string to
+// an endpoint, "see the query" becomes "run my query".
+//
+// The SQL shown is the SQL that would genuinely answer the question against
+// lib/db/migrations/0001_graph.sql, in the same idiom as lib/graph-query.ts.
+// It is an honest window onto the model, not decoration.
 
-function buildLiveCypher(slug: string, selectedCharacterId: string | null, currentIdx: number): string {
+function buildLiveSql(slug: string, selectedCharacterId: string | null, currentIdx: number): string {
   if (!selectedCharacterId) {
     return (
-      `MATCH (entity:Entity {story: '${slug}'})\n` +
-      `WHERE (entity.firstSectionIndex IS NULL\n` +
-      `    OR entity.firstSectionIndex <= ${currentIdx})\n` +
-      `WITH entity\n` +
-      `MATCH (event:Event {story: '${slug}'})\n` +
-      `WHERE event.sectionIndex <= ${currentIdx}\n` +
-      `RETURN entity, event\n` +
-      `ORDER BY event.sectionIndex`
+      `-- Everything the reader has met so far.\n` +
+      `-- pos is how far into the story a node sits; entities have no single\n` +
+      `-- position, so they carry NULL and are always in scope.\n` +
+      `SELECT id, kind, subkind, name, pos\n` +
+      `  FROM nodes\n` +
+      ` WHERE story = '${slug}'\n` +
+      `   AND kind IN ('entity', 'event')\n` +
+      `   AND (pos IS NULL OR pos <= ${currentIdx})\n` +
+      ` ORDER BY pos NULLS FIRST;`
     );
   }
   return (
-    `// Perspective: ${selectedCharacterId}\n` +
-    `MATCH (c:Character {story: '${slug}',\n` +
-    `                    id: '${selectedCharacterId}'})\n` +
-    `\n` +
-    `// Events this character directly witnessed\n` +
-    `OPTIONAL MATCH (c)-[:PARTICIPATED_IN]->(witnessed:Event)\n` +
-    `WHERE witnessed.sectionIndex <= ${currentIdx}\n` +
-    `\n` +
-    `// Events this character was told about\n` +
-    `OPTIONAL MATCH (told:Event)-[:TOLD_TO]->(c)\n` +
-    `WHERE told.sectionIndex <= ${currentIdx}\n` +
-    `\n` +
-    `WITH c, collect(DISTINCT witnessed) + collect(DISTINCT told) AS allEvents\n` +
-    `UNWIND allEvents AS event\n` +
-    `\n` +
-    `// Co-present entities for each event\n` +
-    `OPTIONAL MATCH (entity:Entity)-[:PARTICIPATED_IN]->(event)\n` +
-    `RETURN event,\n` +
-    `       collect(DISTINCT entity) AS coPresent\n` +
-    `ORDER BY event.sectionIndex`
+    `-- Perspective: ${selectedCharacterId}\n` +
+    `-- Two ways to know a thing, and they are the same join in opposite\n` +
+    `-- directions: you were there, or you were told.\n` +
+    `SELECT e.id, e.name, e.pos, r.rel_type AS knows_via\n` +
+    `  FROM nodes e\n` +
+    `  JOIN edges r\n` +
+    `    ON r.story = e.story\n` +
+    `   AND ( (r.rel_type = 'PARTICIPATED_IN' AND r.to_id   = e.id AND r.from_id = '${selectedCharacterId}')\n` +
+    `      OR (r.rel_type = 'TOLD_TO'         AND r.from_id = e.id AND r.to_id   = '${selectedCharacterId}') )\n` +
+    ` WHERE e.story = '${slug}'\n` +
+    `   AND e.kind  = 'event'\n` +
+    `   AND e.pos  <= ${currentIdx}\n` +
+    ` ORDER BY e.pos;`
   );
 }
 
-function highlightCypher(raw: string): string {
-  const escaped = raw
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
+function highlightSql(raw: string): string {
+  const escape = (s: string) =>
+    s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-  return escaped
-    .replace(/(\/\/[^\n]*)/g, '<span style="color:#6b7280;font-style:italic">$1</span>')
-    .replace(/\b(MATCH|OPTIONAL|WHERE|RETURN|WITH|UNWIND|ORDER BY|LIMIT|AND|OR|NOT|AS|DISTINCT|collect|count|type|labels|IS NULL|IS NOT NULL)\b/g,
-      '<span style="color:#818cf8;font-weight:600">$1</span>')
-    .replace(/(:[\w]+)/g, '<span style="color:#34d399">$1</span>')
-    .replace(/'([^']*)'/g, "<span style=\"color:#fbbf24\">'$1'</span>")
-    .replace(/(\{[^}]*\})/g, '<span style="color:#f9a8d4">$1</span>');
+  // Line by line, so comments are exempt from the token rules. Chaining the
+  // replacements over the whole string instead re-styles words *inside* the
+  // prose — "how far into the story" would light `story` up as a column.
+  return raw
+    .split("\n")
+    .map((line) => {
+      if (line.trimStart().startsWith("--")) {
+        return `<span style="color:#6b7280;font-style:italic">${escape(line)}</span>`;
+      }
+      return escape(line)
+        .replace(
+          /\b(SELECT|FROM|WHERE|JOIN|LEFT|INNER|ON|GROUP BY|ORDER BY|LIMIT|AND|OR|NOT|AS|DISTINCT|IN|IS NULL|IS NOT NULL|NULLS FIRST|NULLS LAST|count|array_agg)\b/g,
+          '<span style="color:#818cf8;font-weight:600">$1</span>'
+        )
+        .replace(/\b(nodes|edges)\b/g, '<span style="color:#34d399">$1</span>')
+        .replace(
+          /\b(pos|kind|subkind|rel_type|valid_from_section|valid_to_section|story|props)\b/g,
+          '<span style="color:#f9a8d4">$1</span>'
+        )
+        .replace(/'([^']*)'/g, "<span style=\"color:#fbbf24\">'$1'</span>");
+    })
+    .join("\n");
 }
 
-function CypherDisplay({
+function SqlDisplay({
   slug,
   selectedCharacterId,
   selectedCharacter,
@@ -2109,8 +2126,8 @@ function CypherDisplay({
   currentIdx: number;
 }) {
   const [open, setOpen] = useState(false);
-  const query = buildLiveCypher(slug, selectedCharacterId, currentIdx);
-  const highlighted = highlightCypher(query);
+  const query = buildLiveSql(slug, selectedCharacterId, currentIdx);
+  const highlighted = highlightSql(query);
 
   return (
     <div className="shrink-0 border-b border-dark-800">
@@ -2118,7 +2135,7 @@ function CypherDisplay({
         onClick={() => setOpen((v) => !v)}
         className="w-full flex items-center gap-2 px-4 py-1.5 bg-dark-950 hover:bg-dark-900/80 transition-colors text-left"
       >
-        <span className="text-xs font-mono font-semibold text-emerald-500">CYPHER</span>
+        <span className="text-xs font-mono font-semibold text-emerald-500">SQL</span>
         <span className="text-dark-700 text-xs">·</span>
         <span className="text-xs text-dark-500 truncate flex-1">
           {selectedCharacter

@@ -1,7 +1,7 @@
 import ThreeLayerDiagram from "../components/widgets/ThreeLayerDiagram";
 import LexicalHierarchy from "../components/widgets/LexicalHierarchy";
 import LexicalGraphView from "../components/widgets/LexicalGraphView";
-import CypherQueryDemo from "../components/widgets/CypherQueryDemo";
+import SqlQueryDemo from "../components/widgets/SqlQueryDemo";
 import PassageWalkthrough from "../components/widgets/PassageWalkthrough";
 import ReconciliationDiagram from "../components/widgets/ReconciliationDiagram";
 import YieldFunnel from "../components/widgets/YieldFunnel";
@@ -15,7 +15,7 @@ import EmbeddedGraphViewer from "../components/widgets/EmbeddedGraphViewer";
 import {
   loadSamplePassage,
   loadReconciliationData,
-  loadCypherDemos,
+  loadSqlDemos,
   loadCanonData,
 } from "../lib/article-data";
 
@@ -35,11 +35,11 @@ function SectionMark({ n, label }: { n: string; label: string }) {
 // Shell-agnostic article body. The host app (crane-ai) supplies <Header/>,
 // reading-tracker, and the <main> wrapper; this component owns everything
 // inside the article. Data is read from committed static JSON at build time,
-// so no live Neo4j query is needed to render the article.
+// so no live database query is needed to render the article.
 export default async function TheGameIsAfoot() {
   const passage = loadSamplePassage();
   const reconciliation = loadReconciliationData();
-  const cypherDemos = loadCypherDemos();
+  const sqlDemos = loadSqlDemos();
   const canon = loadCanonData();
 
   // Only the characters the network actually draws — the full 1,954-entity
@@ -324,7 +324,7 @@ export default async function TheGameIsAfoot() {
           position, by entity, or by paragraph. Here are four examples, each running against
           the ingested data.
         </p>
-        <CypherQueryDemo demos={cypherDemos} />
+        <SqlQueryDemo demos={sqlDemos} />
       </section>
 
       {/* ── 4: Entity extraction ─────────────────────────────────────── */}

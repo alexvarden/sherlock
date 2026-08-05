@@ -120,7 +120,7 @@ async function migrateStory(
   for (const spec of entityTypes) {
     const entities = graph.entities.filter((e) => e.type === spec.id);
     if (!entities.length) continue;
-    const query = `UNWIND $entities AS e CREATE (:Entity:${spec.neo4jLabel} {${baseProps}${extraProps[spec.id] ?? ""}})`;
+    const query = `UNWIND $entities AS e CREATE (:Entity:${spec.label} {${baseProps}${extraProps[spec.id] ?? ""}})`;
     await session.run(query, { story: slug, entities });
   }
 

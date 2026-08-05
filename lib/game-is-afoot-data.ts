@@ -9,21 +9,23 @@ import type { Entity, LexicalGraph, Mention, ObjectiveEvent, ObjectiveGraph } fr
 // work whether run from the standalone repo or as the @crane/sherlock package.
 const DATA_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "processed");
 
-// ── Cypher query demos ──────────────────────────────────────────────────
-// Realistic Cypher syntax against the graph schema, with results computed
-// in-memory from the JSON layer (the same data Neo4j holds after migration).
+// ── SQL query demos ─────────────────────────────────────────────────────
+// Real SQL against the two-table schema in lib/db/migrations/0001_graph.sql,
+// with results computed in-memory from the JSON layer — the same data Postgres
+// holds after loading. The queries are the ones you would actually write; the
+// point of the widget is that they are legible, not that they are clever.
 
-export interface CypherDemo {
+export interface SqlDemo {
   id: string;
   label: string;
   intent: string;          // one-line plain-English explanation
-  query: string;           // Cypher syntax
+  query: string;           // SQL
   columns: string[];
   rows: (string | number)[][];
   rowCount: number;        // may exceed displayed rows
 }
 
-const CANON_SLUGS_FOR_CYPHER = [
+const CANON_SLUGS_FOR_DEMOS = [
   "a-study-in-scarlet", "sign-of-the-four", "silver-blaze", "yellow-face",
   "stockbrokers-clerk", "gloria-scott", "musgrave-ritual", "reigate-squires",
   "crooked-man", "resident-patient", "greek-interpreter", "naval-treaty",
@@ -32,7 +34,7 @@ const CANON_SLUGS_FOR_CYPHER = [
 ];
 
 function loadAllWorks() {
-  return CANON_SLUGS_FOR_CYPHER
+  return CANON_SLUGS_FOR_DEMOS
     .map((slug) => {
       const dir = path.join(DATA_ROOT, slug);
       const lex = readJson<LexicalGraph>(path.join(dir, "lexical.json"));
@@ -44,8 +46,30 @@ function loadAllWorks() {
     .filter((w): w is NonNullable<typeof w> => Boolean(w));
 }
 
-export function loadCypherDemos(): CypherDemo[] {
+export function loadSqlDemos(): SqlDemo[] {
   const works = loadAllWorks();
+
+  // The canon has not been fully reconciled: Watson appears as `watson`,
+  // `dr_watson` and `john_watson`, Holmes as `holmes` and `sherlock_holmes`.
+  // The demos count all variants, so the SQL shown must list all variants too
+  // — otherwise the query on screen does not produce the row count beside it.
+  // Collected from the data rather than hard-coded, so the two cannot drift.
+  const idsMatching = (pattern: RegExp): string[] => {
+    const ids = new Set<string>();
+    for (const w of works) {
+      for (const e of w.obj.entities) if (pattern.test(e.id)) ids.add(e.id);
+    }
+    return [...ids].sort();
+  };
+  const sqlList = (ids: string[]) => ids.map((id) => `'${id}'`).join(", ");
+
+  const WATSON_RE = /^watson$|^dr_watson$|^doctor_watson$|^john_watson$/i;
+  const HOLMES_RE = /^sherlock_holmes$|^holmes$|^mr_sherlock_holmes$/i;
+  const LESTRADE_RE = /^lestrade$|^mr_lestrade$|^inspector_lestrade$/i;
+
+  const watsonIds = idsMatching(WATSON_RE);
+  const holmesIds = idsMatching(HOLMES_RE);
+  const lestradeIds = idsMatching(LESTRADE_RE);
 
   // ── Q1: every sentence that mentions Watson ──────────────────────────
   const watsonHits: (string | number)[][] = [];
@@ -54,7 +78,7 @@ export function loadCypherDemos(): CypherDemo[] {
     const sentMap = new Map(w.lex.nodes.map((n) => [n.id, n]));
     const watsonMentions = w.obj.mentions.filter((m) => {
       const e = w.obj.entities.find((x) => x.id === m.entity);
-      return e && /^watson$|^dr_watson$|^doctor_watson$|^john_watson$/i.test(e.id);
+      return e && WATSON_RE.test(e.id);
     });
     for (const m of watsonMentions) {
       for (const sid of m.sentence_ids) {
@@ -73,7 +97,7 @@ export function loadCypherDemos(): CypherDemo[] {
   for (const w of works) {
     const holmesMentions = w.obj.mentions.filter((m) => {
       const e = w.obj.entities.find((x) => x.id === m.entity);
-      return e && /^sherlock_holmes$|^holmes$|^mr_sherlock_holmes$/i.test(e.id);
+      return e && HOLMES_RE.test(e.id);
     });
     const sentenceCount = holmesMentions.reduce((s, m) => s + m.sentence_ids.length, 0);
     if (sentenceCount > 0) {
@@ -89,7 +113,7 @@ export function loadCypherDemos(): CypherDemo[] {
     for (const m of w.obj.mentions) {
       const e = w.obj.entities.find((x) => x.id === m.entity);
       if (!e) continue;
-      if (!/^sherlock_holmes$|^holmes$|^mr_sherlock_holmes$|^lestrade$|^mr_lestrade$|^inspector_lestrade$/i.test(e.id)) continue;
+      if (!HOLMES_RE.test(e.id) && !LESTRADE_RE.test(e.id)) continue;
       if (!sections.has(m.section)) sections.set(m.section, new Set());
       sections.get(m.section)!.add(e.id);
     }
@@ -128,9 +152,16 @@ export function loadCypherDemos(): CypherDemo[] {
       id: "watson-sentences",
       label: "Every sentence Watson is named in",
       intent: "Walk from one entity back to every sentence that cites it.",
-      query: `MATCH (e:Entity {id: "watson"})-[:MENTIONED_IN]->(s:Sentence)
-RETURN s.work, s.id, s.text
-ORDER BY s.work, s.position`,
+      query: `-- MENTIONED_IN ties an entity to a section and carries the
+-- sentence ids it was found in. Unnest those to get the sentences back.
+SELECT m.story, s.id AS sentence_id, s.props->>'text' AS text
+  FROM edges m
+  JOIN nodes s
+    ON s.story = m.story
+   AND s.id = ANY (ARRAY(SELECT jsonb_array_elements_text(m.props->'sentenceIds')))
+ WHERE m.rel_type = 'MENTIONED_IN'
+   AND m.from_id IN (${sqlList(watsonIds)})
+ ORDER BY m.story, s.pos;`,
       columns: ["work", "sentence_id", "text"],
       rows: watsonHits,
       rowCount: watsonCount,
@@ -139,9 +170,13 @@ ORDER BY s.work, s.position`,
       id: "holmes-by-work",
       label: "Holmes appearances by work",
       intent: "Count Holmes mentions, grouped by the book they appear in.",
-      query: `MATCH (e:Entity {id: "sherlock_holmes"})-[:MENTIONED_IN]->(s:Sentence)
-RETURN s.work AS work, count(s) AS mentions
-ORDER BY mentions DESC`,
+      query: `SELECT story AS work,
+       sum(jsonb_array_length(props->'sentenceIds')) AS mentions
+  FROM edges
+ WHERE rel_type = 'MENTIONED_IN'
+   AND from_id IN (${sqlList(holmesIds)})
+ GROUP BY story
+ ORDER BY mentions DESC;`,
       columns: ["work", "mentions"],
       rows: holmesByWork,
       rowCount: holmesByWork.length,
@@ -150,11 +185,19 @@ ORDER BY mentions DESC`,
       id: "holmes-lestrade",
       label: "Sections where Holmes and Lestrade share a scene",
       intent: "Find every section in which both characters are mentioned.",
-      query: `MATCH (h:Entity {id: "sherlock_holmes"})-[:MENTIONED_IN]->(s:Sentence),
-      (l:Entity {id: "lestrade"})-[:MENTIONED_IN]->(s2:Sentence)
-WHERE s.section = s2.section
-RETURN s.work AS work, count(DISTINCT s.section) AS shared_sections
-ORDER BY shared_sections DESC`,
+      query: `-- Two people in a room is a self-join: the same table, twice,
+-- meeting on the section they share.
+SELECT h.story AS work, count(DISTINCT h.to_id) AS shared_sections
+  FROM edges h
+  JOIN edges l
+    ON l.story    = h.story
+   AND l.to_id    = h.to_id
+   AND l.rel_type = 'MENTIONED_IN'
+   AND l.from_id IN (${sqlList(lestradeIds)})
+ WHERE h.rel_type = 'MENTIONED_IN'
+   AND h.from_id IN (${sqlList(holmesIds)})
+ GROUP BY h.story
+ ORDER BY shared_sections DESC;`,
       columns: ["work", "shared_sections"],
       rows: coOccur,
       rowCount: coOccur.length,
@@ -163,9 +206,13 @@ ORDER BY shared_sections DESC`,
       id: "section-extraction",
       label: "Everything extracted from one section",
       intent: "List every entity tied to the opening section of The Final Problem.",
-      query: `MATCH (e:Entity)-[:MENTIONED_IN]->(s:Sentence {section: "final-problem-section_1"})
-RETURN DISTINCT e.id, e.type, e.label
-ORDER BY e.type, e.label`,
+      query: `SELECT DISTINCT e.id, e.subkind AS type, e.name AS label
+  FROM edges m
+  JOIN nodes e
+    ON e.story = m.story AND e.id = m.from_id
+ WHERE m.rel_type = 'MENTIONED_IN'
+   AND m.to_id    = 'final-problem-section_1'
+ ORDER BY e.subkind, e.name;`,
       columns: ["entity_id", "type", "label"],
       rows: fpSection1Rows,
       rowCount: fpSection1Count,
@@ -280,7 +327,7 @@ export function loadSamplePassage(): PassageData | null {
 
 // ── Full work data for the embedded KnowledgeGraphViewer ────────────────
 // The article embeds the real /graph viewer scoped to The Final Problem.
-// Same committed JSON the passage loaders use — no Neo4j needed.
+// Same committed JSON the passage loaders use — no database needed.
 
 export interface GraphViewerData {
   slug: string;

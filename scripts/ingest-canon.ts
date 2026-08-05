@@ -287,7 +287,7 @@ async function main() {
   );
   console.log(`  totals: ${totals.entities} entities · ${totals.events} events · ${totals.stateEdges} state · ${totals.mentions} mentions · ${totals.clues} clues`);
   if (fresh.length > 0) console.log(`  fresh-ingest time: ${(totals.seconds / 60).toFixed(1)} min`);
-  console.log("\n  Next: npm run migrate   (loads everything into Neo4j)");
+  console.log("\n  Next: npm run db:load   (loads everything into Postgres)");
 }
 
 main().catch((err) => {

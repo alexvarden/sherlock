@@ -1,20 +1,32 @@
 "use client";
 
 import { useState } from "react";
-import type { CypherDemo } from "../../lib/game-is-afoot-data";
+import type { SqlDemo } from "../../lib/game-is-afoot-data";
 
 interface Props {
-  demos: CypherDemo[];
+  demos: SqlDemo[];
 }
 
-// Tiny Cypher syntax highlighter
-function HighlightedCypher({ query }: { query: string }) {
-  const keywords = ["MATCH", "WHERE", "RETURN", "ORDER", "BY", "AS", "DISTINCT", "AND", "OR", "NOT", "DESC", "ASC", "count"];
+// Tiny SQL syntax highlighter
+function HighlightedSql({ query }: { query: string }) {
+  const keywords = ["SELECT", "FROM", "WHERE", "JOIN", "ON", "GROUP", "ORDER", "BY",
+    "AS", "DISTINCT", "AND", "OR", "NOT", "DESC", "ASC", "IN", "ANY", "ARRAY",
+    "count", "sum"];
   const lines = query.split("\n");
   return (
     <pre className="text-xs leading-relaxed font-mono whitespace-pre-wrap text-dark-200">
       {lines.map((line, li) => {
-        const tokens = line.split(/(\s+|[(),{}])/);
+        // Comments are a whole-line affair — tokenising them just makes the
+        // keyword rule light up words inside the prose.
+        if (line.trimStart().startsWith("--")) {
+          return (
+            <div key={li} className="text-dark-500 italic">
+              {line}
+            </div>
+          );
+        }
+
+        const tokens = line.split(/(\s+|[(),])/);
         return (
           <div key={li}>
             {tokens.map((tok, ti) => {
@@ -22,11 +34,16 @@ function HighlightedCypher({ query }: { query: string }) {
               if (keywords.includes(upper) || keywords.includes(tok)) {
                 return <span key={ti} className="text-crimson-400 font-semibold">{tok}</span>;
               }
-              if (/^"[^"]*"$/.test(tok)) {
+              if (/^'[^']*'$/.test(tok)) {
                 return <span key={ti} className="text-emerald-400">{tok}</span>;
               }
-              if (/:[A-Z][a-zA-Z]*/.test(tok)) {
+              // The two tables, and the columns the schema deliberately promotes
+              // out of JSONB — the things the article is pointing at.
+              if (/^(nodes|edges)$/.test(tok)) {
                 return <span key={ti} className="text-amber-400">{tok}</span>;
+              }
+              if (/^(pos|kind|subkind|rel_type|story|props|valid_from_section|valid_to_section)$/.test(tok)) {
+                return <span key={ti} className="text-amber-400/70">{tok}</span>;
               }
               return <span key={ti}>{tok}</span>;
             })}
@@ -37,7 +54,7 @@ function HighlightedCypher({ query }: { query: string }) {
   );
 }
 
-export default function CypherQueryDemo({ demos }: Props) {
+export default function SqlQueryDemo({ demos }: Props) {
   const [activeId, setActiveId] = useState<string>(demos[0]?.id ?? "");
   const active = demos.find((d) => d.id === activeId) ?? demos[0];
 
@@ -80,7 +97,7 @@ export default function CypherQueryDemo({ demos }: Props) {
             Query
           </p>
           <div className="rounded bg-dark-950/60 border border-dark-800 p-4 overflow-x-auto">
-            <HighlightedCypher query={active.query} />
+            <HighlightedSql query={active.query} />
           </div>
         </div>
 

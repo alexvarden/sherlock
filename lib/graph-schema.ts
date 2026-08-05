@@ -12,16 +12,15 @@ export interface EntityTypeSpec {
   label: string;       // UI label shown in filter pills and detail panel
   color: string;       // hex — used for node fill, type pill, edge-anchor accents
   radius: number;      // d3 force-simulation circle radius
-  neo4jLabel: string;  // secondary label on the :Entity node ("Character", "Case", …)
 }
 
 export const entityTypes: EntityTypeSpec[] = [
-  { id: "character",    label: "Character",    color: "#e11d48", radius: 18, neo4jLabel: "Character"    },
-  { id: "location",     label: "Location",     color: "#a855f7", radius: 12, neo4jLabel: "Location"     },
-  { id: "object",       label: "Object",       color: "#6b7280", radius: 12, neo4jLabel: "Object"       },
-  { id: "case",         label: "Case",         color: "#f59e0b", radius: 14, neo4jLabel: "Case"         },
-  { id: "document",     label: "Document",     color: "#06b6d4", radius: 12, neo4jLabel: "Document"     },
-  { id: "organisation", label: "Organisation", color: "#10b981", radius: 14, neo4jLabel: "Organisation" },
+  { id: "character",    label: "Character",    color: "#e11d48", radius: 18 },
+  { id: "location",     label: "Location",     color: "#a855f7", radius: 12 },
+  { id: "object",       label: "Object",       color: "#6b7280", radius: 12 },
+  { id: "case",         label: "Case",         color: "#f59e0b", radius: 14 },
+  { id: "document",     label: "Document",     color: "#06b6d4", radius: 12 },
+  { id: "organisation", label: "Organisation", color: "#10b981", radius: 14 },
 ];
 
 export const entityTypeById: Map<EntityType, EntityTypeSpec> =

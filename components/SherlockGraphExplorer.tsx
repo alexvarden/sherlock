@@ -43,7 +43,7 @@ export default async function SherlockGraphExplorer({
     stories = await listStories();
   } catch {
     unavailable = devTools
-      ? "Cannot reach Neo4j. Make sure the container is running: docker compose up -d"
+      ? "Cannot reach Postgres. Make sure the container is running: docker compose up -d"
       : "The graph database is unavailable right now. Please try again shortly.";
   }
 
@@ -106,7 +106,7 @@ export default async function SherlockGraphExplorer({
         showLogo={showLogo}
         error={
           devTools
-            ? `"${meta.name}" is not in Neo4j yet. Run: npm run ingest -- ${meta.slug} && npm run migrate`
+            ? `"${meta.name}" is not loaded yet. Run: npm run ingest -- ${meta.slug} && npm run db:load`
             : `"${meta.name}" isn't in the graph yet.`
         }
       />

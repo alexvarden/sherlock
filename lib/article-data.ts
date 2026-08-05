@@ -7,7 +7,7 @@ export { loadCanonData } from "./canon-aggregate";
 export {
   loadSamplePassage,
   loadReconciliationData,
-  loadCypherDemos,
+  loadSqlDemos,
   loadSampleClue,
   loadGraphViewerData,
 } from "./game-is-afoot-data";
@@ -15,7 +15,7 @@ export {
 export type {
   PassageData,
   ReconciliationData,
-  CypherDemo,
+  SqlDemo,
   SampleClue,
   GraphViewerData,
 } from "./game-is-afoot-data";
