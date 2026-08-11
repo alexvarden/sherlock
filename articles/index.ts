@@ -25,16 +25,11 @@ export const sherlockArticles: SherlockArticle[] = [
     excerpt:
       "Three layers, two deterministic, one LLM-driven. How Doyle's prose becomes a queryable graph — and where the interesting failure modes actually are.",
     publishedAt: "2026-07-15",
-    // Withheld at Alex's request (2026-08-05): the three tools go live while
-    // the article waits for sign-off. Set to false to publish.
-    //
-    // This is NOT the same as publishedAt: null. That means "announced but not
-    // written" — the other four entries below — and the host renders those as a
-    // clickable "Coming soon" row leading to a placeholder. This article IS
-    // written, so a draft row would link to the finished piece. `hidden` drops
-    // it from the exported article list entirely: no listing, no project card,
-    // no sitemap, no RSS, and the URL 404s.
-    hidden: true,
+    // Published 2026-08-05. Set to true to withhold: the piece stays reachable
+    // at its URL for review but leaves the listing, project pages, sitemap and
+    // RSS, and is noindexed. Distinct from publishedAt: null, which means
+    // "announced but not written" and 404s.
+    hidden: false,
     readingTime: 16,
     tags: ["graphs", "ingest", "pipelines"],
   },

@@ -19,6 +19,7 @@ export default async function SherlockGraphExplorer({
   devTools = false,
   fullHeight = true,
   showLogo = true,
+  articleHref,
 }: {
   searchParams: { story?: string; section?: string; character?: string };
   basePath?: string;
@@ -32,6 +33,10 @@ export default async function SherlockGraphExplorer({
   // False when a host already renders its own site branding above this
   // component — suppresses CraneHeader's own crane-ai.co.uk logo/link.
   showLogo?: boolean;
+  // Where the accompanying article lives, if the host publishes one. Omitted
+  // in the standalone dev app, where the article is at a different path and
+  // this component has no way to know it.
+  articleHref?: string;
 }) {
   const { story: slug, section: initialSection, character: initialCharacter } = searchParams;
   const heightClass = fullHeight ? "h-screen" : "h-full";
@@ -123,6 +128,17 @@ export default async function SherlockGraphExplorer({
         showLogo={showLogo}
         right={
           <div className="flex items-center gap-3 text-xs text-dark-500">
+            {articleHref && (
+              <>
+                <Link
+                  href={articleHref}
+                  className="text-crimson-400 hover:text-crimson-300 transition-colors whitespace-nowrap"
+                >
+                  Read the article →
+                </Link>
+                <span>·</span>
+              </>
+            )}
             <span>{lexical.sections.length} sections</span>
             <span>·</span>
             <span>
