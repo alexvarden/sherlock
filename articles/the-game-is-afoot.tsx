@@ -18,6 +18,7 @@ import {
   loadSqlDemos,
   loadCanonData,
 } from "../lib/article-data";
+import Link from "next/link";
 
 // Numbered section eyebrow — mirrors the ghosted-numeral style of the
 // approach cards in section 1 so the numbering reads as one system.
@@ -36,7 +37,13 @@ function SectionMark({ n, label }: { n: string; label: string }) {
 // reading-tracker, and the <main> wrapper; this component owns everything
 // inside the article. Data is read from committed static JSON at build time,
 // so no live database query is needed to render the article.
-export default async function TheGameIsAfoot() {
+export default async function TheGameIsAfoot({
+  // Where the full graph tool lives. Defaults to the article's published home
+  // on crane-ai; sherlock's own dev app serves it at /graph and passes that.
+  graphHref = "/project/sherlock/graph",
+}: {
+  graphHref?: string;
+} = {}) {
   const passage = loadSamplePassage();
   const reconciliation = loadReconciliationData();
   const sqlDemos = loadSqlDemos();
@@ -394,6 +401,17 @@ export default async function TheGameIsAfoot() {
         <div className="rounded-xl border border-dark-800 overflow-hidden h-[560px]">
           <EmbeddedGraphViewer />
         </div>
+        <p className="text-sm">
+          <Link
+            href={graphHref}
+            className="text-crimson-400 hover:text-crimson-300 transition-colors font-medium"
+          >
+            Open the full graph explorer →
+          </Link>{" "}
+          <span className="text-dark-500">
+            all seventeen works, with the perspective filter and the live SQL.
+          </span>
+        </p>
       
       
         <h3 className="text-lg font-semibold text-dark-100 pt-2">

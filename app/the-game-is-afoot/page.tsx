@@ -8,7 +8,7 @@ export default function TheGameIsAfootPage() {
       <CraneHeader crumbs={[{ label: "The Game is aFoot" }]} />
 
       <div className="max-w-5xl mx-auto px-8 py-16 w-full">
-        <TheGameIsAfoot />
+        <TheGameIsAfoot graphHref="/graph" />
       </div>
 
       <CraneFooter />
