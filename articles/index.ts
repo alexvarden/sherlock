@@ -19,11 +19,11 @@ export type SherlockArticle = {
 export const sherlockArticles: SherlockArticle[] = [
   {
     slug: "the-game-is-afoot",
-    title: "The Game is aFoot — Ingesting the works of Sherlock Holmes",
+    title: "The Game is aFoot: Ingesting the works of Sherlock Holmes",
     projectId: "sherlock",
     orderInProject: 1,
     excerpt:
-      "Three layers, two deterministic, one LLM-driven. How Doyle's prose becomes a queryable graph — and where the interesting failure modes actually are.",
+      "Three layers, two deterministic, one LLM-driven. How Doyle's prose becomes a queryable graph, and where the interesting failure modes actually are.",
     publishedAt: "2026-07-15",
     // Published 2026-08-05. Set to true to withhold: the piece stays reachable
     // at its URL for review but leaves the listing, project pages, sitemap and
@@ -46,7 +46,7 @@ export const sherlockArticles: SherlockArticle[] = [
   },
   {
     slug: "theory-of-mind-graphs",
-    title: "Theory of mind in a graph — passing the Sally-Anne test",
+    title: "Theory of mind in a graph: passing the Sally-Anne test",
     projectId: "sherlock",
     orderInProject: 3,
     excerpt:
@@ -57,7 +57,7 @@ export const sherlockArticles: SherlockArticle[] = [
   },
   {
     slug: "time-in-knowledge-graphs",
-    title: "Time inside a knowledge graph — validity windows",
+    title: "Time inside a knowledge graph: validity windows",
     projectId: "sherlock",
     orderInProject: 4,
     excerpt:
