@@ -12,6 +12,8 @@ export type SherlockArticle = {
   publishedAt: string | null;
   readingTime: number;
   tags: string[];
+  /** Written but deliberately withheld. Excluded from every surface. */
+  hidden?: boolean;
 };
 
 export const sherlockArticles: SherlockArticle[] = [
@@ -23,6 +25,16 @@ export const sherlockArticles: SherlockArticle[] = [
     excerpt:
       "Three layers, two deterministic, one LLM-driven. How Doyle's prose becomes a queryable graph — and where the interesting failure modes actually are.",
     publishedAt: "2026-07-15",
+    // Withheld at Alex's request (2026-08-05): the three tools go live while
+    // the article waits for sign-off. Set to false to publish.
+    //
+    // This is NOT the same as publishedAt: null. That means "announced but not
+    // written" — the other four entries below — and the host renders those as a
+    // clickable "Coming soon" row leading to a placeholder. This article IS
+    // written, so a draft row would link to the finished piece. `hidden` drops
+    // it from the exported article list entirely: no listing, no project card,
+    // no sitemap, no RSS, and the URL 404s.
+    hidden: true,
     readingTime: 16,
     tags: ["graphs", "ingest", "pipelines"],
   },
